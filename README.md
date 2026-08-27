@@ -17,7 +17,7 @@ Herramienta de extracción automatizada, estructuración y catálogo nacional de
 Las ordenanzas municipales constituyen el marco regulatorio local fundamental para la convivencia, comercio, urbanismo y gobernanza territorial en las 346 comunas de Chile. Sin embargo, su acceso suele estar fragmentado entre distintos repositorios institucionales.
 
 Este proyecto tiene como objetivos:
-1. **Consolidar y estructurar** un catastro unificado de más de 1.570 recursos normativos municipales.
+1. **Consolidar y estructurar** un catastro unificado de recursos normativos municipales.
 2. **Proveer pipelines reproducibles en Python** para consultar el endpoint SPARQL de la BCN y fuentes complementarias.
 3. **Ofrecer un catálogo descargable y visualizador interactivo** para análisis de políticas públicas locales y derecho municipal.
 
@@ -34,7 +34,7 @@ Este proyecto tiene como objetivos:
 │   ├── cplt_transparencia_crawler.py  # Vía complementaria sobre Transparencia Activa CPLT
 │   ├── maestro_generator.py           # Generador de estructura consolidada
 │   └── export_excel_and_zip.py        # Exportación en formatos abiertos (XLSX, CSV, JSON)
-├── dashboard/                         # Visualizador web local interactivo (GitHub Pages)
+├── dashboard/                         # Visualizador web interactivo (GitHub Pages)
 │   ├── index.html
 │   └── descargas/                     # Datasets compilados listos para análisis
 ├── requirements.txt                   # Dependencias de Python reproducibles
@@ -78,9 +78,19 @@ python src/export_excel_and_zip.py
 
 ## 📊 Alcance y Cobertura de Datos
 
-* **Recursos catastrados:** Más de 1.570 ordenanzas municipales.
-* **Cobertura territorial:** 218 identificadores municipales indexados en BCN (con pipeline complementario para cobertura total vía Transparencia Activa Ley 20.285).
-* **Rango temporal registrado:** 1980 a la fecha.
+Corte del dataset publicado: **27 de agosto de 2026**.
+
+- **Recursos catastrados:** 1.632 registros normativos.
+- **Fuentes:** 1.572 registros BCN y 60 registros complementarios de Transparencia Activa CPLT (2022–2026).
+- **Cobertura territorial observada:** 217 de 346 comunas presentan al menos un registro en las fuentes consolidadas.
+- **Rango temporal registrado:** 1980–2026.
+- **Clasificación temática:** 9 materias.
+
+### Nota metodológica y limitaciones
+
+El catastro consolida documentos identificados en las fuentes consultadas y no constituye, por sí solo, una certificación de completitud normativa de cada municipalidad. **La ausencia de registros para una comuna no implica necesariamente que esa municipalidad no tenga ordenanzas vigentes**; puede reflejar ausencia, rezago, diferencias de publicación o dificultades de identificación en las fuentes disponibles.
+
+La cobertura comunal se calcula sobre las **346 comunas de Chile** y considera como “comuna con datos” aquella para la cual el dataset publicado contiene al menos un registro asociado. Las cifras pueden variar entre versiones a medida que se incorporan nuevas fuentes, se corrigen identificadores o se depuran duplicados.
 
 ---
 
