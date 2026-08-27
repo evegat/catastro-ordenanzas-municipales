@@ -78,4 +78,4 @@ python src/export_excel_and_zip.py
 
 **Eduardo Vega Toledo**  
 *Administrador Público · Magíster en Gobierno y Gerencia Pública · Est. Ing. Civil Informática*  
-Ex Jefe de Departamento de Inversión Municipal e Infraestructura (SUBDERE) · Director en ONG InnCívica · Docente en FAGOB Universidad de Chile.
+Ex Jefe de Departamento de Inversión Municipal e Infraestructura (SUBDERE) · Docente en FAGOB Universidad de Chile.
