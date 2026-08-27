@@ -1,5 +1,11 @@
 ﻿# Catastro y Pipeline de Ordenanzas Municipales de Chile
 
+[![Licencia](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
+[![Datos Abiertos](https://img.shields.io/badge/Open%20Data-Chile-green.svg)](#)
+
+[ 🇪🇸 Español ](README.md) · [ 🇬🇧 English version ](README.en.md)
+
 Herramienta de extracción automatizada, estructuración y catálogo nacional de **ordenanzas municipales de Chile** a partir del endpoint SPARQL y datos abiertos de la **Biblioteca del Congreso Nacional (BCN)** y portales de Transparencia Activa (CPLT).
 
 ---
@@ -29,6 +35,8 @@ Este proyecto tiene como objetivos:
 ├── dashboard/                         # Visualizador web local interactivo
 │   ├── index.html
 │   └── descargas/                     # Datasets compilados listos para análisis
+├── requirements.txt                   # Dependencias de Python reproducibles
+├── LICENSE                            # Licencia MIT
 └── README.md
 ```
 
@@ -52,7 +60,7 @@ cd catastro-ordenanzas-municipales
 
 python -m venv .venv
 source .venv/bin/activate  # En Windows: .venv\Scripts\activate
-pip install requests pandas openpyxl
+pip install -r requirements.txt
 ```
 
 ### 2. Ejecutar extracción y procesamiento
