@@ -1,9 +1,11 @@
 ﻿# Chilean Municipal By-Laws (Ordenanzas) Open Data Pipeline
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Online-success.svg)](https://evegat.github.io/catastro-ordenanzas-municipales/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Open Data](https://img.shields.io/badge/Open%20Data-Chile-green.svg)](#)
 
+[ 🌐 **Launch Interactive Dashboard Online** ](https://evegat.github.io/catastro-ordenanzas-municipales/)  
 [ 🇪🇸 Versión en Español ](README.md) · [ 🇬🇧 English version ](README.en.md)
 
 Automated ETL pipeline, structured dataset, and exploratory dashboard for **Chilean Municipal By-Laws (*Ordenanzas Municipales*)**, querying open data from the **Library of the National Congress of Chile (BCN)** SPARQL endpoint and Active Transparency portals.
@@ -32,7 +34,7 @@ This project delivers:
 │   ├── cplt_transparencia_crawler.py  # CPLT Active Transparency crawler module
 │   ├── maestro_generator.py           # Core dataset compiler
 │   └── export_excel_and_zip.py        # Export multi-format open packages (XLSX, CSV, JSON)
-├── dashboard/                         # Local HTML5/JS dashboard
+├── dashboard/                         # Local HTML5/JS dashboard (GitHub Pages)
 │   └── descargas/                     # Precompiled data packages
 ├── requirements.txt                   # Reproducible Python dependencies
 ├── LICENSE                            # MIT License

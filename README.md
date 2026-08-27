@@ -1,9 +1,11 @@
 ﻿# Catastro y Pipeline de Ordenanzas Municipales de Chile
 
+[![Demo en Vivo](https://img.shields.io/badge/Demo%20en%20Vivo-Online-success.svg)](https://evegat.github.io/catastro-ordenanzas-municipales/)
 [![Licencia](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Datos Abiertos](https://img.shields.io/badge/Open%20Data-Chile-green.svg)](#)
 
+[ 🌐 **Abrir Dashboard Interactivo en Vivo** ](https://evegat.github.io/catastro-ordenanzas-municipales/)  
 [ 🇪🇸 Español ](README.md) · [ 🇬🇧 English version ](README.en.md)
 
 Herramienta de extracción automatizada, estructuración y catálogo nacional de **ordenanzas municipales de Chile** a partir del endpoint SPARQL y datos abiertos de la **Biblioteca del Congreso Nacional (BCN)** y portales de Transparencia Activa (CPLT).
@@ -32,7 +34,7 @@ Este proyecto tiene como objetivos:
 │   ├── cplt_transparencia_crawler.py  # Vía complementaria sobre Transparencia Activa CPLT
 │   ├── maestro_generator.py           # Generador de estructura consolidada
 │   └── export_excel_and_zip.py        # Exportación en formatos abiertos (XLSX, CSV, JSON)
-├── dashboard/                         # Visualizador web local interactivo
+├── dashboard/                         # Visualizador web local interactivo (GitHub Pages)
 │   ├── index.html
 │   └── descargas/                     # Datasets compilados listos para análisis
 ├── requirements.txt                   # Dependencias de Python reproducibles
