@@ -44,24 +44,24 @@
     select option { background-color: #18181b !important; color: #f4f4f5 !important; padding: 6px; }
   </style>
 </head>
-<body class="bg-zinc-950 text-zinc-100 min-h-screen antialiased flex flex-col selection:bg-emerald-500/30 selection:text-emerald-200">
+<body class="bg-[#04142b] text-zinc-100 min-h-screen antialiased flex flex-col selection:bg-[#0b4aa2]/30 selection:text-emerald-200">
 
   <!-- TOAST NOTIFICATION -->
-  <div id="toast" class="fixed bottom-6 right-6 z-50 transform translate-y-20 opacity-0 transition-all duration-300 pointer-events-none bg-emerald-500 text-zinc-950 px-4 py-2.5 rounded-lg shadow-xl font-mono text-xs font-semibold flex items-center gap-2">
+  <div id="toast" class="fixed bottom-6 right-6 z-50 transform translate-y-20 opacity-0 transition-all duration-300 pointer-events-none bg-[#0b4aa2] text-[#04142b] px-4 py-2.5 rounded-lg shadow-xl font-mono text-xs font-semibold flex items-center gap-2">
     <i data-lucide="check-circle" class="w-4 h-4"></i>
     <span id="toast-msg">Enlace copiado al portapapeles</span>
   </div>
 
   <!-- TOP STATUS BAR -->
-  <header class="border-b border-zinc-800/80 bg-zinc-900/70 backdrop-blur-md sticky top-0 z-40">
+  <header class="border-b border-[#153b70]/80 bg-[#071f43]/70 backdrop-blur-md sticky top-0 z-40">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between gap-4">
       <div class="flex items-center gap-3">
-        <div class="h-10 w-10 rounded-lg bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400">
+        <div class="h-10 w-10 rounded-lg bg-[#0b4aa2]/10 border border-[#38bdf8]/30 flex items-center justify-center text-[#38bdf8]">
           <i data-lucide="scale" class="w-5 h-5"></i>
         </div>
         <div>
           <div class="flex items-center gap-2">
-            <span class="text-xs font-mono font-semibold text-emerald-400 uppercase tracking-wider">P090</span>
+            <span class="text-xs font-mono font-semibold text-[#38bdf8] uppercase tracking-wider">P090</span>
             <span class="text-zinc-500 text-xs">•</span>
             <h1 class="text-sm font-semibold tracking-tight text-zinc-100">Catastro Nacional de Ordenanzas Municipales</h1>
           </div>
@@ -73,17 +73,17 @@
 
       <!-- Header Action Buttons -->
       <div class="flex items-center gap-2.5">
-        <a href="descargas/catastro_ordenanzas_nacional_2026.xlsx" download="catastro_ordenanzas_nacional_2026.xlsx" class="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-mono font-semibold transition-all shadow-sm">
+        <a href="descargas/catastro_ordenanzas_nacional_2026.xlsx" download="catastro_ordenanzas_nacional_2026.xlsx" class="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-[#0b4aa2] hover:bg-[#073c86] text-white text-xs font-mono font-semibold transition-all shadow-sm">
           <i data-lucide="file-spreadsheet" class="w-3.5 h-3.5"></i>
           <span>Descargar Excel</span>
         </a>
 
-        <a href="descargas/consolidado_ordenanzas_chile_2026.zip" download="consolidado_ordenanzas_chile_2026.zip" class="hidden md:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-zinc-800 hover:bg-zinc-700 border border-zinc-700 text-zinc-200 text-xs font-mono font-medium transition-all shadow-sm">
+        <a href="descargas/consolidado_ordenanzas_chile_2026.zip" download="consolidado_ordenanzas_chile_2026.zip" class="hidden md:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-[#153b70] hover:bg-[#1f5091] border border-[#1f5091] text-zinc-200 text-xs font-mono font-medium transition-all shadow-sm">
           <i data-lucide="archive" class="w-3.5 h-3.5 text-sky-400"></i>
           <span>Consolidado ZIP</span>
         </a>
 
-        <button onclick="reloadData()" class="p-2 rounded-lg bg-zinc-800/70 border border-zinc-700 hover:bg-zinc-700/80 text-zinc-300 transition-colors" title="Actualizar datos">
+        <button onclick="reloadData()" class="p-2 rounded-lg bg-[#153b70]/70 border border-[#1f5091] hover:bg-[#1f5091]/80 text-zinc-300 transition-colors" title="Actualizar datos">
           <i data-lucide="refresh-cw" class="w-4 h-4"></i>
         </button>
       </div>
@@ -97,17 +97,17 @@
     <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
       
       <!-- Metric 1: Comunas -->
-      <div class="bg-zinc-900/60 border border-zinc-800 rounded-xl p-5 relative overflow-hidden group hover:border-zinc-700 transition-all shadow-sm">
+      <div class="bg-[#071f43]/60 border border-[#153b70] rounded-xl p-5 relative overflow-hidden group hover:border-[#1f5091] transition-all shadow-sm">
         <div class="flex items-center justify-between text-zinc-400 mb-2">
           <span class="text-xs font-mono uppercase tracking-wider">Cobertura Comunal</span>
-          <i data-lucide="map-pin" class="w-4 h-4 text-emerald-400"></i>
+          <i data-lucide="map-pin" class="w-4 h-4 text-[#38bdf8]"></i>
         </div>
         <div class="flex items-baseline gap-2">
           <span id="metric-comunas-con-datos" class="text-3xl font-bold font-mono tracking-tight text-zinc-100">217</span>
           <span class="text-xs font-mono text-zinc-500">/ 346 comunas</span>
         </div>
-        <div class="mt-3 w-full bg-zinc-800 rounded-full h-1.5 overflow-hidden">
-          <div id="progress-comunas" class="bg-emerald-500 h-1.5 rounded-full transition-all duration-500" style="width: 63%"></div>
+        <div class="mt-3 w-full bg-[#153b70] rounded-full h-1.5 overflow-hidden">
+          <div id="progress-comunas" class="bg-[#0b4aa2] h-1.5 rounded-full transition-all duration-500" style="width: 63%"></div>
         </div>
         <div class="flex justify-between items-center mt-2 text-[11px] text-zinc-400 font-mono">
           <span id="pct-comunas">63% cubierto</span>
@@ -116,7 +116,7 @@
       </div>
 
       <!-- Metric 2: Total Ordenanzas -->
-      <div class="bg-zinc-900/60 border border-zinc-800 rounded-xl p-5 relative overflow-hidden group hover:border-zinc-700 transition-all shadow-sm">
+      <div class="bg-[#071f43]/60 border border-[#153b70] rounded-xl p-5 relative overflow-hidden group hover:border-[#1f5091] transition-all shadow-sm">
         <div class="flex items-center justify-between text-zinc-400 mb-2">
           <span class="text-xs font-mono uppercase tracking-wider">Total Ordenanzas</span>
           <i data-lucide="file-text" class="w-4 h-4 text-sky-400"></i>
@@ -125,48 +125,48 @@
           <span id="metric-total-ordenanzas" class="text-3xl font-bold font-mono tracking-tight text-zinc-100">1.632</span>
           <span class="text-xs font-mono text-zinc-500">normas indexadas</span>
         </div>
-        <div class="mt-3 flex items-center justify-between text-[11px] text-zinc-400 font-mono border-t border-zinc-800/80 pt-2">
-          <span class="text-emerald-400">BCN: <strong id="metric-bcn-count">1.572</strong></span>
-          <span class="text-zinc-600">•</span>
-          <span class="text-purple-400">CPLT (2022-26): <strong id="metric-cplt-count">60</strong></span>
+        <div class="mt-3 flex items-center justify-between text-[11px] text-zinc-400 font-mono border-t border-[#153b70]/80 pt-2">
+          <span class="text-[#38bdf8]">BCN: <strong id="metric-bcn-count">1.572</strong></span>
+          <span class="text-[#386ea8]">•</span>
+          <span class="text-[#54b995]">CPLT (2022-26): <strong id="metric-cplt-count">60</strong></span>
         </div>
       </div>
 
       <!-- Metric 3: Categorías Semánticas -->
-      <div class="bg-zinc-900/60 border border-zinc-800 rounded-xl p-5 relative overflow-hidden group hover:border-zinc-700 transition-all shadow-sm">
+      <div class="bg-[#071f43]/60 border border-[#153b70] rounded-xl p-5 relative overflow-hidden group hover:border-[#1f5091] transition-all shadow-sm">
         <div class="flex items-center justify-between text-zinc-400 mb-2">
           <span class="text-xs font-mono uppercase tracking-wider">Áreas Temáticas</span>
-          <i data-lucide="tag" class="w-4 h-4 text-purple-400"></i>
+          <i data-lucide="tag" class="w-4 h-4 text-[#54b995]"></i>
         </div>
         <div class="flex items-baseline gap-2">
-          <span class="text-3xl font-bold font-mono tracking-tight text-purple-400">9 Materias</span>
+          <span class="text-3xl font-bold font-mono tracking-tight text-[#54b995]">9 Materias</span>
         </div>
-        <div class="mt-3 flex items-center justify-between text-[11px] text-zinc-400 font-mono border-t border-zinc-800/80 pt-2">
+        <div class="mt-3 flex items-center justify-between text-[11px] text-zinc-400 font-mono border-t border-[#153b70]/80 pt-2">
           <span>Clasificación Semántica</span>
-          <span class="text-purple-400 font-medium">100% Clasificado</span>
+          <span class="text-[#54b995] font-medium">100% Clasificado</span>
         </div>
       </div>
 
       <!-- Metric 4: Multi-Agente -->
-      <div class="bg-zinc-900/60 border border-zinc-800 rounded-xl p-5 relative overflow-hidden group hover:border-zinc-700 transition-all shadow-sm">
+      <div class="bg-[#071f43]/60 border border-[#153b70] rounded-xl p-5 relative overflow-hidden group hover:border-[#1f5091] transition-all shadow-sm">
         <div class="flex items-center justify-between text-zinc-400 mb-2">
           <span class="text-xs font-mono uppercase tracking-wider">Motor de Extracción</span>
-          <i data-lucide="bot" class="w-4 h-4 text-purple-400"></i>
+          <i data-lucide="bot" class="w-4 h-4 text-[#54b995]"></i>
         </div>
         <div class="flex items-baseline gap-2">
-          <span class="text-2xl font-bold font-mono tracking-tight text-purple-400">3 Agentes IA</span>
+          <span class="text-2xl font-bold font-mono tracking-tight text-[#54b995]">3 Agentes IA</span>
         </div>
-        <div class="mt-3 flex items-center justify-between text-[11px] text-zinc-400 font-mono border-t border-zinc-800/80 pt-2">
+        <div class="mt-3 flex items-center justify-between text-[11px] text-zinc-400 font-mono border-t border-[#153b70]/80 pt-2">
           <span>Macrozonas Norte/Centro/Sur</span>
-          <button onclick="switchTab('metodologia')" class="text-purple-400 hover:underline font-semibold font-mono">Ver agentes ↗</button>
+          <button onclick="switchTab('metodologia')" class="text-[#54b995] hover:underline font-semibold font-mono">Ver agentes ↗</button>
         </div>
       </div>
 
     </section>
 
     <!-- NAVIGATION TABS -->
-    <div class="border-b border-zinc-800 flex space-x-6 overflow-x-auto">
-      <button onclick="switchTab('matriz')" id="tab-btn-matriz" class="pb-3 text-sm font-medium border-b-2 border-emerald-500 text-emerald-400 flex items-center gap-2 shrink-0 transition-colors">
+    <div class="border-b border-[#153b70] flex space-x-6 overflow-x-auto">
+      <button onclick="switchTab('matriz')" id="tab-btn-matriz" class="pb-3 text-sm font-medium border-b-2 border-[#38bdf8] text-[#38bdf8] flex items-center gap-2 shrink-0 transition-colors">
         <i data-lucide="table" class="w-4 h-4"></i>
         Matriz Comunal (346 Comunas)
       </button>
@@ -188,23 +188,23 @@
     <section id="tab-matriz" class="space-y-4">
       
       <!-- COMPREHENSIVE FILTER BAR -->
-      <div class="bg-zinc-900/60 p-4 border border-zinc-800 rounded-xl space-y-3">
+      <div class="bg-[#071f43]/60 p-4 border border-[#153b70] rounded-xl space-y-3">
         
         <div class="flex flex-col lg:flex-row gap-3 items-center justify-between">
           
           <!-- Text Search -->
           <div class="relative w-full lg:w-80">
             <i data-lucide="search" class="w-4 h-4 absolute left-3 top-1/2 -translate-y-1/2 text-zinc-500"></i>
-            <input type="text" id="search-input" placeholder="Buscar comuna, palabra clave o N°..." oninput="filterTable()" class="w-full bg-zinc-950 border border-zinc-800 rounded-lg pl-9 pr-4 py-2 text-xs text-zinc-200 placeholder-zinc-500 focus:outline-none focus:border-emerald-500 transition-colors">
+            <input type="text" id="search-input" placeholder="Buscar comuna, palabra clave o N°..." oninput="filterTable()" class="w-full bg-[#04142b] border border-[#153b70] rounded-lg pl-9 pr-4 py-2 text-xs text-zinc-200 placeholder-zinc-500 focus:outline-none focus:border-[#38bdf8] transition-colors">
           </div>
 
           <!-- Dropdowns Group (PRE-POPULATED IN DOM) -->
           <div class="flex flex-wrap items-center gap-2.5 w-full lg:w-auto">
             
             <!-- Topic Filter -->
-            <div class="flex items-center gap-1.5 bg-zinc-950 border border-zinc-800 rounded-lg px-2.5 py-1">
-              <i data-lucide="tag" class="w-3.5 h-3.5 text-purple-400"></i>
-              <select id="topic-filter" onchange="filterTable()" class="bg-zinc-950 text-xs text-zinc-200 focus:outline-none py-1 max-w-[210px] cursor-pointer">
+            <div class="flex items-center gap-1.5 bg-[#04142b] border border-[#153b70] rounded-lg px-2.5 py-1">
+              <i data-lucide="tag" class="w-3.5 h-3.5 text-[#54b995]"></i>
+              <select id="topic-filter" onchange="filterTable()" class="bg-[#04142b] text-xs text-zinc-200 focus:outline-none py-1 max-w-[210px] cursor-pointer">
                 <option value="ALL">Todas las materias (9)</option>
                 <option value="derechos_tarifas">Derechos Municipales y Tarifas (637)</option>
                 <option value="comercio_alcoholes">Comercio, Alcoholes y Patentes (238)</option>
@@ -220,9 +220,9 @@
             </div>
 
             <!-- Year Filter -->
-            <div class="flex items-center gap-1.5 bg-zinc-950 border border-zinc-800 rounded-lg px-2.5 py-1">
+            <div class="flex items-center gap-1.5 bg-[#04142b] border border-[#153b70] rounded-lg px-2.5 py-1">
               <i data-lucide="calendar" class="w-3.5 h-3.5 text-sky-400"></i>
-              <select id="year-filter" onchange="filterTable()" class="bg-zinc-950 text-xs text-zinc-200 focus:outline-none py-1 max-w-[190px] cursor-pointer">
+              <select id="year-filter" onchange="filterTable()" class="bg-[#04142b] text-xs text-zinc-200 focus:outline-none py-1 max-w-[190px] cursor-pointer">
                 <option value="ALL">Todos los años (1980–2026)</option>
                 <option value="2026">Año 2026 (Vigente CPLT)</option>
                 <option value="2025">Año 2025 (Vigente CPLT)</option>
@@ -273,7 +273,7 @@
             </div>
 
             <!-- Region Filter -->
-            <select id="region-filter" onchange="filterTable()" class="bg-zinc-950 border border-zinc-800 rounded-lg px-3 py-2 text-xs text-zinc-200 focus:outline-none focus:border-emerald-500 cursor-pointer">
+            <select id="region-filter" onchange="filterTable()" class="bg-[#04142b] border border-[#153b70] rounded-lg px-3 py-2 text-xs text-zinc-200 focus:outline-none focus:border-[#38bdf8] cursor-pointer">
               <option value="ALL">Todas las regiones (16)</option>
               <option value="15">15 - Arica y Parinacota (4)</option>
               <option value="01">01 - Tarapacá (7)</option>
@@ -294,7 +294,7 @@
             </select>
 
             <!-- Source Filter -->
-            <select id="status-filter" onchange="filterTable()" class="bg-zinc-950 border border-zinc-800 rounded-lg px-3 py-2 text-xs text-zinc-200 focus:outline-none focus:border-emerald-500 cursor-pointer">
+            <select id="status-filter" onchange="filterTable()" class="bg-[#04142b] border border-[#153b70] rounded-lg px-3 py-2 text-xs text-zinc-200 focus:outline-none focus:border-[#38bdf8] cursor-pointer">
               <option value="ALL">Todas las fuentes</option>
               <option value="CPLT">Con Transparencia CPLT (2022–2026)</option>
               <option value="BCN">Con Histórico BCN</option>
@@ -302,12 +302,12 @@
             </select>
 
             <!-- Reset Button -->
-            <button onclick="resetFilters()" class="px-3 py-2 bg-zinc-800 hover:bg-zinc-700 text-zinc-300 text-xs rounded-lg transition-colors font-mono" title="Limpiar todos los filtros">
+            <button onclick="resetFilters()" class="px-3 py-2 bg-[#153b70] hover:bg-[#1f5091] text-zinc-300 text-xs rounded-lg transition-colors font-mono" title="Limpiar todos los filtros">
               Limpiar
             </button>
 
             <!-- Download Excel Toolbar Button -->
-            <a href="descargas/catastro_ordenanzas_nacional_2026.xlsx" download="catastro_ordenanzas_nacional_2026.xlsx" class="px-3 py-2 bg-emerald-600/90 hover:bg-emerald-500 text-white text-xs rounded-lg transition-all font-mono font-medium inline-flex items-center gap-1.5 shadow-sm">
+            <a href="descargas/catastro_ordenanzas_nacional_2026.xlsx" download="catastro_ordenanzas_nacional_2026.xlsx" class="px-3 py-2 bg-[#0b4aa2]/90 hover:bg-[#073c86] text-white text-xs rounded-lg transition-all font-mono font-medium inline-flex items-center gap-1.5 shadow-sm">
               <i data-lucide="download" class="w-3.5 h-3.5"></i>
               <span>Excel</span>
             </a>
@@ -316,9 +316,9 @@
         </div>
 
         <!-- Active Filter Summary & Result Count Indicator -->
-        <div id="filter-summary-bar" class="flex flex-wrap items-center justify-between text-xs pt-2 border-t border-zinc-800/80 text-zinc-400 font-mono">
+        <div id="filter-summary-bar" class="flex flex-wrap items-center justify-between text-xs pt-2 border-t border-[#153b70]/80 text-zinc-400 font-mono">
           <div class="flex items-center gap-2">
-            <span id="filter-stats-badge" class="px-2.5 py-1 rounded bg-zinc-800 text-zinc-300 border border-zinc-700">
+            <span id="filter-stats-badge" class="px-2.5 py-1 rounded bg-[#153b70] text-zinc-300 border border-[#1f5091]">
               Sin filtros aplicados • Mostrando todas las 346 comunas
             </span>
           </div>
@@ -328,10 +328,10 @@
       </div>
 
       <!-- Table Container -->
-      <div class="bg-zinc-900/60 border border-zinc-800 rounded-xl overflow-hidden shadow-sm">
+      <div class="bg-[#071f43]/60 border border-[#153b70] rounded-xl overflow-hidden shadow-sm">
         <div class="overflow-x-auto max-h-[600px] overflow-y-auto">
           <table class="w-full text-left text-xs">
-            <thead class="bg-zinc-900 border-b border-zinc-800 sticky top-0 z-10 text-zinc-400 font-mono uppercase tracking-wider text-[10px]">
+            <thead class="bg-[#071f43] border-b border-[#153b70] sticky top-0 z-10 text-zinc-400 font-mono uppercase tracking-wider text-[10px]">
               <tr>
                 <th class="px-4 py-3">Región</th>
                 <th class="px-4 py-3">Comuna</th>
@@ -342,7 +342,7 @@
                 <th class="px-4 py-3 text-right">Documentos Oficiales</th>
               </tr>
             </thead>
-            <tbody id="table-body" class="divide-y divide-zinc-800/60 font-mono">
+            <tbody id="table-body" class="divide-y divide-[#153b70]/60 font-mono">
               <!-- Rendered via JS -->
             </tbody>
           </table>
@@ -353,16 +353,16 @@
 
     <!-- TAB CONTENT 2: ANÁLISIS SEMÁNTICO & TEMÁTICAS -->
     <section id="tab-tematicas" class="hidden space-y-6">
-      <div class="bg-zinc-900/60 border border-zinc-800 rounded-xl p-6 space-y-4">
+      <div class="bg-[#071f43]/60 border border-[#153b70] rounded-xl p-6 space-y-4">
         <div class="flex items-center justify-between">
           <div>
             <h3 class="text-sm font-semibold text-zinc-100 flex items-center gap-2">
-              <i data-lucide="sparkles" class="w-4 h-4 text-purple-400"></i>
+              <i data-lucide="sparkles" class="w-4 h-4 text-[#54b995]"></i>
               Distribución Semántica de Ordenanzas (1.632 Normas)
             </h3>
             <p class="text-xs text-zinc-400 mt-1">Haz clic en cualquier materia para filtrar inmediatamente la matriz comunal.</p>
           </div>
-          <span class="text-xs font-mono text-purple-400 bg-purple-500/10 px-2.5 py-1 rounded-full border border-purple-500/20">
+          <span class="text-xs font-mono text-[#54b995] bg-[#54b995]/10 px-2.5 py-1 rounded-full border border-purple-500/20">
             9 Ejes Temáticos
           </span>
         </div>
@@ -374,33 +374,33 @@
 
     <!-- TAB CONTENT 3: METODOLOGÍA & MULTI-AGENTE -->
     <section id="tab-metodologia" class="hidden space-y-8">
-      <div class="bg-gradient-to-br from-zinc-900 via-zinc-900 to-purple-950/30 border border-purple-500/30 rounded-2xl p-6 sm:p-8 space-y-6">
+      <div class="bg-gradient-to-br from-[#071f43] via-[#071f43] to-purple-950/30 border border-purple-500/30 rounded-2xl p-6 sm:p-8 space-y-6">
         <div class="flex items-center gap-2">
-          <span class="text-xs font-mono text-purple-400 bg-purple-500/10 px-2.5 py-1 rounded-full border border-purple-500/20 uppercase tracking-wider font-semibold">
+          <span class="text-xs font-mono text-[#54b995] bg-[#54b995]/10 px-2.5 py-1 rounded-full border border-purple-500/20 uppercase tracking-wider font-semibold">
             Arquitectura de Concurrencia Inteligente
           </span>
           <span class="text-zinc-500 text-xs">•</span>
-          <span class="text-xs font-mono text-emerald-400">3 Subagentes Activos</span>
+          <span class="text-xs font-mono text-[#38bdf8]">3 Subagentes Activos</span>
         </div>
         <h2 class="text-xl sm:text-2xl font-bold tracking-tight text-zinc-100">
           Despliegue de Agentes Paralelos Distribuidos por Macrozonas
         </h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2">
-          <div class="bg-zinc-950 border border-purple-500/30 rounded-xl p-5 space-y-3">
+          <div class="bg-[#04142b] border border-purple-500/30 rounded-xl p-5 space-y-3">
             <div class="flex items-center justify-between">
               <h4 class="text-sm font-semibold text-zinc-100">Agente Zona Norte</h4>
               <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
             </div>
             <p class="text-[11px] text-zinc-400">Regiones XV, I, II, III y IV (Arica, Iquique, Antofagasta, Calama, La Serena, Coquimbo).</p>
           </div>
-          <div class="bg-zinc-950 border border-purple-500/30 rounded-xl p-5 space-y-3">
+          <div class="bg-[#04142b] border border-purple-500/30 rounded-xl p-5 space-y-3">
             <div class="flex items-center justify-between">
               <h4 class="text-sm font-semibold text-zinc-100">Agente Centro & RM</h4>
               <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
             </div>
             <p class="text-[11px] text-zinc-400">Regiones V, XIII, VI y VII (Santiago, Providencia, Las Condes, Valparaíso, Viña, Talca).</p>
           </div>
-          <div class="bg-zinc-950 border border-purple-500/30 rounded-xl p-5 space-y-3">
+          <div class="bg-[#04142b] border border-purple-500/30 rounded-xl p-5 space-y-3">
             <div class="flex items-center justify-between">
               <h4 class="text-sm font-semibold text-zinc-100">Agente Sur & Austral</h4>
               <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
@@ -414,20 +414,20 @@
     <!-- TAB CONTENT 4: RECURSOS -->
     <section id="tab-recursos" class="hidden space-y-6">
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-        <div class="bg-zinc-900/60 border border-zinc-800 rounded-xl p-5 space-y-3 flex flex-col justify-between">
+        <div class="bg-[#071f43]/60 border border-[#153b70] rounded-xl p-5 space-y-3 flex flex-col justify-between">
           <div class="space-y-3">
-            <div class="h-10 w-10 rounded-lg bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400">
+            <div class="h-10 w-10 rounded-lg bg-[#0b4aa2]/10 border border-[#38bdf8]/20 flex items-center justify-center text-[#38bdf8]">
               <i data-lucide="file-spreadsheet" class="w-5 h-5"></i>
             </div>
             <h4 class="text-sm font-semibold text-zinc-100">Excel Catastro Nacional</h4>
             <p class="text-xs text-zinc-400">Planilla oficial con 1.632 ordenanzas, clasificación en 9 ejes e hipervínculos funcionales.</p>
           </div>
-          <a href="descargas/catastro_ordenanzas_nacional_2026.xlsx" download class="w-full py-2 bg-emerald-600 hover:bg-emerald-500 text-white rounded-lg text-xs font-mono font-semibold transition-colors flex items-center justify-center gap-2">
+          <a href="descargas/catastro_ordenanzas_nacional_2026.xlsx" download class="w-full py-2 bg-[#0b4aa2] hover:bg-[#073c86] text-white rounded-lg text-xs font-mono font-semibold transition-colors flex items-center justify-center gap-2">
             <i data-lucide="download" class="w-3.5 h-3.5"></i>
             <span>Descargar .xlsx (0.19 MB)</span>
           </a>
         </div>
-        <div class="bg-zinc-900/60 border border-zinc-800 rounded-xl p-5 space-y-3 flex flex-col justify-between">
+        <div class="bg-[#071f43]/60 border border-[#153b70] rounded-xl p-5 space-y-3 flex flex-col justify-between">
           <div class="space-y-3">
             <div class="h-10 w-10 rounded-lg bg-sky-500/10 border border-sky-500/20 flex items-center justify-center text-sky-400">
               <i data-lucide="archive" class="w-5 h-5"></i>
@@ -435,7 +435,7 @@
             <h4 class="text-sm font-semibold text-zinc-100">Paquete Consolidado ZIP</h4>
             <p class="text-xs text-zinc-400">Excel maestro, base SQLite, directorio CSV y documentos normativos oficiales.</p>
           </div>
-          <a href="descargas/consolidado_ordenanzas_chile_2026.zip" download class="w-full py-2 bg-zinc-800 hover:bg-zinc-700 border border-zinc-700 text-zinc-200 rounded-lg text-xs font-mono font-medium transition-colors flex items-center justify-center gap-2">
+          <a href="descargas/consolidado_ordenanzas_chile_2026.zip" download class="w-full py-2 bg-[#153b70] hover:bg-[#1f5091] border border-[#1f5091] text-zinc-200 rounded-lg text-xs font-mono font-medium transition-colors flex items-center justify-center gap-2">
             <i data-lucide="download" class="w-3.5 h-3.5"></i>
             <span>Descargar .zip (0.34 MB)</span>
           </a>
@@ -448,28 +448,28 @@
   <!-- DRAWER -->
   <div id="commune-drawer" class="fixed inset-0 z-50 hidden">
     <div onclick="closeDrawer()" class="absolute inset-0 bg-black/80 backdrop-blur-sm transition-opacity"></div>
-    <div class="absolute inset-y-0 right-0 max-w-2xl w-full bg-zinc-900 border-l border-zinc-800 shadow-2xl flex flex-col transform transition-transform duration-300">
-      <div class="p-6 border-b border-zinc-800 flex items-start justify-between gap-4 bg-zinc-950/80">
+    <div class="absolute inset-y-0 right-0 max-w-2xl w-full bg-[#071f43] border-l border-[#153b70] shadow-2xl flex flex-col transform transition-transform duration-300">
+      <div class="p-6 border-b border-[#153b70] flex items-start justify-between gap-4 bg-[#04142b]/80">
         <div>
           <div class="flex items-center gap-2">
-            <span id="drawer-region-tag" class="text-[11px] font-mono uppercase text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded border border-emerald-500/20">Región</span>
+            <span id="drawer-region-tag" class="text-[11px] font-mono uppercase text-[#38bdf8] bg-[#0b4aa2]/10 px-2 py-0.5 rounded border border-[#38bdf8]/20">Región</span>
             <span id="drawer-count-tag" class="text-[11px] font-mono text-zinc-400">0 normas</span>
           </div>
           <h2 id="drawer-commune-name" class="text-xl font-bold tracking-tight text-zinc-100 mt-1">Municipalidad</h2>
           <p class="text-xs text-zinc-400 mt-1">Listado de ordenanzas oficiales disponibles (BCN & Transparencia Activa CPLT).</p>
         </div>
-        <button onclick="closeDrawer()" class="p-2 rounded-lg bg-zinc-800 text-zinc-400 hover:text-zinc-100 hover:bg-zinc-700 transition-colors">
+        <button onclick="closeDrawer()" class="p-2 rounded-lg bg-[#153b70] text-zinc-400 hover:text-zinc-100 hover:bg-[#1f5091] transition-colors">
           <i data-lucide="x" class="w-5 h-5"></i>
         </button>
       </div>
 
-      <div class="p-4 border-b border-zinc-800 bg-zinc-950/40 space-y-2">
+      <div class="p-4 border-b border-[#153b70] bg-[#04142b]/40 space-y-2">
         <div class="relative">
           <i data-lucide="search" class="w-4 h-4 absolute left-3 top-1/2 -translate-y-1/2 text-zinc-500"></i>
-          <input type="text" id="drawer-search-input" placeholder="Buscar por palabra clave o número..." oninput="filterDrawerOrdinances()" class="w-full bg-zinc-900 border border-zinc-800 rounded-lg pl-9 pr-4 py-2 text-xs text-zinc-200 placeholder-zinc-500 focus:outline-none focus:border-emerald-500 transition-colors">
+          <input type="text" id="drawer-search-input" placeholder="Buscar por palabra clave o número..." oninput="filterDrawerOrdinances()" class="w-full bg-[#071f43] border border-[#153b70] rounded-lg pl-9 pr-4 py-2 text-xs text-zinc-200 placeholder-zinc-500 focus:outline-none focus:border-[#38bdf8] transition-colors">
         </div>
         <div class="flex flex-wrap gap-2">
-          <select id="drawer-topic-filter" onchange="filterDrawerOrdinances()" class="bg-zinc-900 border border-zinc-800 rounded-lg px-2.5 py-1.5 text-xs text-zinc-200 focus:outline-none focus:border-emerald-500 flex-1">
+          <select id="drawer-topic-filter" onchange="filterDrawerOrdinances()" class="bg-[#071f43] border border-[#153b70] rounded-lg px-2.5 py-1.5 text-xs text-zinc-200 focus:outline-none focus:border-[#38bdf8] flex-1">
             <option value="ALL">Todas las materias</option>
             <option value="derechos_tarifas">Derechos Municipales y Tarifas</option>
             <option value="comercio_alcoholes">Comercio, Alcoholes y Patentes</option>
@@ -482,7 +482,7 @@
             <option value="administracion_interna">Organización y Régimen Interno</option>
             <option value="general">Normativa General y Otras Materias</option>
           </select>
-          <select id="drawer-year-filter" onchange="filterDrawerOrdinances()" class="bg-zinc-900 border border-zinc-800 rounded-lg px-2.5 py-1.5 text-xs text-zinc-200 focus:outline-none focus:border-emerald-500">
+          <select id="drawer-year-filter" onchange="filterDrawerOrdinances()" class="bg-[#071f43] border border-[#153b70] rounded-lg px-2.5 py-1.5 text-xs text-zinc-200 focus:outline-none focus:border-[#38bdf8]">
             <option value="ALL">Todos los años</option>
             <option value="2026">Año 2026</option>
             <option value="2025">Año 2025</option>
@@ -530,7 +530,7 @@
             <option value="1982">Año 1982</option>
             <option value="1980">Año 1980</option>
           </select>
-          <select id="drawer-source-filter" onchange="filterDrawerOrdinances()" class="bg-zinc-900 border border-zinc-800 rounded-lg px-2.5 py-1.5 text-xs text-zinc-200 focus:outline-none focus:border-emerald-500">
+          <select id="drawer-source-filter" onchange="filterDrawerOrdinances()" class="bg-[#071f43] border border-[#153b70] rounded-lg px-2.5 py-1.5 text-xs text-zinc-200 focus:outline-none focus:border-[#38bdf8]">
             <option value="ALL">Todas las fuentes</option>
             <option value="CPLT">CPLT (2022–26)</option>
             <option value="BCN">BCN LeyChile</option>
@@ -540,9 +540,9 @@
 
       <div id="drawer-ordinances-list" class="flex-1 overflow-y-auto p-6 space-y-4"></div>
 
-      <div class="p-4 border-t border-zinc-800 bg-zinc-950/90 flex justify-between items-center text-xs text-zinc-500 font-mono">
+      <div class="p-4 border-t border-[#153b70] bg-[#04142b]/90 flex justify-between items-center text-xs text-zinc-500 font-mono">
         <span>Fuentes: BCN LeyChile & Transparencia CPLT</span>
-        <button onclick="closeDrawer()" class="px-4 py-2 bg-zinc-800 hover:bg-zinc-700 text-zinc-200 rounded-lg text-xs font-semibold transition-colors">
+        <button onclick="closeDrawer()" class="px-4 py-2 bg-[#153b70] hover:bg-[#1f5091] text-zinc-200 rounded-lg text-xs font-semibold transition-colors">
           Cerrar Panel
         </button>
       </div>
@@ -550,10 +550,10 @@
   </div>
 
   <!-- FOOTER -->
-  <footer class="border-t border-zinc-800/80 bg-zinc-900/40 py-6 mt-12">
+  <footer class="border-t border-[#153b70]/80 bg-[#071f43]/40 py-6 mt-12">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-zinc-400">
       <div class="flex items-center gap-2">
-        <span class="font-mono font-semibold text-emerald-400">P090</span>
+        <span class="font-mono font-semibold text-[#38bdf8]">P090</span>
         <span>•</span>
         <span>Catastro Nacional de Ordenanzas Municipales</span>
         <span>•</span>
@@ -636,7 +636,7 @@
 
       topics.forEach(t => {
         const card = document.createElement('div');
-        card.className = `p-4 rounded-xl border border-zinc-800/80 bg-zinc-950/60 hover:border-zinc-700 transition-all flex flex-col justify-between group`;
+        card.className = `p-4 rounded-xl border border-[#153b70]/80 bg-[#04142b]/60 hover:border-[#1f5091] transition-all flex flex-col justify-between group`;
         card.innerHTML = `
           <div>
             <div class="flex items-center justify-between mb-2">
@@ -647,7 +647,7 @@
             </div>
             <h4 class="text-xs font-semibold text-zinc-200 mt-1">${t.nombre}</h4>
           </div>
-          <button onclick="filterByTopic('${t.id}')" class="mt-3 text-[11px] font-mono text-emerald-400 hover:text-emerald-300 flex items-center gap-1 font-medium">
+          <button onclick="filterByTopic('${t.id}')" class="mt-3 text-[11px] font-mono text-[#38bdf8] hover:text-[#38bdf8] flex items-center gap-1 font-medium">
             <span>Filtrar tabla por esta materia</span>
             <i data-lucide="arrow-right" class="w-3 h-3"></i>
           </button>
@@ -746,10 +746,10 @@
       const summaryBadge = document.getElementById('filter-stats-badge');
       if (activeFilterParts.length > 0) {
         summaryBadge.textContent = `Filtros: ${activeFilterParts.join(' • ')} (${totalMatchingOrds} normas en ${totalMatchingComunas} comunas)`;
-        summaryBadge.className = 'px-2.5 py-1 rounded bg-purple-500/20 text-purple-300 border border-purple-500/40 font-semibold';
+        summaryBadge.className = 'px-2.5 py-1 rounded bg-[#54b995]/20 text-[#54b995] border border-purple-500/40 font-semibold';
       } else {
         summaryBadge.textContent = `Sin filtros aplicados • Mostrando todas las 346 comunas (${currentData.metrics.total_ordenanzas} normas)`;
-        summaryBadge.className = 'px-2.5 py-1 rounded bg-zinc-800 text-zinc-300 border border-zinc-700';
+        summaryBadge.className = 'px-2.5 py-1 rounded bg-[#153b70] text-zinc-300 border border-[#1f5091]';
       }
 
       document.getElementById('table-count-label').textContent = `${totalMatchingComunas} comunas • ${totalMatchingOrds} normas`;
@@ -762,7 +762,7 @@
           <tr>
             <td colspan="7" class="px-6 py-12 text-center text-zinc-500 font-mono text-xs">
               No se encontraron comunas u ordenanzas que coincidan con los filtros seleccionados.
-              <button onclick="resetFilters()" class="block mx-auto mt-3 px-3 py-1.5 bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 rounded-lg hover:bg-emerald-500 hover:text-zinc-950 transition-colors">
+              <button onclick="resetFilters()" class="block mx-auto mt-3 px-3 py-1.5 bg-[#0b4aa2]/20 text-[#38bdf8] border border-[#38bdf8]/40 rounded-lg hover:bg-[#073c86] hover:text-white transition-colors">
                 Restablecer todos los filtros
               </button>
             </td>
@@ -774,33 +774,33 @@
 
       filtered.forEach(c => {
         const tr = document.createElement('tr');
-        tr.className = 'hover:bg-zinc-800/40 transition-colors cursor-pointer';
+        tr.className = 'hover:bg-[#153b70]/40 transition-colors cursor-pointer';
         tr.onclick = () => {
           if (c.total_count > 0) openDrawer(c.comuna, topic, year);
         };
 
-        let badgeClass = 'bg-zinc-800 text-zinc-400 border-zinc-700';
+        let badgeClass = 'bg-[#153b70] text-zinc-400 border-[#1f5091]';
         let statusLabel = 'Pendiente CPLT';
         if (c.bcn_count > 0 && c.cplt_count > 0) {
-          badgeClass = 'bg-purple-500/10 text-purple-400 border-purple-500/30';
+          badgeClass = 'bg-[#54b995]/10 text-[#54b995] border-purple-500/30';
           statusLabel = 'BCN + CPLT';
         } else if (c.cplt_count > 0) {
           badgeClass = 'bg-sky-500/10 text-sky-400 border-sky-500/30';
           statusLabel = 'CPLT 2022-26';
         } else if (c.bcn_count > 0) {
-          badgeClass = 'bg-emerald-500/10 text-emerald-400 border-emerald-500/30';
+          badgeClass = 'bg-[#0b4aa2]/10 text-[#38bdf8] border-[#38bdf8]/30';
           statusLabel = 'Histórico BCN';
         }
 
         const matchCountBadge = (c.filteredOrdsCount > 0)
-          ? `<span class="px-2 py-0.5 rounded text-[11px] font-mono font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-500/40">${c.filteredOrdsCount}</span>`
-          : `<span class="text-zinc-600">0</span>`;
+          ? `<span class="px-2 py-0.5 rounded text-[11px] font-mono font-bold bg-[#0b4aa2]/20 text-[#38bdf8] border border-[#38bdf8]/40">${c.filteredOrdsCount}</span>`
+          : `<span class="text-[#386ea8]">0</span>`;
 
         tr.innerHTML = `
           <td class="px-4 py-2.5 text-zinc-400 text-[11px]">${c.region_id} - ${c.region_nombre}</td>
           <td class="px-4 py-2.5 font-semibold text-zinc-200">${c.comuna}</td>
-          <td class="px-4 py-2.5 text-center font-semibold text-emerald-400">${c.bcn_count || 0}</td>
-          <td class="px-4 py-2.5 text-center font-semibold text-purple-400">${c.cplt_count > 0 ? `<span class="bg-purple-500/20 text-purple-300 px-1.5 py-0.5 rounded">${c.cplt_count}</span>` : '0'}</td>
+          <td class="px-4 py-2.5 text-center font-semibold text-[#38bdf8]">${c.bcn_count || 0}</td>
+          <td class="px-4 py-2.5 text-center font-semibold text-[#54b995]">${c.cplt_count > 0 ? `<span class="bg-[#54b995]/20 text-[#54b995] px-1.5 py-0.5 rounded">${c.cplt_count}</span>` : '0'}</td>
           <td class="px-4 py-2.5 text-center">${matchCountBadge}</td>
           <td class="px-4 py-2.5">
             <span class="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-mono border ${badgeClass}">
@@ -809,11 +809,11 @@
           </td>
           <td class="px-4 py-2.5 text-right">
             ${c.total_count > 0 ? `
-              <button onclick="event.stopPropagation(); openDrawer('${c.comuna}', '${topic}', '${year}')" class="px-3 py-1.5 bg-emerald-500/10 hover:bg-emerald-500 hover:text-zinc-950 border border-emerald-500/30 text-emerald-400 rounded-lg text-xs font-mono font-medium transition-all inline-flex items-center gap-1.5 shadow-sm">
+              <button onclick="event.stopPropagation(); openDrawer('${c.comuna}', '${topic}', '${year}')" class="px-3 py-1.5 bg-[#0b4aa2]/10 hover:bg-[#073c86] hover:text-white border border-[#38bdf8]/30 text-[#38bdf8] rounded-lg text-xs font-mono font-medium transition-all inline-flex items-center gap-1.5 shadow-sm">
                 <i data-lucide="book-open" class="w-3.5 h-3.5"></i>
                 <span>Ver ${c.filteredOrdsCount} normas ↗</span>
               </button>
-            ` : `<span class="text-zinc-600 text-[11px] font-mono">Fase 2 CPLT</span>`}
+            ` : `<span class="text-[#386ea8] text-[11px] font-mono">Fase 2 CPLT</span>`}
           </td>
         `;
         tbody.appendChild(tr);
@@ -875,9 +875,9 @@
 
       if (!ordinances || ordinances.length === 0) {
         listContainer.innerHTML = `
-          <div class="p-12 text-center text-zinc-500 font-mono text-xs border border-dashed border-zinc-800 rounded-xl space-y-2">
+          <div class="p-12 text-center text-zinc-500 font-mono text-xs border border-dashed border-[#153b70] rounded-xl space-y-2">
             <div>No se encontraron ordenanzas para el criterio seleccionado en esta comuna.</div>
-            <button onclick="document.getElementById('drawer-topic-filter').value='ALL'; document.getElementById('drawer-year-filter').value='ALL'; filterDrawerOrdinances();" class="text-emerald-400 hover:underline">
+            <button onclick="document.getElementById('drawer-topic-filter').value='ALL'; document.getElementById('drawer-year-filter').value='ALL'; filterDrawerOrdinances();" class="text-[#38bdf8] hover:underline">
               Mostrar todas las ordenanzas de esta comuna
             </button>
           </div>
@@ -888,19 +888,19 @@
 
       ordinances.forEach(ord => {
         const item = document.createElement('div');
-        item.className = 'p-5 rounded-xl bg-zinc-950 border border-zinc-800/80 space-y-3 hover:border-zinc-700 transition-all shadow-sm';
+        item.className = 'p-5 rounded-xl bg-[#04142b] border border-[#153b70]/80 space-y-3 hover:border-[#1f5091] transition-all shadow-sm';
         
         const isCplt = (ord.fuente === 'CPLT');
         const sourceBadge = isCplt 
-          ? `<span class="px-2 py-0.5 rounded text-[10px] font-mono font-bold bg-purple-500/20 text-purple-300 border border-purple-500/40">CPLT VIGENTE (2022-2026)</span>`
-          : `<span class="px-2 py-0.5 rounded text-[10px] font-mono bg-zinc-800 text-zinc-400 border border-zinc-700">BCN LeyChile</span>`;
+          ? `<span class="px-2 py-0.5 rounded text-[10px] font-mono font-bold bg-[#54b995]/20 text-[#54b995] border border-purple-500/40">CPLT VIGENTE (2022-2026)</span>`
+          : `<span class="px-2 py-0.5 rounded text-[10px] font-mono bg-[#153b70] text-zinc-400 border border-[#1f5091]">BCN LeyChile</span>`;
 
         const actionBtn = isCplt
-          ? `<button onclick="openOfficialLink('${ord.target_url}', event)" class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-lg bg-purple-600 hover:bg-purple-500 text-white font-bold text-xs font-mono transition-colors shadow">
+          ? `<button onclick="openOfficialLink('${ord.target_url}', event)" class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-lg bg-purple-600 hover:bg-[#54b995] text-white font-bold text-xs font-mono transition-colors shadow">
                <i data-lucide="file-check" class="w-3.5 h-3.5"></i>
                <span>Abrir Documento CPLT ↗</span>
              </button>`
-          : `<button onclick="openOfficialLink('${ord.target_url}', event)" class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-lg bg-emerald-500 hover:bg-emerald-400 text-zinc-950 font-bold text-xs font-mono transition-colors shadow">
+          : `<button onclick="openOfficialLink('${ord.target_url}', event)" class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-lg bg-[#0b4aa2] hover:bg-[#073c86] text-white font-bold text-xs font-mono transition-colors shadow">
                <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
                <span>Abrir Texto en LeyChile ↗</span>
              </button>`;
@@ -908,7 +908,7 @@
         item.innerHTML = `
           <div class="flex items-start justify-between gap-3">
             <div class="flex flex-wrap items-center gap-2">
-              <span class="px-2.5 py-0.5 rounded text-[10px] font-mono border font-medium ${ord.badge_bg || 'bg-zinc-800'} ${ord.badge_text || 'text-zinc-300'} ${ord.badge_border || 'border-zinc-700'}">
+              <span class="px-2.5 py-0.5 rounded text-[10px] font-mono border font-medium ${ord.badge_bg || 'bg-[#153b70]'} ${ord.badge_text || 'text-zinc-300'} ${ord.badge_border || 'border-[#1f5091]'}">
                 ${ord.materia}
               </span>
               ${sourceBadge}
@@ -919,16 +919,16 @@
 
           <h4 class="text-xs font-medium text-zinc-100 leading-snug">${ord.titulo}</h4>
 
-          <div class="flex flex-wrap items-center gap-2 pt-3 border-t border-zinc-900">
+          <div class="flex flex-wrap items-center gap-2 pt-3 border-t border-[#071f43]">
             ${actionBtn}
 
-            <button onclick="copyToClipboard('${ord.target_url}', event)" class="inline-flex items-center gap-1.5 px-3 py-2 rounded-lg bg-zinc-900 hover:bg-zinc-800 border border-zinc-800 text-zinc-300 hover:text-zinc-100 text-xs font-mono transition-colors" title="Copiar enlace directo">
+            <button onclick="copyToClipboard('${ord.target_url}', event)" class="inline-flex items-center gap-1.5 px-3 py-2 rounded-lg bg-[#071f43] hover:bg-[#153b70] border border-[#153b70] text-zinc-300 hover:text-zinc-100 text-xs font-mono transition-colors" title="Copiar enlace directo">
               <i data-lucide="copy" class="w-3.5 h-3.5"></i>
               <span>Copiar link</span>
             </button>
 
             ${ord.rdf_url ? `
-              <button onclick="openOfficialLink('${ord.rdf_url}', event)" class="inline-flex items-center gap-1 px-2.5 py-2 rounded-lg bg-zinc-900 hover:bg-zinc-800 border border-zinc-800 text-zinc-400 hover:text-zinc-200 text-xs font-mono transition-colors" title="Ver RDF LOD">
+              <button onclick="openOfficialLink('${ord.rdf_url}', event)" class="inline-flex items-center gap-1 px-2.5 py-2 rounded-lg bg-[#071f43] hover:bg-[#153b70] border border-[#153b70] text-zinc-400 hover:text-zinc-200 text-xs font-mono transition-colors" title="Ver RDF LOD">
                 <i data-lucide="code" class="w-3.5 h-3.5"></i>
                 <span>RDF</span>
               </button>
@@ -952,7 +952,7 @@
       });
 
       document.getElementById('tab-' + tabId).classList.remove('hidden');
-      document.getElementById('tab-btn-' + tabId).className = 'pb-3 text-sm font-medium border-b-2 border-emerald-500 text-emerald-400 flex items-center gap-2 shrink-0 transition-colors';
+      document.getElementById('tab-btn-' + tabId).className = 'pb-3 text-sm font-medium border-b-2 border-[#38bdf8] text-[#38bdf8] flex items-center gap-2 shrink-0 transition-colors';
     }
 
     async function reloadData() {
