@@ -1,0 +1,15 @@
+﻿# Binaries & Executables
+*.exe
+cloudflared*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+env/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
