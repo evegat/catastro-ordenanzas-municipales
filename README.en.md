@@ -17,9 +17,9 @@ Automated ETL pipeline, structured dataset, and exploratory dashboard for **Chil
 Municipal ordinances are the core local regulatory framework across all 346 Chilean municipalities. However, access is traditionally fragmented.
 
 This project delivers:
-1. A **consolidated open dataset** indexing 1,570+ municipal regulatory acts.
-2. **Reproducible Python pipelines** leveraging SPARQL semantic queries and web scrapers.
-3. An **offline-first interactive dashboard** for researchers, public policy analysts, and municipal legal teams.
+1. A **consolidated open dataset** of municipal regulatory records.
+2. **Reproducible Python pipelines** leveraging SPARQL semantic queries and complementary sources.
+3. An **interactive dashboard** for researchers, public policy analysts, and municipal legal teams.
 
 ---
 
@@ -34,7 +34,7 @@ This project delivers:
 │   ├── cplt_transparencia_crawler.py  # CPLT Active Transparency crawler module
 │   ├── maestro_generator.py           # Core dataset compiler
 │   └── export_excel_and_zip.py        # Export multi-format open packages (XLSX, CSV, JSON)
-├── dashboard/                         # Local HTML5/JS dashboard (GitHub Pages)
+├── dashboard/                         # HTML5/JS dashboard (GitHub Pages)
 │   └── descargas/                     # Precompiled data packages
 ├── requirements.txt                   # Reproducible Python dependencies
 ├── LICENSE                            # MIT License
@@ -59,6 +59,24 @@ python src/bcn_full_fetcher.py
 # Export clean datasets
 python src/export_excel_and_zip.py
 ```
+
+---
+
+## 📊 Dataset Scope
+
+Published dataset snapshot: **August 27, 2026**.
+
+- **Indexed records:** 1,632.
+- **Sources:** 1,572 BCN records plus 60 complementary CPLT Active Transparency records (2022–2026).
+- **Observed territorial coverage:** 217 of Chile's 346 communes have at least one record in the consolidated dataset.
+- **Observed time span:** 1980–2026.
+- **Thematic classification:** 9 categories.
+
+### Methodological note and limitations
+
+This catalogue consolidates documents identified in the consulted sources and should not be interpreted as a certification that each municipality's regulatory corpus is complete. **No records for a commune does not necessarily mean that the municipality has no ordinances in force**; it may reflect publication gaps, source lag, identifier differences, or limitations in document discovery.
+
+Territorial coverage is calculated over Chile's **346 communes**. A commune is counted as “covered” when the published dataset contains at least one associated record. Figures may change between versions as new sources are incorporated, identifiers are corrected, and duplicates are reviewed.
 
 ---
 
