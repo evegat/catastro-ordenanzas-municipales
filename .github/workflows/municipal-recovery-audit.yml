@@ -3,7 +3,7 @@ name: Municipal Recovery Audit
 on:
   push:
     branches:
-      - feat/MW-P090-0005-municipal-recovery
+      - "feat/MW-P090-*"
     paths:
       - "src/cplt_transparencia_crawler.py"
       - "data/municipal_source_registry.json"
@@ -36,7 +36,7 @@ jobs:
         run: python src/cplt_transparencia_crawler.py directory --out /tmp/cplt_municipal_directory.json
 
       - name: Probe representative CPLT municipality routes
-        run: python src/cplt_transparencia_crawler.py probe --codes MU135 MU228 MU330 --out /tmp/cplt_portal_probe.json
+        run: python src/cplt_transparencia_crawler.py probe --codes MU135 MU186 MU228 MU308 MU330 --out /tmp/cplt_portal_probe.json
 
       - name: Recover and verify municipal PDFs
         run: >-
