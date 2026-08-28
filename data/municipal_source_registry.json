@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "policy": "Only official municipal transparency or normative listings. A seed is metadata transcribed from an official listing plus an official document URL; the pipeline still downloads the document, verifies PDF bytes and computes SHA-256 before acceptance.",
   "sources": [
     {
@@ -12,48 +12,13 @@
       "start_year": 2022,
       "end_year": 2026,
       "required_term": "ordenanza",
-      "column_map": {
-        "number": 2,
-        "date": 3,
-        "description": 8,
-        "document": 9
-      },
+      "column_map": {"number": 2, "date": 3, "description": 8, "document": 9},
       "verified_seeds": [
-        {
-          "year": 2024,
-          "numero": "1338",
-          "fecha": "05-04-2024",
-          "titulo": "Fíjase el texto refundido de la Ordenanza Local sobre Derechos Municipales de la Municipalidad de Las Condes",
-          "document_url": "https://archivos.lascondes.cl/descargas/transparencia/ordenanzas/2024/decreto.1338.05abr2024.pdf"
-        },
-        {
-          "year": 2024,
-          "numero": "1620",
-          "fecha": "16-04-2024",
-          "titulo": "Apruébase texto refundido de la Ordenanza de Participación Ciudadana",
-          "document_url": "https://archivos.lascondes.cl/descargas/transparencia/ordenanzas/2024/decreto.1620.16abr2024.pdf"
-        },
-        {
-          "year": 2024,
-          "numero": "2271",
-          "fecha": "10-06-2024",
-          "titulo": "Incorpórase a la Ordenanza Local sobre Derechos Municipales de Las Condes",
-          "document_url": "https://archivos.lascondes.cl/descargas/transparencia/ordenanzas/2024/decreto.2271.10jun2024.pdf"
-        },
-        {
-          "year": 2024,
-          "numero": "3535",
-          "fecha": "14-09-2024",
-          "titulo": "Modifícase la Ordenanza para la Ocupación del Espacio Público y de Antejardines en Áreas Comerciales",
-          "document_url": "https://archivos.lascondes.cl/descargas/transparencia/ordenanzas/2024/decreto.3535.14sep2024.pdf"
-        },
-        {
-          "year": 2023,
-          "numero": "3727",
-          "fecha": "26-10-2023",
-          "titulo": "Modificación de la Ordenanza Local sobre Derechos Municipales de Las Condes",
-          "document_url": "https://archivos.lascondes.cl/descargas/transparencia/ordenanzas/2023/decreto.3727.26oct2023.pdf"
-        }
+        {"year": 2024, "numero": "1338", "fecha": "05-04-2024", "titulo": "Fíjase el texto refundido de la Ordenanza Local sobre Derechos Municipales de la Municipalidad de Las Condes", "document_url": "https://archivos.lascondes.cl/descargas/transparencia/ordenanzas/2024/decreto.1338.05abr2024.pdf"},
+        {"year": 2024, "numero": "1620", "fecha": "16-04-2024", "titulo": "Apruébase texto refundido de la Ordenanza de Participación Ciudadana", "document_url": "https://archivos.lascondes.cl/descargas/transparencia/ordenanzas/2024/decreto.1620.16abr2024.pdf"},
+        {"year": 2024, "numero": "2271", "fecha": "10-06-2024", "titulo": "Incorpórase a la Ordenanza Local sobre Derechos Municipales de Las Condes", "document_url": "https://archivos.lascondes.cl/descargas/transparencia/ordenanzas/2024/decreto.2271.10jun2024.pdf"},
+        {"year": 2024, "numero": "3535", "fecha": "14-09-2024", "titulo": "Modifícase la Ordenanza para la Ocupación del Espacio Público y de Antejardines en Áreas Comerciales", "document_url": "https://archivos.lascondes.cl/descargas/transparencia/ordenanzas/2024/decreto.3535.14sep2024.pdf"},
+        {"year": 2023, "numero": "3727", "fecha": "26-10-2023", "titulo": "Modificación de la Ordenanza Local sobre Derechos Municipales de Las Condes", "document_url": "https://archivos.lascondes.cl/descargas/transparencia/ordenanzas/2023/decreto.3727.26oct2023.pdf"}
       ]
     },
     {
@@ -66,21 +31,9 @@
       "start_year": 2022,
       "end_year": 2026,
       "required_term": "ordenanza",
-      "column_map": {
-        "year": 0,
-        "number": 3,
-        "title": 4,
-        "document": 6,
-        "date": 8
-      },
+      "column_map": {"year": 0, "number": 3, "title": 4, "document": 6, "date": 8},
       "verified_seeds": [
-        {
-          "year": 2025,
-          "numero": "1803",
-          "fecha": "16-12-2025",
-          "titulo": "Texto refundido y sistematizado de la Ordenanza Local sobre Derechos Municipales que regirá para el año 2026",
-          "document_url": "https://firma.providencia.cl/dsign/temp/0002015082.PDF"
-        }
+        {"year": 2025, "numero": "1803", "fecha": "16-12-2025", "titulo": "Texto refundido y sistematizado de la Ordenanza Local sobre Derechos Municipales que regirá para el año 2026", "document_url": "https://firma.providencia.cl/dsign/temp/0002015082.PDF"}
       ]
     },
     {
@@ -93,21 +46,9 @@
       "start_year": 2022,
       "end_year": 2026,
       "required_term": "ordenanza",
-      "column_map": {
-        "year": 0,
-        "number": 4,
-        "date": 5,
-        "description": 10,
-        "document": 11
-      },
+      "column_map": {"year": 0, "number": 4, "date": 5, "description": 10, "document": 11},
       "verified_seeds": [
-        {
-          "year": 2026,
-          "numero": "241",
-          "fecha": "23-03-2026",
-          "titulo": "Modificación a la Ordenanza Local sobre Derechos Municipales que rige para el año 2026",
-          "document_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=OqxoVOOfCiI74ESLcySFQA%3D%3D"
-        }
+        {"year": 2026, "numero": "241", "fecha": "23-03-2026", "titulo": "Modificación a la Ordenanza Local sobre Derechos Municipales que rige para el año 2026", "document_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=OqxoVOOfCiI74ESLcySFQA%3D%3D"}
       ]
     },
     {
@@ -122,27 +63,9 @@
       "required_term": "ordenanza",
       "column_map": {},
       "verified_seeds": [
-        {
-          "year": 2026,
-          "numero": "45",
-          "fecha": "08-06-2026",
-          "titulo": "Ordenanza N°45 de Medio Ambiente y de Desarrollo Sustentable",
-          "document_url": "https://www.nunoa.cl/app/uploads/2026/06/ORDENANZA-N%C2%B045-DE-MEDIO-AMBIENTE-Y-DE-DESARROLLO-SUSTENTABLE.pdf"
-        },
-        {
-          "year": 2026,
-          "numero": "42",
-          "fecha": "04-06-2026",
-          "titulo": "Ordenanza N°42 sobre Retiro de Vehículos en Condiciones de Abandono en la Vía Pública de la Comuna de Ñuñoa",
-          "document_url": "https://www.nunoa.cl/app/uploads/2026/06/Ordenanza-N%C2%B042-sobre-Retiro-de-Vehiculos-en-Condiciones-de-Abandono-en-la-Via-Publica-de-la-Comuna-de-Nunoa.pdf"
-        },
-        {
-          "year": 2026,
-          "numero": "51",
-          "fecha": "04-05-2026",
-          "titulo": "Ordenanza N°51 para la promoción de la inclusión y la no discriminación en la comuna de Ñuñoa",
-          "document_url": "https://www.nunoa.cl/app/uploads/2026/05/Ordenanza-N%C2%B051-PARA-LA-PROMOCION-DE-LA-INCLUSION-Y-LA-NO-DISCRIMINACION-EN-LA-COMUNA-DE-NUNOA.pdf"
-        }
+        {"year": 2026, "numero": "45", "fecha": "08-06-2026", "titulo": "Ordenanza N°45 de Medio Ambiente y de Desarrollo Sustentable", "document_url": "https://www.nunoa.cl/app/uploads/2026/06/ORDENANZA-N%C2%B045-DE-MEDIO-AMBIENTE-Y-DE-DESARROLLO-SUSTENTABLE.pdf"},
+        {"year": 2026, "numero": "42", "fecha": "04-06-2026", "titulo": "Ordenanza N°42 sobre Retiro de Vehículos en Condiciones de Abandono en la Vía Pública de la Comuna de Ñuñoa", "document_url": "https://www.nunoa.cl/app/uploads/2026/06/Ordenanza-N%C2%B042-sobre-Retiro-de-Vehiculos-en-Condiciones-de-Abandono-en-la-Via-Publica-de-la-Comuna-de-Nunoa.pdf"},
+        {"year": 2026, "numero": "51", "fecha": "04-05-2026", "titulo": "Ordenanza N°51 para la promoción de la inclusión y la no discriminación en la comuna de Ñuñoa", "document_url": "https://www.nunoa.cl/app/uploads/2026/05/Ordenanza-N%C2%B051-PARA-LA-PROMOCION-DE-LA-INCLUSION-Y-LA-NO-DISCRIMINACION-EN-LA-COMUNA-DE-NUNOA.pdf"}
       ]
     },
     {
@@ -157,20 +80,23 @@
       "required_term": "ordenanza",
       "column_map": {},
       "verified_seeds": [
-        {
-          "year": 2026,
-          "numero": "130",
-          "fecha": "13-05-2026",
-          "titulo": "Ordenanza N°130 de 2026 sobre ordenamiento y retiro de tendidos aéreos y subterráneos en desuso",
-          "document_url": "https://documentos.munistgo.cl/wp-content/uploads/2026/05/1.-Ordenanza-N%C2%B0130-26-Ordenamiento-Tendido-Electrico_Orig.pdf"
-        },
-        {
-          "year": 2025,
-          "numero": "94",
-          "fecha": "29-10-2025",
-          "titulo": "Ordenanza N°94 sobre derechos por permisos y servicios municipales, año 2026",
-          "document_url": "https://documentos.munistgo.cl/wp-content/uploads/2025/12/Ordenanza-No-94-2026-V2.pdf"
-        }
+        {"year": 2026, "numero": "130", "fecha": "13-05-2026", "titulo": "Ordenanza N°130 de 2026 sobre ordenamiento y retiro de tendidos aéreos y subterráneos en desuso", "document_url": "https://documentos.munistgo.cl/wp-content/uploads/2026/05/1.-Ordenanza-N%C2%B0130-26-Ordenamiento-Tendido-Electrico_Orig.pdf"},
+        {"year": 2025, "numero": "94", "fecha": "29-10-2025", "titulo": "Ordenanza N°94 sobre derechos por permisos y servicios municipales, año 2026", "document_url": "https://documentos.munistgo.cl/wp-content/uploads/2025/12/Ordenanza-No-94-2026-V2.pdf"}
+      ]
+    },
+    {
+      "id": "penalolen-derechos-municipales",
+      "municipality": "Peñalolén",
+      "region_id": "13",
+      "cplt_code": "MU212",
+      "source_type": "municipal_repository",
+      "index_url": "https://www.penalolen.cl/transparencia/decretos.html",
+      "start_year": 2022,
+      "end_year": 2026,
+      "required_term": "ordenanza",
+      "column_map": {},
+      "verified_seeds": [
+        {"year": 2025, "numero": "41", "fecha": "28-10-2025", "titulo": "Ordenanza N°41 sobre derechos municipales de la comuna de Peñalolén", "document_url": "https://www.penalolen.cl/wp-content/uploads/2025/10/ordenanza_41.pdf"}
       ]
     }
   ]
