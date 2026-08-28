@@ -11,7 +11,7 @@ import argparse
 import copy
 import csv
 import json
-import shutil
+import re
 import zipfile
 from pathlib import Path
 
@@ -129,13 +129,28 @@ def write_xlsx(rows: list[dict], path: Path) -> None:
     wb.save(path)
 
 
-def patch_public_html(index_path: Path, quarantined: int) -> None:
+def format_count(value: int) -> str:
+    return f"{int(value):,}".replace(",", ".")
+
+
+def replace_element_text(html: str, element_id: str, value: str) -> str:
+    pattern = rf'(<[^>]+id=["\']{re.escape(element_id)}["\'][^>]*>).*?(</[^>]+>)'
+    return re.sub(pattern, lambda m: f"{m.group(1)}{value}{m.group(2)}", html, count=1, flags=re.DOTALL)
+
+
+def patch_public_html(index_path: Path, metrics: dict) -> None:
     html = index_path.read_text(encoding="utf-8-sig")
+    total = int(metrics.get("total_ordenanzas", 0))
+    total_bcn = int(metrics.get("ordenanzas_bcn", 0))
+    quarantined = int(metrics.get("cplt_en_cuarentena", 0))
+    communes = int(metrics.get("comunas_con_datos", 0))
+    pct = round((communes / 346) * 100) if communes else 0
+
     replacements = {
         "BCN (Histórico) & Transparencia Activa CPLT (2022–2026)":
             "BCN / LeyChile · corpus público verificable",
-        "CPLT (2022-26): <strong id=\"metric-cplt-count\">60</strong>":
-            f"CPLT en cuarentena: <strong id=\"metric-cplt-count\">{quarantined}</strong>",
+        "CPLT (2022-26):": "CPLT en cuarentena:",
+        "CPLT (2022–26):": "CPLT en cuarentena:",
         "Listado de ordenanzas oficiales disponibles (BCN & Transparencia Activa CPLT).":
             "Listado público de registros BCN/LeyChile verificables.",
         "Fuentes: BCN LeyChile & Transparencia CPLT":
@@ -149,6 +164,26 @@ def patch_public_html(index_path: Path, quarantined: int) -> None:
     }
     for old, new in replacements.items():
         html = html.replace(old, new)
+
+    # Align the server-rendered shell with the same metrics used by runtime JS.
+    html = replace_element_text(html, "metric-total-ordenanzas", format_count(total))
+    html = replace_element_text(html, "metric-bcn-count", format_count(total_bcn))
+    html = replace_element_text(html, "metric-cplt-count", format_count(quarantined))
+    html = replace_element_text(html, "metric-comunas-con-datos", str(communes))
+    html = replace_element_text(html, "pct-comunas", f"{pct}% cubierto")
+
+    html = re.sub(
+        r'(id=["\']progress-comunas["\'][^>]*style=["\'][^"\']*width:\s*)\d+(%[^"\']*["\'])',
+        rf'\g<1>{pct}\2',
+        html,
+        count=1,
+    )
+
+    # In the public artifact the CPLT metric reports quarantine size, not published rows.
+    html = html.replace(
+        "Number(data.metrics.ordenanzas_cplt).toLocaleString('es-CL')",
+        "Number(data.metrics.cplt_en_cuarentena || 0).toLocaleString('es-CL')",
+    )
 
     # The former runtime CPLT safety shim is not used in the verified-only public build.
     html = html.replace('  <script src="cplt-safety.js"></script>\n', "")
@@ -193,7 +228,7 @@ def build(dashboard_dir: Path) -> None:
         zf.write(json_path, "status_data_public.json")
         zf.write(manifest, manifest.name)
 
-    patch_public_html(index_path, quarantined)
+    patch_public_html(index_path, public["metrics"])
     print(
         f"Public snapshot built: {len(rows)} verified BCN records; "
         f"{quarantined} CPLT references quarantined."
