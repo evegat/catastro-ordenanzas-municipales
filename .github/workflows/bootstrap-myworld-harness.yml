@@ -1,0 +1,48 @@
+name: Bootstrap MyWorld Harness v1
+
+on:
+  push:
+    branches:
+      - chore/myworld-harness-20260828
+
+permissions:
+  contents: write
+
+jobs:
+  bootstrap:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: chore/myworld-harness-20260828
+          fetch-depth: 0
+      - name: Install canonical bundle
+        shell: bash
+        run: |
+          set -euo pipefail
+          BASE="https://raw.githubusercontent.com/evegat/validador-datos-personales/6789fc2251bce8dfcd70762613cde53afb2cd08e"
+          for path in .myworld-harness/harness.py .myworld-harness/harness.ps1 .myworld-harness/schema.json .myworld-harness/AGENTS.block.md .myworld-harness/VERSION .myworld-harness/schemas/evidence.schema.json .myworld-harness/schemas/handoff.schema.json .myworld-harness/schemas/harness-v1.schema.json .myworld-harness/schemas/incident.schema.json .myworld-harness/schemas/lock.schema.json .myworld-harness/schemas/pending.schema.json .myworld-harness/schemas/release.schema.json .myworld-harness/schemas/session.schema.json .myworld-harness/schemas/task.schema.json .githooks/pre-commit .githooks/pre-push; do
+            mkdir -p "$(dirname "$path")"
+            curl -fsSL "$BASE/$path" -o "$path"
+          done
+      - name: Validate downloaded bundle
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(cat .myworld-harness/VERSION)" = "1.0.0"
+          python -m py_compile .myworld-harness/harness.py
+          python -m json.tool .myworld-harness/schema.json >/dev/null
+          python -m json.tool MYWORLD-HARNESS.json >/dev/null
+      - name: Commit canonical bundle when needed
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "MyWorld Harness Bootstrap"
+          git config user.email "evega.ap@gmail.com"
+          git add .myworld-harness .githooks
+          if git diff --cached --quiet; then
+            echo "No changes required"
+            exit 0
+          fi
+          git commit -m "chore: install canonical MyWorld Harness v1"
+          git push origin HEAD:chore/myworld-harness-20260828
