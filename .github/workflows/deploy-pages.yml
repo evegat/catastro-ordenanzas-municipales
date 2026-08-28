@@ -24,17 +24,38 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Apply CPLT link safety layer
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install public-build dependency
+        run: python -m pip install --disable-pip-version-check openpyxl==3.1.5
+
+      - name: Build verified-only public snapshot
+        run: |
+          rm -rf .public-dashboard
+          cp -a dashboard .public-dashboard
+          python src/build_public_snapshot.py .public-dashboard
+
+      - name: Verify public snapshot quarantine
         run: |
           python - <<'PY'
+          import json
           from pathlib import Path
 
-          index = Path('dashboard/index.html')
-          html = index.read_text(encoding='utf-8-sig')
-          marker = '<script src="cplt-safety.js"></script>'
-          if marker not in html:
-              html = html.replace('</body>', f'  {marker}\n</body>')
-          index.write_text(html, encoding='utf-8')
+          data = json.loads(Path('.public-dashboard/status_data.json').read_text(encoding='utf-8'))
+          ordinances = [
+              o
+              for c in data.get('comunas', [])
+              for o in (c.get('ordenanzas') or [])
+          ]
+          cplt = [o for o in ordinances if o.get('fuente') == 'CPLT']
+          assert not cplt, f'Public snapshot still contains {len(cplt)} CPLT records'
+          assert data['metrics']['ordenanzas_cplt'] == 0
+          assert data['metrics']['total_ordenanzas'] == len(ordinances)
+          assert data['metrics']['ordenanzas_bcn'] == len(ordinances)
+          print(f"Verified-only snapshot OK: {len(ordinances)} BCN records")
           PY
 
       - name: Setup Pages
@@ -43,7 +64,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './dashboard'
+          path: './.public-dashboard'
 
       - name: Deploy to GitHub Pages
         id: deployment

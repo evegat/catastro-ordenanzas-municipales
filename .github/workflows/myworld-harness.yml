@@ -25,6 +25,25 @@ jobs:
         run: python -m compileall -q src
       - name: Dashboard JavaScript syntax
         run: node --check dashboard/cplt-safety.js
+      - name: Public snapshot quarantine gate
+        run: |
+          python -m pip install --disable-pip-version-check openpyxl==3.1.5
+          rm -rf .ci-dashboard
+          cp -a dashboard .ci-dashboard
+          python src/build_public_snapshot.py .ci-dashboard
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          data = json.loads(Path('.ci-dashboard/status_data.json').read_text(encoding='utf-8'))
+          ordinances = [o for c in data.get('comunas', []) for o in (c.get('ordenanzas') or [])]
+          assert ordinances, 'Public snapshot unexpectedly empty'
+          assert not [o for o in ordinances if o.get('fuente') == 'CPLT']
+          assert data['metrics']['ordenanzas_cplt'] == 0
+          assert data['metrics']['total_ordenanzas'] == len(ordinances)
+          assert data['metrics']['ordenanzas_bcn'] == len(ordinances)
+          print(f"Public quarantine gate OK: {len(ordinances)} verified records")
+          PY
       - name: Built-in secret scanner
         run: python .myworld-harness/harness.py security --no-external
       - name: Gitleaks 8.30.1
