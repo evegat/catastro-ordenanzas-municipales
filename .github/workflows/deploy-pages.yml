@@ -38,7 +38,7 @@ jobs:
           cp -a dashboard .public-dashboard
           python src/build_public_snapshot.py .public-dashboard
 
-      - name: Verify public snapshot quarantine
+      - name: Verify public snapshot evidence
         run: |
           python - <<'PY'
           import json
@@ -51,11 +51,27 @@ jobs:
               for o in (c.get('ordenanzas') or [])
           ]
           cplt = [o for o in ordinances if o.get('fuente') == 'CPLT']
-          assert not cplt, f'Public snapshot still contains {len(cplt)} CPLT records'
-          assert data['metrics']['ordenanzas_cplt'] == 0
-          assert data['metrics']['total_ordenanzas'] == len(ordinances)
-          assert data['metrics']['ordenanzas_bcn'] == len(ordinances)
-          print(f"Verified-only snapshot OK: {len(ordinances)} BCN records")
+          bcn = [o for o in ordinances if o.get('fuente') == 'BCN']
+          municipal = [o for o in ordinances if o.get('fuente') == 'Municipalidad']
+          assert not cplt, f'Public snapshot still contains {len(cplt)} unverified CPLT records'
+          assert municipal, 'Verified municipal batch missing from public snapshot'
+          for record in municipal:
+              v = record.get('verification') or {}
+              assert v.get('status') == 'verified'
+              assert int(v.get('http_status') or 999) < 400
+              assert len(v.get('sha256') or '') == 64
+              assert int(v.get('bytes') or 0) > 0
+              assert (record.get('target_url') or '').startswith('https://')
+
+          metrics = data['metrics']
+          assert metrics['ordenanzas_cplt'] == 0
+          assert metrics['total_ordenanzas'] == len(ordinances)
+          assert metrics['ordenanzas_bcn'] == len(bcn)
+          assert metrics['ordenanzas_municipales_verificadas'] == len(municipal)
+          print(
+              f"Verified snapshot OK: {len(bcn)} BCN + "
+              f"{len(municipal)} municipal verified"
+          )
           PY
 
       - name: Setup Pages

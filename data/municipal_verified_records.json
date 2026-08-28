@@ -1,0 +1,228 @@
+{
+  "generated_at": "2026-08-28T23:15:27+00:00",
+  "policy": "official-listing + resolvable-pdf + sha256 + canonical-legal-act",
+  "evidence_run_id": 33219675136,
+  "evidence_artifact_id": 9704725009,
+  "count": 10,
+  "records": [
+    {
+      "comuna": "Las Condes",
+      "region_id": "13",
+      "cplt_code": "MU135",
+      "fuente": "Municipalidad",
+      "numero": "4102",
+      "fecha": "2024-10-30",
+      "titulo": "Modifícase la Ordenanza Local sobre Derechos Municipales de la Municipalidad de Las Condes, contenida en el texto refundido fijado por Decreto Alcaldicio Secc. 1ª N° 1338 de 5 de abril de 2024",
+      "materia": "Derechos Municipales y Tarifas",
+      "materia_id": "derechos_tarifas",
+      "source_listing_url": "https://www.lascondes.cl/ordenanzas-municipales/",
+      "target_url": "https://archivos.lascondes.cl/descargas/transparencia/ordenanzas/2024/decreto.4102.30oct2024.pdf",
+      "verification": {
+        "status": "verified",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "sha256": "a2db11f621a5dd2a193bbb864535eb3d5ba05db15ac25eebb613c16f25c50fa5",
+        "bytes": 132142,
+        "verified_at": "2026-08-28T23:13:45+00:00"
+      }
+    },
+    {
+      "comuna": "Las Condes",
+      "region_id": "13",
+      "cplt_code": "MU135",
+      "fuente": "Municipalidad",
+      "numero": "3727",
+      "fecha": "2023-10-26",
+      "titulo": "Modifícase la Ordenanza Local sobre Derechos Municipales de la Municipalidad de Las Condes, contenida en el texto refundido fijado por Decreto Alcaldicio Secc. 1ª N° 2462 de 10 de julio de 2023",
+      "materia": "Derechos Municipales y Tarifas",
+      "materia_id": "derechos_tarifas",
+      "source_listing_url": "https://www.lascondes.cl/ordenanzas-municipales/",
+      "target_url": "https://archivos.lascondes.cl/descargas/transparencia/ordenanzas/2023/decreto.3727.26oct2023.pdf",
+      "verification": {
+        "status": "verified",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "sha256": "330ce3f9e616a52d0811708f9da76e98328a5671bd62cba7632f629a0b6e2d23",
+        "bytes": 1117269,
+        "verified_at": "2026-08-28T23:13:46+00:00"
+      }
+    },
+    {
+      "comuna": "Las Condes",
+      "region_id": "13",
+      "cplt_code": "MU135",
+      "fuente": "Municipalidad",
+      "numero": "3409",
+      "fecha": "2022-09-29",
+      "titulo": "Incorpórase a la Ordenanza Local sobre Derechos Municipales de la Municipalidad de Las Condes un nuevo número 29 al artículo 22",
+      "materia": "Derechos Municipales y Tarifas",
+      "materia_id": "derechos_tarifas",
+      "source_listing_url": "https://www.lascondes.cl/ordenanzas-municipales/",
+      "target_url": "https://archivos.lascondes.cl/descargas/transparencia/presupuesto/2022/decreto.3409.29sep2022.pdf",
+      "verification": {
+        "status": "verified",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "sha256": "1505cca02d29ee468f1d1a89569e7c65625faacb6a46c716118650439bf9d2a7",
+        "bytes": 408295,
+        "verified_at": "2026-08-28T23:13:46+00:00"
+      }
+    },
+    {
+      "comuna": "Las Condes",
+      "region_id": "13",
+      "cplt_code": "MU135",
+      "fuente": "Municipalidad",
+      "numero": "1699",
+      "fecha": "2022-05-05",
+      "titulo": "Apruébase la prórroga del plazo de la exención incorporada a la Ordenanza Local sobre Derechos Municipales de la Municipalidad de Las Condes",
+      "materia": "Derechos Municipales y Tarifas",
+      "materia_id": "derechos_tarifas",
+      "source_listing_url": "https://www.lascondes.cl/ordenanzas-municipales/",
+      "target_url": "https://archivos.lascondes.cl/descargas/transparencia/ordenanzas/decreto.1699.05may2022.pdf",
+      "verification": {
+        "status": "verified",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "sha256": "f7d939c08fa56bad5b4d0924cd1856280d87ef0529330169c5f36cff0de3b2ce",
+        "bytes": 606886,
+        "verified_at": "2026-08-28T23:13:46+00:00"
+      }
+    },
+    {
+      "comuna": "Las Condes",
+      "region_id": "13",
+      "cplt_code": "MU135",
+      "fuente": "Municipalidad",
+      "numero": "1338",
+      "fecha": "2024-04-05",
+      "titulo": "Fíjase el texto refundido de la Ordenanza Local sobre Derechos Municipales de la Municipalidad de Las Condes",
+      "materia": "Derechos Municipales y Tarifas",
+      "materia_id": "derechos_tarifas",
+      "source_listing_url": "https://www.lascondes.cl/ordenanzas-municipales/",
+      "target_url": "https://archivos.lascondes.cl/descargas/transparencia/ordenanzas/2024/decreto.1338.05abr2024.pdf",
+      "verification": {
+        "status": "verified",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "sha256": "0d9281e74acc37bbbcc9a599ff1a99b992803c50367bb6f7810b8264951df3f3",
+        "bytes": 6358548,
+        "verified_at": "2026-08-28T23:13:46+00:00"
+      }
+    },
+    {
+      "comuna": "Las Condes",
+      "region_id": "13",
+      "cplt_code": "MU135",
+      "fuente": "Municipalidad",
+      "numero": "1620",
+      "fecha": "2024-04-16",
+      "titulo": "Apruébase texto refundido de la Ordenanza de Participación Ciudadana",
+      "materia": "Normativa General y Otras Materias",
+      "materia_id": "general",
+      "source_listing_url": "https://www.lascondes.cl/ordenanzas-municipales/",
+      "target_url": "https://archivos.lascondes.cl/descargas/transparencia/ordenanzas/2024/decreto.1620.16abr2024.pdf",
+      "verification": {
+        "status": "verified",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "sha256": "51447e6e03f848db2cc5e0b77a3fee88dfa7b8235196073e5593b621e113fb0b",
+        "bytes": 1873697,
+        "verified_at": "2026-08-28T23:13:47+00:00"
+      }
+    },
+    {
+      "comuna": "Las Condes",
+      "region_id": "13",
+      "cplt_code": "MU135",
+      "fuente": "Municipalidad",
+      "numero": "2271",
+      "fecha": "2024-06-10",
+      "titulo": "Incorpórase a la Ordenanza Local sobre Derechos Municipales de Las Condes",
+      "materia": "Derechos Municipales y Tarifas",
+      "materia_id": "derechos_tarifas",
+      "source_listing_url": "https://www.lascondes.cl/ordenanzas-municipales/",
+      "target_url": "https://archivos.lascondes.cl/descargas/transparencia/ordenanzas/2024/decreto.2271.10jun2024.pdf",
+      "verification": {
+        "status": "verified",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "sha256": "01631b8db315d422e37aed1607a89c5562c8dc717deb84ca6b9351a5a79fa238",
+        "bytes": 326228,
+        "verified_at": "2026-08-28T23:13:47+00:00"
+      }
+    },
+    {
+      "comuna": "Las Condes",
+      "region_id": "13",
+      "cplt_code": "MU135",
+      "fuente": "Municipalidad",
+      "numero": "3535",
+      "fecha": "2024-09-14",
+      "titulo": "Modifícase la Ordenanza para la Ocupación del Espacio Público y de Antejardines en Áreas Comerciales",
+      "materia": "Normativa General y Otras Materias",
+      "materia_id": "general",
+      "source_listing_url": "https://www.lascondes.cl/ordenanzas-municipales/",
+      "target_url": "https://archivos.lascondes.cl/descargas/transparencia/ordenanzas/2024/decreto.3535.14sep2024.pdf",
+      "verification": {
+        "status": "verified",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "sha256": "583e06100141a8f803be5f9360b720cf6b7833f1c5b74debca29d5a5247bcba5",
+        "bytes": 164205,
+        "verified_at": "2026-08-28T23:13:47+00:00"
+      }
+    },
+    {
+      "comuna": "Providencia",
+      "region_id": "13",
+      "cplt_code": "MU228",
+      "fuente": "Municipalidad",
+      "numero": "1803",
+      "fecha": "2025-12-16",
+      "titulo": "Texto refundido y sistematizado de la Ordenanza Local sobre Derechos Municipales que regirá para el año 2026",
+      "materia": "Derechos Municipales y Tarifas",
+      "materia_id": "derechos_tarifas",
+      "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112",
+      "target_url": "https://firma.providencia.cl/dsign/temp/0002015082.PDF",
+      "verification": {
+        "status": "verified",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "sha256": "ef9862faf97d517bb4fc40d876104d9ed9d75bc02840d404e616f12b2fdc0641",
+        "bytes": 25673914,
+        "verified_at": "2026-08-28T23:15:24+00:00"
+      },
+      "auxiliary_evidence": [
+        {
+          "type": "diario_oficial_extract",
+          "target_url": "http://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=7NQmddv3y9qkgzB4S43mZg%3D%3D",
+          "sha256": "f411f21c24fe996ad9021d8675ab812ff1c00234894a0308fb0825653dac6842",
+          "bytes": 162270,
+          "verified_at": "2026-08-28T23:13:51+00:00"
+        }
+      ]
+    },
+    {
+      "comuna": "Providencia",
+      "region_id": "13",
+      "cplt_code": "MU228",
+      "fuente": "Municipalidad",
+      "numero": "241",
+      "fecha": "2026-03-23",
+      "titulo": "Modifícase la Ordenanza Local sobre Derechos Municipales que rige para el año 2026, cuyo texto refundido y sistematizado fue fijado por Decreto Alcaldicio Exento N° 1803 de 16 de diciembre de 2025",
+      "materia": "Derechos Municipales y Tarifas",
+      "materia_id": "derechos_tarifas",
+      "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085",
+      "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=OqxoVOOfCiI74ESLcySFQA%3D%3D",
+      "verification": {
+        "status": "verified",
+        "http_status": 200,
+        "content_type": "application/pdf",
+        "sha256": "d3ed01f911006c57a93cce49539c96e2b990112dd3299d2c0d9bde955b6b2f54",
+        "bytes": 701322,
+        "verified_at": "2026-08-28T23:15:26+00:00"
+      }
+    }
+  ]
+}
