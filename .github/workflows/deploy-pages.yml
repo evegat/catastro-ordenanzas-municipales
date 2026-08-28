@@ -1,4 +1,4 @@
-﻿name: Deploy Dashboard to GitHub Pages
+name: Deploy Dashboard to GitHub Pages
 
 on:
   push:
@@ -23,6 +23,19 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Apply CPLT link safety layer
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          index = Path('dashboard/index.html')
+          html = index.read_text(encoding='utf-8-sig')
+          marker = '<script src="cplt-safety.js"></script>'
+          if marker not in html:
+              html = html.replace('</body>', f'  {marker}\n</body>')
+          index.write_text(html, encoding='utf-8')
+          PY
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
