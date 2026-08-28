@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "policy": "Only official municipal transparency or normative listings. Candidate rows are public only after the linked document resolves as PDF and is hashed.",
+  "version": 2,
+  "policy": "Only official municipal transparency or normative listings. A seed is metadata transcribed from an official listing plus an official document URL; the pipeline still downloads the document, verifies PDF bytes and computes SHA-256 before acceptance.",
   "sources": [
     {
       "id": "las-condes-ordenanzas",
@@ -17,7 +17,44 @@
         "date": 3,
         "description": 8,
         "document": 9
-      }
+      },
+      "verified_seeds": [
+        {
+          "year": 2024,
+          "numero": "1338",
+          "fecha": "05-04-2024",
+          "titulo": "Fíjase el texto refundido de la Ordenanza Local sobre Derechos Municipales de la Municipalidad de Las Condes",
+          "document_url": "https://archivos.lascondes.cl/descargas/transparencia/ordenanzas/2024/decreto.1338.05abr2024.pdf"
+        },
+        {
+          "year": 2024,
+          "numero": "1620",
+          "fecha": "16-04-2024",
+          "titulo": "Apruébase texto refundido de la Ordenanza de Participación Ciudadana",
+          "document_url": "https://archivos.lascondes.cl/descargas/transparencia/ordenanzas/2024/decreto.1620.16abr2024.pdf"
+        },
+        {
+          "year": 2024,
+          "numero": "2271",
+          "fecha": "10-06-2024",
+          "titulo": "Incorpórase a la Ordenanza Local sobre Derechos Municipales de Las Condes",
+          "document_url": "https://archivos.lascondes.cl/descargas/transparencia/ordenanzas/2024/decreto.2271.10jun2024.pdf"
+        },
+        {
+          "year": 2024,
+          "numero": "3535",
+          "fecha": "14-09-2024",
+          "titulo": "Modifícase la Ordenanza para la Ocupación del Espacio Público y de Antejardines en Áreas Comerciales",
+          "document_url": "https://archivos.lascondes.cl/descargas/transparencia/ordenanzas/2024/decreto.3535.14sep2024.pdf"
+        },
+        {
+          "year": 2023,
+          "numero": "3727",
+          "fecha": "26-10-2023",
+          "titulo": "Modificación de la Ordenanza Local sobre Derechos Municipales de Las Condes",
+          "document_url": "https://archivos.lascondes.cl/descargas/transparencia/ordenanzas/2023/decreto.3727.26oct2023.pdf"
+        }
+      ]
     },
     {
       "id": "providencia-ordenanzas-refundidos",
@@ -35,7 +72,16 @@
         "title": 4,
         "document": 6,
         "date": 8
-      }
+      },
+      "verified_seeds": [
+        {
+          "year": 2025,
+          "numero": "1803",
+          "fecha": "16-12-2025",
+          "titulo": "Texto refundido y sistematizado de la Ordenanza Local sobre Derechos Municipales que regirá para el año 2026",
+          "document_url": "https://firma.providencia.cl/dsign/temp/0002015082.PDF"
+        }
+      ]
     },
     {
       "id": "providencia-derechos-municipales",
@@ -53,7 +99,16 @@
         "date": 5,
         "description": 10,
         "document": 11
-      }
+      },
+      "verified_seeds": [
+        {
+          "year": 2026,
+          "numero": "241",
+          "fecha": "23-03-2026",
+          "titulo": "Modificación a la Ordenanza Local sobre Derechos Municipales que rige para el año 2026",
+          "document_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=OqxoVOOfCiI74ESLcySFQA%3D%3D"
+        }
+      ]
     }
   ]
 }
