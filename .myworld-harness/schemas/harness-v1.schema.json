@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://myworld.local/schemas/harness-v1.schema.json",
+  "title": "MyWorld Harness v1 product contract",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "product_id", "name", "owner", "myworld_project", "kind", "lifecycle_stage", "risk", "data_classification", "deployment", "repository", "commands", "critical_paths", "forbidden_paths", "multi_agent", "observability", "release", "evidence"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "product_id": {"type": "string", "pattern": "^(P|PUB|INV)[0-9]{3}([-.][A-Za-z0-9_-]+)?$"},
+    "name": {"type": "string", "minLength": 1},
+    "owner": {"type": "string", "minLength": 1},
+    "myworld_project": {"type": "string", "minLength": 1},
+    "kind": {"enum": ["static_site", "web_app", "api", "data_app", "automation", "payment", "internal_tool", "research_code", "mixed"]},
+    "lifecycle_stage": {"enum": ["idea", "prototype", "pilot", "staging", "production", "maintenance", "retirement"]},
+    "risk": {"enum": ["low", "moderate", "high", "critical"]},
+    "data_classification": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"enum": ["public", "internal", "confidential", "personal", "sensitive"]}},
+    "deployment": {
+      "type": "object", "additionalProperties": false,
+      "required": ["state", "production_urls"],
+      "properties": {"state": {"enum": ["local", "staging", "public", "retired", "unknown"]}, "production_urls": {"type": "array", "items": {"type": "string", "format": "uri"}}}
+    },
+    "repository": {
+      "type": "object", "additionalProperties": false,
+      "required": ["type", "default_branch", "remote_policy"],
+      "properties": {"type": {"const": "git"}, "default_branch": {"type": "string", "minLength": 1}, "remote_policy": {"enum": ["pending", "existing", "forbidden"]}}
+    },
+    "commands": {
+      "type": "object", "additionalProperties": false,
+      "required": ["quality", "build", "test"],
+      "properties": {"quality": {"type": "array", "items": {"type": "string"}}, "build": {"type": "array", "items": {"type": "string"}}, "test": {"type": "array", "items": {"type": "string"}}}
+    },
+    "critical_paths": {"type": "array", "items": {"type": "string"}},
+    "forbidden_paths": {"type": "array", "items": {"type": "string"}},
+    "multi_agent": {
+      "type": "object", "additionalProperties": false,
+      "required": ["isolation", "integration_owner"],
+      "properties": {"isolation": {"enum": ["branch", "worktree", "single_writer"]}, "integration_owner": {"type": "string", "minLength": 1}}
+    },
+    "observability": {
+      "type": "object", "additionalProperties": false,
+      "required": ["level", "domains", "monitors"],
+      "properties": {"level": {"type": "integer", "minimum": 0, "maximum": 4}, "domains": {"type": "array", "items": {"enum": ["technical", "pipeline", "product", "business"]}}, "monitors": {"type": "array", "items": {"$ref": "#/$defs/monitor"}}}
+    },
+    "release": {
+      "type": "object", "additionalProperties": false,
+      "required": ["backup_required", "restore_test_required", "rollback_required", "rpo_hours", "rto_hours"],
+      "properties": {"backup_required": {"type": "boolean"}, "restore_test_required": {"type": "boolean"}, "rollback_required": {"type": "boolean"}, "rpo_hours": {"type": ["integer", "null"], "minimum": 0}, "rto_hours": {"type": ["integer", "null"], "minimum": 0}}
+    },
+    "evidence": {
+      "type": "object", "additionalProperties": false,
+      "required": ["last_audit", "pending_register"],
+      "properties": {"last_audit": {"type": ["string", "null"], "format": "date-time"}, "pending_register": {"type": "string", "minLength": 1}}
+    }
+  },
+  "$defs": {
+    "monitor": {
+      "type": "object", "additionalProperties": false,
+      "required": ["name", "type", "target", "interval_seconds", "failure_threshold"],
+      "properties": {"name": {"type": "string"}, "type": {"enum": ["http", "keyword", "tls", "heartbeat"]}, "target": {"type": "string"}, "keyword": {"type": "string"}, "interval_seconds": {"type": "integer", "minimum": 60}, "failure_threshold": {"type": "integer", "minimum": 1}}
+    }
+  }
+}

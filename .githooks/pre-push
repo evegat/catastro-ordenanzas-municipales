@@ -1,0 +1,5 @@
+#!/bin/sh
+repo_root=$(git rev-parse --show-toplevel) || exit 2
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "$repo_root/.myworld-harness/harness.ps1" quality || exit $?
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "$repo_root/.myworld-harness/harness.ps1" security
+exit $?
