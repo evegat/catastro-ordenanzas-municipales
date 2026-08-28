@@ -8,7 +8,7 @@
 [ 🌐 **Abrir Dashboard Interactivo en Vivo** ](https://evegat.github.io/catastro-ordenanzas-municipales/)  
 [ 🇪🇸 Español ](README.md) · [ 🇬🇧 English version ](README.en.md)
 
-Herramienta de extracción, estructuración y catálogo nacional de **ordenanzas municipales de Chile**. La fuente estructurada principal es la **Biblioteca del Congreso Nacional (BCN/LeyChile)**; el proyecto incorpora además referencias complementarias identificadas en portales municipales y de Transparencia Activa.
+Herramienta de extracción, estructuración y catálogo nacional de **ordenanzas municipales de Chile**. La fuente estructurada principal y actualmente publicable es la **Biblioteca del Congreso Nacional (BCN/LeyChile)**. Las referencias complementarias identificadas en portales municipales/Transparencia Activa se preservan en cuarentena hasta contar con evidencia documental reproducible.
 
 ---
 
@@ -20,7 +20,7 @@ Este proyecto tiene como objetivos:
 1. **Consolidar y estructurar** un catastro unificado de recursos normativos municipales.
 2. **Proveer pipelines reproducibles en Python** para consultar el endpoint SPARQL de la BCN y procesar fuentes complementarias.
 3. **Ofrecer un catálogo descargable y visualizador interactivo** para análisis de políticas públicas locales y derecho municipal.
-4. **Mantener trazabilidad de las fuentes**, distinguiendo entre enlaces persistentes/verificables y referencias históricas que requieren revalidación.
+4. **Mantener trazabilidad de las fuentes**, distinguiendo entre corpus público verificable y referencias en cuarentena.
 
 ---
 
@@ -34,14 +34,15 @@ Este proyecto tiene como objetivos:
 │   ├── enrich_all_bcn.py              # Limpieza, enriquecimiento y normalización de metadatos
 │   ├── cplt_transparencia_crawler.py  # Esqueleto de integración con Transparencia Activa
 │   ├── verify_cplt_links.py           # Verificación reproducible de URLs CPLT/municipales
+│   ├── build_public_snapshot.py       # Construye publicación verified-only y descargas
 │   ├── maestro_generator.py           # Generador de estructura consolidada
-│   └── export_excel_and_zip.py        # Exportación en formatos abiertos (XLSX, CSV, JSON)
-├── dashboard/                         # Visualizador web interactivo (GitHub Pages)
+│   └── export_excel_and_zip.py        # Exportación de fuentes de trabajo
+├── dashboard/                         # Fuente del visualizador web
 │   ├── index.html
-│   ├── cplt-safety.js                 # Capa de seguridad para enlaces CPLT no verificados
-│   └── descargas/                     # Datasets compilados listos para análisis
-├── requirements.txt                   # Dependencias de Python reproducibles
-├── LICENSE                            # Licencia MIT
+│   ├── status_data.json
+│   └── descargas/
+├── requirements.txt
+├── LICENSE
 └── README.md
 ```
 
@@ -70,10 +71,7 @@ pip install -r requirements.txt
 
 ### 2. Ejecutar extracción y procesamiento
 ```bash
-# Ejecutar pipeline de extracción SPARQL BCN
 python src/bcn_full_fetcher.py
-
-# Enriquecer y exportar resultados consolidados
 python src/export_excel_and_zip.py
 ```
 
@@ -84,27 +82,42 @@ python src/verify_cplt_links.py
 
 El verificador registra código HTTP, redirecciones, tipo de recurso y si la URL parece apuntar directamente a un documento. **Una respuesta HTTP correcta no certifica vigencia ni autenticidad normativa.**
 
+### 4. Construir snapshot público verified-only
+```bash
+python src/build_public_snapshot.py dashboard
+```
+
+En producción este paso se ejecuta sobre una copia de `dashboard/` y excluye toda referencia CPLT no verificada antes de publicar GitHub Pages y regenerar las descargas.
+
 ---
 
 ## 📊 Alcance y Cobertura de Datos
 
-Corte del dataset publicado: **27 de agosto de 2026**.
+Corte de referencia: **27 de agosto de 2026**.
 
-- **Recursos catastrados:** 1.632 registros normativos.
-- **Fuentes:** 1.572 registros BCN y 60 referencias complementarias municipales/Transparencia Activa (2022–2026).
-- **Cobertura territorial observada:** 217 de 346 comunas presentan al menos un registro en las fuentes consolidadas.
-- **Rango temporal registrado:** 1980–2026.
-- **Clasificación temática:** 9 materias.
+### Corpus público
+- **1.572 registros BCN/LeyChile** con resolución mediante la fuente estructurada utilizada por el proyecto.
+- El número de comunas con registros públicos se calcula nuevamente durante cada build, una vez retirada la cuarentena.
+- Rango temporal observado: 1980–2026.
+- Clasificación temática: 9 materias.
 
-### Nota metodológica y limitaciones
+### Cuarentena
+- **60 referencias municipales/Transparencia Activa (2022–2026)** permanecen preservadas en el repositorio de trabajo, pero **no forman parte del dataset ni del dashboard público**.
+- Estas referencias fueron incorporadas desde una lista manual de URLs externas y no cuentan todavía, registro por registro, con documento preservado y evidencia reproducible suficiente.
 
-El catastro consolida documentos y referencias identificados en las fuentes consultadas y no constituye, por sí solo, una certificación de completitud normativa de cada municipalidad. **La ausencia de registros para una comuna no implica necesariamente que esa municipalidad no tenga ordenanzas vigentes**; puede reflejar ausencia, rezago, diferencias de publicación o dificultades de identificación en las fuentes disponibles.
+### Criterio de reincorporación
 
-Los **60 registros complementarios asociados a Transparencia Activa/portales municipales no deben interpretarse como 60 documentos preservados por el CPLT**. Fueron consolidados como referencias con URLs externas municipales. Esas URLs pueden cambiar, redirigir a la portada del organismo o devolver 404. Desde la corrección `MW-P090-0002`, el dashboard deja de presentarlas como “documentos CPLT vigentes”: se muestran como **referencias no verificadas** y se deriva la consulta al Portal de Transparencia oficial hasta que exista validación documental reproducible.
+Una referencia complementaria solo vuelve al corpus público cuando disponga de:
+1. URL oficial resoluble o copia documental preservada.
+2. Correspondencia comprobable entre documento y metadatos del registro.
+3. Fecha de verificación y estado de acceso.
+4. Trazabilidad suficiente para reproducir la incorporación.
 
-El archivo `src/cplt_transparencia_crawler.py` corresponde actualmente a una base de implementación y **no constituye todavía un crawler productivo**. Para auditar la accesibilidad de las URLs registradas se debe ejecutar `src/verify_cplt_links.py`.
+### Nota metodológica
 
-La cobertura comunal se calcula sobre las **346 comunas de Chile** y considera como “comuna con datos” aquella para la cual el dataset publicado contiene al menos un registro asociado. Las cifras pueden variar entre versiones a medida que se incorporan nuevas fuentes, se corrigen identificadores o se depuran duplicados.
+El catastro no certifica completitud normativa por municipalidad. **La ausencia de registros para una comuna no implica que esa municipalidad no tenga ordenanzas vigentes**; puede reflejar diferencias de publicación, cobertura de las fuentes o dificultades de identificación.
+
+`src/cplt_transparencia_crawler.py` sigue siendo una base de implementación y **no constituye todavía un crawler productivo**. Hasta completar ese componente y validar las referencias, GitHub Pages se construye bajo política `verified-only` y publica exclusivamente el corpus BCN/LeyChile.
 
 ---
 
