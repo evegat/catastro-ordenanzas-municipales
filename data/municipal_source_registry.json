@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "policy": "Only official municipal transparency or normative listings. A seed is metadata transcribed from an official listing plus an official document URL; the pipeline still downloads the document, verifies PDF bytes and computes SHA-256 before acceptance.",
   "sources": [
     {
@@ -107,6 +107,69 @@
           "fecha": "23-03-2026",
           "titulo": "Modificación a la Ordenanza Local sobre Derechos Municipales que rige para el año 2026",
           "document_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=OqxoVOOfCiI74ESLcySFQA%3D%3D"
+        }
+      ]
+    },
+    {
+      "id": "nunoa-repositorio-ordenanzas",
+      "municipality": "Ñuñoa",
+      "region_id": "13",
+      "cplt_code": "MU186",
+      "source_type": "municipal_repository",
+      "index_url": "https://www.nunoa.cl/repositorio-digital/",
+      "start_year": 2022,
+      "end_year": 2026,
+      "required_term": "ordenanza",
+      "column_map": {},
+      "verified_seeds": [
+        {
+          "year": 2026,
+          "numero": "45",
+          "fecha": "08-06-2026",
+          "titulo": "Ordenanza N°45 de Medio Ambiente y de Desarrollo Sustentable",
+          "document_url": "https://www.nunoa.cl/app/uploads/2026/06/ORDENANZA-N%C2%B045-DE-MEDIO-AMBIENTE-Y-DE-DESARROLLO-SUSTENTABLE.pdf"
+        },
+        {
+          "year": 2026,
+          "numero": "42",
+          "fecha": "04-06-2026",
+          "titulo": "Ordenanza N°42 sobre Retiro de Vehículos en Condiciones de Abandono en la Vía Pública de la Comuna de Ñuñoa",
+          "document_url": "https://www.nunoa.cl/app/uploads/2026/06/Ordenanza-N%C2%B042-sobre-Retiro-de-Vehiculos-en-Condiciones-de-Abandono-en-la-Via-Publica-de-la-Comuna-de-Nunoa.pdf"
+        },
+        {
+          "year": 2026,
+          "numero": "51",
+          "fecha": "04-05-2026",
+          "titulo": "Ordenanza N°51 para la promoción de la inclusión y la no discriminación en la comuna de Ñuñoa",
+          "document_url": "https://www.nunoa.cl/app/uploads/2026/05/Ordenanza-N%C2%B051-PARA-LA-PROMOCION-DE-LA-INCLUSION-Y-LA-NO-DISCRIMINACION-EN-LA-COMUNA-DE-NUNOA.pdf"
+        }
+      ]
+    },
+    {
+      "id": "santiago-kiosco-ordenanzas",
+      "municipality": "Santiago",
+      "region_id": "13",
+      "cplt_code": "MU308",
+      "source_type": "municipal_repository",
+      "index_url": "https://documentos.munistgo.cl/category/decretos-y-ordenanzas/",
+      "start_year": 2022,
+      "end_year": 2026,
+      "required_term": "ordenanza",
+      "column_map": {},
+      "verified_seeds": [
+        {
+          "year": 2026,
+          "numero": "130",
+          "fecha": "13-05-2026",
+          "titulo": "Ordenanza N°130 de 2026 sobre ordenamiento y retiro de tendidos aéreos y subterráneos en desuso",
+          "document_url": "https://documentos.munistgo.cl/wp-content/uploads/2026/05/1.-Ordenanza-N%C2%B0130-26-Ordenamiento-Tendido-Electrico_Orig.pdf"
+        },
+        {
+          "year": 2025,
+          "numero": "94",
+          "fecha": "29-10-2025",
+          "titulo": "Ordenanza N°94 sobre derechos por permisos y servicios municipales, año 2026",
+          "document_url": "https://documentos.munistgo.cl/wp-content/uploads/2025/12/Ordenanza-No-94-2026-V2.pdf"
         }
       ]
     }
