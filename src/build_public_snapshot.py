@@ -135,7 +135,43 @@ def format_count(value: int) -> str:
 
 def replace_element_text(html: str, element_id: str, value: str) -> str:
     pattern = rf'(<[^>]+id=["\']{re.escape(element_id)}["\'][^>]*>).*?(</[^>]+>)'
-    return re.sub(pattern, lambda m: f"{m.group(1)}{value}{m.group(2)}", html, count=1, flags=re.DOTALL)
+    return re.sub(
+        pattern,
+        lambda m: f"{m.group(1)}{value}{m.group(2)}",
+        html,
+        count=1,
+        flags=re.DOTALL,
+    )
+
+
+def extract_element_text(html: str, element_id: str) -> str:
+    pattern = rf'<[^>]+id=["\']{re.escape(element_id)}["\'][^>]*>(.*?)</[^>]+>'
+    match = re.search(pattern, html, flags=re.DOTALL)
+    if not match:
+        raise AssertionError(f"Missing HTML element #{element_id}")
+    return re.sub(r"<[^>]+>", "", match.group(1)).strip()
+
+
+def validate_public_html(index_path: Path, metrics: dict) -> None:
+    html = index_path.read_text(encoding="utf-8")
+    communes = int(metrics.get("comunas_con_datos", 0))
+    pct = round((communes / 346) * 100) if communes else 0
+    expected = {
+        "metric-total-ordenanzas": format_count(metrics.get("total_ordenanzas", 0)),
+        "metric-bcn-count": format_count(metrics.get("ordenanzas_bcn", 0)),
+        "metric-cplt-count": format_count(metrics.get("cplt_en_cuarentena", 0)),
+        "metric-comunas-con-datos": str(communes),
+        "pct-comunas": f"{pct}% cubierto",
+    }
+    for element_id, expected_text in expected.items():
+        actual = extract_element_text(html, element_id)
+        if actual != expected_text:
+            raise AssertionError(
+                f"#{element_id}: expected {expected_text!r}, got {actual!r}"
+            )
+
+    if "data.metrics.cplt_en_cuarentena" not in html:
+        raise AssertionError("Runtime CPLT metric is not bound to quarantine count")
 
 
 def patch_public_html(index_path: Path, metrics: dict) -> None:
@@ -188,6 +224,7 @@ def patch_public_html(index_path: Path, metrics: dict) -> None:
     # The former runtime CPLT safety shim is not used in the verified-only public build.
     html = html.replace('  <script src="cplt-safety.js"></script>\n', "")
     index_path.write_text(html, encoding="utf-8")
+    validate_public_html(index_path, metrics)
 
 
 def build(dashboard_dir: Path) -> None:
