@@ -21,6 +21,10 @@ jobs:
         run: git config core.hooksPath .githooks
       - name: Contract and adapter
         run: python .myworld-harness/harness.py preflight
+      - name: Python quality gate
+        run: python -m compileall -q src
+      - name: Dashboard JavaScript syntax
+        run: node --check dashboard/cplt-safety.js
       - name: Built-in secret scanner
         run: python .myworld-harness/harness.py security --no-external
       - name: Gitleaks 8.30.1
