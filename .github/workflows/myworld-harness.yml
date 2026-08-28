@@ -1,0 +1,29 @@
+name: MyWorld Harness v1
+
+on:
+  pull_request:
+  push:
+
+permissions:
+  contents: read
+
+jobs:
+  harness:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Activate repository hooks path
+        run: git config core.hooksPath .githooks
+      - name: Contract and adapter
+        run: python .myworld-harness/harness.py preflight
+      - name: Built-in secret scanner
+        run: python .myworld-harness/harness.py security --no-external
+      - name: Gitleaks 8.30.1
+        run: docker run --rm -v "$PWD:/repo" zricethezav/gitleaks:v8.30.1 git /repo --no-banner --redact --exit-code 1
+      - name: Trivy 0.74.0
+        run: docker run --rm -v "$PWD:/repo" aquasec/trivy:0.74.0 fs --scanners vuln,misconfig --severity HIGH,CRITICAL --exit-code 1 --no-progress --skip-dirs node_modules --skip-dirs .git /repo
