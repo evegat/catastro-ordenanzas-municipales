@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "owner": "Eduardo Vega",
+  "risk": "moderate",
+  "data_classification": ["public"],
+  "deployment": {"state": "public", "production_urls": ["https://evegat.github.io/catastro-ordenanzas-municipales/"]},
+  "commands": {"quality": ["python -m compileall -q src"], "build": [], "test": []},
+  "critical_paths": ["src", "dashboard", "data", "requirements.txt"],
+  "forbidden_paths": [".env", "credentials", "_backups"],
+  "multi_agent": {"isolation": "worktree", "integration_owner": "Eduardo Vega"},
+  "observability": {"level": 2, "domains": ["technical", "pipeline", "product"], "monitors": [{"name": "github-pages", "type": "http", "target": "https://evegat.github.io/catastro-ordenanzas-municipales/", "interval_seconds": 3600, "failure_threshold": 2}]},
+  "release": {"backup_required": false, "restore_test_required": false, "rollback_required": true, "rpo_hours": null, "rto_hours": null},
+  "evidence": {"last_audit": null, "pending_register": "MyWorld:harness/state/pending.ndjson"},
+  "product_id": "P090",
+  "name": "Catastro Nacional de Ordenanzas Municipales",
+  "myworld_project": "P090",
+  "kind": "data_app",
+  "lifecycle_stage": "production",
+  "repository": {"type": "git", "default_branch": "main", "remote_policy": "existing"}
+}
