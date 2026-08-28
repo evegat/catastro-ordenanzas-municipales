@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "policy": "Only official municipal transparency or normative listings. Candidate rows are public only after the linked document resolves as PDF and is hashed.",
+  "sources": [
+    {
+      "id": "las-condes-ordenanzas",
+      "municipality": "Las Condes",
+      "region_id": "13",
+      "cplt_code": "MU135",
+      "source_type": "municipal_transparency",
+      "index_url": "https://www.lascondes.cl/ordenanzas-municipales/",
+      "start_year": 2022,
+      "end_year": 2026,
+      "required_term": "ordenanza",
+      "column_map": {
+        "number": 2,
+        "date": 3,
+        "description": 8,
+        "document": 9
+      }
+    },
+    {
+      "id": "providencia-ordenanzas-refundidos",
+      "municipality": "Providencia",
+      "region_id": "13",
+      "cplt_code": "MU228",
+      "source_type": "municipal_transparency",
+      "index_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112",
+      "start_year": 2022,
+      "end_year": 2026,
+      "required_term": "ordenanza",
+      "column_map": {
+        "year": 0,
+        "number": 3,
+        "title": 4,
+        "document": 6,
+        "date": 8
+      }
+    },
+    {
+      "id": "providencia-derechos-municipales",
+      "municipality": "Providencia",
+      "region_id": "13",
+      "cplt_code": "MU228",
+      "source_type": "municipal_transparency",
+      "index_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085",
+      "start_year": 2022,
+      "end_year": 2026,
+      "required_term": "ordenanza",
+      "column_map": {
+        "year": 0,
+        "number": 4,
+        "date": 5,
+        "description": 10,
+        "document": 11
+      }
+    }
+  ]
+}
