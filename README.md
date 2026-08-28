@@ -93,17 +93,17 @@ En producción este paso se ejecuta sobre una copia de `dashboard/` y excluye to
 
 ## 📊 Alcance y Cobertura de Datos
 
-Corte de referencia: **27 de agosto de 2026**.
+Los conteos públicos **no se mantienen manualmente en este README**. Se recalculan en cada build desde las filas efectivamente publicables y quedan expuestos en `dashboard/status_data.json`, en el dashboard y en el manifiesto de las descargas.
 
 ### Corpus público
-- **1.572 registros BCN/LeyChile** con resolución mediante la fuente estructurada utilizada por el proyecto.
-- El número de comunas con registros públicos se calcula nuevamente durante cada build, una vez retirada la cuarentena.
+- Incluye únicamente registros **BCN/LeyChile** presentes en el snapshot `verified-only`.
+- El total de registros y el número de comunas con datos se recalculan automáticamente en cada publicación.
 - Rango temporal observado: 1980–2026.
 - Clasificación temática: 9 materias.
 
 ### Cuarentena
-- **60 referencias municipales/Transparencia Activa (2022–2026)** permanecen preservadas en el repositorio de trabajo, pero **no forman parte del dataset ni del dashboard público**.
-- Estas referencias fueron incorporadas desde una lista manual de URLs externas y no cuentan todavía, registro por registro, con documento preservado y evidencia reproducible suficiente.
+- Las referencias municipales/Transparencia Activa identificadas por el proyecto permanecen preservadas en el repositorio de trabajo, pero **no forman parte del dataset ni del dashboard público** mientras no cuenten con evidencia documental reproducible.
+- El tamaño de la cuarentena también se calcula automáticamente en cada build; no se fija como una cifra estática en la documentación.
 
 ### Criterio de reincorporación
 
