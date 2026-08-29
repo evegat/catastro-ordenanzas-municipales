@@ -1,0 +1,26 @@
+{
+  "task_id": "MW-P090-0010",
+  "derived_from": {
+    "run_id": 33259256827,
+    "artifact_id": 9716779792,
+    "artifact_sha256": "4ada6f6ff0ba295b45d207adef8d2a1cec4e859964f5b602fa66c062a5a9cbe9"
+  },
+  "policy": "Institutionally validated source seeds. Exhaust sources; do not infer legal completeness or publish automatically.",
+  "municipalities": [
+    {"cplt_code":"MU002","municipality":"Alhué","region_id":"13","seed_site":"https://www.municipalidadalhue.cl/","sources":["https://municipalidadalhue.cl/portal/"]},
+    {"cplt_code":"MU009","municipality":"Antofagasta","region_id":"02","seed_site":"https://www.municipalidadantofagasta.cl/","sources":["https://www.municipalidadantofagasta.cl/index.php/home/municipalidad/ordenanzas-municipales"]},
+    {"cplt_code":"MU019","municipality":"Calama","region_id":"02","seed_site":"https://www.municipalidadcalama.cl/","sources":["https://www.municipalidadcalama.cl/"]},
+    {"cplt_code":"MU020","municipality":"Calbuco","region_id":"10","seed_site":"https://www.municipalidadcalbuco.cl/","sources":["https://transparencia.municipalidadcalbuco.cl/actos_terceros_ordenanzas.htm"]},
+    {"cplt_code":"MU030","municipality":"Casablanca","region_id":"05","seed_site":"https://www.municipalidadcasablanca.cl/","sources":["https://www.municipalidadcasablanca.cl/index.php?option=com_phocadownload&view=category&id=21:ordenanza-municipal&Itemid=353"]},
+    {"cplt_code":"MU031","municipality":"Castro","region_id":"10","seed_site":"https://www.municipalidadcastro.cl/","sources":["https://www.municipalidadcastro.cl/ordenanzas-municipales/"]},
+    {"cplt_code":"MU048","municipality":"Cobquecura","region_id":"16","seed_site":"https://www.municipalidadcobquecura.cl/","sources":["https://municipalidadcobquecura.cl/ordenanzas-municipales/"]},
+    {"cplt_code":"MU055","municipality":"Colbún","region_id":"07","seed_site":"https://www.municipalidadcolbun.cl/","sources":["https://www.municipalidadcolbun.cl/transparencia/ordenanzas/","https://www.municipalidadcolbun.cl/ordenanzas/"]},
+    {"cplt_code":"MU073","municipality":"Curacaví","region_id":"13","seed_site":"https://www.municipalidadcuracavi.cl/","sources":["http://transparencia.municipalidadcuracavi.cl/documentacion.php?vartipo=1_07_Ordenanzas&vartipo2=1.7%20Ordenanzas","https://www.municipalidadcuracavi.cl/transparenciaactiva/page.php?vartipo=3_Ordenanzas&vartipo2=Ordenanzas"]},
+    {"cplt_code":"MU163","municipality":"Maipú","region_id":"13","seed_site":"https://www.municipalidadmaipu.cl/","sources":["https://www.municipalidadmaipu.cl/transparencia/ordenanzas.html","https://www.municipalidadmaipu.cl/ordenanzas-municipales/"]},
+    {"cplt_code":"MU200","municipality":"Panguipulli","region_id":"14","seed_site":"https://www.municipalidadpanguipulli.cl/","sources":["https://www.municipalidadpanguipulli.cl/"]},
+    {"cplt_code":"MU217","municipality":"Pica","region_id":"01","seed_site":"https://www.municipalidadpica.cl/","sources":["http://www.municipalidadpica.cl/www2/index.php/comuna/ordenanzas-municipales"]},
+    {"cplt_code":"MU261","municipality":"Ránquil","region_id":"16","seed_site":"https://www.municipalidadranquil.cl/","sources":["https://www.municipalidadranquil.cl/ordenanzas.html"]},
+    {"cplt_code":"MU314","municipality":"Taltal","region_id":"02","seed_site":"https://www.municipalidadtaltal.cl/","sources":["https://portal.municipalidadtaltal.cl/"]},
+    {"cplt_code":"MU329","municipality":"Tucapel","region_id":"08","seed_site":"https://www.municipalidadtucapel.cl/","sources":["https://www.municipalidadtucapel.cl/"]}
+  ]
+}
