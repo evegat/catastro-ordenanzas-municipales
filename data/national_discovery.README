@@ -1,0 +1,1 @@
+MW-P090-0009 national discovery results are generated as GitHub Actions artifacts, not committed snapshots. Canonical evidence for the hardened run is documented in docs/MW-P090-0009-national-discovery.md.
