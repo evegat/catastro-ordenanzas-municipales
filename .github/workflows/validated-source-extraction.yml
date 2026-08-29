@@ -1,0 +1,135 @@
+name: Validated Municipal Source Extraction
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - feat/MW-P090-0010-extract-validated-sources
+    paths:
+      - 'src/extract_validated_municipal_sources.py'
+      - 'data/validated_municipal_source_seeds.json'
+      - '.github/workflows/validated-source-extraction.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  extract:
+    name: shard-${{ matrix.shard }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3, 4]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
+        run: python -m pip install --disable-pip-version-check -r requirements.txt
+
+      - name: Compile extractor
+        run: python -m py_compile src/extract_validated_municipal_sources.py
+
+      - name: Extract and verify documents
+        run: >-
+          python src/extract_validated_municipal_sources.py
+          --shard-index ${{ matrix.shard }}
+          --shard-count 5
+          --max-pages 250
+          --timeout 12
+          --max-pdf-mb 80
+          --out /tmp/validated-extraction-${{ matrix.shard }}.json
+
+      - name: Upload shard evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: p090-validated-extraction-shard-${{ matrix.shard }}
+          path: /tmp/validated-extraction-${{ matrix.shard }}.json
+          retention-days: 30
+
+  aggregate:
+    name: aggregate-extraction-evidence
+    needs: extract
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download shard evidence
+        uses: actions/download-artifact@v4
+        with:
+          pattern: p090-validated-extraction-shard-*
+          path: /tmp/extraction-shards
+          merge-multiple: true
+
+      - name: Merge evidence and gate contract
+        run: |
+          python - <<'PY'
+          import json
+          from collections import Counter
+          from pathlib import Path
+
+          records = []
+          shard_files = sorted(Path('/tmp/extraction-shards').glob('validated-extraction-*.json'))
+          assert len(shard_files) == 5, f'Expected 5 shards, got {len(shard_files)}'
+          for path in shard_files:
+              payload = json.loads(path.read_text(encoding='utf-8'))
+              records.extend(payload.get('records', []))
+
+          assert len(records) == 15, f'Expected 15 municipalities, got {len(records)}'
+          assert len({r['cplt_code'] for r in records}) == 15
+          assert not any(r.get('coverage_complete') for r in records)
+
+          hashes = set()
+          statuses = Counter()
+          sources_attempted = 0
+          sources_exhausted = 0
+          unresolved = 0
+          for record in records:
+              sources_attempted += record['sources_attempted']
+              sources_exhausted += record['sources_listing_exhausted']
+              unresolved += record['unresolved_documents']
+              for source in record.get('sources', []):
+                  for doc in source.get('documents', []):
+                      v = doc.get('verification') or {}
+                      status = v.get('status') or 'unknown'
+                      statuses[status] += 1
+                      if status == 'verified_pdf':
+                          assert len(v.get('sha256', '')) == 64
+                          assert int(v.get('bytes', 0)) > 0
+                          hashes.add(v['sha256'])
+
+          summary = {
+              'municipalities': len(records),
+              'sources_attempted': sources_attempted,
+              'sources_listing_exhausted': sources_exhausted,
+              'unique_verified_pdfs': len(hashes),
+              'unresolved_document_links': unresolved,
+              'verification_status': dict(sorted(statuses.items())),
+          }
+          output = {
+              'task_id': 'MW-P090-0010',
+              'policy': 'EVIDENCE ONLY; NO SAMPLING; source exhaustion != municipal completeness',
+              'summary': summary,
+              'records': sorted(records, key=lambda r: r['cplt_code']),
+          }
+          Path('/tmp/validated-municipal-extraction.json').write_text(
+              json.dumps(output, ensure_ascii=False, indent=2), encoding='utf-8'
+          )
+          print('Validated extraction contract OK:', summary)
+          PY
+
+      - name: Upload aggregate evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: p090-validated-municipal-extraction
+          path: /tmp/validated-municipal-extraction.json
+          retention-days: 30
