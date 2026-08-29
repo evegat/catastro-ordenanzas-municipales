@@ -2,10 +2,10 @@
 
 Completeness rules:
 - no municipality is complete because a sample document was found;
-- authoritative paginated listings must be exhausted;
+- paginated official sources must be exhausted, but source exhaustion is not municipal completeness;
 - every in-scope candidate must be resolved and verified;
 - related decrees/regulations are preserved but typed separately;
-- national completeness is reported separately from the verified partial corpus.
+- municipality completeness requires explicit evidence that all relevant official sources are reconciled.
 """
 from __future__ import annotations
 
@@ -155,7 +155,7 @@ def direct_pdf_candidates(pages: list[tuple[str, str]]) -> list[dict[str, Any]]:
 
 
 def archive_entries(listing_url: str, text: str) -> list[dict[str, str]]:
-    """Return post-level archive entries without pairing a title with sidebar/footer links."""
+    """Return post-level archive entries without pairing titles with navigation/sidebar links."""
     soup = BeautifulSoup(text, "html.parser")
     entries: dict[str, dict[str, str]] = {}
 
@@ -178,18 +178,22 @@ def archive_entries(listing_url: str, text: str) -> list[dict[str, str]]:
         if not link:
             continue
         href = urljoin(listing_url, link["href"])
+        path = urlparse(href).path.lower()
+        if "/category/" in path:
+            continue
         if href.split("#", 1)[0].rstrip("/") == listing_url.split("#", 1)[0].rstrip("/"):
             continue
         entries[href] = {"titulo": title, "href": href, "listing_url": listing_url}
 
-    # Conservative fallback for archive themes without <article>: only use the
-    # ordinance-titled link itself, never arbitrary links that follow it.
     if not entries:
         for a in soup.find_all("a", href=True):
             title = normalize_text(a.get_text(" ", strip=True))
             if not is_ordinance_text(title):
                 continue
             href = urljoin(listing_url, a["href"])
+            path = urlparse(href).path.lower()
+            if "/category/" in path:
+                continue
             if href.startswith(listing_url + "#") or href.rstrip("/") == listing_url.rstrip("/"):
                 continue
             entries[href] = {"titulo": title, "href": href, "listing_url": listing_url}
@@ -326,6 +330,7 @@ def audit_source(session, source: dict[str, Any]) -> dict[str, Any]:
         "verified_count": 0,
         "unresolved_count": 0,
         "listing_exhausted": False,
+        "source_exhausted": False,
         "coverage_complete": False,
         "errors": [],
         "records": [],
@@ -376,17 +381,22 @@ def audit_source(session, source: dict[str, Any]) -> dict[str, Any]:
     result["candidate_count"] = len(result["records"])
     result["verified_count"] = sum(r["verification"].get("status") == "verified" for r in result["records"])
     result["unresolved_count"] = sum(r["verification"].get("status") != "verified" for r in result["records"])
-
-    # A source may be authoritative historical evidence but explicitly not
-    # sufficient to prove CURRENT municipal completeness (e.g. a stale PDF index).
-    allowed_to_close = source.get("can_define_complete", strategy != "pdf_index")
-    result["coverage_complete"] = bool(
-        allowed_to_close
-        and result["authoritative_listing"]
-        and result["listing_exhausted"]
+    result["source_exhausted"] = bool(
+        result["listing_exhausted"]
         and not detail_errors
         and result["candidate_count"] > 0
         and result["unresolved_count"] == 0
+    )
+
+    # Deliberately fail closed. A repository can be fully crawled while still
+    # omitting repealed, migrated or historically archived ordinances. Municipal
+    # completeness requires an explicit source-registry decision after cross-source
+    # reconciliation; it is never inferred from crawl success alone.
+    allowed_to_close = bool(source.get("can_define_complete", False))
+    result["coverage_complete"] = bool(
+        allowed_to_close
+        and result["authoritative_listing"]
+        and result["source_exhausted"]
     )
     return result
 
@@ -402,24 +412,31 @@ def national_coverage(directory: list[dict[str, Any]], audits: list[dict[str, An
         code = org["cplt_code"]
         source_audits = by_code.get(code, [])
         complete = any(a.get("coverage_complete") for a in source_audits)
+        exhausted_sources = sum(bool(a.get("source_exhausted")) for a in source_audits)
         status = "complete" if complete else ("partial" if source_audits else "unregistered")
         municipalities.append({
             "cplt_code": code,
             "organism_name": org.get("organism_name"),
             "status": status,
             "registered_sources": len(source_audits),
+            "exhausted_sources": exhausted_sources,
             "verified_records": sum(int(a.get("verified_count") or 0) for a in source_audits),
         })
 
     counts = {
         "municipalities_total": len(municipalities),
+        "communes_total": 346,
         "complete": sum(m["status"] == "complete" for m in municipalities),
         "partial": sum(m["status"] == "partial" for m in municipalities),
         "unregistered": sum(m["status"] == "unregistered" for m in municipalities),
+        "sources_exhausted": sum(m["exhausted_sources"] for m in municipalities),
     }
     return {
         "generated_at": now_iso(),
-        "definition": "complete = authoritative current ordinance listing exhausted and every discovered candidate resolved and verified",
+        "definition": (
+            "source_exhausted = every candidate discoverable from one registered source was processed; "
+            "complete = all relevant official sources for that municipality were reconciled and the registry explicitly permits closure"
+        ),
         "counts": counts,
         "national_complete": counts["complete"] == counts["municipalities_total"],
         "municipalities": municipalities,
@@ -447,13 +464,17 @@ def main() -> int:
         print(
             f"{source['id']}: strategy={audit['coverage_strategy']} pages={audit['listing_pages']} "
             f"candidates={audit['candidate_count']} verified={audit['verified_count']} "
-            f"unresolved={audit['unresolved_count']} complete={audit['coverage_complete']}"
+            f"unresolved={audit['unresolved_count']} source_exhausted={audit['source_exhausted']} "
+            f"complete={audit['coverage_complete']}"
         )
 
     coverage = national_coverage(load_directory(session), audits)
     payload = {
         "generated_at": now_iso(),
-        "policy": "NO SAMPLING: all discoverable ordinances and ordinance-modifying acts from each authoritative official listing must be enumerated; related acts are typed separately",
+        "policy": (
+            "NO SAMPLING: all discoverable ordinances and ordinance-modifying acts from each official source must be enumerated; "
+            "exhausting one source never proves municipal completeness by itself"
+        ),
         "source_audits": audits,
         "national_coverage": coverage,
     }
