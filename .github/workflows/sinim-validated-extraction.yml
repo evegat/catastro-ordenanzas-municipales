@@ -4,9 +4,14 @@ on:
   workflow_dispatch:
     inputs:
       sinim_run_id:
-        description: Successful MW-P090-0012 SINIM Seed Enrichment run id
-        required: true
+        description: Optional successful MW-P090-0012 SINIM Seed Enrichment run id; defaults to latest success
+        required: false
         type: string
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/sinim-validated-extraction.yml'
 
 permissions:
   contents: read
@@ -26,11 +31,49 @@ jobs:
         with:
           python-version: '3.13'
 
+      - name: Resolve successful MW-P090-0012 run
+        id: source
+        env:
+          GH_TOKEN: ${{ github.token }}
+          INPUT_RUN_ID: ${{ inputs.sinim_run_id }}
+        run: |
+          set -euo pipefail
+          if [ -n "${INPUT_RUN_ID:-}" ]; then
+            SOURCE_RUN_ID="${INPUT_RUN_ID}"
+          else
+            curl -fsSL \
+              -H "Authorization: Bearer ${GH_TOKEN}" \
+              -H "Accept: application/vnd.github+json" \
+              "https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/workflows/sinim-seed-enrichment.yml/runs?status=success&per_page=20" \
+              -o /tmp/sinim-runs.json
+            SOURCE_RUN_ID="$(python - <<'PY'
+          import json
+          payload=json.load(open('/tmp/sinim-runs.json',encoding='utf-8'))
+          runs=[r for r in payload.get('workflow_runs',[]) if r.get('conclusion')=='success']
+          assert runs, 'No successful SINIM Seed Enrichment run found'
+          print(runs[0]['id'])
+          PY
+            )"
+          fi
+          curl -fsSL \
+            -H "Authorization: Bearer ${GH_TOKEN}" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/runs/${SOURCE_RUN_ID}" \
+            -o /tmp/source-run.json
+          python - <<'PY'
+          import json
+          p=json.load(open('/tmp/source-run.json',encoding='utf-8'))
+          assert p.get('conclusion')=='success', f"Source run is not successful: {p.get('conclusion')}"
+          assert p.get('name')=='SINIM Seed Enrichment', f"Unexpected source workflow: {p.get('name')}"
+          PY
+          echo "source_run_id=${SOURCE_RUN_ID}" >> "$GITHUB_OUTPUT"
+          echo "Using SINIM source run ${SOURCE_RUN_ID}"
+
       - name: Resolve MW-P090-0012 aggregate artifact
         id: artifact
         env:
           GH_TOKEN: ${{ github.token }}
-          SOURCE_RUN_ID: ${{ inputs.sinim_run_id }}
+          SOURCE_RUN_ID: ${{ steps.source.outputs.source_run_id }}
         run: |
           set -euo pipefail
           curl -fsSL \
@@ -51,6 +94,8 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           ARTIFACT_URL: ${{ steps.artifact.outputs.url }}
+          SOURCE_RUN_ID: ${{ steps.source.outputs.source_run_id }}
+          SOURCE_ARTIFACT_ID: ${{ steps.artifact.outputs.artifact_id }}
         run: |
           set -euo pipefail
           curl -fsSL -L \
@@ -65,8 +110,9 @@ jobs:
             --input "$LEDGER" \
             --output /tmp/sinim-valid-seeds.json
           python - <<'PY'
-          import json
-          p=json.load(open('/tmp/sinim-valid-seeds.json',encoding='utf-8'))
+          import json, os
+          path='/tmp/sinim-valid-seeds.json'
+          p=json.load(open(path,encoding='utf-8'))
           s=p['summary']
           assert p['task_id']=='MW-P090-0013'
           assert p['derived_from']['sinim_selector_count']==345
@@ -74,7 +120,11 @@ jobs:
           assert s['municipalities_selected']>0
           assert s['candidate_sources_selected']>=s['municipalities_selected']
           assert s['municipalities_selected']+s['municipalities_excluded']==345
-          print('Strict seed contract OK:',s)
+          p['derived_from']['sinim_run_id']=int(os.environ['SOURCE_RUN_ID'])
+          p['derived_from']['sinim_artifact_id']=int(os.environ['SOURCE_ARTIFACT_ID'])
+          with open(path,'w',encoding='utf-8') as fh:
+              json.dump(p,fh,ensure_ascii=False,indent=2)
+          print('Strict seed contract OK:',s,'source_run=',os.environ['SOURCE_RUN_ID'])
           PY
 
       - name: Upload strict seed artifact
