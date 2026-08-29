@@ -1,0 +1,107 @@
+name: National Municipal Discovery
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - feat/MW-P090-0009-national-sweep
+    paths:
+      - 'src/national_municipal_discovery.py'
+      - 'src/cplt_transparencia_crawler.py'
+      - 'data/maestro_comunas_chile.csv'
+      - 'data/municipal_source_registry.json'
+      - '.github/workflows/national-municipal-discovery.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  discover:
+    name: shard-${{ matrix.shard }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
+        run: python -m pip install --disable-pip-version-check -r requirements.txt
+
+      - name: Compile discovery crawler
+        run: python -m py_compile src/national_municipal_discovery.py
+
+      - name: Discover official municipal ordinance sources
+        run: >-
+          python src/national_municipal_discovery.py discover
+          --shard-index ${{ matrix.shard }}
+          --shard-count 12
+          --max-site-pages 8
+          --timeout 8
+          --out /tmp/national-discovery-${{ matrix.shard }}.json
+
+      - name: Upload shard evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: p090-national-discovery-shard-${{ matrix.shard }}
+          path: /tmp/national-discovery-${{ matrix.shard }}.json
+          retention-days: 14
+
+  aggregate:
+    name: aggregate-national-ledger
+    needs: discover
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
+        run: python -m pip install --disable-pip-version-check -r requirements.txt
+
+      - name: Download all shard evidence
+        uses: actions/download-artifact@v4
+        with:
+          pattern: p090-national-discovery-shard-*
+          path: /tmp/national-shards
+          merge-multiple: true
+
+      - name: Merge and validate national ledger
+        run: >-
+          python src/national_municipal_discovery.py merge
+          --input-dir /tmp/national-shards
+          --out /tmp/national-municipal-discovery.json
+
+      - name: Contract gate
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p = json.loads(Path('/tmp/national-municipal-discovery.json').read_text(encoding='utf-8'))
+          assert p['municipalities_total'] == 345
+          assert p['communes_total'] == 346
+          assert len(p['records']) == 345
+          assert not any(r.get('coverage_complete') for r in p['records'])
+          assert all(r.get('cplt_code', '').startswith('MU') for r in p['records'])
+          print('National discovery contract OK:', p['summary'])
+          PY
+
+      - name: Upload national discovery ledger
+        uses: actions/upload-artifact@v4
+        with:
+          name: p090-national-municipal-discovery
+          path: /tmp/national-municipal-discovery.json
+          retention-days: 30
