@@ -1,0 +1,102 @@
+name: SINIM Seed Enrichment
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - feat/MW-P090-0012-sinim-seed-enrichment
+    paths:
+      - 'src/sinim_seed_enrichment.py'
+      - 'src/national_municipal_discovery.py'
+      - '.github/workflows/sinim-seed-enrichment.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  enrich:
+    name: shard-${{ matrix.shard }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: python -m pip install --disable-pip-version-check -r requirements.txt
+      - name: Compile enrichment
+        run: python -m py_compile src/sinim_seed_enrichment.py
+      - name: Enrich from SINIM
+        run: >-
+          python src/sinim_seed_enrichment.py
+          --shard-index ${{ matrix.shard }}
+          --shard-count 12
+          --max-site-pages 8
+          --timeout 10
+          --out /tmp/sinim-enrichment-${{ matrix.shard }}.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: p090-sinim-enrichment-shard-${{ matrix.shard }}
+          path: /tmp/sinim-enrichment-${{ matrix.shard }}.json
+          retention-days: 30
+
+  aggregate:
+    name: aggregate-sinim-enrichment
+    needs: enrich
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: p090-sinim-enrichment-shard-*
+          path: /tmp/sinim-shards
+          merge-multiple: true
+      - name: Merge and validate
+        run: |
+          python - <<'PY'
+          import json
+          from collections import Counter
+          from pathlib import Path
+          files=sorted(Path('/tmp/sinim-shards').glob('sinim-enrichment-*.json'))
+          assert len(files)==12, len(files)
+          records=[]
+          reconciliation=[]
+          selector_counts=[]
+          reconciled_counts=[]
+          for path in files:
+              p=json.loads(path.read_text(encoding='utf-8'))
+              records.extend(p['records'])
+              reconciliation=p['sinim_reconciliation_failures']
+              selector_counts.append(p['sinim_selector_count'])
+              reconciled_counts.append(p['sinim_reconciled_count'])
+          assert min(selector_counts)>=340
+          assert len(set(selector_counts))==1
+          assert len(set(reconciled_counts))==1
+          assert len(records)==reconciled_counts[0], (len(records),reconciled_counts[0])
+          assert len({r['cplt_code'] for r in records})==len(records)
+          assert not any(r.get('coverage_complete') for r in records)
+          counts=Counter(r['state'] for r in records)
+          summary={
+            'sinim_selector_count':selector_counts[0],
+            'reconciled_municipalities':len(records),
+            'reconciliation_failures':len(reconciliation),
+            'states':dict(sorted(counts.items())),
+            'sinim_web_fields':sum(bool((r.get('ficha') or {}).get('web')) for r in records),
+            'identity_verified_sites':sum(bool((r.get('discovery') or {}).get('identity_verified')) for r in records),
+            'municipalities_with_candidates':sum(bool((r.get('discovery') or {}).get('candidate_sources')) for r in records),
+            'candidate_sources':sum(len((r.get('discovery') or {}).get('candidate_sources') or []) for r in records),
+          }
+          out={'task_id':'MW-P090-0012','summary':summary,'reconciliation_failures':reconciliation,'records':sorted(records,key=lambda r:r['cplt_code'])}
+          Path('/tmp/sinim-seed-enrichment.json').write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding='utf-8')
+          print('SINIM enrichment contract OK:',summary)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: p090-sinim-seed-enrichment
+          path: /tmp/sinim-seed-enrichment.json
+          retention-days: 30
