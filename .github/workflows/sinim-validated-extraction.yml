@@ -12,6 +12,9 @@ on:
       - main
     paths:
       - '.github/workflows/sinim-validated-extraction.yml'
+      - 'src/build_sinim_extraction_seeds.py'
+      - 'src/extract_sinim_validated_sources.py'
+      - 'src/extract_validated_municipal_sources.py'
 
 permissions:
   contents: read
