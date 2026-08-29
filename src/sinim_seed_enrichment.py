@@ -133,14 +133,12 @@ def reconcile_sinim_to_cplt(
         key = strip_municipality_prefix(organism.get("organism_name", ""))
         cplt_by_key.setdefault(key, []).append(organism)
 
-    # Explicit orthographic/institutional aliases verified against the current
-    # CPLT regulated-organism directory. SINIM names remain preserved in output.
     aliases = {
         "paihuano": "paiguano",
         "la calera": "calera",
         "o higgins": "ohiggins",
         "cabo de hornos": "cabo de hornos",
-        "isla de pascua": "isla de pascua (rapa nui)",
+        "isla de pascua": "isla de pascua rapa nui",
         "llaillay": "llay llay",
         "marchihue": "marchige",
         "natales": "puerto natales",
