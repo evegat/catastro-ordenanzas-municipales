@@ -38,25 +38,36 @@ jobs:
         run: python -m py_compile src/extract_validated_municipal_sources.py
 
       - name: Extract and verify documents
+        id: extract
+        continue-on-error: true
         run: >-
           python src/extract_validated_municipal_sources.py
           --shard-index ${{ matrix.shard }}
           --shard-count 5
           --max-pages 250
+          --max-candidates 1200
           --timeout 12
           --max-pdf-mb 80
           --out /tmp/validated-extraction-${{ matrix.shard }}.json
 
       - name: Upload shard evidence
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: p090-validated-extraction-shard-${{ matrix.shard }}
           path: /tmp/validated-extraction-${{ matrix.shard }}.json
           retention-days: 30
 
+      - name: Enforce extraction result
+        if: steps.extract.outcome != 'success'
+        run: |
+          echo 'Extraction failed or scope guard triggered; evidence was preserved.'
+          exit 1
+
   aggregate:
     name: aggregate-extraction-evidence
     needs: extract
+    if: always()
     runs-on: ubuntu-24.04
     timeout-minutes: 10
     steps:
@@ -93,10 +104,14 @@ jobs:
           sources_attempted = 0
           sources_exhausted = 0
           unresolved = 0
+          guards = 0
+          rejected = 0
           for record in records:
               sources_attempted += record['sources_attempted']
               sources_exhausted += record['sources_listing_exhausted']
               unresolved += record['unresolved_documents']
+              guards += record.get('scope_guards_triggered', 0)
+              rejected += record.get('scope_rejected_links', 0)
               for source in record.get('sources', []):
                   for doc in source.get('documents', []):
                       v = doc.get('verification') or {}
@@ -107,17 +122,20 @@ jobs:
                           assert int(v.get('bytes', 0)) > 0
                           hashes.add(v['sha256'])
 
+          assert guards == 0, f'Scope guard triggered in {guards} source(s); review evidence before retrying'
           summary = {
               'municipalities': len(records),
               'sources_attempted': sources_attempted,
               'sources_listing_exhausted': sources_exhausted,
+              'scope_guards_triggered': guards,
+              'scope_rejected_links': rejected,
               'unique_verified_pdfs': len(hashes),
               'unresolved_document_links': unresolved,
               'verification_status': dict(sorted(statuses.items())),
           }
           output = {
               'task_id': 'MW-P090-0010',
-              'policy': 'EVIDENCE ONLY; NO SAMPLING; source exhaustion != municipal completeness',
+              'policy': 'EVIDENCE ONLY; SCOPE-SAFE; source exhaustion != municipal completeness',
               'summary': summary,
               'records': sorted(records, key=lambda r: r['cplt_code']),
           }
@@ -128,6 +146,7 @@ jobs:
           PY
 
       - name: Upload aggregate evidence
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: p090-validated-municipal-extraction
