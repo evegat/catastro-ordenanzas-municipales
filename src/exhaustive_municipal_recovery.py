@@ -21,7 +21,7 @@ from dataclasses import dataclass
 from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any
-from urllib.parse import urljoin, urlparse
+from urllib.parse import parse_qs, urljoin, urlparse
 
 from cplt_transparencia_crawler import (
     ascii_key,
@@ -112,6 +112,21 @@ def is_pdf_url(url: str) -> bool:
     return urlparse(url).path.lower().endswith(".pdf")
 
 
+def pdf_targets(url: str, base_url: str) -> list[str]:
+    """Return direct PDFs, including PDFs wrapped by common viewer query params."""
+    absolute = urljoin(base_url, url)
+    out: list[str] = []
+    if is_pdf_url(absolute):
+        out.append(absolute)
+    query = parse_qs(urlparse(absolute).query)
+    for key in ("file", "pdf", "url", "document"):
+        for value in query.get(key, []):
+            candidate = urljoin(absolute, value)
+            if is_pdf_url(candidate):
+                out.append(candidate)
+    return list(dict.fromkeys(out))
+
+
 def ordinance_number(title: str) -> str:
     key = normalize_text(title)
     match = re.search(
@@ -151,7 +166,7 @@ def listing_pages(session, index_url: str, max_pages_cap: int) -> tuple[list[tup
         try:
             text, resolved, _ = fetch_html(session, url)
             pages.append((resolved, text))
-        except Exception as exc:  # evidence report keeps failures visible
+        except Exception as exc:
             errors.append(f"page_{n}: {type(exc).__name__}: {exc}")
     return pages, errors
 
@@ -160,19 +175,20 @@ def direct_pdf_candidates(pages: list[tuple[str, str]]) -> list[dict[str, Any]]:
     candidates: dict[str, dict[str, Any]] = {}
     for listing_url, text in pages:
         for anchor in parse_links(text):
-            href = urljoin(listing_url, anchor.href)
             context = anchor.heading or anchor.text
             if not is_ordinance_text(context):
                 continue
-            if not (is_pdf_url(href) or "pdf" in ascii_key(anchor.text)):
-                continue
-            candidates[href] = {
-                "titulo": context,
-                "numero": ordinance_number(context),
-                "listing_url": listing_url,
-                "document_url": href,
-                "discovery": "direct_listing_pdf",
-            }
+            targets = pdf_targets(anchor.href, listing_url)
+            if not targets and "pdf" in ascii_key(anchor.text):
+                targets = [urljoin(listing_url, anchor.href)]
+            for href in targets:
+                candidates[href] = {
+                    "titulo": context,
+                    "numero": ordinance_number(context),
+                    "listing_url": listing_url,
+                    "document_url": href,
+                    "discovery": "direct_listing_pdf",
+                }
     return list(candidates.values())
 
 
@@ -191,16 +207,20 @@ def category_post_candidates(session, pages: list[tuple[str, str]], index_host: 
 
     candidates: list[dict[str, Any]] = []
     for post_url, meta in posts.items():
-        if is_pdf_url(post_url):
-            candidates.append({**meta, "document_url": post_url, "discovery": "category_direct_pdf"})
+        direct_targets = pdf_targets(post_url, post_url)
+        if direct_targets:
+            for target in direct_targets:
+                candidates.append({**meta, "document_url": target, "discovery": "category_direct_pdf"})
             continue
         try:
             text, resolved, _ = fetch_html(session, post_url)
-            pdfs = []
+            pdfs: list[str] = []
             for anchor in parse_links(text):
-                href = urljoin(resolved, anchor.href)
-                if is_pdf_url(href) or "pdf" in ascii_key(anchor.text):
-                    pdfs.append(href)
+                pdfs.extend(pdf_targets(anchor.href, resolved))
+            # Some WordPress/PDF.js integrations store the viewer URL in raw HTML
+            # without presenting the PDF itself as an anchor. Capture those too.
+            for raw in re.findall(r"https?[^\"'<>\s]+", text):
+                pdfs.extend(pdf_targets(raw.replace("&amp;", "&"), resolved))
             pdfs = list(dict.fromkeys(pdfs))
             if not pdfs:
                 candidates.append({**meta, "detail_url": resolved, "document_url": None, "discovery": "category_post_no_pdf"})
@@ -257,7 +277,10 @@ def audit_source(session, source: dict[str, Any]) -> dict[str, Any]:
 
     dedup: dict[tuple[str, str], dict[str, Any]] = {}
     for candidate in candidates:
-        key = (candidate.get("numero") or candidate.get("titulo") or "", candidate.get("document_url") or candidate.get("detail_url") or "")
+        key = (
+            candidate.get("numero") or candidate.get("titulo") or "",
+            candidate.get("document_url") or candidate.get("detail_url") or "",
+        )
         dedup[key] = candidate
     candidates = list(dedup.values())
 
