@@ -1,0 +1,93 @@
+name: AChM Seed Enrichment
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - feat/MW-P090-0011-achm-seed-enrichment
+    paths:
+      - 'src/achm_seed_enrichment.py'
+      - 'src/national_municipal_discovery.py'
+      - '.github/workflows/achm-seed-enrichment.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  enrich:
+    name: shard-${{ matrix.shard }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: python -m pip install --disable-pip-version-check -r requirements.txt
+      - name: Compile enrichment
+        run: python -m py_compile src/achm_seed_enrichment.py
+      - name: Enrich national seeds
+        run: >-
+          python src/achm_seed_enrichment.py
+          --shard-index ${{ matrix.shard }}
+          --shard-count 6
+          --max-achm-pages 25
+          --max-site-pages 8
+          --timeout 10
+          --out /tmp/achm-enrichment-${{ matrix.shard }}.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: p090-achm-enrichment-shard-${{ matrix.shard }}
+          path: /tmp/achm-enrichment-${{ matrix.shard }}.json
+          retention-days: 30
+
+  aggregate:
+    name: aggregate-achm-enrichment
+    needs: enrich
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: p090-achm-enrichment-shard-*
+          path: /tmp/achm-shards
+          merge-multiple: true
+      - name: Merge and validate
+        run: |
+          python - <<'PY'
+          import json
+          from collections import Counter
+          from pathlib import Path
+          files = sorted(Path('/tmp/achm-shards').glob('achm-enrichment-*.json'))
+          assert len(files) == 6, len(files)
+          records=[]
+          seed_counts=[]
+          for path in files:
+              p=json.loads(path.read_text(encoding='utf-8'))
+              records.extend(p['records'])
+              seed_counts.append(p['achm_seed_records'])
+          assert len(records)==345, len(records)
+          assert len({r['cplt_code'] for r in records})==345
+          assert not any(r.get('coverage_complete') for r in records)
+          counts=Counter(r['state'] for r in records)
+          summary={
+              'municipalities':len(records),
+              'states':dict(sorted(counts.items())),
+              'achm_seed_records_min':min(seed_counts),
+              'achm_seed_records_max':max(seed_counts),
+              'verified_sites':sum(r['verified_site_count'] for r in records),
+              'candidate_sources':sum(r['candidate_source_count'] for r in records),
+          }
+          out={'task_id':'MW-P090-0011','summary':summary,'records':sorted(records,key=lambda r:r['cplt_code'])}
+          Path('/tmp/achm-seed-enrichment.json').write_text(json.dumps(out,ensure_ascii=False,indent=2),encoding='utf-8')
+          print('AChM enrichment contract OK:',summary)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: p090-achm-seed-enrichment
+          path: /tmp/achm-seed-enrichment.json
+          retention-days: 30
