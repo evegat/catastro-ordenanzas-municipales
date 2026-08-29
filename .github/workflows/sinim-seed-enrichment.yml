@@ -74,11 +74,13 @@ jobs:
               reconciliation=p['sinim_reconciliation_failures']
               selector_counts.append(p['sinim_selector_count'])
               reconciled_counts.append(p['sinim_reconciled_count'])
-          assert min(selector_counts)>=340
           assert len(set(selector_counts))==1
+          assert selector_counts[0]==345, selector_counts[0]
           assert len(set(reconciled_counts))==1
-          assert len(records)==reconciled_counts[0], (len(records),reconciled_counts[0])
-          assert len({r['cplt_code'] for r in records})==len(records)
+          assert reconciled_counts[0]==345, reconciled_counts[0]
+          assert not reconciliation, reconciliation
+          assert len(records)==345, len(records)
+          assert len({r['cplt_code'] for r in records})==345
           assert not any(r.get('coverage_complete') for r in records)
           counts=Counter(r['state'] for r in records)
           summary={
