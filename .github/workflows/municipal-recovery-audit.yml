@@ -6,6 +6,7 @@ on:
       - "feat/MW-P090-*"
     paths:
       - "src/cplt_transparencia_crawler.py"
+      - "src/exhaustive_municipal_recovery.py"
       - "data/municipal_source_registry.json"
       - ".github/workflows/municipal-recovery-audit.yml"
   workflow_dispatch:
@@ -16,7 +17,7 @@ permissions:
 jobs:
   recovery:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -29,8 +30,10 @@ jobs:
       - name: Install dependencies
         run: python -m pip install --disable-pip-version-check -r requirements.txt
 
-      - name: Compile recovery crawler
-        run: python -m py_compile src/cplt_transparencia_crawler.py
+      - name: Compile recovery crawlers
+        run: |
+          python -m py_compile src/cplt_transparencia_crawler.py
+          python -m py_compile src/exhaustive_municipal_recovery.py
 
       - name: Normalize official CPLT municipality directory
         run: python src/cplt_transparencia_crawler.py directory --out /tmp/cplt_municipal_directory.json
@@ -38,7 +41,7 @@ jobs:
       - name: Probe representative CPLT municipality routes
         run: python src/cplt_transparencia_crawler.py probe --codes MU135 MU186 MU228 MU308 MU330 --out /tmp/cplt_portal_probe.json
 
-      - name: Recover and verify municipal PDFs
+      - name: Recover and verify known municipal PDFs
         run: >-
           python src/cplt_transparencia_crawler.py recover
           --registry data/municipal_source_registry.json
@@ -47,7 +50,13 @@ jobs:
           --print-verified
           --require-verified
 
-      - name: Validate evidence contract
+      - name: Audit exhaustive official-listing coverage
+        run: >-
+          python src/exhaustive_municipal_recovery.py
+          --registry data/municipal_source_registry.json
+          --out /tmp/municipal_exhaustive_coverage.json
+
+      - name: Validate evidence and completeness contracts
         run: |
           python - <<'PY'
           import json
@@ -64,7 +73,21 @@ jobs:
               assert record['target_url'].startswith('http')
               assert record['source_listing_url'].startswith('http')
               assert record['fuente'] == 'Municipalidad'
+
+          coverage = json.loads(Path('/tmp/municipal_exhaustive_coverage.json').read_text(encoding='utf-8'))
+          counts = coverage['national_coverage']['counts']
+          assert counts['municipalities_total'] >= 300
+          assert counts['complete'] + counts['partial'] + counts['unregistered'] == counts['municipalities_total']
+          assert coverage['policy'].startswith('NO SAMPLING')
+          for audit in coverage['source_audits']:
+              if audit['coverage_complete']:
+                  assert audit['authoritative_listing']
+                  assert audit['listing_exhausted']
+                  assert audit['candidate_count'] > 0
+                  assert audit['unresolved_count'] == 0
+                  assert audit['candidate_count'] == audit['verified_count']
           print(f"Evidence contract OK: {payload['count']} verified municipal records")
+          print(f"Coverage contract OK: {counts}")
           PY
 
       - name: Upload recovery evidence
@@ -76,4 +99,5 @@ jobs:
             /tmp/cplt_portal_probe.json
             /tmp/municipal_recovery_report.json
             /tmp/municipal_verified_records.json
+            /tmp/municipal_exhaustive_coverage.json
           retention-days: 14

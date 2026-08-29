@@ -8,19 +8,22 @@
 [ 🌐 **Abrir Dashboard Interactivo en Vivo** ](https://evegat.github.io/catastro-ordenanzas-municipales/)  
 [ 🇪🇸 Español ](README.md) · [ 🇬🇧 English version ](README.en.md)
 
-Herramienta de extracción, estructuración y catálogo nacional de **ordenanzas municipales de Chile**. La fuente estructurada principal y actualmente publicable es la **Biblioteca del Congreso Nacional (BCN/LeyChile)**. Las referencias complementarias identificadas en portales municipales/Transparencia Activa se preservan en cuarentena hasta contar con evidencia documental reproducible.
+Herramienta de extracción, estructuración y catálogo nacional de **ordenanzas municipales de Chile**. La fuente estructurada principal es la **Biblioteca del Congreso Nacional (BCN/LeyChile)** y el corpus se complementa con documentos recuperados desde repositorios municipales oficiales cuando existe evidencia reproducible. Las referencias antiguas no verificadas permanecen en cuarentena.
+
+> **Meta de cobertura:** exhaustiva, no muestral. El objetivo es identificar **todas las ordenanzas publicadas oficialmente por las 345 municipalidades de Chile**, que administran las 346 comunas del país, incluyendo su historia oficial disponible y sus actos modificatorios cuando corresponda. Un municipio no se considera cubierto por haber encontrado una o varias normas.
 
 ---
 
 ## 🎯 Propósito del Proyecto
 
-Las ordenanzas municipales constituyen el marco regulatorio local fundamental para la convivencia, comercio, urbanismo y gobernanza territorial en las 346 comunas de Chile. Sin embargo, su acceso suele estar fragmentado entre distintos repositorios institucionales.
+Las ordenanzas municipales constituyen el marco regulatorio local fundamental para la convivencia, comercio, urbanismo y gobernanza territorial. Su acceso está fragmentado entre BCN/LeyChile, Transparencia Activa y repositorios documentales propios de cada municipio.
 
 Este proyecto tiene como objetivos:
-1. **Consolidar y estructurar** un catastro unificado de recursos normativos municipales.
-2. **Proveer pipelines reproducibles en Python** para consultar el endpoint SPARQL de la BCN y procesar fuentes complementarias.
+1. **Consolidar exhaustivamente** el universo identificable de ordenanzas municipales y sus actos modificatorios.
+2. **Proveer pipelines reproducibles en Python** para consultar BCN y recorrer fuentes municipales oficiales heterogéneas.
 3. **Ofrecer un catálogo descargable y visualizador interactivo** para análisis de políticas públicas locales y derecho municipal.
-4. **Mantener trazabilidad de las fuentes**, distinguiendo entre corpus público verificable y referencias en cuarentena.
+4. **Mantener trazabilidad documental**, distinguiendo corpus verificado, cobertura exhaustiva demostrada y referencias en cuarentena.
+5. **Medir explícitamente la completitud**, municipio por municipio; la ausencia de errores HTTP no equivale a cobertura normativa completa.
 
 ---
 
@@ -28,19 +31,20 @@ Este proyecto tiene como objetivos:
 
 ```text
 ├── data/
-│   └── maestro_comunas_chile.csv      # Catálogo maestro de comunas y códigos territoriales
+│   ├── maestro_comunas_chile.csv              # Catálogo maestro territorial
+│   ├── municipal_source_registry.json         # Registro y estrategia de fuentes oficiales
+│   └── municipal_verified_records.json        # Actos municipales promovidos con evidencia
 ├── src/
-│   ├── bcn_full_fetcher.py            # Extracción desde el endpoint SPARQL de la BCN
-│   ├── enrich_all_bcn.py              # Limpieza, enriquecimiento y normalización de metadatos
-│   ├── cplt_transparencia_crawler.py  # Esqueleto de integración con Transparencia Activa
-│   ├── verify_cplt_links.py           # Verificación reproducible de URLs CPLT/municipales
-│   ├── build_public_snapshot.py       # Construye publicación verified-only y descargas
-│   ├── maestro_generator.py           # Generador de estructura consolidada
-│   └── export_excel_and_zip.py        # Exportación de fuentes de trabajo
-├── dashboard/                         # Fuente del visualizador web
-│   ├── index.html
-│   ├── status_data.json
-│   └── descargas/
+│   ├── bcn_full_fetcher.py                    # Extracción BCN/SPARQL
+│   ├── enrich_all_bcn.py                      # Limpieza y normalización
+│   ├── cplt_transparencia_crawler.py          # Directorio CPLT + recovery documental
+│   ├── exhaustive_municipal_recovery.py       # Auditor de exhaustividad por fuente/municipio
+│   ├── verify_cplt_links.py                   # Verificación reproducible de URLs heredadas
+│   ├── build_public_snapshot.py               # Publicación verified-only
+│   ├── maestro_generator.py                   # Generador de estructura consolidada
+│   └── export_excel_and_zip.py                # Exportaciones
+├── dashboard/                                 # Visualizador web
+├── .github/workflows/municipal-recovery-audit.yml
 ├── requirements.txt
 ├── LICENSE
 └── README.md
@@ -51,15 +55,16 @@ Este proyecto tiene como objetivos:
 ## 🛠️ Stack Tecnológico
 
 - **Lenguaje:** Python 3.10+
-- **Bibliotecas:** `requests`, `pandas`, `openpyxl`
-- **Protocolos & Datos:** SPARQL (RDF/XML, JSON), HTTP, Open Data
+- **Bibliotecas:** `requests`, `pandas`, `openpyxl`, `beautifulsoup4`, `pypdf`
+- **Protocolos & Datos:** SPARQL, HTTP, HTML, PDF, Open Data
 - **Frontend / Dashboard:** HTML5, JavaScript moderno, Tailwind CSS
+- **Control de evidencia:** descarga real, firma PDF, código HTTP, tamaño, URL resuelta y SHA-256
 
 ---
 
 ## 🚀 Uso y Reproducción
 
-### 1. Requisitos e Instalación
+### 1. Requisitos e instalación
 ```bash
 git clone https://github.com/evegat/catastro-ordenanzas-municipales.git
 cd catastro-ordenanzas-municipales
@@ -69,55 +74,116 @@ source .venv/bin/activate  # En Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### 2. Ejecutar extracción y procesamiento
+### 2. Extracción BCN y procesamiento
 ```bash
 python src/bcn_full_fetcher.py
 python src/export_excel_and_zip.py
 ```
 
-### 3. Verificar referencias CPLT/municipales
+### 3. Recovery municipal conocido
+```bash
+python src/cplt_transparencia_crawler.py recover \
+  --registry data/municipal_source_registry.json \
+  --out data/municipal_recovery_report.json \
+  --verified-out data/municipal_recovery_verified.json
+```
+
+### 4. Auditoría exhaustiva
+```bash
+python src/exhaustive_municipal_recovery.py \
+  --registry data/municipal_source_registry.json \
+  --out data/municipal_exhaustive_coverage.json
+```
+
+El auditor recorre las fuentes oficiales según su estrategia, agota la paginación cuando corresponde, separa ordenanzas de modificaciones y actos relacionados, verifica los documentos y produce un ledger nacional de estados `complete`, `partial` y `unregistered`.
+
+### 5. Verificar referencias heredadas CPLT/municipales
 ```bash
 python src/verify_cplt_links.py
 ```
 
-El verificador registra código HTTP, redirecciones, tipo de recurso y si la URL parece apuntar directamente a un documento. **Una respuesta HTTP correcta no certifica vigencia ni autenticidad normativa.**
+Una respuesta HTTP correcta **no certifica** vigencia, autenticidad normativa ni exhaustividad.
 
-### 4. Construir snapshot público verified-only
+### 6. Construir snapshot público verified-only
 ```bash
 python src/build_public_snapshot.py dashboard
 ```
 
-En producción este paso se ejecuta sobre una copia de `dashboard/` y excluye toda referencia CPLT no verificada antes de publicar GitHub Pages y regenerar las descargas.
+En producción este paso se ejecuta sobre una copia de `dashboard/`, excluye referencias CPLT no verificadas y regenera las descargas antes de desplegar GitHub Pages.
 
 ---
 
-## 📊 Alcance y Cobertura de Datos
+## 📊 Alcance, cobertura y estados de evidencia
 
-Los conteos públicos **no se mantienen manualmente en este README**. Se recalculan en cada build desde las filas efectivamente publicables y quedan expuestos en `dashboard/status_data.json`, en el dashboard y en el manifiesto de las descargas.
+Los conteos públicos **no se mantienen manualmente en este README**. Se recalculan en cada build desde las filas efectivamente publicables y quedan expuestos en `dashboard/status_data.json`, en el dashboard y en el manifiesto de descargas.
 
-### Corpus público
-- Incluye únicamente registros **BCN/LeyChile** presentes en el snapshot `verified-only`.
-- El total de registros y el número de comunas con datos se recalculan automáticamente en cada publicación.
-- Rango temporal observado: 1980–2026.
-- Clasificación temática: 9 materias.
+### 1. Corpus público verificado
+Puede incluir:
+- registros **BCN/LeyChile**;
+- documentos municipales oficiales cuya descarga y metadatos han sido validados;
+- SHA-256, tamaño y fecha de verificación para los documentos municipales promovidos.
 
-### Cuarentena
-- Las referencias municipales/Transparencia Activa identificadas por el proyecto permanecen preservadas en el repositorio de trabajo, pero **no forman parte del dataset ni del dashboard público** mientras no cuenten con evidencia documental reproducible.
-- El tamaño de la cuarentena también se calcula automáticamente en cada build; no se fija como una cifra estática en la documentación.
+**Importante:** que un registro esté verificado significa que ese documento particular tiene evidencia reproducible. No significa que la municipalidad esté exhaustivamente cubierta.
 
-### Criterio de reincorporación
+### 2. Cobertura municipal exhaustiva
+Una municipalidad solo obtiene estado `complete` cuando:
+1. existe una fuente oficial considerada autoritativa para el universo correspondiente;
+2. toda su paginación/listado fue recorrida;
+3. se enumeraron todos los candidatos pertinentes;
+4. no quedan candidatos sin resolver;
+5. cada documento incorporado supera el contrato de evidencia;
+6. la fuente utilizada es suficiente para sostener cobertura actual, o se ha reconciliado con las demás fuentes oficiales necesarias.
 
-Una referencia complementaria solo vuelve al corpus público cuando disponga de:
-1. URL oficial resoluble o copia documental preservada.
-2. Correspondencia comprobable entre documento y metadatos del registro.
-3. Fecha de verificación y estado de acceso.
-4. Trazabilidad suficiente para reproducir la incorporación.
+Las fuentes históricas que no prueban actualidad pueden aportar documentos sin cerrar la cobertura municipal.
 
-### Nota metodológica
+### 3. Cuarentena
+Las referencias históricas CPLT/Transparencia Activa cuyo documento no puede demostrarse permanecen preservadas, pero **no se publican como ordenanzas verificadas**.
 
-El catastro no certifica completitud normativa por municipalidad. **La ausencia de registros para una comuna no implica que esa municipalidad no tenga ordenanzas vigentes**; puede reflejar diferencias de publicación, cobertura de las fuentes o dificultades de identificación.
+### 4. Tipos de acto
+El recovery conserva el universo documental, pero evita llamar “ordenanza” a cualquier PDF que meramente la mencione. Los hallazgos se tipifican, entre otros, como:
+- `ordenanza`
+- `modificacion`
+- `acto_relacionado`
+- `documento_indice`
 
-`src/cplt_transparencia_crawler.py` sigue siendo una base de implementación y **no constituye todavía un crawler productivo**. Hasta completar ese componente y validar las referencias, GitHub Pages se construye bajo política `verified-only` y publica exclusivamente el corpus BCN/LeyChile.
+Esto permite mantener exhaustividad de evidencia sin inflar artificialmente el número de ordenanzas.
+
+### 5. Universo territorial
+Chile tiene **346 comunas y 345 municipalidades**. La Municipalidad de Cabo de Hornos administra las comunas de Cabo de Hornos y Antártica. Por lo tanto, el ledger de completitud institucional usa 345 municipalidades, manteniendo la correspondencia territorial con 346 comunas.
+
+---
+
+## 🔬 Política metodológica
+
+### NO SAMPLING
+Encontrar una norma, cinco normas o cincuenta normas de un municipio **no autoriza a declararlo cubierto**. El objetivo final es el universo oficial disponible.
+
+### Evidencia mínima de un documento municipal
+1. fuente/listado oficial identificable;
+2. URL documental resoluble;
+3. descarga real del recurso;
+4. contenido compatible con PDF;
+5. bytes > 0;
+6. SHA-256;
+7. fecha de verificación;
+8. relación jurídica con la ordenanza correctamente tipificada.
+
+### Deduplificación
+La consolidación debe distinguir entre:
+- duplicados exactos del mismo archivo;
+- textos refundidos o versiones actualizadas;
+- modificaciones normativas distintas;
+- documentos relacionados que no constituyen por sí mismos una ordenanza.
+
+La trazabilidad original se conserva aun cuando dos fuentes terminen refiriéndose al mismo acto jurídico.
+
+---
+
+## ⚠️ Estado del proyecto
+
+El dashboard público es un **corpus verificado en expansión**. No debe interpretarse todavía como prueba de exhaustividad nacional hasta que el ledger de cobertura alcance las 345 municipalidades y se resuelvan las discrepancias entre fuentes oficiales.
+
+La automatización de recovery se encuentra en desarrollo activo precisamente para cerrar esa brecha de cobertura de manera reproducible, en vez de completar el catastro mediante muestras manuales.
 
 ---
 
