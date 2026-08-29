@@ -1,27 +1,24 @@
 """Audit exhaustive municipal ordinance coverage from authoritative official listings.
 
-This module is deliberately stricter than the historical seed-based recovery:
-- a municipality is never considered covered because one document was found;
-- paginated official listings must be exhausted;
-- every ordinance-like candidate must resolve to a verifiable PDF;
+Completeness rules:
+- no municipality is complete because a sample document was found;
+- authoritative paginated listings must be exhausted;
+- every in-scope candidate must be resolved and verified;
+- related decrees/regulations are preserved but typed separately;
 - national completeness is reported separately from the verified partial corpus.
-
-Supported exhaustive strategies currently:
-- wordpress_repository: listing pages expose ordinance headings and direct PDF links;
-- wordpress_category: listing pages expose ordinance posts which are followed to PDFs.
-
-Other strategies remain explicitly partial until an exhaustive parser is implemented.
 """
 from __future__ import annotations
 
 import argparse
 import json
 import re
-from dataclasses import dataclass
-from html.parser import HTMLParser
+from io import BytesIO
 from pathlib import Path
 from typing import Any
 from urllib.parse import parse_qs, urljoin, urlparse
+
+from bs4 import BeautifulSoup
+from pypdf import PdfReader
 
 from cplt_transparencia_crawler import (
     ascii_key,
@@ -37,75 +34,39 @@ DEFAULT_REGISTRY = Path("data/municipal_source_registry.json")
 DEFAULT_OUT = Path("data/municipal_exhaustive_coverage.json")
 
 
-@dataclass
-class Anchor:
-    href: str
-    text: str
-    heading: str
-
-
-class ContextLinkParser(HTMLParser):
-    """Capture anchors together with the nearest preceding heading."""
-
-    def __init__(self) -> None:
-        super().__init__(convert_charrefs=True)
-        self.anchors: list[Anchor] = []
-        self.current_heading_tag: str | None = None
-        self.current_heading_parts: list[str] = []
-        self.last_heading = ""
-        self.anchor_href: str | None = None
-        self.anchor_parts: list[str] = []
-        self.anchor_heading = ""
-
-    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
-        tag = tag.lower()
-        attrs_d = dict(attrs)
-        if tag in {"h1", "h2", "h3", "h4", "h5", "h6"}:
-            self.current_heading_tag = tag
-            self.current_heading_parts = []
-        elif tag == "a":
-            self.anchor_href = attrs_d.get("href") or ""
-            self.anchor_parts = []
-            self.anchor_heading = self.last_heading
-        elif tag == "img" and self.anchor_href is not None:
-            alt = attrs_d.get("alt") or attrs_d.get("title") or ""
-            if alt:
-                self.anchor_parts.append(alt)
-
-    def handle_data(self, data: str) -> None:
-        if self.current_heading_tag is not None:
-            self.current_heading_parts.append(data)
-        if self.anchor_href is not None:
-            self.anchor_parts.append(data)
-
-    def handle_endtag(self, tag: str) -> None:
-        tag = tag.lower()
-        if self.current_heading_tag == tag:
-            self.last_heading = normalize_text(" ".join(self.current_heading_parts))
-            self.current_heading_tag = None
-            self.current_heading_parts = []
-        elif tag == "a" and self.anchor_href is not None:
-            self.anchors.append(
-                Anchor(
-                    href=self.anchor_href,
-                    text=normalize_text(" ".join(self.anchor_parts)),
-                    heading=self.anchor_heading,
-                )
-            )
-            self.anchor_href = None
-            self.anchor_parts = []
-            self.anchor_heading = ""
-
-
-def parse_links(text: str) -> list[Anchor]:
-    parser = ContextLinkParser()
-    parser.feed(text)
-    parser.close()
-    return parser.anchors
-
-
 def is_ordinance_text(value: str) -> bool:
-    return "ordenanza" in ascii_key(value)
+    key = ascii_key(value)
+    if "ordenanza" not in key:
+        return False
+    generic = {
+        "decretos y ordenanzas",
+        "categoria decretos y ordenanzas",
+        "fichas ordenanza de artesania",
+    }
+    return key.strip(" :-") not in generic and not key.startswith("categoria ")
+
+
+def legal_relation_type(title: str) -> str:
+    key = ascii_key(title)
+    if not key:
+        return "documento_indice"
+    if "reglamento" in key and "ordenanza" in key:
+        return "acto_relacionado"
+    if (
+        "modifica" in key
+        or "modificacion" in key
+        or "agrega un nuevo texto" in key
+        or "aprueba nuevo texto" in key
+        or "nuevo derecho ordenanza" in key
+    ) and "ordenanza" in key:
+        return "modificacion"
+    if key.startswith("decreto") and "ordenanza" in key:
+        return "modificacion"
+    if key.startswith("ordenanza") or key.startswith("texto refundido ordenanza"):
+        return "ordenanza"
+    if "ordenanza" in key:
+        return "acto_relacionado"
+    return "otro"
 
 
 def is_pdf_url(url: str) -> bool:
@@ -113,7 +74,7 @@ def is_pdf_url(url: str) -> bool:
 
 
 def pdf_targets(url: str, base_url: str) -> list[str]:
-    """Return direct PDFs, including PDFs wrapped by common viewer query params."""
+    """Resolve direct PDF links and common viewer query parameters."""
     absolute = urljoin(base_url, url)
     out: list[str] = []
     if is_pdf_url(absolute):
@@ -128,15 +89,12 @@ def pdf_targets(url: str, base_url: str) -> list[str]:
 
 
 def ordinance_number(title: str) -> str:
-    key = normalize_text(title)
     match = re.search(
         r"ordenanza\s+(?:local\s+)?(?:n(?:[°ºo.]|ro\.?|umero)?\s*)?([0-9]+(?:\s*[/.-]\s*[0-9]+)?)",
-        key,
+        normalize_text(title),
         flags=re.I,
     )
-    if not match:
-        return ""
-    return re.sub(r"\s+", "", match.group(1))
+    return re.sub(r"\s+", "", match.group(1)) if match else ""
 
 
 def page_number(url: str) -> int | None:
@@ -151,20 +109,20 @@ def page_url(index_url: str, page: int) -> str:
 
 
 def listing_pages(session, index_url: str, max_pages_cap: int) -> tuple[list[tuple[str, str]], list[str]]:
-    """Exhaust WordPress-style numeric pagination, detecting the advertised maximum."""
     errors: list[str] = []
     first_text, first_resolved, _ = fetch_html(session, index_url)
-    first_links = parse_links(first_text)
-    advertised = [page_number(urljoin(first_resolved, a.href)) for a in first_links]
-    advertised = [n for n in advertised if n is not None]
-    max_page = max(advertised, default=1)
-    max_page = min(max_page, max_pages_cap)
+    soup = BeautifulSoup(first_text, "html.parser")
+    advertised = []
+    for a in soup.find_all("a", href=True):
+        n = page_number(urljoin(first_resolved, a["href"]))
+        if n is not None:
+            advertised.append(n)
+    max_page = min(max(advertised, default=1), max_pages_cap)
 
     pages: list[tuple[str, str]] = [(first_resolved, first_text)]
     for n in range(2, max_page + 1):
-        url = page_url(first_resolved, n)
         try:
-            text, resolved, _ = fetch_html(session, url)
+            text, resolved, _ = fetch_html(session, page_url(first_resolved, n))
             pages.append((resolved, text))
         except Exception as exc:
             errors.append(f"page_{n}: {type(exc).__name__}: {exc}")
@@ -172,65 +130,185 @@ def listing_pages(session, index_url: str, max_pages_cap: int) -> tuple[list[tup
 
 
 def direct_pdf_candidates(pages: list[tuple[str, str]]) -> list[dict[str, Any]]:
+    """Extract direct PDF links from a repository, keeping their local heading context."""
     candidates: dict[str, dict[str, Any]] = {}
     for listing_url, text in pages:
-        for anchor in parse_links(text):
-            context = anchor.heading or anchor.text
+        soup = BeautifulSoup(text, "html.parser")
+        for a in soup.find_all("a", href=True):
+            targets = pdf_targets(a["href"], listing_url)
+            if not targets:
+                continue
+            heading = a.find_previous(["h1", "h2", "h3", "h4", "h5", "h6"])
+            context = normalize_text(heading.get_text(" ", strip=True) if heading else a.get_text(" ", strip=True))
             if not is_ordinance_text(context):
                 continue
-            targets = pdf_targets(anchor.href, listing_url)
-            if not targets and "pdf" in ascii_key(anchor.text):
-                targets = [urljoin(listing_url, anchor.href)]
-            for href in targets:
-                candidates[href] = {
+            for target in targets:
+                candidates[target] = {
                     "titulo": context,
                     "numero": ordinance_number(context),
+                    "tipo_acto": legal_relation_type(context),
                     "listing_url": listing_url,
-                    "document_url": href,
+                    "document_url": target,
                     "discovery": "direct_listing_pdf",
                 }
     return list(candidates.values())
 
 
-def category_post_candidates(session, pages: list[tuple[str, str]], index_host: str) -> tuple[list[dict[str, Any]], list[str]]:
-    posts: dict[str, dict[str, Any]] = {}
-    errors: list[str] = []
-    for listing_url, text in pages:
-        for anchor in parse_links(text):
-            href = urljoin(listing_url, anchor.href)
-            title = anchor.text or anchor.heading
+def archive_entries(listing_url: str, text: str) -> list[dict[str, str]]:
+    """Return post-level archive entries without pairing a title with sidebar/footer links."""
+    soup = BeautifulSoup(text, "html.parser")
+    entries: dict[str, dict[str, str]] = {}
+
+    containers = soup.find_all("article")
+    if not containers:
+        containers = [
+            node
+            for node in soup.find_all(["div", "section"])
+            if any(token in " ".join(node.get("class", [])).lower() for token in ("post", "entry"))
+        ]
+
+    for container in containers:
+        heading = container.find(["h1", "h2", "h3", "h4", "h5", "h6"])
+        if not heading:
+            continue
+        title = normalize_text(heading.get_text(" ", strip=True))
+        if not is_ordinance_text(title):
+            continue
+        link = heading.find("a", href=True) or container.find("a", href=True)
+        if not link:
+            continue
+        href = urljoin(listing_url, link["href"])
+        if href.split("#", 1)[0].rstrip("/") == listing_url.split("#", 1)[0].rstrip("/"):
+            continue
+        entries[href] = {"titulo": title, "href": href, "listing_url": listing_url}
+
+    # Conservative fallback for archive themes without <article>: only use the
+    # ordinance-titled link itself, never arbitrary links that follow it.
+    if not entries:
+        for a in soup.find_all("a", href=True):
+            title = normalize_text(a.get_text(" ", strip=True))
             if not is_ordinance_text(title):
                 continue
-            if urlparse(href).netloc.lower() != index_host:
+            href = urljoin(listing_url, a["href"])
+            if href.startswith(listing_url + "#") or href.rstrip("/") == listing_url.rstrip("/"):
                 continue
-            posts[href] = {"titulo": title, "numero": ordinance_number(title), "listing_url": listing_url}
+            entries[href] = {"titulo": title, "href": href, "listing_url": listing_url}
+    return list(entries.values())
+
+
+def content_region(text: str):
+    soup = BeautifulSoup(text, "html.parser")
+    selectors = ["article .entry-content", ".entry-content", "article", ".post-content", "main"]
+    for selector in selectors:
+        node = soup.select_one(selector)
+        if node is not None:
+            return node
+    return soup.body or soup
+
+
+def category_post_candidates(session, pages: list[tuple[str, str]]) -> tuple[list[dict[str, Any]], list[str]]:
+    entries: dict[str, dict[str, str]] = {}
+    errors: list[str] = []
+    for listing_url, text in pages:
+        for entry in archive_entries(listing_url, text):
+            entries[entry["href"]] = entry
 
     candidates: list[dict[str, Any]] = []
-    for post_url, meta in posts.items():
-        direct_targets = pdf_targets(post_url, post_url)
-        if direct_targets:
-            for target in direct_targets:
-                candidates.append({**meta, "document_url": target, "discovery": "category_direct_pdf"})
+    for href, meta in entries.items():
+        title = meta["titulo"]
+        direct = pdf_targets(href, href)
+        if direct:
+            for target in direct:
+                candidates.append({
+                    "titulo": title,
+                    "numero": ordinance_number(title),
+                    "tipo_acto": legal_relation_type(title),
+                    "listing_url": meta["listing_url"],
+                    "document_url": target,
+                    "discovery": "archive_direct_pdf",
+                })
             continue
         try:
-            text, resolved, _ = fetch_html(session, post_url)
+            text, resolved, _ = fetch_html(session, href)
+            region = content_region(text)
             pdfs: list[str] = []
-            for anchor in parse_links(text):
-                pdfs.extend(pdf_targets(anchor.href, resolved))
-            # Some WordPress/PDF.js integrations store the viewer URL in raw HTML
-            # without presenting the PDF itself as an anchor. Capture those too.
-            for raw in re.findall(r"https?[^\"'<>\s]+", text):
+            for a in region.find_all("a", href=True):
+                pdfs.extend(pdf_targets(a["href"], resolved))
+            for raw in re.findall(r"https?[^\"'<>\s]+", str(region)):
                 pdfs.extend(pdf_targets(raw.replace("&amp;", "&"), resolved))
             pdfs = list(dict.fromkeys(pdfs))
             if not pdfs:
-                candidates.append({**meta, "detail_url": resolved, "document_url": None, "discovery": "category_post_no_pdf"})
+                candidates.append({
+                    "titulo": title,
+                    "numero": ordinance_number(title),
+                    "tipo_acto": legal_relation_type(title),
+                    "listing_url": meta["listing_url"],
+                    "detail_url": resolved,
+                    "document_url": None,
+                    "discovery": "archive_post_no_pdf",
+                })
             else:
-                for pdf in pdfs:
-                    candidates.append({**meta, "detail_url": resolved, "document_url": pdf, "discovery": "category_post_pdf"})
+                for target in pdfs:
+                    candidates.append({
+                        "titulo": title,
+                        "numero": ordinance_number(title),
+                        "tipo_acto": legal_relation_type(title),
+                        "listing_url": meta["listing_url"],
+                        "detail_url": resolved,
+                        "document_url": target,
+                        "discovery": "archive_post_pdf",
+                    })
         except Exception as exc:
-            errors.append(f"detail {post_url}: {type(exc).__name__}: {exc}")
-            candidates.append({**meta, "detail_url": post_url, "document_url": None, "discovery": "category_post_error"})
+            errors.append(f"detail {href}: {type(exc).__name__}: {exc}")
+            candidates.append({
+                "titulo": title,
+                "numero": ordinance_number(title),
+                "tipo_acto": legal_relation_type(title),
+                "listing_url": meta["listing_url"],
+                "detail_url": href,
+                "document_url": None,
+                "discovery": "archive_post_error",
+            })
     return candidates, errors
+
+
+def pdf_index_candidates(session, source: dict[str, Any]) -> tuple[list[dict[str, Any]], list[str]]:
+    """Extract every external URI annotation from an official ordinance-index PDF."""
+    errors: list[str] = []
+    url = source.get("index_document_url") or source["index_url"]
+    try:
+        response = session.get(url, timeout=60)
+        response.raise_for_status()
+        if not response.content.startswith(b"%PDF"):
+            return [], ["index_document_not_pdf"]
+        reader = PdfReader(BytesIO(response.content))
+    except Exception as exc:
+        return [], [f"pdf_index_fetch: {type(exc).__name__}: {exc}"]
+
+    links: list[str] = []
+    for page in reader.pages:
+        for ref in page.get("/Annots", []) or []:
+            try:
+                annot = ref.get_object()
+                action = annot.get("/A")
+                uri = action.get("/URI") if action else None
+                if uri and str(uri).startswith("http"):
+                    links.append(str(uri))
+            except Exception as exc:
+                errors.append(f"annotation: {type(exc).__name__}: {exc}")
+    links = list(dict.fromkeys(links))
+    records = [
+        {
+            "titulo": "Documento enlazado desde índice oficial de ordenanzas",
+            "numero": "",
+            "tipo_acto": "documento_indice",
+            "listing_url": source["index_url"],
+            "document_url": link,
+            "discovery": "pdf_index_annotation",
+        }
+        for link in links
+    ]
+    return records, errors
 
 
 def audit_source(session, source: dict[str, Any]) -> dict[str, Any]:
@@ -252,51 +330,59 @@ def audit_source(session, source: dict[str, Any]) -> dict[str, Any]:
         "errors": [],
         "records": [],
     }
-    if strategy not in {"wordpress_repository", "wordpress_category"}:
+
+    if strategy in {"wordpress_repository", "wordpress_category"}:
+        cap = int(source.get("max_pages", 250))
+        try:
+            pages, page_errors = listing_pages(session, source["index_url"], cap)
+        except Exception as exc:
+            result["errors"].append(f"listing_fetch: {type(exc).__name__}: {exc}")
+            return result
+        result["listing_pages"] = len(pages)
+        result["errors"].extend(page_errors)
+        result["listing_exhausted"] = not page_errors
+        if strategy == "wordpress_repository":
+            candidates = direct_pdf_candidates(pages)
+            detail_errors: list[str] = []
+        else:
+            candidates, detail_errors = category_post_candidates(session, pages)
+        result["errors"].extend(detail_errors)
+    elif strategy == "pdf_index":
+        candidates, detail_errors = pdf_index_candidates(session, source)
+        result["listing_pages"] = 1 if candidates else 0
+        result["listing_exhausted"] = not detail_errors and bool(candidates)
+        result["errors"].extend(detail_errors)
+    else:
         result["errors"].append(f"strategy_not_exhaustive_yet: {strategy}")
         return result
-
-    cap = int(source.get("max_pages", 250))
-    try:
-        pages, page_errors = listing_pages(session, source["index_url"], cap)
-    except Exception as exc:
-        result["errors"].append(f"listing_fetch: {type(exc).__name__}: {exc}")
-        return result
-
-    result["listing_pages"] = len(pages)
-    result["errors"].extend(page_errors)
-    result["listing_exhausted"] = not page_errors
-
-    if strategy == "wordpress_repository":
-        candidates = direct_pdf_candidates(pages)
-        detail_errors: list[str] = []
-    else:
-        host = urlparse(source["index_url"]).netloc.lower()
-        candidates, detail_errors = category_post_candidates(session, pages, host)
-    result["errors"].extend(detail_errors)
 
     dedup: dict[tuple[str, str], dict[str, Any]] = {}
     for candidate in candidates:
         key = (
-            candidate.get("numero") or candidate.get("titulo") or "",
+            candidate.get("titulo") or "",
             candidate.get("document_url") or candidate.get("detail_url") or "",
         )
         dedup[key] = candidate
-    candidates = list(dedup.values())
 
-    for candidate in candidates:
+    for candidate in dedup.values():
         document_url = candidate.get("document_url")
-        if document_url:
-            verification = verify_pdf(session, document_url)
-        else:
-            verification = {"status": "unresolved", "reason": "no_document_url", "verified_at": now_iso()}
+        verification = (
+            verify_pdf(session, document_url)
+            if document_url
+            else {"status": "unresolved", "reason": "no_document_url", "verified_at": now_iso()}
+        )
         result["records"].append({**candidate, "verification": verification})
 
     result["candidate_count"] = len(result["records"])
     result["verified_count"] = sum(r["verification"].get("status") == "verified" for r in result["records"])
     result["unresolved_count"] = sum(r["verification"].get("status") != "verified" for r in result["records"])
+
+    # A source may be authoritative historical evidence but explicitly not
+    # sufficient to prove CURRENT municipal completeness (e.g. a stale PDF index).
+    allowed_to_close = source.get("can_define_complete", strategy != "pdf_index")
     result["coverage_complete"] = bool(
-        result["authoritative_listing"]
+        allowed_to_close
+        and result["authoritative_listing"]
         and result["listing_exhausted"]
         and not detail_errors
         and result["candidate_count"] > 0
@@ -333,7 +419,7 @@ def national_coverage(directory: list[dict[str, Any]], audits: list[dict[str, An
     }
     return {
         "generated_at": now_iso(),
-        "definition": "complete = authoritative official ordinance listing exhausted and every discovered ordinance candidate verified as PDF",
+        "definition": "complete = authoritative current ordinance listing exhausted and every discovered candidate resolved and verified",
         "counts": counts,
         "national_complete": counts["complete"] == counts["municipalities_total"],
         "municipalities": municipalities,
@@ -364,11 +450,10 @@ def main() -> int:
             f"unresolved={audit['unresolved_count']} complete={audit['coverage_complete']}"
         )
 
-    directory = load_directory(session)
-    coverage = national_coverage(directory, audits)
+    coverage = national_coverage(load_directory(session), audits)
     payload = {
         "generated_at": now_iso(),
-        "policy": "NO SAMPLING: all discoverable ordinances from each authoritative official listing must be enumerated and verified",
+        "policy": "NO SAMPLING: all discoverable ordinances and ordinance-modifying acts from each authoritative official listing must be enumerated; related acts are typed separately",
         "source_audits": audits,
         "national_coverage": coverage,
     }
