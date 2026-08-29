@@ -1,0 +1,246 @@
+name: SINIM Validated Municipal Extraction
+
+on:
+  workflow_dispatch:
+    inputs:
+      sinim_run_id:
+        description: Successful MW-P090-0012 SINIM Seed Enrichment run id
+        required: true
+        type: string
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  prepare:
+    name: prepare-strict-seeds
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Resolve MW-P090-0012 aggregate artifact
+        id: artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SOURCE_RUN_ID: ${{ inputs.sinim_run_id }}
+        run: |
+          set -euo pipefail
+          curl -fsSL \
+            -H "Authorization: Bearer ${GH_TOKEN}" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/runs/${SOURCE_RUN_ID}/artifacts?per_page=100" \
+            -o /tmp/artifacts.json
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          import json
+          payload=json.load(open('/tmp/artifacts.json',encoding='utf-8'))
+          matches=[a for a in payload.get('artifacts',[]) if a.get('name')=='p090-sinim-seed-enrichment' and not a.get('expired')]
+          assert len(matches)==1, f'Expected one p090-sinim-seed-enrichment artifact, got {len(matches)}'
+          print('url='+matches[0]['archive_download_url'])
+          print('artifact_id='+str(matches[0]['id']))
+          PY
+
+      - name: Download and validate SINIM ledger
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ARTIFACT_URL: ${{ steps.artifact.outputs.url }}
+        run: |
+          set -euo pipefail
+          curl -fsSL -L \
+            -H "Authorization: Bearer ${GH_TOKEN}" \
+            -H "Accept: application/vnd.github+json" \
+            "${ARTIFACT_URL}" -o /tmp/sinim-ledger.zip
+          mkdir -p /tmp/sinim-ledger
+          unzip -q /tmp/sinim-ledger.zip -d /tmp/sinim-ledger
+          LEDGER="$(find /tmp/sinim-ledger -type f -name 'sinim-seed-enrichment.json' -print -quit)"
+          test -n "$LEDGER"
+          python src/build_sinim_extraction_seeds.py \
+            --input "$LEDGER" \
+            --output /tmp/sinim-valid-seeds.json
+          python - <<'PY'
+          import json
+          p=json.load(open('/tmp/sinim-valid-seeds.json',encoding='utf-8'))
+          s=p['summary']
+          assert p['task_id']=='MW-P090-0013'
+          assert p['derived_from']['sinim_selector_count']==345
+          assert p['derived_from']['reconciled_municipalities']==345
+          assert s['municipalities_selected']>0
+          assert s['candidate_sources_selected']>=s['municipalities_selected']
+          assert s['municipalities_selected']+s['municipalities_excluded']==345
+          print('Strict seed contract OK:',s)
+          PY
+
+      - name: Upload strict seed artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: p090-0013-strict-seeds
+          path: /tmp/sinim-valid-seeds.json
+          retention-days: 30
+
+  extract:
+    name: extract-shard-${{ matrix.shard }}
+    needs: prepare
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
+        run: python -m pip install --disable-pip-version-check -r requirements.txt
+
+      - name: Download strict seeds
+        uses: actions/download-artifact@v4
+        with:
+          name: p090-0013-strict-seeds
+          path: /tmp/strict-seeds
+
+      - name: Compile extraction stack
+        run: |
+          python -m py_compile \
+            src/build_sinim_extraction_seeds.py \
+            src/extract_validated_municipal_sources.py \
+            src/extract_sinim_validated_sources.py
+
+      - name: Extract scope-safe evidence
+        id: extract
+        continue-on-error: true
+        run: >-
+          python src/extract_sinim_validated_sources.py
+          --seeds /tmp/strict-seeds/sinim-valid-seeds.json
+          --shard-index ${{ matrix.shard }}
+          --shard-count 12
+          --max-pages 120
+          --max-candidates 1200
+          --timeout 12
+          --max-pdf-mb 80
+          --out /tmp/sinim-extraction-${{ matrix.shard }}.json
+
+      - name: Upload shard evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: p090-0013-extraction-shard-${{ matrix.shard }}
+          path: /tmp/sinim-extraction-${{ matrix.shard }}.json
+          retention-days: 30
+          if-no-files-found: error
+
+      - name: Enforce fail-closed extraction
+        if: steps.extract.outcome != 'success'
+        run: |
+          echo 'Extraction failed or a scope guard triggered. Evidence has been preserved.'
+          exit 1
+
+  aggregate:
+    name: aggregate-national-evidence
+    needs: [prepare, extract]
+    if: always()
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - name: Download strict seeds
+        uses: actions/download-artifact@v4
+        with:
+          name: p090-0013-strict-seeds
+          path: /tmp/strict-seeds
+
+      - name: Download extraction shards
+        uses: actions/download-artifact@v4
+        with:
+          pattern: p090-0013-extraction-shard-*
+          path: /tmp/extraction-shards
+          merge-multiple: true
+
+      - name: Merge and gate national evidence
+        run: |
+          python - <<'PY'
+          import json
+          from collections import Counter
+          from pathlib import Path
+
+          seeds=json.load(open('/tmp/strict-seeds/sinim-valid-seeds.json',encoding='utf-8'))
+          expected=seeds['summary']['municipalities_selected']
+          expected_sources=seeds['summary']['candidate_sources_selected']
+          files=sorted(Path('/tmp/extraction-shards').glob('sinim-extraction-*.json'))
+          assert len(files)==12, f'Expected 12 extraction shards, got {len(files)}'
+
+          records=[]
+          statuses=Counter()
+          hashes=set()
+          sources_attempted=0
+          sources_exhausted=0
+          unresolved=0
+          guards=0
+          rejected=0
+          for path in files:
+              payload=json.loads(path.read_text(encoding='utf-8'))
+              assert payload.get('task_id')=='MW-P090-0013'
+              records.extend(payload.get('records',[]))
+          assert len(records)==expected, (len(records),expected)
+          assert len({r['cplt_code'] for r in records})==expected
+          assert not any(r.get('coverage_complete') for r in records)
+          for record in records:
+              sources_attempted += record['sources_attempted']
+              sources_exhausted += record['sources_listing_exhausted']
+              unresolved += record['unresolved_documents']
+              guards += record.get('scope_guards_triggered',0)
+              rejected += record.get('scope_rejected_links',0)
+              for source in record.get('sources',[]):
+                  for doc in source.get('documents',[]):
+                      v=doc.get('verification') or {}
+                      status=v.get('status') or 'unknown'
+                      statuses[status]+=1
+                      if status=='verified_pdf':
+                          assert len(v.get('sha256',''))==64
+                          assert int(v.get('bytes',0))>0
+                          hashes.add(v['sha256'])
+          assert sources_attempted==expected_sources, (sources_attempted,expected_sources)
+          assert guards==0, f'Scope guards triggered in {guards} source(s)'
+          summary={
+              'municipalities':len(records),
+              'sources_attempted':sources_attempted,
+              'sources_listing_exhausted':sources_exhausted,
+              'sources_not_exhausted':sources_attempted-sources_exhausted,
+              'scope_guards_triggered':guards,
+              'scope_rejected_links':rejected,
+              'unique_verified_pdfs':len(hashes),
+              'unresolved_document_links':unresolved,
+              'verification_status':dict(sorted(statuses.items())),
+          }
+          out={
+              'task_id':'MW-P090-0013',
+              'derived_from':seeds.get('derived_from'),
+              'policy':'scope-safe evidence only; no dashboard promotion; coverage_complete=false',
+              'summary':summary,
+              'records':sorted(records,key=lambda r:r['cplt_code']),
+          }
+          Path('/tmp/p090-0013-national-extraction.json').write_text(
+              json.dumps(out,ensure_ascii=False,indent=2),encoding='utf-8'
+          )
+          print('MW-P090-0013 aggregate contract OK:',summary)
+          PY
+
+      - name: Upload national extraction evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: p090-0013-national-extraction
+          path: /tmp/p090-0013-national-extraction.json
+          retention-days: 30
+          if-no-files-found: error
