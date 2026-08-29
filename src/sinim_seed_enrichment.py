@@ -62,8 +62,8 @@ def fetch_index(session: requests.Session, timeout: float) -> list[dict[str, str
             continue
         seen.add(code)
         records.append({"sinim_code": code, "commune_name": name})
-    if len(records) < 340:
-        raise AssertionError(f"SINIM selector unexpectedly small: {len(records)} municipalities")
+    if len(records) != 345:
+        raise AssertionError(f"Expected 345 SINIM municipalities, got {len(records)}")
     return records
 
 
@@ -85,8 +85,6 @@ def extract_web_from_ficha(session: requests.Session, code: str, timeout: float)
         response.encoding = response.apparent_encoding or response.encoding or "utf-8"
         soup = BeautifulSoup(response.text, "html.parser")
         text = soup.get_text("\n", strip=True)
-        # SINIM consistently renders Antecedentes Municipales labels as plain
-        # text. Extract the first line after Web:, stopping before Email:.
         patterns = (
             r"(?:^|\n)Web\s*:\s*\n?\s*([^\n]+)",
             r"(?:^|\n)Web\s*\n\s*([^\n]+)",
@@ -98,7 +96,6 @@ def extract_web_from_ficha(session: requests.Session, code: str, timeout: float)
                 result["web"] = normalize_web(match.group(1))
                 break
         if not result.get("web"):
-            # Fallback: inspect nearby DOM text/links around the label.
             web_label = soup.find(string=lambda s: bool(s and re.fullmatch(r"\s*Web\s*:?\s*", s, flags=re.IGNORECASE)))
             if web_label:
                 parent = web_label.parent
@@ -135,11 +132,19 @@ def reconcile_sinim_to_cplt(
     for organism in directory:
         key = strip_municipality_prefix(organism.get("organism_name", ""))
         cplt_by_key.setdefault(key, []).append(organism)
+
+    # Explicit orthographic/institutional aliases verified against the current
+    # CPLT regulated-organism directory. SINIM names remain preserved in output.
     aliases = {
         "paihuano": "paiguano",
         "la calera": "calera",
         "o higgins": "ohiggins",
         "cabo de hornos": "cabo de hornos",
+        "isla de pascua": "isla de pascua (rapa nui)",
+        "llaillay": "llay llay",
+        "marchihue": "marchige",
+        "natales": "puerto natales",
+        "san vicente": "san vicente de tagua tagua",
     }
     matches: list[dict[str, Any]] = []
     unresolved: list[dict[str, Any]] = []
@@ -173,6 +178,10 @@ def main() -> int:
     reconciled, reconciliation_failures = reconcile_sinim_to_cplt(sinim, directory)
     if len(reconciled) + len(reconciliation_failures) != len(sinim):
         raise AssertionError("SINIM reconciliation accounting mismatch")
+    if reconciliation_failures:
+        raise AssertionError(f"Unresolved SINIM↔CPLT municipalities: {reconciliation_failures}")
+    if len(reconciled) != 345:
+        raise AssertionError(f"Expected full SINIM↔CPLT reconciliation, got {len(reconciled)}")
 
     selected = [row for idx, row in enumerate(reconciled) if idx % args.shard_count == args.shard_index]
     records: list[dict[str, Any]] = []
