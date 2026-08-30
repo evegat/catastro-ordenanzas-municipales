@@ -833,9 +833,9 @@
     </div>
   </div>
 
-  <!-- MODAL DE DESCARGA & COMUNIDAD -->
-  <div id="download-modal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm hidden flex items-center justify-center p-4">
-    <div class="bg-[#071f43] border border-[#153b70] rounded-2xl max-w-lg w-full p-6 sm:p-7 space-y-5 shadow-2xl relative">
+  <!-- MODAL DE DESCARGA, MINI ENCUESTA & COMUNIDAD -->
+  <div id="download-modal" class="fixed inset-0 z-50 bg-black/85 backdrop-blur-sm hidden flex items-center justify-center p-4 overflow-y-auto">
+    <div class="bg-[#071f43] border border-[#153b70] rounded-2xl max-w-xl w-full p-6 sm:p-7 space-y-5 shadow-2xl relative my-8">
       <button onclick="closeDownloadModal()" class="absolute top-4 right-4 p-1 rounded-lg text-zinc-400 hover:text-zinc-200 hover:bg-[#153b70] transition-colors">
         <i data-lucide="x" class="w-5 h-5"></i>
       </button>
@@ -850,37 +850,76 @@
         </div>
       </div>
 
-      <p class="text-xs text-zinc-300 leading-relaxed">
-        Este catastro es de libre acceso para la investigación y la docencia. Cuéntanos brevemente quién eres para conocer el uso y alcance de la herramienta (opcional) e inicia tu descarga:
-      </p>
+      <div class="bg-[#04142b]/60 border border-[#153b70]/80 rounded-xl p-3 text-xs text-zinc-300 leading-relaxed">
+        Este catastro es de <strong>libre acceso</strong>. Para ayudarnos a medir el impacto del proyecto y orientar las futuras versiones, completa esta breve encuesta antes de iniciar tu descarga.
+      </div>
 
-      <form id="download-lead-form" onsubmit="handleDownloadSubmit(event)" class="space-y-3.5 pt-1">
-        <div>
-          <label class="block text-[11px] font-mono font-semibold text-zinc-300 mb-1">Nombre / Institución o Universidad</label>
-          <input type="text" id="lead-name" placeholder="Ej: Marcela González • Univ. de Chile / Municipio" class="w-full bg-[#04142b] border border-[#153b70] rounded-xl px-3.5 py-2 text-xs text-zinc-200 placeholder-zinc-500 focus:outline-none focus:border-[#38bdf8]">
+      <form id="download-lead-form" onsubmit="handleDownloadSubmit(event)" class="space-y-4">
+        
+        <!-- Bloque 1: Identificación -->
+        <div class="space-y-3">
+          <span class="text-[11px] font-mono text-[#38bdf8] font-semibold block uppercase tracking-wider">1. Datos de Contacto</span>
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <div>
+              <label class="block text-[11px] font-mono font-medium text-zinc-300 mb-1">Nombre y Apellido *</label>
+              <input type="text" id="lead-name" required placeholder="Ej: Marcela González" class="w-full bg-[#04142b] border border-[#153b70] rounded-xl px-3.5 py-2 text-xs text-zinc-200 placeholder-zinc-500 focus:outline-none focus:border-[#38bdf8]">
+            </div>
+            <div>
+              <label class="block text-[11px] font-mono font-medium text-zinc-300 mb-1">Correo Electrónico *</label>
+              <input type="email" id="lead-email" required placeholder="contacto@universidad.cl" class="w-full bg-[#04142b] border border-[#153b70] rounded-xl px-3.5 py-2 text-xs text-zinc-200 placeholder-zinc-500 focus:outline-none focus:border-[#38bdf8]">
+            </div>
+          </div>
+          <div>
+            <label class="block text-[11px] font-mono font-medium text-zinc-300 mb-1">Institución / Universidad / Municipio *</label>
+            <input type="text" id="lead-institution" required placeholder="Ej: Univ. de Chile / Municipalidad de Maipú / Centro de Estudios" class="w-full bg-[#04142b] border border-[#153b70] rounded-xl px-3.5 py-2 text-xs text-zinc-200 placeholder-zinc-500 focus:outline-none focus:border-[#38bdf8]">
+          </div>
         </div>
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-          <div>
-            <label class="block text-[11px] font-mono font-semibold text-zinc-300 mb-1">Correo electrónico</label>
-            <input type="email" id="lead-email" placeholder="contacto@ejemplo.cl" class="w-full bg-[#04142b] border border-[#153b70] rounded-xl px-3.5 py-2 text-xs text-zinc-200 placeholder-zinc-500 focus:outline-none focus:border-[#38bdf8]">
+        <!-- Bloque 2: Mini Encuesta de Utilidad e Ideas -->
+        <div class="space-y-3 pt-2 border-t border-[#153b70]/60">
+          <span class="text-[11px] font-mono text-[#54b995] font-semibold block uppercase tracking-wider">2. Utilidad del Dataset & Nuevas Ideas</span>
+          
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <div>
+              <label class="block text-[11px] font-mono font-medium text-zinc-300 mb-1">¿Para qué usarás la información? *</label>
+              <select id="lead-purpose" class="w-full bg-[#04142b] border border-[#153b70] rounded-xl px-3.5 py-2 text-xs text-zinc-200 focus:outline-none focus:border-[#38bdf8]">
+                <option value="docencia">Docencia / Cátedra Universitaria</option>
+                <option value="tesis">Tesis de Pre/Postgrado</option>
+                <option value="investigacion">Investigación Académica / Paper</option>
+                <option value="gestion_publica">Gestión Municipal / Políticas Públicas</option>
+                <option value="consultoria">Consultoría Profesional / Jurídica</option>
+                <option value="ciudadano">Consulta Ciudadana / Vecinal</option>
+                <option value="otro">Otro</option>
+              </select>
+            </div>
+            <div>
+              <label class="block text-[11px] font-mono font-medium text-zinc-300 mb-1">Comuna o Materia de mayor interés</label>
+              <input type="text" id="lead-interest" placeholder="Ej: Derechos de aseo, Valparaíso, Mascotas..." class="w-full bg-[#04142b] border border-[#153b70] rounded-xl px-3.5 py-2 text-xs text-zinc-200 placeholder-zinc-500 focus:outline-none focus:border-[#38bdf8]">
+            </div>
           </div>
+
           <div>
-            <label class="block text-[11px] font-mono font-semibold text-zinc-300 mb-1">Finalidad de uso</label>
-            <select id="lead-purpose" class="w-full bg-[#04142b] border border-[#153b70] rounded-xl px-3.5 py-2 text-xs text-zinc-200 focus:outline-none focus:border-[#38bdf8]">
-              <option value="docencia">Docencia / Cátedra Universitaria</option>
-              <option value="tesis">Tesis de Pre/Postgrado</option>
-              <option value="investigacion">Investigación Académica</option>
-              <option value="gestion_publica">Gestión Municipal / Políticas Públicas</option>
-              <option value="ciudadano">Consulta Ciudadana / Profesional</option>
-              <option value="otro">Otro</option>
-            </select>
+            <label class="block text-[11px] font-mono font-medium text-zinc-300 mb-1">¿Qué ideas o funciones te gustaría ver en próximas versiones? (Opcional)</label>
+            <textarea id="lead-ideas" rows="2" placeholder="Ej: Cruces con presupuestos SINIM, búsqueda por artículos en PDFs, comparador de ordenanzas..." class="w-full bg-[#04142b] border border-[#153b70] rounded-xl px-3.5 py-2 text-xs text-zinc-200 placeholder-zinc-500 focus:outline-none focus:border-[#38bdf8] resize-none"></textarea>
           </div>
+        </div>
+
+        <!-- Bloque 3: Consentimiento Legal Ley 19.628 -->
+        <div class="pt-2 border-t border-[#153b70]/60 space-y-2">
+          <label class="flex items-start gap-2.5 cursor-pointer text-zinc-300 text-xs">
+            <input type="checkbox" id="lead-consent" required checked class="mt-0.5 rounded border-zinc-700 bg-[#04142b] text-[#38bdf8] focus:ring-0">
+            <span class="leading-snug text-[11px] text-zinc-300">
+              Acepto el tratamiento de mis datos personales para fines académicos, estadísticos y de contacto conforme a la <strong>Ley N° 19.628</strong> sobre Protección de la Vida Privada.
+            </span>
+          </label>
+          <p class="text-[10px] text-zinc-400 leading-tight">
+            🔒 <em>Tus datos serán tratados de forma estrictamente confidencial por el equipo de Eduardo Vega y nunca serán compartidos ni comercializados.</em>
+          </p>
         </div>
 
         <button type="submit" class="w-full py-3 bg-[#0b4aa2] hover:bg-[#073c86] text-white rounded-xl text-xs font-mono font-semibold transition-all flex items-center justify-center gap-2 shadow-lg hover:shadow-cyan-500/10">
           <i data-lucide="download" class="w-4 h-4"></i>
-          <span>Descargar Archivo Ahora</span>
+          <span>Enviar Encuesta y Descargar Archivo</span>
         </button>
       </form>
 
@@ -892,13 +931,13 @@
         </div>
         <a href="https://www.linkedin.com/in/evegat" target="_blank" rel="noopener noreferrer" class="shrink-0 px-3.5 py-2 bg-[#0a66c2] hover:bg-[#004182] text-white text-xs font-medium rounded-lg flex items-center gap-1.5 transition-colors shadow">
           <i data-lucide="linkedin" class="w-4 h-4"></i>
-          <span>Conectar</span>
+          <span>Conectar en LinkedIn ↗</span>
         </a>
       </div>
 
       <div class="text-center pt-1">
         <button onclick="triggerDirectDownload()" class="text-[11px] font-mono text-zinc-400 hover:text-zinc-200 underline">
-          O descargar directamente sin enviar datos
+          O descargar directamente sin enviar respuestas
         </button>
       </div>
     </div>
@@ -1628,9 +1667,16 @@
     function handleDownloadSubmit(e) {
       e.preventDefault();
       const name = document.getElementById('lead-name').value.trim();
+      const email = document.getElementById('lead-email').value.trim();
+      const institution = document.getElementById('lead-institution').value.trim();
+      const purpose = document.getElementById('lead-purpose').value;
+      const interest = document.getElementById('lead-interest') ? document.getElementById('lead-interest').value.trim() : '';
+      const ideas = document.getElementById('lead-ideas') ? document.getElementById('lead-ideas').value.trim() : '';
+
       triggerDirectDownload();
+
       if (name) {
-        showToast(`¡Gracias ${name}! Descarga completada.`);
+        showToast(`¡Gracias ${name}! Respuestas enviadas y descarga iniciada.`);
       }
     }
 
