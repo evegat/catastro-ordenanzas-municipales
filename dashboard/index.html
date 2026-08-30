@@ -178,9 +178,9 @@
         <i data-lucide="cpu" class="w-4 h-4"></i>
         Extracción Multi-Agente & Pipeline
       </button>
-      <button onclick="switchTab('buzon')" id="tab-btn-buzon" class="pb-3 text-sm font-medium border-b-2 border-transparent text-zinc-400 hover:text-zinc-200 flex items-center gap-2 shrink-0 transition-colors">
-        <i data-lucide="send" class="w-4 h-4 text-[#54b995]"></i>
-        Buzón & Colaborar
+      <button onclick="switchTab('descargas')" id="tab-btn-descargas" class="pb-3 text-sm font-medium border-b-2 border-transparent text-zinc-400 hover:text-zinc-200 flex items-center gap-2 shrink-0 transition-colors">
+        <i data-lucide="download-cloud" class="w-4 h-4 text-[#38bdf8]"></i>
+        Descargas & Comunidad
       </button>
       <button onclick="switchTab('roadmap')" id="tab-btn-roadmap" class="pb-3 text-sm font-medium border-b-2 border-transparent text-zinc-400 hover:text-zinc-200 flex items-center gap-2 shrink-0 transition-colors">
         <i data-lucide="compass" class="w-4 h-4"></i>
@@ -421,9 +421,91 @@
       </div>
     </section>
 
-    <!-- TAB CONTENT 4: BUZÓN COLABORATIVO & CONTACTO -->
-    <section id="tab-buzon" class="hidden space-y-8">
-      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+    <!-- TAB CONTENT 4: DESCARGAS & COMUNIDAD -->
+    <section id="tab-descargas" class="hidden space-y-8">
+      
+      <!-- HEADER Y TARJETAS DE DESCARGA -->
+      <div class="space-y-4">
+        <div class="flex flex-wrap items-center justify-between gap-2">
+          <div>
+            <h2 class="text-xl sm:text-2xl font-bold tracking-tight text-zinc-100 flex items-center gap-2.5">
+              <i data-lucide="download-cloud" class="w-6 h-6 text-[#38bdf8]"></i>
+              Descargas y Recursos del Catastro
+            </h2>
+            <p class="text-xs text-zinc-300 mt-1">Archivos consolidados de libre acceso para investigación, docencia y análisis de políticas locales.</p>
+          </div>
+          <span class="text-xs font-mono text-[#54b995] bg-[#54b995]/10 px-3 py-1 rounded-full border border-[#54b995]/30 font-semibold">
+            Acceso Abierto • Corte 2026-08-27
+          </span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2">
+          
+          <!-- Card Excel -->
+          <div class="bg-[#071f43]/70 border border-[#153b70] rounded-2xl p-5 space-y-4 flex flex-col justify-between hover:border-[#38bdf8]/40 transition-all shadow-sm">
+            <div class="space-y-3">
+              <div class="w-10 h-10 rounded-xl bg-[#0b4aa2]/20 border border-[#38bdf8]/30 flex items-center justify-center text-[#38bdf8]">
+                <i data-lucide="file-spreadsheet" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="text-sm font-bold text-zinc-100">Excel Catastro Nacional</h4>
+                <span class="text-[11px] font-mono text-zinc-400">1.632 normas clasificadas</span>
+              </div>
+              <p class="text-xs text-zinc-400 leading-relaxed">
+                Planilla estructurada con comunas, regiones, 9 ejes temáticos, fechas, enlaces directos y control de evidencia.
+              </p>
+            </div>
+            <button onclick="openDownloadModal('xlsx')" class="w-full py-2.5 bg-[#0b4aa2] hover:bg-[#073c86] text-white rounded-xl text-xs font-mono font-semibold transition-all flex items-center justify-center gap-2 shadow">
+              <i data-lucide="download" class="w-3.5 h-3.5"></i>
+              <span>Descargar .xlsx (0.19 MB)</span>
+            </button>
+          </div>
+
+          <!-- Card ZIP -->
+          <div class="bg-[#071f43]/70 border border-[#153b70] rounded-2xl p-5 space-y-4 flex flex-col justify-between hover:border-purple-500/40 transition-all shadow-sm">
+            <div class="space-y-3">
+              <div class="w-10 h-10 rounded-xl bg-purple-500/20 border border-purple-500/30 flex items-center justify-center text-purple-300">
+                <i data-lucide="archive" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="text-sm font-bold text-zinc-100">Paquete Consolidado ZIP</h4>
+                <span class="text-[11px] font-mono text-zinc-400">Microdataset multi-formato</span>
+              </div>
+              <p class="text-xs text-zinc-400 leading-relaxed">
+                Contiene base de datos SQLite, directorio maestro territorial CSV, Excel oficial y documentación técnica.
+              </p>
+            </div>
+            <button onclick="openDownloadModal('zip')" class="w-full py-2.5 bg-[#153b70] hover:bg-[#1f5091] border border-[#1f5091] text-zinc-100 rounded-xl text-xs font-mono font-semibold transition-all flex items-center justify-center gap-2 shadow">
+              <i data-lucide="download" class="w-3.5 h-3.5"></i>
+              <span>Descargar .zip (0.34 MB)</span>
+            </button>
+          </div>
+
+          <!-- Card LinkedIn & Red Académica -->
+          <div class="bg-gradient-to-br from-[#071f43]/90 via-[#071f43]/70 to-[#0a66c2]/20 border border-[#0a66c2]/40 rounded-2xl p-5 space-y-4 flex flex-col justify-between shadow-sm">
+            <div class="space-y-3">
+              <div class="w-10 h-10 rounded-xl bg-[#0a66c2]/20 border border-[#0a66c2]/40 flex items-center justify-center text-[#38bdf8]">
+                <i data-lucide="linkedin" class="w-5 h-5 text-[#38bdf8]"></i>
+              </div>
+              <div>
+                <h4 class="text-sm font-bold text-zinc-100">Comunidad & Red</h4>
+                <span class="text-[11px] font-mono text-[#38bdf8]">Eduardo Vega en LinkedIn</span>
+              </div>
+              <p class="text-xs text-zinc-300 leading-relaxed">
+                ¿Investigas políticas públicas, autonomía comunal o ciencia de datos? Conectemos en LinkedIn para compartir análisis y proyectos.
+              </p>
+            </div>
+            <a href="https://www.linkedin.com/in/evegat" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 bg-[#0a66c2] hover:bg-[#004182] text-white rounded-xl text-xs font-mono font-semibold transition-all flex items-center justify-center gap-2 shadow">
+              <i data-lucide="user-plus" class="w-3.5 h-3.5"></i>
+              <span>Conectar en LinkedIn ↗</span>
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- SECCIÓN BUZÓN COLABORATIVO -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 pt-4 border-t border-[#153b70]">
         
         <!-- Formulario Colaborativo -->
         <div class="lg:col-span-7 bg-[#071f43]/70 border border-[#153b70] rounded-2xl p-6 sm:p-8 space-y-6">
@@ -432,15 +514,15 @@
               Catastro Colaborativo
             </span>
             <span class="text-zinc-500 text-xs">•</span>
-            <span class="text-xs font-mono text-[#38bdf8]">Aporte Ciudadano y Académico</span>
+            <span class="text-xs font-mono text-[#38bdf8]">Aporte Ciudadano y Docente</span>
           </div>
 
           <div>
-            <h2 class="text-xl sm:text-2xl font-bold tracking-tight text-zinc-100">
+            <h3 class="text-lg sm:text-xl font-bold tracking-tight text-zinc-100">
               ¿Falta alguna ordenanza de tu comuna?
-            </h2>
-            <p class="text-xs text-zinc-300 mt-2 leading-relaxed">
-              Ayúdanos a completar la cobertura nacional de las 346 comunas. Si tienes el enlace al portal municipal, decreto alcaldicio o archivo PDF oficial de una ordenanza no registrada, envíalo por este buzón para auditarlo e indexarlo en la siguiente actualización.
+            </h3>
+            <p class="text-xs text-zinc-300 mt-1 leading-relaxed">
+              Si tienes el enlace al portal municipal, decreto alcaldicio o archivo PDF oficial de una ordenanza no registrada, envíalo por este buzón para auditarlo e indexarlo en la siguiente versión.
             </p>
           </div>
 
@@ -463,7 +545,7 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
                 <label class="block text-xs font-semibold text-zinc-300 mb-1.5 font-mono">Tu Nombre / Institución (Opcional)</label>
-                <input type="text" id="buzon-remitente" placeholder="Estudiante FAGOB / Funcionario..." class="w-full bg-[#04142b] border border-[#153b70] rounded-xl px-4 py-2.5 text-xs text-zinc-200 placeholder-zinc-500 focus:outline-none focus:border-[#38bdf8] transition-colors">
+                <input type="text" id="buzon-remitente" placeholder="Estudiante / Investigador / Funcionario..." class="w-full bg-[#04142b] border border-[#153b70] rounded-xl px-4 py-2.5 text-xs text-zinc-200 placeholder-zinc-500 focus:outline-none focus:border-[#38bdf8] transition-colors">
               </div>
               <div>
                 <label class="block text-xs font-semibold text-zinc-300 mb-1.5 font-mono">Tu Correo Electrónico (Opcional)</label>
@@ -483,50 +565,39 @@
           </form>
         </div>
 
-        <!-- Panel Lateral: Solicitud de Datos para Investigación -->
+        <!-- Panel Lateral Informativo -->
         <div class="lg:col-span-5 space-y-6">
           
           <div class="bg-[#071f43]/60 border border-[#153b70] rounded-2xl p-6 space-y-4">
             <div class="flex items-center gap-3">
-              <div class="w-10 h-10 rounded-xl bg-purple-500/10 border border-purple-500/30 flex items-center justify-center text-purple-400">
-                <i data-lucide="database" class="w-5 h-5"></i>
+              <div class="w-10 h-10 rounded-xl bg-[#54b995]/20 border border-[#54b995]/30 flex items-center justify-center text-[#54b995]">
+                <i data-lucide="shield-check" class="w-5 h-5"></i>
               </div>
               <div>
-                <h4 class="text-sm font-bold text-zinc-100">Solicitud de Base de Datos para Tesis e Investigación</h4>
-                <span class="text-[11px] font-mono text-zinc-400">Uso académico y científico</span>
+                <h4 class="text-sm font-bold text-zinc-100">Garantía de Auditoría de Datos</h4>
+                <span class="text-[11px] font-mono text-zinc-400">Verificación criptográfica</span>
               </div>
             </div>
 
             <p class="text-xs text-zinc-300 leading-relaxed">
-              Para preservar la integridad del proyecto y fomentar la colaboración con la comunidad universitaria, el microdataset estructurado completo (SQLite, CSV consolidado y metadatos) se entrega <strong>bajo solicitud directa</strong> para fines de investigación académica, docencia o proyectos de políticas públicas.
+              Todos los aportes recibidos a través de este buzón pasan por una verificación estricta de procedencia oficial, descarga efectiva de archivo PDF, integridad SHA-256 y clasificación temática antes de ser incorporados al dataset público.
             </p>
-
-            <div class="bg-[#04142b] border border-[#153b70] rounded-xl p-4 space-y-2">
-              <span class="text-[11px] font-mono text-[#38bdf8] font-semibold block">¿Cómo solicitar el dataset completo?</span>
-              <p class="text-[11px] text-zinc-400">
-                Escríbenos indicando tu nombre, institución académica o centro de estudios y el objetivo de tu investigación.
-              </p>
-            </div>
-
-            <a href="mailto:evegat@gmail.com?subject=Solicitud%20Dataset%20P090%20-%20Catastro%20Ordenanzas%20Municipales&body=Estimado%20Eduardo%20Vega%2C%0A%0AMe%20gustar%C3%ADa%20solicitar%20el%20dataset%20consolidado%20del%20Catastro%20Nacional%20de%20Ordenanzas%20Municipales%20(P090)%20para%20los%20siguientes%20fines%20acad%C3%A9micos%2Finvestigativos%3A%0A%0A-%20Nombre%3A%20%0A-%20Instituci%C3%B3n%20%2F%20Carrera%3A%20%0A-%20Objetivo%20de%20la%20investigaci%C3%B3n%3A%20%0A%0ASaludos%20cordiales." class="w-full py-2.5 bg-[#153b70] hover:bg-[#1f5091] border border-[#1f5091] text-zinc-100 rounded-xl text-xs font-mono font-medium transition-colors flex items-center justify-center gap-2 block text-center">
-              <i data-lucide="mail" class="w-4 h-4 text-[#38bdf8]"></i>
-              <span>Solicitar Dataset por Correo</span>
-            </a>
           </div>
 
           <div class="bg-[#071f43]/40 border border-[#153b70]/60 rounded-2xl p-5 space-y-3">
             <div class="flex items-center gap-2 text-zinc-300">
-              <i data-lucide="shield-check" class="w-4 h-4 text-[#54b995]"></i>
-              <h5 class="text-xs font-semibold">Garantía de Auditoría de Evidencia</h5>
+              <i data-lucide="book-open" class="w-4 h-4 text-[#38bdf8]"></i>
+              <h5 class="text-xs font-semibold">Uso en Trabajos de Tesis y Cátedras</h5>
             </div>
             <p class="text-[11px] text-zinc-400 leading-relaxed">
-              Todos los aportes recibidos a través de este buzón pasan por una verificación estricta de procedencia oficial, descarga efectiva de archivo PDF, integridad SHA-256 y clasificación temática antes de ser incorporados al dataset público.
+              Si estás realizando una tesis o investigación con este dataset y necesitas asistencia metodológica o cruces especiales de datos territoriales, contáctanos directamente para coordinar apoyo técnico.
             </p>
           </div>
 
         </div>
 
       </div>
+
     </section>
 
     <!-- TAB CONTENT 5: PROPÓSITO DOCENTE & ROADMAP -->
@@ -757,6 +828,77 @@
         <span>Fuentes: BCN LeyChile & Transparencia CPLT</span>
         <button onclick="closeDrawer()" class="px-4 py-2 bg-[#153b70] hover:bg-[#1f5091] text-zinc-200 rounded-lg text-xs font-semibold transition-colors">
           Cerrar Panel
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL DE DESCARGA & COMUNIDAD -->
+  <div id="download-modal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm hidden flex items-center justify-center p-4">
+    <div class="bg-[#071f43] border border-[#153b70] rounded-2xl max-w-lg w-full p-6 sm:p-7 space-y-5 shadow-2xl relative">
+      <button onclick="closeDownloadModal()" class="absolute top-4 right-4 p-1 rounded-lg text-zinc-400 hover:text-zinc-200 hover:bg-[#153b70] transition-colors">
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+
+      <div class="flex items-center gap-3">
+        <div class="w-11 h-11 rounded-xl bg-[#0b4aa2]/20 border border-[#38bdf8]/30 flex items-center justify-center text-[#38bdf8] shrink-0">
+          <i data-lucide="download" class="w-6 h-6"></i>
+        </div>
+        <div>
+          <h3 class="text-base font-bold text-zinc-100" id="download-modal-title">Descarga del Catastro Nacional</h3>
+          <span class="text-xs font-mono text-[#54b995]" id="download-modal-file">Archivo seleccionado</span>
+        </div>
+      </div>
+
+      <p class="text-xs text-zinc-300 leading-relaxed">
+        Este catastro es de libre acceso para la investigación y la docencia. Cuéntanos brevemente quién eres para conocer el uso y alcance de la herramienta (opcional) e inicia tu descarga:
+      </p>
+
+      <form id="download-lead-form" onsubmit="handleDownloadSubmit(event)" class="space-y-3.5 pt-1">
+        <div>
+          <label class="block text-[11px] font-mono font-semibold text-zinc-300 mb-1">Nombre / Institución o Universidad</label>
+          <input type="text" id="lead-name" placeholder="Ej: Marcela González • Univ. de Chile / Municipio" class="w-full bg-[#04142b] border border-[#153b70] rounded-xl px-3.5 py-2 text-xs text-zinc-200 placeholder-zinc-500 focus:outline-none focus:border-[#38bdf8]">
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          <div>
+            <label class="block text-[11px] font-mono font-semibold text-zinc-300 mb-1">Correo electrónico</label>
+            <input type="email" id="lead-email" placeholder="contacto@ejemplo.cl" class="w-full bg-[#04142b] border border-[#153b70] rounded-xl px-3.5 py-2 text-xs text-zinc-200 placeholder-zinc-500 focus:outline-none focus:border-[#38bdf8]">
+          </div>
+          <div>
+            <label class="block text-[11px] font-mono font-semibold text-zinc-300 mb-1">Finalidad de uso</label>
+            <select id="lead-purpose" class="w-full bg-[#04142b] border border-[#153b70] rounded-xl px-3.5 py-2 text-xs text-zinc-200 focus:outline-none focus:border-[#38bdf8]">
+              <option value="docencia">Docencia / Cátedra Universitaria</option>
+              <option value="tesis">Tesis de Pre/Postgrado</option>
+              <option value="investigacion">Investigación Académica</option>
+              <option value="gestion_publica">Gestión Municipal / Políticas Públicas</option>
+              <option value="ciudadano">Consulta Ciudadana / Profesional</option>
+              <option value="otro">Otro</option>
+            </select>
+          </div>
+        </div>
+
+        <button type="submit" class="w-full py-3 bg-[#0b4aa2] hover:bg-[#073c86] text-white rounded-xl text-xs font-mono font-semibold transition-all flex items-center justify-center gap-2 shadow-lg hover:shadow-cyan-500/10">
+          <i data-lucide="download" class="w-4 h-4"></i>
+          <span>Descargar Archivo Ahora</span>
+        </button>
+      </form>
+
+      <!-- Banner LinkedIn -->
+      <div class="p-4 rounded-xl bg-[#04142b] border border-[#0a66c2]/40 flex items-center justify-between gap-3">
+        <div class="text-xs text-zinc-300">
+          <span class="font-semibold block text-zinc-200">¿Investigas el mundo local?</span>
+          <span class="text-[11px] text-zinc-400">Conectemos en LinkedIn para compartir análisis y redes de investigación.</span>
+        </div>
+        <a href="https://www.linkedin.com/in/evegat" target="_blank" rel="noopener noreferrer" class="shrink-0 px-3.5 py-2 bg-[#0a66c2] hover:bg-[#004182] text-white text-xs font-medium rounded-lg flex items-center gap-1.5 transition-colors shadow">
+          <i data-lucide="linkedin" class="w-4 h-4"></i>
+          <span>Conectar</span>
+        </a>
+      </div>
+
+      <div class="text-center pt-1">
+        <button onclick="triggerDirectDownload()" class="text-[11px] font-mono text-zinc-400 hover:text-zinc-200 underline">
+          O descargar directamente sin enviar datos
         </button>
       </div>
     </div>
@@ -1442,9 +1584,59 @@
       document.getElementById('commune-drawer').classList.add('hidden');
     }
 
+    let pendingDownloadType = 'xlsx';
+
+    function openDownloadModal(type) {
+      pendingDownloadType = type;
+      const modal = document.getElementById('download-modal');
+      const title = document.getElementById('download-modal-title');
+      const fileBadge = document.getElementById('download-modal-file');
+
+      if (type === 'xlsx') {
+        title.textContent = 'Descarga: Excel Catastro Nacional';
+        fileBadge.textContent = 'catastro_ordenanzas_nacional_2026.xlsx (0.19 MB)';
+      } else {
+        title.textContent = 'Descarga: Paquete Consolidado ZIP';
+        fileBadge.textContent = 'consolidado_ordenanzas_chile_2026.zip (0.34 MB)';
+      }
+
+      if (modal) modal.classList.remove('hidden');
+      if (window.lucide) lucide.createIcons();
+    }
+
+    function closeDownloadModal() {
+      const modal = document.getElementById('download-modal');
+      if (modal) modal.classList.add('hidden');
+    }
+
+    function triggerDirectDownload() {
+      const fileUrl = (pendingDownloadType === 'xlsx')
+        ? 'descargas/catastro_ordenanzas_nacional_2026.xlsx'
+        : 'descargas/consolidado_ordenanzas_chile_2026.zip';
+      
+      const a = document.createElement('a');
+      a.href = fileUrl;
+      a.download = fileUrl.split('/').pop();
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+
+      closeDownloadModal();
+      showToast('Descarga iniciada exitosamente.');
+    }
+
+    function handleDownloadSubmit(e) {
+      e.preventDefault();
+      const name = document.getElementById('lead-name').value.trim();
+      triggerDirectDownload();
+      if (name) {
+        showToast(`¡Gracias ${name}! Descarga completada.`);
+      }
+    }
+
     function openBuzonForCommune(communeName) {
       closeDrawer();
-      switchTab('buzon');
+      switchTab('descargas');
       const input = document.getElementById('buzon-comuna');
       if (input) {
         input.value = communeName;
@@ -1479,7 +1671,7 @@
     }
 
     function switchTab(tabId) {
-      ['matriz', 'tematicas', 'metodologia', 'buzon', 'roadmap'].forEach(id => {
+      ['matriz', 'tematicas', 'metodologia', 'descargas', 'roadmap'].forEach(id => {
         const tabEl = document.getElementById('tab-' + id);
         const btnEl = document.getElementById('tab-btn-' + id);
         if (tabEl) tabEl.classList.add('hidden');
