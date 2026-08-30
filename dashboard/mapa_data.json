@@ -28,13 +28,15 @@
   {
     "comuna": "Putre",
     "region": "Arica y Parinacota",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -18.1969,
     "lon": -69.5594,
-    "topics": {}
+    "topics": {
+      "participacion_ciudadana": 1
+    }
   },
   {
     "comuna": "General Lagos",
@@ -1396,13 +1398,15 @@
   {
     "comuna": "La Reina",
     "region": "Metropolitana de Santiago",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -33.45,
     "lon": -70.5333,
-    "topics": {}
+    "topics": {
+      "derechos_tarifas": 1
+    }
   },
   {
     "comuna": "Las Condes",
@@ -1665,13 +1669,16 @@
   {
     "comuna": "San Ramón",
     "region": "Metropolitana de Santiago",
-    "total": 0,
+    "total": 2,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 2,
+    "status": "Municipalidad verificada",
     "lat": -33.5333,
     "lon": -70.6417,
-    "topics": {}
+    "topics": {
+      "derechos_tarifas": 1,
+      "general": 1
+    }
   },
   {
     "comuna": "Vitacura",
@@ -1772,13 +1779,15 @@
   {
     "comuna": "Tiltil",
     "region": "Metropolitana de Santiago",
-    "total": 0,
+    "total": 2,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 2,
+    "status": "Municipalidad verificada",
     "lat": -33.0833,
     "lon": -70.9333,
-    "topics": {}
+    "topics": {
+      "seguridad_convivencia": 2
+    }
   },
   {
     "comuna": "San Bernardo",
@@ -2083,13 +2092,18 @@
   {
     "comuna": "Las Cabras",
     "region": "O Higgins",
-    "total": 0,
+    "total": 11,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 11,
+    "status": "Municipalidad verificada",
     "lat": -34.2833,
     "lon": -71.3,
-    "topics": {}
+    "topics": {
+      "urbanismo_obras": 2,
+      "derechos_tarifas": 2,
+      "general": 6,
+      "aseo_medioambiente": 1
+    }
   },
   {
     "comuna": "Machalí",
@@ -2273,13 +2287,15 @@
   {
     "comuna": "Marchihue",
     "region": "O Higgins",
-    "total": 0,
+    "total": 28,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 28,
+    "status": "Municipalidad verificada",
     "lat": -34.4,
     "lon": -71.6167,
-    "topics": {}
+    "topics": {
+      "general": 28
+    }
   },
   {
     "comuna": "Navidad",
@@ -2364,13 +2380,15 @@
   {
     "comuna": "Lolol",
     "region": "O Higgins",
-    "total": 0,
+    "total": 2,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 2,
+    "status": "Municipalidad verificada",
     "lat": -34.7333,
     "lon": -71.65,
-    "topics": {}
+    "topics": {
+      "general": 2
+    }
   },
   {
     "comuna": "Nancagua",
@@ -2388,13 +2406,16 @@
   {
     "comuna": "Palmilla",
     "region": "O Higgins",
-    "total": 0,
+    "total": 3,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 3,
+    "status": "Municipalidad verificada",
     "lat": -34.5833,
     "lon": -71.3667,
-    "topics": {}
+    "topics": {
+      "seguridad_convivencia": 1,
+      "general": 2
+    }
   },
   {
     "comuna": "Peralillo",
@@ -2466,13 +2487,15 @@
   {
     "comuna": "Constitución",
     "region": "Maule",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -35.3333,
     "lon": -72.4167,
-    "topics": {}
+    "topics": {
+      "social_salud_deporte": 1
+    }
   },
   {
     "comuna": "Curepto",
@@ -2746,13 +2769,17 @@
   {
     "comuna": "Linares",
     "region": "Maule",
-    "total": 0,
+    "total": 8,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 8,
+    "status": "Municipalidad verificada",
     "lat": -35.85,
     "lon": -71.6,
-    "topics": {}
+    "topics": {
+      "alcoholes_comercio": 1,
+      "general": 6,
+      "derechos_tarifas": 1
+    }
   },
   {
     "comuna": "Colbún",
@@ -2998,13 +3025,15 @@
   {
     "comuna": "Portezuelo",
     "region": "Ñuble",
-    "total": 0,
+    "total": 3,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 3,
+    "status": "Municipalidad verificada",
     "lat": -36.5333,
     "lon": -72.4333,
-    "topics": {}
+    "topics": {
+      "general": 3
+    }
   },
   {
     "comuna": "Quillón",
@@ -3102,13 +3131,15 @@
   {
     "comuna": "Treguaco",
     "region": "Ñuble",
-    "total": 0,
+    "total": 4,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 4,
+    "status": "Municipalidad verificada",
     "lat": -36.4333,
     "lon": -72.6667,
-    "topics": {}
+    "topics": {
+      "general": 4
+    }
   },
   {
     "comuna": "Yungay",
@@ -3158,13 +3189,15 @@
   {
     "comuna": "Chiguayante",
     "region": "Biobío",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -36.9167,
     "lon": -73.0167,
-    "topics": {}
+    "topics": {
+      "alcoholes_comercio": 1
+    }
   },
   {
     "comuna": "Florida",
@@ -3567,13 +3600,15 @@
   {
     "comuna": "Alto Biobío",
     "region": "Biobío",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -38.0333,
     "lon": -71.3667,
-    "topics": {}
+    "topics": {
+      "general": 1
+    }
   },
   {
     "comuna": "Temuco",
@@ -3599,13 +3634,17 @@
   {
     "comuna": "Carahue",
     "region": "La Araucanía",
-    "total": 0,
+    "total": 3,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 3,
+    "status": "Municipalidad verificada",
     "lat": -38.7,
     "lon": -73.1667,
-    "topics": {}
+    "topics": {
+      "tenencia_mascotas": 1,
+      "general": 1,
+      "seguridad_convivencia": 1
+    }
   },
   {
     "comuna": "Cunco",
@@ -3871,13 +3910,15 @@
   {
     "comuna": "Angol",
     "region": "La Araucanía",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -37.8,
     "lon": -72.7167,
-    "topics": {}
+    "topics": {
+      "alcoholes_comercio": 1
+    }
   },
   {
     "comuna": "Collipulli",
@@ -4561,13 +4602,15 @@
   {
     "comuna": "San Pablo",
     "region": "Los Lagos",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -40.4,
     "lon": -73.0167,
-    "topics": {}
+    "topics": {
+      "seguridad_convivencia": 1
+    }
   },
   {
     "comuna": "Chaitén",
