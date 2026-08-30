@@ -1,0 +1,11 @@
+2026-08-30 12:06:54 [INFO] Watchdog iniciado; check=60s, stale=12m, modelo=qwen/qwen3.5-9b.
+2026-08-30 12:06:55 [INFO] La cola automA­tica del crawler estA­ terminada; no se relanza.
+2026-08-30 12:06:55 [ACTION] Discovery SINIM iniciado con PID 15808.
+2026-08-30 12:07:56 [INFO] La cola automA­tica del crawler estA­ terminada; no se relanza.
+2026-08-30 12:08:56 [INFO] La cola automA­tica del crawler estA­ terminada; no se relanza.
+2026-08-30 12:09:57 [INFO] La cola automA­tica del crawler estA­ terminada; no se relanza.
+2026-08-30 12:10:57 [INFO] La cola automA­tica del crawler estA­ terminada; no se relanza.
+2026-08-30 12:10:58 [ACTION] Discovery SINIM iniciado con PID 10936.
+2026-08-30 12:11:58 [INFO] La cola automA­tica del crawler estA­ terminada; no se relanza.
+2026-08-30 12:11:58 [ACTION] Discovery SINIM iniciado con PID 35012.
+2026-08-30 12:13:00 [STOP] LM Studio o el modelo 'qwen/qwen3.5-9b' no estA­n disponibles. El watchdog se detiene sin tocar procesos.

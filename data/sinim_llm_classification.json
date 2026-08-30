@@ -1,0 +1,47 @@
+{
+  "task_id": "MW-P090-0014-LM-CLASSIFICATION",
+  "model": "qwen/qwen3.5-9b",
+  "policy": "LOCAL LM TRIAGE; human-reviewable; no publication",
+  "municipalities": {
+    "MU002": {
+      "municipality": "ALHUÉ",
+      "status": "done",
+      "updated_at": "2026-08-30T10:16:47+00:00",
+      "documents_seen": 2,
+      "decisions": [
+        {
+          "url": "http://www.municipalidadalhue.cl/portaltransparencia/Ordenanza-apicola-para-decretar.pdf",
+          "sha256": "dc91b4eb06cfa321b697a2119e571271b78d6a0082d58b05e028ed1ba8a69386",
+          "is_ordinance": true,
+          "model_decision": true,
+          "confidence": 0.95,
+          "act_type": "ordenanza",
+          "title": null,
+          "matter_id": "otros",
+          "reason": "El nombre del archivo indica explícitamente que se trata de una Ordenanza apícola.",
+          "status": "classified"
+        },
+        {
+          "url": "https://municipalidadalhue.cl/portal/wp-content/uploads/2024/09/Ordenanza-Municipal-de-Ferias-Libres-y-Productores.pdf",
+          "sha256": "f245ec34e9f4aa893e752eb902099694b4c875260703b127fe665e481496418f",
+          "is_ordinance": true,
+          "model_decision": true,
+          "confidence": 0.95,
+          "act_type": "ordenanza",
+          "title": null,
+          "matter_id": "otros",
+          "reason": "El nombre del archivo indica explícitamente que se trata de una Ordenanza Municipal.",
+          "status": "classified"
+        }
+      ]
+    },
+    "MU003": {
+      "municipality": "ALTO BIOBÍO",
+      "status": "done",
+      "updated_at": "2026-08-30T10:16:47+00:00",
+      "documents_seen": 0,
+      "decisions": []
+    }
+  },
+  "updated_at": "2026-08-30T10:16:47+00:00"
+}

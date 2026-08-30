@@ -1,0 +1,2905 @@
+{
+  "task_id": "MW-P090-0013",
+  "derived_from": {
+    "task_id": "MW-P090-0012",
+    "input_sha256": "84dd70cbf3464176e41e2c44fe4af20104a58d05f9201923783d85012cf2d5ee",
+    "sinim_selector_count": 345,
+    "reconciled_municipalities": 345
+  },
+  "policy": "identity-verified candidate sources only; extraction evidence only; coverage_complete=false",
+  "summary": {
+    "municipalities_selected": 192,
+    "candidate_sources_selected": 963,
+    "municipalities_excluded": 153,
+    "excluded_states": {
+      "sinim_seed_identity_unverified": 9,
+      "sinim_seed_unreachable": 34,
+      "verified_site_no_candidate": 110
+    }
+  },
+  "municipalities": [
+    {
+      "cplt_code": "MU002",
+      "municipality": "ALHUÉ",
+      "organism_name": "Municipalidad de Alhué",
+      "sinim_code": "13502",
+      "seed_site": "https://www.municipalidadalhue.cl/",
+      "sources": [
+        "http://www.municipalidadalhue.cl/portaltransparencia/Ordenanza-apicola-para-decretar.pdf",
+        "https://municipalidadalhue.cl/portal/wp-content/uploads/2024/09/Ordenanza-Municipal-de-Ferias-Libres-y-Productores.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU003",
+      "municipality": "ALTO BIOBÍO",
+      "organism_name": "Municipalidad de Alto Biobío",
+      "sinim_code": "08314",
+      "seed_site": "https://www.munialtobiobio.cl/",
+      "sources": [
+        "https://munialtobiobio.cl/municipio/ordenanzas-municipales/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU004",
+      "municipality": "ALTO DEL CARMEN",
+      "organism_name": "Municipalidad de Alto del Carmen",
+      "sinim_code": "03302",
+      "seed_site": "https://www.munialtodelcarmen.cl/",
+      "sources": [
+        "https://www.munialtodelcarmen.cl/web/decretosalcaldicios-ordenanzasmunicipales/",
+        "https://www.munialtodelcarmen.cl/web/decretosalcaldicios-ordenanzasmunicipales/resoluciones/",
+        "https://www.munialtodelcarmen.cl/web/wp-content/uploads/2019/12/Ordenanza-3_2019.pdf",
+        "https://www.munialtodelcarmen.cl/web/wp-content/uploads/2020/04/ORDENANZA-01-23-04-2020-SOBRE-USO-DE-MASCARILLAS.pdf",
+        "https://www.munialtodelcarmen.cl/web/wp-content/uploads/2020/05/Ordenanza-Municipal-N°-2-2020.pdf",
+        "https://www.munialtodelcarmen.cl/web/wp-content/uploads/2020/05/Ordenanza-Municipal-N°-3-2020.pdf",
+        "https://www.munialtodelcarmen.cl/web/wp-content/uploads/2020/07/Ordenanza-Municipal-N°-4-2020.pdf",
+        "https://www.munialtodelcarmen.cl/web/wp-content/uploads/Ordenanza-Municipal-N°-1-2021.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU005",
+      "municipality": "ALTO HOSPICIO",
+      "organism_name": "Municipalidad de Alto Hospicio",
+      "sinim_code": "01107",
+      "seed_site": "https://www.maho.cl/",
+      "sources": [
+        "https://maho.cl/pdfmaho/DA%203.066-2025-%20Modifica%20Ordenanza%20Municipal%20N1%20de%20Derechos%20Cementerio%20Municipal.pdf",
+        "https://maho.cl/pdfmaho/DECRETO%204534-2026%20MODIFICACIO%20N%20ORDENANZA%20N%C2%B0O1%20MUNICIPAL.pdf",
+        "https://maho.cl/web/download/36/ordenanzas/15712/ordenanza-16-modifica-derechos-aseo-domiciliario.pdf",
+        "https://maho.cl/web/download/36/ordenanzas/15713/ordenanza-de-participacion-ciudadana.pdf",
+        "https://maho.cl/web/download/36/ordenanzas/15714/ordenanza-modificacion-a-la-ley-de-alcoholes.pdf",
+        "https://maho.cl/web/download/36/ordenanzas/15715/ordenanza-de-medio-ambiente-decreto-alc-no-2812-2015.pdf",
+        "https://maho.cl/web/download/36/ordenanzas/15716/ordenanza-de-medio-ambiente-decreto-alc-no-2994-2015.pdf",
+        "https://maho.cl/web/download/36/ordenanzas/15717/modificacion-ordenanza-sobre-derechos-municipales.pdf",
+        "https://maho.cl/web/download/36/ordenanzas/15718/caducidad-y-suspension-patentes-limitadas-de-alcoholes.pdf",
+        "https://maho.cl/web/download/36/ordenanzas/15720/ordenanza-escombros-version-oficial.pdf",
+        "https://maho.cl/web/download/36/ordenanzas/15721/proyecto-de-ordenanza-ultima-revision.pdf",
+        "https://maho.cl/web/download/36/ordenanzas/15918/modificacion-ordenanza-numero-1-cementerio-municipal.pdf",
+        "https://maho.cl/web/download/36/ordenanzas/17262/ordenanza-ed-tenencia-responsable-de-mascotas.pdf",
+        "https://maho.cl/web/download/36/ordenanzas/17263/memorandum-n179-2024.pdf",
+        "https://maho.cl/web/municipalidad/ordenanzas-municipales/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU008",
+      "municipality": "ANGOL",
+      "organism_name": "Municipalidad de Angol",
+      "sinim_code": "09201",
+      "seed_site": "https://angol.cl/",
+      "sources": [
+        "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU008&pagina=58390735"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU009",
+      "municipality": "ANTOFAGASTA",
+      "organism_name": "Municipalidad de Antofagasta",
+      "sinim_code": "02101",
+      "seed_site": "https://www.municipalidadantofagasta.cl/",
+      "sources": [
+        "https://www.municipalidadantofagasta.cl/index.php/home/municipalidad/ordenanzas-municipales",
+        "https://www.municipalidadantofagasta.cl/index.php/home/municipalidad/ordenanzas-municipales/1199-publicada-ordenanza-municipal-que-modifica-la-anterior-n-052011",
+        "https://www.municipalidadantofagasta.cl/index.php/home/municipalidad/ordenanzas-municipales/1837-ordenanza-municipal-n-03-2016-sobre-autorizacion-para-transporte-de-basuras-desechos-escombros-o-residuos-de-cualquier-tipo",
+        "https://www.municipalidadantofagasta.cl/index.php/home/municipalidad/ordenanzas-municipales/1957-ordenanza-municipal-n-01-2017-que-establece-modificaciones-a-la-ordenanza-n-02-2015-sobre-becas-municipales-para-estudiantes-destacados",
+        "https://www.municipalidadantofagasta.cl/index.php/home/municipalidad/ordenanzas-municipales/2077-ordenanza-municipal-n-03-2017-sobre-ordenamiento-y-uso-de-los-bienes-de-uso-publico-de-la-comuna-de-antofagasta",
+        "https://www.municipalidadantofagasta.cl/index.php/home/municipalidad/ordenanzas-municipales/2099-ordenanza-municipal-n-04-2017-que-establece-modificaciones-a-la-ordenanza-n-02-2017-sobre-alcoholes-comuna-de-antofagasta",
+        "https://www.municipalidadantofagasta.cl/index.php/home/municipalidad/ordenanzas-municipales/2256-ordenanza-municipal-n-01-2016-que-establece-modificaciones-a-la-ordenanza-n-01-2015-sobre-alcoholes-comuna-de-antofagasta",
+        "https://www.municipalidadantofagasta.cl/index.php/home/municipalidad/ordenanzas-municipales/2310-ordenanza-municipal-n-01-2018-modificacion-de-la-ordenanza-n-05-2011-sobre-derechos-municipales-por-permisos-concesiones-y-servicios-municipales",
+        "https://www.municipalidadantofagasta.cl/index.php/home/municipalidad/ordenanzas-municipales/2347-ordenanza-municipal-n-02-2018-que-modifica-la-ordenanza-n-01-2015-de-alcoholes",
+        "https://www.municipalidadantofagasta.cl/index.php/home/municipalidad/ordenanzas-municipales/2664-ordenanza-municipal-n-03-2018",
+        "https://www.municipalidadantofagasta.cl/index.php/home/municipalidad/ordenanzas-municipales/2669-ordenanza-n-4-2018-sobre-derechos-municipales-por-uso-de-las-instalaciones-del-estadio-regional-calvo-y-bascunan-y-sus-dependencias",
+        "https://www.municipalidadantofagasta.cl/index.php/home/municipalidad/ordenanzas-municipales/2716-ordenanza-n-1-2019-modificacion-de-la-ordenanza-003-2017-sobre-ordenamiento-y-uso-de-los-bienes-de-uso-publico-de-la-comuna-de-antofagasta",
+        "https://www.municipalidadantofagasta.cl/index.php/home/municipalidad/ordenanzas-municipales/3025-ordenanza-municipal-n-02-2019-sobre-derechos-municipales-por-permisos-concesiones-y-servicios-municipales-que-modifica-la-ordenanza-municipal-n-005-2011-y-sus-posteriores-modificaciones",
+        "https://www.municipalidadantofagasta.cl/index.php/home/municipalidad/ordenanzas-municipales/3173-ordenanza-municipal-01-2020",
+        "https://www.municipalidadantofagasta.cl/index.php/home/municipalidad/ordenanzas-municipales/3338-ordenanza-municipal-becas-2020-02-2020-modificacion-de-la-ordenanza-municipal-02-2015-sobre-becas-municipales-para-estudiantes-destacados"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU010",
+      "municipality": "ANTUCO",
+      "organism_name": "Municipalidad de Antuco",
+      "sinim_code": "08302",
+      "seed_site": "https://www.municipalidadantuco.cl/",
+      "sources": [
+        "https://municipalidadantuco.cl/wp-content/uploads/2026/02/ordenanzas.png"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU011",
+      "municipality": "ARAUCO",
+      "organism_name": "Municipalidad de Arauco",
+      "sinim_code": "08202",
+      "seed_site": "https://www.muniarauco.cl/",
+      "sources": [
+        "https://muniarauco.cl/ordenanzas/",
+        "https://muniarauco.cl/wp-content/uploads/2026/02/D.A.-2307-Ordenanza-Becas.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU012",
+      "municipality": "ARICA",
+      "organism_name": "Municipalidad de Arica",
+      "sinim_code": "15101",
+      "seed_site": "https://www.muniarica.cl/",
+      "sources": [
+        "https://docs.muniarica.cl/web/media/documentos/2025/10/ordenanza-n-02-para-el-cobro-municipal-2026.pdf",
+        "https://docs.muniarica.cl/web/media/documentos/2025/12/ordenanza-municipal-diciembre.pdf",
+        "https://docs.muniarica.cl/web/media/documentos/2026/06/ordenanza-n-1-2026.pdf",
+        "https://www.muniarica.cl/municipio/ordenanzas-municipales",
+        "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU012&pagina=61892978"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU013",
+      "municipality": "AYSÉN",
+      "organism_name": "Municipalidad de Aysén",
+      "sinim_code": "11201",
+      "seed_site": "https://www.puertoaysen.cl/",
+      "sources": [
+        "https://muniaysen.gob.cl/ordenanzas-y-reglamentos/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU014",
+      "municipality": "BUIN",
+      "organism_name": "Municipalidad de Buin",
+      "sinim_code": "13402",
+      "seed_site": "https://www.buin.cl/",
+      "sources": [
+        "https://transparenciahistorico.buin.cl/intranet/transparencia/vista/articulo.asp?id=1158",
+        "https://www.buin.cl/wp-content/uploads/2022/05/1367-Ordenanza-sobre-uso-y-comercialización-de-artefactos-que-combustionan-leña-y-pellets-de-madera.pdf",
+        "https://www.buin.cl/wp-content/uploads/2023/10/Decreto-3488-2023-Ordenanza-Tarifa-de-Aseo-Domiciliario-por-extraccion-de-basura-2024.pdf",
+        "https://www.buin.cl/wp-content/uploads/2024/07/Ex.-1318-Octubre-2003-Modificacion-Ordenanza-Aridos.pdf",
+        "https://www.buin.cl/wp-content/uploads/2024/07/Ex.-1725-Diciembre-2003-Modifica-Ordenanza-Aseo-Ornato-Regadio-y-desagues.pdf",
+        "https://www.buin.cl/wp-content/uploads/2024/07/Ex.-239-Julio-1990-Ordenanza-de-Aseo-y-Ornato-Mantencion-canales.pdf",
+        "https://www.buin.cl/wp-content/uploads/2024/07/Ex.-344-Julio-1993-Ordenanza-sobre-permisos-y-concesiones-extracc.aridos-Rio-Maipo-Com.Buin_.pdf",
+        "https://www.buin.cl/wp-content/uploads/2024/07/Ordenanza-Municipal-Cierre-de-Pasajes.pdf",
+        "https://www.buin.cl/wp-content/uploads/2024/10/Decreto-3488-2023-Ordenanza-Tarifa-de-Aseo-Domiciliario-por-extraccion-de-basura-2024.pdf",
+        "https://www.buin.cl/wp-content/uploads/2024/10/Ordenanza-de-Derechos-Municipales-por-Concesiones-Permisos-y-Servicios-de-la-Municipalidad-de-Buin-2025.pdf",
+        "https://www.buin.cl/wp-content/uploads/2025/02/Ex.-239-Julio-1990-Ordenanza-de-Aseo-y-Ornato.pdf",
+        "https://www.buin.cl/wp-content/uploads/2025/03/Ordenanza-Consumo-de-alcohol-y-drogas-comuna-de-Buin.pdf",
+        "https://www.buin.cl/wp-content/uploads/2025/06/Ordenanza-de-Subvenciones.pdf",
+        "https://www.buin.cl/wp-content/uploads/2025/12/D°3956-de-2025-Ordenanza-de-Derechos-Municipales.pdf",
+        "https://www.buin.cl/wp-content/uploads/2026/01/MEMO-JDCA-07-2026-Ordenanza-Personas-Mayores-Cuenta-Alcalde.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU016",
+      "municipality": "CABILDO",
+      "organism_name": "Municipalidad de Cabildo",
+      "sinim_code": "05402",
+      "seed_site": "https://www.municipiocabildo.cl/",
+      "sources": [
+        "https://municipiocabildo.cl/municipalidad/normativa-municipal/ordenanzas/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU017",
+      "municipality": "CABO DE HORNOS",
+      "organism_name": "Municipalidad de Cabo de Hornos y Antártica",
+      "sinim_code": "12201",
+      "seed_site": "https://www.imcabodehornos.cl/",
+      "sources": [
+        "https://imcabodehornos.cl/jsmallfib_top/Actos%20y%20resoluciones%20que%20afectan%20a%20terceros/Ordenanzas/2024/473.pdf",
+        "https://imcabodehornos.cl/serv-municipales/actualizacion-de-la-ordenanza-de-derechos-municipales-con-motivo-de-fiestas-patrias/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU018",
+      "municipality": "CABRERO",
+      "organism_name": "Municipalidad de Cabrero",
+      "sinim_code": "08303",
+      "seed_site": "https://www.cabrero.cl/",
+      "sources": [
+        "https://www.cabrero.cl/transparencia_cabrero/documentos/Ordenanza de Participacion Ciudadana y Convivencia Comuna de Cabrero 2019.PDF"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU019",
+      "municipality": "CALAMA",
+      "organism_name": "Municipalidad de Calama",
+      "sinim_code": "02201",
+      "seed_site": "https://www.municipalidadcalama.cl/",
+      "sources": [
+        "https://www.municipalidadcalama.cl/assets/docs/ORDENANZAS_006_007_2026.pdf",
+        "https://www.municipalidadcalama.cl/assets/docs/ORDENANZA_N%C2%B0_004.pdf",
+        "https://www.municipalidadcalama.cl/assets/docs/ORDENANZA_N%C2%B0_005_2025.pdf",
+        "https://www.municipalidadcalama.cl/assets/docs/ORDENANZA_N002.pdf",
+        "https://www.municipalidadcalama.cl/assets/docs/ORDENANZA_N003.pdf",
+        "https://www.municipalidadcalama.cl/assets/docs/ORDENANZA_N_001_15_01_2026.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU020",
+      "municipality": "CALBUCO",
+      "organism_name": "Municipalidad de Calbuco",
+      "sinim_code": "10102",
+      "seed_site": "https://www.municipalidadcalbuco.cl/",
+      "sources": [
+        "http://transparencia.municipalidadcalbuco.cl/Ordenanza%204159-2018.pdf",
+        "http://transparencia.municipalidadcalbuco.cl/Ordenanza-3066-2019.pdf",
+        "http://transparencia.municipalidadcalbuco.cl/modifica%20ordenanza%207325-2021.pdf",
+        "http://transparencia.municipalidadcalbuco.cl/modifica%20ordenanza%207326-2021.pdf",
+        "http://transparencia.municipalidadcalbuco.cl/modifica%20ordenanza%207327-2021.pdf",
+        "http://transparencia.municipalidadcalbuco.cl/ordenanza%201744-2021.pdf",
+        "http://transparencia.municipalidadcalbuco.cl/ordenanza%202748-2021.pdf",
+        "http://transparencia.municipalidadcalbuco.cl/ordenanza%202896-2020.pdf",
+        "http://transparencia.municipalidadcalbuco.cl/ordenanza%203028-2020.pdf",
+        "http://transparencia.municipalidadcalbuco.cl/ordenanza%203029-2020.pdf",
+        "http://transparencia.municipalidadcalbuco.cl/ordenanza%203374-2020.pdf",
+        "http://transparencia.municipalidadcalbuco.cl/ordenanza%203431-2020.pdf",
+        "http://transparencia.municipalidadcalbuco.cl/ordenanza%203823-2019.pdf",
+        "http://transparencia.municipalidadcalbuco.cl/ordenanza%204794-2020.pdf",
+        "http://transparencia.municipalidadcalbuco.cl/ordenanza%205143-2019.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU027",
+      "municipality": "CAÑETE",
+      "organism_name": "Municipalidad de Cańete",
+      "sinim_code": "08203",
+      "seed_site": "https://municanete.cl/",
+      "sources": [
+        "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU027&pagina=58849467"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU030",
+      "municipality": "CASABLANCA",
+      "organism_name": "Municipalidad de Casablanca",
+      "sinim_code": "05102",
+      "seed_site": "https://municipalidadcasablanca.cl/",
+      "sources": [
+        "https://municipalidadcasablanca.cl/index.php?option=com_phocadownload&view=category&download=150:octubre-2025-ordenanza-municipal-sobre-derechos-por-concesiones-permisos-y-servicios&id=21:ordenanza-municipal&Itemid=353",
+        "https://municipalidadcasablanca.cl/index.php?option=com_phocadownload&view=category&download=30:ordenanza-municipal&id=21:ordenanza-municipal&Itemid=353",
+        "https://municipalidadcasablanca.cl/index.php?option=com_phocadownload&view=category&download=69:ordenanza-municipal&id=21:ordenanza-municipal&Itemid=353",
+        "https://municipalidadcasablanca.cl/index.php?option=com_phocadownload&view=category&id=21:ordenanza-municipal&Itemid=353",
+        "https://municipalidadcasablanca.cl/index.php?option=com_phocadownload&view=file&id=30&Itemid=353"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU031",
+      "municipality": "CASTRO",
+      "organism_name": "Municipalidad de Castro",
+      "sinim_code": "10201",
+      "seed_site": "https://www.municastro.cl/",
+      "sources": [
+        "https://transparencia.municastro.cl/index.php?action=plantillas_selec_archivo&ig=287&a=2025",
+        "https://transparencia.municastro.cl/index.php?action=plantillas_selec_fecha&ig=450"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU033",
+      "municipality": "CAUQUENES",
+      "organism_name": "Municipalidad de Cauquenes",
+      "sinim_code": "07201",
+      "seed_site": "https://www.cauquenes.cl/",
+      "sources": [
+        "https://www.cauquenes.cl/ordenanza-municipal-sobre-otorgamiento-de-subvenciones-municipales/",
+        "https://www.cauquenes.cl/scam-ordenanza/",
+        "https://www.cauquenes.cl/transparencia_activa/decretos/2020/DE3182.pdf",
+        "https://www.cauquenes.cl/transparencia_activa/decretos/2020/DE3212.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU034",
+      "municipality": "CERRILLOS",
+      "organism_name": "Municipalidad de Cerrillos",
+      "sinim_code": "13102",
+      "seed_site": "https://www.mcerrillos.cl/",
+      "sources": [
+        "https://mcerrillos.cl/secciones/ordenanzas.html",
+        "https://mcerrillos.cl/secciones/ordenanzas/Modifica Ordenanza  N°6 Decreto 1912-2025 Sobre Normas Sanitarias  Basicas.pdf",
+        "https://mcerrillos.cl/secciones/ordenanzas/Modifica Ordenanza Municipal N°21 Sobre la Entrega de Becas Municipales Para Talentos Deportivos y Culturales de Escasos Recursos de la Comuna de Cerrillos.pdf",
+        "https://mcerrillos.cl/secciones/ordenanzas/Modificación  Ordenanza N°2 Decreto 1916-2025 Sobre Derechos Municipales.pdf",
+        "https://mcerrillos.cl/secciones/ordenanzas/Modificación Ordenanza N°14 Decreto 1913-2025 Sobre Condiciones Generales para Determinar las Tarifas de Ase, Exenciones Parcial y Total.pdf",
+        "https://mcerrillos.cl/secciones/ordenanzas/Ordenanza N°29 Sobre Escombros Aéreos en Bien Nacional de Uso Público de la Comuna de Cerrillos.pdf",
+        "https://mcerrillos.cl/secciones/ordenanzas/Ordenanza N°8 Sobre  Mantención de Áreas Verdes y Especies Vegetales en la via pública.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU035",
+      "municipality": "CERRO NAVIA",
+      "organism_name": "Municipalidad de Cerro Navia",
+      "sinim_code": "13103",
+      "seed_site": "https://www.cerronavia.cl/",
+      "sources": [
+        "https://www.cerronavia.cl/ordenanzas-municipales/",
+        "https://www.cerronavia.cl/wp-content/uploads/2025/01/Compilado-Ordenanzas-2.pdf",
+        "https://www.cerronavia.cl/wp-content/uploads/2025/10/Untitled_10302025_195636.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU038",
+      "municipality": "CHAÑARAL",
+      "organism_name": "Municipalidad de Chańaral",
+      "sinim_code": "03201",
+      "seed_site": "https://www.munichanaral.cl/",
+      "sources": [
+        "http://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/Decreto+Exento+N%C2%BA%203399-2014+ORDENANZA+MASCOTAS.pdf_1470759726178/b23e5e67-b4a4-4450-b82e-a6be616ad104?version=1.0",
+        "http://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/ORDENANZA+PLAN+REGULADOR.pdf/67be7772-1cc5-4099-a599-fc847c5d6157?version=1.0",
+        "http://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/ORDENANZA+PLAN+REGULADOR.pdf_1441029486786/899f3c0d-58a0-4adc-9aea-336a3654911b?version=1.0",
+        "http://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/Ordenanza_Proteccion_Canina.pdf/f44f4763-082b-4055-9261-3ae0a8f3de38?version=1.0",
+        "https://www.munichanaral.cl/pdf/regulador/APRUEBA_PLAN_REGULADOR_Y_SECCIONAL_DIARIO_OFICIAL_13_04_2005.pdf",
+        "https://www.munichanaral.cl/pdf/regulador/Publicacion_D.O_con_Ordenanza_Decreto_N_19.pdf",
+        "https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/D.E.+N%C2%B01774+Aprueba+Ordenanza+sobre+Tenencia+Responsable+de+Masc.pdf/229426cb-181c-4fe0-8c8d-ef1ec68f1ddd",
+        "https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/D.E.N%C2%B0%201131+Modifica+ordenanza+derechos+Municipales.pdf/11594d49-4419-42e0-9065-3fe230834a78",
+        "https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/D.E.N%C2%B01257+Ordenanza+Medio+Ambiental+Cha%C3%B1aral.pdf/94c7e58a-b66d-4c97-b035-b7a2beca126e",
+        "https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/D.E.N%C2%B0156+Modifica+ordenanza+local+de+derechos+municipales.pdf/bd8c608b-7aa0-4da0-aa3d-cefb04647e00",
+        "https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/D.E.N%C2%BA242+Modifica+ordenanza+local+de+derechos+municipales.pdf/2aec0ee0-abb8-4987-a220-f433ceb63c89",
+        "https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/DECRETO_N%C2%BA847_ORDENANZA+ASEO+Y+ORNATO.pdf/3a861c54-1357-4cb7-8b0b-e8be857b2843",
+        "https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/Decreto+Exento+N%C2%BA%201925-17+ORDENANZA+DESIERTO+FLORIDO.pdf/fcbefd76-bf1d-4688-86fe-5bd957931208?version=1.0",
+        "https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/Decreto+Exento+N%C2%BA%206368-2016+ORDENANZA+VERTEDEROS.pdf/6821f4b4-6f03-4d7e-9fc6-7c8c7f278ad7?version=1.0",
+        "https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/PLAN+REGULADOR+DE+LA+COMUNA+D.E.373+17032004.pdf/f67d9e8c-1ae0-4e63-a91f-ac5cc8d132c1"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU041",
+      "municipality": "CHILE CHICO",
+      "organism_name": "Municipalidad de Chile Chico",
+      "sinim_code": "11401",
+      "seed_site": "https://www.chilechico.cl/",
+      "sources": [
+        "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU041&pagina=57707221"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU046",
+      "municipality": "CHONCHI",
+      "organism_name": "Municipalidad de Chonchi",
+      "sinim_code": "10203",
+      "seed_site": "https://www.municipalidadchonchi.cl/",
+      "sources": [
+        "https://municipalidadchonchi.cl/web/wp-content/uploads/2022/02/DECRETO-ORDENANZA-MEDIO-AMBIENTE.pdf",
+        "https://municipalidadchonchi.cl/web/wp-content/uploads/2022/02/ORDENANZA-09.pdf",
+        "https://municipalidadchonchi.cl/web/wp-content/uploads/2022/02/ORDENANZA-ALCOHOLES-ACTUALIZADA-N°-07-DEL-12.11.2024.pdf",
+        "https://municipalidadchonchi.cl/web/wp-content/uploads/2022/02/ORDENANZA-DE-EXTRACCION-DE-ARIDOS-DE-LA-COMUNA-DE-CHONCHI-1.pdf",
+        "https://municipalidadchonchi.cl/web/wp-content/uploads/2022/02/ORDENANZA-LOCAL-03-DEL-09.08.2024.pdf",
+        "https://municipalidadchonchi.cl/web/wp-content/uploads/2022/02/ORDENANZA-LOCAL-N°01-2023-10.01.2023.pdf",
+        "https://municipalidadchonchi.cl/web/wp-content/uploads/2022/02/ORDENANZA-LOCAL-N°03-2022-31.03.2022.pdf",
+        "https://municipalidadchonchi.cl/web/wp-content/uploads/2022/02/ORDENANZA-LOCAL-N°05-2024-del-29.10.2024-Derechos-Municipales-Concesiones-o-Permisos.pdf",
+        "https://municipalidadchonchi.cl/web/wp-content/uploads/2022/02/ORDENANZA-MUNICIPAL-2020-2.pdf",
+        "https://municipalidadchonchi.cl/web/wp-content/uploads/2022/02/ORDENANZA-N4-TENENCIA-RESPONSABLE-DE-MASCOTAS.pdf",
+        "https://municipalidadchonchi.cl/web/wp-content/uploads/2022/02/ORDENANZA-N°02-2026-del-06.05.2026-MAQUINAS-DE-JUEGOS-HABILIDAD-O-DESTREZA-COMUNA-CHONCHI.pdf",
+        "https://municipalidadchonchi.cl/web/wp-content/uploads/2022/02/ORDENANZA-N°06-2024-del-29.10.2024-FERIA-ARTESANAL-Y-MERCADO-MUNICIPAL-DE-CHONCHI.pdf",
+        "https://municipalidadchonchi.cl/web/wp-content/uploads/2022/02/Ordenanza-N2-subvenciones-municipales-15-mayo.pdf",
+        "https://municipalidadchonchi.cl/web/wp-content/uploads/2022/02/ordenanza-6.pdf",
+        "https://municipalidadchonchi.cl/web/wp-content/uploads/2022/02/ordenanza-7.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU048",
+      "municipality": "COBQUECURA",
+      "organism_name": "Municipalidad de Cobquecura",
+      "sinim_code": "16202",
+      "seed_site": "https://www.cobquecura.cl/",
+      "sources": [
+        "https://municipalidadcobquecura.cl/ordenanzas-municipales/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU049",
+      "municipality": "COCHAMÓ",
+      "organism_name": "Municipalidad de Cochamó",
+      "sinim_code": "10103",
+      "seed_site": "https://www.municochamo.cl/",
+      "sources": [
+        "https://www.municochamo.cl/transparencia/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU051",
+      "municipality": "CODEGUA",
+      "organism_name": "Municipalidad de Codegua",
+      "sinim_code": "06102",
+      "seed_site": "https://www.municipalidaddecodegua.cl/",
+      "sources": [
+        "https://www.municipalidaddecodegua.cl/municipalidaddecodegua.cl/public/ordenanzas",
+        "https://www.municipalidaddecodegua.cl/municipalidaddecodegua.cl/public/ordenanzas-municipales",
+        "https://www.municipalidaddecodegua.cl/municipalidaddecodegua.cl/public/transparencia/ordenanzas",
+        "https://www.municipalidaddecodegua.cl/transparencia/ordenanzas.html"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU053",
+      "municipality": "COIHUECO",
+      "organism_name": "Municipalidad de Coihueco",
+      "sinim_code": "16302",
+      "seed_site": "https://www.municoihueco.cl/",
+      "sources": [
+        "https://municoihueco.cl/Inicio/ordenanzas-municipales/",
+        "https://municoihueco.cl/Inicio/wp-content/uploads/2024/02/Dto.-N%C2%B0-1383-Aprueba-Ordenanza-Incendios-Forestales.pdf",
+        "https://municoihueco.cl/Inicio/wp-content/uploads/2025/09/Ordenanza-Sobre-Utilizacion-Espacios-Uso-Publico_2025.pdf",
+        "https://municoihueco.cl/Inicio/wp-content/uploads/2026/04/ordenanzas-becas.pdf",
+        "https://municoihueco.cl/Inicio/wp-content/uploads/2026/05/ORDENANZA-BECA-CULTURAL-2025.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU055",
+      "municipality": "COLBÚN",
+      "organism_name": "Municipalidad de Colbún",
+      "sinim_code": "07402",
+      "seed_site": "https://www.municipalidadcolbun.cl/",
+      "sources": [
+        "https://www.municipalidadcolbun.cl/ordenanzas/",
+        "https://www.municipalidadcolbun.cl/transparencia/",
+        "https://www.municipalidadcolbun.cl/transparencia/ordenanzas/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU057",
+      "municipality": "COLINA",
+      "organism_name": "Municipalidad de Colina",
+      "sinim_code": "13301",
+      "seed_site": "https://www.colina.cl/",
+      "sources": [
+        "https://www.colina.cl/ordenanzas_municipales",
+        "https://www.colina.cl/ordenanzas_municipales/",
+        "https://www.colina.cl/pdfs/ordenanza_02-2023.pdf",
+        "https://www.colina.cl/pdfs/ordenanza_06-2024.pdf",
+        "https://www.colina.cl/pdfs/ordenanza_07-2025b.pdf",
+        "https://www.colina.cl/wp-content/uploads/2016/10/ORDENANZA-2016.pdf",
+        "https://www.colina.cl/wp-content/uploads/2020/04/ordenanza_mascarrillas.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU058",
+      "municipality": "COLLIPULLI",
+      "organism_name": "Municipalidad de Collipulli",
+      "sinim_code": "09202",
+      "seed_site": "https://www.municipalidadcollipulli.cl/",
+      "sources": [
+        "http://municipalidadcollipulli.cl/wp-content/uploads/2015/11/Ordenanza.pdf",
+        "http://municipalidadcollipulli.cl/wp-content/uploads/2017/04/Decreto-Nº-579-Ordenanza.pdf",
+        "http://municipalidadcollipulli.cl/wp-content/uploads/2019/02/ORDENANZA-FUNCIONAMIENTO-QUIOSCOS-Y-FOODTRUCK.pdf",
+        "http://municipalidadcollipulli.cl/wp-content/uploads/2020/06/3135Ordenanza.pdf",
+        "http://www.municipalidadcollipulli.cl/2015/ordenanzas/582%20Ordenanza.pdf",
+        "http://www.municipalidadcollipulli.cl/2015/ordenanzas/633%20Ordenanza%20Derechos%20Municipales.pdf",
+        "http://www.municipalidadcollipulli.cl/ORDENANZAS-DERECHOS-MUNICIPALES/ORDENANZA%20DCTO%20N%201548%20DEL%2020.11.2013.pdf",
+        "http://www.municipalidadcollipulli.cl/ORDENANZAS-DERECHOS-MUNICIPALES/ORDENANZA%20DCTO%20N%201724%20DEL%2016.12.2013.pdf",
+        "http://www.municipalidadcollipulli.cl/ORDENANZAS-DERECHOS-MUNICIPALES/modificacion_ordenanza31-07-2014.pdf",
+        "http://www.municipalidadcollipulli.cl/ORDENANZAS-DERECHOS-MUNICIPALES/texto_refundido_1209.pdf",
+        "http://www.municipalidadcollipulli.cl/menuhorizontal/ORDENANZA_PLANO_REGULADOR_MUNICIPAL.pdf",
+        "http://www.municipalidadcollipulli.cl/menuhorizontal/ordenanza_part.pdf",
+        "http://www.municipalidadcollipulli.cl/sitio/Respaldos/ordenanza_final.pdf",
+        "https://municipalidadcollipulli.cl/wp-content/uploads/2022/10/3332Ordenanza.pdf",
+        "https://municipalidadcollipulli.cl/wp-content/uploads/2023/07/ORDENANZA-MASCOTAS-Y-ANIMALES-DE-COMPANIA-1.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU059",
+      "municipality": "COLTAUCO",
+      "organism_name": "Municipalidad de Coltauco",
+      "sinim_code": "06104",
+      "seed_site": "https://www.coltauco.cl/",
+      "sources": [
+        "https://www.coltauco.cl/rsp/pdf/2026/ORDENANZA N°1942 BECAS MUNICIPALES 2024.pdf",
+        "https://www.coltauco.cl/rsp/pdf/2026/Ordenanza Becas Municipalidad Coltauco.pdf",
+        "https://www.coltauco.cl/rsp/servicios-municipales.php?unidad=Ordenanza+Becas+Municipalidad"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU061",
+      "municipality": "CONCEPCIÓN",
+      "organism_name": "Municipalidad de Concepción",
+      "sinim_code": "08101",
+      "seed_site": "https://www.concepcion.cl/",
+      "sources": [
+        "https://concepcion.cl/wp-content/uploads/2024/10/ORDENANZA-MUNICIPAL-N°3-MODIFICA-N°06-MODIFICA-TEXTO-REFUNDIDO-DE-LA-ORDENANZA-LOCAL-SOBRE-DERECHOS-MUNICIPALES-POR-CONCESIONES-PERMISOS-Y-SERVICIOS.pdf",
+        "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU061"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU063",
+      "municipality": "CONCÓN",
+      "organism_name": "Municipalidad de Concón",
+      "sinim_code": "05103",
+      "seed_site": "https://www.concon.cl/",
+      "sources": [
+        "https://www.concon.cl/descargas/contenido/da_1212_2020_regula_explotacion_y_extraccion_de_aridos.pdf",
+        "https://www.concon.cl/descargas/contenido/da_1276_2018_ruidos_molestos_de_construccion.pdf",
+        "https://www.concon.cl/descargas/contenido/da_1777_2017_autorizacion_de_transporte_de_basura_desechos_escombros_o_residuos_de_cualquier_tipo.pdf",
+        "https://www.concon.cl/descargas/contenido/da_3030_2016_tenencia_responsable_de_animales_domesticos.pdf",
+        "https://www.concon.cl/descargas/contenido/da_3032_2016_gestion_ambiental_comunal.pdf",
+        "https://www.concon.cl/descargas/contenido/da_50_2018_sustitucion_de_bolsas_plasticas_en_establecimientos_comerciales.pdf",
+        "https://www.concon.cl/medio_ambiente/ordenanzas"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU064",
+      "municipality": "CONSTITUCIÓN",
+      "organism_name": "Ilustre Municipalidad de Constitución",
+      "sinim_code": "07102",
+      "seed_site": "https://www.constitucion.cl/",
+      "sources": [
+        "https://www.constitucion.cl/transparencia/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU065",
+      "municipality": "CONTULMO",
+      "organism_name": "Municipalidad de Contulmo",
+      "sinim_code": "08204",
+      "seed_site": "https://www.contulmo.cl/",
+      "sources": [
+        "https://contulmo.cl/Transparencia/Participacion_Ciudadana/planilla_participacion.pdf",
+        "https://www.contulmo.cl/Transparencia/Ordenanzas/2026/Ordenanzas_2026.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU068",
+      "municipality": "CORONEL",
+      "organism_name": "Municipalidad de Coronel",
+      "sinim_code": "08102",
+      "seed_site": "https://www.coronel.cl/",
+      "sources": [
+        "https://www.coronel.cl/municipalidad/ordenanzas/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU070",
+      "municipality": "COYHAIQUE",
+      "organism_name": "Municipalidad de Coyhaique",
+      "sinim_code": "11101",
+      "seed_site": "https://www.coyhaique.cl/",
+      "sources": [
+        "https://www.coyhaique.cl/index.php?option=com_content&view=article&id=359:coyhaique-lanza-ordenanza-de-turismo-con-foco-en-la-sustentabilidade-identidad-local&catid=33&Itemid=101",
+        "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU070&pagina=58819820"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU073",
+      "municipality": "CURACAVÍ",
+      "organism_name": "Municipalidad de Curacaví",
+      "sinim_code": "13503",
+      "seed_site": "https://www.municipalidadcuracavi.cl/",
+      "sources": [
+        "http://transparencia.municipalidadcuracavi.cl/1_07_Ordenanzas/ORDENANZAS_CURACAVI.pdf",
+        "http://transparencia.municipalidadcuracavi.cl/documentacion.php?vartipo=1_07_Ordenanzas&vartipo2=1.7 Ordenanzas",
+        "https://www.municipalidadcuracavi.cl/transparenciaactiva/page.php?vartipo=3_Ordenanzas&vartipo2=Ordenanzas"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU074",
+      "municipality": "CURACO DE VÉLEZ",
+      "organism_name": "Municipalidad de Curaco de Vélez",
+      "sinim_code": "10204",
+      "seed_site": "https://www.curacodevelez.cl/",
+      "sources": [
+        "https://curacodevelez.cl/web/documentos/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU076",
+      "municipality": "CURARREHUE",
+      "organism_name": "Municipalidad de Curarrehue",
+      "sinim_code": "09104",
+      "seed_site": "https://www.curarrehue.cl/",
+      "sources": [
+        "http://curarrehue.cl/transparencia/ordenanzas/ORDENANZA%20MODIFICACIONES%202019%20REFUNDIDA.pdf",
+        "http://www.curarrehue.cl/transparencia/ordenanzas/ordenanza-sobre-subvenciones-municipales.pdf",
+        "https://curarrehue.cl/on/documents/decreto-exento-153/",
+        "https://curarrehue.cl/on/documents/decreto-exento-1554/",
+        "https://curarrehue.cl/on/documents/decreto-exento-n-1130-19-07-2023-ordenanza-sobre-condiciones-generales-para-la-fijacion-de-la-tarifa-de-aseo-por-el-servicio-de-extraccion-de-residuos-solidos-domiciliarios-de-la-comuna-de-c/",
+        "https://curarrehue.cl/on/documents/decreto-exento-n-1466-29-10-2025-ordenanza-de-patente-comercial-industrial-profesional-y-alcoholes/",
+        "https://curarrehue.cl/on/documents/decreto-exento-n-1467-29-10-2025-ordenanza-de-regulacion-de-eventos-ferias-costumbristas-y-uso-de-espacios/",
+        "https://curarrehue.cl/on/documents/decreto-exento-n-1474-03-11-2025-aprueba-ordenanza-de-subvenciones-municipales/",
+        "https://curarrehue.cl/on/documents/decreto-exento-n-1475-03-11-2025-aprueba-modificacion-ordenanza-general-sobre-derechos-municipales-por-servicios-concesiones-y-permisos/",
+        "https://curarrehue.cl/on/documents/decreto-exento-n-1486-ordenanza-sobre-otorgamiento-y-renovacion-de-patentes-de-alcoholes-de-la-municipalidad-de-curarrehue-2/",
+        "https://curarrehue.cl/on/documents/decreto-exento-n-1578-06-10-2023-aprueba-incorporacion-articulo-segundo-transitorio-y-texto-modificado-ordenanza-sobre-condiciones-generales-para-la-fijacion-de-la-tarifa-de-aseo-por-el-ser/",
+        "https://curarrehue.cl/on/wp-content/uploads/2022/11/D.E-Ordenaza-Municipal.pdf",
+        "https://curarrehue.cl/on/wp-content/uploads/2023/06/decreto-exento-1863.pdf",
+        "https://curarrehue.cl/on/wp-content/uploads/2023/07/DECRETO-1.130-APROBACION-ORDENANZA.pdf",
+        "https://curarrehue.cl/transparencia/ordenanzas/Ordenanza_Tenencia%20Responsable%20Mascotas%20.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU077",
+      "municipality": "CUREPTO",
+      "organism_name": "Municipalidad de Curepto",
+      "sinim_code": "07103",
+      "seed_site": "https://www.curepto.cl/",
+      "sources": [
+        "https://transparencia.curepto.cl/index.php?action=plantillas_selec_fecha&ig=384"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU078",
+      "municipality": "CURICÓ",
+      "organism_name": "Municipalidad de Curicó",
+      "sinim_code": "07301",
+      "seed_site": "https://www.curico.cl/",
+      "sources": [
+        "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU078&pagina=59962365"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU079",
+      "municipality": "DALCAHUE",
+      "organism_name": "Municipalidad de Dalcahue",
+      "sinim_code": "10205",
+      "seed_site": "https://www.munidalcahue.cl/",
+      "sources": [
+        "http://www.munidalcahue.cl/transparencia/inicio/documentos/06%20Actos%20y%20Resoluciones/04%20Ordenanzas/202005%20Ordenanza%20Local%20de%20Mascarillas%20y%20Distanciamiento%20Social.pdf",
+        "http://www.munidalcahue.cl/transparencia/inicio/documentos/06%20Actos%20y%20Resoluciones/04%20Ordenanzas/ComerciodeArtesaniasenbienesdeusopublico.pdf",
+        "http://www.munidalcahue.cl/transparencia/inicio/documentos/06%20Actos%20y%20Resoluciones/04%20Ordenanzas/ORDENANZA%20CEMENTERIO%202022-04.pdf",
+        "http://www.munidalcahue.cl/transparencia/inicio/documentos/06%20Actos%20y%20Resoluciones/04%20Ordenanzas/ORDENANZA%20COCINERIAS.pdf",
+        "http://www.munidalcahue.cl/transparencia/inicio/documentos/06%20Actos%20y%20Resoluciones/04%20Ordenanzas/ORDENANZADECOMERCIODEARTESANIASOCTUBRE2019.pdf",
+        "http://www.munidalcahue.cl/transparencia/inicio/documentos/06%20Actos%20y%20Resoluciones/04%20Ordenanzas/Ordenanza%20Aseo%20(Actualizada%20Octubre%202014).pdf",
+        "http://www.munidalcahue.cl/transparencia/inicio/documentos/06%20Actos%20y%20Resoluciones/04%20Ordenanzas/Ordenanza%20Medio%20Ambiental%20(Actualizada%20Octubre%202014).pdf",
+        "http://www.munidalcahue.cl/transparencia/inicio/documentos/06%20Actos%20y%20Resoluciones/04%20Ordenanzas/OrdenanzaLocaln14.pdf",
+        "http://www.munidalcahue.cl/transparencia/inicio/documentos/06%20Actos%20y%20Resoluciones/04%20Ordenanzas/OrdenanzaN1TenenciaResponsable.pdf",
+        "http://www.munidalcahue.cl/transparencia/inicio/documentos/06%20Actos%20y%20Resoluciones/04%20Ordenanzas/mod%20ord%20local%20n12%20.pdf",
+        "http://www.munidalcahue.cl/transparencia/inicio/documentos/06%20Actos%20y%20Resoluciones/04%20Ordenanzas/modifica%20ordenanza%20artesania%20201710.pdf",
+        "http://www.munidalcahue.cl/transparencia/inicio/documentos/06%20Actos%20y%20Resoluciones/04%20Ordenanzas/modificaORDENANZALOCALN14.pdf",
+        "http://www.munidalcahue.cl/transparencia/inicio/documentos/06%20Actos%20y%20Resoluciones/04%20Ordenanzas/ord%20com%20ambulante.pdf",
+        "http://www.munidalcahue.cl/transparencia/inicio/documentos/06%20Actos%20y%20Resoluciones/04%20Ordenanzas/ordenanza%20alcoholes.pdf",
+        "http://www.munidalcahue.cl/transparencia/inicio/index.php?page=2&dir=06 Actos y Resoluciones/04 Ordenanzas/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU080",
+      "municipality": "DIEGO DE ALMAGRO",
+      "organism_name": "Municipalidad de Diego de Almagro",
+      "sinim_code": "03202",
+      "seed_site": "https://www.imda.cl/",
+      "sources": [
+        "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU080&pagina=58721538"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU082",
+      "municipality": "EL BOSQUE",
+      "organism_name": "Municipalidad de El Bosque",
+      "sinim_code": "13105",
+      "seed_site": "https://www.municipalidadelbosque.cl/",
+      "sources": [
+        "https://www.municipalidadelbosque.cl/ordenanza-persa/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU083",
+      "municipality": "EL CARMEN",
+      "organism_name": "Municipalidad de El Carmen",
+      "sinim_code": "16104",
+      "seed_site": "https://www.municipalidadelcarmen.cl/",
+      "sources": [
+        "https://drive.municipalidadelcarmen.cl/municipal/pagina%20web/D.A%20%20240%20Ordenanza%20sobre%20Ruidos%20Molestos.pdf",
+        "https://portal.municipalidadelcarmen.cl/ordenanza-sobre-proteccion-y-tenencia-responsable-de-mascotas-y-animales-de-compania/",
+        "https://portal.municipalidadelcarmen.cl/ordenanza-y-formulario-subvencion-municipal/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU085",
+      "municipality": "EL QUISCO",
+      "organism_name": "Municipalidad de El Quisco",
+      "sinim_code": "05604",
+      "seed_site": "https://www.elquisco.cl/",
+      "sources": [
+        "https://www.elquisco.cl/wp-content/uploads/2024/05/001-ORDENANZA-MUNICIPAL-DE-FECHA-20.06.2019-SOBRE-PARTICIPACION-CIUDADANA-MUNICIPALIDAD-DE-EL-QUISCO-APROBADA-POR-D.A.-N°-1712-DE-FECHA-16.08.2011.pdf",
+        "https://www.elquisco.cl/wp-content/uploads/2024/05/002-ORDENANZA-MUNICIPAL-DE-FECHA-11.10.2019-SOBRE-FUNCIONAMIENTO-DE-FERIA-HORTOFRUTICOLA-EL-QUISCO-D.A.-N°-2329-2011.pdf",
+        "https://www.elquisco.cl/wp-content/uploads/2024/05/003-ORDENANZA-MUNICIPAL-DE-FECHA-17.10.2019-TENENCIA-RESPONSABLE-DE-MASCOTAS-APROBADA-POR-D.A.-3293-2016-ACTUALIZADA-POR-D.A.-N°-3636-DE-FECHA-17.10.2019.pdf",
+        "https://www.elquisco.cl/wp-content/uploads/2024/05/004-ORDENANZA-MUNICIPAL-DE-FECHA-17.10.2019-CONTRA-LA-DISCRIMINACION-EN-LA-COMUNA-DE-EL-QUISCO-APROBADA-POR-D.A.-N°-2359-DE-FECHA-14.11.2011.pdf",
+        "https://www.elquisco.cl/wp-content/uploads/2024/05/005-ORDENANZA-MUNICIPAL-DE-FECHA-17.10.2019-PARA-LA-FISCALIZACION-DE-INCIVILIDADES-COMETIDAS-EN-LA-VIA-PUBLICA-APROBADA-POR-D.A.-N°-4611-DE-FECHA-31.12.2018.pdf",
+        "https://www.elquisco.cl/wp-content/uploads/2024/05/006-ORDENANZA-MUNICIPAL-N°-006-DE-FECHA-17.10.2019-PROMOCION-DE-ESTILOS-DE-VIDA-SALUDABLE-EN-LA-COMUNA-DE-EL-QUISCO-APROBADA-POR-D.A.-3776-2018.pdf",
+        "https://www.elquisco.cl/wp-content/uploads/2024/05/007-ORDENANZA-MUNICIPAL-N°-007-DE-FECHA-29.10.2019-LOCAL-DE-FARMACIA-MUNICIPAL-DE-EL-QUISCO-APROBADA-POR-D.A.-N°-2167-DE-FECHA-15.07.2016.pdf",
+        "https://www.elquisco.cl/wp-content/uploads/2024/05/008-ORDENANZA-MUNICIPAL-N°-008-DE-FECHA-29.10.2019-ACTIVIDAD-COMERCIAL-E-INDUSTRIAL-Y-DE-SERVICIOS-APROBADA-POR-D.A.-N°-211-DE-FECHA-06.10.1987.pdf",
+        "https://www.elquisco.cl/wp-content/uploads/2024/05/009-ORDENANZA-MUNICIPAL-N°-009-DE-FECHA-12.11.2019-OTORGAMIENTO-DE-PATENTE-MUNICIPALES-PROVISORIAS-APROBADA-POR-D.A.-N°-1792-2014-MODIFICADA-POR-D.A.-3780-2018.pdf",
+        "https://www.elquisco.cl/wp-content/uploads/2024/05/010-ORDENANZA-MUNICIPAL-N°-010-DE-FECHA-12.11.2019-PARA-LA-REGULACION-DE-LOS-ESPECTACULOS-CIRCENSES-Y-O-ESPECTACULOS-ARTISTICOS-BAJO-CARPA-APROBADA-POR-D.A.-N°-3036-DE-FECHA-14.12.2012.pdf",
+        "https://www.elquisco.cl/wp-content/uploads/2024/05/011-ORDENANZA-MUNICIPAL-N°-011-DE-FECHA-12.11.2019-DE-MEDIO-AMBIENTE-APROBADA-POR-D.A.-N°-3529-DE-FECHA-11.10.2018_compressed.pdf",
+        "https://www.elquisco.cl/wp-content/uploads/2024/05/012-ORDENANZA-MUNICIPAL-N°-012-DE-FECHA-13.11.2019-FERIA-DE-PRODUCTORES-COMUNA-DE-EL-QUISCO-APROBADA-POR-D.A.-N°-0563-DE-FECHA-23.02.2017-2.pdf",
+        "https://www.elquisco.cl/wp-content/uploads/2024/05/013-ORDENANZA-MUNICIPAL-N°-013-REGULA-PERMISO-PAGADO-PARA-ESTACIONARSE-EN-VIAS-CONCESIONADAS-DE-LA-COMUNA-DE-EL-QUISCO-APROBADA-POR-D.A.-N°-1707-DE-FECHA-28.12.2007-2.pdf",
+        "https://www.elquisco.cl/wp-content/uploads/2024/05/014-ORDENANZA-MUNICPAL-EXPLOTACION-Y-FUNC-DE-MAQUINAS-ELECTRONICAS-DE-DESTREZA-HUMANA-DE-LA-COMUNA-DE-EL-QUISCO-APROB-POR-D.A.-N°-1436-2006-MODIFIC-POR-D.A.-N°-1593-DE-FECHA-27.12.2006.pdf",
+        "https://www.elquisco.cl/wp-content/uploads/2024/05/015-ORDENANZA-MUNICPAL-N°-015-REGISTRO-DE-PERSONAS-JURIDICAS-RECEPTORAS-DE-FONDOS-PUBLICOS-MUNICIPALIDAD-DE-EL-QUISCO-APROBADA-POR-D.A.-N°-314-DE-FECHA-16.04.2004.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU087",
+      "municipality": "EMPEDRADO",
+      "organism_name": "Municipalidad de Empedrado",
+      "sinim_code": "07104",
+      "seed_site": "https://www.empedrado.cl/",
+      "sources": [
+        "https://empedrado.cl/ordenanzas-municipales/",
+        "https://empedrado.cl/wp-content/uploads/2025/07/APRUEBA-ORDENANZA-LOCAL-PARA-FUNCIONAMIENTO-DE-FERIAS-LIBRES-EMPEDRADO-2021-OK.docx",
+        "https://empedrado.cl/wp-content/uploads/2025/07/Modificacion-Ordenanza-corrales.pdf",
+        "https://empedrado.cl/wp-content/uploads/2025/07/ORDENANZA-AMBIENTAL-MUNICIPALIDAD-EMPEDRADO.pdf",
+        "https://empedrado.cl/wp-content/uploads/2025/07/ORDENANZA-DE-TENENCIA-RESPONSABLE-DE-MASCOTAS20241120_15542733.pdf",
+        "https://empedrado.cl/wp-content/uploads/2025/07/Ordenanza-Local-Sobre-Derechos-Municipales-2.docx",
+        "https://empedrado.cl/wp-content/uploads/2025/07/Ordenanza-Local-Sobre-Derechos-Municipales.docx",
+        "https://empedrado.cl/wp-content/uploads/2025/07/Ordenanza-de-Corrales-Municipales-DECRETO-170.pdf",
+        "https://empedrado.cl/wp-content/uploads/2025/07/Ordenanza-de-Feria.pdf",
+        "https://empedrado.cl/wp-content/uploads/2025/07/Ordenanza-de-Participacion-Ciudadana.pdf",
+        "https://empedrado.cl/wp-content/uploads/2025/07/Ordenanza-extraccion-de-aridos.pdf",
+        "https://empedrado.cl/wp-content/uploads/2025/07/Ordenanza-hídrica-Empedrado-2023.docx",
+        "https://empedrado.cl/wp-content/uploads/2025/07/Ordenanza-sobre-reposicion-de-aceras.pdf",
+        "https://empedrado.cl/wp-content/uploads/2025/07/Ordenanza-trabajos-comunitarios-1.pdf",
+        "https://empedrado.cl/wp-content/uploads/2025/07/Ordenanza-trabajos-comunitarios.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU088",
+      "municipality": "ERCILLA",
+      "organism_name": "Municipalidad de Ercilla",
+      "sinim_code": "09204",
+      "seed_site": "https://www.muniercilla.cl/",
+      "sources": [
+        "https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/DEC_EXE_3234_2022_APRUEBA+MODIFICACIONES+A+LA+ORDENANZA+MUNICIPAL.pdf/8de7986c-dd23-4463-a215-4c2729e01a04"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU090",
+      "municipality": "FLORIDA",
+      "organism_name": "Municipalidad de Florida",
+      "sinim_code": "08104",
+      "seed_site": "https://www.muniflorida.cl/",
+      "sources": [
+        "https://muniflorida.cl/ordenanzas-municipales/",
+        "https://muniflorida.cl/wp-content/uploads/2026/02/Ordenanza-Comercio-Ambulante.pdf",
+        "https://muniflorida.cl/wp-content/uploads/2026/02/Ordenanza-de-Patente-Provisorias.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU091",
+      "municipality": "FREIRE",
+      "organism_name": "Municipalidad de Freire",
+      "sinim_code": "09105",
+      "seed_site": "https://www.munifreire.cl/",
+      "sources": [
+        "https://munifreire.cl/ordenanzas-2"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU094",
+      "municipality": "FRUTILLAR",
+      "organism_name": "Municipalidad de Frutillar",
+      "sinim_code": "10105",
+      "seed_site": "https://www.munifrutillar.cl/",
+      "sources": [
+        "https://munifrutillar.cl/municipalidad-2/ordenanzas-municipales/",
+        "https://munifrutillar.cl/wp-content/uploads/2026/03/Decreto-Ordenanza-Prohibicion-bolsas-Plasticas-Frutillar.pdf",
+        "https://munifrutillar.cl/wp-content/uploads/2026/03/Ordenanza-sobre-Tenencia-responsable-de-mascotas-y-crianza-de-animales-en-la-comuna-de-Frutillar-1.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU095",
+      "municipality": "FUTALEUFÚ",
+      "organism_name": "Municipalidad de Futaleufú",
+      "sinim_code": "10402",
+      "seed_site": "https://www.futaleufu.cl/",
+      "sources": [
+        "https://www.futaleufu.cl/2026/07/24/municipalidad-de-futaleufu-implementa-nueva-ordenanza-para-el-retiro-de-vehiculos-abandonados/",
+        "https://www.futaleufu.cl/2026/08/17/futaleufu-aprueba-nueva-ordenanza-municipal-de-expendio-de-alcoholes/",
+        "https://www.futaleufu.cl/wp-content/uploads/2026/07/DECRETO-APRUEBA-ORDENANZA-RETIRO-VEHICULOS-1.pdf",
+        "https://www.futaleufu.cl/wp-content/uploads/2026/08/Ordenanza-Municipal-de-Expendio-de-Alcoholes-y-Plan-de-ReducciA³n-de-Patentes-de-Alcoholes-de-FTF.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU096",
+      "municipality": "FUTRONO",
+      "organism_name": "Municipalidad de Futrono",
+      "sinim_code": "14202",
+      "seed_site": "https://www.munifutrono.cl/",
+      "sources": [
+        "https://www.munifutrono.cl/accesologin/?redirect_to=https%3A%2F%2Fwww.munifutrono.cl%2Fdownload%2Facuerdo-644-aprueba-modificacion-ordenanza-cobro-derechos-sesion-120_000484%2F",
+        "https://www.munifutrono.cl/accesologin/?redirect_to=https%3A%2F%2Fwww.munifutrono.cl%2Fdownload%2Facuerdo-646-aprueba-modificacion-ordenanza-ferias-libres-sesion-120_000483%2F",
+        "https://www.munifutrono.cl/accesologin/?redirect_to=https%3A%2F%2Fwww.munifutrono.cl%2Fdownload%2Fordenanza-humedales-ultimo-borrador%2F",
+        "https://www.munifutrono.cl/accesologin/?redirect_to=https%3A%2F%2Fwww.munifutrono.cl%2Fdownload%2Fordenanza-transito-actualizada%2F",
+        "https://www.munifutrono.cl/download/001-ordenanza-especial-plan-seccional-bahia-coique-2/",
+        "https://www.munifutrono.cl/download/002-modificacion-ordenanza-plan-regulador-comunal/",
+        "https://www.munifutrono.cl/download/003-ordenanza-de-construccion-instalacion-y-mantencion-de-carteles-comuna-de-futrono/",
+        "https://www.munifutrono.cl/download/004-ordenanza-de-comercio-ambulante-y-comercio-estacionado-en-la-via-publica/",
+        "https://www.munifutrono.cl/download/005-ordenanza-local-sobre-estacionamiento-de-tiempo-limitado-en-las-vias-publicas-en-la-ciudad-de-futrono/",
+        "https://www.munifutrono.cl/download/006-modificacion-ordenanza-de-fachadas-zona-urbana-de-futrono/",
+        "https://www.munifutrono.cl/download/007-modificacion-ordenanza-de-derechos-municipales/",
+        "https://www.munifutrono.cl/download/008-ordenanza-municipal-sobre-entornos-saludables-en-la-comuna-de-futrono/",
+        "https://www.munifutrono.cl/download/009-ordenanza-cobro-direccion-de-transito/",
+        "https://www.munifutrono.cl/download/010-ordenanza-normas-de-uso-de-playas-fluviales-y-lacustres/",
+        "https://www.munifutrono.cl/download/011-ordenanza-sobre-tenencia-responsable-de-mascotas-o-animales-de-compania-y-bienestar-animal-en-la-comuna-de-futrono/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU101",
+      "municipality": "GUAITECAS",
+      "organism_name": "Municipalidad de Guaitecas",
+      "sinim_code": "11203",
+      "seed_site": "https://www.muniguaitecas.cl/",
+      "sources": [
+        "https://muniguaitecas.cl/2026/03/19/ordenanza-tenencia-responsable-de-mascotas/",
+        "https://muniguaitecas.cl/tag/ordenanza-tenencia-responsable/",
+        "https://muniguaitecas.cl/wp-content/uploads/2026/03/Ordenanza-TRM-Municipalidad-Guaitecas_compressed-1.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU102",
+      "municipality": "HIJUELAS",
+      "organism_name": "Municipalidad de Hijuelas",
+      "sinim_code": "05503",
+      "seed_site": "https://www.hijuelas.cl/",
+      "sources": [
+        "https://hijuelas.cl/municipalidad/ordenanzas/",
+        "https://hijuelas.cl/municipalidad/rdenanzas",
+        "https://hijuelas.cl/wp-content/uploads/216422ordderechmunicip.pdf",
+        "https://hijuelas.cl/wp-content/uploads/79211ordensubvencmunic.pdf",
+        "https://hijuelas.cl/wp-content/uploads/APRUEBA-ORDENANZA-MUNICIPAL-SOBRE-COBROS-DE-DERECHOS-DE-ASEO-DOMICILIARIO.pdf",
+        "https://hijuelas.cl/wp-content/uploads/Extraccion-de-aridos-1.pdf",
+        "https://hijuelas.cl/wp-content/uploads/Ferias-libres-1.pdf",
+        "https://hijuelas.cl/wp-content/uploads/decreto4419.pdf",
+        "https://hijuelas.cl/wp-content/uploads/gaslicuado.pdf",
+        "https://hijuelas.cl/wp-content/uploads/juezpolicialocal.pdf",
+        "https://hijuelas.cl/wp-content/uploads/ordenanzaparticipacionciudadana.pdf",
+        "https://hijuelas.cl/wp-content/uploads/patentesdealcoholes.pdf",
+        "https://hijuelas.cl/wp-content/uploads/registropersonasjuridicas.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU103",
+      "municipality": "HUALAIHUÉ",
+      "organism_name": "Municipalidad de Hualaihué",
+      "sinim_code": "10403",
+      "seed_site": "https://www.municipalidadhualaihue.cl/",
+      "sources": [
+        "https://municipalidadhualaihue.cl/cambio-del-articulo-no-31-de-la-ordenanza-municipal-de-terminales-de-locomocion-colectiva-urbana-y-no-urbana/",
+        "https://municipalidadhualaihue.cl/concejo-municipal-de-hualaihue-aprobo-ordenanza-de-participacion-ciudadana/",
+        "https://municipalidadhualaihue.cl/concejo-municipal-de-hualaihue-aprobo-ordenanza-municipal-de-proteccion-de-humedales-comunales-de-hualaihue/",
+        "https://municipalidadhualaihue.cl/consulta-ciudadana-propuesta-ordenanza-humedales-de-hualaihue/",
+        "https://municipalidadhualaihue.cl/ordenanzas-municipales-sobre-expendido-y-consumo-de-bebidas-alcoholicas-y-maquinas-de-juegos-o-destreza/",
+        "https://municipalidadhualaihue.cl/wp-content/uploads/2022/04/PROPUESTA-ORDENANZA-HUMEDALES-COSTEROS-06-04-22.docx",
+        "https://municipalidadhualaihue.cl/wp-content/uploads/2022/11/CERT.-ACUERDO-N°-92-APRUEBA-ORDENANZA-DE-PARTICIPACION-CIUDADANA.pdf",
+        "https://municipalidadhualaihue.cl/wp-content/uploads/2023/02/Decreto-Alcaldicio-N-520-Ordenanza-Humedales.pdf",
+        "https://municipalidadhualaihue.cl/wp-content/uploads/2026/08/DECRETO-ORDENANZA-DE-ALCOHOLES-HUALAIHUE.pdf",
+        "https://municipalidadhualaihue.cl/wp-content/uploads/2026/08/DECRETO-ORDENANZA-DE-MyQUINAS-DE-JUEGOS-DE-HABILIDAD-O-DESTREZA.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU104",
+      "municipality": "HUALAÑÉ",
+      "organism_name": "Municipalidad de Hualańé",
+      "sinim_code": "07302",
+      "seed_site": "https://www.hualane.cl/",
+      "sources": [
+        "https://transparencia.hualane.cl/index.php?action=plantillas_selec_fecha&ig=683"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU107",
+      "municipality": "HUARA",
+      "organism_name": "Municipalidad de Huara",
+      "sinim_code": "01404",
+      "seed_site": "https://www.imhuara.cl/",
+      "sources": [
+        "https://imhuara.cl/ordenanzas/",
+        "https://imhuara.cl/wp-content/uploads/2025/04/DECRETO-EXENTO-594-2025-APRUEBA-ORDENANZA-TRANSITO-RELIQUIA-SAN-LORENZO-TARAPACA.pdf",
+        "https://imhuara.cl/wp-content/uploads/2025/04/DECRETO-EXENTO-595-2025-APRUEBA-ORDENANZA-SEGURIDAD-Y-EMERGENCIAS-RELIQUIA-SAN-LORENZO-TARAPACA.pdf",
+        "https://imhuara.cl/wp-content/uploads/2025/09/DECRETO-1558-DE-2025-ORDENANZA-7-DE-2025.pdf",
+        "https://imhuara.cl/wp-content/uploads/2025/12/D.-EXENTO-N°-2089-APROBACION-ORDENANZA-N°9-PERMISOS-TEMPORALES-AFECTOS-DE-PAGO-FERIA-AGROPRODUCTIVA-TURISTICA-Y-CULTURAL-EXPO-HUARA-2026-1.pdf",
+        "https://imhuara.cl/wp-content/uploads/2026/04/DECRETO-EXENTO-N°723-2026-APRUEBASE-LA-ORDENANZA-MUNICIPAL-N°02-FUNCIONAMIENTO-DE-COMEDOR-COMUNITARIO-MUNICIPALIDAD-DE-HUARA.pdf",
+        "https://imhuara.cl/wp-content/uploads/2026/04/DECRETO-EXENTO-N°737-2026-APRUEBASE-LA-ORDENANZA-PARA-OTORGAMIENTO-DE-SUBVENCIONES-MUNICIPALES-PARA-ORGANIZACIONES-COMUNITARIAS.pdf",
+        "https://imhuara.cl/wp-content/uploads/2026/07/ORDENANZA-N°-04-DERECHOS-MUICIPALES-EN-EL-PUEBLO-TARAPACA.pdf",
+        "https://imhuara.cl/wp-content/uploads/2026/08/D-EXENTO-N°1366-Y-ORDENANZA-N-°05-PRACTICA-DEPORTIVA276.pdf",
+        "https://imhuara.cl/wp-content/uploads/2026/08/ORDENANZA-TENENCIA-RESPONSABLE-DE-ANIMALES.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU108",
+      "municipality": "HUASCO",
+      "organism_name": "Municipalidad de Huasco",
+      "sinim_code": "03304",
+      "seed_site": "https://www.imhuasco.cl/",
+      "sources": [
+        "https://imhuasco.cl/Transparenciamunicipal/Documentos/ordenanzas/2014/ORDENANZA-PARTICIPACION-CIUDADANA.pdf",
+        "https://imhuasco.cl/Transparenciamunicipal/Documentos/ordenanzas/2022/PUBLICACI%C3%93N-ORDENANZA-TENENCIA-RESPONSABLE-DE-MASCOTAS.pdf",
+        "https://imhuasco.cl/ordenanzas-municipales/",
+        "https://imhuasco.cl/wp-content/uploads/2026/03/DA792.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU110",
+      "municipality": "ILLAPEL",
+      "organism_name": "Municipalidad de Illapel",
+      "sinim_code": "04201",
+      "seed_site": "https://www.municipalidadillapel.cl/",
+      "sources": [
+        "https://municipalidadillapel.cl/app/uploads/2025/02/Ordenanza-Ferias-de-la-Comuna-Illapel.pdf",
+        "https://municipalidadillapel.cl/ordenanzas-municipales/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU111",
+      "municipality": "INDEPENDENCIA",
+      "organism_name": "Municipalidad de Independencia",
+      "sinim_code": "13108",
+      "seed_site": "https://www.independencia.cl/",
+      "sources": [
+        "https://www.independencia.cl/municipalidad/ordenanzas-municipales/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU112",
+      "municipality": "IQUIQUE",
+      "organism_name": "Municipalidad de Iquique",
+      "sinim_code": "01101",
+      "seed_site": "https://www.municipioiquique.cl/",
+      "sources": [
+        "https://www.municipioiquique.cl/descargas/ordenanzas/2024/10/O.M%20611%20MODIFICA%20NUMERAL%206%20DEL%20ARTICULO%208%C2%B0%20DEL%20TITULO%20V%20DERECHOS%20MUNICIPALES%20RELACIONADOS%20CON%20PERMISOS%20PARA%20EL%20EJERECICIO%20TRANSITORIO%20DE%20ACT%20LUCRATIVAS.pdf",
+        "https://www.municipioiquique.cl/descargas/ordenanzas/2024/11/O.M.N%C2%B0612%202024%20-%20Modifica%20OM%20316%20del%20a%C3%B1o%202000%20Reglamento%20Casino%20Municipal%20de%20Iquique.pdf",
+        "https://www.municipioiquique.cl/descargas/ordenanzas/2024/11/OM%20613%20MODIFIQUESE%20ARTICULO180%20ORDENANZA%20612%20FUNCIONAMIENTO%20CASINO%20DE%20JUEGOS.pdf",
+        "https://www.municipioiquique.cl/descargas/ordenanzas/2024/12/Ordenanza%20Municipal%20N%C2%B0614..pdf",
+        "https://www.municipioiquique.cl/descargas/ordenanzas/2025/06/OM%20617%20DEROGUESE%20ORDENANZA%20MUNICIPAL%20427%20TENECIA%20RESPONSABLE%20DE%20MASCOTAS%20Y%20ANIMALES%20DE%20COMPAN%CC%83IA.pdf",
+        "https://www.municipioiquique.cl/descargas/ordenanzas/2025/06/OM%20618%20MODIFIQUESE%20ORDENANZA%20MUNICPAL%20209-1991%20QUE%20REGULA%20FERIA%20ITINERANTE%20DE%20LA%20COMUNA%20DE%20IQUIQUE.pdf",
+        "https://www.municipioiquique.cl/descargas/ordenanzas/2025/10/ORDENANZA%20MUNICIPAL%20621-2025%20INSTALACION%20MANT.%20Y%20RETIRO%20LINEAS%20AREAS%20Y%20SUBTERRANEAS%20DE%20TELECOMUNICACIONES%20EN%20BIENES%20NACIONALES%20DE%20USO%20PUBLICO.pdf",
+        "https://www.municipioiquique.cl/descargas/ordenanzas/2025/10/ORDENANZA%20MUNICIPAL%20622-2025%20MODIFICA%20O.M.%20451-2010%20SOBRE%20DERECHOS%20MUNICIPALES%20POR%20CONCESIONES%2C%20PERMISO%20Y%20SERVICIOS.pdf",
+        "https://www.municipioiquique.cl/descargas/ordenanzas/O.M.%20599%20MODIFICA%20ORDENANZA%20MUNICIPAL%20N°598-2024%20QUE%20REGULA%20HORARIO%20DE%20VENTA%20DE%20BEBIDAS%20ALCOHÓLICAS%20EN%20LA%20FORMA%20QUE%20INDICA%201.pdf",
+        "https://www.municipioiquique.cl/descargas/ordenanzas/O.M.%20610%20MODIFICA%20ORDENANZA%20MUNICIPAL%20586-2023%20RELATIVO%20AL%20FUNCIONAMIENTO%20DEL%20CASINO%20DE%20JUEGOS%20DE%20IQUIQUE.pdf",
+        "https://www.municipioiquique.cl/descargas/ordenanzas/O.M.%20N°602%20MODIFIQUESE%20ARTICULO%20167%20BIS%20ESTABLECIDO%20EN%20LA%20ORDENANZA%20MUNICIPAL%20N°452-2010.pdf",
+        "https://www.municipioiquique.cl/descargas/ordenanzas/O.M.%20N°603%20MODIFICA%20OM%20451-2010%20SOBRE%20DERECHOS%20MUNICIPALES%20POR%20CONCESIONES,%20PERMISOS%20Y%20SERVICIOS.pdf",
+        "https://www.municipioiquique.cl/descargas/ordenanzas/OM%20604%20MODIFICA%20OM%20603-2024%20QUE%20INCORPORA%20ARTICULO%20SEPTIES%20A%20LA%20OM%20451-2010%20SOBRE%20DERECHOS%20MUNICIPALES%20POR%20CONCESIONES,%20PERMISOS%20Y%20SERVICIOS%20(1).pdf",
+        "https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/O.M.+527+AUTORIZA+CAMBIO+TRANSITORIO+AV.+ARTURO+PRAT+UNIDIRECCIONAL+SUR+A+NORTE+TEMPORADA+ESCOLAR+-+INGRESO+35.pdf/9226b2e4-695f-4076-8525-694f769a6c01",
+        "https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/OKO.M.+530+REVOCA+Y+DEJA+SIN+EFECTO+O.M.+528-2019+-+INGRESO+255.pdf/1f832661-d755-4056-822b-638824220c94"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU115",
+      "municipality": "JUAN FERNÁNDEZ",
+      "organism_name": "Municipalidad de Juan Fernández",
+      "sinim_code": "05104",
+      "seed_site": "https://www.comunajuanfernandez.cl/",
+      "sources": [
+        "https://munijf.cl:443/ordenanzas-municipales/",
+        "https://munijf.cl:443/ordenanzas/",
+        "https://munijf.cl:443/transparencia/",
+        "https://munijf.cl:443/transparencia/ordenanzas.html",
+        "https://munijf.cl:443/transparencia/ordenanzas/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU116",
+      "municipality": "CALERA",
+      "organism_name": "Municipalidad de La Calera",
+      "sinim_code": "05502",
+      "seed_site": "https://www.lacalera.cl/",
+      "sources": [
+        "https://lacalera.cl/informacion/ordenanzas/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU118",
+      "municipality": "LA CRUZ",
+      "organism_name": "Municipalidad de La Cruz",
+      "sinim_code": "05504",
+      "seed_site": "https://www.lacruz.cl/",
+      "sources": [
+        "https://www.lacruz.cl/Municipalidad/assets/docs/D.A%20614%20-%2009-06-2022%20MODIFICACIÓN%20ORDENANZA%20PARTICIPACIÓN%20CIUDADANA.pdf",
+        "https://www.lacruz.cl/Municipalidad/assets/docs/D.A.%20N°%202322%20Ordenanza%20Municipal%20Cobro%20Aseo.pdf",
+        "https://www.lacruz.cl/Municipalidad/assets/docs/DA%202066-24-10-24-Texto%20Refundido%20Ordenanza%20de%20Derechos%20Municipales.pdf",
+        "https://www.lacruz.cl/Municipalidad/assets/docs/DECRETO%20ALCALDICIO%20N°1303%20ORDENANZA%20MUNICIPAL.pdf",
+        "https://www.lacruz.cl/Municipalidad/assets/docs/Ordenanza%20aridos%201305.pdf",
+        "https://www.lacruz.cl/Municipalidad/ordenanzas.php"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU119",
+      "municipality": "LA ESTRELLA",
+      "organism_name": "Municipalidad de La Estrella",
+      "sinim_code": "06202",
+      "seed_site": "https://www.munilaestrella.cl/",
+      "sources": [
+        "http://www.munilaestrella.cl/Documentos/DECRETO_ACALDICIO_N_847_ORDENANZA_PATENTES_PROVISORIAS_AGO_2022.pdf",
+        "http://www.munilaestrella.cl/Documentos/DECRETO_ALCALDICIO_846_ORDENANZA_MICROEMPRESAS_FAMILIARES_AGO_2022.pdf",
+        "http://www.munilaestrella.cl/Documentos/ORDENANZA_COBROS_ATENCION_VETERINARIA.pdf",
+        "https://munilaestrella.cl/nuestras-ordenanzas/",
+        "https://www.munilaestrella.cl/Documentos/DA_N064_Ordenanza_municipal_prevencion_gestion_de_riesgos_La_Estrella.pdf",
+        "https://www.munilaestrella.cl/Documentos/DECRETO_ALCALDICIO_N_63_ORDENANZA_TENENCIA_RESPONSABLE_MASCOTAS_ENE_2026.pdf",
+        "https://www.munilaestrella.cl/Documentos/Ordenanza_Municipal_Medio_Ambiente.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU120",
+      "municipality": "LA FLORIDA",
+      "organism_name": "Municipalidad de La Florida",
+      "sinim_code": "13110",
+      "seed_site": "https://www.laflorida.cl/",
+      "sources": [
+        "https://www.laflorida.cl/sitio/wp-content/uploads/2022/11/Ordenanza-149.pdf",
+        "https://www.laflorida.cl/sitio/wp-content/uploads/2022/12/Ordenanza-150.pdf",
+        "https://www.laflorida.cl/sitio/wp-content/uploads/2022/12/Ordenanza-151.pdf",
+        "https://www.laflorida.cl/sitio/wp-content/uploads/2023/03/decreto-exento-1434.pdf",
+        "https://www.laflorida.cl/sitio/wp-content/uploads/2023/10/Ordenanza-153-A-708.pdf",
+        "https://www.laflorida.cl/sitio/wp-content/uploads/2023/10/Ordenanza-153.pdf",
+        "https://www.laflorida.cl/sitio/wp-content/uploads/2023/10/ordenanza-152.pdf",
+        "https://www.laflorida.cl/sitio/wp-content/uploads/2024/02/Ordenanza-154.pdf",
+        "https://www.laflorida.cl/sitio/wp-content/uploads/2024/03/Ordenanza-155.pdf",
+        "https://www.laflorida.cl/sitio/wp-content/uploads/2024/10/Ordenanza-156.pdf",
+        "https://www.laflorida.cl/sitio/wp-content/uploads/2025/01/Ordenanza-157.pdf",
+        "https://www.laflorida.cl/sitio/wp-content/uploads/2025/04/Ordenanza-158.pdf",
+        "https://www.laflorida.cl/sitio/wp-content/uploads/2025/10/Ordenanza-159.pdf",
+        "https://www.laflorida.cl/sitio/wp-content/uploads/2025/10/Ordenanza-160.pdf",
+        "https://www.laflorida.cl/sitio/wp-content/uploads/2026/04/Ordenanza-161.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU121",
+      "municipality": "LA GRANJA",
+      "organism_name": "Municipalidad de La Granja",
+      "sinim_code": "13111",
+      "seed_site": "https://www.municipalidadlagranja.cl/",
+      "sources": [
+        "https://municipalidadlagranja.cl/wp-content/uploads/2022/05/ORDENANZA_TENENCIA_RESPONSABLE_20211201.pdf",
+        "https://www.municipalidadlagranja.cl/mi-municipio/ordenanzas-municipales/",
+        "https://www.municipalidadlagranja.cl/wp-content/uploads/2022/06/Decreto-572-2022-ORDENANZA-HIDRICA-LOCAL-1.pdf",
+        "https://www.municipalidadlagranja.cl/wp-content/uploads/2022/11/Decreto-2137-2022-Diario-Oficial-Ordenanza-cierre-y-medidas-de-control-de-calles-pasajes-o-conjuntos-habitacionales-1.pdf",
+        "https://www.municipalidadlagranja.cl/wp-content/uploads/2023/04/Decreto-Alcaldicio-N°-1037-2023-Modifica-Ordenanza-de-Ferias-Libres-de-l....pdf",
+        "https://www.municipalidadlagranja.cl/wp-content/uploads/2024/05/ORDENANZA-MA_abril-24.pdf",
+        "https://www.municipalidadlagranja.cl/wp-content/uploads/2024/10/Decreto-Alcaldicio-Ordenanza-Derechos-municipales.pdf",
+        "https://www.municipalidadlagranja.cl/wp-content/uploads/2026/01/ORDENANZA-CIERRE-DE-CALLES-Y-PASAJES.pdf",
+        "https://www.municipalidadlagranja.cl/wp-content/uploads/2026/01/ORDENANZA-DE-CABLEADO-AEREO.pdf",
+        "https://www.municipalidadlagranja.cl/wp-content/uploads/2026/01/ORDENANZA-TALLERES-MECANICOS.pdf",
+        "https://www.municipalidadlagranja.cl/wp-content/uploads/2026/02/Ordenanza-Medioambiente-La-Granja.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU122",
+      "municipality": "LA HIGUERA",
+      "organism_name": "Municipalidad de La Higuera",
+      "sinim_code": "04104",
+      "seed_site": "https://www.munilahiguera.cl/",
+      "sources": [
+        "https://www.munilahiguera.cl/DECRETOORDENANZA_BECASMUNICIPALES.pdf",
+        "https://www.munilahiguera.cl/DICTA_ORDENANZA_DE_ASEO_COMUNA_DE_LA_HIGUERA.pdf",
+        "https://www.munilahiguera.cl/OrdenanzaParticipacionCiudadana2019.pdf",
+        "https://www.munilahiguera.cl/ordenanzabecas.html",
+        "https://www.munilahiguera.cl/ordenanzasm.html",
+        "https://www.munilahiguera.cl/ordenanzatenenciaresponsable.pdf",
+        "https://www.munilahiguera.cl/transparencia2013/ordenanzas/662.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU124",
+      "municipality": "LA PINTANA",
+      "organism_name": "Municipalidad de La Pintana",
+      "sinim_code": "13112",
+      "seed_site": "https://www.pintana.cl/",
+      "sources": [
+        "https://pintana.cl/wp-content/uploads/2025/12/ORDENANZA-DE-TRM-FIRMADA-POR-JURIDICO-1.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU125",
+      "municipality": "LA REINA",
+      "organism_name": "Municipalidad de La Reina",
+      "sinim_code": "13113",
+      "seed_site": "https://www.lareina.cl/",
+      "sources": [
+        "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU125&pagina=58314855"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU126",
+      "municipality": "LA SERENA",
+      "organism_name": "Municipalidad de La Serena",
+      "sinim_code": "04101",
+      "seed_site": "https://www.laserena.cl/",
+      "sources": [
+        "https://laserena.cl/ordenanzas-municipales/",
+        "https://laserena.cl/ordenanzas/",
+        "https://laserena.cl/transparencia/ordenanzas.html",
+        "https://laserena.cl/transparencia/ordenanzas/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU127",
+      "municipality": "LA UNIÓN",
+      "organism_name": "Municipalidad de La Unión",
+      "sinim_code": "14201",
+      "seed_site": "https://www.munilaunion.cl/",
+      "sources": [
+        "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU127/AR/AREST/58184485?estadoItem=Publicado"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU130",
+      "municipality": "LAGUNA BLANCA",
+      "organism_name": "Municipalidad de Laguna Blanca",
+      "sinim_code": "12102",
+      "seed_site": "https://www.mlagunablanca.cl/",
+      "sources": [
+        "https://www.mlagunablanca.cl/Transparencia/07 - Actos y resoluciones con efectos sobre te/Organizaciones Comunitarias/Acta de elección comisión electoral Centro de Padres y Apoderados Escuela Diego Portales.pdf",
+        "https://www.mlagunablanca.cl/Transparencia/07%20-%20Actos%20y%20resoluciones%20con%20efectos%20sobre%20te/Ordenanzas%20Municipales/Ordenanza%20extraccion%20aridos.pdf",
+        "https://www.mlagunablanca.cl/Transparencia/Otros/ordenanzas/Decreto%20N%c2%b0%20747%20-%20Aprueba%20Ordenanza%20de%20Derechos.pdf",
+        "https://www.mlagunablanca.cl/ordenanzas.html"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU131",
+      "municipality": "LAJA",
+      "organism_name": "Municipalidad de Laja",
+      "sinim_code": "08304",
+      "seed_site": "https://www.munilaja.cl/",
+      "sources": [
+        "https://munilaja.cl/w/wp-content/uploads/2024/02/ORDENANZA-MUNICIPAL-TENENCIA-RESPONSABLE-DE-MASCOTAS.pdf",
+        "https://munilaja.cl/w/wp-content/uploads/2024/12/modificacion-ordenanza.jpg"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU132",
+      "municipality": "LAMPA",
+      "organism_name": "Municipalidad de Lampa",
+      "sinim_code": "13302",
+      "seed_site": "https://www.lampa.cl/",
+      "sources": [
+        "https://lampa.cl/website/wp-content/uploads/2025/06/dex-757-municipalidad-de-lampa-web.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU133",
+      "municipality": "LANCO",
+      "organism_name": "Municipalidad de Lanco",
+      "sinim_code": "14103",
+      "seed_site": "https://www.munilanco.cl/",
+      "sources": [
+        "https://munilanco.cl/index.php/documentos-home/1-home?download=261:ordenanza-2025&start=240",
+        "https://munilanco.cl/index.php/documentos-home/1-home?download=30:decreto-exento-n3689-2024-aprueba-el-texto-actualizado-y-refundido-de-la-ordenanza-sobre-el-funcionamiento-de-ferias-libres"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU135",
+      "municipality": "LAS CONDES",
+      "organism_name": "Municipalidad de Las Condes",
+      "sinim_code": "13114",
+      "seed_site": "https://www.lascondes.cl/",
+      "sources": [
+        "https://archivos.lascondes.cl/descargas/transparencia/actos_resoluciones/decretos/2009/09.septiembre/decreto.3875.08sep2009.ordenanza.regulacion.circulacion.camiones.transporte.cilindros.de.gas.pdf",
+        "https://archivos.lascondes.cl/descargas/transparencia/ordenanzas/2023/decreto.1948.24may2023.pdf",
+        "https://archivos.lascondes.cl/descargas/transparencia/ordenanzas/2023/decreto.2363.28jun2023.pdf",
+        "https://archivos.lascondes.cl/descargas/transparencia/ordenanzas/2023/decreto.2463.10jul2023.pdf",
+        "https://archivos.lascondes.cl/descargas/transparencia/ordenanzas/2023/decreto.3200.06sep2023.pdf",
+        "https://archivos.lascondes.cl/descargas/transparencia/ordenanzas/2023/decreto.3412.26sep2023.pdf",
+        "https://archivos.lascondes.cl/descargas/transparencia/ordenanzas/2023/decreto.3727.26oct2023.pdf",
+        "https://archivos.lascondes.cl/descargas/transparencia/ordenanzas/2024/decreto.1338.05abr2024.pdf",
+        "https://archivos.lascondes.cl/descargas/transparencia/ordenanzas/2024/decreto.1620.16abr2024.pdf",
+        "https://archivos.lascondes.cl/descargas/transparencia/ordenanzas/2024/decreto.2271.10jun2024.pdf",
+        "https://archivos.lascondes.cl/descargas/transparencia/ordenanzas/2024/decreto.2787.24jul2024.pdf",
+        "https://archivos.lascondes.cl/descargas/transparencia/ordenanzas/2024/decreto.2879.31jul2024.pdf",
+        "https://archivos.lascondes.cl/descargas/transparencia/ordenanzas/2024/decreto.3535.14sep2024.pdf",
+        "https://archivos.lascondes.cl/descargas/transparencia/ordenanzas/2024/decreto.4102.30oct2024.pdf",
+        "https://archivos.lascondes.cl/descargas/transparencia/ordenanzas/2024/decreto.928.12mar2024.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU136",
+      "municipality": "LAUTARO",
+      "organism_name": "Municipalidad de Lautaro",
+      "sinim_code": "09108",
+      "seed_site": "https://www.munilautaro.cl/",
+      "sources": [
+        "https://munilautaro.cl/ordenanzas-municipales-vigentes/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU141",
+      "municipality": "LITUECHE",
+      "organism_name": "Municipalidad de Litueche",
+      "sinim_code": "06203",
+      "seed_site": "https://www.litueche.cl/",
+      "sources": [
+        "https://litueche.cl/ordenanza-medio-ambiente/",
+        "https://litueche.cl/ordenanzas-municipales/",
+        "https://litueche.cl/wp-content/uploads/2025/07/Ordenanza_Medio_Ambiental.pdf",
+        "https://litueche.cl/wp-content/uploads/2026/01/DARIO-OFICIAL-ORDENANZA-DE-COBROS.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU143",
+      "municipality": "LLAILLAY",
+      "organism_name": "Municipalidad de Llay Llay",
+      "sinim_code": "05703",
+      "seed_site": "https://www.munllayllay.cl/",
+      "sources": [
+        "https://www.munllayllay.cl/wp-content/uploads/2025/10/Ordenanza-N°01-Derechos-Dec-2232-de-29-Oct-2025.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU148",
+      "municipality": "LONCOCHE",
+      "organism_name": "Municipalidad de Loncoche",
+      "sinim_code": "09109",
+      "seed_site": "https://www.muniloncoche.cl/",
+      "sources": [
+        "https://muniloncoche.cl/category/ordenanzas-municipales/",
+        "https://muniloncoche.cl/ordenanza-municipal-sobre-cobro-de-servicios-de-aseo/",
+        "https://muniloncoche.cl/ordenanzas-municipales/",
+        "https://muniloncoche.cl/wp-content/uploads/2020/04/ORDENANZA.pdf",
+        "https://muniloncoche.cl/wp-content/uploads/2026/05/DECRETO-311-APRUEBA-COBRO-ORDENANZA-DERECHO-ASEO-DOMICILIARIO-Y-COMERCIAL.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU153",
+      "municipality": "LOS ÁNGELES",
+      "organism_name": "Municipalidad de Los Ángeles",
+      "sinim_code": "08301",
+      "seed_site": "https://www.losangeles.cl/",
+      "sources": [
+        "https://www.losangeles.cl/wp-content/uploads/2025/07/decreto-2786_ordenanza-que-regulariza-normaliza-y-reglamenta-la-numeracion-de-los-inmuebles-de-la-comuna-de-los-angeles.pdf",
+        "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU153/AR/AREST"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU154",
+      "municipality": "LOS LAGOS",
+      "organism_name": "Municipalidad de Los Lagos",
+      "sinim_code": "14104",
+      "seed_site": "https://www.muniloslagos.cl/",
+      "sources": [
+        "http://transparencia.muniloslagos.cl/documentos/2014/5/81/medioambiente.pdf",
+        "https://muniloslagos.cl/documentos/2023/ordenanzas/Ordenanza_Participacion_Ciudadana_.pdf",
+        "https://muniloslagos.cl/documentos/2023/ordenanzas/Ordenanza_de_Tenencia_Responsable_de_Mascotas.pdf",
+        "https://muniloslagos.cl/wp-content/uploads/2024/02/Ordenanza_Humedales.pdf",
+        "https://muniloslagos.cl/wp-content/uploads/2025/07/Ordenanza-carros-Food-Truck.pdf",
+        "https://transparencia.muniloslagos.cl/documentos/2025/10/244/EX-408-2025.pdf",
+        "https://transparencia.muniloslagos.cl/documentos/2025/9/244/EX-1417-2025_Actualizaci__n_Ordenanza_Humedales.pdf",
+        "https://transparencia.muniloslagos.cl/documentos/2026/3/244/DECRETO_ORDENANZA_MUNICIPAL_BECA_MUNICIPAL.pdf",
+        "https://transparencia.muniloslagos.cl/documentos/2026/3/244/ORDENANZA_DE_PARTICIPACION_CIUDADANA__VIGENTE_.crdownload",
+        "https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/2022-10-28_numero2216+ORDENANZA.pdf/ce4243e7-2a5a-432a-8c68-5a74953a166e",
+        "https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/Autorizacion+de+transporte+y+basura.pdf/8db92048-7ed8-4000-9847-72e7a7fdd300",
+        "https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/DECRETO+2399.pdf/54b610c7-6c78-4dd1-9e34-5c09e0f1c742",
+        "https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/Ordenanza_Comunal_PRC_LOS_LAGOS.pdf/3d032dd7-8538-419d-bc92-56c700c34428",
+        "https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/Ordennaza_DecretoExento_1285.pdf/f113621b-5cce-424d-aac8-e0358f232068",
+        "https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/Ordenza_Municipal_Terminal_de_Buses_Decreto_Exento_573__4_.pdf/979ba40f-c30b-4dd5-83ec-d6a9a43924aa"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU161",
+      "municipality": "MACUL",
+      "organism_name": "I. Municipalidad de Macul",
+      "sinim_code": "13118",
+      "seed_site": "https://www.munimacul.cl/",
+      "sources": [
+        "http://www.munimacul.cl/transparencia/documentos/actos_y_resoluciones/Ordenanzas_Municipales/AO_1006.pdf",
+        "http://www.munimacul.cl/transparencia/documentos/actos_y_resoluciones/Ordenanzas_Municipales/AO_1046.pdf",
+        "http://www.munimacul.cl/transparencia/documentos/actos_y_resoluciones/Ordenanzas_Municipales/AO_1085.pdf",
+        "http://www.munimacul.cl/transparencia/documentos/actos_y_resoluciones/Ordenanzas_Municipales/AO_1410.pdf",
+        "http://www.munimacul.cl/transparencia/documentos/actos_y_resoluciones/Ordenanzas_Municipales/AO_1510.pdf",
+        "http://www.munimacul.cl/transparencia/documentos/actos_y_resoluciones/Ordenanzas_Municipales/AO_1537.pdf",
+        "http://www.munimacul.cl/transparencia/documentos/actos_y_resoluciones/Ordenanzas_Municipales/AO_1697.pdf",
+        "http://www.munimacul.cl/transparencia/documentos/actos_y_resoluciones/Ordenanzas_Municipales/AO_1706.pdf",
+        "http://www.munimacul.cl/transparencia/documentos/actos_y_resoluciones/Ordenanzas_Municipales/AO_1826.pdf",
+        "http://www.munimacul.cl/transparencia/documentos/actos_y_resoluciones/Ordenanzas_Municipales/AO_2007.pdf",
+        "http://www.munimacul.cl/transparencia/documentos/actos_y_resoluciones/Ordenanzas_Municipales/AO_2063.pdf",
+        "http://www.munimacul.cl/transparencia/documentos/actos_y_resoluciones/Ordenanzas_Municipales/AO_2231.pdf",
+        "http://www.munimacul.cl/transparencia/documentos/actos_y_resoluciones/Ordenanzas_Municipales/AO_225.pdf",
+        "http://www.munimacul.cl/transparencia/documentos/actos_y_resoluciones/Ordenanzas_Municipales/AO_2288.pdf",
+        "http://www.munimacul.cl/transparencia/documentos/actos_y_resoluciones/Ordenanzas_Municipales/AO_2543.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU163",
+      "municipality": "MAIPÚ",
+      "organism_name": "Municipalidad de Maipú",
+      "sinim_code": "13119",
+      "seed_site": "https://www.municipalidadmaipu.cl/",
+      "sources": [
+        "https://www.municipalidadmaipu.cl/ordenanzas-municipales/",
+        "https://www.municipalidadmaipu.cl/ordenanzas/",
+        "https://www.municipalidadmaipu.cl/transparencia/ordenanzas.html",
+        "https://www.municipalidadmaipu.cl/transparencia/ordenanzas/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU164",
+      "municipality": "MALLOA",
+      "organism_name": "Municipalidad de Malloa",
+      "sinim_code": "06109",
+      "seed_site": "https://www.munimalloa.cl/",
+      "sources": [
+        "https://www.munimalloa.cl/portal/decretos-u-ordenanza-2/",
+        "https://www.munimalloa.cl/portal/wp-content/uploads/2022/12/Ordenanza-1558-_21-12-22.pdf",
+        "https://www.munimalloa.cl/portal/wp-content/uploads/2023/07/Ordenanza-Santa-Rosa.pdf",
+        "https://www.munimalloa.cl/portal/wp-content/uploads/2025/11/Ordenanza-extraccion-de-aridos-DTO-1538_2025.pdf",
+        "https://www.munimalloa.cl/portal/wp-content/uploads/2026/01/MODIFICACION-ORDENANZA-DE-TENENCIA-RESPONSABLE-DE-MASCOTAS.pdf",
+        "https://www.munimalloa.cl/portal/wp-content/uploads/2026/01/Modificacion-Ordenanza-Proteccion-de-Aguas.pdf",
+        "https://www.munimalloa.cl/portal/wp-content/uploads/2026/01/ORDENANZA-TENENCIA-RESPONSABLE-DE-MASCOTAS.pdf",
+        "https://www.munimalloa.cl/portal/wp-content/uploads/2026/01/Ordenanza-Municipal-Proteccion-riberas-de-rios.pdf",
+        "https://www.munimalloa.cl/portal/wp-content/uploads/2026/08/Dec.-No1098-fecha-04.08.2026-Ordenanza-Festividad-Santa-Rosa-2026.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU166",
+      "municipality": "MARÍA ELENA",
+      "organism_name": "Municipalidad de María Elena",
+      "sinim_code": "02302",
+      "seed_site": "https://www.imme.cl/",
+      "sources": [
+        "http://transparencia.imme.cl/transparencia/datos/111/119/27741_ordenanza-sobre-subvenciones-municipales-de-la-municipalidad-de-maria-elena_.pdf",
+        "http://transparencia.imme.cl/transparencia/datos/111/119/27768_ordenanzas.xlsx",
+        "https://transparencia.imme.cl/directorio_44.html",
+        "https://transparencia.imme.cl/directorio_57.html",
+        "https://transparencia.imme.cl/transparencia/archivo_28175.php",
+        "https://transparencia.imme.cl/transparencia/archivo_28230.php",
+        "https://transparencia.imme.cl/transparencia/archivo_3075.php",
+        "https://transparencia.imme.cl/transparencia/archivo_3076.php",
+        "https://transparencia.imme.cl/transparencia/archivo_3077.php",
+        "https://transparencia.imme.cl/transparencia/archivo_3078.php",
+        "https://transparencia.imme.cl/transparencia/archivo_3079.php",
+        "https://transparencia.imme.cl/transparencia/archivo_6827.php",
+        "https://transparencia.imme.cl/transparencia/archivo_6828.php",
+        "https://www.imme.cl/transparencia/directorio_44.html",
+        "https://www.imme.cl/transparencia/directorio_57.html"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU167",
+      "municipality": "MARÍA PINTO",
+      "organism_name": "Municipalidad de María Pinto",
+      "sinim_code": "13504",
+      "seed_site": "https://www.mpinto.cl/",
+      "sources": [
+        "https://mpinto.cl/ordenanzas-junio-2026/",
+        "https://mpinto.cl/ordenanzas-octubre-2025/",
+        "https://mpinto.cl/ordenanzas/",
+        "https://mpinto.cl/wp-content/uploads/2026/04/256-APRUEBA-ORDENANZA-MUNCICIPAL-SOBRE-CIERRE-O-IMPLEMENTACION-DE-MEDIDAS-DE-CONTROL-DE-ACCESOS-EN-CALLES-PASAJES-O-CONJUNTOS-HABITACIONALES-URBANOS-O-RURALES-POR-MOTIVOS-DE-SEGURIDAD.pdf",
+        "https://mpinto.cl/wp-content/uploads/2026/04/257-APRUEBA-ORDENANZA-MUNCICIPAL-SOBRE-CONEXION-USO-OPREACION-MANTENCION-Y-PROTECCION-DEL-SISTEMA-DE-ALCANTARILLADO-DE-LA-COMUNA-DE-MARIA-PINTO.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU168",
+      "municipality": "MARIQUINA",
+      "organism_name": "Municipalidad de Mariquina",
+      "sinim_code": "14106",
+      "seed_site": "https://www.munimariquina.cl/",
+      "sources": [
+        "https://munimariquina.cl/wp-content/uploads/2025/10/Ordenanza-local-derechos-municipales.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU170",
+      "municipality": "MAULLÍN",
+      "organism_name": "Municipalidad de Maullín",
+      "sinim_code": "10108",
+      "seed_site": "https://www.munimaullin.cl/",
+      "sources": [
+        "https://munimaullin.cl/ordenanzas/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU171",
+      "municipality": "MEJILLONES",
+      "organism_name": "Municipalidad de Mejillones",
+      "sinim_code": "02102",
+      "seed_site": "https://www.mejillones.cl/",
+      "sources": [
+        "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU171"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU173",
+      "municipality": "MELIPILLA",
+      "organism_name": "Municipalidad de Melipilla",
+      "sinim_code": "13501",
+      "seed_site": "https://www.melipilla.cl/",
+      "sources": [
+        "https://transparencia.melipilla.cl/index.php?action=plantillas_selec_fecha&ig=636",
+        "https://www.melipilla.cl/wp-content/archivos/2023/01/DECRETO-EX-N-2593-20.09.2021-APRUEBA-MODIFICAR-LA-ORDENANZA-LOCAL-SOBRE-DERECHOS-MUNICIPALES_002557-1.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU174",
+      "municipality": "MOLINA",
+      "organism_name": "Municipalidad de Molina",
+      "sinim_code": "07304",
+      "seed_site": "https://www.molina.cl/",
+      "sources": [
+        "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU174&pagina=57434673",
+        "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU174&pagina=58640080"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU175",
+      "municipality": "MONTE PATRIA",
+      "organism_name": "Municipalidad de Monte Patria",
+      "sinim_code": "04303",
+      "seed_site": "https://www.munimontepatria.cl/",
+      "sources": [
+        "https://www.munimontepatria.cl/transparencia/index.php?action=plantillas_selec_archivo&ig=460&a=2018",
+        "https://www.munimontepatria.cl/transparencia/index.php?action=plantillas_selec_fecha&ig=91"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU180",
+      "municipality": "NAVIDAD",
+      "organism_name": "Municipalidad de Navidad",
+      "sinim_code": "06205",
+      "seed_site": "https://www.muninavidad.cl/",
+      "sources": [
+        "https://cms.muninavidad.cl/uploads/2697_DECRETO_ORDENANZA_PARA_REGULAR_ACTIVIDADES_LUCRATIVAS_DENTRO_DE_LA_COMUNA_FERIAS_LIBRES_COMERCIO_AMBULANTE_2_51eb81e31d.pdf?updated_at=2023-07-05T19:33:22.157Z",
+        "https://cms.muninavidad.cl/uploads/4_Ordenanza_Plan_Regulador_Comunal_9155e7d99c.pdf?updated_at=2023-07-05T19:37:18.002Z",
+        "https://cms.muninavidad.cl/uploads/DECRETO_Y_ORDENANZA_TENENCIA_RESPONSABLE_765dc1eb47.pdf?updated_at=2023-07-05T19:46:02.114Z",
+        "https://cms.muninavidad.cl/uploads/Decreto_31_ordenanza_ambiental_1_192d54dc61.pdf?updated_at=2026-04-14T12:38:53.736Z",
+        "https://cms.muninavidad.cl/uploads/Decreto_A_1537_ORDENANZA_TURISMO_db7cb39a9f.pdf?updated_at=2026-01-08T12:29:56.177Z",
+        "https://cms.muninavidad.cl/uploads/Decreto_Ordenanza_de_algas_Decreto_A_803_6b8d5af9b6.pdf?updated_at=2026-07-31T14:53:29.240Z",
+        "https://cms.muninavidad.cl/uploads/MODIFICACION_ORDENANZAS_FERIAS_LIBRES_COMERCIO_AMBULANTE_DECRETO_874_DEL_01_07_25_DIDEC_4c43a4ef15.pdf?updated_at=2025-08-21T21:35:35.618Z",
+        "https://cms.muninavidad.cl/uploads/ORDENANZA_ASEO_Y_MODIFICACION_ef8e58e9cd.pdf?updated_at=2025-10-01T13:19:07.395Z",
+        "https://cms.muninavidad.cl/uploads/ORDENANZA_DERECHO_DE_ASEO_ANO_2026_ca2ac53a67.pdf?updated_at=2025-11-10T11:42:09.407Z",
+        "https://cms.muninavidad.cl/uploads/ORDENANZA_MUNICIPAL_DE_VERANO_d86244a3e3.pdf?updated_at=2023-07-05T19:36:23.842Z",
+        "https://cms.muninavidad.cl/uploads/Ordenanza_Beca_2026_final_f6616a6d22.pdf?updated_at=2026-03-10T16:30:00.255Z",
+        "https://cms.muninavidad.cl/uploads/Ordenanza_Derechos_2026_14210033d0.pdf?updated_at=2025-10-27T20:33:42.546Z",
+        "https://cms.muninavidad.cl/uploads/Ordenanza_Distribucion_Agua_Potable_Camiones_Aljibe_54d665b7bc.pdf?updated_at=2023-07-05T19:42:28.368Z",
+        "https://cms.muninavidad.cl/uploads/Ordenanza_Municipal_de_Participacion_Ciudadana_488a57040e.pdf?updated_at=2024-03-27T20:52:36.669Z",
+        "https://cms.muninavidad.cl/uploads/Ordenanza_Uso_Mascarillas_1f9fa52d44.pdf?updated_at=2023-07-05T19:45:07.024Z"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU188",
+      "municipality": "OLIVAR",
+      "organism_name": "Ilustre Municipalidad de Olivar",
+      "sinim_code": "06111",
+      "seed_site": "https://www.muniolivar.cl/",
+      "sources": [
+        "https://muniolivar.cl/ordenanza-de-derechos-municipales/",
+        "https://muniolivar.cl/wp-content/uploads/2025/11/ORDENANZA-DE-DERECHOS-MUNICIPALES.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU189",
+      "municipality": "OLLAGÜE",
+      "organism_name": "Municipalidad de Ollague",
+      "sinim_code": "02202",
+      "seed_site": "https://municipalidaddeollague.cl/",
+      "sources": [
+        "https://municipalidaddeollague.cl/ordenanzas-municipales/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU196",
+      "municipality": "PAILLACO",
+      "organism_name": "Municipalidad de Paillaco",
+      "sinim_code": "14107",
+      "seed_site": "https://www.munipaillaco.cl/",
+      "sources": [
+        "https://www.munipaillaco.cl/ordenanzas/",
+        "https://www.munipaillaco.cl/wp-content/uploads/2018/09/Modifica-ordenanza-que-regula-autorizaci%C3%B3n-y-explotaci%C3%B3n-comercial-de-m%C3%A1quinas-de-habilidad-y-destreza-o-juegos-similares.pdf",
+        "https://www.munipaillaco.cl/wp-content/uploads/2018/09/Modifica-ordenanza-sobre-manejo-integral-de-residuos-domiciliarios-y-el-uso-de-bolsas-pl%C3%A1sticas-en-la-comuna-de-Paillaco-.pdf",
+        "https://www.munipaillaco.cl/wp-content/uploads/2018/09/Ordenanza-sobre-microbasurales.pdf",
+        "https://www.munipaillaco.cl/wp-content/uploads/2018/09/Ordenanza-sobre-protecci%C3%B3n-del-medio-ambiente.pdf",
+        "https://www.munipaillaco.cl/wp-content/uploads/2018/09/Ordenanza-tenencia-responsable-de-mascotas.pdf",
+        "https://www.munipaillaco.cl/wp-content/uploads/2018/10/Ordenanza-sobre-ruidos-molestos.pdf",
+        "https://www.munipaillaco.cl/wp-content/uploads/2020/03/Modifica-Ordenanza-de-Registro-de-Personas-Juri%CC%81dicas-Receptoras-de-Fondos-Pu%CC%81blicos.pdf",
+        "https://www.munipaillaco.cl/wp-content/uploads/2022/11/Ordenanza-Modificacion-Plan-Regulkador-Paillaco_CORREGIDA-ENERO-2022.pdf",
+        "https://www.munipaillaco.cl/wp-content/uploads/2025/12/Decreto-N%C2%B0-1502-de-30.10.25-Aprueba-Ordenanza-Municipal-2026.pdf",
+        "https://www.munipaillaco.cl/wp-content/uploads/2025/12/Decreto-N%C2%B0-1503-de-30.10.25-Aprueba-Ordenanza-Ferias-Libres-2026.pdf",
+        "https://www.munipaillaco.cl/wp-content/uploads/2025/12/Decreto-N%C2%B0-1504-de-30.10.25-Ordenanza-Local-otorgamiento-patentes-provisorias-2026.pdf",
+        "https://www.munipaillaco.cl/wp-content/uploads/2025/12/Decreto-N%C2%B0-1505-de-fecha-30.10.2025-Aprueba-Ordenanza-Evento-contumbrista-y-Cultural-2026.pdf",
+        "https://www.munipaillaco.cl/wp-content/uploads/2026/01/Ordenanza-para-el-retiro-y-deposito-de-vehiculos-en-el-corral-municipal.pdf",
+        "https://www.munipaillaco.cl/wp-content/uploads/2026/01/Ordenanza-que-determina-zonas-o-espacios-libres-de-humo-de-la-comuna-de-Paillaco.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU197",
+      "municipality": "PAINE",
+      "organism_name": "Municipalidad de Paine",
+      "sinim_code": "13404",
+      "seed_site": "https://www.paine.cl/",
+      "sources": [
+        "https://www.paine.cl/aprueba-ordenanza-municipal-n-05-de-2023/",
+        "https://www.paine.cl/decreto-que-aprueba-ordenanza-n-03-2022-de-derechos-municipales-para-el-ano-2023/",
+        "https://www.paine.cl/ordenanza-derechos-municipales-2024/",
+        "https://www.paine.cl/ordenanza-local-municipal-n10-2025-sobre-derechos-municipales-para-el-ano-2026/",
+        "https://www.paine.cl/ordenanza-municipal-sobre-derechos-municipales-para-el-ano-2025/",
+        "https://www.paine.cl/ordenanzas-municipales/",
+        "https://www.paine.cl/wp-content/uploads/2022/10/APRUEBA-ORDENANZA-N°-03-DE-2022-DERECHOS-MUNICIPALES-2023.-26.10.2022.pdf",
+        "https://www.paine.cl/wp-content/uploads/2022/12/5280-APRUEBA-ORDENANZA-MUNICIPAL-N°-04-CIERRE-DE-CALLES-Y-PASAJES.-28.11.2022.pdf",
+        "https://www.paine.cl/wp-content/uploads/2023/08/APRUEBA-ORDENANZA-MUNICIPAL-N%C2%B0-05-2023-QUE-ESTABLECE-OBLIGACIONES-DE-BUEN-TRATO-A-LOS-ANIMALES-Y-CUIDADO-RESPONSABLE-DE-Ms.-20.07.2023.pdf",
+        "https://www.paine.cl/wp-content/uploads/2023/08/APRUEBA-ORDENANZA-MUNICIPAL-N°-05-2023-QUE-ESTABLECE-OBLIGACIONES-DE-BUEN-TRATO-A-LOS-ANIMALES-Y-CUIDADO-RESPONSABLE-DE-Ms.-20.07.2023.pdf",
+        "https://www.paine.cl/wp-content/uploads/2023/10/APRUEBA-ORDENANZA-MUNICIPAL-N°-07-DERECHOS-MUNICIPALES-ANO-2024-con-firmas.pdf",
+        "https://www.paine.cl/wp-content/uploads/2024/10/APRUEBA-ORDENANZA-LOCAL-MUNICIPAL-N°-08-D°s-Mpales-2025.-25.10.2024-con-firmas.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU199",
+      "municipality": "PALMILLA",
+      "organism_name": "Municipalidad de Palmilla",
+      "sinim_code": "06306",
+      "seed_site": "https://www.munipalmilla.cl/",
+      "sources": [
+        "https://www.munipalmilla.cl/2017/03/07/ordenanzas-municipales/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU200",
+      "municipality": "PANGUIPULLI",
+      "organism_name": "Municipalidad de Panguipulli",
+      "sinim_code": "14108",
+      "seed_site": "https://www.municipalidadpanguipulli.cl/",
+      "sources": [
+        "https://municipalidadpanguipulli.cl/wp-content/uploads/2020/12/ORDENANZAS.png"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU203",
+      "municipality": "PAREDONES",
+      "organism_name": "Municipalidad de Paredones",
+      "sinim_code": "06206",
+      "seed_site": "https://www.comunaparedones.cl/",
+      "sources": [
+        "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/134-ordenanza-municipal-de-participacion-ciudadana",
+        "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/134-ordenanza-municipal-de-participacion-ciudadana?download=967:ordenanza-municipal-de-participacion-ciudadana",
+        "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/134-ordenanza-municipal-de-participacion-ciudadana?download=968:ordenanza-municipal-de-participacion-ciudadana",
+        "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/134-ordenanza-municipal-de-participacion-ciudadana?download=969:ordenanza-municipal-de-participacion-ciudadana",
+        "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/136-normativas-procedimientos-y-ordenanzas",
+        "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/136-normativas-procedimientos-y-ordenanzas?download=971:normativas-procedimientos-y-ordenanzas",
+        "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/136-normativas-procedimientos-y-ordenanzas?download=972:normativas-procedimientos-y-ordenanzas",
+        "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/136-normativas-procedimientos-y-ordenanzas?download=973:normativas-procedimientos-y-ordenanzas",
+        "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/136-normativas-procedimientos-y-ordenanzas?download=974:normativas-procedimientos-y-ordenanzas",
+        "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/136-normativas-procedimientos-y-ordenanzas?download=975:normativas-procedimientos-y-ordenanzas",
+        "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/136-normativas-procedimientos-y-ordenanzas?download=976:normativas-procedimientos-y-ordenanzas",
+        "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/136-normativas-procedimientos-y-ordenanzas?download=977:normativas-procedimientos-y-ordenanzas",
+        "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/136-normativas-procedimientos-y-ordenanzas?download=978:normativas-procedimientos-y-ordenanzas",
+        "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/136-normativas-procedimientos-y-ordenanzas?download=979:normativas-procedimientos-y-ordenanzas",
+        "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/136-normativas-procedimientos-y-ordenanzas?download=980:normativas-procedimientos-y-ordenanzas"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU204",
+      "municipality": "PARRAL",
+      "organism_name": "Municipalidad de Parral",
+      "sinim_code": "07404",
+      "seed_site": "https://www.parral.cl/",
+      "sources": [
+        "https://www.parral.cl/ordenanzas/",
+        "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU204",
+        "https://www.transparencia.parral.cl/UserFiles/File/2025/Ordenanzas/Ordenanza_07.pdf",
+        "https://www.transparencia.parral.cl/UserFiles/File/2026/Ordenanzas/Ordenanza_01.pdf",
+        "https://www.transparencia.parral.cl/UserFiles/File/2026/Ordenanzas/Ordenanza_02.pdf",
+        "https://www.transparencia.parral.cl/UserFiles/File/2026/Ordenanzas/Ordenanza_03.pdf",
+        "https://www.transparencia.parral.cl/UserFiles/File/2026/Ordenanzas/Ordenanza_04.pdf",
+        "https://www.transparencia.parral.cl/UserFiles/File/2026/Ordenanzas/Ordenanza_05.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU205",
+      "municipality": "PEDRO AGUIRRE CERDA",
+      "organism_name": "Municipalidad de Pedro Aguirre Cerda",
+      "sinim_code": "13121",
+      "seed_site": "https://www.pedroaguirrecerda.cl/",
+      "sources": [
+        "https://www.pedroaguirrecerda.cl/ordenanzas/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU207",
+      "municipality": "PELLUHUE",
+      "organism_name": "Municipalidad de Pelluhue",
+      "sinim_code": "07203",
+      "seed_site": "https://www.munipelluhue.cl/",
+      "sources": [
+        "https://www.munipelluhue.cl/transparencia/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU208",
+      "municipality": "PEMUCO",
+      "organism_name": "Municipalidad de Pemuco",
+      "sinim_code": "16105",
+      "seed_site": "https://www.munipemuco.cl/",
+      "sources": [
+        "https://www.munipemuco.cl/wp-content/themes/munipemuco/Ordenanza/d881.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU209",
+      "municipality": "PENCAHUE",
+      "organism_name": "Municipalidad de Pencahue",
+      "sinim_code": "07107",
+      "seed_site": "https://www.mpencahue.cl/",
+      "sources": [
+        "https://mpencahue.cl/wp-content/uploads/2025/10/Ordenanza-Municipal-2025.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU210",
+      "municipality": "PENCO",
+      "organism_name": "I. Municipalidad de Penco",
+      "sinim_code": "08107",
+      "seed_site": "https://www.penco.cl/",
+      "sources": [
+        "https://penco.cl/wp-content/uploads/2026/07/ORDENANZA-COBRO-DERECHOS-V2.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU211",
+      "municipality": "PEÑAFLOR",
+      "organism_name": "Municipalidad de Peńaflor",
+      "sinim_code": "13605",
+      "seed_site": "https://www.penaflor.cl/",
+      "sources": [
+        "https://penaflor.cl/ordenanzas-municipales-2/",
+        "https://penaflor.cl/ordenanzas-municipales-2/?s=",
+        "https://penaflor.cl/wp-content/uploads/2022/10/MODIFICACION-ORDENANZA-MUNICIPAL-DE-COBRO-DE-DERECHOS-POR-SERVICIOS-CONCESIONES-Y-PERMISOS-1.pdf",
+        "https://penaflor.cl/wp-content/uploads/2022/10/ORDENANZA-MUNICIPAL-DE-COBRO-DE-DERECHOS-POR-SERVICIOS-CONCESIONES-Y-PERMISOS-1.pdf",
+        "https://penaflor.cl/wp-content/uploads/2024/01/DECRETO-ALCALDICIO-1472-MODIFICACION-ORDENANZA-OCTUBRE-2023.pdf",
+        "https://penaflor.cl/wp-content/uploads/2024/02/D.A.-N°1787-27-12-2023-Ordenanza-General-de-Aseo.pdf",
+        "https://penaflor.cl/wp-content/uploads/2025/01/Ordenanza-N°1640-del-27-12-2024.pdf",
+        "https://penaflor.cl/wp-content/uploads/2025/07/ORDENANZA-N°680-SOBRE-EXENCIONES-AL-PAGO-DEL-DERECHO-DE-ASEO-25-06-2025.pdf",
+        "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU211/AR/AREST"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU212",
+      "municipality": "PEÑALOLÉN",
+      "organism_name": "Municipalidad de Peńalolén",
+      "sinim_code": "13122",
+      "seed_site": "https://www.penalolen.cl/",
+      "sources": [
+        "https://www.penalolen.cl/wp-content/uploads/2025/10/ordenanza_41.pdf",
+        "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU212/AR/AREST/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU213",
+      "municipality": "PERALILLO",
+      "organism_name": "Municipalidad de Peralillo",
+      "sinim_code": "06307",
+      "seed_site": "https://www.muniperalillo.cl/",
+      "sources": [
+        "https://muniperalillo.cl/archivos/2023/ordenanza%2026-2023.pdf",
+        "https://www.muniperalillo.cl/informaciones/ordenanzas-municipales/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU214",
+      "municipality": "PERQUENCO",
+      "organism_name": "Municipalidad de Perquenco",
+      "sinim_code": "09113",
+      "seed_site": "https://www.perquenco.cl/",
+      "sources": [
+        "https://www.perquenco.cl/actualizacion-ordenanzas-municipales-2025/",
+        "https://www.perquenco.cl/files/2025/Transparencia/actos%20y%20resoluciones/ordenanzas/2025/Decr.%20Ex.%201.876%20-%20Modifica%20Ordenanza%20Derechos%20Municipales.pdf",
+        "https://www.perquenco.cl/files/2025/Transparencia/actos%20y%20resoluciones/ordenanzas/2025/Decr.%20Ex.%201.878%20-%20Modif.%20Ordenanza%20Comercio%20Ambulante.pdf",
+        "https://www.perquenco.cl/files/2025/Transparencia/actos%20y%20resoluciones/ordenanzas/2025/Decr.%20Ex.%201.879%20-%20Modif.%20Ordenanza%20Particip.%20Ciudadana.pdf",
+        "https://www.perquenco.cl/files/2025/Transparencia/actos%20y%20resoluciones/ordenanzas/2025/Decreto%20Ex.%201.877%20del%2029.10.2025%20-%20Modif.%20Ordenanza%20Cementerio%20Municipal.pdf",
+        "https://www.perquenco.cl/files/2025/Transparencia/actos%20y%20resoluciones/ordenanzas/Decreto%20Ex%20N219%20%20Modifica%20y%20Refunde%20Ordenanza%20Derechos%20Municipales%20Concesiones%20Arriendos.pdf",
+        "https://www.perquenco.cl/web/perquenco/files/documentos/2023/Decreto%20Exento%200169%20Aprueba%20ordenanza%20prohibe%20uso%20de%20fuego.pdf",
+        "https://www.perquenco.cl/web/perquenco/files/documentos/ordenanzas22/Ordenanza%20Ap%C3%ADcola%20Decreto%20Ex.%20N%C2%BA%2080%20del%2001.02.2021.pdf",
+        "https://www.perquenco.cl/web/perquenco/files/documentos/ordenanzas22/Ordenanza%20Municipal%20de%20Tenencia%20responsable%20de%20animales.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU216",
+      "municipality": "PEUMO",
+      "organism_name": "Municipalidad de Peumo",
+      "sinim_code": "06112",
+      "seed_site": "https://www.mpeumo.cl/",
+      "sources": [
+        "http://mpeumo.cl/wp-content/uploads/2026/05/Decreto-junto-a-Respectiva-Ordenanza-Actividades-no-Autorizadas-1.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU217",
+      "municipality": "PICA",
+      "organism_name": "Municipalidad de Pica",
+      "sinim_code": "01405",
+      "seed_site": "https://www.municipalidadpica.cl/",
+      "sources": [
+        "http://municipalidadpica.cl/www2/index.php/comuna/ordenanzas-municipales",
+        "http://www.municipalidadpica.cl/www2/index.php/comuna/ordenanzas-municipales",
+        "https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/D.A+063+ordenanza+tenencia+responsable.pdf/a1b7986d-ecaa-4955-a99c-c7fcbf0589e1",
+        "https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/D.A.+031+ordenanza+de+gestion+y+proteccion+ambiental+de+la+comuna+de+pica+%283%29.PDF/2174636f-e0c9-4725-9ff3-3f8a290f47ff"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU218",
+      "municipality": "PICHIDEGUA",
+      "organism_name": "Municipalidad de Pichidegua",
+      "sinim_code": "06113",
+      "seed_site": "https://www.pichidegua.cl/",
+      "sources": [
+        "https://www.pichidegua.cl/ordenanzas-municipales/",
+        "https://www.pichidegua.cl/ordenanzas/",
+        "https://www.pichidegua.cl/transparencia/ordenanzas.html",
+        "https://www.pichidegua.cl/transparencia/ordenanzas/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU219",
+      "municipality": "PICHILEMU",
+      "organism_name": "Municipalidad de Pichilemu",
+      "sinim_code": "06201",
+      "seed_site": "https://www.pichilemu.cl/",
+      "sources": [
+        "https://pichilemu.cl/publicaciones/ordenanza-tenencia-responsable/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU220",
+      "municipality": "PINTO",
+      "organism_name": "Municipalidad de Pinto",
+      "sinim_code": "16106",
+      "seed_site": "https://www.municipalidaddepinto.cl/",
+      "sources": [
+        "https://www.municipalidaddepinto.cl/transparencia/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU221",
+      "municipality": "PIRQUE",
+      "organism_name": "Municipalidad de Pirque",
+      "sinim_code": "13202",
+      "seed_site": "https://www.pirque.cl/",
+      "sources": [
+        "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU221"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU225",
+      "municipality": "PORVENIR",
+      "organism_name": "Municipalidad de Porvenir",
+      "sinim_code": "12301",
+      "seed_site": "https://www.muniporvenir.cl/",
+      "sources": [
+        "http://www.muniporvenir.cl/wpcont-wp/uploads/2026/07/ORDENANZA-MUNICIPAL-N°-20-SUBVENCIONES-MUNICIPALES.pdf",
+        "http://www.muniporvenir.cl/wpcont-wp/uploads/2026/07/Ordenanza-N°-21-Asignaciones-directas-municipales.pdf",
+        "https://www.muniporvenir.cl/municipalidad-de-porvenir-aprueba-nueva-ordenanza-de-subvenciones-municipales/",
+        "https://www.muniporvenir.cl/municipalidad-de-porvenir-aprueba-nueva-ordenanza-para-regular-las-asignaciones-directas-municipales/",
+        "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU225&pagina=57075476"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU227",
+      "municipality": "PRIMAVERA",
+      "organism_name": "Municipalidad de Primavera",
+      "sinim_code": "12302",
+      "seed_site": "https://www.municipalidaddeprimavera.cl/",
+      "sources": [
+        "https://www.muniprimavera.cl/comunales/ordenanzas/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU228",
+      "municipality": "PROVIDENCIA",
+      "organism_name": "Municipalidad de Providencia",
+      "sinim_code": "13123",
+      "seed_site": "https://www.providencia.cl/",
+      "sources": [
+        "https://transparencia.providencia.cl/Carpeta/Listado/100",
+        "https://transparencia.providencia.cl/Carpeta/Listado/101",
+        "https://transparencia.providencia.cl/Carpeta/VerEnlace/22483",
+        "https://transparencia.providencia.cl/Carpeta/VerTabla/22561"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU229",
+      "municipality": "PUCHUNCAVÍ",
+      "organism_name": "Municipalidad de Puchuncaví",
+      "sinim_code": "05105",
+      "seed_site": "https://www.munipuchuncavi.cl/",
+      "sources": [
+        "https://www.munipuchuncavi.cl/pdf/transparencianew/ordenanzas/ordenanzasact.pdf",
+        "https://www.munipuchuncavi.cl/respuestashumedal2024.php"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU231",
+      "municipality": "PUDAHUEL",
+      "organism_name": "Municipalidad de Pudahuel",
+      "sinim_code": "13124",
+      "seed_site": "https://www.mpudahuel.cl/",
+      "sources": [
+        "https://www.mpudahuel.cl/ordenanzas-municipales/",
+        "https://www.mpudahuel.cl/ordenanzas/",
+        "https://www.mpudahuel.cl/transparencia/ordenanzas.html",
+        "https://www.mpudahuel.cl/transparencia/ordenanzas/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU232",
+      "municipality": "PUENTE ALTO",
+      "organism_name": "Municipalidad de Puente Alto",
+      "sinim_code": "13201",
+      "seed_site": "https://www.mpuentealto.cl/",
+      "sources": [
+        "https://transparencia.mpuentealto.cl/detalle.php?w=czozOiIyMjEiOw==",
+        "https://transparencia.mpuentealto.cl/detalle.php?w=czozOiIyOTMiOw==",
+        "https://transparencia.mpuentealto.cl/doctos/ORD_01_06_2021.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU233",
+      "municipality": "PUERTO MONTT",
+      "organism_name": "Municipalidad de Puerto Montt",
+      "sinim_code": "10101",
+      "seed_site": "https://www.puertomontt.cl/",
+      "sources": [
+        "https://www.puertomontt.cl/ordenanzas-y-decretos/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU234",
+      "municipality": "NATALES",
+      "organism_name": "Municipalidad de Puerto Natales",
+      "sinim_code": "12401",
+      "seed_site": "https://www.muninatales.cl/",
+      "sources": [
+        "https://transparencia.muninatales.cl/web/index.php?action=plantillas_selec_fecha&ig=201",
+        "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU234&pagina=58713479"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU239",
+      "municipality": "PUNTA ARENAS",
+      "organism_name": "Municipalidad de Punta Arenas",
+      "sinim_code": "12101",
+      "seed_site": "https://www.puntaarenas.cl/",
+      "sources": [
+        "https://www.puntaarenas.cl/ordenanzas-municipales/",
+        "https://www.puntaarenas.cl/ordenanzas/",
+        "https://www.puntaarenas.cl/transparencia/ordenanzas.html",
+        "https://www.puntaarenas.cl/transparencia/ordenanzas/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU240",
+      "municipality": "PUQUELDÓN",
+      "organism_name": "Municipalidad de Puqueldón",
+      "sinim_code": "10206",
+      "seed_site": "https://www.munipuqueldon.cl/",
+      "sources": [
+        "https://munipuqueldon.cl/municipio/ordenanzas/",
+        "https://munipuqueldon.cl/wp-content/uploads/2022/05/Anexo-1.-Ordenanza-Municipal-de-No-Uso-de-bolsas-Plasticas.pdf",
+        "https://munipuqueldon.cl/wp-content/uploads/2022/05/Ordenanza.pdf",
+        "https://munipuqueldon.cl/wp-content/uploads/2022/10/Ordenanza-medio-ambiente.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU241",
+      "municipality": "PURÉN",
+      "organism_name": "Municipalidad de Purén",
+      "sinim_code": "09208",
+      "seed_site": "https://www.munipuren.cl/",
+      "sources": [
+        "https://munipuren.cl/actos-y-resoluciones-con-efectos-sobre-terceros-2018/",
+        "https://munipuren.cl/actos-y-resoluciones-con-efectos-sobre-terceros-2019/",
+        "https://munipuren.cl/actos-y-resoluciones-con-efectos-sobre-terceros-2020/",
+        "https://munipuren.cl/actos-y-resoluciones-con-efectos-sobre-terceros-2021/",
+        "https://munipuren.cl/actos-y-resoluciones-con-efectos-sobre-terceros-2022/",
+        "https://munipuren.cl/actos-y-resoluciones-con-efectos-sobre-terceros-2023/",
+        "https://munipuren.cl/actos-y-resoluciones-con-efectos-sobre-terceros-2024/",
+        "https://munipuren.cl/actos-y-resoluciones-con-efectos-sobre-terceros-2025/",
+        "https://munipuren.cl/actos-y-resoluciones-con-efectos-sobre-terceros-2026/",
+        "https://munipuren.cl/actos-y-resoluciones-con-efectos-sobre-terceros/",
+        "https://munipuren.cl/wp-content/uploads/2023/01/Ordenanza-de-Participacion-Ciudadana.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU242",
+      "municipality": "PURRANQUE",
+      "organism_name": "Municipalidad de Purranque",
+      "sinim_code": "10303",
+      "seed_site": "https://www.purranque.cl/",
+      "sources": [
+        "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU242&pagina=58463320",
+        "https://www.purranque.cl/",
+        "https://www.purranque.cl/descargas/ord_5.pdf",
+        "https://www.purranque.cl/descargas/pmjh/ordenanza-pmjh.pdf",
+        "https://www.purranque.cl/unidades-municipales/secremun.html"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU243",
+      "municipality": "PUTAENDO",
+      "organism_name": "Municipalidad de Putaendo",
+      "sinim_code": "05705",
+      "seed_site": "https://www.putaendo.cl/",
+      "sources": [
+        "http://www.putaendo.cl/wp-content/uploads/2024/05/ORDENANZA-ACOSO-CALLEJERO-PUTAENDO.pdf",
+        "https://www.putaendo.cl/modificacion-ordenanza-sobre-derechos-municipales-por-concesiones-permisos-y-derechos-municipales/",
+        "https://www.putaendo.cl/propuesta-de-ordenanza-sobre-disenciones-vecinales/",
+        "https://www.putaendo.cl/wp-content/uploads/2025/12/Ordenanza-Disensiones-PAG-1-scaled.jpg",
+        "https://www.putaendo.cl/wp-content/uploads/2025/12/Ordenanza-Disensiones-Vecinales-12-12-25.pdf",
+        "https://www.putaendo.cl/wp-content/uploads/2026/08/DA-2944-modifica-ordenanza-rentas-1-scaled.jpg",
+        "https://www.putaendo.cl/wp-content/uploads/2026/08/DA-2944-modifica-ordenanza-rentas-2-scaled.jpg",
+        "https://www.putaendo.cl/wp-content/uploads/2026/08/DA-2944-modifica-ordenanza-rentas-3-scaled.jpg",
+        "https://www.putaendo.cl/wp-content/uploads/2026/08/DA-2944-modifica-ordenanza-rentas.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU246",
+      "municipality": "QUEILÉN",
+      "organism_name": "Municipalidad de Queilén",
+      "sinim_code": "10207",
+      "seed_site": "https://www.muniqueilen.cl/",
+      "sources": [
+        "https://muniqueilen.cl/wp-content/uploads/2026/03/1256.-ORDENANZA-MEDIO-AMBIENTE.pdf",
+        "https://muniqueilen.cl/wp-content/uploads/2026/03/DE_2637_ordenanza_derechos_municipales_concesiones_y_servicios.pdf",
+        "https://muniqueilen.cl/wp-content/uploads/2026/03/Modificacion-ordenanza-de-ayudas-sociales.pdf",
+        "https://muniqueilen.cl/wp-content/uploads/2026/03/Ordenanza-Ayudas-sociales.pdf",
+        "https://muniqueilen.cl/wp-content/uploads/2026/03/Ordenanza-Medio-Ambiente.pdf",
+        "https://muniqueilen.cl/wp-content/uploads/2026/03/Ordenanza-Participacion-Ciudadana_Modif.pdf",
+        "https://muniqueilen.cl/wp-content/uploads/2026/03/Ordenanza-Subvenciones-y-rendicion-de-cuentas.pdf",
+        "https://muniqueilen.cl/wp-content/uploads/2026/03/Ordenanza-Taxis-Basicos-y-Ejecutivos-Queilen.pdf",
+        "https://muniqueilen.cl/wp-content/uploads/2026/03/Ordenanza-Trabajos-comunitarios-1.pdf",
+        "https://muniqueilen.cl/wp-content/uploads/2026/03/Ordenanza-autorizacion-transporte-de-basura-desechos-escombros-o-residuos.pdf",
+        "https://muniqueilen.cl/wp-content/uploads/2026/03/Ordenanza-de-Cementerio.pdf",
+        "https://muniqueilen.cl/wp-content/uploads/2026/03/Ordenanza-de-Comodatos.pdf",
+        "https://muniqueilen.cl/wp-content/uploads/2026/03/Ordenanza-de-animales-sueltos.pdf",
+        "https://muniqueilen.cl/wp-content/uploads/2026/03/Ordenanza-de-derechos-municipales_MODIF.pdf",
+        "https://muniqueilen.cl/wp-content/uploads/2026/03/Ordenanza_modificacion_plano_regulador_Queilen.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU247",
+      "municipality": "QUELLÓN",
+      "organism_name": "Municipalidad de Quellón",
+      "sinim_code": "10208",
+      "seed_site": "https://www.muniquellon.cl/",
+      "sources": [
+        "https://muniquellon.cl/ordenanzas-municipales/",
+        "https://muniquellon.cl/ordenanzas/ordenanzas2023/Acuerdo3_CierroSitiosEriazos.pdf",
+        "https://muniquellon.cl/ordenanzas/ordenanzas2023/Acuerdo4_CapturaVacunos.pdf",
+        "https://muniquellon.cl/ordenanzas/ordenanzas2023/Acuerdo5_TenenciaResponsable.pdf",
+        "https://muniquellon.cl/ordenanzas/ordenanzas2023/Acuerdo6_Subvenciones.pdf",
+        "https://muniquellon.cl/ordenanzas/ordenanzas2023/Acuerdo8_DerechosMunicipales.pdf",
+        "https://muniquellon.cl/ordenanzas/ordenanzas2023/cierrositioseriazos.pdf",
+        "https://muniquellon.cl/ordenanzas/ordenanzas2023/ordenanza4.pdf",
+        "https://muniquellon.cl/ordenanzas/ordenanzas2023/ordenanzamedioambiente1.pdf",
+        "https://muniquellon.cl/ordenanzas/ordenanzas2023/tenenciacontrolvacunos.pdf",
+        "https://muniquellon.cl/ordenanzas/ordenanzas2023/tenenciamascotasyanimales.pdf",
+        "https://muniquellon.cl/ordenanzas/ordenanzas2023/texto%20refundido,%20organizado%20y%20sistematizado%20%20de%20la%20Ordenanza%20Municipal%20Nº2%20%20por%20Derechos%20Municipales%20de%20Cobros%20por%20%20Concesiones,%20%20Prestaciones%20%20o%20Servicios.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU248",
+      "municipality": "QUEMCHI",
+      "organism_name": "Municipalidad de Quemchi",
+      "sinim_code": "10209",
+      "seed_site": "https://www.muniquemchi.cl/",
+      "sources": [
+        "https://www.muniquemchi.cl/ordenanzas-municipales/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU252",
+      "municipality": "QUILLÓN",
+      "organism_name": "Municipalidad de Quillón",
+      "sinim_code": "16107",
+      "seed_site": "https://www.quillon.cl/",
+      "sources": [
+        "https://home.quillon.cl/documentos/anteproyecto-de-ordenanza-en-tenencia-responsable-de-mascotas/",
+        "https://home.quillon.cl/documentos/ordenanza-contra-incendios-forestales/",
+        "https://home.quillon.cl/documentos/ordenanza-municipal-sobre-el-uso-de-espacios-publicos/",
+        "https://home.quillon.cl/wp-content/uploads/2024/10/anteproyecto-ordenanza-mascotas.pdf",
+        "https://home.quillon.cl/wp-content/uploads/2024/11/DAM_6250.pdf",
+        "https://home.quillon.cl/wp-content/uploads/2025/11/DAM_5402.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU253",
+      "municipality": "QUILLOTA",
+      "organism_name": "Municipalidad de Quillota",
+      "sinim_code": "05501",
+      "seed_site": "https://www.quillota.cl/",
+      "sources": [
+        "http://web.quillota.cl/transparencia/wp-content/uploads/2012/08/8634-APRUEBA-ORDENANZA-DE-PARTICIPACION-CIUDADANA-DE-LA-MUNICIPALIDAD-DE-QUILLOTA.pdf",
+        "http://web.quillota.cl/transparencia/wp-content/uploads/decretos/2011ok/1020%20ordenanza%20de%20entretencion%20elect.refundida.pdf",
+        "http://web.quillota.cl/transparencia/wp-content/uploads/ordenanzas/DEC.%20MODIFICATORIO%200026%2008%20DE%20ENERO%20DE%202003.pdf",
+        "http://web.quillota.cl/transparencia/wp-content/uploads/ordenanzas/DECRETO%205912%20Ac%2050%20Ac%20398%20ORDENANZA%20MUNICIPAL%20AREAS%20VERDES%20Y%20ORNATO.pdf",
+        "http://web.quillota.cl/transparencia/wp-content/uploads/ordenanzas/ORD.%20ASEO%20Y%20ORNATO%20DE%20LA%20COMUNA.pdf",
+        "http://web.quillota.cl/transparencia/wp-content/uploads/ordenanzas/ORD.%20COMUNAL%20SOBRE%20PROTECCION%20Y%20CONSERVACION%20Y%20CONSERVACION%20DEL%20MEDIO%20AMBIENTE.pdf",
+        "http://web.quillota.cl/transparencia/wp-content/uploads/ordenanzas/ORD.%20DE%20ENTRETENCIONES%20ELECTRONICAS.pdf",
+        "http://web.quillota.cl/transparencia/wp-content/uploads/ordenanzas/ORD.%20DE%20ESTACIONAMIENTO%20REGULADOS%20DE%20VEHICULOS%20MOTORIZADOS%20EN%20LAS%20VIAS%20PUBLICAS.pdf",
+        "http://web.quillota.cl/transparencia/wp-content/uploads/ordenanzas/ORD.%20DE%20MANTENCION%20Y%20CONSERVACION%20DE%20CANALES%20Y%20ACEQUIAS.pdf",
+        "http://web.quillota.cl/transparencia/wp-content/uploads/ordenanzas/ORD.%20EXTRACCION%20DE%20ARIDOS%20RIO%20ACONCAGUA%20COMUNA%20DE%20QUILLOTA.pdf",
+        "http://web.quillota.cl/transparencia/wp-content/uploads/ordenanzas/ORD.%20MUNICIPAL%20DE%20ASEO%20DE%20LA%20COMUNA%20DE%20QUILLOTA.pdf",
+        "http://web.quillota.cl/transparencia/wp-content/uploads/ordenanzas/ORD.%20MUNICIPAL%20SOBRE%20CONDICIONES%20GENERALES%20PARA%20DETERMINAR%20TARIFAS%20DE%20ASEO%2C%20EXENCIONES%20PARCIAL%20Y%20TOTAL.pdf",
+        "http://web.quillota.cl/transparencia/wp-content/uploads/ordenanzas/ORD.%20PARA%20INSTALACION%20DE%20TORRES%2C%20ANTENAS%2C%20O%20ELEMENTOS%20PARA%20CUALQUIER%20TIPO%20DE%20TELECOMUNICACIONES.pdf",
+        "http://web.quillota.cl/transparencia/wp-content/uploads/ordenanzas/ORD.%20REGULATORIA%20DEL%20REGISTRO%20PUBLICO%20DE%20ENTIDADES%20QUE%20RECIBEN%20TRANSFERENCIAS%2C%20SUBVEN..pdf",
+        "http://web.quillota.cl/transparencia/wp-content/uploads/ordenanzas/ORD.%20SOBRE%20COBRANZA%20DE%20CONTRIBUCIONES%2C%20PATENTES%2C%20PERMISOS%20Y%20DERECHOS%20MUNICIPALES%20MOROSOS.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU254",
+      "municipality": "QUILPUÉ",
+      "organism_name": "Municipalidad de Quilpué",
+      "sinim_code": "05801",
+      "seed_site": "https://www.quilpue.cl/",
+      "sources": [
+        "https://muniquilpue.gob.cl:443/ordenanzas-municipales/",
+        "https://muniquilpue.gob.cl:443/ordenanzas/",
+        "https://muniquilpue.gob.cl:443/transparencia/ordenanzas.html",
+        "https://muniquilpue.gob.cl:443/transparencia/ordenanzas/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU256",
+      "municipality": "QUINTA DE TILCOCO",
+      "organism_name": "Municipalidad de Quinta de Tilcoco",
+      "sinim_code": "06114",
+      "seed_site": "https://www.quintadetilcoco.cl/",
+      "sources": [
+        "https://www.quintadetilcoco.cl/wp-content/uploads/2025/12/Actualizacion-Ordenanza-Medio-Ambiente-Aseo-y-Ornato._compressed.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU260",
+      "municipality": "RANCAGUA",
+      "organism_name": "Municipalidad de Rancagua",
+      "sinim_code": "06101",
+      "seed_site": "https://www.rancagua.cl/",
+      "sources": [
+        "https://munirancagua.gob.cl/ordenanzas-municipales/",
+        "https://munirancagua.gob.cl/ordenanzas/",
+        "https://munirancagua.gob.cl/transparencia/ordenanzas.html",
+        "https://munirancagua.gob.cl/transparencia/ordenanzas/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU261",
+      "municipality": "RÁNQUIL",
+      "organism_name": "Municipalidad de Ránquil",
+      "sinim_code": "16206",
+      "seed_site": "https://www.municipalidadranquil.cl/",
+      "sources": [
+        "https://www.municipalidadranquil.cl/ordenanzas.html"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU262",
+      "municipality": "RAUCO",
+      "organism_name": "Municipalidad de Rauco",
+      "sinim_code": "07305",
+      "seed_site": "https://www.munirauco.cl/",
+      "sources": [
+        "https://munirauco.cl/ordenanzas/DA%20552-2022.pdf",
+        "https://www.munirauco.cl/pages/ordenanzas.html",
+        "https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/252-2022_ordenanza.pdf/349350b5-c664-4515-a8b5-14a2b5be8367",
+        "https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/DA+363+-+Ordenanza+Mascarillas.pdf/",
+        "https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/DA787-2020-Ordenanza_Participaci%C3%B3n_Ciudadana.pdf/1f01ad90-de4c-41e5-a798-62d09c5712f4"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU265",
+      "municipality": "RENCA",
+      "organism_name": "Municipalidad de Renca",
+      "sinim_code": "13128",
+      "seed_site": "https://www.renca.cl/",
+      "sources": [
+        "https://renca.cl/ordenanzas-municipales/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU266",
+      "municipality": "RENGO",
+      "organism_name": "Municipalidad de Rengo",
+      "sinim_code": "06115",
+      "seed_site": "https://www.municipalidadrengo.cl/",
+      "sources": [
+        "https://municipalidadrengo.cl/ordenanzas-municipales/",
+        "https://municipalidadrengo.cl/ordenanzas/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU267",
+      "municipality": "REQUÍNOA",
+      "organism_name": "Municipalidad de Requínoa",
+      "sinim_code": "06116",
+      "seed_site": "https://www.requinoa.cl/",
+      "sources": [
+        "https://requinoa.cl/Web/descargarOrdenanza/30",
+        "https://requinoa.cl/Web/descargarOrdenanza/33",
+        "https://requinoa.cl/Web/descargarOrdenanza/41",
+        "https://requinoa.cl/Web/descargarOrdenanza/42",
+        "https://requinoa.cl/Web/descargarOrdenanza/43",
+        "https://requinoa.cl/Web/descargarOrdenanza/44",
+        "https://requinoa.cl/Web/descargarOrdenanza/50",
+        "https://requinoa.cl/Web/descargarOrdenanza/51",
+        "https://requinoa.cl/Web/descargarOrdenanza/52",
+        "https://requinoa.cl/Web/descargarOrdenanza/63",
+        "https://requinoa.cl/Web/descargarOrdenanza/64",
+        "https://requinoa.cl/Web/descargarOrdenanza/65",
+        "https://requinoa.cl/Web/descargarOrdenanza/66",
+        "https://requinoa.cl/Web/descargarOrdenanza/67",
+        "https://requinoa.cl/Web/descargarOrdenanza/68"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU268",
+      "municipality": "RETIRO",
+      "organism_name": "Municipalidad de Retiro",
+      "sinim_code": "07405",
+      "seed_site": "https://www.retiro.cl/",
+      "sources": [
+        "https://retiro.cl/archivos_adjuntos/ordenanzas/DECEX_1078_ORDENANZA_TENENCIA_RESPONSABLE_MASCOTAS_ANIMALES_COMPAÑIA.pdf",
+        "https://retiro.cl/archivos_adjuntos/ordenanzas/DEX_1005_ORDENANZA_ASEO_DOMICILIARIO.pdf",
+        "https://retiro.cl/archivos_adjuntos/ordenanzas/ORDENANZA-ASEO-URBANO-RURAL-MOD.pdf",
+        "https://retiro.cl/archivos_adjuntos/ordenanzas/ORDENANZA_CONDONACION_MULTAS.pdf",
+        "https://retiro.cl/archivos_adjuntos/ordenanzas/ORDENANZA_LOCAL_FUNCIONAMIENTO_FERIAS_LIBRES.pdf",
+        "https://retiro.cl/archivos_adjuntos/ordenanzas/ORDENANZA_LOCAL_PERMISOS_SERVICIOS.pdf",
+        "https://retiro.cl/archivos_adjuntos/ordenanzas/foodtruck.pdf",
+        "https://retiro.cl/archivos_adjuntos/ordenanzas/tarifa_aseo_2024-2026.pdf",
+        "https://retiro.cl/ordenanzas/",
+        "https://retiro.cl/ordenanzas/?s="
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU269",
+      "municipality": "RINCONADA",
+      "organism_name": "Municipalidad de Rinconada",
+      "sinim_code": "05303",
+      "seed_site": "https://www.munirinconada.cl/",
+      "sources": [
+        "https://munirinconada.cl/wp-content/uploads/2022/03/Ordenanza_TENENCIA_RESPONSABLE_DE_MASCOTAS_ANIMALES_DE_COMPANIA_RINCONADA_2022.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU270",
+      "municipality": "RÍO BUENO",
+      "organism_name": "Municipalidad de Rio Bueno",
+      "sinim_code": "14204",
+      "seed_site": "https://www.muniriobueno.cl/",
+      "sources": [
+        "https://muniriobueno.cl/wp-content/uploads/2024/06/MODIFICACION-ORDENANZA-DE-TENENCIA-RESPONSABLE-FEB-2024.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU271",
+      "municipality": "RÍO CLARO",
+      "organism_name": "Municipalidad de Río Claro",
+      "sinim_code": "07108",
+      "seed_site": "https://www.rioclaro.cl/",
+      "sources": [
+        "https://rioclaro.cl/ordenanzas-municipales/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU272",
+      "municipality": "RÍO HURTADO",
+      "organism_name": "Municipalidad de Río Hurtado",
+      "sinim_code": "04305",
+      "seed_site": "https://riohurtado.cl/",
+      "sources": [
+        "https://www.riohurtado.cl/transparencia2010/files/Decreto y Ordenanza Municipal 2016.pdf",
+        "https://www.riohurtado.cl/transparencia2010/files/Decreto y Ordenanza Municipal 2017.pdf",
+        "https://www.riohurtado.cl/transparencia2010/files/ORDENANZA ASEO RIO HURTADO.pdf",
+        "https://www.riohurtado.cl/transparencia2010/files/ORDENANZA MUNICIPAL 2011.pdf",
+        "https://www.riohurtado.cl/transparencia2010/files/ORDENANZA MUNICIPAL 2014.pdf",
+        "https://www.riohurtado.cl/transparencia2010/files/ORDENANZA MUNICIPAL 2015.pdf",
+        "https://www.riohurtado.cl/transparencia2010/files/ORDENANZA MUNICIPAL 2018.pdf",
+        "https://www.riohurtado.cl/transparencia2010/files/ORDENANZA SUSTITUCION Y REDUCCION DE BOLSAS.pdf",
+        "https://www.riohurtado.cl/transparencia2010/files/ORDENANZAS DERECHOS MUNICIPALES 2013.pdf",
+        "https://www.riohurtado.cl/transparencia2010/files/Ordenanza Participacion Ciudadana.pdf",
+        "https://www.riohurtado.cl/transparencia2010/files/ordenanza beca municipal.pdf",
+        "https://www.riohurtado.cl/transparencia2010/files/ordenanza derechos 2012.pdf",
+        "https://www.riohurtado.cl/transparencia2010/files/ordenanza subvenciones.pdf",
+        "https://www.riohurtado.cl/transparencia2010/files/ordenanza_deco.pdf",
+        "https://www.riohurtado.cl/transparencia2010/files/ordmun2010.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU273",
+      "municipality": "RÍO IBÁÑEZ",
+      "organism_name": "Municipalidad de Río Ibáńez",
+      "sinim_code": "11402",
+      "seed_site": "https://www.rioibanez.cl/",
+      "sources": [
+        "https://rioibanez.cl/ordenanzas-municipales/",
+        "https://rioibanez.cl/wp-content/uploads/2026/01/10.0-Decreto-566-23.03.2020-Aprueba-Ordenanza-Ferias-Libres.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU276",
+      "municipality": "ROMERAL",
+      "organism_name": "Municipalidad de Romeral",
+      "sinim_code": "07306",
+      "seed_site": "https://www.muniromeral.cl/",
+      "sources": [
+        "https://www.muniromeral.cl/transparencia/ordenanzas/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU277",
+      "municipality": "SAAVEDRA",
+      "organism_name": "Municipalidad de Saavedra",
+      "sinim_code": "09116",
+      "seed_site": "https://munisaavedra.cl/",
+      "sources": [
+        "https://munisaavedra.cl/wp-content/uploads/2019/05/Ordenanza-Municipal-de-Gestion-Medioambiental-2018_Compressed.pdf",
+        "https://munisaavedra.cl/wp-content/uploads/2020/04/442.pdf",
+        "https://munisaavedra.cl/wp-content/uploads/2020/04/8.pdf",
+        "https://munisaavedra.cl/wp-content/uploads/2020/12/1457-1.pdf",
+        "https://munisaavedra.cl/wp-content/uploads/2022/01/67.pdf",
+        "https://munisaavedra.cl/wp-content/uploads/2022/09/1374-1.pdf",
+        "https://munisaavedra.cl/wp-content/uploads/2022/09/Decreto-Alcaldicio-Ex-N%C2%B0-1285.pdf",
+        "https://munisaavedra.cl/wp-content/uploads/2022/10/1440-1.pdf",
+        "https://munisaavedra.cl/wp-content/uploads/2022/10/DECRETO-1439-1.pdf",
+        "https://munisaavedra.cl/wp-content/uploads/2023/10/01.pdf",
+        "https://munisaavedra.cl/wp-content/uploads/2024/03/doc03042720240305163243.pdf",
+        "https://munisaavedra.cl/wp-content/uploads/2024/06/ORDENANZA-MUNICIPAL-TENENCIA-DE-MASCOTAS.pdf",
+        "https://munisaavedra.cl/wp-content/uploads/2024/11/ORDENANZA-MEDIO-AMBIENTE-2024.pdf",
+        "https://munisaavedra.cl/wp-content/uploads/2024/11/ORDENANZA-TENENCIA-RESPONBLE.pdf",
+        "https://munisaavedra.cl/wp-content/uploads/2025/01/02-ORDENANZA-INTERCULTURAL.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU278",
+      "municipality": "SAGRADA FAMILIA",
+      "organism_name": "Municipalidad de Sagrada Familia",
+      "sinim_code": "07307",
+      "seed_site": "https://www.sagradafamilia.cl/",
+      "sources": [
+        "https://www.sagradafamilia.cl/wp-content/uploads/2025/10/D.A.-N%C2%B01489_APRUEBA-MODIFICACION-ORDENANZA-MUNICIPAL-COBRO-DE-DERECHOS-MUNICIPALES.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU280",
+      "municipality": "SAN ANTONIO",
+      "organism_name": "Municipalidad de San Antonio",
+      "sinim_code": "05601",
+      "seed_site": "https://www.sanantonio.cl/",
+      "sources": [
+        "https://www.sanantonio.cl/images/2025/pdf/2025_N°1_DEJA SIN EFECTO LOS DECRETOS ALCALDICIOS Y DICTA ORDENANZA DE DERECHOS MUNICIPALES.pdf",
+        "https://www.sanantonio.cl/municipalidad/normativa/ordenanza-derechos-municipales.html",
+        "https://www.sanantonio.cl/municipalidad/normativa/ordenanza-derechos-municipales.html?tmpl=component&print=1"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU281",
+      "municipality": "SAN BERNARDO",
+      "organism_name": "Municipalidad de San Bernardo",
+      "sinim_code": "13401",
+      "seed_site": "https://www.sanbernardo.cl/",
+      "sources": [
+        "https://transparencia.sanbernardo.cl/ordenanzas/ORDENANZA-19-MODIF-DAE-N-4837-Ferias-Libres-Chacareros-Otros.pdf",
+        "https://transparencia.sanbernardo.cl/ordenanzas/ORDENANZA-19-TEXTO-REFUNDIDO-DAE-N-4837-Ferias-Libres-Chacareros-Otros.pdf",
+        "https://transparencia.sanbernardo.cl/ordenanzas/ORDENANZA-51-ORDENANZA-FERIAS-NAVIDENAS.pdf",
+        "https://transparencia.sanbernardo.cl/ordenanzas/ORDENANZA-N-52-LOCAL-SOBRE-REGULACION-ESPACIOS-PUBLICOS-PLAZAS-Y-JUEGOS.pdf",
+        "https://transparencia.sanbernardo.cl/ordenanzas/ORDENANZA-N-54-INSTALACION-FUNCIONAMIENTO-EXPLOTACION-COMERCIAL-MAQUINAS-HABILIDAD-DAE-4160.pdf",
+        "https://transparencia.sanbernardo.cl/ordenanzas/ORDENANZA-N12-FERIA-PERSA-MODIFICACION-14-05-2024-DAE-N-3047.pdf",
+        "https://transparencia.sanbernardo.cl/ordenanzas/ORDENANZA-N12-FERIA-PERSA-TEXTO-REFUNDIDO16-05-2024.pdf",
+        "https://transparencia.sanbernardo.cl/ordenanzas/ORDENANZA-N13-DERECHOS-MUNICIPALES-DAE-No-5582-MODIFICACION-2025-10-28.pdf",
+        "https://transparencia.sanbernardo.cl/ordenanzas/ORDENANZA-N13-DERECHOS-MUNICIPALES-DAE-No-6471-MODIFICACION.pdf",
+        "https://transparencia.sanbernardo.cl/ordenanzas/ORDENANZA-N13-DERECHOS-MUNICIPALES-TEXTO-REFUNDIDO-2024-10-30.pdf",
+        "https://transparencia.sanbernardo.cl/ordenanzas/ORDENANZA-N13-TEXTO-REFUNDIDO-sobre-derechos-municipales.pdf",
+        "https://transparencia.sanbernardo.cl/ordenanzas/ORDENANZA-N14-MODIF-DAE-N-5583.pdf",
+        "https://transparencia.sanbernardo.cl/ordenanzas/ORDENANZA-N14-TEXTO-REFUNDIDO-Estacionamientos-Vehiculos-20-11-2025.pdf",
+        "https://transparencia.sanbernardo.cl/ordenanzas/ORDENANZA-N20-OTORGAMIENTO-SUBVENCIONES-MODIFICACION-24-05-2024-DAE-N3323.pdf",
+        "https://transparencia.sanbernardo.cl/ordenanzas/ORDENANZA-N20-TEXTO-REFUNDIDO-OTORGAMIENTO-SUBVENCIONES.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU283",
+      "municipality": "SAN CLEMENTE",
+      "organism_name": "Municipalidad de San Clemente",
+      "sinim_code": "07109",
+      "seed_site": "https://www.sanclemente.cl/",
+      "sources": [
+        "https://www.sanclemente.cl/index.php/2022/05/10/ordenanza-derechos-municipales-2018/",
+        "https://www.sanclemente.cl/index.php/2022/05/10/ordenanza-derechos-municipales-2019/",
+        "https://www.sanclemente.cl/index.php/2022/05/10/ordenanza-direccion-de-obras/",
+        "https://www.sanclemente.cl/index.php/2022/05/10/ordenanza-modificacion-participacion-ciudadana/",
+        "https://www.sanclemente.cl/index.php/2022/05/10/ordenanza-n14-aprueba-funcionamiento-farmacia-comunitaria/",
+        "https://www.sanclemente.cl/index.php/2022/05/10/ordenanza-pintura-fachada-y-mobiliario-urbano/",
+        "https://www.sanclemente.cl/index.php/2022/05/10/ordenanza-que-establece-medidas-especiales-por-emergencia-covid-19/",
+        "https://www.sanclemente.cl/index.php/2022/05/10/ordenanza-quillayes/",
+        "https://www.sanclemente.cl/index.php/2022/05/10/ordenanza-turismo/",
+        "https://www.sanclemente.cl/index.php/2022/08/08/ferias-libres/",
+        "https://www.sanclemente.cl/index.php/2022/08/08/ordenanza-n-21-gas/",
+        "https://www.sanclemente.cl/index.php/2022/08/08/ordenanza-n22-nuevos-cobros/",
+        "https://www.sanclemente.cl/index.php/2022/08/09/modificacion-ordenanza-de-aseo/",
+        "https://www.sanclemente.cl/index.php/2022/08/09/ordenanza-de-tarifas-de-aseso/",
+        "https://www.sanclemente.cl/index.php/2022/08/09/ordenanza-direccion-de-obras-2/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU286",
+      "municipality": "SAN FELIPE",
+      "organism_name": "Municipalidad de San Felipe",
+      "sinim_code": "05701",
+      "seed_site": "https://www.munisanfelipe.cl/",
+      "sources": [
+        "https://munisanfelipe.cl/?p=9519",
+        "https://munisanfelipe.cl/wp-content/uploads/2026/01/Ordenanza-N-5-2026-_-Rectificada-12ene-WEB.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU288",
+      "municipality": "SAN GREGORIO",
+      "organism_name": "Municipalidad de San Gregorio",
+      "sinim_code": "12104",
+      "seed_site": "https://www.sangregorio.cl/",
+      "sources": [
+        "https://sangregorio.cl/ordenanzas-municipales/",
+        "https://sangregorio.cl/wp-content/uploads/2025/10/D.-A.-N°-0262-Ordenanza-Tenencia-responsable-de-mascotas.pdf",
+        "https://sangregorio.cl/wp-content/uploads/2025/10/D.A.-N°1057-Ordenanza-municipal-sobre-dispositivos-de-videovigilancia.pdf",
+        "https://sangregorio.cl/wp-content/uploads/2025/10/D.A.N°1195.pdf",
+        "https://sangregorio.cl/wp-content/uploads/2025/10/DA.-0497-Ordenanza-PRC-SG.pdf",
+        "https://sangregorio.cl/wp-content/uploads/2025/10/DTO.-829-2017-Ordenanza-participacion-ciudadana.pdf",
+        "https://sangregorio.cl/wp-content/uploads/2025/10/ordenanza_aridos.pdf",
+        "https://sangregorio.cl/wp-content/uploads/2025/10/ordenanza_circulacion_y_estacionamiento_vehiculos.pdf",
+        "https://sangregorio.cl/wp-content/uploads/2026/03/ORDENANZA-BECA-MUNICIPAL-ENSENANZA-MEDIA-1.pdf",
+        "https://sangregorio.cl/wp-content/uploads/2026/03/ORDENANZA-BECA-MUNICIPAL-ESTUDIANTES-EDUCACION-SUPERIOR-1.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU289",
+      "municipality": "SAN IGNACIO",
+      "organism_name": "Municipalidad de San Ignacio",
+      "sinim_code": "16108",
+      "seed_site": "https://www.munisanignacio.cl/",
+      "sources": [
+        "https://munisanignacio.cl/municipio/ordenanzas-y-normativas/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU290",
+      "municipality": "SAN JAVIER",
+      "organism_name": "Municipalidad de San Javier",
+      "sinim_code": "07406",
+      "seed_site": "https://www.imsanjavier.cl/",
+      "sources": [
+        "https://imsanjavier.cl/ordenanzas-y-documentos/",
+        "https://imsanjavier.cl/wp-content/uploads/2026/01/Ordenanza-N°2-de-tarifa-de-aseo-2026-2028.pdf",
+        "https://imsanjavier.cl/wp-content/uploads/2026/01/Ordenanza-N°3-tarifa-de-aseo-2026.pdf",
+        "https://imsanjavier.cl/wp-content/uploads/2026/01/Ordenanza-N°4-de-derechos-de-aseo.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU291",
+      "municipality": "SAN JOAQUÍN",
+      "organism_name": "Municipalidad de San Joaquín",
+      "sinim_code": "13129",
+      "seed_site": "https://www.redsanjoaquin.cl/",
+      "sources": [
+        "https://sanjoaquin.cl/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU292",
+      "municipality": "SAN JOSÉ DE MAIPO",
+      "organism_name": "Municipalidad de San José de Maipo",
+      "sinim_code": "13203",
+      "seed_site": "https://www.sanjosedemaipo.cl/",
+      "sources": [
+        "https://biblioteca.sanjosedemaipo.cl/",
+        "https://www.sanjosedemaipo.cl/municipalidad/ordenanazas/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU293",
+      "municipality": "SAN JUAN DE LA COSTA",
+      "organism_name": "Municipalidad de San Juan de la Costa",
+      "sinim_code": "10306",
+      "seed_site": "https://www.sanjuandelacosta.cl/",
+      "sources": [
+        "https://sanjuandelacosta.cl/archivosvarios/ordenanzas/OM_tenencia_responsable.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU295",
+      "municipality": "SAN NICOLÁS",
+      "organism_name": "Municipalidad de San Nicolás",
+      "sinim_code": "16305",
+      "seed_site": "https://www.municipalidadsannicolas.cl/",
+      "sources": [
+        "https://www.municipalidadsannicolas.cl/ordenanzas.php"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU298",
+      "municipality": "SAN PEDRO DE ATACAMA",
+      "organism_name": "Municipalidad de San Pedro de Atacama",
+      "sinim_code": "02203",
+      "seed_site": "https://www.munispa.cl/",
+      "sources": [
+        "https://munispa.cl/ordenanza_04-2023/",
+        "https://munispa.cl/wp-content/uploads/2023/10/ORDENANZA-MUNICIPAL-SOBRE-ASEO-Y-TARIFA.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU300",
+      "municipality": "SAN RAFAEL",
+      "organism_name": "Municipalidad de San Rafael",
+      "sinim_code": "07110",
+      "seed_site": "https://munisanrafael.cl/",
+      "sources": [
+        "http://munisanrafael.cl/Ley-de-transparencia-2014/2014/ordenanza.html",
+        "https://munisanrafael.cl/Ley-de-transparencia-2014/2014/ordenanza.html"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU302",
+      "municipality": "SAN ROSENDO",
+      "organism_name": "Municipalidad de San Rosendo",
+      "sinim_code": "08310",
+      "seed_site": "https://www.municipalidadsanrosendo.cl/",
+      "sources": [
+        "https://municipalidadsanrosendo.cl/ordenanza-tenencia-responsable/",
+        "https://municipalidadsanrosendo.cl/wp-content/uploads/2023/07/ordenanza-01.jpg",
+        "https://municipalidadsanrosendo.cl/wp-content/uploads/2023/07/ordenanza-02-1.jpg",
+        "https://municipalidadsanrosendo.cl/wp-content/uploads/2023/07/ordenanza-03.jpg",
+        "https://municipalidadsanrosendo.cl/wp-content/uploads/2023/07/ordenanza-04.jpg",
+        "https://municipalidadsanrosendo.cl/wp-content/uploads/2023/07/ordenanza-05.jpg",
+        "https://municipalidadsanrosendo.cl/wp-content/uploads/2023/07/ordenanza-06.jpg",
+        "https://municipalidadsanrosendo.cl/wp-content/uploads/2023/07/ordenanza-07-1.jpg",
+        "https://municipalidadsanrosendo.cl/wp-content/uploads/2024/06/ordenanza-medio-ambiente.pdf",
+        "https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/DECRETO+N%C2%B0%202408+FECHA+22_05_2023+APRUEBASE+LA+ORDENANZA+LOCAL+TENENCIA+RESPONSABLE+DE+ANIMALES.pdf/5b726490-ac45-46f0-b935-06f427c38cbb"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU303",
+      "municipality": "SAN VICENTE",
+      "organism_name": "Municipalidad de San Vicente de Tagua Tagua",
+      "sinim_code": "06117",
+      "seed_site": "https://www.municipalidadsanvicente.cl/",
+      "sources": [
+        "https://www.municipalidadsanvicente.cl/ordenanzas-municipales/",
+        "https://www.municipalidadsanvicente.cl/ordenanzas/",
+        "https://www.municipalidadsanvicente.cl/transparencia/ordenanzas.html",
+        "https://www.municipalidadsanvicente.cl/transparencia/ordenanzas/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU304",
+      "municipality": "SANTA BÁRBARA",
+      "organism_name": "Municipalidad de Santa Bárbara",
+      "sinim_code": "08311",
+      "seed_site": "https://www.santabarbara.cl/",
+      "sources": [
+        "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU304&pagina=59339418",
+        "https://www.santabarbara.cl/municipalidad/ordenanzas-municipales/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU306",
+      "municipality": "SANTA JUANA",
+      "organism_name": "Municipalidad de Santa Juana",
+      "sinim_code": "08109",
+      "seed_site": "https://www.santajuana.cl/",
+      "sources": [
+        "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU306"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU307",
+      "municipality": "SANTA MARÍA",
+      "organism_name": "Municipalidad de Santa María",
+      "sinim_code": "05706",
+      "seed_site": "https://www.imsantamaria.cl/",
+      "sources": [
+        "https://www.imsantamaria.cl/transparencia/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU309",
+      "municipality": "SANTO DOMINGO",
+      "organism_name": "Municipalidad de Santo Domingo",
+      "sinim_code": "05606",
+      "seed_site": "https://www.santodomingo.cl/",
+      "sources": [
+        "https://santodomingo.cl/municipio/",
+        "https://santodomingo.cl/wp-content/uploads/2023/09/descarga-12-ordenanza-PRC-Sto.-Dgo.ACTUALIZADA.pdf",
+        "https://santodomingo.cl/wp-content/uploads/2023/11/PRCSD_c-Ordenanza-Preliminar_ET6_IA.pdf",
+        "https://santodomingo.cl/wp-content/uploads/2023/12/Nueva-Ordenanza-Municipal-Aseo-y-Ornato-Decreto-Alcaldicio-N°1802_1.pdf",
+        "https://santodomingo.cl/wp-content/uploads/2023/12/Ordenanza-Municipal-de-Soterramiento.pdf",
+        "https://santodomingo.cl/wp-content/uploads/2023/12/ordenanza-pandemia-comercio-y-uso-de-palzas-y-borde.doc",
+        "https://santodomingo.cl/wp-content/uploads/2024/11/Ordenanza-Municipal-de-Medio-Ambiente-y-Proteccion-de-la-Biodiversidad_-Decreto-Alcaldicio-2435.pdf",
+        "https://santodomingo.cl/wp-content/uploads/2024/11/Ordenanza-Tenencia-Responsable-_Decreto-Alcaldicio-N%C2%B0-2304.pdf",
+        "https://santodomingo.cl/wp-content/uploads/2025/03/D-N°-003-06-01-2025-1.pdf",
+        "https://santodomingo.cl/wp-content/uploads/2025/07/ORDENANZA-DE-PLAYAS.pdf",
+        "https://santodomingo.cl/wp-content/uploads/2025/11/D.O.-odenanza-prc-Santo-Domingo_11.11.2003.pdf",
+        "https://santodomingo.cl/wp-content/uploads/2026/02/2025-03797-DECRETO-PLAN-VISUAL.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU311",
+      "municipality": "TALAGANTE",
+      "organism_name": "Municipalidad de Talagante",
+      "sinim_code": "13601",
+      "seed_site": "https://www.munitalagante.cl/",
+      "sources": [
+        "https://www.munitalagante.cl/_files/ugd/1b53a1_8fdbb8e9ba81494faab90f0c2805c1f3.pdf",
+        "https://www.munitalagante.cl/ordenanzas"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU315",
+      "municipality": "TEMUCO",
+      "organism_name": "Municipalidad de Temuco",
+      "sinim_code": "09101",
+      "seed_site": "https://www.temuco.cl/",
+      "sources": [
+        "http://transparencia.temuco.cl/g_resoluciones/ordenanzas/index.htm",
+        "http://transparencia.temuco.cl/j_participacion/index.htm"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU316",
+      "municipality": "TENO",
+      "organism_name": "Municipalidad de Teno",
+      "sinim_code": "07308",
+      "seed_site": "https://www.teno.cl/",
+      "sources": [
+        "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU316&pagina=58859504",
+        "https://www.teno.cl/portal2/propuestas-borrador-de-ordenanzas-municipales/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU322",
+      "municipality": "TOCOPILLA",
+      "organism_name": "Municipalidad de Tocopilla",
+      "sinim_code": "02301",
+      "seed_site": "https://imtocopilla.cl/",
+      "sources": [
+        "https://imtocopilla.cl/adecuacuines-a-la-actual-ordenanza-refundida-municipal-que-fuera-aprobada-mediante-decreto-extento-n0166/",
+        "https://imtocopilla.cl/d-e-n1250-dispongase-la-siguiente-modificacion-a-la-actual-ordenanza-para-el-otorgamiento-renovacion-traslado-y-transferencia-de-patentes-de-alcohol/",
+        "https://imtocopilla.cl/dec-exento-n-0016-aprueba-modificaciones-a-ordenanza-de-general-de-cobros-y-de-descongestion-vehicular/",
+        "https://imtocopilla.cl/decreto-exento-n-1-760-aprueba-modificacion-ordenanza-cementerio-municipal-de-tocopilla/",
+        "https://imtocopilla.cl/decreto-exento-n-1-761-2024-modificacion-del-articulo-28-numero-1-inserto-en-la-modificacion-de-la-ordenanza-refundida-de-la-municipalidad-de-tocopilla/",
+        "https://imtocopilla.cl/decreto-exento-n-1-762-2024-modificacion-de-la-ordenanza-municipal-sobre-construccion-de-boulevard-en-aceras-y-paseo-peatonal-en-casco-historico-de-la-comuna-de-tocopilla/",
+        "https://imtocopilla.cl/ordenanza-de-tenencia-responsable-y-control-de-poblacion-canina/",
+        "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU322&pagina=57504894"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU324",
+      "municipality": "TOMÉ",
+      "organism_name": "Municipalidad de Tome",
+      "sinim_code": "08111",
+      "seed_site": "https://www.tome.cl/",
+      "sources": [
+        "https://static.tome.cl/banners/121/file/D.A. N° 4.825 Modifica Ordenanza Local sobre derechos municipales por co....pdf",
+        "https://static.tome.cl/banners/98/file/ORDENANZA DE SUBVENCIONES MUNICIPALES NUEVA.pdf",
+        "https://static.tome.cl/identidad/files/Ordenanza_Municipal_de_Medio_Ambiente_2025_(00000002).pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU325",
+      "municipality": "TORRES DEL PAINE",
+      "organism_name": "Municipalidad de Torres del Paine",
+      "sinim_code": "12402",
+      "seed_site": "https://www.torresdelpayne.cl/",
+      "sources": [
+        "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU325&pagina=59423915"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU326",
+      "municipality": "TORTEL",
+      "organism_name": "Municipalidad de Tortel",
+      "sinim_code": "11303",
+      "seed_site": "https://www.tortel.cl/",
+      "sources": [
+        "https://www.tortel.cl/ordenanzas-y-reglamentos/",
+        "https://www.tortel.cl/wp-content/uploads/2021/07/ORDENANZA-MUNICIPAL-DE-USO-DE-MASCARILLA-S_N_-17-JUL-2020.pdf",
+        "https://www.tortel.cl/wp-content/uploads/2021/09/ORDENANZA-MUNICIPAL-MEDIO-AMBIENTE.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU329",
+      "municipality": "TUCAPEL",
+      "organism_name": "Municipalidad de Tucapel",
+      "sinim_code": "08312",
+      "seed_site": "https://www.municipalidadtucapel.cl/",
+      "sources": [
+        "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU329/AR/AREST"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU330",
+      "municipality": "VALDIVIA",
+      "organism_name": "Municipalidad de Valdivia",
+      "sinim_code": "14101",
+      "seed_site": "https://www.munivaldivia.cl/",
+      "sources": [
+        "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU330&pagina=58710931"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU332",
+      "municipality": "VALPARAÍSO",
+      "organism_name": "Municipalidad de Valparaíso",
+      "sinim_code": "05101",
+      "seed_site": "https://www.municipalidaddevalparaiso.cl/",
+      "sources": [
+        "https://municipalidaddevalparaiso.cl/wp-content/uploads/2025/06/N°44-Ordenanza-que-regula-transito-Poligono-Mercado-El-Cardonal.pdf",
+        "https://municipalidaddevalparaiso.cl/wp-content/uploads/2025/06/N°45-Ordenanza-que-regula-comercio-en-BNUP.pdf",
+        "https://municipalidaddevalparaiso.cl/wp-content/uploads/2025/07/N°46-Ordenanza-local-para-pubs-restaurantes-de-turismo-hoteles-de-turismo-cabarets-y-discotecas-salones-de-baile-pneas-folkloricas-y-establecimientos-similares.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU333",
+      "municipality": "VICHUQUÉN",
+      "organism_name": "Municipalidad de Vichuquén",
+      "sinim_code": "07309",
+      "seed_site": "https://www.munivichuquen.cl/",
+      "sources": [
+        "https://www.munivichuquen.cl/propuesta-de-actualizacion-ordenanza-medio-ambiente-de-la-comuna-de-vichuquen-2/",
+        "https://www.munivichuquen.cl/propuesta-de-actualizacion-ordenanza-medio-ambiente-de-la-comuna-de-vichuquen/",
+        "https://www.munivichuquen.cl/wp-content/uploads/2026/08/PROPUESTA-ACTUALIZACION-ORDENANZA-MEDIOAMBIENTE-M.VICHUQUEN_AGO2026-1.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU336",
+      "municipality": "VILCÚN",
+      "organism_name": "Municipalidad de Vilcún",
+      "sinim_code": "09119",
+      "seed_site": "https://www.vilcun.cl/",
+      "sources": [
+        "https://www.portaltransparencia.cl/PortalPdT/buscador-es?search_org=MU336&search_usr=ordenanza",
+        "https://www.vilcun.cl/web/base/informaciones-y-documentos-2/ordenanza/",
+        "https://www.vilcun.cl/web/decreto-n-1714-modifiquese-ordenanza-local-de-derechos-municipales-por-concesiones-permisos-ocupacion-de-bienes-nacionales-de-uso-publico-propaganda-y-otros-servicios-de-la-comuna-d/",
+        "https://www.vilcun.cl/web/decreto-n-3672-ordenanza-ambiental-comuna-de-vilcun/",
+        "https://www.vilcun.cl/web/decreto-n-4015-apruebese-ordenanza-municipal-sobre-el-uso-de-mascarilla-y-proteccion-facial-en-el-contexto-del-brote-del-covid-19-en-todos-los-espacios-publicos-de-la-comuna-d/",
+        "https://www.vilcun.cl/web/decreto-n-4069-modifiquese-el-articulo-1-de-la-ordenanza-municipal-sobre-el-uso-de-mascarilla-y-proteccion-facial-en-el-contexto-del-brote-del-covid-19-en-todos-los-espa/",
+        "https://www.vilcun.cl/web/decreto-n-4551-ordenanza-de-prevencion-y-gestion-de-riesgo-producto-de-incendios-forestales/",
+        "https://www.vilcun.cl/web/decreto-n-5023-modifiquese-ordenanza-local-de-derechos-letra-b-del-numeral-4-del-articulo-45-donde-dice-b-retroexcavadora-por-hora-segun-se-indica-reemplazase-letra-f-del-numer/",
+        "https://www.vilcun.cl/web/decreto-n-5088-modificase-el-articulo-40-bis-de-ordenanza-local-de-derechos-de-ilustre-municipalidad-de-vilcun-respecto-a-terrenos-de-cementerios-de-la-comuna/",
+        "https://www.vilcun.cl/web/informacion-y-documentos/"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU337",
+      "municipality": "VILLA ALEGRE",
+      "organism_name": "Municipalidad de Villa Alegre",
+      "sinim_code": "07407",
+      "seed_site": "https://www.villalegre.cl/",
+      "sources": [
+        "https://villalegre.cl/ordenanza-que-amplia-cobertura-de-apoyo-economico-a-estudiantes-de-la-educacion-superior/",
+        "https://villalegre.cl/wp-content/uploads/2026/05/doc_265650.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU339",
+      "municipality": "VILLARRICA",
+      "organism_name": "Municipalidad de Villarrica",
+      "sinim_code": "09120",
+      "seed_site": "https://www.munivillarrica.cl/",
+      "sources": [
+        "https://www.munivillarrica.cl/wp-content/uploads/2019/03/modifica3.pdf",
+        "https://www.munivillarrica.cl/wp-content/uploads/2019/03/modifica4.pdf",
+        "https://www.munivillarrica.cl/wp-content/uploads/2019/03/ordena_10_a.pdf",
+        "https://www.munivillarrica.cl/wp-content/uploads/2019/03/ordena_25.pdf",
+        "https://www.munivillarrica.cl/wp-content/uploads/2019/03/ordena_26.pdf",
+        "https://www.munivillarrica.cl/wp-content/uploads/2019/03/ordena_27.pdf",
+        "https://www.munivillarrica.cl/wp-content/uploads/2019/03/ordena_participa_ciu.pdf",
+        "https://www.munivillarrica.cl/wp-content/uploads/2019/03/ordenanza_10.pdf",
+        "https://www.munivillarrica.cl/wp-content/uploads/2019/03/ordenanza_11.pdf",
+        "https://www.munivillarrica.cl/wp-content/uploads/2019/03/ordenanza_12.pdf",
+        "https://www.munivillarrica.cl/wp-content/uploads/2019/03/ordenanza_14.pdf",
+        "https://www.munivillarrica.cl/wp-content/uploads/2019/03/ordenanza_15.pdf",
+        "https://www.munivillarrica.cl/wp-content/uploads/2019/03/ordenanza_16.pdf",
+        "https://www.munivillarrica.cl/wp-content/uploads/2019/03/ordenanza_17.pdf",
+        "https://www.munivillarrica.cl/wp-content/uploads/2019/03/ordenanza_18.pdf"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU341",
+      "municipality": "VITACURA",
+      "organism_name": "Municipalidad de Vitacura",
+      "sinim_code": "13132",
+      "seed_site": "https://www.vitacura.cl/",
+      "sources": [
+        "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU341&pagina=59867271"
+      ],
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU345",
+      "municipality": "ZAPALLAR",
+      "organism_name": "Municipalidad de Zapallar",
+      "sinim_code": "05405",
+      "seed_site": "https://www.munizapallar.cl/",
+      "sources": [
+        "https://www.munizapallar.cl/ordenanzas-municipales"
+      ],
+      "coverage_complete": false
+    }
+  ]
+}

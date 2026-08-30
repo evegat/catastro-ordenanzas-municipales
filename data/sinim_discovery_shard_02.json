@@ -1,0 +1,3518 @@
+{
+  "generated_at": "2026-08-30T04:53:19+00:00",
+  "task_id": "MW-P090-0012",
+  "policy": "SINIM/SUBDERE is institutional seed source; CPLT identity + site identity gate required; fail closed",
+  "sinim_selector_count": 345,
+  "sinim_reconciled_count": 345,
+  "sinim_reconciliation_failures": [],
+  "shard": {
+    "index": 2,
+    "count": 10
+  },
+  "summary": {
+    "records": 35,
+    "states": {
+      "sinim_seed_identity_unverified": 1,
+      "sinim_seed_unreachable": 4,
+      "verified_candidate_found": 17,
+      "verified_site_no_candidate": 13
+    },
+    "sinim_web_fields": 35,
+    "identity_verified_sites": 30,
+    "candidate_sources": 81
+  },
+  "records": [
+    {
+      "cplt_code": "MU003",
+      "organism_name": "Municipalidad de Alto Biobío",
+      "sinim_code": "08314",
+      "sinim_commune_name": "ALTO BIOBÍO",
+      "ficha": {
+        "ficha_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=08314",
+        "status_code": 200,
+        "resolved_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=08314",
+        "content_type": "text/html",
+        "ok": true,
+        "web": "https://www.munialtobiobio.cl",
+        "web_raw": "www.munialtobiobio.cl"
+      },
+      "state": "verified_candidate_found",
+      "discovery": {
+        "seed_url": "https://www.munialtobiobio.cl/",
+        "seed_reachable": true,
+        "identity_verified": true,
+        "identity": {
+          "verified": true,
+          "municipality_key": "alto biobio",
+          "exact_name_match": true,
+          "name_token_hits": 2,
+          "name_token_total": 2,
+          "municipal_brand_match": true,
+          "host_name_match": true,
+          "reason": "municipality_identity_verified"
+        },
+        "pages_attempted": 3,
+        "pages": [
+          {
+            "requested_url": "https://www.munialtobiobio.cl/",
+            "status_code": 200,
+            "resolved_url": "https://munialtobiobio.cl/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "wordpress"
+          },
+          {
+            "requested_url": "https://munialtobiobio.cl/municipio/ordenanzas-municipales/",
+            "status_code": 200,
+            "resolved_url": "https://munialtobiobio.cl/municipio/ordenanzas-municipales/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "wordpress"
+          },
+          {
+            "requested_url": "https://munialtobiobio.cl/municipio/transparencia/",
+            "status_code": 200,
+            "resolved_url": "https://munialtobiobio.cl/municipio/transparencia/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "wordpress"
+          }
+        ],
+        "candidate_sources": [
+          {
+            "label": "Ordenanzas",
+            "url": "https://munialtobiobio.cl/municipio/ordenanzas-municipales/",
+            "source_page": "https://munialtobiobio.cl/",
+            "signal": 10,
+            "kind": "listing",
+            "family": "wordpress",
+            "probe": {
+              "requested_url": "https://munialtobiobio.cl/municipio/ordenanzas-municipales/",
+              "status_code": 200,
+              "resolved_url": "https://munialtobiobio.cl/municipio/ordenanzas-municipales/",
+              "content_type": "text/html",
+              "ok": true,
+              "looks_pdf": false
+            }
+          }
+        ],
+        "candidate_count": 1
+      },
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU013",
+      "organism_name": "Municipalidad de Aysén",
+      "sinim_code": "11201",
+      "sinim_commune_name": "AYSÉN",
+      "ficha": {
+        "ficha_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=11201",
+        "status_code": 200,
+        "resolved_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=11201",
+        "content_type": "text/html",
+        "ok": true,
+        "web": "https://www.puertoaysen.cl",
+        "web_raw": "www.puertoaysen.cl"
+      },
+      "state": "verified_candidate_found",
+      "discovery": {
+        "seed_url": "https://www.puertoaysen.cl/",
+        "seed_reachable": true,
+        "identity_verified": true,
+        "identity": {
+          "verified": true,
+          "municipality_key": "aysen",
+          "exact_name_match": true,
+          "name_token_hits": 1,
+          "name_token_total": 1,
+          "municipal_brand_match": true,
+          "host_name_match": true,
+          "reason": "municipality_identity_verified"
+        },
+        "pages_attempted": 6,
+        "pages": [
+          {
+            "requested_url": "https://www.puertoaysen.cl/",
+            "status_code": 200,
+            "resolved_url": "https://muniaysen.gob.cl/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "wordpress"
+          },
+          {
+            "requested_url": "https://www.puertoaysen.cl/ordenanzas/",
+            "status_code": 200,
+            "resolved_url": "https://muniaysen.gob.cl/ordenanzas-y-reglamentos/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "wordpress"
+          },
+          {
+            "requested_url": "https://www.puertoaysen.cl/ordenanzas-municipales/",
+            "status_code": 404,
+            "resolved_url": "https://muniaysen.gob.cl/ordenanzas-municipales/",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.puertoaysen.cl/transparencia/ordenanzas/",
+            "status_code": 200,
+            "resolved_url": "https://muniaysen.gob.cl/ordenanzas-y-reglamentos/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "wordpress"
+          },
+          {
+            "requested_url": "https://www.puertoaysen.cl/transparencia/ordenanzas.html",
+            "status_code": 404,
+            "resolved_url": "https://muniaysen.gob.cl/transparencia/ordenanzas.html",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.puertoaysen.cl/transparencia/",
+            "status_code": 403,
+            "resolved_url": "https://muniaysen.gob.cl/transparencia/",
+            "content_type": "text/html",
+            "ok": false
+          }
+        ],
+        "candidate_sources": [
+          {
+            "label": "/ordenanzas-y-reglamentos/",
+            "url": "https://muniaysen.gob.cl/ordenanzas-y-reglamentos/",
+            "source_page": "https://muniaysen.gob.cl/ordenanzas-y-reglamentos/",
+            "signal": 10,
+            "kind": "listing",
+            "family": "wordpress",
+            "probe": {
+              "requested_url": "https://muniaysen.gob.cl/ordenanzas-y-reglamentos/",
+              "status_code": 200,
+              "resolved_url": "https://muniaysen.gob.cl/ordenanzas-y-reglamentos/",
+              "content_type": "text/html",
+              "ok": true,
+              "looks_pdf": false
+            }
+          }
+        ],
+        "candidate_count": 1
+      },
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU116",
+      "organism_name": "Municipalidad de La Calera",
+      "sinim_code": "05502",
+      "sinim_commune_name": "CALERA",
+      "ficha": {
+        "ficha_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=05502",
+        "status_code": 200,
+        "resolved_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=05502",
+        "content_type": "text/html",
+        "ok": true,
+        "web": "https://www.lacalera.cl",
+        "web_raw": "www.lacalera.cl"
+      },
+      "state": "verified_candidate_found",
+      "discovery": {
+        "seed_url": "https://www.lacalera.cl/",
+        "seed_reachable": true,
+        "identity_verified": true,
+        "identity": {
+          "verified": true,
+          "municipality_key": "calera",
+          "exact_name_match": true,
+          "name_token_hits": 1,
+          "name_token_total": 1,
+          "municipal_brand_match": true,
+          "host_name_match": true,
+          "reason": "municipality_identity_verified"
+        },
+        "pages_attempted": 2,
+        "pages": [
+          {
+            "requested_url": "https://www.lacalera.cl/",
+            "status_code": 200,
+            "resolved_url": "https://lacalera.cl/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "wordpress"
+          },
+          {
+            "requested_url": "https://lacalera.cl/informacion/ordenanzas/",
+            "status_code": 200,
+            "resolved_url": "https://lacalera.cl/informacion/ordenanzas/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "wordpress"
+          }
+        ],
+        "candidate_sources": [
+          {
+            "label": "",
+            "url": "https://lacalera.cl/informacion/ordenanzas/",
+            "source_page": "https://lacalera.cl/",
+            "signal": 10,
+            "kind": "listing",
+            "family": "wordpress",
+            "probe": {
+              "requested_url": "https://lacalera.cl/informacion/ordenanzas/",
+              "status_code": 200,
+              "resolved_url": "https://lacalera.cl/informacion/ordenanzas/",
+              "content_type": "text/html",
+              "ok": true,
+              "looks_pdf": false
+            }
+          }
+        ],
+        "candidate_count": 1
+      },
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU032",
+      "organism_name": "Municipalidad de Catemu",
+      "sinim_code": "05702",
+      "sinim_commune_name": "CATEMU",
+      "ficha": {
+        "ficha_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=05702",
+        "status_code": 200,
+        "resolved_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=05702",
+        "content_type": "text/html",
+        "ok": true,
+        "web": "https://www.municatemu.cl",
+        "web_raw": "www.municatemu.cl"
+      },
+      "state": "verified_site_no_candidate",
+      "discovery": {
+        "seed_url": "https://www.municatemu.cl/",
+        "seed_reachable": true,
+        "identity_verified": true,
+        "identity": {
+          "verified": true,
+          "municipality_key": "catemu",
+          "exact_name_match": true,
+          "name_token_hits": 1,
+          "name_token_total": 1,
+          "municipal_brand_match": true,
+          "host_name_match": true,
+          "reason": "municipality_identity_verified"
+        },
+        "pages_attempted": 6,
+        "pages": [
+          {
+            "requested_url": "https://www.municatemu.cl/",
+            "status_code": 200,
+            "resolved_url": "https://www.municatemu.cl/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "joomla"
+          },
+          {
+            "requested_url": "https://www.municatemu.cl/ordenanzas/",
+            "status_code": 404,
+            "resolved_url": "https://www.municatemu.cl/ordenanzas/",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.municatemu.cl/ordenanzas-municipales/",
+            "status_code": 404,
+            "resolved_url": "https://www.municatemu.cl/ordenanzas-municipales/",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.municatemu.cl/transparencia/ordenanzas/",
+            "status_code": 404,
+            "resolved_url": "https://www.municatemu.cl/transparencia/ordenanzas/",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.municatemu.cl/transparencia/ordenanzas.html",
+            "status_code": 404,
+            "resolved_url": "https://www.municatemu.cl/transparencia/ordenanzas.html",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.municatemu.cl/transparencia/",
+            "status_code": 404,
+            "resolved_url": "https://www.municatemu.cl/transparencia/",
+            "content_type": "text/html",
+            "ok": false
+          }
+        ],
+        "candidate_sources": [],
+        "candidate_count": 0
+      },
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU043",
+      "organism_name": "Municipalidad de Chillán Viejo",
+      "sinim_code": "16103",
+      "sinim_commune_name": "CHILLÁN VIEJO",
+      "ficha": {
+        "ficha_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=16103",
+        "status_code": 200,
+        "resolved_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=16103",
+        "content_type": "text/html",
+        "ok": true,
+        "web": "https://chillanviejo.cl",
+        "web_raw": "chillanviejo.cl"
+      },
+      "state": "sinim_seed_unreachable",
+      "discovery": {
+        "seed_url": "https://chillanviejo.cl/",
+        "seed_reachable": false,
+        "identity_verified": false,
+        "identity": {
+          "verified": false,
+          "reason": "seed_unreachable_or_non_html"
+        },
+        "pages_attempted": 1,
+        "pages": [
+          {
+            "requested_url": "https://chillanviejo.cl/",
+            "status_code": 403,
+            "resolved_url": "https://chillanviejo.cl/",
+            "content_type": "text/html",
+            "ok": false
+          }
+        ],
+        "candidate_sources": [],
+        "candidate_count": 0
+      },
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU052",
+      "organism_name": "Municipalidad de Coelemu",
+      "sinim_code": "16203",
+      "sinim_commune_name": "COELEMU",
+      "ficha": {
+        "ficha_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=16203",
+        "status_code": 200,
+        "resolved_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=16203",
+        "content_type": "text/html",
+        "ok": true,
+        "web": "https://www.municipalidaddecoelemu.cl",
+        "web_raw": "www.municipalidaddecoelemu.cl"
+      },
+      "state": "verified_site_no_candidate",
+      "discovery": {
+        "seed_url": "https://www.municipalidaddecoelemu.cl/",
+        "seed_reachable": true,
+        "identity_verified": true,
+        "identity": {
+          "verified": true,
+          "municipality_key": "coelemu",
+          "exact_name_match": true,
+          "name_token_hits": 1,
+          "name_token_total": 1,
+          "municipal_brand_match": true,
+          "host_name_match": true,
+          "reason": "municipality_identity_verified"
+        },
+        "pages_attempted": 6,
+        "pages": [
+          {
+            "requested_url": "https://www.municipalidaddecoelemu.cl/",
+            "status_code": 200,
+            "resolved_url": "https://www.municoelemu.cl/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "wordpress"
+          },
+          {
+            "requested_url": "https://www.municipalidaddecoelemu.cl/ordenanzas/",
+            "status_code": 404,
+            "resolved_url": "https://www.municipalidaddecoelemu.cl/ordenanzas/",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.municipalidaddecoelemu.cl/ordenanzas-municipales/",
+            "status_code": 404,
+            "resolved_url": "https://www.municipalidaddecoelemu.cl/ordenanzas-municipales/",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.municipalidaddecoelemu.cl/transparencia/ordenanzas/",
+            "status_code": 404,
+            "resolved_url": "https://www.municipalidaddecoelemu.cl/transparencia/ordenanzas/",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.municipalidaddecoelemu.cl/transparencia/ordenanzas.html",
+            "status_code": 404,
+            "resolved_url": "https://www.municipalidaddecoelemu.cl/transparencia/ordenanzas.html",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.municipalidaddecoelemu.cl/transparencia/",
+            "status_code": 404,
+            "resolved_url": "https://www.municipalidaddecoelemu.cl/transparencia/",
+            "content_type": "text/html",
+            "ok": false
+          }
+        ],
+        "candidate_sources": [],
+        "candidate_count": 0
+      },
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU062",
+      "organism_name": "Municipalidad de Conchalí",
+      "sinim_code": "13104",
+      "sinim_commune_name": "CONCHALÍ",
+      "ficha": {
+        "ficha_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=13104",
+        "status_code": 200,
+        "resolved_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=13104",
+        "content_type": "text/html",
+        "ok": true,
+        "web": "https://www.conchali.cl",
+        "web_raw": "www.conchali.cl"
+      },
+      "state": "verified_site_no_candidate",
+      "discovery": {
+        "seed_url": "https://www.conchali.cl/",
+        "seed_reachable": true,
+        "identity_verified": true,
+        "identity": {
+          "verified": true,
+          "municipality_key": "conchali",
+          "exact_name_match": true,
+          "name_token_hits": 1,
+          "name_token_total": 1,
+          "municipal_brand_match": true,
+          "host_name_match": true,
+          "reason": "municipality_identity_verified"
+        },
+        "pages_attempted": 6,
+        "pages": [
+          {
+            "requested_url": "https://www.conchali.cl/",
+            "status_code": 200,
+            "resolved_url": "https://conchali.cl/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "wordpress"
+          },
+          {
+            "requested_url": "https://www.conchali.cl/ordenanzas/",
+            "status_code": 404,
+            "resolved_url": "https://conchali.cl/ordenanzas/",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.conchali.cl/ordenanzas-municipales/",
+            "status_code": 404,
+            "resolved_url": "https://conchali.cl/ordenanzas-municipales/",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.conchali.cl/transparencia/ordenanzas/",
+            "status_code": 404,
+            "resolved_url": "https://conchali.cl/transparencia/ordenanzas/",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.conchali.cl/transparencia/ordenanzas.html",
+            "status_code": 404,
+            "resolved_url": "https://conchali.cl/transparencia/ordenanzas.html",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.conchali.cl/transparencia/",
+            "status_code": 404,
+            "resolved_url": "https://conchali.cl/transparencia/",
+            "content_type": "text/html",
+            "ok": false
+          }
+        ],
+        "candidate_sources": [],
+        "candidate_count": 0
+      },
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU072",
+      "organism_name": "Municipalidad de Curacautín",
+      "sinim_code": "09203",
+      "sinim_commune_name": "CURACAUTÍN",
+      "ficha": {
+        "ficha_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=09203",
+        "status_code": 200,
+        "resolved_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=09203",
+        "content_type": "text/html",
+        "ok": true,
+        "web": "https://www.mcuracautin.cl",
+        "web_raw": "www.mcuracautin.cl"
+      },
+      "state": "verified_site_no_candidate",
+      "discovery": {
+        "seed_url": "https://www.mcuracautin.cl/",
+        "seed_reachable": true,
+        "identity_verified": true,
+        "identity": {
+          "verified": true,
+          "municipality_key": "curacautin",
+          "exact_name_match": true,
+          "name_token_hits": 1,
+          "name_token_total": 1,
+          "municipal_brand_match": true,
+          "host_name_match": true,
+          "reason": "municipality_identity_verified"
+        },
+        "pages_attempted": 6,
+        "pages": [
+          {
+            "requested_url": "https://www.mcuracautin.cl/",
+            "status_code": 200,
+            "resolved_url": "https://www.mcuracautin.cl/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "custom_or_static"
+          },
+          {
+            "requested_url": "https://www.mcuracautin.cl/ordenanzas/",
+            "status_code": 403,
+            "resolved_url": "https://www.mcuracautin.cl/ordenanzas/",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.mcuracautin.cl/ordenanzas-municipales/",
+            "status_code": 403,
+            "resolved_url": "https://www.mcuracautin.cl/ordenanzas-municipales/",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.mcuracautin.cl/transparencia/ordenanzas/",
+            "status_code": 403,
+            "resolved_url": "https://www.mcuracautin.cl/transparencia/ordenanzas/",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.mcuracautin.cl/transparencia/ordenanzas.html",
+            "status_code": 403,
+            "resolved_url": "https://www.mcuracautin.cl/transparencia/ordenanzas.html",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.mcuracautin.cl/transparencia/",
+            "status_code": 403,
+            "resolved_url": "https://www.mcuracautin.cl/transparencia/",
+            "content_type": "text/html",
+            "ok": false
+          }
+        ],
+        "candidate_sources": [],
+        "candidate_count": 0
+      },
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU082",
+      "organism_name": "Municipalidad de El Bosque",
+      "sinim_code": "13105",
+      "sinim_commune_name": "EL BOSQUE",
+      "ficha": {
+        "ficha_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=13105",
+        "status_code": 200,
+        "resolved_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=13105",
+        "content_type": "text/html",
+        "ok": true,
+        "web": "https://www.municipalidadelbosque.cl/",
+        "web_raw": "www.municipalidadelbosque.cl/"
+      },
+      "state": "verified_candidate_found",
+      "discovery": {
+        "seed_url": "https://www.municipalidadelbosque.cl/",
+        "seed_reachable": true,
+        "identity_verified": true,
+        "identity": {
+          "verified": true,
+          "municipality_key": "el bosque",
+          "exact_name_match": true,
+          "name_token_hits": 1,
+          "name_token_total": 1,
+          "municipal_brand_match": true,
+          "host_name_match": true,
+          "reason": "municipality_identity_verified"
+        },
+        "pages_attempted": 2,
+        "pages": [
+          {
+            "requested_url": "https://www.municipalidadelbosque.cl/",
+            "status_code": 200,
+            "resolved_url": "https://www.municipalidadelbosque.cl/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "wordpress"
+          },
+          {
+            "requested_url": "https://www.municipalidadelbosque.cl/ordenanza-persa/",
+            "status_code": 200,
+            "resolved_url": "https://www.municipalidadelbosque.cl/ordenanza-persa/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "wordpress"
+          }
+        ],
+        "candidate_sources": [
+          {
+            "label": "Modificación Transitoria Persa Los Morros",
+            "url": "https://www.municipalidadelbosque.cl/ordenanza-persa/",
+            "source_page": "https://www.municipalidadelbosque.cl/",
+            "signal": 10,
+            "kind": "listing",
+            "family": "wordpress",
+            "probe": {
+              "requested_url": "https://www.municipalidadelbosque.cl/ordenanza-persa/",
+              "status_code": 200,
+              "resolved_url": "https://www.municipalidadelbosque.cl/ordenanza-persa/",
+              "content_type": "text/html",
+              "ok": true,
+              "looks_pdf": false
+            }
+          }
+        ],
+        "candidate_count": 1
+      },
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU092",
+      "organism_name": "Municipalidad de Freirina",
+      "sinim_code": "03303",
+      "sinim_commune_name": "FREIRINA",
+      "ficha": {
+        "ficha_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=03303",
+        "status_code": 200,
+        "resolved_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=03303",
+        "content_type": "text/html",
+        "ok": true,
+        "web": "https://www.imfreirina.cl",
+        "web_raw": "www.imfreirina.cl"
+      },
+      "state": "verified_site_no_candidate",
+      "discovery": {
+        "seed_url": "https://www.imfreirina.cl/",
+        "seed_reachable": true,
+        "identity_verified": true,
+        "identity": {
+          "verified": true,
+          "municipality_key": "freirina",
+          "exact_name_match": true,
+          "name_token_hits": 1,
+          "name_token_total": 1,
+          "municipal_brand_match": true,
+          "host_name_match": true,
+          "reason": "municipality_identity_verified"
+        },
+        "pages_attempted": 6,
+        "pages": [
+          {
+            "requested_url": "https://www.imfreirina.cl/",
+            "status_code": 200,
+            "resolved_url": "https://imfreirina.cl/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "wordpress"
+          },
+          {
+            "requested_url": "https://www.imfreirina.cl/ordenanzas/",
+            "status_code": 404,
+            "resolved_url": "https://imfreirina.cl/ordenanzas/",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.imfreirina.cl/ordenanzas-municipales/",
+            "status_code": 404,
+            "resolved_url": "https://imfreirina.cl/ordenanzas-municipales/",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.imfreirina.cl/transparencia/ordenanzas/",
+            "status_code": 404,
+            "resolved_url": "https://www.imfreirina.cl/transparencia/ordenanzas/",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.imfreirina.cl/transparencia/ordenanzas.html",
+            "status_code": 404,
+            "resolved_url": "https://www.imfreirina.cl/transparencia/ordenanzas.html",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.imfreirina.cl/transparencia/",
+            "status_code": 403,
+            "resolved_url": "https://www.imfreirina.cl/transparencia/",
+            "content_type": "text/html",
+            "ok": false
+          }
+        ],
+        "candidate_sources": [],
+        "candidate_count": 0
+      },
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU102",
+      "organism_name": "Municipalidad de Hijuelas",
+      "sinim_code": "05503",
+      "sinim_commune_name": "HIJUELAS",
+      "ficha": {
+        "ficha_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=05503",
+        "status_code": 200,
+        "resolved_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=05503",
+        "content_type": "text/html",
+        "ok": true,
+        "web": "https://www.hijuelas.cl",
+        "web_raw": "www.hijuelas.cl"
+      },
+      "state": "verified_candidate_found",
+      "discovery": {
+        "seed_url": "https://www.hijuelas.cl/",
+        "seed_reachable": true,
+        "identity_verified": true,
+        "identity": {
+          "verified": true,
+          "municipality_key": "hijuelas",
+          "exact_name_match": true,
+          "name_token_hits": 1,
+          "name_token_total": 1,
+          "municipal_brand_match": true,
+          "host_name_match": true,
+          "reason": "municipality_identity_verified"
+        },
+        "pages_attempted": 3,
+        "pages": [
+          {
+            "requested_url": "https://www.hijuelas.cl/",
+            "status_code": 200,
+            "resolved_url": "https://hijuelas.cl/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "wordpress"
+          },
+          {
+            "requested_url": "https://hijuelas.cl/municipalidad/rdenanzas",
+            "status_code": 404,
+            "resolved_url": "https://hijuelas.cl/municipalidad/rdenanzas",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://hijuelas.cl/municipalidad/ordenanzas/",
+            "status_code": 200,
+            "resolved_url": "https://hijuelas.cl/municipalidad/ordenanzas/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "wordpress"
+          }
+        ],
+        "candidate_sources": [
+          {
+            "label": "Ordenanza Local sobre Derechos Municipales por Permisos, Concesiones y Servicios",
+            "url": "https://hijuelas.cl/wp-content/uploads/216422ordderechmunicip.pdf",
+            "source_page": "https://hijuelas.cl/municipalidad/ordenanzas/",
+            "signal": 12,
+            "kind": "document",
+            "family": "wordpress",
+            "probe": {
+              "requested_url": "https://hijuelas.cl/wp-content/uploads/216422ordderechmunicip.pdf",
+              "status_code": 200,
+              "resolved_url": "https://hijuelas.cl/wp-content/uploads/216422ordderechmunicip.pdf",
+              "content_type": "application/pdf",
+              "ok": true,
+              "looks_pdf": true
+            }
+          },
+          {
+            "label": "Ordenanza sobre Otorgamiento de Subvenciones Municipales",
+            "url": "https://hijuelas.cl/wp-content/uploads/79211ordensubvencmunic.pdf",
+            "source_page": "https://hijuelas.cl/municipalidad/ordenanzas/",
+            "signal": 12,
+            "kind": "document",
+            "family": "wordpress",
+            "probe": {
+              "requested_url": "https://hijuelas.cl/wp-content/uploads/79211ordensubvencmunic.pdf",
+              "status_code": 200,
+              "resolved_url": "https://hijuelas.cl/wp-content/uploads/79211ordensubvencmunic.pdf",
+              "content_type": "application/pdf",
+              "ok": true,
+              "looks_pdf": true
+            }
+          },
+          {
+            "label": "Ordenanza Municipal sobre Cobro de Derechos por Servicio Domiciliario de Aseo",
+            "url": "https://hijuelas.cl/wp-content/uploads/APRUEBA-ORDENANZA-MUNICIPAL-SOBRE-COBROS-DE-DERECHOS-DE-ASEO-DOMICILIARIO.pdf",
+            "source_page": "https://hijuelas.cl/municipalidad/ordenanzas/",
+            "signal": 12,
+            "kind": "document",
+            "family": "wordpress",
+            "probe": {
+              "requested_url": "https://hijuelas.cl/wp-content/uploads/APRUEBA-ORDENANZA-MUNICIPAL-SOBRE-COBROS-DE-DERECHOS-DE-ASEO-DOMICILIARIO.pdf",
+              "status_code": 200,
+              "resolved_url": "https://hijuelas.cl/wp-content/uploads/APRUEBA-ORDENANZA-MUNICIPAL-SOBRE-COBROS-DE-DERECHOS-DE-ASEO-DOMICILIARIO.pdf",
+              "content_type": "application/pdf",
+              "ok": true,
+              "looks_pdf": true
+            }
+          },
+          {
+            "label": "Ordenanza Municipal sobre Extracción, Transporte y Procesamiento de Áridos",
+            "url": "https://hijuelas.cl/wp-content/uploads/Extraccion-de-aridos-1.pdf",
+            "source_page": "https://hijuelas.cl/municipalidad/ordenanzas/",
+            "signal": 12,
+            "kind": "document",
+            "family": "wordpress",
+            "probe": {
+              "requested_url": "https://hijuelas.cl/wp-content/uploads/Extraccion-de-aridos-1.pdf",
+              "status_code": 200,
+              "resolved_url": "https://hijuelas.cl/wp-content/uploads/Extraccion-de-aridos-1.pdf",
+              "content_type": "application/pdf",
+              "ok": true,
+              "looks_pdf": true
+            }
+          },
+          {
+            "label": "Ordenanza Municipal de Ferias Libres y Ferias Persa",
+            "url": "https://hijuelas.cl/wp-content/uploads/Ferias-libres-1.pdf",
+            "source_page": "https://hijuelas.cl/municipalidad/ordenanzas/",
+            "signal": 12,
+            "kind": "document",
+            "family": "wordpress",
+            "probe": {
+              "requested_url": "https://hijuelas.cl/wp-content/uploads/Ferias-libres-1.pdf",
+              "status_code": 200,
+              "resolved_url": "https://hijuelas.cl/wp-content/uploads/Ferias-libres-1.pdf",
+              "content_type": "application/pdf",
+              "ok": true,
+              "looks_pdf": true
+            }
+          },
+          {
+            "label": "Ordenanza Local sobre Medioambiente",
+            "url": "https://hijuelas.cl/wp-content/uploads/decreto4419.pdf",
+            "source_page": "https://hijuelas.cl/municipalidad/ordenanzas/",
+            "signal": 12,
+            "kind": "document",
+            "family": "wordpress"
+          },
+          {
+            "label": "Ordenanza Municipal sobre Instalación de Locales que Expenden Cilindros de Gas Licuado en la Comuna",
+            "url": "https://hijuelas.cl/wp-content/uploads/gaslicuado.pdf",
+            "source_page": "https://hijuelas.cl/municipalidad/ordenanzas/",
+            "signal": 12,
+            "kind": "document",
+            "family": "wordpress"
+          },
+          {
+            "label": "Ordenanza sobre Trabajos en Beneficio de la Comunidad para Cumplir Sentencias Dictadas por el Juez de Policía Local",
+            "url": "https://hijuelas.cl/wp-content/uploads/juezpolicialocal.pdf",
+            "source_page": "https://hijuelas.cl/municipalidad/ordenanzas/",
+            "signal": 12,
+            "kind": "document",
+            "family": "wordpress"
+          },
+          {
+            "label": "Ordenanzas Municipal de Participación Ciudadana",
+            "url": "https://hijuelas.cl/wp-content/uploads/ordenanzaparticipacionciudadana.pdf",
+            "source_page": "https://hijuelas.cl/municipalidad/ordenanzas/",
+            "signal": 12,
+            "kind": "document",
+            "family": "wordpress"
+          },
+          {
+            "label": "Ordenanza Municipal sobre Patentes de Alcoholes y Horario de Funcionamiento de los Negocios de Expendio y Consumo de Bebidas Alcohólicas",
+            "url": "https://hijuelas.cl/wp-content/uploads/patentesdealcoholes.pdf",
+            "source_page": "https://hijuelas.cl/municipalidad/ordenanzas/",
+            "signal": 12,
+            "kind": "document",
+            "family": "wordpress"
+          },
+          {
+            "label": "Ordenanza Municipal sobre Registro de Personas Jurídicas Receptoras de Fondos Públicos",
+            "url": "https://hijuelas.cl/wp-content/uploads/registropersonasjuridicas.pdf",
+            "source_page": "https://hijuelas.cl/municipalidad/ordenanzas/",
+            "signal": 12,
+            "kind": "document",
+            "family": "wordpress"
+          },
+          {
+            "label": "Ordenanzas",
+            "url": "https://hijuelas.cl/municipalidad/ordenanzas/",
+            "source_page": "https://hijuelas.cl/",
+            "signal": 10,
+            "kind": "listing",
+            "family": "wordpress"
+          },
+          {
+            "label": "Ordenanzas",
+            "url": "https://hijuelas.cl/municipalidad/rdenanzas",
+            "source_page": "https://hijuelas.cl/",
+            "signal": 10,
+            "kind": "listing",
+            "family": "wordpress"
+          }
+        ],
+        "candidate_count": 13
+      },
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU112",
+      "organism_name": "Municipalidad de Iquique",
+      "sinim_code": "01101",
+      "sinim_commune_name": "IQUIQUE",
+      "ficha": {
+        "ficha_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=01101",
+        "status_code": 200,
+        "resolved_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=01101",
+        "content_type": "text/html",
+        "ok": true,
+        "web": "https://www.municipioiquique.cl",
+        "web_raw": "www.municipioiquique.cl"
+      },
+      "state": "verified_candidate_found",
+      "discovery": {
+        "seed_url": "https://www.municipioiquique.cl/",
+        "seed_reachable": true,
+        "identity_verified": true,
+        "identity": {
+          "verified": true,
+          "municipality_key": "iquique",
+          "exact_name_match": true,
+          "name_token_hits": 1,
+          "name_token_total": 1,
+          "municipal_brand_match": true,
+          "host_name_match": true,
+          "reason": "municipality_identity_verified"
+        },
+        "pages_attempted": 5,
+        "pages": [
+          {
+            "requested_url": "https://www.municipioiquique.cl/",
+            "status_code": 200,
+            "resolved_url": "https://www.municipioiquique.cl/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "custom_or_static"
+          },
+          {
+            "requested_url": "https://www.municipioiquique.cl/municipalidad/ordenanzas.html",
+            "status_code": 200,
+            "resolved_url": "https://www.municipioiquique.cl/municipalidad/ordenanzas.html",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "custom_or_static"
+          },
+          {
+            "requested_url": "https://www.municipioiquique.cl/transparencia/elecciones",
+            "status_code": 200,
+            "resolved_url": "https://www.municipioiquique.cl/transparencia/elecciones",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "custom_or_static"
+          },
+          {
+            "requested_url": "https://www.municipioiquique.cl/transparencia/reclamaciones.html",
+            "status_code": 200,
+            "resolved_url": "https://www.municipioiquique.cl/transparencia/reclamaciones.html",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "custom_or_static"
+          },
+          {
+            "requested_url": "https://www.municipioiquique.cl/descargas/transparencia/CLUB-DE-PATINAJE-EXTREMO-DE-IQUIQUE",
+            "status_code": 404,
+            "resolved_url": "https://www.municipioiquique.cl/descargas/transparencia/CLUB-DE-PATINAJE-EXTREMO-DE-IQUIQUE",
+            "content_type": "text/html",
+            "ok": false
+          }
+        ],
+        "candidate_sources": [
+          {
+            "label": "Modifíquese Ordenanza Municipal N°522 del año 2018.",
+            "url": "https://www.municipioiquique.cl/descargas/ordenanzas/2024/10/O.M%20611%20MODIFICA%20NUMERAL%206%20DEL%20ARTICULO%208%C2%B0%20DEL%20TITULO%20V%20DERECHOS%20MUNICIPALES%20RELACIONADOS%20CON%20PERMISOS%20PARA%20EL%20EJERECICIO%20TRANSITORIO%20DE%20ACT%20LUCRATIVAS.pdf",
+            "source_page": "https://www.municipioiquique.cl/municipalidad/ordenanzas.html",
+            "signal": 12,
+            "kind": "document",
+            "family": "custom_or_static",
+            "probe": {
+              "requested_url": "https://www.municipioiquique.cl/descargas/ordenanzas/2024/10/O.M%20611%20MODIFICA%20NUMERAL%206%20DEL%20ARTICULO%208%C2%B0%20DEL%20TITULO%20V%20DERECHOS%20MUNICIPALES%20RELACIONADOS%20CON%20PERMISOS%20PARA%20EL%20EJERECICIO%20TRANSITORIO%20DE%20ACT%20LUCRATIVAS.pdf",
+              "status_code": 200,
+              "resolved_url": "https://www.municipioiquique.cl/descargas/ordenanzas/2024/10/O.M%20611%20MODIFICA%20NUMERAL%206%20DEL%20ARTICULO%208%C2%B0%20DEL%20TITULO%20V%20DERECHOS%20MUNICIPALES%20RELACIONADOS%20CON%20PERMISOS%20PARA%20EL%20EJERECICIO%20TRANSITORIO%20DE%20ACT%20LUCRATIVAS.pdf",
+              "content_type": "application/pdf",
+              "ok": true,
+              "looks_pdf": true
+            }
+          },
+          {
+            "label": "Ordenanza Municipal N°612 - Modifica O.M. 316-2000.",
+            "url": "https://www.municipioiquique.cl/descargas/ordenanzas/2024/11/O.M.N%C2%B0612%202024%20-%20Modifica%20OM%20316%20del%20a%C3%B1o%202000%20Reglamento%20Casino%20Municipal%20de%20Iquique.pdf",
+            "source_page": "https://www.municipioiquique.cl/municipalidad/ordenanzas.html",
+            "signal": 12,
+            "kind": "document",
+            "family": "custom_or_static",
+            "probe": {
+              "requested_url": "https://www.municipioiquique.cl/descargas/ordenanzas/2024/11/O.M.N%C2%B0612%202024%20-%20Modifica%20OM%20316%20del%20a%C3%B1o%202000%20Reglamento%20Casino%20Municipal%20de%20Iquique.pdf",
+              "status_code": 200,
+              "resolved_url": "https://www.municipioiquique.cl/descargas/ordenanzas/2024/11/O.M.N%C2%B0612%202024%20-%20Modifica%20OM%20316%20del%20a%C3%B1o%202000%20Reglamento%20Casino%20Municipal%20de%20Iquique.pdf",
+              "content_type": "application/pdf",
+              "ok": true,
+              "looks_pdf": true
+            }
+          },
+          {
+            "label": "Ordenanza Municipal N°613 - Modifica O.M. 612-2024.",
+            "url": "https://www.municipioiquique.cl/descargas/ordenanzas/2024/11/OM%20613%20MODIFIQUESE%20ARTICULO180%20ORDENANZA%20612%20FUNCIONAMIENTO%20CASINO%20DE%20JUEGOS.pdf",
+            "source_page": "https://www.municipioiquique.cl/municipalidad/ordenanzas.html",
+            "signal": 12,
+            "kind": "document",
+            "family": "custom_or_static",
+            "probe": {
+              "requested_url": "https://www.municipioiquique.cl/descargas/ordenanzas/2024/11/OM%20613%20MODIFIQUESE%20ARTICULO180%20ORDENANZA%20612%20FUNCIONAMIENTO%20CASINO%20DE%20JUEGOS.pdf",
+              "status_code": 200,
+              "resolved_url": "https://www.municipioiquique.cl/descargas/ordenanzas/2024/11/OM%20613%20MODIFIQUESE%20ARTICULO180%20ORDENANZA%20612%20FUNCIONAMIENTO%20CASINO%20DE%20JUEGOS.pdf",
+              "content_type": "application/pdf",
+              "ok": true,
+              "looks_pdf": true
+            }
+          },
+          {
+            "label": "Ordenanza Municipal N°614 - Modifica O.M. 395-2005.",
+            "url": "https://www.municipioiquique.cl/descargas/ordenanzas/2024/12/Ordenanza%20Municipal%20N%C2%B0614..pdf",
+            "source_page": "https://www.municipioiquique.cl/municipalidad/ordenanzas.html",
+            "signal": 12,
+            "kind": "document",
+            "family": "custom_or_static",
+            "probe": {
+              "requested_url": "https://www.municipioiquique.cl/descargas/ordenanzas/2024/12/Ordenanza%20Municipal%20N%C2%B0614..pdf",
+              "status_code": 200,
+              "resolved_url": "https://www.municipioiquique.cl/descargas/ordenanzas/2024/12/Ordenanza%20Municipal%20N%C2%B0614..pdf",
+              "content_type": "application/pdf",
+              "ok": true,
+              "looks_pdf": true
+            }
+          },
+          {
+            "label": "Ordenanza Municipal N°617-2025.",
+            "url": "https://www.municipioiquique.cl/descargas/ordenanzas/2025/06/OM%20617%20DEROGUESE%20ORDENANZA%20MUNICIPAL%20427%20TENECIA%20RESPONSABLE%20DE%20MASCOTAS%20Y%20ANIMALES%20DE%20COMPAN%CC%83IA.pdf",
+            "source_page": "https://www.municipioiquique.cl/municipalidad/ordenanzas.html",
+            "signal": 12,
+            "kind": "document",
+            "family": "custom_or_static",
+            "probe": {
+              "requested_url": "https://www.municipioiquique.cl/descargas/ordenanzas/2025/06/OM%20617%20DEROGUESE%20ORDENANZA%20MUNICIPAL%20427%20TENECIA%20RESPONSABLE%20DE%20MASCOTAS%20Y%20ANIMALES%20DE%20COMPAN%CC%83IA.pdf",
+              "status_code": 200,
+              "resolved_url": "https://www.municipioiquique.cl/descargas/ordenanzas/2025/06/OM%20617%20DEROGUESE%20ORDENANZA%20MUNICIPAL%20427%20TENECIA%20RESPONSABLE%20DE%20MASCOTAS%20Y%20ANIMALES%20DE%20COMPAN%CC%83IA.pdf",
+              "content_type": "application/pdf",
+              "ok": true,
+              "looks_pdf": true
+            }
+          },
+          {
+            "label": "Ordenanza Municipal N°618 - Modifica O.M. 209-1991.",
+            "url": "https://www.municipioiquique.cl/descargas/ordenanzas/2025/06/OM%20618%20MODIFIQUESE%20ORDENANZA%20MUNICPAL%20209-1991%20QUE%20REGULA%20FERIA%20ITINERANTE%20DE%20LA%20COMUNA%20DE%20IQUIQUE.pdf",
+            "source_page": "https://www.municipioiquique.cl/municipalidad/ordenanzas.html",
+            "signal": 12,
+            "kind": "document",
+            "family": "custom_or_static"
+          },
+          {
+            "label": "Ordenanza Municipal N°621 - 2025 instalación Mant. y retiro líneas áreas y subterraneas de telecomunicaciones en bienes nacional de uso público",
+            "url": "https://www.municipioiquique.cl/descargas/ordenanzas/2025/10/ORDENANZA%20MUNICIPAL%20621-2025%20INSTALACION%20MANT.%20Y%20RETIRO%20LINEAS%20AREAS%20Y%20SUBTERRANEAS%20DE%20TELECOMUNICACIONES%20EN%20BIENES%20NACIONALES%20DE%20USO%20PUBLICO.pdf",
+            "source_page": "https://www.municipioiquique.cl/municipalidad/ordenanzas.html",
+            "signal": 12,
+            "kind": "document",
+            "family": "custom_or_static"
+          },
+          {
+            "label": "ORDENANZA MUNICIPAL 622-2025 MODIFICA O.M. 451-2010 SOBRE DERECHOS MUNICIPALES POR CONCESIONES, PERMISO Y SERVICIOS",
+            "url": "https://www.municipioiquique.cl/descargas/ordenanzas/2025/10/ORDENANZA%20MUNICIPAL%20622-2025%20MODIFICA%20O.M.%20451-2010%20SOBRE%20DERECHOS%20MUNICIPALES%20POR%20CONCESIONES%2C%20PERMISO%20Y%20SERVICIOS.pdf",
+            "source_page": "https://www.municipioiquique.cl/municipalidad/ordenanzas.html",
+            "signal": 12,
+            "kind": "document",
+            "family": "custom_or_static"
+          },
+          {
+            "label": "Ordenanza Nº 599 | Modifica Ordenanza Municipal N°598/2024",
+            "url": "https://www.municipioiquique.cl/descargas/ordenanzas/O.M.%20599%20MODIFICA%20ORDENANZA%20MUNICIPAL%20N°598-2024%20QUE%20REGULA%20HORARIO%20DE%20VENTA%20DE%20BEBIDAS%20ALCOHÓLICAS%20EN%20LA%20FORMA%20QUE%20INDICA%201.pdf",
+            "source_page": "https://www.municipioiquique.cl/municipalidad/ordenanzas.html",
+            "signal": 12,
+            "kind": "document",
+            "family": "custom_or_static"
+          },
+          {
+            "label": "Ordenanza Municipal N°610 - Modifica horario atención casino días 07 y 08 de octubre del 2024",
+            "url": "https://www.municipioiquique.cl/descargas/ordenanzas/O.M.%20610%20MODIFICA%20ORDENANZA%20MUNICIPAL%20586-2023%20RELATIVO%20AL%20FUNCIONAMIENTO%20DEL%20CASINO%20DE%20JUEGOS%20DE%20IQUIQUE.pdf",
+            "source_page": "https://www.municipioiquique.cl/municipalidad/ordenanzas.html",
+            "signal": 12,
+            "kind": "document",
+            "family": "custom_or_static"
+          },
+          {
+            "label": "Ordenanza Nº 602| Modifíquese artículo 16° bis establecido en la Ordenanza Municipal N°452",
+            "url": "https://www.municipioiquique.cl/descargas/ordenanzas/O.M.%20N°602%20MODIFIQUESE%20ARTICULO%20167%20BIS%20ESTABLECIDO%20EN%20LA%20ORDENANZA%20MUNICIPAL%20N°452-2010.pdf",
+            "source_page": "https://www.municipioiquique.cl/municipalidad/ordenanzas.html",
+            "signal": 12,
+            "kind": "document",
+            "family": "custom_or_static"
+          },
+          {
+            "label": "Ordenanza Nº 603 - Modifica O.M. N°451/2010 Sobre Derechos Municipales, concesiones y permisos",
+            "url": "https://www.municipioiquique.cl/descargas/ordenanzas/O.M.%20N°603%20MODIFICA%20OM%20451-2010%20SOBRE%20DERECHOS%20MUNICIPALES%20POR%20CONCESIONES,%20PERMISOS%20Y%20SERVICIOS.pdf",
+            "source_page": "https://www.municipioiquique.cl/municipalidad/ordenanzas.html",
+            "signal": 12,
+            "kind": "document",
+            "family": "custom_or_static"
+          },
+          {
+            "label": "Ordenanza Municipal N°604 - Modifica OM 603-2024",
+            "url": "https://www.municipioiquique.cl/descargas/ordenanzas/OM%20604%20MODIFICA%20OM%20603-2024%20QUE%20INCORPORA%20ARTICULO%20SEPTIES%20A%20LA%20OM%20451-2010%20SOBRE%20DERECHOS%20MUNICIPALES%20POR%20CONCESIONES,%20PERMISOS%20Y%20SERVICIOS%20(1).pdf",
+            "source_page": "https://www.municipioiquique.cl/municipalidad/ordenanzas.html",
+            "signal": 12,
+            "kind": "document",
+            "family": "custom_or_static"
+          },
+          {
+            "label": "Ordenanza Nº 527 | Autoriza cambio sentido de tránsito",
+            "url": "https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/O.M.+527+AUTORIZA+CAMBIO+TRANSITORIO+AV.+ARTURO+PRAT+UNIDIRECCIONAL+SUR+A+NORTE+TEMPORADA+ESCOLAR+-+INGRESO+35.pdf/9226b2e4-695f-4076-8525-694f769a6c01",
+            "source_page": "https://www.municipioiquique.cl/municipalidad/ordenanzas.html",
+            "signal": 12,
+            "kind": "listing",
+            "family": "custom_or_static"
+          },
+          {
+            "label": "Ordenanza Nº 530 | Revoca y deja sin efecto",
+            "url": "https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/OKO.M.+530+REVOCA+Y+DEJA+SIN+EFECTO+O.M.+528-2019+-+INGRESO+255.pdf/1f832661-d755-4056-822b-638824220c94",
+            "source_page": "https://www.municipioiquique.cl/municipalidad/ordenanzas.html",
+            "signal": 12,
+            "kind": "listing",
+            "family": "custom_or_static"
+          }
+        ],
+        "candidate_count": 18
+      },
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU129",
+      "organism_name": "Municipalidad de Lago Verde",
+      "sinim_code": "11102",
+      "sinim_commune_name": "LAGO VERDE",
+      "ficha": {
+        "ficha_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=11102",
+        "status_code": 200,
+        "resolved_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=11102",
+        "content_type": "text/html",
+        "ok": true,
+        "web": "https://www.lagoverdeaysen.cl",
+        "web_raw": "www.lagoverdeaysen.cl"
+      },
+      "state": "verified_site_no_candidate",
+      "discovery": {
+        "seed_url": "https://www.lagoverdeaysen.cl/",
+        "seed_reachable": true,
+        "identity_verified": true,
+        "identity": {
+          "verified": true,
+          "municipality_key": "lago verde",
+          "exact_name_match": true,
+          "name_token_hits": 2,
+          "name_token_total": 2,
+          "municipal_brand_match": true,
+          "host_name_match": true,
+          "reason": "municipality_identity_verified"
+        },
+        "pages_attempted": 6,
+        "pages": [
+          {
+            "requested_url": "https://www.lagoverdeaysen.cl/",
+            "status_code": 200,
+            "resolved_url": "https://comunalagoverde.cl/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "wordpress"
+          },
+          {
+            "requested_url": "https://www.lagoverdeaysen.cl/ordenanzas/",
+            "status_code": 404,
+            "resolved_url": "https://www.lagoverdeaysen.cl/ordenanzas/",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.lagoverdeaysen.cl/ordenanzas-municipales/",
+            "status_code": 404,
+            "resolved_url": "https://www.lagoverdeaysen.cl/ordenanzas-municipales/",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.lagoverdeaysen.cl/transparencia/ordenanzas/",
+            "status_code": 404,
+            "resolved_url": "https://www.lagoverdeaysen.cl/transparencia/ordenanzas/",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.lagoverdeaysen.cl/transparencia/ordenanzas.html",
+            "status_code": 404,
+            "resolved_url": "https://www.lagoverdeaysen.cl/transparencia/ordenanzas.html",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.lagoverdeaysen.cl/transparencia/",
+            "status_code": 404,
+            "resolved_url": "https://www.lagoverdeaysen.cl/transparencia/",
+            "content_type": "text/html",
+            "ok": false
+          }
+        ],
+        "candidate_sources": [],
+        "candidate_count": 0
+      },
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU134",
+      "organism_name": "Municipalidad de Las Cabras",
+      "sinim_code": "06107",
+      "sinim_commune_name": "LAS CABRAS",
+      "ficha": {
+        "ficha_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=06107",
+        "status_code": 200,
+        "resolved_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=06107",
+        "content_type": "text/html",
+        "ok": true,
+        "web": "https://www.lascabrasmunicipalidad.cl",
+        "web_raw": "www.lascabrasmunicipalidad.cl"
+      },
+      "state": "sinim_seed_unreachable",
+      "discovery": {
+        "seed_url": "https://www.lascabrasmunicipalidad.cl/",
+        "seed_reachable": false,
+        "identity_verified": false,
+        "identity": {
+          "verified": false,
+          "reason": "seed_unreachable_or_non_html"
+        },
+        "pages_attempted": 1,
+        "pages": [
+          {
+            "requested_url": "https://www.lascabrasmunicipalidad.cl/",
+            "status_code": null,
+            "resolved_url": null,
+            "content_type": null,
+            "ok": false,
+            "error": "SSLError: HTTPSConnectionPool(host='www.lascabrasmunicipalidad.cl', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1028)')))"
+          }
+        ],
+        "candidate_sources": [],
+        "candidate_count": 0
+      },
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU143",
+      "organism_name": "Municipalidad de Llay Llay",
+      "sinim_code": "05703",
+      "sinim_commune_name": "LLAILLAY",
+      "ficha": {
+        "ficha_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=05703",
+        "status_code": 200,
+        "resolved_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=05703",
+        "content_type": "text/html",
+        "ok": true,
+        "web": "https://www.munllayllay.cl/",
+        "web_raw": "www.munllayllay.cl/"
+      },
+      "state": "verified_candidate_found",
+      "discovery": {
+        "seed_url": "https://www.munllayllay.cl/",
+        "seed_reachable": true,
+        "identity_verified": true,
+        "identity": {
+          "verified": true,
+          "municipality_key": "llay llay",
+          "exact_name_match": true,
+          "name_token_hits": 2,
+          "name_token_total": 2,
+          "municipal_brand_match": true,
+          "host_name_match": true,
+          "reason": "municipality_identity_verified"
+        },
+        "pages_attempted": 1,
+        "pages": [
+          {
+            "requested_url": "https://www.munllayllay.cl/",
+            "status_code": 200,
+            "resolved_url": "https://www.munllayllay.cl/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "wordpress"
+          }
+        ],
+        "candidate_sources": [
+          {
+            "label": "",
+            "url": "https://www.munllayllay.cl/wp-content/uploads/2025/10/Ordenanza-N°01-Derechos-Dec-2232-de-29-Oct-2025.pdf",
+            "source_page": "https://www.munllayllay.cl/",
+            "signal": 12,
+            "kind": "document",
+            "family": "wordpress",
+            "probe": {
+              "requested_url": "https://www.munllayllay.cl/wp-content/uploads/2025/10/Ordenanza-N°01-Derechos-Dec-2232-de-29-Oct-2025.pdf",
+              "status_code": 200,
+              "resolved_url": "https://www.munllayllay.cl/wp-content/uploads/2025/10/Ordenanza-N%C2%B001-Derechos-Dec-2232-de-29-Oct-2025.pdf",
+              "content_type": "application/pdf",
+              "ok": true,
+              "looks_pdf": true
+            }
+          }
+        ],
+        "candidate_count": 1
+      },
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU154",
+      "organism_name": "Municipalidad de Los Lagos",
+      "sinim_code": "14104",
+      "sinim_commune_name": "LOS LAGOS",
+      "ficha": {
+        "ficha_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=14104",
+        "status_code": 200,
+        "resolved_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=14104",
+        "content_type": "text/html",
+        "ok": true,
+        "web": "https://www.muniloslagos.cl",
+        "web_raw": "www.muniloslagos.cl"
+      },
+      "state": "verified_candidate_found",
+      "discovery": {
+        "seed_url": "https://www.muniloslagos.cl/",
+        "seed_reachable": true,
+        "identity_verified": true,
+        "identity": {
+          "verified": true,
+          "municipality_key": "los lagos",
+          "exact_name_match": true,
+          "name_token_hits": 1,
+          "name_token_total": 1,
+          "municipal_brand_match": true,
+          "host_name_match": true,
+          "reason": "municipality_identity_verified"
+        },
+        "pages_attempted": 5,
+        "pages": [
+          {
+            "requested_url": "https://www.muniloslagos.cl/",
+            "status_code": 200,
+            "resolved_url": "https://muniloslagos.cl/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "wordpress"
+          },
+          {
+            "requested_url": "https://muniloslagos.cl/ordenanzas/",
+            "status_code": 200,
+            "resolved_url": "https://muniloslagos.cl/ordenanzas/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "wordpress"
+          },
+          {
+            "requested_url": "https://muniloslagos.cl/municipalidad-de-los-lagos-promulga-ordenanza-para-el-uso-responsable-y-seguro-de-los-pozones-del-rio-san-pedro/",
+            "status_code": 200,
+            "resolved_url": "https://muniloslagos.cl/municipalidad-de-los-lagos-promulga-ordenanza-para-el-uso-responsable-y-seguro-de-los-pozones-del-rio-san-pedro/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "wordpress"
+          },
+          {
+            "requested_url": "https://transparencia.muniloslagos.cl/documentos/2026/3/244/ORDENANZA_DE_PARTICIPACION_CIUDADANA__VIGENTE_.crdownload",
+            "status_code": 200,
+            "resolved_url": "https://transparencia.muniloslagos.cl/documentos/2026/3/244/ORDENANZA_DE_PARTICIPACION_CIUDADANA__VIGENTE_.crdownload",
+            "content_type": "",
+            "ok": true,
+            "family": "custom_or_static"
+          },
+          {
+            "requested_url": "https://transparencia.muniloslagos.cl/documentos/2026/1/244/Sin_confirmar_80272.crdownload",
+            "status_code": 200,
+            "resolved_url": "https://transparencia.muniloslagos.cl/documentos/2026/1/244/Sin_confirmar_80272.crdownload",
+            "content_type": "",
+            "ok": true,
+            "family": "custom_or_static"
+          }
+        ],
+        "candidate_sources": [
+          {
+            "label": "ORDENANZA MEDIOAMBIENTAL",
+            "url": "http://transparencia.muniloslagos.cl/documentos/2014/5/81/medioambiente.pdf",
+            "source_page": "https://muniloslagos.cl/ordenanzas/",
+            "signal": 14,
+            "kind": "document",
+            "family": "wordpress",
+            "probe": {
+              "requested_url": "http://transparencia.muniloslagos.cl/documentos/2014/5/81/medioambiente.pdf",
+              "status_code": 200,
+              "resolved_url": "http://transparencia.muniloslagos.cl/documentos/2014/5/81/medioambiente.pdf",
+              "content_type": "application/pdf",
+              "ok": true,
+              "looks_pdf": true
+            }
+          },
+          {
+            "label": "ORDENANZA SOBRE DERECHOS MUNICIPALES POR PERMISOS, CONCESIONES Y SERVICIOS MUNICIPALES",
+            "url": "https://transparencia.muniloslagos.cl/documentos/2025/10/244/EX-408-2025.pdf",
+            "source_page": "https://muniloslagos.cl/ordenanzas/",
+            "signal": 14,
+            "kind": "document",
+            "family": "wordpress",
+            "probe": {
+              "requested_url": "https://transparencia.muniloslagos.cl/documentos/2025/10/244/EX-408-2025.pdf",
+              "status_code": 200,
+              "resolved_url": "https://transparencia.muniloslagos.cl/documentos/2025/10/244/EX-408-2025.pdf",
+              "content_type": "application/pdf",
+              "ok": true,
+              "looks_pdf": true
+            }
+          },
+          {
+            "label": "DESCARGAR",
+            "url": "https://transparencia.muniloslagos.cl/documentos/2025/9/244/EX-1417-2025_Actualizaci__n_Ordenanza_Humedales.pdf",
+            "source_page": "https://muniloslagos.cl/ordenanzas/",
+            "signal": 14,
+            "kind": "document",
+            "family": "wordpress",
+            "probe": {
+              "requested_url": "https://transparencia.muniloslagos.cl/documentos/2025/9/244/EX-1417-2025_Actualizaci__n_Ordenanza_Humedales.pdf",
+              "status_code": 200,
+              "resolved_url": "https://transparencia.muniloslagos.cl/documentos/2025/9/244/EX-1417-2025_Actualizaci__n_Ordenanza_Humedales.pdf",
+              "content_type": "application/pdf",
+              "ok": true,
+              "looks_pdf": true
+            }
+          },
+          {
+            "label": "DESCARGAR",
+            "url": "https://transparencia.muniloslagos.cl/documentos/2026/3/244/DECRETO_ORDENANZA_MUNICIPAL_BECA_MUNICIPAL.pdf",
+            "source_page": "https://muniloslagos.cl/ordenanzas/",
+            "signal": 14,
+            "kind": "document",
+            "family": "wordpress",
+            "probe": {
+              "requested_url": "https://transparencia.muniloslagos.cl/documentos/2026/3/244/DECRETO_ORDENANZA_MUNICIPAL_BECA_MUNICIPAL.pdf",
+              "status_code": 200,
+              "resolved_url": "https://transparencia.muniloslagos.cl/documentos/2026/3/244/DECRETO_ORDENANZA_MUNICIPAL_BECA_MUNICIPAL.pdf",
+              "content_type": "application/pdf",
+              "ok": true,
+              "looks_pdf": true
+            }
+          },
+          {
+            "label": "ORDENANZA DE PARTICIPACION CIUDADANA (NO VIGENTE)",
+            "url": "https://muniloslagos.cl/documentos/2023/ordenanzas/Ordenanza_Participacion_Ciudadana_.pdf",
+            "source_page": "https://muniloslagos.cl/ordenanzas/",
+            "signal": 12,
+            "kind": "document",
+            "family": "wordpress",
+            "probe": {
+              "requested_url": "https://muniloslagos.cl/documentos/2023/ordenanzas/Ordenanza_Participacion_Ciudadana_.pdf",
+              "status_code": 200,
+              "resolved_url": "https://muniloslagos.cl/documentos/2023/ordenanzas/Ordenanza_Participacion_Ciudadana_.pdf",
+              "content_type": "application/pdf",
+              "ok": true,
+              "looks_pdf": true
+            }
+          },
+          {
+            "label": "ORDENANZA MUNICIPAL SOBRE AUTORIZACIÓN DE TRANSPORTE DE BASURA, DESECHOS, ESCOMBROS O RESIDUOS DE CUALQUIER TIPO",
+            "url": "https://muniloslagos.cl/documentos/2023/ordenanzas/Ordenanza_de_Tenencia_Responsable_de_Mascotas.pdf",
+            "source_page": "https://muniloslagos.cl/ordenanzas/",
+            "signal": 12,
+            "kind": "document",
+            "family": "wordpress"
+          },
+          {
+            "label": "ORDENANZA MUNICIPAL SOBRE HUMEDALES URBANOS",
+            "url": "https://muniloslagos.cl/wp-content/uploads/2024/02/Ordenanza_Humedales.pdf",
+            "source_page": "https://muniloslagos.cl/ordenanzas/",
+            "signal": 12,
+            "kind": "document",
+            "family": "wordpress"
+          },
+          {
+            "label": "ORDENANZA MUNICIPAL PARA FOOD TRUCKS",
+            "url": "https://muniloslagos.cl/wp-content/uploads/2025/07/Ordenanza-carros-Food-Truck.pdf",
+            "source_page": "https://muniloslagos.cl/ordenanzas/",
+            "signal": 12,
+            "kind": "document",
+            "family": "wordpress"
+          },
+          {
+            "label": "DESCARGAR",
+            "url": "https://transparencia.muniloslagos.cl/documentos/2026/3/244/ORDENANZA_DE_PARTICIPACION_CIUDADANA__VIGENTE_.crdownload",
+            "source_page": "https://muniloslagos.cl/ordenanzas/",
+            "signal": 12,
+            "kind": "listing",
+            "family": "wordpress"
+          },
+          {
+            "label": "ORDENANZA SOBRE DERECHOS MUNICIPALES POR PERMISOS, CONCESIONES Y SERVICIOS MUNICIPALES",
+            "url": "https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/2022-10-28_numero2216+ORDENANZA.pdf/ce4243e7-2a5a-432a-8c68-5a74953a166e",
+            "source_page": "https://muniloslagos.cl/ordenanzas/",
+            "signal": 12,
+            "kind": "listing",
+            "family": "wordpress"
+          },
+          {
+            "label": "ORDENANZA MUNICIPAL SOBRE AUTORIZACIÓN DE TRANSPORTE DE BASURA, DESECHOS, ESCOMBROS O RESIDUOS DE CUALQUIER TIPO",
+            "url": "https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/Autorizacion+de+transporte+y+basura.pdf/8db92048-7ed8-4000-9847-72e7a7fdd300",
+            "source_page": "https://muniloslagos.cl/ordenanzas/",
+            "signal": 12,
+            "kind": "listing",
+            "family": "wordpress"
+          },
+          {
+            "label": "ORDENANZA PARA LA EXTRACCIÓN DE ÁRIDOS",
+            "url": "https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/DECRETO+2399.pdf/54b610c7-6c78-4dd1-9e34-5c09e0f1c742",
+            "source_page": "https://muniloslagos.cl/ordenanzas/",
+            "signal": 12,
+            "kind": "listing",
+            "family": "wordpress"
+          },
+          {
+            "label": "PLAN REGULADOR COMUNA DE LOS LAGOS",
+            "url": "https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/Ordenanza_Comunal_PRC_LOS_LAGOS.pdf/3d032dd7-8538-419d-bc92-56c700c34428",
+            "source_page": "https://muniloslagos.cl/ordenanzas/",
+            "signal": 12,
+            "kind": "listing",
+            "family": "wordpress"
+          },
+          {
+            "label": "ORDENANZA MUNICIPAL QUE ESTABLECE Y REGULA LA BECA DEPORTIVA DE ALTO RENDIMIENTO DE LA ILUSTRE MUNICIPALIDAD DE LOS LAGOS",
+            "url": "https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/Ordennaza_DecretoExento_1285.pdf/f113621b-5cce-424d-aac8-e0358f232068",
+            "source_page": "https://muniloslagos.cl/ordenanzas/",
+            "signal": 12,
+            "kind": "listing",
+            "family": "wordpress"
+          },
+          {
+            "label": "ORDENANZA MUNICIPAL TERMINAL DE BUSES LOS LAGOS",
+            "url": "https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/Ordenza_Municipal_Terminal_de_Buses_Decreto_Exento_573__4_.pdf/979ba40f-c30b-4dd5-83ec-d6a9a43924aa",
+            "source_page": "https://muniloslagos.cl/ordenanzas/",
+            "signal": 12,
+            "kind": "listing",
+            "family": "wordpress"
+          }
+        ],
+        "candidate_count": 18
+      },
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU163",
+      "organism_name": "Municipalidad de Maipú",
+      "sinim_code": "13119",
+      "sinim_commune_name": "MAIPÚ",
+      "ficha": {
+        "ficha_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=13119",
+        "status_code": 200,
+        "resolved_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=13119",
+        "content_type": "text/html",
+        "ok": true,
+        "web": "https://www.municipalidadmaipu.cl",
+        "web_raw": "www.municipalidadmaipu.cl"
+      },
+      "state": "verified_candidate_found",
+      "discovery": {
+        "seed_url": "https://www.municipalidadmaipu.cl/",
+        "seed_reachable": true,
+        "identity_verified": true,
+        "identity": {
+          "verified": true,
+          "municipality_key": "maipu",
+          "exact_name_match": true,
+          "name_token_hits": 1,
+          "name_token_total": 1,
+          "municipal_brand_match": true,
+          "host_name_match": true,
+          "reason": "municipality_identity_verified"
+        },
+        "pages_attempted": 6,
+        "pages": [
+          {
+            "requested_url": "https://www.municipalidadmaipu.cl/",
+            "status_code": 200,
+            "resolved_url": "https://www.municipalidadmaipu.cl/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "custom_or_static"
+          },
+          {
+            "requested_url": "https://www.municipalidadmaipu.cl/ordenanzas/",
+            "status_code": 200,
+            "resolved_url": "https://www.municipalidadmaipu.cl/ordenanzas/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "custom_or_static"
+          },
+          {
+            "requested_url": "https://www.municipalidadmaipu.cl/ordenanzas-municipales/",
+            "status_code": 200,
+            "resolved_url": "https://www.municipalidadmaipu.cl/ordenanzas-municipales/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "custom_or_static"
+          },
+          {
+            "requested_url": "https://www.municipalidadmaipu.cl/transparencia/ordenanzas/",
+            "status_code": 200,
+            "resolved_url": "https://www.municipalidadmaipu.cl/transparencia/ordenanzas/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "custom_or_static"
+          },
+          {
+            "requested_url": "https://www.municipalidadmaipu.cl/transparencia/ordenanzas.html",
+            "status_code": 200,
+            "resolved_url": "https://www.municipalidadmaipu.cl/transparencia/ordenanzas.html",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "custom_or_static"
+          },
+          {
+            "requested_url": "https://www.municipalidadmaipu.cl/transparencia/",
+            "status_code": 200,
+            "resolved_url": "https://www.municipalidadmaipu.cl/transparencia/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "custom_or_static"
+          }
+        ],
+        "candidate_sources": [
+          {
+            "label": "/transparencia/ordenanzas.html",
+            "url": "https://www.municipalidadmaipu.cl/transparencia/ordenanzas.html",
+            "source_page": "https://www.municipalidadmaipu.cl/transparencia/ordenanzas.html",
+            "signal": 12,
+            "kind": "listing",
+            "family": "custom_or_static",
+            "probe": {
+              "requested_url": "https://www.municipalidadmaipu.cl/transparencia/ordenanzas.html",
+              "status_code": 200,
+              "resolved_url": "https://www.municipalidadmaipu.cl/transparencia/ordenanzas.html",
+              "content_type": "text/html",
+              "ok": true,
+              "looks_pdf": false
+            }
+          },
+          {
+            "label": "/transparencia/ordenanzas/",
+            "url": "https://www.municipalidadmaipu.cl/transparencia/ordenanzas/",
+            "source_page": "https://www.municipalidadmaipu.cl/transparencia/ordenanzas/",
+            "signal": 12,
+            "kind": "listing",
+            "family": "custom_or_static",
+            "probe": {
+              "requested_url": "https://www.municipalidadmaipu.cl/transparencia/ordenanzas/",
+              "status_code": 200,
+              "resolved_url": "https://www.municipalidadmaipu.cl/transparencia/ordenanzas/",
+              "content_type": "text/html",
+              "ok": true,
+              "looks_pdf": false
+            }
+          },
+          {
+            "label": "/ordenanzas-municipales/",
+            "url": "https://www.municipalidadmaipu.cl/ordenanzas-municipales/",
+            "source_page": "https://www.municipalidadmaipu.cl/ordenanzas-municipales/",
+            "signal": 10,
+            "kind": "listing",
+            "family": "custom_or_static",
+            "probe": {
+              "requested_url": "https://www.municipalidadmaipu.cl/ordenanzas-municipales/",
+              "status_code": 200,
+              "resolved_url": "https://www.municipalidadmaipu.cl/ordenanzas-municipales/",
+              "content_type": "text/html",
+              "ok": true,
+              "looks_pdf": false
+            }
+          },
+          {
+            "label": "/ordenanzas/",
+            "url": "https://www.municipalidadmaipu.cl/ordenanzas/",
+            "source_page": "https://www.municipalidadmaipu.cl/ordenanzas/",
+            "signal": 10,
+            "kind": "listing",
+            "family": "custom_or_static",
+            "probe": {
+              "requested_url": "https://www.municipalidadmaipu.cl/ordenanzas/",
+              "status_code": 200,
+              "resolved_url": "https://www.municipalidadmaipu.cl/ordenanzas/",
+              "content_type": "text/html",
+              "ok": true,
+              "looks_pdf": false
+            }
+          }
+        ],
+        "candidate_count": 4
+      },
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU173",
+      "organism_name": "Municipalidad de Melipilla",
+      "sinim_code": "13501",
+      "sinim_commune_name": "MELIPILLA",
+      "ficha": {
+        "ficha_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=13501",
+        "status_code": 200,
+        "resolved_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=13501",
+        "content_type": "text/html",
+        "ok": true,
+        "web": "https://www.melipilla.cl",
+        "web_raw": "www.melipilla.cl"
+      },
+      "state": "verified_candidate_found",
+      "discovery": {
+        "seed_url": "https://www.melipilla.cl/",
+        "seed_reachable": true,
+        "identity_verified": true,
+        "identity": {
+          "verified": true,
+          "municipality_key": "melipilla",
+          "exact_name_match": true,
+          "name_token_hits": 1,
+          "name_token_total": 1,
+          "municipal_brand_match": true,
+          "host_name_match": true,
+          "reason": "municipality_identity_verified"
+        },
+        "pages_attempted": 8,
+        "pages": [
+          {
+            "requested_url": "https://www.melipilla.cl/",
+            "status_code": 200,
+            "resolved_url": "https://melipilla.cl/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "wordpress"
+          },
+          {
+            "requested_url": "https://transparencia.melipilla.cl/",
+            "status_code": 200,
+            "resolved_url": "https://transparencia.melipilla.cl/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "custom_or_static"
+          },
+          {
+            "requested_url": "http://transparencia.melipilla.cl/",
+            "status_code": 200,
+            "resolved_url": "https://transparencia.melipilla.cl/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "custom_or_static"
+          },
+          {
+            "requested_url": "https://transparencia.melipilla.cl/index.php?action=plantillas_selec_fecha&ig=636",
+            "status_code": 200,
+            "resolved_url": "https://transparencia.melipilla.cl/index.php?action=plantillas_generar_plantilla&ig=636&m=7&a=2026&ia=22735",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "custom_or_static"
+          },
+          {
+            "requested_url": "https://transparencia.melipilla.cl/index.php?action=videos",
+            "status_code": 200,
+            "resolved_url": "https://transparencia.melipilla.cl/index.php?action=videos",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "custom_or_static"
+          },
+          {
+            "requested_url": "https://transparencia.melipilla.cl/index.php?action=plantillas_selec_fecha&ig=844",
+            "status_code": 200,
+            "resolved_url": "https://transparencia.melipilla.cl/index.php?action=plantillas_selec_fecha&ig=844",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "custom_or_static"
+          },
+          {
+            "requested_url": "https://transparencia.melipilla.cl/index.php?action=plantillas_selec_fecha&ig=843",
+            "status_code": 200,
+            "resolved_url": "https://transparencia.melipilla.cl/index.php?action=plantillas_generar_plantilla&ig=843&m=7&a=2026&ia=22923",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "custom_or_static"
+          },
+          {
+            "requested_url": "https://transparencia.melipilla.cl/index.php?action=plantillas_selec_fecha&ig=833",
+            "status_code": 200,
+            "resolved_url": "https://transparencia.melipilla.cl/index.php?action=plantillas_selec_fecha&ig=833",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "custom_or_static"
+          }
+        ],
+        "candidate_sources": [
+          {
+            "label": "Ordenanzas Municipales",
+            "url": "https://transparencia.melipilla.cl/index.php?action=plantillas_selec_fecha&ig=636",
+            "source_page": "https://transparencia.melipilla.cl/",
+            "signal": 12,
+            "kind": "listing",
+            "family": "custom_or_static",
+            "probe": {
+              "requested_url": "https://transparencia.melipilla.cl/index.php?action=plantillas_selec_fecha&ig=636",
+              "status_code": 200,
+              "resolved_url": "https://transparencia.melipilla.cl/index.php?action=plantillas_generar_plantilla&ig=636&m=7&a=2026&ia=22735",
+              "content_type": "text/html",
+              "ok": true,
+              "looks_pdf": false
+            }
+          },
+          {
+            "label": "",
+            "url": "https://www.melipilla.cl/wp-content/archivos/2023/01/DECRETO-EX-N-2593-20.09.2021-APRUEBA-MODIFICAR-LA-ORDENANZA-LOCAL-SOBRE-DERECHOS-MUNICIPALES_002557-1.pdf",
+            "source_page": "https://melipilla.cl/",
+            "signal": 12,
+            "kind": "document",
+            "family": "wordpress",
+            "probe": {
+              "requested_url": "https://www.melipilla.cl/wp-content/archivos/2023/01/DECRETO-EX-N-2593-20.09.2021-APRUEBA-MODIFICAR-LA-ORDENANZA-LOCAL-SOBRE-DERECHOS-MUNICIPALES_002557-1.pdf",
+              "status_code": 200,
+              "resolved_url": "https://www.melipilla.cl/wp-content/archivos/2023/01/DECRETO-EX-N-2593-20.09.2021-APRUEBA-MODIFICAR-LA-ORDENANZA-LOCAL-SOBRE-DERECHOS-MUNICIPALES_002557-1.pdf",
+              "content_type": "application/pdf",
+              "ok": true,
+              "looks_pdf": true
+            }
+          }
+        ],
+        "candidate_count": 2
+      },
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU181",
+      "organism_name": "I. Municipalidad de Negrete",
+      "sinim_code": "08307",
+      "sinim_commune_name": "NEGRETE",
+      "ficha": {
+        "ficha_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=08307",
+        "status_code": 200,
+        "resolved_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=08307",
+        "content_type": "text/html",
+        "ok": true,
+        "web": "https://www.municipalidadnegrete.cl",
+        "web_raw": "www.municipalidadnegrete.cl"
+      },
+      "state": "sinim_seed_unreachable",
+      "discovery": {
+        "seed_url": "https://www.municipalidadnegrete.cl/",
+        "seed_reachable": false,
+        "identity_verified": false,
+        "identity": {
+          "verified": false,
+          "reason": "seed_unreachable_or_non_html"
+        },
+        "pages_attempted": 1,
+        "pages": [
+          {
+            "requested_url": "https://www.municipalidadnegrete.cl/",
+            "status_code": null,
+            "resolved_url": null,
+            "content_type": null,
+            "ok": false,
+            "error": "SSLError: HTTPSConnectionPool(host='www.municipalidadnegrete.cl', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.municipalidadnegrete.cl'. (_ssl.c:1028)\")))"
+          }
+        ],
+        "candidate_sources": [],
+        "candidate_count": 0
+      },
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU193",
+      "organism_name": "Municipalidad de Padre Hurtado",
+      "sinim_code": "13604",
+      "sinim_commune_name": "PADRE HURTADO",
+      "ficha": {
+        "ficha_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=13604",
+        "status_code": 200,
+        "resolved_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=13604",
+        "content_type": "text/html",
+        "ok": true,
+        "web": "https://www.mph.cl",
+        "web_raw": "www.mph.cl"
+      },
+      "state": "verified_site_no_candidate",
+      "discovery": {
+        "seed_url": "https://www.mph.cl/",
+        "seed_reachable": true,
+        "identity_verified": true,
+        "identity": {
+          "verified": true,
+          "municipality_key": "padre hurtado",
+          "exact_name_match": true,
+          "name_token_hits": 2,
+          "name_token_total": 2,
+          "municipal_brand_match": true,
+          "host_name_match": false,
+          "reason": "municipality_identity_verified"
+        },
+        "pages_attempted": 6,
+        "pages": [
+          {
+            "requested_url": "https://www.mph.cl/",
+            "status_code": 200,
+            "resolved_url": "https://portal.mph.cl/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "wordpress"
+          },
+          {
+            "requested_url": "https://www.mph.cl/ordenanzas/",
+            "status_code": 404,
+            "resolved_url": "https://www.mph.cl/ordenanzas/",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.mph.cl/ordenanzas-municipales/",
+            "status_code": 404,
+            "resolved_url": "https://www.mph.cl/ordenanzas-municipales/",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.mph.cl/transparencia/ordenanzas/",
+            "status_code": 404,
+            "resolved_url": "https://www.mph.cl/transparencia/ordenanzas/",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.mph.cl/transparencia/ordenanzas.html",
+            "status_code": 404,
+            "resolved_url": "https://www.mph.cl/transparencia/ordenanzas.html",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.mph.cl/transparencia/",
+            "status_code": 404,
+            "resolved_url": "https://www.mph.cl/transparencia/",
+            "content_type": "text/html",
+            "ok": false
+          }
+        ],
+        "candidate_sources": [],
+        "candidate_count": 0
+      },
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU203",
+      "organism_name": "Municipalidad de Paredones",
+      "sinim_code": "06206",
+      "sinim_commune_name": "PAREDONES",
+      "ficha": {
+        "ficha_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=06206",
+        "status_code": 200,
+        "resolved_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=06206",
+        "content_type": "text/html",
+        "ok": true,
+        "web": "https://www.comunaparedones.cl",
+        "web_raw": "www.comunaparedones.cl"
+      },
+      "state": "verified_candidate_found",
+      "discovery": {
+        "seed_url": "https://www.comunaparedones.cl/",
+        "seed_reachable": true,
+        "identity_verified": true,
+        "identity": {
+          "verified": true,
+          "municipality_key": "paredones",
+          "exact_name_match": true,
+          "name_token_hits": 1,
+          "name_token_total": 1,
+          "municipal_brand_match": true,
+          "host_name_match": true,
+          "reason": "municipality_identity_verified"
+        },
+        "pages_attempted": 8,
+        "pages": [
+          {
+            "requested_url": "https://www.comunaparedones.cl/",
+            "status_code": 200,
+            "resolved_url": "https://www.comunaparedones.cl/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "joomla"
+          },
+          {
+            "requested_url": "https://www.comunaparedones.cl/index.php/descargas/ordenanzas-municipales23",
+            "status_code": 200,
+            "resolved_url": "https://www.comunaparedones.cl/index.php/descargas/ordenanzas-municipales23",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "joomla"
+          },
+          {
+            "requested_url": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica",
+            "status_code": 200,
+            "resolved_url": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "joomla"
+          },
+          {
+            "requested_url": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/140-04-ordenanzas",
+            "status_code": 200,
+            "resolved_url": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/140-04-ordenanzas",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "joomla"
+          },
+          {
+            "requested_url": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/136-normativas-procedimientos-y-ordenanzas",
+            "status_code": 200,
+            "resolved_url": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/136-normativas-procedimientos-y-ordenanzas",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "joomla"
+          },
+          {
+            "requested_url": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/134-ordenanza-municipal-de-participacion-ciudadana",
+            "status_code": 200,
+            "resolved_url": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/134-ordenanza-municipal-de-participacion-ciudadana",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "joomla"
+          },
+          {
+            "requested_url": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/12-actos-y-resoluciones-sobre-terceros",
+            "status_code": 200,
+            "resolved_url": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/12-actos-y-resoluciones-sobre-terceros",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "joomla"
+          },
+          {
+            "requested_url": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/92-ano-2016",
+            "status_code": 200,
+            "resolved_url": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/92-ano-2016",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "joomla"
+          }
+        ],
+        "candidate_sources": [
+          {
+            "label": "Ordenanza Municipal de Participación Ciudadana",
+            "url": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/134-ordenanza-municipal-de-participacion-ciudadana",
+            "source_page": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica",
+            "signal": 12,
+            "kind": "listing",
+            "family": "joomla",
+            "probe": {
+              "requested_url": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/134-ordenanza-municipal-de-participacion-ciudadana",
+              "status_code": 200,
+              "resolved_url": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/134-ordenanza-municipal-de-participacion-ciudadana",
+              "content_type": "text/html",
+              "ok": true,
+              "looks_pdf": false
+            }
+          },
+          {
+            "label": "01 Aprueba Modificaciones a la Ordenanza Municipal de Participacion Ciudadana y Reglamento Consejo Comunal de Organizaciones de la Sociedad Civil.pdf",
+            "url": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/134-ordenanza-municipal-de-participacion-ciudadana?download=967:ordenanza-municipal-de-participacion-ciudadana",
+            "source_page": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/134-ordenanza-municipal-de-participacion-ciudadana",
+            "signal": 12,
+            "kind": "listing",
+            "family": "joomla",
+            "probe": {
+              "requested_url": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/134-ordenanza-municipal-de-participacion-ciudadana?download=967:ordenanza-municipal-de-participacion-ciudadana",
+              "status_code": 200,
+              "resolved_url": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/134-ordenanza-municipal-de-participacion-ciudadana?download=967:ordenanza-municipal-de-participacion-ciudadana",
+              "content_type": "application/pdf",
+              "ok": true,
+              "looks_pdf": true
+            }
+          },
+          {
+            "label": "Decreto y Reglamento de Participacion Ciudadana 06 de 12 de 2000.pdf",
+            "url": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/134-ordenanza-municipal-de-participacion-ciudadana?download=968:ordenanza-municipal-de-participacion-ciudadana",
+            "source_page": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/134-ordenanza-municipal-de-participacion-ciudadana",
+            "signal": 12,
+            "kind": "listing",
+            "family": "joomla",
+            "probe": {
+              "requested_url": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/134-ordenanza-municipal-de-participacion-ciudadana?download=968:ordenanza-municipal-de-participacion-ciudadana",
+              "status_code": 200,
+              "resolved_url": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/134-ordenanza-municipal-de-participacion-ciudadana?download=968:ordenanza-municipal-de-participacion-ciudadana",
+              "content_type": "application/pdf",
+              "ok": true,
+              "looks_pdf": true
+            }
+          },
+          {
+            "label": "Reglamento Fondo de Desarrollo Vecinal de 29 de 03 de 2005.pdf",
+            "url": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/134-ordenanza-municipal-de-participacion-ciudadana?download=969:ordenanza-municipal-de-participacion-ciudadana",
+            "source_page": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/134-ordenanza-municipal-de-participacion-ciudadana",
+            "signal": 12,
+            "kind": "listing",
+            "family": "joomla",
+            "probe": {
+              "requested_url": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/134-ordenanza-municipal-de-participacion-ciudadana?download=969:ordenanza-municipal-de-participacion-ciudadana",
+              "status_code": 200,
+              "resolved_url": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/134-ordenanza-municipal-de-participacion-ciudadana?download=969:ordenanza-municipal-de-participacion-ciudadana",
+              "content_type": "application/pdf",
+              "ok": true,
+              "looks_pdf": true
+            }
+          },
+          {
+            "label": "Normativas, Procedimientos y Ordenanzas",
+            "url": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/136-normativas-procedimientos-y-ordenanzas",
+            "source_page": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica",
+            "signal": 12,
+            "kind": "listing",
+            "family": "joomla",
+            "probe": {
+              "requested_url": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/136-normativas-procedimientos-y-ordenanzas",
+              "status_code": 200,
+              "resolved_url": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/136-normativas-procedimientos-y-ordenanzas",
+              "content_type": "text/html",
+              "ok": true,
+              "looks_pdf": false
+            }
+          },
+          {
+            "label": "00 Estructura Orgánica y Facultades de Cargos Directivos.xls",
+            "url": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/136-normativas-procedimientos-y-ordenanzas?download=971:normativas-procedimientos-y-ordenanzas",
+            "source_page": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/136-normativas-procedimientos-y-ordenanzas",
+            "signal": 12,
+            "kind": "listing",
+            "family": "joomla"
+          },
+          {
+            "label": "01 DESCRIPCION FUNCIONES UNIDADES MUNICIPALES.pdf",
+            "url": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/136-normativas-procedimientos-y-ordenanzas?download=972:normativas-procedimientos-y-ordenanzas",
+            "source_page": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/136-normativas-procedimientos-y-ordenanzas",
+            "signal": 12,
+            "kind": "listing",
+            "family": "joomla"
+          },
+          {
+            "label": "02 Funciones y Atribuciones Municipalidad de Paredones.pdf",
+            "url": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/136-normativas-procedimientos-y-ordenanzas?download=973:normativas-procedimientos-y-ordenanzas",
+            "source_page": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/136-normativas-procedimientos-y-ordenanzas",
+            "signal": 12,
+            "kind": "listing",
+            "family": "joomla"
+          },
+          {
+            "label": "03 Manual de Procedimiento Interno Ley de Transparencia.pdf",
+            "url": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/136-normativas-procedimientos-y-ordenanzas?download=974:normativas-procedimientos-y-ordenanzas",
+            "source_page": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/136-normativas-procedimientos-y-ordenanzas",
+            "signal": 12,
+            "kind": "listing",
+            "family": "joomla"
+          },
+          {
+            "label": "ACTA RESULTADO DE ELECCIONES ORD. TERRITORIALES.pdf",
+            "url": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/136-normativas-procedimientos-y-ordenanzas?download=975:normativas-procedimientos-y-ordenanzas",
+            "source_page": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/136-normativas-procedimientos-y-ordenanzas",
+            "signal": 12,
+            "kind": "listing",
+            "family": "joomla"
+          },
+          {
+            "label": "ACTA RESULTADO DE ELECCIONES ORG. FUNCIONALES.pdf",
+            "url": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/136-normativas-procedimientos-y-ordenanzas?download=976:normativas-procedimientos-y-ordenanzas",
+            "source_page": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/136-normativas-procedimientos-y-ordenanzas",
+            "signal": 12,
+            "kind": "listing",
+            "family": "joomla"
+          },
+          {
+            "label": "ACTA RESULTADO DE ELECCIONES ORG. SINDICALES.pdf",
+            "url": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/136-normativas-procedimientos-y-ordenanzas?download=977:normativas-procedimientos-y-ordenanzas",
+            "source_page": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/136-normativas-procedimientos-y-ordenanzas",
+            "signal": 12,
+            "kind": "listing",
+            "family": "joomla"
+          },
+          {
+            "label": "ACTA SESION CONSTITUCION COSOC.pdf",
+            "url": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/136-normativas-procedimientos-y-ordenanzas?download=978:normativas-procedimientos-y-ordenanzas",
+            "source_page": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/136-normativas-procedimientos-y-ordenanzas",
+            "signal": 12,
+            "kind": "listing",
+            "family": "joomla"
+          },
+          {
+            "label": "DECRETO N° 2.194 CONVOCATORIA ORGANIZACIONES TERRITORIALES Y FUNCIONALES.pdf",
+            "url": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/136-normativas-procedimientos-y-ordenanzas?download=979:normativas-procedimientos-y-ordenanzas",
+            "source_page": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/136-normativas-procedimientos-y-ordenanzas",
+            "signal": 12,
+            "kind": "listing",
+            "family": "joomla"
+          },
+          {
+            "label": "DECRETO N° 2.195 CONVOCATORIA ORGANIZACIONES SINDICALES Y OTRAS.pdf",
+            "url": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/136-normativas-procedimientos-y-ordenanzas?download=980:normativas-procedimientos-y-ordenanzas",
+            "source_page": "https://www.comunaparedones.cl/index.php/descargas/transparencia-historica/category/136-normativas-procedimientos-y-ordenanzas",
+            "signal": 12,
+            "kind": "listing",
+            "family": "joomla"
+          }
+        ],
+        "candidate_count": 31
+      },
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU213",
+      "organism_name": "Municipalidad de Peralillo",
+      "sinim_code": "06307",
+      "sinim_commune_name": "PERALILLO",
+      "ficha": {
+        "ficha_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=06307",
+        "status_code": 200,
+        "resolved_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=06307",
+        "content_type": "text/html",
+        "ok": true,
+        "web": "https://www.muniperalillo.cl",
+        "web_raw": "www.muniperalillo.cl"
+      },
+      "state": "verified_candidate_found",
+      "discovery": {
+        "seed_url": "https://www.muniperalillo.cl/",
+        "seed_reachable": true,
+        "identity_verified": true,
+        "identity": {
+          "verified": true,
+          "municipality_key": "peralillo",
+          "exact_name_match": true,
+          "name_token_hits": 1,
+          "name_token_total": 1,
+          "municipal_brand_match": true,
+          "host_name_match": true,
+          "reason": "municipality_identity_verified"
+        },
+        "pages_attempted": 2,
+        "pages": [
+          {
+            "requested_url": "https://www.muniperalillo.cl/",
+            "status_code": 200,
+            "resolved_url": "https://www.muniperalillo.cl/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "wordpress"
+          },
+          {
+            "requested_url": "https://www.muniperalillo.cl/informaciones/ordenanzas-municipales/",
+            "status_code": 200,
+            "resolved_url": "https://www.muniperalillo.cl/informaciones/ordenanzas-municipales/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "wordpress"
+          }
+        ],
+        "candidate_sources": [
+          {
+            "label": "Ordenanza N° 26 (13 diciembre 2023)",
+            "url": "https://muniperalillo.cl/archivos/2023/ordenanza%2026-2023.pdf",
+            "source_page": "https://www.muniperalillo.cl/informaciones/ordenanzas-municipales/",
+            "signal": 12,
+            "kind": "document",
+            "family": "wordpress",
+            "probe": {
+              "requested_url": "https://muniperalillo.cl/archivos/2023/ordenanza%2026-2023.pdf",
+              "status_code": 200,
+              "resolved_url": "https://muniperalillo.cl/archivos/2023/ordenanza%2026-2023.pdf",
+              "content_type": "application/pdf",
+              "ok": true,
+              "looks_pdf": true
+            }
+          },
+          {
+            "label": "Ordenanzas Municipales",
+            "url": "https://www.muniperalillo.cl/informaciones/ordenanzas-municipales/",
+            "source_page": "https://www.muniperalillo.cl/",
+            "signal": 10,
+            "kind": "listing",
+            "family": "wordpress",
+            "probe": {
+              "requested_url": "https://www.muniperalillo.cl/informaciones/ordenanzas-municipales/",
+              "status_code": 200,
+              "resolved_url": "https://www.muniperalillo.cl/informaciones/ordenanzas-municipales/",
+              "content_type": "text/html",
+              "ok": true,
+              "looks_pdf": false
+            }
+          }
+        ],
+        "candidate_count": 2
+      },
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU223",
+      "organism_name": "Municipalidad de Placilla",
+      "sinim_code": "06308",
+      "sinim_commune_name": "PLACILLA",
+      "ficha": {
+        "ficha_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=06308",
+        "status_code": 200,
+        "resolved_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=06308",
+        "content_type": "text/html",
+        "ok": true,
+        "web": "https://www.municipalidadplacilla.cl",
+        "web_raw": "www.municipalidadplacilla.cl"
+      },
+      "state": "verified_site_no_candidate",
+      "discovery": {
+        "seed_url": "https://www.municipalidadplacilla.cl/",
+        "seed_reachable": true,
+        "identity_verified": true,
+        "identity": {
+          "verified": true,
+          "municipality_key": "placilla",
+          "exact_name_match": true,
+          "name_token_hits": 1,
+          "name_token_total": 1,
+          "municipal_brand_match": true,
+          "host_name_match": true,
+          "reason": "municipality_identity_verified"
+        },
+        "pages_attempted": 6,
+        "pages": [
+          {
+            "requested_url": "https://www.municipalidadplacilla.cl/",
+            "status_code": 200,
+            "resolved_url": "http://muniplacilla.cl/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "custom_or_static"
+          },
+          {
+            "requested_url": "https://www.municipalidadplacilla.cl/ordenanzas/",
+            "status_code": 404,
+            "resolved_url": "https://www.municipalidadplacilla.cl/ordenanzas/",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.municipalidadplacilla.cl/ordenanzas-municipales/",
+            "status_code": 404,
+            "resolved_url": "https://www.municipalidadplacilla.cl/ordenanzas-municipales/",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.municipalidadplacilla.cl/transparencia/ordenanzas/",
+            "status_code": 404,
+            "resolved_url": "https://www.municipalidadplacilla.cl/transparencia/ordenanzas/",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.municipalidadplacilla.cl/transparencia/ordenanzas.html",
+            "status_code": 404,
+            "resolved_url": "https://www.municipalidadplacilla.cl/transparencia/ordenanzas.html",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.municipalidadplacilla.cl/transparencia/",
+            "status_code": 404,
+            "resolved_url": "https://www.municipalidadplacilla.cl/transparencia/",
+            "content_type": "text/html",
+            "ok": false
+          }
+        ],
+        "candidate_sources": [],
+        "candidate_count": 0
+      },
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU233",
+      "organism_name": "Municipalidad de Puerto Montt",
+      "sinim_code": "10101",
+      "sinim_commune_name": "PUERTO MONTT",
+      "ficha": {
+        "ficha_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=10101",
+        "status_code": 200,
+        "resolved_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=10101",
+        "content_type": "text/html",
+        "ok": true,
+        "web": "https://www.puertomontt.cl",
+        "web_raw": "www.puertomontt.cl"
+      },
+      "state": "verified_candidate_found",
+      "discovery": {
+        "seed_url": "https://www.puertomontt.cl/",
+        "seed_reachable": true,
+        "identity_verified": true,
+        "identity": {
+          "verified": true,
+          "municipality_key": "puerto montt",
+          "exact_name_match": true,
+          "name_token_hits": 2,
+          "name_token_total": 2,
+          "municipal_brand_match": true,
+          "host_name_match": true,
+          "reason": "municipality_identity_verified"
+        },
+        "pages_attempted": 6,
+        "pages": [
+          {
+            "requested_url": "https://www.puertomontt.cl/",
+            "status_code": 200,
+            "resolved_url": "https://www.puertomontt.cl/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "wordpress"
+          },
+          {
+            "requested_url": "https://www.puertomontt.cl/ordenanzas/",
+            "status_code": 200,
+            "resolved_url": "https://www.puertomontt.cl/ordenanzas-y-decretos/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "wordpress"
+          },
+          {
+            "requested_url": "https://www.puertomontt.cl/ordenanzas-municipales/",
+            "status_code": 404,
+            "resolved_url": "https://www.puertomontt.cl/ordenanzas-municipales/",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.puertomontt.cl/transparencia/ordenanzas/",
+            "status_code": 200,
+            "resolved_url": "https://www.puertomontt.cl/ordenanzas-y-decretos/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "wordpress"
+          },
+          {
+            "requested_url": "https://www.puertomontt.cl/transparencia/ordenanzas.html",
+            "status_code": 404,
+            "resolved_url": "https://www.puertomontt.cl/transparencia/ordenanzas.html",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.puertomontt.cl/transparencia/",
+            "status_code": 404,
+            "resolved_url": "https://www.puertomontt.cl/transparencia/",
+            "content_type": "text/html",
+            "ok": false
+          }
+        ],
+        "candidate_sources": [
+          {
+            "label": "/ordenanzas-y-decretos/",
+            "url": "https://www.puertomontt.cl/ordenanzas-y-decretos/",
+            "source_page": "https://www.puertomontt.cl/ordenanzas-y-decretos/",
+            "signal": 10,
+            "kind": "listing",
+            "family": "wordpress",
+            "probe": {
+              "requested_url": "https://www.puertomontt.cl/ordenanzas-y-decretos/",
+              "status_code": 200,
+              "resolved_url": "https://www.puertomontt.cl/ordenanzas-y-decretos/",
+              "content_type": "text/html",
+              "ok": true,
+              "looks_pdf": false
+            }
+          }
+        ],
+        "candidate_count": 1
+      },
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU244",
+      "organism_name": "Municipalidad de Putre",
+      "sinim_code": "15201",
+      "sinim_commune_name": "PUTRE",
+      "ficha": {
+        "ficha_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=15201",
+        "status_code": 200,
+        "resolved_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=15201",
+        "content_type": "text/html",
+        "ok": true,
+        "web": "https://www.imputre.cl",
+        "web_raw": "www.imputre.cl"
+      },
+      "state": "verified_site_no_candidate",
+      "discovery": {
+        "seed_url": "https://www.imputre.cl/",
+        "seed_reachable": true,
+        "identity_verified": true,
+        "identity": {
+          "verified": true,
+          "municipality_key": "putre",
+          "exact_name_match": true,
+          "name_token_hits": 1,
+          "name_token_total": 1,
+          "municipal_brand_match": true,
+          "host_name_match": true,
+          "reason": "municipality_identity_verified"
+        },
+        "pages_attempted": 6,
+        "pages": [
+          {
+            "requested_url": "https://www.imputre.cl/",
+            "status_code": 200,
+            "resolved_url": "https://imputre.cl/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "wordpress"
+          },
+          {
+            "requested_url": "https://www.imputre.cl/ordenanzas/",
+            "status_code": 404,
+            "resolved_url": "https://imputre.cl/ordenanzas/",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.imputre.cl/ordenanzas-municipales/",
+            "status_code": 404,
+            "resolved_url": "https://imputre.cl/ordenanzas-municipales/",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.imputre.cl/transparencia/ordenanzas/",
+            "status_code": 404,
+            "resolved_url": "https://imputre.cl/transparencia/ordenanzas/",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.imputre.cl/transparencia/ordenanzas.html",
+            "status_code": 404,
+            "resolved_url": "https://imputre.cl/transparencia/ordenanzas.html",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.imputre.cl/transparencia/",
+            "status_code": 200,
+            "resolved_url": "https://www.imputre.cl/transparencia/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "custom_or_static"
+          }
+        ],
+        "candidate_sources": [],
+        "candidate_count": 0
+      },
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU254",
+      "organism_name": "Municipalidad de Quilpué",
+      "sinim_code": "05801",
+      "sinim_commune_name": "QUILPUÉ",
+      "ficha": {
+        "ficha_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=05801",
+        "status_code": 200,
+        "resolved_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=05801",
+        "content_type": "text/html",
+        "ok": true,
+        "web": "https://www.quilpue.cl",
+        "web_raw": "www.quilpue.cl"
+      },
+      "state": "verified_candidate_found",
+      "discovery": {
+        "seed_url": "https://www.quilpue.cl/",
+        "seed_reachable": true,
+        "identity_verified": true,
+        "identity": {
+          "verified": true,
+          "municipality_key": "quilpue",
+          "exact_name_match": true,
+          "name_token_hits": 1,
+          "name_token_total": 1,
+          "municipal_brand_match": true,
+          "host_name_match": true,
+          "reason": "municipality_identity_verified"
+        },
+        "pages_attempted": 6,
+        "pages": [
+          {
+            "requested_url": "https://www.quilpue.cl/",
+            "status_code": 200,
+            "resolved_url": "https://muniquilpue.gob.cl:443/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "custom_or_static"
+          },
+          {
+            "requested_url": "https://www.quilpue.cl/ordenanzas/",
+            "status_code": 200,
+            "resolved_url": "https://muniquilpue.gob.cl:443/ordenanzas/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "custom_or_static"
+          },
+          {
+            "requested_url": "https://www.quilpue.cl/ordenanzas-municipales/",
+            "status_code": 200,
+            "resolved_url": "https://muniquilpue.gob.cl:443/ordenanzas-municipales/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "custom_or_static"
+          },
+          {
+            "requested_url": "https://www.quilpue.cl/transparencia/ordenanzas/",
+            "status_code": 200,
+            "resolved_url": "https://muniquilpue.gob.cl:443/transparencia/ordenanzas/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "custom_or_static"
+          },
+          {
+            "requested_url": "https://www.quilpue.cl/transparencia/ordenanzas.html",
+            "status_code": 200,
+            "resolved_url": "https://muniquilpue.gob.cl:443/transparencia/ordenanzas.html",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "custom_or_static"
+          },
+          {
+            "requested_url": "https://www.quilpue.cl/transparencia/",
+            "status_code": 200,
+            "resolved_url": "https://muniquilpue.gob.cl:443/transparencia/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "custom_or_static"
+          }
+        ],
+        "candidate_sources": [
+          {
+            "label": "/transparencia/ordenanzas.html",
+            "url": "https://muniquilpue.gob.cl:443/transparencia/ordenanzas.html",
+            "source_page": "https://muniquilpue.gob.cl:443/transparencia/ordenanzas.html",
+            "signal": 12,
+            "kind": "listing",
+            "family": "custom_or_static",
+            "probe": {
+              "requested_url": "https://muniquilpue.gob.cl:443/transparencia/ordenanzas.html",
+              "status_code": 200,
+              "resolved_url": "https://muniquilpue.gob.cl:443/transparencia/ordenanzas.html",
+              "content_type": "text/html",
+              "ok": true,
+              "looks_pdf": false
+            }
+          },
+          {
+            "label": "/transparencia/ordenanzas/",
+            "url": "https://muniquilpue.gob.cl:443/transparencia/ordenanzas/",
+            "source_page": "https://muniquilpue.gob.cl:443/transparencia/ordenanzas/",
+            "signal": 12,
+            "kind": "listing",
+            "family": "custom_or_static",
+            "probe": {
+              "requested_url": "https://muniquilpue.gob.cl:443/transparencia/ordenanzas/",
+              "status_code": 200,
+              "resolved_url": "https://muniquilpue.gob.cl:443/transparencia/ordenanzas/",
+              "content_type": "text/html",
+              "ok": true,
+              "looks_pdf": false
+            }
+          },
+          {
+            "label": "/ordenanzas-municipales/",
+            "url": "https://muniquilpue.gob.cl:443/ordenanzas-municipales/",
+            "source_page": "https://muniquilpue.gob.cl:443/ordenanzas-municipales/",
+            "signal": 10,
+            "kind": "listing",
+            "family": "custom_or_static",
+            "probe": {
+              "requested_url": "https://muniquilpue.gob.cl:443/ordenanzas-municipales/",
+              "status_code": 200,
+              "resolved_url": "https://muniquilpue.gob.cl:443/ordenanzas-municipales/",
+              "content_type": "text/html",
+              "ok": true,
+              "looks_pdf": false
+            }
+          },
+          {
+            "label": "/ordenanzas/",
+            "url": "https://muniquilpue.gob.cl:443/ordenanzas/",
+            "source_page": "https://muniquilpue.gob.cl:443/ordenanzas/",
+            "signal": 10,
+            "kind": "listing",
+            "family": "custom_or_static",
+            "probe": {
+              "requested_url": "https://muniquilpue.gob.cl:443/ordenanzas/",
+              "status_code": 200,
+              "resolved_url": "https://muniquilpue.gob.cl:443/ordenanzas/",
+              "content_type": "text/html",
+              "ok": true,
+              "looks_pdf": false
+            }
+          }
+        ],
+        "candidate_count": 4
+      },
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU265",
+      "organism_name": "Municipalidad de Renca",
+      "sinim_code": "13128",
+      "sinim_commune_name": "RENCA",
+      "ficha": {
+        "ficha_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=13128",
+        "status_code": 200,
+        "resolved_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=13128",
+        "content_type": "text/html",
+        "ok": true,
+        "web": "https://www.renca.cl",
+        "web_raw": "www.renca.cl"
+      },
+      "state": "verified_candidate_found",
+      "discovery": {
+        "seed_url": "https://www.renca.cl/",
+        "seed_reachable": true,
+        "identity_verified": true,
+        "identity": {
+          "verified": true,
+          "municipality_key": "renca",
+          "exact_name_match": true,
+          "name_token_hits": 1,
+          "name_token_total": 1,
+          "municipal_brand_match": true,
+          "host_name_match": true,
+          "reason": "municipality_identity_verified"
+        },
+        "pages_attempted": 8,
+        "pages": [
+          {
+            "requested_url": "https://www.renca.cl/",
+            "status_code": 200,
+            "resolved_url": "https://renca.cl/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "wordpress"
+          },
+          {
+            "requested_url": "https://renca.cl/mas-transparencia-conoce-los-recursos-de-otras-municipalidades/",
+            "status_code": 200,
+            "resolved_url": "https://renca.cl/mas-transparencia-conoce-los-recursos-de-otras-municipalidades/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "wordpress"
+          },
+          {
+            "requested_url": "https://renca.cl/mas-transparencia-conoce-los-recursos-de-otras-municipalidades/salud/centro-de-urgencia/",
+            "status_code": 404,
+            "resolved_url": "https://renca.cl/mas-transparencia-conoce-los-recursos-de-otras-municipalidades/salud/centro-de-urgencia/",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.renca.cl/ordenanzas/",
+            "status_code": 200,
+            "resolved_url": "https://renca.cl/ordenanzas-municipales/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "wordpress"
+          },
+          {
+            "requested_url": "https://www.renca.cl/ordenanzas-municipales/",
+            "status_code": 200,
+            "resolved_url": "https://renca.cl/ordenanzas-municipales/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "wordpress"
+          },
+          {
+            "requested_url": "https://www.renca.cl/transparencia/ordenanzas/",
+            "status_code": 200,
+            "resolved_url": "https://renca.cl/ordenanzas-municipales/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "wordpress"
+          },
+          {
+            "requested_url": "https://www.renca.cl/transparencia/ordenanzas.html",
+            "status_code": 404,
+            "resolved_url": "https://renca.cl/transparencia/ordenanzas.html",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.renca.cl/transparencia/",
+            "status_code": 404,
+            "resolved_url": "https://renca.cl/transparencia/",
+            "content_type": "text/html",
+            "ok": false
+          }
+        ],
+        "candidate_sources": [
+          {
+            "label": "/ordenanzas-municipales/",
+            "url": "https://renca.cl/ordenanzas-municipales/",
+            "source_page": "https://renca.cl/ordenanzas-municipales/",
+            "signal": 10,
+            "kind": "listing",
+            "family": "wordpress",
+            "probe": {
+              "requested_url": "https://renca.cl/ordenanzas-municipales/",
+              "status_code": 200,
+              "resolved_url": "https://renca.cl/ordenanzas-municipales/",
+              "content_type": "text/html",
+              "ok": true,
+              "looks_pdf": false
+            }
+          }
+        ],
+        "candidate_count": 1
+      },
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU276",
+      "organism_name": "Municipalidad de Romeral",
+      "sinim_code": "07306",
+      "sinim_commune_name": "ROMERAL",
+      "ficha": {
+        "ficha_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=07306",
+        "status_code": 200,
+        "resolved_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=07306",
+        "content_type": "text/html",
+        "ok": true,
+        "web": "https://www.muniromeral.cl",
+        "web_raw": "www.muniromeral.cl"
+      },
+      "state": "verified_candidate_found",
+      "discovery": {
+        "seed_url": "https://www.muniromeral.cl/",
+        "seed_reachable": true,
+        "identity_verified": true,
+        "identity": {
+          "verified": true,
+          "municipality_key": "romeral",
+          "exact_name_match": true,
+          "name_token_hits": 1,
+          "name_token_total": 1,
+          "municipal_brand_match": true,
+          "host_name_match": true,
+          "reason": "municipality_identity_verified"
+        },
+        "pages_attempted": 6,
+        "pages": [
+          {
+            "requested_url": "https://www.muniromeral.cl/",
+            "status_code": 200,
+            "resolved_url": "https://www.muniromeral.cl/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "custom_or_static"
+          },
+          {
+            "requested_url": "https://www.muniromeral.cl/ordenanzas/",
+            "status_code": 404,
+            "resolved_url": "https://www.muniromeral.cl/ordenanzas/",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.muniromeral.cl/ordenanzas-municipales/",
+            "status_code": 404,
+            "resolved_url": "https://www.muniromeral.cl/ordenanzas-municipales/",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.muniromeral.cl/transparencia/ordenanzas/",
+            "status_code": 200,
+            "resolved_url": "https://www.muniromeral.cl/transparencia/ordenanzas/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "custom_or_static"
+          },
+          {
+            "requested_url": "https://www.muniromeral.cl/transparencia/ordenanzas.html",
+            "status_code": 404,
+            "resolved_url": "https://www.muniromeral.cl/transparencia/ordenanzas.html",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.muniromeral.cl/transparencia/",
+            "status_code": 200,
+            "resolved_url": "https://www.muniromeral.cl/transparencia/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "custom_or_static"
+          }
+        ],
+        "candidate_sources": [
+          {
+            "label": "/transparencia/ordenanzas/",
+            "url": "https://www.muniromeral.cl/transparencia/ordenanzas/",
+            "source_page": "https://www.muniromeral.cl/transparencia/ordenanzas/",
+            "signal": 12,
+            "kind": "listing",
+            "family": "custom_or_static",
+            "probe": {
+              "requested_url": "https://www.muniromeral.cl/transparencia/ordenanzas/",
+              "status_code": 200,
+              "resolved_url": "https://www.muniromeral.cl/transparencia/ordenanzas/",
+              "content_type": "text/html",
+              "ok": true,
+              "looks_pdf": false
+            }
+          }
+        ],
+        "candidate_count": 1
+      },
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU284",
+      "organism_name": "Municipalidad de San Esteban",
+      "sinim_code": "05304",
+      "sinim_commune_name": "SAN ESTEBAN",
+      "ficha": {
+        "ficha_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=05304",
+        "status_code": 200,
+        "resolved_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=05304",
+        "content_type": "text/html",
+        "ok": true,
+        "web": "https://www.munisanesteban.cl",
+        "web_raw": "www.munisanesteban.cl"
+      },
+      "state": "verified_site_no_candidate",
+      "discovery": {
+        "seed_url": "https://www.munisanesteban.cl/",
+        "seed_reachable": true,
+        "identity_verified": true,
+        "identity": {
+          "verified": true,
+          "municipality_key": "san esteban",
+          "exact_name_match": true,
+          "name_token_hits": 1,
+          "name_token_total": 1,
+          "municipal_brand_match": false,
+          "host_name_match": true,
+          "reason": "municipality_identity_verified"
+        },
+        "pages_attempted": 6,
+        "pages": [
+          {
+            "requested_url": "https://www.munisanesteban.cl/",
+            "status_code": 200,
+            "resolved_url": "https://www.munisanesteban.cl/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "custom_or_static"
+          },
+          {
+            "requested_url": "https://www.munisanesteban.cl/ordenanzas/",
+            "status_code": 404,
+            "resolved_url": "https://www.munisanesteban.cl/ordenanzas/",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.munisanesteban.cl/ordenanzas-municipales/",
+            "status_code": 404,
+            "resolved_url": "https://www.munisanesteban.cl/ordenanzas-municipales/",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.munisanesteban.cl/transparencia/ordenanzas/",
+            "status_code": null,
+            "resolved_url": null,
+            "content_type": null,
+            "ok": false,
+            "error": "ConnectTimeout: HTTPConnectionPool(host='transparencia.munisanesteban.cl', port=80): Max retries exceeded with url: /transparencia/ordenanzas (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000028AE3E42190>, 'Connection to transparencia.munisanesteban.cl timed out. (connect timeout=15.0)'))"
+          },
+          {
+            "requested_url": "https://www.munisanesteban.cl/transparencia/ordenanzas.html",
+            "status_code": null,
+            "resolved_url": null,
+            "content_type": null,
+            "ok": false,
+            "error": "ConnectTimeout: HTTPConnectionPool(host='transparencia.munisanesteban.cl', port=80): Max retries exceeded with url: /transparencia/ordenanzas.html (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000028AE40C9490>, 'Connection to transparencia.munisanesteban.cl timed out. (connect timeout=15.0)'))"
+          },
+          {
+            "requested_url": "https://www.munisanesteban.cl/transparencia/",
+            "status_code": null,
+            "resolved_url": null,
+            "content_type": null,
+            "ok": false,
+            "error": "ConnectTimeout: HTTPConnectionPool(host='transparencia.munisanesteban.cl', port=80): Max retries exceeded with url: /transparencia (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x0000028AE38F39B0>, 'Connection to transparencia.munisanesteban.cl timed out. (connect timeout=15.0)'))"
+          }
+        ],
+        "candidate_sources": [],
+        "candidate_count": 0
+      },
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU294",
+      "organism_name": "Municipalidad de San Miguel",
+      "sinim_code": "13130",
+      "sinim_commune_name": "SAN MIGUEL",
+      "ficha": {
+        "ficha_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=13130",
+        "status_code": 200,
+        "resolved_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=13130",
+        "content_type": "text/html",
+        "ok": true,
+        "web": "https://www.sanmiguel.cl",
+        "web_raw": "www.sanmiguel.cl"
+      },
+      "state": "sinim_seed_identity_unverified",
+      "discovery": {
+        "seed_url": "https://www.sanmiguel.cl/",
+        "seed_reachable": true,
+        "identity_verified": false,
+        "identity": {
+          "verified": false,
+          "municipality_key": "san miguel",
+          "exact_name_match": false,
+          "name_token_hits": 0,
+          "name_token_total": 1,
+          "municipal_brand_match": false,
+          "host_name_match": true,
+          "reason": "seed_reachable_but_municipal_identity_not_verified"
+        },
+        "pages_attempted": 1,
+        "pages": [
+          {
+            "requested_url": "https://www.sanmiguel.cl/",
+            "status_code": 200,
+            "resolved_url": "https://www.sanmiguel.cl/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "custom_or_static"
+          }
+        ],
+        "candidate_sources": [],
+        "candidate_count": 0
+      },
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU305",
+      "organism_name": "Municipalidad de Santa Cruz",
+      "sinim_code": "06310",
+      "sinim_commune_name": "SANTA CRUZ",
+      "ficha": {
+        "ficha_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=06310",
+        "status_code": 200,
+        "resolved_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=06310",
+        "content_type": "text/html",
+        "ok": true,
+        "web": "https://www.municipalidadsantacruz.cl",
+        "web_raw": "www.municipalidadsantacruz.cl"
+      },
+      "state": "sinim_seed_unreachable",
+      "discovery": {
+        "seed_url": "https://www.municipalidadsantacruz.cl/",
+        "seed_reachable": false,
+        "identity_verified": false,
+        "identity": {
+          "verified": false,
+          "reason": "seed_unreachable_or_non_html"
+        },
+        "pages_attempted": 1,
+        "pages": [
+          {
+            "requested_url": "https://www.municipalidadsantacruz.cl/",
+            "status_code": null,
+            "resolved_url": null,
+            "content_type": null,
+            "ok": false,
+            "error": "ConnectTimeout: HTTPSConnectionPool(host='www.municipalidadsantacruz.cl', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x0000028AE3EF7890>, 'Connection to www.municipalidadsantacruz.cl timed out. (connect timeout=15.0)'))"
+          }
+        ],
+        "candidate_sources": [],
+        "candidate_count": 0
+      },
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU314",
+      "organism_name": "Municipalidad de Taltal",
+      "sinim_code": "02104",
+      "sinim_commune_name": "TALTAL",
+      "ficha": {
+        "ficha_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=02104",
+        "status_code": 200,
+        "resolved_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=02104",
+        "content_type": "text/html",
+        "ok": true,
+        "web": "https://www.taltal.cl",
+        "web_raw": "www.taltal.cl"
+      },
+      "state": "verified_site_no_candidate",
+      "discovery": {
+        "seed_url": "https://www.taltal.cl/",
+        "seed_reachable": true,
+        "identity_verified": true,
+        "identity": {
+          "verified": true,
+          "municipality_key": "taltal",
+          "exact_name_match": true,
+          "name_token_hits": 1,
+          "name_token_total": 1,
+          "municipal_brand_match": true,
+          "host_name_match": true,
+          "reason": "municipality_identity_verified"
+        },
+        "pages_attempted": 6,
+        "pages": [
+          {
+            "requested_url": "https://www.taltal.cl/",
+            "status_code": 200,
+            "resolved_url": "https://portal.municipalidadtaltal.cl/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "wordpress"
+          },
+          {
+            "requested_url": "https://www.taltal.cl/ordenanzas/",
+            "status_code": 404,
+            "resolved_url": "https://www.taltal.cl/ordenanzas/",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.taltal.cl/ordenanzas-municipales/",
+            "status_code": 404,
+            "resolved_url": "https://www.taltal.cl/ordenanzas-municipales/",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.taltal.cl/transparencia/ordenanzas/",
+            "status_code": 404,
+            "resolved_url": "https://www.taltal.cl/transparencia/ordenanzas/",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.taltal.cl/transparencia/ordenanzas.html",
+            "status_code": 404,
+            "resolved_url": "https://www.taltal.cl/transparencia/ordenanzas.html",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.taltal.cl/transparencia/",
+            "status_code": 404,
+            "resolved_url": "https://www.taltal.cl/transparencia/",
+            "content_type": "text/html",
+            "ok": false
+          }
+        ],
+        "candidate_sources": [],
+        "candidate_count": 0
+      },
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU324",
+      "organism_name": "Municipalidad de Tome",
+      "sinim_code": "08111",
+      "sinim_commune_name": "TOMÉ",
+      "ficha": {
+        "ficha_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=08111",
+        "status_code": 200,
+        "resolved_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=08111",
+        "content_type": "text/html",
+        "ok": true,
+        "web": "https://www.tome.cl",
+        "web_raw": "www.tome.cl"
+      },
+      "state": "verified_candidate_found",
+      "discovery": {
+        "seed_url": "https://www.tome.cl/",
+        "seed_reachable": true,
+        "identity_verified": true,
+        "identity": {
+          "verified": true,
+          "municipality_key": "tome",
+          "exact_name_match": true,
+          "name_token_hits": 1,
+          "name_token_total": 1,
+          "municipal_brand_match": true,
+          "host_name_match": true,
+          "reason": "municipality_identity_verified"
+        },
+        "pages_attempted": 1,
+        "pages": [
+          {
+            "requested_url": "https://www.tome.cl/",
+            "status_code": 200,
+            "resolved_url": "https://www.tome.cl/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "custom_or_static"
+          }
+        ],
+        "candidate_sources": [
+          {
+            "label": "",
+            "url": "https://static.tome.cl/banners/121/file/D.A. N° 4.825 Modifica Ordenanza Local sobre derechos municipales por co....pdf",
+            "source_page": "https://www.tome.cl/",
+            "signal": 12,
+            "kind": "document",
+            "family": "custom_or_static",
+            "probe": {
+              "requested_url": "https://static.tome.cl/banners/121/file/D.A. N° 4.825 Modifica Ordenanza Local sobre derechos municipales por co....pdf",
+              "status_code": 200,
+              "resolved_url": "https://static.tome.cl/banners/121/file/D.A.%20N%C2%B0%204.825%20Modifica%20Ordenanza%20Local%20sobre%20derechos%20municipales%20por%20co....pdf",
+              "content_type": "application/pdf",
+              "ok": true,
+              "looks_pdf": true
+            }
+          },
+          {
+            "label": "",
+            "url": "https://static.tome.cl/banners/98/file/ORDENANZA DE SUBVENCIONES MUNICIPALES NUEVA.pdf",
+            "source_page": "https://www.tome.cl/",
+            "signal": 12,
+            "kind": "document",
+            "family": "custom_or_static",
+            "probe": {
+              "requested_url": "https://static.tome.cl/banners/98/file/ORDENANZA DE SUBVENCIONES MUNICIPALES NUEVA.pdf",
+              "status_code": 200,
+              "resolved_url": "https://static.tome.cl/banners/98/file/ORDENANZA%20DE%20SUBVENCIONES%20MUNICIPALES%20NUEVA.pdf",
+              "content_type": "application/pdf",
+              "ok": true,
+              "looks_pdf": true
+            }
+          },
+          {
+            "label": "",
+            "url": "https://static.tome.cl/identidad/files/Ordenanza_Municipal_de_Medio_Ambiente_2025_(00000002).pdf",
+            "source_page": "https://www.tome.cl/",
+            "signal": 12,
+            "kind": "document",
+            "family": "custom_or_static",
+            "probe": {
+              "requested_url": "https://static.tome.cl/identidad/files/Ordenanza_Municipal_de_Medio_Ambiente_2025_(00000002).pdf",
+              "status_code": 200,
+              "resolved_url": "https://static.tome.cl/identidad/files/Ordenanza_Municipal_de_Medio_Ambiente_2025_(00000002).pdf",
+              "content_type": "application/pdf",
+              "ok": true,
+              "looks_pdf": true
+            }
+          }
+        ],
+        "candidate_count": 3
+      },
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU340",
+      "organism_name": "Municipalidad de Vińa del Mar",
+      "sinim_code": "05109",
+      "sinim_commune_name": "VIÑA DEL MAR",
+      "ficha": {
+        "ficha_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=05109",
+        "status_code": 200,
+        "resolved_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=05109",
+        "content_type": "text/html",
+        "ok": true,
+        "web": "https://www.vinadelmarchile.cl",
+        "web_raw": "www.vinadelmarchile.cl"
+      },
+      "state": "verified_site_no_candidate",
+      "discovery": {
+        "seed_url": "https://www.vinadelmarchile.cl/",
+        "seed_reachable": true,
+        "identity_verified": true,
+        "identity": {
+          "verified": true,
+          "municipality_key": "vina del mar",
+          "exact_name_match": true,
+          "name_token_hits": 2,
+          "name_token_total": 2,
+          "municipal_brand_match": true,
+          "host_name_match": true,
+          "reason": "municipality_identity_verified"
+        },
+        "pages_attempted": 6,
+        "pages": [
+          {
+            "requested_url": "https://www.vinadelmarchile.cl/",
+            "status_code": 200,
+            "resolved_url": "https://www.munivina.cl/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "wordpress"
+          },
+          {
+            "requested_url": "https://www.vinadelmarchile.cl/ordenanzas/",
+            "status_code": 404,
+            "resolved_url": "https://www.vinadelmarchile.cl/ordenanzas/",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.vinadelmarchile.cl/ordenanzas-municipales/",
+            "status_code": 404,
+            "resolved_url": "https://www.vinadelmarchile.cl/ordenanzas-municipales/",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.vinadelmarchile.cl/transparencia/ordenanzas/",
+            "status_code": 404,
+            "resolved_url": "https://www.vinadelmarchile.cl/transparencia/ordenanzas/",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.vinadelmarchile.cl/transparencia/ordenanzas.html",
+            "status_code": 404,
+            "resolved_url": "https://www.vinadelmarchile.cl/transparencia/ordenanzas.html",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.vinadelmarchile.cl/transparencia/",
+            "status_code": 404,
+            "resolved_url": "https://www.vinadelmarchile.cl/transparencia/",
+            "content_type": "text/html",
+            "ok": false
+          }
+        ],
+        "candidate_sources": [],
+        "candidate_count": 0
+      },
+      "coverage_complete": false
+    },
+    {
+      "cplt_code": "MU343",
+      "organism_name": "Municipalidad de Yumbel",
+      "sinim_code": "08313",
+      "sinim_commune_name": "YUMBEL",
+      "ficha": {
+        "ficha_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=08313",
+        "status_code": 200,
+        "resolved_url": "https://datos.sinim.gov.cl/ficha_comunal.php?municipio=08313",
+        "content_type": "text/html",
+        "ok": true,
+        "web": "https://www.yumbel.cl",
+        "web_raw": "www.yumbel.cl"
+      },
+      "state": "verified_site_no_candidate",
+      "discovery": {
+        "seed_url": "https://www.yumbel.cl/",
+        "seed_reachable": true,
+        "identity_verified": true,
+        "identity": {
+          "verified": true,
+          "municipality_key": "yumbel",
+          "exact_name_match": true,
+          "name_token_hits": 1,
+          "name_token_total": 1,
+          "municipal_brand_match": true,
+          "host_name_match": true,
+          "reason": "municipality_identity_verified"
+        },
+        "pages_attempted": 6,
+        "pages": [
+          {
+            "requested_url": "https://www.yumbel.cl/",
+            "status_code": 200,
+            "resolved_url": "https://yumbel.cl/",
+            "content_type": "text/html",
+            "ok": true,
+            "family": "wordpress"
+          },
+          {
+            "requested_url": "https://www.yumbel.cl/ordenanzas/",
+            "status_code": 404,
+            "resolved_url": "https://yumbel.cl/ordenanzas/",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.yumbel.cl/ordenanzas-municipales/",
+            "status_code": 404,
+            "resolved_url": "https://yumbel.cl/ordenanzas-municipales/",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.yumbel.cl/transparencia/ordenanzas/",
+            "status_code": 404,
+            "resolved_url": "https://yumbel.cl/transparencia/ordenanzas/",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.yumbel.cl/transparencia/ordenanzas.html",
+            "status_code": 404,
+            "resolved_url": "https://yumbel.cl/transparencia/ordenanzas.html",
+            "content_type": "text/html",
+            "ok": false
+          },
+          {
+            "requested_url": "https://www.yumbel.cl/transparencia/",
+            "status_code": 404,
+            "resolved_url": "https://yumbel.cl/transparencia/",
+            "content_type": "text/html",
+            "ok": false
+          }
+        ],
+        "candidate_sources": [],
+        "candidate_count": 0
+      },
+      "coverage_complete": false
+    }
+  ]
+}
