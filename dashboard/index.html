@@ -182,6 +182,10 @@
         <i data-lucide="folder-archive" class="w-4 h-4"></i>
         Descargas & Entregables
       </button>
+      <button onclick="switchTab('roadmap')" id="tab-btn-roadmap" class="pb-3 text-sm font-medium border-b-2 border-transparent text-zinc-400 hover:text-zinc-200 flex items-center gap-2 shrink-0 transition-colors">
+        <i data-lucide="compass" class="w-4 h-4"></i>
+        Propósito & Roadmap
+      </button>
     </div>
 
     <!-- TAB CONTENT 1: MATRIZ COMUNAL -->
@@ -380,7 +384,7 @@
             Arquitectura de Concurrencia Inteligente
           </span>
           <span class="text-zinc-500 text-xs">•</span>
-          <span class="text-xs font-mono text-[#38bdf8]">3 Subagentes Activos</span>
+          <span class="text-xs font-mono text-[#38bdf8]">Pipeline distribuido (3 agentes)</span>
         </div>
         <h2 class="text-xl sm:text-2xl font-bold tracking-tight text-zinc-100">
           Despliegue de Agentes Paralelos Distribuidos por Macrozonas
@@ -439,6 +443,133 @@
             <i data-lucide="download" class="w-3.5 h-3.5"></i>
             <span>Descargar .zip (0.34 MB)</span>
           </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB CONTENT 5: PROPÓSITO DOCENTE & ROADMAP -->
+    <section id="tab-roadmap" class="hidden space-y-8">
+      <!-- Banner Propósito -->
+      <div class="bg-gradient-to-br from-[#071f43] via-[#071f43] to-[#0b4aa2]/20 border border-[#153b70] rounded-2xl p-6 sm:p-8 space-y-6">
+        <div class="flex flex-wrap items-center gap-2">
+          <span class="text-xs font-mono text-[#54b995] bg-[#54b995]/10 px-2.5 py-1 rounded-full border border-[#54b995]/30 uppercase tracking-wider font-semibold">
+            Objetivo Formativo & Investigación
+          </span>
+          <span class="text-zinc-500 text-xs">•</span>
+          <span class="text-xs font-mono text-[#38bdf8]">Herramienta Abierta de Ciencia Social Local</span>
+        </div>
+        <div class="space-y-3">
+          <h2 class="text-xl sm:text-2xl font-bold tracking-tight text-zinc-100">
+            Investigando el Mundo Local y la Gobernanza Municipal en Chile
+          </h2>
+          <p class="text-sm text-zinc-300 leading-relaxed max-w-4xl">
+            El propósito central de este catastro y visualizador es entregar a <strong>estudiantes universitarios, investigadores de políticas públicas y actores locales</strong> una plataforma empírica, abierta y reproducible para examinar cómo los gobiernos locales ejercen su potestad normativa en Chile.
+          </p>
+          <p class="text-xs text-zinc-400 leading-relaxed max-w-4xl">
+            Las ordenanzas municipales son el instrumento jurídico primario mediante el cual cada municipio regula la convivencia comunal, el cobro de derechos, el cuidado ambiental, el comercio y el espacio público. Este proyecto busca cerrar la brecha de opacidad y fragmentación territorial, transformando datos públicos dispersos en material directamente utilizable para cátedras, talleres de investigación, análisis comparado y diagnóstico de políticas locales.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2">
+          <div class="bg-[#04142b] border border-[#153b70] rounded-xl p-4 space-y-2">
+            <div class="flex items-center gap-2 text-[#38bdf8]">
+              <i data-lucide="graduation-cap" class="w-4 h-4"></i>
+              <h4 class="text-xs font-bold uppercase tracking-wider text-zinc-200">Uso Docente</h4>
+            </div>
+            <p class="text-xs text-zinc-400">Casos prácticos de estudio sobre autonomía municipal, tipologías de normas y regulación comunal comparada.</p>
+          </div>
+          <div class="bg-[#04142b] border border-[#153b70] rounded-xl p-4 space-y-2">
+            <div class="flex items-center gap-2 text-[#54b995]">
+              <i data-lucide="microscope" class="w-4 h-4"></i>
+              <h4 class="text-xs font-bold uppercase tracking-wider text-zinc-200">Investigación Empírica</h4>
+            </div>
+            <p class="text-xs text-zinc-400">Descarga de microdatos (CSV, SQLite, XLSX) para cruces estadísticos con indicadores socioeconómicos y territoriales.</p>
+          </div>
+          <div class="bg-[#04142b] border border-[#153b70] rounded-xl p-4 space-y-2">
+            <div class="flex items-center gap-2 text-sky-400">
+              <i data-lucide="scale" class="w-4 h-4"></i>
+              <h4 class="text-xs font-bold uppercase tracking-wider text-zinc-200">Transparencia Pública</h4>
+            </div>
+            <p class="text-xs text-zinc-400">Identificación de brechas de publicidad activa y asimetrías de información entre municipios grandes y pequeños.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Roadmap Fases -->
+      <div class="bg-[#071f43]/60 border border-[#153b70] rounded-2xl p-6 sm:p-8 space-y-6">
+        <div class="flex items-center justify-between">
+          <div>
+            <h3 class="text-lg font-bold text-zinc-100 flex items-center gap-2">
+              <i data-lucide="milestone" class="w-5 h-5 text-[#38bdf8]"></i>
+              Hoja de Ruta del Proyecto (Roadmap)
+            </h3>
+            <p class="text-xs text-zinc-400 mt-1">Evolución metodológica, técnica y pedagógica del catastro nacional.</p>
+          </div>
+          <span class="text-xs font-mono text-[#54b995] bg-[#54b995]/10 px-2.5 py-1 rounded-full border border-[#54b995]/30 font-semibold">
+            5 Fases
+          </span>
+        </div>
+
+        <div class="space-y-4 pt-2">
+          <!-- Fase 1 -->
+          <div class="bg-[#04142b] border border-emerald-500/30 rounded-xl p-4 flex flex-col md:flex-row md:items-center justify-between gap-4">
+            <div class="space-y-1">
+              <div class="flex items-center gap-2">
+                <span class="text-[10px] font-mono font-bold uppercase px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">Fase 1 • Completada</span>
+                <h4 class="text-sm font-semibold text-zinc-100">Catastro Base & Extracción Reproducible</h4>
+              </div>
+              <p class="text-xs text-zinc-400">Pipeline SPARQL BCN (1.572 normas) + Captura multi-agente CPLT 2022–2026 (60 normas) + Clasificación en 9 materias temáticas.</p>
+            </div>
+            <span class="text-xs font-mono text-emerald-400 font-semibold shrink-0">1.632 normas indexadas</span>
+          </div>
+
+          <!-- Fase 2 -->
+          <div class="bg-[#04142b] border border-emerald-500/30 rounded-xl p-4 flex flex-col md:flex-row md:items-center justify-between gap-4">
+            <div class="space-y-1">
+              <div class="flex items-center gap-2">
+                <span class="text-[10px] font-mono font-bold uppercase px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">Fase 2 • Completada / Vigente</span>
+                <h4 class="text-sm font-semibold text-zinc-100">Visualizador Público & Distribución Abierta</h4>
+              </div>
+              <p class="text-xs text-zinc-400">Dashboard interactivo en GitHub Pages, visualizador de 346 comunas, drawer de detalle y descargas libres (XLSX, CSV, SQLite, ZIP).</p>
+            </div>
+            <span class="text-xs font-mono text-[#38bdf8] font-semibold shrink-0">GitHub Pages</span>
+          </div>
+
+          <!-- Fase 3 -->
+          <div class="bg-[#04142b] border border-[#153b70] rounded-xl p-4 flex flex-col md:flex-row md:items-center justify-between gap-4">
+            <div class="space-y-1">
+              <div class="flex items-center gap-2">
+                <span class="text-[10px] font-mono font-bold uppercase px-2 py-0.5 rounded bg-[#0b4aa2]/30 text-[#38bdf8] border border-[#38bdf8]/30">Fase 3 • Próxima</span>
+                <h4 class="text-sm font-semibold text-zinc-100">Expansión de Cobertura y Scrapers Municipales Directos</h4>
+              </div>
+              <p class="text-xs text-zinc-400">Cierre de la brecha territorial en las 129 comunas sin presencia BCN mediante indexación de portales municipales y decretos alcaldicios.</p>
+            </div>
+            <span class="text-xs font-mono text-zinc-500 shrink-0">Hacia 346 comunas</span>
+          </div>
+
+          <!-- Fase 4 -->
+          <div class="bg-[#04142b] border border-[#153b70] rounded-xl p-4 flex flex-col md:flex-row md:items-center justify-between gap-4">
+            <div class="space-y-1">
+              <div class="flex items-center gap-2">
+                <span class="text-[10px] font-mono font-bold uppercase px-2 py-0.5 rounded bg-[#153b70] text-zinc-400 border border-[#153b70]">Fase 4 • Planificada</span>
+                <h4 class="text-sm font-semibold text-zinc-100">Análisis Textual & Comparador Normativo por IA</h4>
+              </div>
+              <p class="text-xs text-zinc-400">Indexación full-text de documentos PDF/HTML, búsqueda semántica avanzada y detector de ordenanzas tipo o patrones regulatorios estándar.</p>
+            </div>
+            <span class="text-xs font-mono text-zinc-500 shrink-0">RAG / Embeddings</span>
+          </div>
+
+          <!-- Fase 5 -->
+          <div class="bg-[#04142b] border border-[#153b70] rounded-xl p-4 flex flex-col md:flex-row md:items-center justify-between gap-4">
+            <div class="space-y-1">
+              <div class="flex items-center gap-2">
+                <span class="text-[10px] font-mono font-bold uppercase px-2 py-0.5 rounded bg-[#153b70] text-zinc-400 border border-[#153b70]">Fase 5 • Planificada</span>
+                <h4 class="text-sm font-semibold text-zinc-100">Módulo Docente & Guías de Trabajo Universitario</h4>
+              </div>
+              <p class="text-xs text-zinc-400">Talleres prácticos descargables, pautas de análisis comparado de gobernanza local y cuadernos Jupyter/R para cátedras universitarias.</p>
+            </div>
+            <span class="text-xs font-mono text-zinc-500 shrink-0">Recurso Pedagógico</span>
+          </div>
         </div>
       </div>
     </section>
@@ -560,8 +691,8 @@
         <span class="text-zinc-200 font-medium">Elaborado por Eduardo Vega</span>
       </div>
       <div class="flex items-center gap-3 font-mono text-[11px] text-zinc-500">
-        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-        <span>Sincronización en vivo activa</span>
+        <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+        <span>Dataset consolidado (Corte 2026-08-27)</span>
       </div>
     </div>
   </footer>
@@ -946,13 +1077,18 @@
     }
 
     function switchTab(tabId) {
-      ['matriz', 'tematicas', 'metodologia', 'recursos'].forEach(id => {
-        document.getElementById('tab-' + id).classList.add('hidden');
-        document.getElementById('tab-btn-' + id).className = 'pb-3 text-sm font-medium border-b-2 border-transparent text-zinc-400 hover:text-zinc-200 flex items-center gap-2 shrink-0 transition-colors';
+      ['matriz', 'tematicas', 'metodologia', 'recursos', 'roadmap'].forEach(id => {
+        const tabEl = document.getElementById('tab-' + id);
+        const btnEl = document.getElementById('tab-btn-' + id);
+        if (tabEl) tabEl.classList.add('hidden');
+        if (btnEl) btnEl.className = 'pb-3 text-sm font-medium border-b-2 border-transparent text-zinc-400 hover:text-zinc-200 flex items-center gap-2 shrink-0 transition-colors';
       });
 
-      document.getElementById('tab-' + tabId).classList.remove('hidden');
-      document.getElementById('tab-btn-' + tabId).className = 'pb-3 text-sm font-medium border-b-2 border-[#38bdf8] text-[#38bdf8] flex items-center gap-2 shrink-0 transition-colors';
+      const activeTab = document.getElementById('tab-' + tabId);
+      const activeBtn = document.getElementById('tab-btn-' + tabId);
+      if (activeTab) activeTab.classList.remove('hidden');
+      if (activeBtn) activeBtn.className = 'pb-3 text-sm font-medium border-b-2 border-[#38bdf8] text-[#38bdf8] flex items-center gap-2 shrink-0 transition-colors';
+      if (window.lucide) lucide.createIcons();
     }
 
     async function reloadData() {

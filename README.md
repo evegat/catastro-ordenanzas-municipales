@@ -8,22 +8,32 @@
 [ 🌐 **Abrir Dashboard Interactivo en Vivo** ](https://evegat.github.io/catastro-ordenanzas-municipales/)  
 [ 🇪🇸 Español ](README.md) · [ 🇬🇧 English version ](README.en.md)
 
-Herramienta de extracción, estructuración y catálogo nacional de **ordenanzas municipales de Chile**. La fuente estructurada principal es la **Biblioteca del Congreso Nacional (BCN/LeyChile)** y el corpus se complementa con documentos recuperados desde repositorios municipales oficiales cuando existe evidencia reproducible. Las referencias antiguas no verificadas permanecen en cuarentena.
+Herramienta de extracción, estructuración y catálogo nacional de **ordenanzas municipales de Chile**. La fuente estructurada principal es la **Biblioteca del Congreso Nacional (BCN/LeyChile)** y el corpus se complementa con documentos recuperados desde repositorios municipales oficiales y Transparencia Activa cuando existe evidencia reproducible.
 
 > **Meta de cobertura:** exhaustiva, no muestral. El objetivo es identificar **todas las ordenanzas publicadas oficialmente por las 345 municipalidades de Chile**, que administran las 346 comunas del país, incluyendo su historia oficial disponible y sus actos modificatorios cuando corresponda. Un municipio no se considera cubierto por haber encontrado una o varias normas.
 
 ---
 
-## 🎯 Propósito del Proyecto
+## 🎯 Propósito del Proyecto & Enfoque Pedagógico
 
-Las ordenanzas municipales constituyen el marco regulatorio local fundamental para la convivencia, comercio, urbanismo y gobernanza territorial. Su acceso está fragmentado entre BCN/LeyChile, Transparencia Activa y repositorios documentales propios de cada municipio.
+Las ordenanzas municipales constituyen la expresión jurídica primaria de la autonomía comunal y el marco regulatorio directo sobre la vida cotidiana en las 346 comunas de Chile (derechos municipales, medio ambiente, patentes, aseo y ornato, urbanismo y convivencia). Sin embargo, su acceso histórico ha estado profundamente fragmentado entre BCN/LeyChile, Transparencia Activa y repositorios documentales propios de cada municipio.
 
-Este proyecto tiene como objetivos:
-1. **Consolidar exhaustivamente** el universo identificable de ordenanzas municipales y sus actos modificatorios.
-2. **Proveer pipelines reproducibles en Python** para consultar BCN y recorrer fuentes municipales oficiales heterogéneas.
-3. **Ofrecer un catálogo descargable y visualizador interactivo** para análisis de políticas públicas locales y derecho municipal.
-4. **Mantener trazabilidad documental**, distinguiendo corpus verificado, cobertura exhaustiva demostrada y referencias en cuarentena.
-5. **Medir explícitamente la completitud**, municipio por municipio; la ausencia de errores HTTP no equivale a cobertura normativa completa.
+### Foco Docente y de Investigación del Mundo Local
+Este proyecto nace con un objetivo fundamentalmente formativo y de investigación aplicada:
+1. **Herramienta para estudiantes universitarios:** Proveer a estudiantes de Administración Pública, Ciencia Política, Derecho, Urbanismo y Políticas Públicas una base empírica estructurada para estudiar la gobernanza local y el ejercicio real de las facultades normativas de los municipios chilenos.
+2. **Investigación empírica y comparada:** Facilitar la descarga de microdatos (CSV, SQLite, XLSX) para cruzar la densidad normativa municipal con variables sociodemográficas, presupuesto comunal (SINIM) y tipologías territoriales.
+3. **Diagnóstico de transparencia local:** Visibilizar las brechas de publicidad activa y asimetrías de información entre municipios metropolitanos y comunas rurales o de menores recursos.
+4. **Trazabilidad y rigor metodológico:** Enseñar estándares de recolección de datos públicos, distinguiendo corpus verificado, cobertura exhaustiva demostrada y referencias en cuarentena.
+
+---
+
+## 🗺️ Hoja de Ruta (Roadmap)
+
+- [x] **Fase 1: Catastro Base & Pipeline Reproducible:** Extracción SPARQL BCN (1.572 normas), captura complementaria CPLT (60 normas) y categorización en 9 ejes temáticos.
+- [x] **Fase 2: Visualizador Público & Acceso Abierto:** Dashboard interactivo publicado en GitHub Pages, filtros combinados por materia, región y año, drawer comunal y descargas multiformato (XLSX, CSV, SQLite, ZIP).
+- [ ] **Fase 3: Expansión Territorial Directa:** Desarrollo de scrapers específicos sobre portales municipales para cerrar la brecha de las 129 comunas sin presencia en BCN.
+- [ ] **Fase 4: Análisis Textual & Comparador Normativo por IA:** Indexación de texto completo (PDF/HTML), búsqueda semántica y detección de patrones de "ordenanzas tipo" y variaciones comunales.
+- [ ] **Fase 5: Módulo Docente & Guías Metodológicas:** Publicación de guías didácticas, ejercicios prácticos y notebooks (Python/R) para uso directo en cátedras universitarias sobre gestión local.
 
 ---
 
@@ -113,6 +123,7 @@ En producción este paso se ejecuta sobre una copia de `dashboard/`, excluye ref
 
 ---
 
+<<<<<<< HEAD
 ## 📊 Alcance, cobertura y estados de evidencia
 
 Los conteos públicos **no se mantienen manualmente en este README**. Se recalculan en cada build desde las filas efectivamente publicables y quedan expuestos en `dashboard/status_data.json`, en el dashboard y en el manifiesto de descargas.
