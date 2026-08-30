@@ -74,8 +74,8 @@ def quarantine_cplt(data: dict) -> tuple[dict, int]:
     quarantined = 0
     for comuna in public.get("comunas", []):
         original = comuna.get("ordenanzas", []) or []
-        kept = [o for o in original if o.get("fuente") != QUARANTINED_SOURCE]
-        quarantined += len(original) - len(kept)
+        kept = [o for o in original if o.get("fuente") == "BCN"]
+        quarantined += len([o for o in original if o.get("fuente") == QUARANTINED_SOURCE])
         comuna["ordenanzas"] = kept
     return public, quarantined
 

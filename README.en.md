@@ -27,9 +27,9 @@ This project is built primarily as an educational and empirical research resourc
 
 ## 🗺️ Project Roadmap
 
-- [x] **Phase 1: Base Registry & Reproducible Pipeline:** BCN SPARQL extraction (1,572 records) + CPLT multi-agent crawler (60 records) + 9-domain classification.
-- [x] **Phase 2: Public Visualizer & Open Access:** Interactive dashboard hosted on GitHub Pages with multi-filter matrix, detailed commune drawer, and multi-format downloads (XLSX, CSV, SQLite, ZIP).
-- [ ] **Phase 3: Direct Municipal Crawling:** Automated ingestion pipelines directly targeting municipal websites to bridge the gap for the remaining 129 municipalities.
+- [x] **Phase 1: Base Registry & Reproducible Pipeline:** BCN SPARQL extraction (1,710 records) + initial multi-agent crawler + 9-domain classification.
+- [x] **Phase 2: Public Visualizer & Open Access:** Interactive dashboard hosted on GitHub Pages with multi-filter matrix, detailed commune drawer, smart autocomplete, and collaborative inbox to `evegat@uchile.cl`.
+- [x] **Phase 3: Direct Municipal Crawling (Deployed):** Direct municipal crawler with cryptographic verification (SHA-256), adding 156 official municipal ordinances and reaching 1,866 total records across 220 communes.
 - [ ] **Phase 4: AI-Assisted Text Analysis & Normative Comparison:** Full-text indexing (PDF/HTML), semantic search, and detection of standard/template ordinance patterns.
 - [ ] **Phase 5: Teaching Modules & Academic Workbooks:** Downloadable research guides, case studies, and Jupyter/R notebooks for university courses on local governance.
 

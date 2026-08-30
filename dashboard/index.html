@@ -66,7 +66,7 @@
             <h1 class="text-sm font-semibold tracking-tight text-zinc-100">Catastro Nacional de Ordenanzas Municipales</h1>
           </div>
           <p class="text-[11px] text-zinc-400 font-normal">
-            Elaborado por <strong class="text-zinc-200">Eduardo Vega</strong> • BCN (Histórico) & Transparencia Activa CPLT (2022–2026)
+            Elaborado por <strong class="text-zinc-200">Eduardo Vega</strong> • BCN / LeyChile + fuentes municipales verificadas
           </p>
         </div>
       </div>
@@ -103,14 +103,14 @@
           <i data-lucide="map-pin" class="w-4 h-4 text-[#38bdf8]"></i>
         </div>
         <div class="flex items-baseline gap-2">
-          <span id="metric-comunas-con-datos" class="text-3xl font-bold font-mono tracking-tight text-zinc-100">217</span>
+          <span id="metric-comunas-con-datos" class="text-3xl font-bold font-mono tracking-tight text-zinc-100">220</span>
           <span class="text-xs font-mono text-zinc-500">/ 346 comunas</span>
         </div>
         <div class="mt-3 w-full bg-[#153b70] rounded-full h-1.5 overflow-hidden">
-          <div id="progress-comunas" class="bg-[#0b4aa2] h-1.5 rounded-full transition-all duration-500" style="width: 63%"></div>
+          <div id="progress-comunas" class="bg-[#0b4aa2] h-1.5 rounded-full transition-all duration-500" style="width: 64%"></div>
         </div>
         <div class="flex justify-between items-center mt-2 text-[11px] text-zinc-400 font-mono">
-          <span id="pct-comunas">63% cubierto</span>
+          <span id="pct-comunas">64% cubierto</span>
           <span>16 regiones</span>
         </div>
       </div>
@@ -122,13 +122,13 @@
           <i data-lucide="file-text" class="w-4 h-4 text-sky-400"></i>
         </div>
         <div class="flex items-baseline gap-2">
-          <span id="metric-total-ordenanzas" class="text-3xl font-bold font-mono tracking-tight text-zinc-100">1.632</span>
+          <span id="metric-total-ordenanzas" class="text-3xl font-bold font-mono tracking-tight text-zinc-100">1.866</span>
           <span class="text-xs font-mono text-zinc-500">normas indexadas</span>
         </div>
         <div class="mt-3 flex items-center justify-between text-[11px] text-zinc-400 font-mono border-t border-[#153b70]/80 pt-2">
-          <span class="text-[#38bdf8]">BCN: <strong id="metric-bcn-count">1.572</strong></span>
+          <span class="text-[#38bdf8]">BCN: <strong id="metric-bcn-count">1.710</strong></span>
           <span class="text-[#386ea8]">•</span>
-          <span class="text-[#54b995]">CPLT (2022-26): <strong id="metric-cplt-count">60</strong></span>
+          <span class="text-[#54b995]">Municipales verificadas: <strong id="metric-cplt-count">156</strong></span>
         </div>
       </div>
 
@@ -234,11 +234,11 @@
               <i data-lucide="calendar" class="w-3.5 h-3.5 text-sky-400"></i>
               <select id="year-filter" onchange="filterTable()" class="bg-[#04142b] text-xs text-zinc-200 focus:outline-none py-1 max-w-[190px] cursor-pointer">
                 <option value="ALL">Todos los años (1980–2026)</option>
-                <option value="2026">Año 2026 (Vigente CPLT)</option>
-                <option value="2025">Año 2025 (Vigente CPLT)</option>
-                <option value="2024">Año 2024 (Vigente CPLT)</option>
-                <option value="2023">Año 2023 (Vigente CPLT)</option>
-                <option value="2022">Año 2022 (Vigente CPLT)</option>
+                <option value="2026">Año 2026</option>
+                <option value="2025">Año 2025</option>
+                <option value="2024">Año 2024</option>
+                <option value="2023">Año 2023</option>
+                <option value="2022">Año 2022</option>
                 <option value="2021">Año 2021</option>
                 <option value="2020">Año 2020</option>
                 <option value="2019">Año 2019</option>
@@ -306,7 +306,7 @@
             <!-- Source Filter -->
             <select id="status-filter" onchange="filterTable()" class="bg-[#04142b] border border-[#153b70] rounded-lg px-3 py-2 text-xs text-zinc-200 focus:outline-none focus:border-[#38bdf8] cursor-pointer">
               <option value="ALL">Todas las fuentes</option>
-              <option value="CPLT">Con Transparencia CPLT (2022–2026)</option>
+              <option value="MUNICIPAL">Con fuente municipal verificada</option>
               <option value="BCN">Con Histórico BCN</option>
               <option value="SIN_DATOS">Sin datos BCN</option>
             </select>
@@ -346,7 +346,7 @@
                 <th class="px-4 py-3">Región</th>
                 <th class="px-4 py-3">Comuna</th>
                 <th class="px-4 py-3 text-center">Normas BCN</th>
-                <th class="px-4 py-3 text-center">CPLT 2022-26</th>
+                <th class="px-4 py-3 text-center">Municipal verificada</th>
                 <th class="px-4 py-3 text-center">Coincidentes</th>
                 <th class="px-4 py-3">Estado / Fuentes</th>
                 <th class="px-4 py-3 text-right">Documentos Oficiales</th>
@@ -435,7 +435,7 @@
             <p class="text-xs text-zinc-300 mt-1">Archivos consolidados de libre acceso para investigación, docencia y análisis de políticas locales.</p>
           </div>
           <span class="text-xs font-mono text-[#54b995] bg-[#54b995]/10 px-3 py-1 rounded-full border border-[#54b995]/30 font-semibold">
-            Acceso Abierto • Corte 2026-08-27
+            Acceso Abierto • Corte 2026-08-29 (v2.0)
           </span>
         </div>
 
@@ -449,15 +449,15 @@
               </div>
               <div>
                 <h4 class="text-sm font-bold text-zinc-100">Excel Catastro Nacional</h4>
-                <span class="text-[11px] font-mono text-zinc-400">1.632 normas clasificadas</span>
+                <span class="text-[11px] font-mono text-[#54b995]">1.866 normas clasificadas</span>
               </div>
               <p class="text-xs text-zinc-400 leading-relaxed">
-                Planilla estructurada con comunas, regiones, 9 ejes temáticos, fechas, enlaces directos y control de evidencia.
+                Planilla estructurada con 220 comunas, regiones, 9 ejes temáticos, fechas, enlaces oficiales y hashes SHA-256.
               </p>
             </div>
             <button onclick="openDownloadModal('xlsx')" class="w-full py-2.5 bg-[#0b4aa2] hover:bg-[#073c86] text-white rounded-xl text-xs font-mono font-semibold transition-all flex items-center justify-center gap-2 shadow">
               <i data-lucide="download" class="w-3.5 h-3.5"></i>
-              <span>Descargar .xlsx (0.19 MB)</span>
+              <span>Descargar .xlsx (0.17 MB)</span>
             </button>
           </div>
 
@@ -469,15 +469,15 @@
               </div>
               <div>
                 <h4 class="text-sm font-bold text-zinc-100">Paquete Consolidado ZIP</h4>
-                <span class="text-[11px] font-mono text-zinc-400">Microdataset multi-formato</span>
+                <span class="text-[11px] font-mono text-purple-300">Dataset Completo v2.0</span>
               </div>
               <p class="text-xs text-zinc-400 leading-relaxed">
-                Contiene base de datos SQLite, directorio maestro territorial CSV, Excel oficial y documentación técnica.
+                Incluye base consolidada en Excel (.xlsx), CSV (.csv), JSON estructurado (.json) y manifiesto público.
               </p>
             </div>
-            <button onclick="openDownloadModal('zip')" class="w-full py-2.5 bg-[#153b70] hover:bg-[#1f5091] border border-[#1f5091] text-zinc-100 rounded-xl text-xs font-mono font-semibold transition-all flex items-center justify-center gap-2 shadow">
+            <button onclick="openDownloadModal('zip')" class="w-full py-2.5 bg-purple-600 hover:bg-purple-700 text-white rounded-xl text-xs font-mono font-semibold transition-all flex items-center justify-center gap-2 shadow">
               <i data-lucide="download" class="w-3.5 h-3.5"></i>
-              <span>Descargar .zip (0.34 MB)</span>
+              <span>Descargar .zip (0.36 MB)</span>
             </button>
           </div>
 
@@ -692,12 +692,12 @@
           <div class="bg-[#04142b] border border-[#153b70] rounded-xl p-4 flex flex-col md:flex-row md:items-center justify-between gap-4">
             <div class="space-y-1">
               <div class="flex items-center gap-2">
-                <span class="text-[10px] font-mono font-bold uppercase px-2 py-0.5 rounded bg-[#0b4aa2]/30 text-[#38bdf8] border border-[#38bdf8]/30">Fase 3 • Próxima</span>
-                <h4 class="text-sm font-semibold text-zinc-100">Expansión de Cobertura y Scrapers Municipales Directos</h4>
+                <span class="text-[10px] font-mono font-bold uppercase px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">Fase 3 • Desplegada</span>
+                <h4 class="text-sm font-semibold text-zinc-100">Expansión Territorial Directa & Verificación SHA-256</h4>
               </div>
-              <p class="text-xs text-zinc-400">Cierre de la brecha territorial en las 129 comunas sin presencia BCN mediante indexación de portales municipales y decretos alcaldicios.</p>
+              <p class="text-xs text-zinc-400">Ingesta de 156 ordenanzas municipales oficiales con hash criptográfico SHA-256 inmutable, elevando el corpus a 1.866 normas en 220 comunas.</p>
             </div>
-            <span class="text-xs font-mono text-zinc-500 shrink-0">Hacia 346 comunas</span>
+            <span class="text-xs font-mono text-[#54b995] font-semibold shrink-0">156 verificadas</span>
           </div>
 
           <!-- Fase 4 -->
@@ -740,7 +740,7 @@
             <span id="drawer-count-tag" class="text-[11px] font-mono text-zinc-400">0 normas</span>
           </div>
           <h2 id="drawer-commune-name" class="text-xl font-bold tracking-tight text-zinc-100 mt-1">Municipalidad</h2>
-          <p class="text-xs text-zinc-400 mt-1">Listado de ordenanzas oficiales disponibles (BCN & Transparencia Activa CPLT).</p>
+          <p class="text-xs text-zinc-400 mt-1">Listado público de registros BCN/LeyChile y documentos municipales verificados.</p>
         </div>
         <button onclick="closeDrawer()" class="p-2 rounded-lg bg-[#153b70] text-zinc-400 hover:text-zinc-100 hover:bg-[#1f5091] transition-colors">
           <i data-lucide="x" class="w-5 h-5"></i>
@@ -816,7 +816,7 @@
           </select>
           <select id="drawer-source-filter" onchange="filterDrawerOrdinances()" class="bg-[#071f43] border border-[#153b70] rounded-lg px-2.5 py-1.5 text-xs text-zinc-200 focus:outline-none focus:border-[#38bdf8]">
             <option value="ALL">Todas las fuentes</option>
-            <option value="CPLT">CPLT (2022–26)</option>
+            <option value="Municipalidad">Municipalidad verificada</option>
             <option value="BCN">BCN LeyChile</option>
           </select>
         </div>
@@ -825,7 +825,7 @@
       <div id="drawer-ordinances-list" class="flex-1 overflow-y-auto p-6 space-y-4"></div>
 
       <div class="p-4 border-t border-[#153b70] bg-[#04142b]/90 flex justify-between items-center text-xs text-zinc-500 font-mono">
-        <span>Fuentes: BCN LeyChile & Transparencia CPLT</span>
+        <span>Fuentes: BCN LeyChile + sitios municipales oficiales</span>
         <button onclick="closeDrawer()" class="px-4 py-2 bg-[#153b70] hover:bg-[#1f5091] text-zinc-200 rounded-lg text-xs font-semibold transition-colors">
           Cerrar Panel
         </button>
@@ -1267,7 +1267,7 @@
       document.getElementById('metric-comunas-con-datos').textContent = data.metrics.comunas_con_datos;
       document.getElementById('metric-total-ordenanzas').textContent = Number(data.metrics.total_ordenanzas).toLocaleString('es-CL');
       document.getElementById('metric-bcn-count').textContent = Number(data.metrics.ordenanzas_bcn).toLocaleString('es-CL');
-      document.getElementById('metric-cplt-count').textContent = Number(data.metrics.ordenanzas_cplt).toLocaleString('es-CL');
+      document.getElementById('metric-cplt-count').textContent = Number(data.metrics.ordenanzas_municipales_verificadas || 0).toLocaleString('es-CL');
 
       const pct = Math.round((data.metrics.comunas_con_datos / 346) * 100);
       document.getElementById('progress-comunas').style.width = pct + '%';
@@ -1356,7 +1356,7 @@
         const matchesRegion = (region === 'ALL') || (c.region_id === region);
 
         let matchesStatus = true;
-        if (status === 'CPLT') matchesStatus = (c.cplt_count > 0);
+        if (status === 'MUNICIPAL') matchesStatus = (c.municipal_count > 0);
         else if (status === 'BCN') matchesStatus = (c.bcn_count > 0);
         else if (status === 'SIN_DATOS') matchesStatus = (c.total_count === 0);
 
@@ -1427,13 +1427,13 @@
         };
 
         let badgeClass = 'bg-[#153b70] text-zinc-400 border-[#1f5091]';
-        let statusLabel = 'Pendiente CPLT';
-        if (c.bcn_count > 0 && c.cplt_count > 0) {
+        let statusLabel = 'Sin fuente municipal verificada';
+        if (c.bcn_count > 0 && c.municipal_count > 0) {
           badgeClass = 'bg-[#54b995]/10 text-[#54b995] border-purple-500/30';
-          statusLabel = 'BCN + CPLT';
-        } else if (c.cplt_count > 0) {
+          statusLabel = 'BCN + Municipal';
+        } else if (c.municipal_count > 0) {
           badgeClass = 'bg-sky-500/10 text-sky-400 border-sky-500/30';
-          statusLabel = 'CPLT 2022-26';
+          statusLabel = 'Municipal verificada';
         } else if (c.bcn_count > 0) {
           badgeClass = 'bg-[#0b4aa2]/10 text-[#38bdf8] border-[#38bdf8]/30';
           statusLabel = 'Histórico BCN';
@@ -1447,7 +1447,7 @@
           <td class="px-4 py-2.5 text-zinc-400 text-[11px]">${c.region_id} - ${c.region_nombre}</td>
           <td class="px-4 py-2.5 font-semibold text-zinc-200">${c.comuna}</td>
           <td class="px-4 py-2.5 text-center font-semibold text-[#38bdf8]">${c.bcn_count || 0}</td>
-          <td class="px-4 py-2.5 text-center font-semibold text-[#54b995]">${c.cplt_count > 0 ? `<span class="bg-[#54b995]/20 text-[#54b995] px-1.5 py-0.5 rounded">${c.cplt_count}</span>` : '0'}</td>
+          <td class="px-4 py-2.5 text-center font-semibold text-[#54b995]">${c.municipal_count > 0 ? `<span class="bg-[#54b995]/20 text-[#54b995] px-1.5 py-0.5 rounded">${c.municipal_count}</span>` : '0'}</td>
           <td class="px-4 py-2.5 text-center">${matchCountBadge}</td>
           <td class="px-4 py-2.5">
             <span class="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-mono border ${badgeClass}">
@@ -1460,7 +1460,7 @@
                 <i data-lucide="book-open" class="w-3.5 h-3.5"></i>
                 <span>Ver ${c.filteredOrdsCount} normas ↗</span>
               </button>
-            ` : `<span class="text-[#386ea8] text-[11px] font-mono">Fase 2 CPLT</span>`}
+            ` : `<span class="text-[#386ea8] text-[11px] font-mono">Sin registros verificados</span>`}
           </td>
         `;
         tbody.appendChild(tr);
@@ -1551,15 +1551,15 @@
         const item = document.createElement('div');
         item.className = 'p-5 rounded-xl bg-[#04142b] border border-[#153b70]/80 space-y-3 hover:border-[#1f5091] transition-all shadow-sm';
         
-        const isCplt = (ord.fuente === 'CPLT');
-        const sourceBadge = isCplt 
-          ? `<span class="px-2 py-0.5 rounded text-[10px] font-mono font-bold bg-[#54b995]/20 text-[#54b995] border border-purple-500/40">CPLT VIGENTE (2022-2026)</span>`
+        const isMunicipal = (ord.fuente === 'Municipalidad');
+        const sourceBadge = isMunicipal 
+          ? `<span class="px-2 py-0.5 rounded text-[10px] font-mono font-bold bg-[#54b995]/20 text-[#54b995] border border-purple-500/40">MUNICIPAL VERIFICADA</span>`
           : `<span class="px-2 py-0.5 rounded text-[10px] font-mono bg-[#153b70] text-zinc-400 border border-[#1f5091]">BCN LeyChile</span>`;
 
-        const actionBtn = isCplt
+        const actionBtn = isMunicipal
           ? `<button onclick="openOfficialLink('${ord.target_url}', event)" class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-lg bg-purple-600 hover:bg-[#54b995] text-white font-bold text-xs font-mono transition-colors shadow">
                <i data-lucide="file-check" class="w-3.5 h-3.5"></i>
-               <span>Abrir Documento CPLT ↗</span>
+               <span>Abrir documento municipal ↗</span>
              </button>`
           : `<button onclick="openOfficialLink('${ord.target_url}', event)" class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-lg bg-[#0b4aa2] hover:bg-[#073c86] text-white font-bold text-xs font-mono transition-colors shadow">
                <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
@@ -1633,10 +1633,10 @@
 
       if (type === 'xlsx') {
         title.textContent = 'Descarga: Excel Catastro Nacional';
-        fileBadge.textContent = 'catastro_ordenanzas_nacional_2026.xlsx (0.19 MB)';
+        fileBadge.textContent = 'catastro_ordenanzas_nacional_2026.xlsx (0.17 MB)';
       } else {
         title.textContent = 'Descarga: Paquete Consolidado ZIP';
-        fileBadge.textContent = 'consolidado_ordenanzas_chile_2026.zip (0.34 MB)';
+        fileBadge.textContent = 'consolidado_ordenanzas_chile_2026.zip (0.36 MB)';
       }
 
       if (modal) modal.classList.remove('hidden');

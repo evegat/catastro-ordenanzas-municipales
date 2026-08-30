@@ -29,9 +29,9 @@ Este proyecto nace con un objetivo fundamentalmente formativo y de investigació
 
 ## 🗺️ Hoja de Ruta (Roadmap)
 
-- [x] **Fase 1: Catastro Base & Pipeline Reproducible:** Extracción SPARQL BCN (1.572 normas), captura complementaria CPLT (60 normas) y categorización en 9 ejes temáticos.
-- [x] **Fase 2: Visualizador Público & Acceso Abierto:** Dashboard interactivo publicado en GitHub Pages, filtros combinados por materia, región y año, drawer comunal y descargas multiformato (XLSX, CSV, SQLite, ZIP).
-- [ ] **Fase 3: Expansión Territorial Directa:** Desarrollo de scrapers específicos sobre portales municipales para cerrar la brecha de las 129 comunas sin presencia en BCN.
+- [x] **Fase 1: Catastro Base & Pipeline Reproducible:** Extracción SPARQL BCN (1.710 normas), captura complementaria CPLT y categorización en 9 ejes temáticos.
+- [x] **Fase 2: Visualizador Público & Acceso Abierto:** Dashboard interactivo publicado en GitHub Pages, filtros combinados por materia, región y año, drawer comunal, autocompletar inteligente, descargas con registro amigable y buzón colaborativo a `evegat@uchile.cl`.
+- [x] **Fase 3: Expansión Territorial Directa (Desplegada):** Pipeline de descubrimiento y extracción directa con verificación criptográfica (SHA-256), sumando 156 ordenanzas municipales oficiales y alcanzando 1.866 normas en 220 comunas.
 - [ ] **Fase 4: Análisis Textual & Comparador Normativo por IA:** Indexación de texto completo (PDF/HTML), búsqueda semántica y detección de patrones de "ordenanzas tipo" y variaciones comunales.
 - [ ] **Fase 5: Módulo Docente & Guías Metodológicas:** Publicación de guías didácticas, ejercicios prácticos y notebooks (Python/R) para uso directo en cátedras universitarias sobre gestión local.
 
