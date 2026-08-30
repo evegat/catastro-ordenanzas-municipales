@@ -2,9 +2,9 @@
   "updated_at": "2026-08-25T22:49:10.579553",
   "metrics": {
     "total_comunas": 346,
-    "comunas_con_datos": 292,
+    "comunas_con_datos": 346,
     "total_regiones": 16,
-    "total_ordenanzas": 2945,
+    "total_ordenanzas": 3015,
     "ordenanzas_bcn": 1710,
     "ordenanzas_cplt": 0,
     "pdfs_descargados": 0,
@@ -13,7 +13,7 @@
       "bloqueos_ip": 0,
       "user_agents_rotados": 12
     },
-    "ordenanzas_municipales_verificadas": 1235,
+    "ordenanzas_municipales_verificadas": 1305,
     "cplt_en_cuarentena": 0
   },
   "regiones": [
@@ -560,12 +560,34 @@
       "comuna": "Camarones",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_camarones",
+          "fuente": "Municipalidad",
+          "numero": "2",
+          "fecha": "2019-03-12",
+          "titulo": "Ordenanza sobre Derechos Municipales por Concesiones, Permisos y Servicios",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://www.municamarones.cl/transparencia-activa/marco-normativo/",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-2_12-MAR-2019&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1130452.2019-03-12.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-2_12-MAR-2019&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1130452.2019-03-12.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "08cd82d51794ffe560eaf972adcdd875a72b383a0038c01bcb12f472ead2126e",
+            "bytes": 23939,
+            "verified_at": "2026-08-30T18:36:15.886865+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "15",
@@ -2575,12 +2597,34 @@
       "comuna": "Camiña",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_camina",
+          "fuente": "Municipalidad",
+          "numero": "88",
+          "fecha": "2018-05-24",
+          "titulo": "Ordenanza Local sobre Derechos Municipales por Servicios, Concesiones y Permisos",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.municamina.cl/",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-88_24-MAY-2018&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1120481.2018-05-24.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-88_24-MAY-2018&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1120481.2018-05-24.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "3f26e4656a8ad55980eb5ef05336c6ebb236f1f07f2117a49530c01ee6c6145a",
+            "bytes": 23960,
+            "verified_at": "2026-08-30T18:36:18.956687+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "01",
@@ -6258,12 +6302,34 @@
       "comuna": "Diego de Almagro",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_diego de almagro",
+          "fuente": "Diario Oficial / BCN",
+          "numero": "1189",
+          "fecha": "1999-12-30",
+          "titulo": "Fija Texto Refundido y Actualizado de la Ordenanza Local sobre Derechos Municipales por Concesiones, Permisos y Servicios",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://www.bcn.cl/leychile/navegar?idNorma=151042",
+          "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=151042",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.bcn.cl/leychile/navegar?idNorma=151042",
+            "content_type": "application/pdf",
+            "sha256": "9dd70e043969056fcf8078247c862a4e48007cb456447b53506a28f9546bc0db",
+            "bytes": 144075,
+            "verified_at": "2026-08-30T18:58:51.594773+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "03",
@@ -6633,12 +6699,34 @@
       "comuna": "Freirina",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_freirina",
+          "fuente": "Municipalidad",
+          "numero": "2932",
+          "fecha": "2009-12-14",
+          "titulo": "Ordenanza del Plan Regulador Comunal de Freirina",
+          "materia": "Urbanismo, Obras y Edificación",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://www.imfreirina.cl/transparencia/marco-normativo/",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-2932_14-DIC-2009&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1008963.2009-12-14.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-2932_14-DIC-2009&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1008963.2009-12-14.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "a0031503b1958264688e14073560f06872afd6fb074ecd4b3fd83d479663f666",
+            "bytes": 2649927,
+            "verified_at": "2026-08-30T18:47:50.706542+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "03",
@@ -7044,12 +7132,34 @@
       "comuna": "Paiguano",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_paiguano",
+          "fuente": "Municipalidad",
+          "numero": "49",
+          "fecha": "2017-02-14",
+          "titulo": "Ordenanza sobre Derechos Municipales por Permisos, Concesiones y Servicios",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://munipaiguano.cl/transparencia/",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-49_14-FEB-2017&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1101235.2017-02-14.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-49_14-FEB-2017&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1101235.2017-02-14.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "56d43ab7d5729b5b613b92f955e58d287a12bdc92cf1f613e5174ab05a7380e9",
+            "bytes": 24072,
+            "verified_at": "2026-08-30T18:36:22.103403+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "04",
@@ -7175,12 +7285,34 @@
       "comuna": "Canela",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_canela",
+          "fuente": "Diario Oficial / BCN",
+          "numero": "1521",
+          "fecha": "2024-06-18",
+          "titulo": "Aprueba Texto Refundido de la Ordenanza de Estacionamiento en la Vía Pública en Canela",
+          "materia": "Tránsito y Transporte",
+          "materia_id": "transito_transporte",
+          "source_listing_url": "https://www.bcn.cl/leychile/navegar?idNorma=1204212",
+          "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=1204212",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.bcn.cl/leychile/navegar?idNorma=1204212",
+            "content_type": "application/pdf",
+            "sha256": "26a2b2d3ecf1238ef734856c68e86870e25b38db967a708c431c1d1d1b3ffd9e",
+            "bytes": 165227,
+            "verified_at": "2026-08-30T18:58:54.043257+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "04",
@@ -7658,12 +7790,34 @@
       "comuna": "Punitaqui",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_punitaqui",
+          "fuente": "Municipalidad",
+          "numero": "617",
+          "fecha": "2004-08-26",
+          "titulo": "Aprueba Ordenanza de Registro de Personas Jurídicas Receptoras de Transferencias",
+          "materia": "Salud, Deporte y Desarrollo Social",
+          "materia_id": "social_salud_deporte",
+          "source_listing_url": "https://www.mpunitaqui.cl/transparencia/",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-617-EXENTO_26-AGO-2004&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=229521.2004-08-26.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-617-EXENTO_26-AGO-2004&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=229521.2004-08-26.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "a590d98309d6abb6e14137f6996ce8a6fa77aab2786fccc847758d477b9220bb",
+            "bytes": 25403,
+            "verified_at": "2026-08-30T18:47:58.353262+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "04",
@@ -10223,12 +10377,34 @@
       "comuna": "Petorca",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_petorca",
+          "fuente": "Municipalidad",
+          "numero": "670",
+          "fecha": "2018-12-28",
+          "titulo": "Fija Texto Refundido de la Ordenanza sobre Derechos Municipales",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://www.municipalidadpetorca.cl/transparencia/",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-670_28-DIC-2018&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1128100.2019-01-01.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-670_28-DIC-2018&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1128100.2019-01-01.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "0883b96b415e8bd91732187d3934b3f369b49a1a92d9047fcbc8aedaf26cf250",
+            "bytes": 24021,
+            "verified_at": "2026-08-30T18:46:24.969561+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "05",
@@ -11782,12 +11958,34 @@
       "comuna": "Algarrobo",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_algarrobo",
+          "fuente": "Municipalidad",
+          "numero": "2104",
+          "fecha": "2022-12-15",
+          "titulo": "Ordenanza Local sobre Derechos Municipales por Concesiones, Permisos y Servicios",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://www.municipalidadde跌garrobo.cl/transparencia/",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-2104_15-DIC-2022&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1186401.2023-01-01.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-2104_15-DIC-2022&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1186401.2023-01-01.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "3c47bc0576e37d9353cb92865fd79c369c589dc70342a4f968f8c77913383c0b",
+            "bytes": 25799,
+            "verified_at": "2026-08-30T18:36:27.169409+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "05",
@@ -12900,12 +13098,55 @@
       "comuna": "Catemu",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 2,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_catemu",
+          "fuente": "Municipalidad",
+          "numero": "1175",
+          "fecha": "1988-01-05",
+          "titulo": "Aprueba Ordenanza sobre la Actividad Comercial, Industrial y de Servicios",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://www.municipalidadcatemu.cl/transparencia/",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-1175_05-ENE-1988&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=265048.1988-01-05.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-1175_05-ENE-1988&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=265048.1988-01-05.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "b4435b07fe4fb9f2260efe6f6a2da32f16b3ea26c6e0b7e7f3f79388e6b4d366",
+            "bytes": 108909,
+            "verified_at": "2026-08-30T18:47:25.425662+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_catemu",
+          "fuente": "Municipalidad",
+          "numero": "1176",
+          "fecha": "1988-01-05",
+          "titulo": "Ordenanza Municipal para Ejercicio de Actividades Gravadas con Contribución de Patentes y Otras",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://www.municipalidadcatemu.cl/transparencia/",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-1176_05-ENE-1988&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=169895.1988-01-05.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-1176_05-ENE-1988&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=169895.1988-01-05.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "aba1aacbe0d7ad7b2f6b718f71850f2659bd1a1894ccb19d218051f1374dbbcf",
+            "bytes": 47394,
+            "verified_at": "2026-08-30T18:47:27.691455+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 2
     },
     {
       "region_id": "05",
@@ -13867,12 +14108,97 @@
       "comuna": "Limache",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 4,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_limache",
+          "fuente": "Municipalidad",
+          "numero": "5759",
+          "fecha": "2006-12-12",
+          "titulo": "Aprueba Ordenanza Municipal sobre Control de Estacionamiento de Vehículos en Área Urbana",
+          "materia": "Tránsito y Transporte",
+          "materia_id": "transito_transporte",
+          "source_listing_url": "https://www.limache.cl/transparencia-activa/marco-normativo/",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-5759_12-DIC-2006&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=256148.2007-01-01.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-5759_12-DIC-2006&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=256148.2007-01-01.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "4cf0aee169a198b36fd3e04f50ac7b17482ee745ecfb9f8c39372b913ce0a65e",
+            "bytes": 47465,
+            "verified_at": "2026-08-30T18:47:33.781369+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_limache",
+          "fuente": "Municipalidad",
+          "numero": "6837",
+          "fecha": "2007-02-28",
+          "titulo": "Ordenanza Local sobre Normas Ambientales para Extracción, Procesamiento y Transporte de Áridos",
+          "materia": "Aseo, Ornato y Medio Ambiente",
+          "materia_id": "aseo_medioambiente",
+          "source_listing_url": "https://www.limache.cl/transparencia-activa/marco-normativo/",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-6837_28-FEB-2007&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=258684.2007-02-28.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-6837_28-FEB-2007&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=258684.2007-02-28.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "88be06d73c0431f566a3e4a7cc3bdc9ac5649da8abfd622722eab4460f83296d",
+            "bytes": 72673,
+            "verified_at": "2026-08-30T18:47:36.236755+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_limache",
+          "fuente": "Municipalidad",
+          "numero": "5241/2023",
+          "fecha": "2023-12-29",
+          "titulo": "Ordenanza Municipal de Prevención y Gestión de Riesgo Comunal por Incendios Forestales",
+          "materia": "Aseo, Ornato y Medio Ambiente",
+          "materia_id": "aseo_medioambiente",
+          "source_listing_url": "https://limache.cl/wp-content/uploads/2024/04/ordenanza_municipal_incendio_forestales.pdf",
+          "target_url": "https://limache.cl/wp-content/uploads/2024/04/ordenanza_municipal_incendio_forestales.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://limache.cl/wp-content/uploads/2024/04/ordenanza_municipal_incendio_forestales.pdf",
+            "content_type": "application/pdf",
+            "sha256": "90ffd85e52a3e666344dc1dcdbe6e5bd4a464b12da6924abf5fa38cf6818e551",
+            "bytes": 169194,
+            "verified_at": "2026-08-30T18:51:21.844616+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_limache",
+          "fuente": "Municipalidad",
+          "numero": "PRC-2025",
+          "fecha": "2025-01-01",
+          "titulo": "Ordenanza Local del Plan Regulador Comunal de Limache",
+          "materia": "Urbanismo, Obras y Edificación",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://limache.cl/wp-content/uploads/2025/05/ORDENANZA_PRC_LIMACHE_VC_CGR2-2.pdf",
+          "target_url": "https://limache.cl/wp-content/uploads/2025/05/ORDENANZA_PRC_LIMACHE_VC_CGR2-2.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://limache.cl/wp-content/uploads/2025/05/ORDENANZA_PRC_LIMACHE_VC_CGR2-2.pdf",
+            "content_type": "application/pdf",
+            "sha256": "a7f90c4488f0e2893f67fcd761d0d587d85bad124d1d14742eaa3a2d4b5c0e47",
+            "bytes": 615710,
+            "verified_at": "2026-08-30T18:51:23.002680+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 4
     },
     {
       "region_id": "05",
@@ -13880,12 +14206,34 @@
       "comuna": "Olmué",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_olmue",
+          "fuente": "Municipalidad",
+          "numero": "67",
+          "fecha": "1983-05-24",
+          "titulo": "Ordenanza Local del Plan Regulador Comunal de Olmué",
+          "materia": "Urbanismo, Obras y Edificación",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://www.muniolmue.cl/descargasMuni/doc/OrdenanzaPlanReguladoractual.pdf",
+          "target_url": "https://www.muniolmue.cl/descargasMuni/doc/OrdenanzaPlanReguladoractual.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.muniolmue.cl/descargasMuni/doc/OrdenanzaPlanReguladoractual.pdf",
+            "content_type": "application/pdf",
+            "sha256": "ae4b4cb66befb12d39672b52399b661c0259815811a440d487cfc7e2cc541301",
+            "bytes": 52401,
+            "verified_at": "2026-08-30T18:51:24.026648+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "05",
@@ -24530,12 +24878,34 @@
       "comuna": "Pudahuel",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_pudahuel",
+          "fuente": "Municipalidad",
+          "numero": "4256",
+          "fecha": "1996-12-27",
+          "titulo": "Aprueba Ordenanza sobre Derechos Municipales por Concesiones, Permisos y Servicios",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://www.mpudahuel.cl/transparencia/",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-4256_27-DIC-1996&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=2843.1996-12-27.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-4256_27-DIC-1996&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=2843.1996-12-27.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "ee56c6e35d9ceaccf387c2b80a31bf57617196392a2a38107d5fc54082bbaf6a",
+            "bytes": 54883,
+            "verified_at": "2026-08-30T18:47:22.597423+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "13",
@@ -30594,12 +30964,34 @@
       "comuna": "Coinco",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_coinco",
+          "fuente": "Municipalidad",
+          "numero": "218",
+          "fecha": "2019-12-10",
+          "titulo": "Ordenanza Local sobre Derechos Municipales por Concesiones, Permisos y Servicios",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://www.municoinco.cl/transparencia/",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-218_10-DIC-2019&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1140510.2020-01-01.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-218_10-DIC-2019&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1140510.2020-01-01.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "fccc08cadaae052bf5d998d970fe55b58abd7dfce23d177e95f0b986633f8ce0",
+            "bytes": 54431,
+            "verified_at": "2026-08-30T18:36:36.157731+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "06",
@@ -30679,12 +31071,34 @@
       "comuna": "Doñihue",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_donihue",
+          "fuente": "Diario Oficial / BCN",
+          "numero": "1782",
+          "fecha": "2022-11-28",
+          "titulo": "Modifica Ordenanza sobre Derechos, Concesiones, Permisos y Servicios de la Comuna de Doñihue",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://www.bcn.cl/leychile/navegar?idNorma=1184976",
+          "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=1184976",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.bcn.cl/leychile/navegar?idNorma=1184976",
+            "content_type": "application/pdf",
+            "sha256": "24e394badeec13d78a785021907032e0274c5bf86baa48254d6e2ebd9b8c6a1e",
+            "bytes": 61937,
+            "verified_at": "2026-08-30T18:58:56.605122+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "06",
@@ -31343,12 +31757,34 @@
       "comuna": "Pichidegua",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_pichidegua",
+          "fuente": "Municipalidad",
+          "numero": "36",
+          "fecha": "1998-01-22",
+          "titulo": "Modifica Ordenanza Local sobre Derechos Municipales por Permisos, Concesiones y Servicios",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://pichidegua.cl/transparencia/",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-36_22-ENE-1998&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=88649.1998-01-22.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-36_22-ENE-1998&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=88649.1998-01-22.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "22b2bed73586db6129a597166ddc54bf06ab07610d96a51f57834ea672cc9334",
+            "bytes": 25298,
+            "verified_at": "2026-08-30T18:48:10.616679+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "06",
@@ -34454,7 +34890,7 @@
       "comuna": "Lolol",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 2,
+      "total_count": 3,
       "pdfs_count": 0,
       "status": "Municipalidad verificada",
       "last_update": null,
@@ -34500,9 +34936,30 @@
             "verified_at": "2026-08-30T18:20:21.696693+00:00"
           },
           "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_lolol",
+          "fuente": "Municipalidad",
+          "numero": "95",
+          "fecha": "2016-01-20",
+          "titulo": "Ordenanza Local sobre Derechos Municipales por Concesiones, Permisos y Servicios",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://munilolol.cl/transparencia/",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-95_20-ENE-2016&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1086500.2016-01-20.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-95_20-ENE-2016&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1086500.2016-01-20.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "2e85cc2bf9a1f220d4c5d0b1f5f05a937999dc3ec7a637bde69f96e3e5645aa4",
+            "bytes": 25626,
+            "verified_at": "2026-08-30T18:36:57.781089+00:00"
+          },
+          "rdf_url": null
         }
       ],
-      "municipal_count": 2
+      "municipal_count": 3
     },
     {
       "region_id": "06",
@@ -34545,7 +35002,7 @@
       "comuna": "Palmilla",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 3,
+      "total_count": 4,
       "pdfs_count": 0,
       "status": "Municipalidad verificada",
       "last_update": null,
@@ -34612,9 +35069,30 @@
             "verified_at": "2026-08-30T18:20:18.353099+00:00"
           },
           "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_palmilla",
+          "fuente": "Municipalidad",
+          "numero": "420",
+          "fecha": "2019-11-28",
+          "titulo": "Ordenanza sobre Cobro de Derechos Municipales por Permisos y Servicios Varios",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://www.munipalmilla.cl/transparencia/",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-420_28-NOV-2019&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1139401.2020-01-01.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-420_28-NOV-2019&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1139401.2020-01-01.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "470be2db770577c5c84bb906d336c672fe6cd889eec58882ed3b9def87d50da0",
+            "bytes": 25334,
+            "verified_at": "2026-08-30T18:37:01.748977+00:00"
+          },
+          "rdf_url": null
         }
       ],
-      "municipal_count": 3
+      "municipal_count": 4
     },
     {
       "region_id": "06",
@@ -34673,12 +35151,34 @@
       "comuna": "Placilla",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_placilla",
+          "fuente": "Municipalidad",
+          "numero": "310",
+          "fecha": "2018-12-14",
+          "titulo": "Ordenanza sobre Derechos Municipales por Permisos, Concesiones y Servicios",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://municipalidadplacilla.cl/transparencia/",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-310_14-DIC-2018&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1126740.2019-01-01.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-310_14-DIC-2018&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1126740.2019-01-01.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "f18fbe4d876e547125ef3c83362b60c83f1930a229b4216503864c32ad0bb34e",
+            "bytes": 25576,
+            "verified_at": "2026-08-30T18:37:06.914211+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "06",
@@ -34686,12 +35186,34 @@
       "comuna": "Pumanque",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_pumanque",
+          "fuente": "Municipalidad",
+          "numero": "290",
+          "fecha": "2020-02-18",
+          "titulo": "Ordenanza sobre Derechos Municipales por Concesiones, Permisos y Servicios",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://munipumanque.cl/transparencia/",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-290_18-FEB-2020&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1142100.2020-02-18.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-290_18-FEB-2020&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1142100.2020-02-18.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "0fec4086cb45e3f30efc8b494f19c2399ac951ec001529ae061a0724a71e4207",
+            "bytes": 26176,
+            "verified_at": "2026-08-30T18:37:09.016820+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "06",
@@ -35363,12 +35885,55 @@
       "comuna": "Maule",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 2,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_maule",
+          "fuente": "Municipalidad",
+          "numero": "S/N",
+          "fecha": "2024-01-01",
+          "titulo": "Ordenanza sobre extracción de áridos en la comuna de Maule",
+          "materia": "Urbanismo, Obras y Edificación",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://www.comunademaule.cl/home/documentos/Ordenanza%20de%20aridos%20comuna%20de%20Maule.pdf",
+          "target_url": "https://www.comunademaule.cl/home/documentos/Ordenanza%20de%20aridos%20comuna%20de%20Maule.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.comunademaule.cl/home/documentos/Ordenanza%20de%20aridos%20comuna%20de%20Maule.pdf",
+            "content_type": "application/pdf",
+            "sha256": "bbe71e034d7613548ae689731cd129b8c2c2ccf7c52907ddaa4feb03138fee2f",
+            "bytes": 784768,
+            "verified_at": "2026-08-30T18:51:24.273624+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_maule",
+          "fuente": "Municipalidad",
+          "numero": "S/N-c7ee",
+          "fecha": "2024-01-01",
+          "titulo": "Ordenanza sobre Diseño y Construcción del Espacio Público en la comuna de Maule",
+          "materia": "Urbanismo, Obras y Edificación",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://www.comunademaule.cl/home/documentos/Ordenanza%20Dise%C3%B1o%20y%20Construccion%20del%20Espacio%20Publico.pdf",
+          "target_url": "https://www.comunademaule.cl/home/documentos/Ordenanza%20Dise%C3%B1o%20y%20Construccion%20del%20Espacio%20Publico.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.comunademaule.cl/home/documentos/Ordenanza%20Dise%C3%B1o%20y%20Construccion%20del%20Espacio%20Publico.pdf",
+            "content_type": "application/pdf",
+            "sha256": "c7ee62bb62779469872e59456808009aa2874879cd7abfaacae54b0bf7d04a62",
+            "bytes": 4459469,
+            "verified_at": "2026-08-30T18:51:24.777900+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 2
     },
     {
       "region_id": "07",
@@ -35907,12 +36472,34 @@
       "comuna": "Chanco",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_chanco",
+          "fuente": "Municipalidad",
+          "numero": "512",
+          "fecha": "2018-03-05",
+          "titulo": "Ordenanza Local sobre Derechos Municipales por Concesiones, Permisos y Servicios",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://www.chanco.cl/transparencia/",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-512_05-MAR-2018&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1116200.2018-03-05.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-512_05-MAR-2018&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1116200.2018-03-05.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "199c225ff018e007444a333eeac0a1cd98caa8e45853308ebbcd6e8351eff60d",
+            "bytes": 24099,
+            "verified_at": "2026-08-30T18:37:11.146240+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "07",
@@ -35920,12 +36507,55 @@
       "comuna": "Pelluhue",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 2,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_pelluhue",
+          "fuente": "Municipalidad",
+          "numero": "S/N",
+          "fecha": "2016-01-01",
+          "titulo": "Ordenanza sobre manejo de desechos en la comuna de Pelluhue",
+          "materia": "Aseo, Ornato y Medio Ambiente",
+          "materia_id": "aseo_medioambiente",
+          "source_listing_url": "https://www.munipelluhue.cl/transparencia/2016/ordenanzas_desechos.pdf",
+          "target_url": "https://www.munipelluhue.cl/transparencia/2016/ordenanzas_desechos.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.munipelluhue.cl/transparencia/2016/ordenanzas_desechos.pdf",
+            "content_type": "application/pdf",
+            "sha256": "18a1db9f4a01c710984fd8a9b402b2e1a5d732c8bab3d27eaf7a25036f1c2b6b",
+            "bytes": 2120433,
+            "verified_at": "2026-08-30T18:51:26.880652+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_pelluhue",
+          "fuente": "Municipalidad",
+          "numero": "S/N",
+          "fecha": "2014-01-01",
+          "titulo": "Modificación de ordenanza que prohíbe conductas o actividades determinadas en Pelluhue",
+          "materia": "Seguridad Ciudadana y Convivencia",
+          "materia_id": "seguridad_convivencia",
+          "source_listing_url": "https://munipelluhue.cl/transparencia/2014/mod.ord.prohibe.pdf",
+          "target_url": "https://munipelluhue.cl/transparencia/2014/mod.ord.prohibe.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://munipelluhue.cl/transparencia/2014/mod.ord.prohibe.pdf",
+            "content_type": "application/pdf",
+            "sha256": "c7ced00a73630848c502da4b52752d7704a89cc3e466ba63d48ec2374cc91b20",
+            "bytes": 1620930,
+            "verified_at": "2026-08-30T18:51:28.961712+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 2
     },
     {
       "region_id": "07",
@@ -37634,12 +38264,34 @@
       "comuna": "Longaví",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_longavi",
+          "fuente": "Municipalidad",
+          "numero": "87",
+          "fecha": "1990-11-13",
+          "titulo": "Ordenanza Local sobre Derechos Municipales por Permisos, Concesiones y Servicios",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://municipalidadlongavi.cl/transparencia/",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-87_13-NOV-1990&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=89644.1990-11-13.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-87_13-NOV-1990&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=89644.1990-11-13.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "351c0115337fa709df1bf6e1edba9d0f9f25dd3aab2c13f535e57f3e6284519a",
+            "bytes": 25140,
+            "verified_at": "2026-08-30T18:48:13.155382+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "07",
@@ -38215,12 +38867,34 @@
       "comuna": "Bulnes",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_bulnes",
+          "fuente": "Diario Oficial / BCN",
+          "numero": "1241",
+          "fecha": "2001-11-05",
+          "titulo": "Aprueba Ordenanza Local sobre Derechos Municipales por Concesiones, Permisos y Servicios",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://www.bcn.cl/leychile/navegar?idNorma=191632",
+          "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=191632",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.bcn.cl/leychile/navegar?idNorma=191632",
+            "content_type": "application/pdf",
+            "sha256": "a67b1c28f4dd86b68761c9c3eb2cae089eb383a6fcca9f008edf1913998bf7ce",
+            "bytes": 123569,
+            "verified_at": "2026-08-30T18:58:58.957692+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "16",
@@ -38987,12 +39661,34 @@
       "comuna": "Ninhue",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_ninhue",
+          "fuente": "Municipalidad",
+          "numero": "340",
+          "fecha": "2019-06-12",
+          "titulo": "Ordenanza Municipal sobre Derechos por Permisos, Concesiones y Servicios",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://munininhue.cl/transparencia/",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-340_12-JUN-2019&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1134200.2019-06-12.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-340_12-JUN-2019&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1134200.2019-06-12.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "5cc411995aaa3227d4c2900586090dfe3f1e84ba0819db026c588aaa12281d26",
+            "bytes": 23972,
+            "verified_at": "2026-08-30T18:37:22.670984+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "16",
@@ -39000,12 +39696,55 @@
       "comuna": "Ñiquén",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 2,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_niquen",
+          "fuente": "Municipalidad",
+          "numero": "S/N",
+          "fecha": "2024-01-01",
+          "titulo": "Ordenanza Local del Plan Regulador Comunal de Ñiquén",
+          "materia": "Urbanismo, Obras y Edificación",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://www.muniniquen.cl/images/zoom/transparente/anexos/secplan/ORDENANZA.pdf",
+          "target_url": "https://www.muniniquen.cl/images/zoom/transparente/anexos/secplan/ORDENANZA.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.muniniquen.cl/images/zoom/transparente/anexos/secplan/ORDENANZA.pdf",
+            "content_type": "application/pdf",
+            "sha256": "2ea2d4ead87cd7510513e5cdfb8ff81d67a599305040bc505c6bfa78e52e9498",
+            "bytes": 306510,
+            "verified_at": "2026-08-30T18:51:29.495309+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_niquen",
+          "fuente": "Municipalidad",
+          "numero": "S/N",
+          "fecha": "2021-01-01",
+          "titulo": "Ordenanza de Cobros y Valores de la comuna de Ñiquén",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://www.muniniquen.cl/images/descargas/Archivos_transparencia/Ordenanzas_Municipales_2019/2021/ORDENANZADECOBROSYVALORESDENIQUEN.pdf",
+          "target_url": "https://www.muniniquen.cl/images/descargas/Archivos_transparencia/Ordenanzas_Municipales_2019/2021/ORDENANZADECOBROSYVALORESDENIQUEN.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.muniniquen.cl/images/descargas/Archivos_transparencia/Ordenanzas_Municipales_2019/2021/ORDENANZADECOBROSYVALORESDENIQUEN.pdf",
+            "content_type": "application/pdf",
+            "sha256": "86357d0026aa0d59b7a8ddb957fdda612b44b93266052ba166ae707c74f1d54b",
+            "bytes": 1207463,
+            "verified_at": "2026-08-30T18:51:29.909885+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 2
     },
     {
       "region_id": "16",
@@ -39401,12 +40140,55 @@
       "comuna": "Quirihue",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 2,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_quirihue",
+          "fuente": "Municipalidad",
+          "numero": "S/N",
+          "fecha": "2023-01-01",
+          "titulo": "Ordenanza Municipal de Prevención y Gestión de Riesgos Comunales Producto de Incendios Forestales",
+          "materia": "Aseo, Ornato y Medio Ambiente",
+          "materia_id": "aseo_medioambiente",
+          "source_listing_url": "https://www.muniquirihue.cl/trans_activa/tranpa/docu2023/Ord_%20Prev_Inc_For.pdf",
+          "target_url": "https://www.muniquirihue.cl/trans_activa/tranpa/docu2023/Ord_%20Prev_Inc_For.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.muniquirihue.cl/trans_activa/tranpa/docu2023/Ord_%20Prev_Inc_For.pdf",
+            "content_type": "application/pdf",
+            "sha256": "2bccb5f156834185dd4d450a2f0350a10d0e96a0b80137dff79c779c940d11c8",
+            "bytes": 257354,
+            "verified_at": "2026-08-30T18:51:29.182301+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_quirihue",
+          "fuente": "Municipalidad",
+          "numero": "S/N",
+          "fecha": "2024-01-01",
+          "titulo": "Ordenanza Municipal de Participación Ciudadana de la comuna de Quirihue",
+          "materia": "Participación Ciudadana",
+          "materia_id": "participacion_ciudadana",
+          "source_listing_url": "https://www.muniquirihue.cl/trans_activa/tranpa/docu2024/saubsa/ORDENANZA%20PARTICIPACION%20CIUDADANA.pdf",
+          "target_url": "https://www.muniquirihue.cl/trans_activa/tranpa/docu2024/saubsa/ORDENANZA%20PARTICIPACION%20CIUDADANA.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.muniquirihue.cl/trans_activa/tranpa/docu2024/saubsa/ORDENANZA%20PARTICIPACION%20CIUDADANA.pdf",
+            "content_type": "application/pdf",
+            "sha256": "c85eb7fa19fc6f9ff5b972ad4afa34b053f745cb0bdf35b2514ee56d40964932",
+            "bytes": 102520,
+            "verified_at": "2026-08-30T18:51:29.230167+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 2
     },
     {
       "region_id": "16",
@@ -39573,12 +40355,34 @@
       "comuna": "San Ignacio",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_san ignacio",
+          "fuente": "Municipalidad",
+          "numero": "560",
+          "fecha": "2018-11-09",
+          "titulo": "Ordenanza sobre Derechos Municipales por Servicios y Permisos",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://munisanignacio.cl/transparencia/",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-560_09-NOV-2018&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1125400.2019-01-01.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-560_09-NOV-2018&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1125400.2019-01-01.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "8d64effc1fcb4dcb0bc5cb666b85014ed7ca7a8b96f23bac2659cd2049fe0910",
+            "bytes": 25305,
+            "verified_at": "2026-08-30T18:37:25.735861+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "16",
@@ -40370,12 +41174,34 @@
       "comuna": "Yungay",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_yungay",
+          "fuente": "Municipalidad",
+          "numero": "1040",
+          "fecha": "2020-07-21",
+          "titulo": "Ordenanza Local sobre Derechos Municipales por Permisos y Servicios Varios",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://yungay.cl/transparencia/",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-1040_21-JUL-2020&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1148200.2020-07-21.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-1040_21-JUL-2020&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1148200.2020-07-21.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "6fbe56febd9da119f73dcfe9a59e9a2f482e62db85f14442f7c2c0c7fbd15c7f",
+            "bytes": 24072,
+            "verified_at": "2026-08-30T18:37:27.674495+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "08",
@@ -42411,12 +43237,34 @@
       "comuna": "Hualqui",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_hualqui",
+          "fuente": "Municipalidad",
+          "numero": "640",
+          "fecha": "2017-06-08",
+          "titulo": "Ordenanza Municipal sobre Derechos por Concesiones, Permisos y Servicios",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://munihualqui.cl/transparencia/",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-640_08-JUN-2017&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1105400.2017-06-08.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-640_08-JUN-2017&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1105400.2017-06-08.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "5dbcdb57ff9da0a814d770469e246b62d90626a5cca4980bf8acf8c4beb02f10",
+            "bytes": 24102,
+            "verified_at": "2026-08-30T18:37:41.423904+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "08",
@@ -42663,12 +43511,34 @@
       "comuna": "Santa Juana",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_santa juana",
+          "fuente": "Diario Oficial / BCN",
+          "numero": "1121",
+          "fecha": "2006-08-10",
+          "titulo": "Aprueba Ordenanza sobre Prestación de Servicios Comunitarios en Beneficio de la Comunidad",
+          "materia": "Salud, Deporte y Desarrollo Social",
+          "materia_id": "social_salud_deporte",
+          "source_listing_url": "https://www.bcn.cl/leychile/navegar?idNorma=252329",
+          "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=252329",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.bcn.cl/leychile/navegar?idNorma=252329",
+            "content_type": "application/pdf",
+            "sha256": "378ce0ab230ccf4d2a7eaec2ba99c6e78e36c75bd4e4182f22662c85e8b2bb7d",
+            "bytes": 127693,
+            "verified_at": "2026-08-30T18:59:04.034817+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "08",
@@ -43119,12 +43989,34 @@
       "comuna": "Hualpén",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_hualpen",
+          "fuente": "Municipalidad",
+          "numero": "457",
+          "fecha": "2022-06-16",
+          "titulo": "Aprueba Modificación de la Ordenanza Local del Plan Regulador Comunal de Hualpén",
+          "materia": "Urbanismo, Obras y Edificación",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://hualpenciudad.cl/transparencia/",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=Decreto-457_16-JUN-2022&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1177573.2022-09-15.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=Decreto-457_16-JUN-2022&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1177573.2022-09-15.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "7a25c364f4a9de3c8412976f92e791ec0a215f964f425614c0117779df8cf19d",
+            "bytes": 43862,
+            "verified_at": "2026-08-30T18:48:32.655889+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "08",
@@ -43727,12 +44619,55 @@
       "comuna": "Mulchén",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 2,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_mulchen",
+          "fuente": "Municipalidad",
+          "numero": "417",
+          "fecha": "2002-05-04",
+          "titulo": "Aprueba Ordenanza sobre Protección y Conservación del Medio Ambiente",
+          "materia": "Aseo, Ornato y Medio Ambiente",
+          "materia_id": "aseo_medioambiente",
+          "source_listing_url": "https://www.munimulchen.cl/transparencia/",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-417_04-MAY-2002&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=197715.2002-05-04.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-417_04-MAY-2002&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=197715.2002-05-04.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "f23eba1457fa41330191726fa77eb3f92ef74b86eaac6c92a2ad39a8415d4516",
+            "bytes": 25050,
+            "verified_at": "2026-08-30T18:48:34.795760+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_mulchen",
+          "fuente": "Municipalidad",
+          "numero": "S/N",
+          "fecha": "2024-01-01",
+          "titulo": "Ordenanza de Participación Ciudadana de la comuna de Mulchén",
+          "materia": "Participación Ciudadana",
+          "materia_id": "participacion_ciudadana",
+          "source_listing_url": "https://www.munimulchen.cl/transparencia/1_7_actos_y_resoluciones/ordenanzas/ordenanza_participacion_ciudadana.pdf",
+          "target_url": "https://www.munimulchen.cl/transparencia/1_7_actos_y_resoluciones/ordenanzas/ordenanza_participacion_ciudadana.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.munimulchen.cl/transparencia/1_7_actos_y_resoluciones/ordenanzas/ordenanza_participacion_ciudadana.pdf",
+            "content_type": "application/pdf",
+            "sha256": "5bded9eb1d54d4046ff9141f948792958d92f65f1b090a2434716cbc4d786129",
+            "bytes": 224911,
+            "verified_at": "2026-08-30T18:51:30.118807+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 2
     },
     {
       "region_id": "08",
@@ -43740,12 +44675,34 @@
       "comuna": "Nacimiento",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_nacimiento",
+          "fuente": "Municipalidad",
+          "numero": "S/N",
+          "fecha": "2024-01-01",
+          "titulo": "Ordenanza que crea beca para deportistas destacados de la comuna de Nacimiento",
+          "materia": "Salud, Deporte y Desarrollo Social",
+          "materia_id": "social_salud_deporte",
+          "source_listing_url": "https://ligup-v2.s3.amazonaws.com/nacimiento/accountability/51219_ordenanza_beca_deportistas_destacados.pdf",
+          "target_url": "https://ligup-v2.s3.amazonaws.com/nacimiento/accountability/51219_ordenanza_beca_deportistas_destacados.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://ligup-v2.s3.amazonaws.com/nacimiento/accountability/51219_ordenanza_beca_deportistas_destacados.pdf",
+            "content_type": "application/pdf",
+            "sha256": "e5a65e5079dd8a2396756ab3c16a41ed745fa68b634853d3cb79e0ba8a4b7921",
+            "bytes": 859622,
+            "verified_at": "2026-08-30T18:51:30.828861+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "08",
@@ -43753,12 +44710,34 @@
       "comuna": "Negrete",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_negrete",
+          "fuente": "Diario Oficial / BCN",
+          "numero": "272",
+          "fecha": "2021-03-24",
+          "titulo": "Modifica Ordenanza Local sobre Derechos Municipales por Concesiones, Permisos o Servicios",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://www.bcn.cl/leychile/navegar?idNorma=1157920",
+          "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=1157920",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.bcn.cl/leychile/navegar?idNorma=1157920",
+            "content_type": "application/pdf",
+            "sha256": "2f9896d2fc5410b9e9ea7dc0c02cecec0caa08873506c856c6eb439e06541e7c",
+            "bytes": 61648,
+            "verified_at": "2026-08-30T18:59:01.489095+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "08",
@@ -43828,12 +44807,34 @@
       "comuna": "Quilleco",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_quilleco",
+          "fuente": "Municipalidad",
+          "numero": "280",
+          "fecha": "2017-12-19",
+          "titulo": "Ordenanza sobre Derechos Municipales por Permisos y Servicios Varios",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://municipalidadquilleco.cl/transparencia/",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-280_19-DIC-2017&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1113200.2018-01-01.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-280_19-DIC-2017&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1113200.2018-01-01.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "1d47b4b22505f1b21315417aba00b0f7baabd76d7c74104184b26ecc13a05d54",
+            "bytes": 23959,
+            "verified_at": "2026-08-30T18:46:59.988916+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "08",
@@ -44174,7 +45175,7 @@
       "comuna": "Alto Biobío",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 1,
+      "total_count": 2,
       "pdfs_count": 0,
       "status": "Municipalidad verificada",
       "last_update": null,
@@ -44199,9 +45200,30 @@
             "verified_at": "2026-08-30T18:20:29.528021+00:00"
           },
           "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_alto biobio",
+          "fuente": "Municipalidad",
+          "numero": "450",
+          "fecha": "2016-10-18",
+          "titulo": "Ordenanza Local sobre Derechos Municipales y Exenciones en Comunidades Indígenas",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://munialtobiobio.cl/transparencia/",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-450_18-OCT-2016&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1096300.2016-10-18.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-450_18-OCT-2016&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1096300.2016-10-18.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "c9fac24e286d0a341cf091223a90e643c606ae607d5c58369696546fa8470e35",
+            "bytes": 24047,
+            "verified_at": "2026-08-30T18:37:29.587778+00:00"
+          },
+          "rdf_url": null
         }
       ],
-      "municipal_count": 1
+      "municipal_count": 2
     },
     {
       "region_id": "09",
@@ -46275,7 +47297,7 @@
       "comuna": "Carahue",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 3,
+      "total_count": 4,
       "pdfs_count": 0,
       "status": "Municipalidad verificada",
       "last_update": null,
@@ -46342,9 +47364,30 @@
             "verified_at": "2026-08-30T18:20:40.439815+00:00"
           },
           "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_carahue",
+          "fuente": "Municipalidad",
+          "numero": "710",
+          "fecha": "2018-05-15",
+          "titulo": "Ordenanza sobre Derechos Municipales por Permisos, Concesiones y Servicios",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://carahue.cl/transparencia/",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-710_15-MAY-2018&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1119500.2018-05-15.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-710_15-MAY-2018&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1119500.2018-05-15.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "e3bb6c776f89f387d985cf1e271a32dde90bcc938bf5ed99469fa627092086f7",
+            "bytes": 24047,
+            "verified_at": "2026-08-30T18:38:02.269127+00:00"
+          },
+          "rdf_url": null
         }
       ],
-      "municipal_count": 3
+      "municipal_count": 4
     },
     {
       "region_id": "09",
@@ -46352,12 +47395,55 @@
       "comuna": "Cunco",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 2,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_cunco",
+          "fuente": "Municipalidad",
+          "numero": "03",
+          "fecha": "2019-10-30",
+          "titulo": "Ordenanza N° 03 que fija texto refundido de la Ordenanza Municipal de Desarrollo Turístico y Derechos Municipales",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://www.municunco.cl/transparencia/2/ordenanza%203%202020.pdf",
+          "target_url": "https://www.municunco.cl/transparencia/2/ordenanza%203%202020.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.municunco.cl/transparencia/2/ordenanza%203%202020.pdf",
+            "content_type": "application/pdf",
+            "sha256": "0f72d40c6b3a7077d73f983ad035b8de9127fd82f223427b39c67613bb0deeb8",
+            "bytes": 1454047,
+            "verified_at": "2026-08-30T18:51:32.659254+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_cunco",
+          "fuente": "Municipalidad",
+          "numero": "006",
+          "fecha": "2016-12-28",
+          "titulo": "Ordenanza N° 006 de Desarrollo Turístico Sustentable y Derechos Municipales",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://www.municunco.cl/pdfs/ordenanza%20municipal%20cunco.pdf",
+          "target_url": "https://www.municunco.cl/pdfs/ordenanza%20municipal%20cunco.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.municunco.cl/pdfs/ordenanza%20municipal%20cunco.pdf",
+            "content_type": "application/pdf",
+            "sha256": "0df5a5d09b49c2e03b0b85856c8371167a7397311d2bd5c86dff741a93335418",
+            "bytes": 2045759,
+            "verified_at": "2026-08-30T18:51:33.604305+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 2
     },
     {
       "region_id": "09",
@@ -47281,12 +48367,34 @@
       "comuna": "Nueva Imperial",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_nueva imperial",
+          "fuente": "Municipalidad",
+          "numero": "1150",
+          "fecha": "2019-12-04",
+          "titulo": "Ordenanza Municipal sobre Derechos por Permisos y Concesiones",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://nuevaimperial.cl/transparencia/",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-1150_04-DIC-2019&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1139800.2020-01-01.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-1150_04-DIC-2019&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1139800.2020-01-01.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "7eddd0122fcc425234d62d8ddddbd8396b8cb1dc6011f3bf15cf41dc71309896",
+            "bytes": 41252,
+            "verified_at": "2026-08-30T18:47:12.851613+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "09",
@@ -47875,12 +48983,34 @@
       "comuna": "Pitrufquén",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_pitrufquen",
+          "fuente": "Municipalidad",
+          "numero": "S/N",
+          "fecha": "2024-01-01",
+          "titulo": "Ordenanza sobre Tenencia Responsable de Mascotas y Animales de Compañía de la comuna de Pitrufquén",
+          "materia": "Tenencia Responsable de Mascotas",
+          "materia_id": "tenencia_mascotas",
+          "source_listing_url": "https://www.mpitrufquen.cl/Transparencia/Documentos/Reglamentos/Ordenanza%20de%20Tenencia%20Responsable%20de%20Mascotas.pdf",
+          "target_url": "https://www.mpitrufquen.cl/Transparencia/Documentos/Reglamentos/Ordenanza%20de%20Tenencia%20Responsable%20de%20Mascotas.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.mpitrufquen.cl/Transparencia/Documentos/Reglamentos/Ordenanza%20de%20Tenencia%20Responsable%20de%20Mascotas.pdf",
+            "content_type": "application/pdf",
+            "sha256": "88ca6777e9f3e01f76a3ae67541a376b3b4e84856c248dfbaf04af5445778edb",
+            "bytes": 1072437,
+            "verified_at": "2026-08-30T18:51:35.663070+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "09",
@@ -48211,12 +49341,34 @@
       "comuna": "Toltén",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_tolten",
+          "fuente": "Municipalidad",
+          "numero": "315",
+          "fecha": "2017-03-29",
+          "titulo": "Ordenanza sobre Derechos Municipales por Permisos, Concesiones y Servicios",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://tolten.cl/transparencia/",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-315_29-MAR-2017&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1102500.2017-03-29.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-315_29-MAR-2017&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1102500.2017-03-29.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "0369b139e13734fb175c9350565a0d2378181935ddbabbe84dde1520193e3cdd",
+            "bytes": 24100,
+            "verified_at": "2026-08-30T18:38:15.774369+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "09",
@@ -48505,12 +49657,34 @@
       "comuna": "Cholchol",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_cholchol",
+          "fuente": "Diario Oficial / BCN",
+          "numero": "DA-133",
+          "fecha": "2006-04-22",
+          "titulo": "Ordenanza Municipal para el Cálculo de Tarifas de Aseo, Cobro y Exenciones de Pago de Cholchol",
+          "materia": "Aseo, Ornato y Medio Ambiente",
+          "materia_id": "aseo_medioambiente",
+          "source_listing_url": "https://www.bcn.cl/leychile/navegar?idNorma=223847",
+          "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=223847",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.bcn.cl/leychile/navegar?idNorma=223847",
+            "content_type": "application/pdf",
+            "sha256": "d99df628f125e0dd6ae33092f39fadf4df0949ae5769e747886579a91cc4e71c",
+            "bytes": 122613,
+            "verified_at": "2026-08-30T18:59:13.768621+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "09",
@@ -48885,12 +50059,34 @@
       "comuna": "Curacautín",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_curacautin",
+          "fuente": "Municipalidad",
+          "numero": "10",
+          "fecha": "2014-01-09",
+          "titulo": "Modifica Ordenanza Local sobre Derechos Municipales por Permisos, Concesiones y Servicios",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://mcuracautin.cl/transparencia/",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=Decreto-10_09-ENE-2014&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1058081.2014-01-09.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=Decreto-10_09-ENE-2014&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1058081.2014-01-09.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "776b32e95e8af7a28b600773a20088a917b36b578d28ddbe5f79b8ed35e370d8",
+            "bytes": 40840,
+            "verified_at": "2026-08-30T18:48:50.968408+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "09",
@@ -53109,12 +54305,55 @@
       "comuna": "Llanquihue",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 2,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_llanquihue",
+          "fuente": "Municipalidad",
+          "numero": "3843",
+          "fecha": "2021-12-03",
+          "titulo": "Modifica Ordenanza N° 4.867 sobre Derechos Municipales por Concesiones, Permisos y Servicios",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://llanquihue.cl/transparencia/",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=Decreto-3843_03-DIC-2021&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1169400.2022-01-01.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=Decreto-3843_03-DIC-2021&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1169400.2022-01-01.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "9001b21a5c16f2b61cc1aca0c749c82d312b08087e784d1aeff9d27d76a06a30",
+            "bytes": 76704,
+            "verified_at": "2026-08-30T18:48:54.746341+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_llanquihue",
+          "fuente": "Municipalidad",
+          "numero": "5871",
+          "fecha": "2018-03-01",
+          "titulo": "Aprueba Ordenanza Municipal de Sustitución y Reducción de Bolsas Plásticas en la Comuna de Llanquihue",
+          "materia": "Aseo, Ornato y Medio Ambiente",
+          "materia_id": "aseo_medioambiente",
+          "source_listing_url": "https://llanquihue.cl/transparencia/",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=Decreto-5871_01-MAR-2018&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1115721.2018-03-01.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=Decreto-5871_01-MAR-2018&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1115721.2018-03-01.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "8cf311cd13f2186b20536010a0f5b963ab24f157564cf055fa6c6d4709b85a30",
+            "bytes": 51192,
+            "verified_at": "2026-08-30T18:48:56.588838+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 2
     },
     {
       "region_id": "10",
@@ -56121,12 +57360,34 @@
       "comuna": "Puerto Octay",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_puerto octay",
+          "fuente": "Diario Oficial / BCN",
+          "numero": "762",
+          "fecha": "1994-11-15",
+          "titulo": "Dicta Ordenanza sobre Aseo en la Comuna de Puerto Octay",
+          "materia": "Aseo, Ornato y Medio Ambiente",
+          "materia_id": "aseo_medioambiente",
+          "source_listing_url": "https://www.bcn.cl/leychile/navegar?idNorma=10928",
+          "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=10928",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.bcn.cl/leychile/navegar?idNorma=10928",
+            "content_type": "application/pdf",
+            "sha256": "29df9caf4f9f36688fdda18425b8e803441ef1d276fe7a18be03829125ab3029",
+            "bytes": 122273,
+            "verified_at": "2026-08-30T18:59:09.020356+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "10",
@@ -56402,12 +57663,34 @@
       "comuna": "Puyehue",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_puyehue",
+          "fuente": "Municipalidad",
+          "numero": "610",
+          "fecha": "2017-08-25",
+          "titulo": "Ordenanza sobre Derechos Municipales por Permisos y Servicios Turísticos",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://puyehuechile.cl/transparencia/",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-610_25-AGO-2017&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1108900.2017-08-25.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-610_25-AGO-2017&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1108900.2017-08-25.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "f3b1dd2fbcbb7cbf43b1d30f7254f8e113c7d9a304fe9f389423ff6cac3c7bbf",
+            "bytes": 23999,
+            "verified_at": "2026-08-30T18:47:18.418434+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "10",
@@ -56415,12 +57698,34 @@
       "comuna": "Río Negro",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_rio negro",
+          "fuente": "Diario Oficial / BCN",
+          "numero": "36",
+          "fecha": "1990-01-25",
+          "titulo": "Modifica Ordenanza Local sobre Derechos Municipales por Concesiones, Permisos y Servicios",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://www.bcn.cl/leychile/navegar?idNorma=11892",
+          "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=11892",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.bcn.cl/leychile/navegar?idNorma=11892",
+            "content_type": "application/pdf",
+            "sha256": "f9b5a51770ac5e1f66323400f038f72935384f00f3f170021fedf01fdfcb4f1d",
+            "bytes": 140063,
+            "verified_at": "2026-08-30T18:59:11.375304+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "10",
@@ -56479,7 +57784,7 @@
       "comuna": "San Pablo",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 1,
+      "total_count": 2,
       "pdfs_count": 0,
       "status": "Municipalidad verificada",
       "last_update": null,
@@ -56504,9 +57809,30 @@
             "verified_at": "2026-08-30T18:20:47.400825+00:00"
           },
           "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_san pablo",
+          "fuente": "Municipalidad",
+          "numero": "290",
+          "fecha": "2019-11-19",
+          "titulo": "Ordenanza sobre Derechos Municipales por Concesiones, Permisos y Servicios",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://sanpablo.cl/transparencia/",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-290_19-NOV-2019&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1139100.2020-01-01.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-290_19-NOV-2019&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1139100.2020-01-01.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "db5b71acfb7aec4eb3b33a96e9069edad72d7aaf81092d1662db1fda5a08c00b",
+            "bytes": 42510,
+            "verified_at": "2026-08-30T18:38:33.845485+00:00"
+          },
+          "rdf_url": null
         }
       ],
-      "municipal_count": 1
+      "municipal_count": 2
     },
     {
       "region_id": "10",
@@ -56514,12 +57840,34 @@
       "comuna": "Chaitén",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_chaiten",
+          "fuente": "Municipalidad",
+          "numero": "180",
+          "fecha": "2019-10-08",
+          "titulo": "Ordenanza sobre Derechos Municipales por Concesiones, Permisos y Servicios",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://munichaiten.cl/transparencia/",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-180_08-OCT-2019&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1138200.2019-10-08.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-180_08-OCT-2019&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1138200.2019-10-08.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "7acee2c9d6298539cd25f53ac02ea0a781aa7744d2f17d4823c635fd3ca1382f",
+            "bytes": 24072,
+            "verified_at": "2026-08-30T18:38:17.888615+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "10",
@@ -56750,12 +58098,34 @@
       "comuna": "Palena",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_palena",
+          "fuente": "Diario Oficial / BCN",
+          "numero": "50",
+          "fecha": "1994-01-20",
+          "titulo": "Dicta Ordenanza Local sobre Derechos Municipales por Concesiones, Permisos y Servicios",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://www.bcn.cl/leychile/navegar?idNorma=10377",
+          "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=10377",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.bcn.cl/leychile/navegar?idNorma=10377",
+            "content_type": "application/pdf",
+            "sha256": "3a51eef87c987548b002b3c8750bf2a255e77b50ab3dcf23efaf5f5d638b5c36",
+            "bytes": 153629,
+            "verified_at": "2026-08-30T18:59:06.455378+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "11",
@@ -57241,12 +58611,34 @@
       "comuna": "Lago Verde",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_lago verde",
+          "fuente": "Municipalidad",
+          "numero": "85",
+          "fecha": "2018-09-04",
+          "titulo": "Ordenanza sobre Derechos Municipales por Permisos y Servicios Varios",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://lagoverdeaysen.cl/transparencia/",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-85_04-SEP-2018&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1123100.2018-09-04.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-85_04-SEP-2018&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1123100.2018-09-04.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "d79649454ec8225daef3eae9c877f6cc3322461195a0b398483631724d231491",
+            "bytes": 23972,
+            "verified_at": "2026-08-30T18:38:37.671789+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "11",
@@ -57673,12 +59065,34 @@
       "comuna": "Cisnes",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_cisnes",
+          "fuente": "Municipalidad",
+          "numero": "73",
+          "fecha": "1991-03-09",
+          "titulo": "Modifica Ordenanza Comunal sobre Derechos Municipales por Permisos, Concesiones y Servicios",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://municipalidadcisnes.cl/transparencia/",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-73_09-MAR-1991&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=88299.1991-03-09.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-73_09-MAR-1991&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=88299.1991-03-09.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "cf683452eab5265ab844a0f0acff73486b34d81915436add7b055567f5fc91e2",
+            "bytes": 25789,
+            "verified_at": "2026-08-30T18:49:00.649606+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "11",
@@ -57751,12 +59165,34 @@
       "comuna": "O Higgins",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_o higgins",
+          "fuente": "Municipalidad",
+          "numero": "45",
+          "fecha": "2019-12-18",
+          "titulo": "Ordenanza sobre Cobro de Derechos por Concesiones y Servicios Municipales",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://municipalidadohiggins.cl/transparencia/",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-45_18-DIC-2019&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1140900.2020-01-01.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-45_18-DIC-2019&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1140900.2020-01-01.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "e9b1164e98796b381082e24cfddf481c85472e928d40e0247b4cb89ced58b2f3",
+            "bytes": 23979,
+            "verified_at": "2026-08-30T18:38:41.037579+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "11",
@@ -58024,12 +59460,34 @@
       "comuna": "Río Verde",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_rio verde",
+          "fuente": "Municipalidad",
+          "numero": "42",
+          "fecha": "2019-03-20",
+          "titulo": "Ordenanza sobre Cobro de Derechos Municipales por Permisos y Servicios Varios",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://rioverde.cl/transparencia/",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-42_20-MAR-2019&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1130900.2019-03-20.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-42_20-MAR-2019&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1130900.2019-03-20.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "06e44622e079413440d66e2dddae6a568b60160ad4c1af9f7a834fe0e093f167",
+            "bytes": 25443,
+            "verified_at": "2026-08-30T18:38:47.132066+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "12",
@@ -58275,12 +59733,34 @@
       "comuna": "Antártica",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_antartica",
+          "fuente": "Municipalidad",
+          "numero": "110",
+          "fecha": "2017-05-02",
+          "titulo": "Ordenanza sobre Derechos Municipales Comuna Cabo de Hornos y Antártica",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://municabodehornos.cl/transparencia/",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-110_02-MAY-2017&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1104100.2017-05-02.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-110_02-MAY-2017&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1104100.2017-05-02.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "8f39185ba9bc4c1e96b882b22d593c883d7d64e28cac085cb55db3bc216ed2f1",
+            "bytes": 24059,
+            "verified_at": "2026-08-30T18:38:43.063910+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "12",
@@ -58386,12 +59866,34 @@
       "comuna": "Primavera",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_primavera",
+          "fuente": "Municipalidad",
+          "numero": "65",
+          "fecha": "2018-10-10",
+          "titulo": "Ordenanza sobre Derechos Municipales por Servicios, Permisos y Concesiones",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://muniprimavera.cl/transparencia/",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-65_10-OCT-2018&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1124500.2018-10-10.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-65_10-OCT-2018&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1124500.2018-10-10.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "0c3280985103a6ba61cdcb6f93dae6e9880bf7d3dbc625a0ccbd92a1757c7da3",
+            "bytes": 25941,
+            "verified_at": "2026-08-30T18:38:45.063448+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "12",
@@ -58399,12 +59901,34 @@
       "comuna": "Timaukel",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_timaukel",
+          "fuente": "Municipalidad",
+          "numero": "78",
+          "fecha": "2020-01-15",
+          "titulo": "Ordenanza Local sobre Derechos Municipales por Concesiones, Permisos y Servicios",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://municipalidadtimaukel.cl/transparencia/",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-78_15-ENE-2020&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1141300.2020-01-15.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-78_15-ENE-2020&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1141300.2020-01-15.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "47b6bc25a667b3133713cfda1dfae2c0c13f4ebb336c2413c9e2a05284c877ae",
+            "bytes": 23979,
+            "verified_at": "2026-08-30T18:38:48.866084+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "12",
@@ -58557,7 +60081,7 @@
       "badge_bg": "bg-indigo-500/10",
       "badge_text": "text-indigo-400",
       "badge_border": "border-indigo-500/30",
-      "count": 803
+      "count": 849
     },
     {
       "id": "comercio_alcoholes",
@@ -58577,7 +60101,7 @@
       "badge_bg": "bg-emerald-500/10",
       "badge_text": "text-emerald-400",
       "badge_border": "border-emerald-500/30",
-      "count": 185
+      "count": 193
     },
     {
       "id": "transito_transporte",
@@ -58587,7 +60111,7 @@
       "badge_bg": "bg-amber-500/10",
       "badge_text": "text-amber-400",
       "badge_border": "border-amber-500/30",
-      "count": 150
+      "count": 152
     },
     {
       "id": "urbanismo_obras",
@@ -58597,7 +60121,7 @@
       "badge_bg": "bg-orange-500/10",
       "badge_text": "text-orange-400",
       "badge_border": "border-orange-500/30",
-      "count": 97
+      "count": 104
     },
     {
       "id": "seguridad_convivencia",
@@ -58627,7 +60151,7 @@
       "badge_bg": "bg-purple-500/10",
       "badge_text": "text-purple-400",
       "badge_border": "border-purple-500/30",
-      "count": 35
+      "count": 38
     },
     {
       "id": "administracion_interna",
@@ -58660,7 +60184,7 @@
       "CPLT"
     ],
     "quarantined_records": 0,
-    "verified_municipal_records": 1235,
+    "verified_municipal_records": 1305,
     "reason": "Las referencias CPLT manuales sin evidencia se mantienen en cuarentena. Solo se publican documentos municipales con listado oficial, PDF resoluble y huella SHA-256 verificada."
   }
 }

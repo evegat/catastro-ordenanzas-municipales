@@ -123,19 +123,37 @@
       maxZoom: 19,
     }).addTo(mapaInstance);
 
-    fetch('mapa_data.json')
-      .then(r => r.json())
-      .then(data => {
-        mapaData = data;
+    function loadDataAndRender() {
+      if (typeof MAPA_DATA !== 'undefined' && Array.isArray(MAPA_DATA) && MAPA_DATA.length > 0) {
+        mapaData = MAPA_DATA;
         if (loading) loading.style.display = 'none';
         const filter = document.getElementById('mapa-topic-filter');
         renderMarkers(filter ? filter.value : 'ALL');
-      })
-      .catch(e => {
-        console.error('Error loading mapa_data.json:', e);
-        if (loading) loading.innerHTML = '<p style="color:#ef4444;font-size:12px">Error cargando datos del mapa.</p>';
-      });
+      } else {
+        fetch('mapa_data.json')
+          .then(r => r.json())
+          .then(data => {
+            mapaData = data;
+            if (loading) loading.style.display = 'none';
+            const filter = document.getElementById('mapa-topic-filter');
+            renderMarkers(filter ? filter.value : 'ALL');
+          })
+          .catch(e => {
+            console.error('Error loading mapa_data.json:', e);
+            if (loading) loading.innerHTML = '<p style="color:#ef4444;font-size:12px">Error cargando datos del mapa.</p>';
+          });
+      }
+    }
+
+    loadDataAndRender();
   }
+
+  window.initChileMap = function() {
+    initMap();
+    if (mapaInstance) {
+      setTimeout(() => mapaInstance.invalidateSize(), 50);
+    }
+  };
 
   window.updateMapFilter = function () {
     const filter = document.getElementById('mapa-topic-filter');
@@ -149,8 +167,7 @@
     if (_origSwitchTab) _origSwitchTab(tabId);
     if (tabId === 'mapa') {
       setTimeout(() => {
-        initMap();
-        if (mapaInstance) mapaInstance.invalidateSize();
+        window.initChileMap();
       }, 100);
     }
   };

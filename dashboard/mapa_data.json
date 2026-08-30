@@ -17,13 +17,15 @@
   {
     "comuna": "Camarones",
     "region": "Arica y Parinacota",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -19.0142,
     "lon": -69.8647,
-    "topics": {}
+    "topics": {
+      "derechos_tarifas": 1
+    }
   },
   {
     "comuna": "Putre",
@@ -110,13 +112,15 @@
   {
     "comuna": "Camiña",
     "region": "Tarapacá",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -19.3142,
     "lon": -69.4261,
-    "topics": {}
+    "topics": {
+      "derechos_tarifas": 1
+    }
   },
   {
     "comuna": "Colchane",
@@ -372,13 +376,15 @@
   {
     "comuna": "Diego de Almagro",
     "region": "Atacama",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -26.3922,
     "lon": -70.0467,
-    "topics": {}
+    "topics": {
+      "derechos_tarifas": 1
+    }
   },
   {
     "comuna": "Vallenar",
@@ -416,13 +422,15 @@
   {
     "comuna": "Freirina",
     "region": "Atacama",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -28.5083,
     "lon": -71.0778,
-    "topics": {}
+    "topics": {
+      "urbanismo_obras": 1
+    }
   },
   {
     "comuna": "Huasco",
@@ -496,13 +504,15 @@
   {
     "comuna": "Paiguano",
     "region": "Coquimbo",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -30.0308,
     "lon": -70.5186,
-    "topics": {}
+    "topics": {
+      "derechos_tarifas": 1
+    }
   },
   {
     "comuna": "Vicuña",
@@ -535,13 +545,15 @@
   {
     "comuna": "Canela",
     "region": "Coquimbo",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -31.4,
     "lon": -71.4583,
-    "topics": {}
+    "topics": {
+      "transito_transporte": 1
+    }
   },
   {
     "comuna": "Los Vilos",
@@ -618,13 +630,15 @@
   {
     "comuna": "Punitaqui",
     "region": "Coquimbo",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -30.8333,
     "lon": -71.2667,
-    "topics": {}
+    "topics": {
+      "social_salud_deporte": 1
+    }
   },
   {
     "comuna": "Río Hurtado",
@@ -863,13 +877,15 @@
   {
     "comuna": "Petorca",
     "region": "Valparaíso",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -32.2528,
     "lon": -70.9317,
-    "topics": {}
+    "topics": {
+      "derechos_tarifas": 1
+    }
   },
   {
     "comuna": "Zapallar",
@@ -987,13 +1003,15 @@
   {
     "comuna": "Algarrobo",
     "region": "Valparaíso",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -33.3667,
     "lon": -71.6667,
-    "topics": {}
+    "topics": {
+      "derechos_tarifas": 1
+    }
   },
   {
     "comuna": "Cartagena",
@@ -1078,13 +1096,15 @@
   {
     "comuna": "Catemu",
     "region": "Valparaíso",
-    "total": 0,
+    "total": 2,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 2,
+    "status": "Municipalidad verificada",
     "lat": -32.7778,
     "lon": -70.9639,
-    "topics": {}
+    "topics": {
+      "derechos_tarifas": 2
+    }
   },
   {
     "comuna": "Llaillay",
@@ -1167,24 +1187,30 @@
   {
     "comuna": "Limache",
     "region": "Valparaíso",
-    "total": 0,
+    "total": 4,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 4,
+    "status": "Municipalidad verificada",
     "lat": -33.0,
     "lon": -71.2667,
-    "topics": {}
+    "topics": {
+      "transito_transporte": 1,
+      "aseo_medioambiente": 2,
+      "urbanismo_obras": 1
+    }
   },
   {
     "comuna": "Olmué",
     "region": "Valparaíso",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -32.9972,
     "lon": -71.1861,
-    "topics": {}
+    "topics": {
+      "urbanismo_obras": 1
+    }
   },
   {
     "comuna": "Villa Alemana",
@@ -1482,15 +1508,21 @@
   {
     "comuna": "Maipú",
     "region": "Metropolitana de Santiago",
-    "total": 5,
+    "total": 42,
     "bcn": 5,
-    "municipal": 0,
-    "status": "Cargado BCN",
+    "municipal": 37,
+    "status": "BCN + Municipalidad verificada",
     "lat": -33.5111,
     "lon": -70.7583,
     "topics": {
-      "transito_transporte": 1,
-      "derechos_tarifas": 4
+      "transito_transporte": 3,
+      "derechos_tarifas": 15,
+      "alcoholes_comercio": 6,
+      "social_salud_deporte": 4,
+      "urbanismo_obras": 3,
+      "aseo_medioambiente": 3,
+      "general": 7,
+      "seguridad_convivencia": 1
     }
   },
   {
@@ -1568,13 +1600,15 @@
   {
     "comuna": "Pudahuel",
     "region": "Metropolitana de Santiago",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -33.4389,
     "lon": -70.7556,
-    "topics": {}
+    "topics": {
+      "derechos_tarifas": 1
+    }
   },
   {
     "comuna": "Quilicura",
@@ -2044,13 +2078,15 @@
   {
     "comuna": "Coinco",
     "region": "O Higgins",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -34.2667,
     "lon": -70.95,
-    "topics": {}
+    "topics": {
+      "derechos_tarifas": 1
+    }
   },
   {
     "comuna": "Coltauco",
@@ -2068,13 +2104,15 @@
   {
     "comuna": "Doñihue",
     "region": "O Higgins",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -34.2333,
     "lon": -70.9667,
-    "topics": {}
+    "topics": {
+      "derechos_tarifas": 1
+    }
   },
   {
     "comuna": "Graneros",
@@ -2175,13 +2213,15 @@
   {
     "comuna": "Pichidegua",
     "region": "O Higgins",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -34.35,
     "lon": -71.2833,
-    "topics": {}
+    "topics": {
+      "derechos_tarifas": 1
+    }
   },
   {
     "comuna": "Quinta de Tilcoco",
@@ -2380,14 +2420,15 @@
   {
     "comuna": "Lolol",
     "region": "O Higgins",
-    "total": 2,
+    "total": 3,
     "bcn": 0,
-    "municipal": 2,
+    "municipal": 3,
     "status": "Municipalidad verificada",
     "lat": -34.7333,
     "lon": -71.65,
     "topics": {
-      "general": 2
+      "general": 2,
+      "derechos_tarifas": 1
     }
   },
   {
@@ -2406,15 +2447,16 @@
   {
     "comuna": "Palmilla",
     "region": "O Higgins",
-    "total": 3,
+    "total": 4,
     "bcn": 0,
-    "municipal": 3,
+    "municipal": 4,
     "status": "Municipalidad verificada",
     "lat": -34.5833,
     "lon": -71.3667,
     "topics": {
       "seguridad_convivencia": 1,
-      "general": 2
+      "general": 2,
+      "derechos_tarifas": 1
     }
   },
   {
@@ -2433,24 +2475,28 @@
   {
     "comuna": "Placilla",
     "region": "O Higgins",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -34.6333,
     "lon": -71.1167,
-    "topics": {}
+    "topics": {
+      "derechos_tarifas": 1
+    }
   },
   {
     "comuna": "Pumanque",
     "region": "O Higgins",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -34.6,
     "lon": -71.6667,
-    "topics": {}
+    "topics": {
+      "derechos_tarifas": 1
+    }
   },
   {
     "comuna": "Santa Cruz",
@@ -2529,13 +2575,15 @@
   {
     "comuna": "Maule",
     "region": "Maule",
-    "total": 0,
+    "total": 2,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 2,
+    "status": "Municipalidad verificada",
     "lat": -35.5333,
     "lon": -71.7,
-    "topics": {}
+    "topics": {
+      "urbanismo_obras": 2
+    }
   },
   {
     "comuna": "Pelarco",
@@ -2624,24 +2672,29 @@
   {
     "comuna": "Chanco",
     "region": "Maule",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -35.7333,
     "lon": -72.5333,
-    "topics": {}
+    "topics": {
+      "derechos_tarifas": 1
+    }
   },
   {
     "comuna": "Pelluhue",
     "region": "Maule",
-    "total": 0,
+    "total": 2,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 2,
+    "status": "Municipalidad verificada",
     "lat": -35.8167,
     "lon": -72.5667,
-    "topics": {}
+    "topics": {
+      "aseo_medioambiente": 1,
+      "seguridad_convivencia": 1
+    }
   },
   {
     "comuna": "Curicó",
@@ -2798,13 +2851,15 @@
   {
     "comuna": "Longaví",
     "region": "Maule",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -35.9667,
     "lon": -71.6833,
-    "topics": {}
+    "topics": {
+      "derechos_tarifas": 1
+    }
   },
   {
     "comuna": "Parral",
@@ -2893,13 +2948,15 @@
   {
     "comuna": "Bulnes",
     "region": "Ñuble",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -36.7417,
     "lon": -72.2986,
-    "topics": {}
+    "topics": {
+      "derechos_tarifas": 1
+    }
   },
   {
     "comuna": "Cobquecura",
@@ -2975,24 +3032,29 @@
   {
     "comuna": "Ninhue",
     "region": "Ñuble",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -36.3986,
     "lon": -72.3986,
-    "topics": {}
+    "topics": {
+      "derechos_tarifas": 1
+    }
   },
   {
     "comuna": "Ñiquén",
     "region": "Ñuble",
-    "total": 0,
+    "total": 2,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 2,
+    "status": "Municipalidad verificada",
     "lat": -36.3,
     "lon": -71.9,
-    "topics": {}
+    "topics": {
+      "urbanismo_obras": 1,
+      "derechos_tarifas": 1
+    }
   },
   {
     "comuna": "Pemuco",
@@ -3053,13 +3115,16 @@
   {
     "comuna": "Quirihue",
     "region": "Ñuble",
-    "total": 0,
+    "total": 2,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 2,
+    "status": "Municipalidad verificada",
     "lat": -36.2833,
     "lon": -72.5333,
-    "topics": {}
+    "topics": {
+      "aseo_medioambiente": 1,
+      "participacion_ciudadana": 1
+    }
   },
   {
     "comuna": "Ránquil",
@@ -3107,13 +3172,15 @@
   {
     "comuna": "San Ignacio",
     "region": "Ñuble",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -36.7833,
     "lon": -72.0333,
-    "topics": {}
+    "topics": {
+      "derechos_tarifas": 1
+    }
   },
   {
     "comuna": "San Nicolás",
@@ -3144,13 +3211,15 @@
   {
     "comuna": "Yungay",
     "region": "Ñuble",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -37.1167,
     "lon": -72.0167,
-    "topics": {}
+    "topics": {
+      "derechos_tarifas": 1
+    }
   },
   {
     "comuna": "Concepción",
@@ -3225,13 +3294,15 @@
   {
     "comuna": "Hualqui",
     "region": "Biobío",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -36.9667,
     "lon": -72.9333,
-    "topics": {}
+    "topics": {
+      "derechos_tarifas": 1
+    }
   },
   {
     "comuna": "Lota",
@@ -3281,13 +3352,15 @@
   {
     "comuna": "Santa Juana",
     "region": "Biobío",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -37.1667,
     "lon": -72.9333,
-    "topics": {}
+    "topics": {
+      "social_salud_deporte": 1
+    }
   },
   {
     "comuna": "Talcahuano",
@@ -3326,13 +3399,15 @@
   {
     "comuna": "Hualpén",
     "region": "Biobío",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -36.7833,
     "lon": -73.1,
-    "topics": {}
+    "topics": {
+      "urbanismo_obras": 1
+    }
   },
   {
     "comuna": "Lebu",
@@ -3488,35 +3563,42 @@
   {
     "comuna": "Mulchén",
     "region": "Biobío",
-    "total": 0,
+    "total": 2,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 2,
+    "status": "Municipalidad verificada",
     "lat": -37.7167,
     "lon": -72.2333,
-    "topics": {}
+    "topics": {
+      "aseo_medioambiente": 1,
+      "participacion_ciudadana": 1
+    }
   },
   {
     "comuna": "Nacimiento",
     "region": "Biobío",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -37.5,
     "lon": -72.6667,
-    "topics": {}
+    "topics": {
+      "social_salud_deporte": 1
+    }
   },
   {
     "comuna": "Negrete",
     "region": "Biobío",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -37.5833,
     "lon": -72.5333,
-    "topics": {}
+    "topics": {
+      "derechos_tarifas": 1
+    }
   },
   {
     "comuna": "Quilaco",
@@ -3535,13 +3617,15 @@
   {
     "comuna": "Quilleco",
     "region": "Biobío",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -37.4667,
     "lon": -71.9667,
-    "topics": {}
+    "topics": {
+      "derechos_tarifas": 1
+    }
   },
   {
     "comuna": "San Rosendo",
@@ -3600,14 +3684,15 @@
   {
     "comuna": "Alto Biobío",
     "region": "Biobío",
-    "total": 1,
+    "total": 2,
     "bcn": 0,
-    "municipal": 1,
+    "municipal": 2,
     "status": "Municipalidad verificada",
     "lat": -38.0333,
     "lon": -71.3667,
     "topics": {
-      "general": 1
+      "general": 1,
+      "derechos_tarifas": 1
     }
   },
   {
@@ -3634,28 +3719,31 @@
   {
     "comuna": "Carahue",
     "region": "La Araucanía",
-    "total": 3,
+    "total": 4,
     "bcn": 0,
-    "municipal": 3,
+    "municipal": 4,
     "status": "Municipalidad verificada",
     "lat": -38.7,
     "lon": -73.1667,
     "topics": {
       "tenencia_mascotas": 1,
       "general": 1,
-      "seguridad_convivencia": 1
+      "seguridad_convivencia": 1,
+      "derechos_tarifas": 1
     }
   },
   {
     "comuna": "Cunco",
     "region": "La Araucanía",
-    "total": 0,
+    "total": 2,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 2,
+    "status": "Municipalidad verificada",
     "lat": -38.9333,
     "lon": -72.0333,
-    "topics": {}
+    "topics": {
+      "derechos_tarifas": 2
+    }
   },
   {
     "comuna": "Curarrehue",
@@ -3762,13 +3850,15 @@
   {
     "comuna": "Nueva Imperial",
     "region": "La Araucanía",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -38.7333,
     "lon": -72.95,
-    "topics": {}
+    "topics": {
+      "derechos_tarifas": 1
+    }
   },
   {
     "comuna": "Padre Las Casas",
@@ -3804,13 +3894,15 @@
   {
     "comuna": "Pitrufquén",
     "region": "La Araucanía",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -38.9833,
     "lon": -72.65,
-    "topics": {}
+    "topics": {
+      "tenencia_mascotas": 1
+    }
   },
   {
     "comuna": "Pucón",
@@ -3860,13 +3952,15 @@
   {
     "comuna": "Toltén",
     "region": "La Araucanía",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -39.2167,
     "lon": -73.1833,
-    "topics": {}
+    "topics": {
+      "derechos_tarifas": 1
+    }
   },
   {
     "comuna": "Vilcún",
@@ -3899,13 +3993,15 @@
   {
     "comuna": "Cholchol",
     "region": "La Araucanía",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -38.6,
     "lon": -72.85,
-    "topics": {}
+    "topics": {
+      "aseo_medioambiente": 1
+    }
   },
   {
     "comuna": "Angol",
@@ -3940,13 +4036,15 @@
   {
     "comuna": "Curacautín",
     "region": "La Araucanía",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -38.4333,
     "lon": -71.8833,
-    "topics": {}
+    "topics": {
+      "derechos_tarifas": 1
+    }
   },
   {
     "comuna": "Ercilla",
@@ -4333,13 +4431,16 @@
   {
     "comuna": "Llanquihue",
     "region": "Los Lagos",
-    "total": 0,
+    "total": 2,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 2,
+    "status": "Municipalidad verificada",
     "lat": -41.25,
     "lon": -73.0,
-    "topics": {}
+    "topics": {
+      "derechos_tarifas": 1,
+      "aseo_medioambiente": 1
+    }
   },
   {
     "comuna": "Maullín",
@@ -4539,13 +4640,15 @@
   {
     "comuna": "Puerto Octay",
     "region": "Los Lagos",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -40.9667,
     "lon": -72.8833,
-    "topics": {}
+    "topics": {
+      "aseo_medioambiente": 1
+    }
   },
   {
     "comuna": "Purranque",
@@ -4566,24 +4669,28 @@
   {
     "comuna": "Puyehue",
     "region": "Los Lagos",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -40.6833,
     "lon": -72.6,
-    "topics": {}
+    "topics": {
+      "derechos_tarifas": 1
+    }
   },
   {
     "comuna": "Río Negro",
     "region": "Los Lagos",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -40.7833,
     "lon": -73.2167,
-    "topics": {}
+    "topics": {
+      "derechos_tarifas": 1
+    }
   },
   {
     "comuna": "San Juan de la Costa",
@@ -4602,26 +4709,29 @@
   {
     "comuna": "San Pablo",
     "region": "Los Lagos",
-    "total": 1,
+    "total": 2,
     "bcn": 0,
-    "municipal": 1,
+    "municipal": 2,
     "status": "Municipalidad verificada",
     "lat": -40.4,
     "lon": -73.0167,
     "topics": {
-      "seguridad_convivencia": 1
+      "seguridad_convivencia": 1,
+      "derechos_tarifas": 1
     }
   },
   {
     "comuna": "Chaitén",
     "region": "Los Lagos",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -42.9167,
     "lon": -72.7,
-    "topics": {}
+    "topics": {
+      "derechos_tarifas": 1
+    }
   },
   {
     "comuna": "Futaleufú",
@@ -4658,13 +4768,15 @@
   {
     "comuna": "Palena",
     "region": "Los Lagos",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -43.6167,
     "lon": -71.8,
-    "topics": {}
+    "topics": {
+      "derechos_tarifas": 1
+    }
   },
   {
     "comuna": "Coyhaique",
@@ -4687,13 +4799,15 @@
   {
     "comuna": "Lago Verde",
     "region": "Aysén",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -44.2333,
     "lon": -71.85,
-    "topics": {}
+    "topics": {
+      "derechos_tarifas": 1
+    }
   },
   {
     "comuna": "Aysén",
@@ -4715,13 +4829,15 @@
   {
     "comuna": "Cisnes",
     "region": "Aysén",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -44.75,
     "lon": -72.7,
-    "topics": {}
+    "topics": {
+      "derechos_tarifas": 1
+    }
   },
   {
     "comuna": "Guaitecas",
@@ -4752,13 +4868,15 @@
   {
     "comuna": "O Higgins",
     "region": "Aysén",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -48.4667,
     "lon": -72.5667,
-    "topics": {}
+    "topics": {
+      "derechos_tarifas": 1
+    }
   },
   {
     "comuna": "Tortel",
@@ -4831,13 +4949,15 @@
   {
     "comuna": "Río Verde",
     "region": "Magallanes",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -52.5667,
     "lon": -71.55,
-    "topics": {}
+    "topics": {
+      "derechos_tarifas": 1
+    }
   },
   {
     "comuna": "San Gregorio",
@@ -4872,13 +4992,15 @@
   {
     "comuna": "Antártica",
     "region": "Magallanes",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -62.2,
     "lon": -58.9667,
-    "topics": {}
+    "topics": {
+      "derechos_tarifas": 1
+    }
   },
   {
     "comuna": "Porvenir",
@@ -4896,24 +5018,28 @@
   {
     "comuna": "Primavera",
     "region": "Magallanes",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -52.8167,
     "lon": -69.25,
-    "topics": {}
+    "topics": {
+      "derechos_tarifas": 1
+    }
   },
   {
     "comuna": "Timaukel",
     "region": "Magallanes",
-    "total": 0,
+    "total": 1,
     "bcn": 0,
-    "municipal": 0,
-    "status": "Sin registros verificados",
+    "municipal": 1,
+    "status": "Municipalidad verificada",
     "lat": -53.5833,
     "lon": -69.75,
-    "topics": {}
+    "topics": {
+      "derechos_tarifas": 1
+    }
   },
   {
     "comuna": "Natales",
