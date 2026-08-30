@@ -381,11 +381,14 @@ def build(dashboard_dir: Path, verified_municipal_path: Path = DEFAULT_VERIFIED_
         encoding="utf-8",
     )
 
+    nb_path = downloads / "analisis_ordenanzas_chile_estudiantes.ipynb"
     with zipfile.ZipFile(zip_path, "w", compression=zipfile.ZIP_DEFLATED) as zf:
         zf.write(xlsx_path, xlsx_path.name)
         zf.write(csv_path, csv_path.name)
         zf.write(json_path, "status_data_public.json")
         zf.write(manifest, manifest.name)
+        if nb_path.exists():
+            zf.write(nb_path, nb_path.name)
 
     patch_public_html(index_path, public["metrics"])
     print(

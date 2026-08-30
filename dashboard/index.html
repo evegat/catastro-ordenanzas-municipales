@@ -182,6 +182,10 @@
         <i data-lucide="download-cloud" class="w-4 h-4 text-[#38bdf8]"></i>
         Descargas & Comunidad
       </button>
+      <button onclick="switchTab('docente')" id="tab-btn-docente" class="pb-3 text-sm font-medium border-b-2 border-transparent text-zinc-400 hover:text-zinc-200 flex items-center gap-2 shrink-0 transition-colors">
+        <i data-lucide="book-open" class="w-4 h-4 text-emerald-400"></i>
+        Módulo Docente & Casos
+      </button>
       <button onclick="switchTab('roadmap')" id="tab-btn-roadmap" class="pb-3 text-sm font-medium border-b-2 border-transparent text-zinc-400 hover:text-zinc-200 flex items-center gap-2 shrink-0 transition-colors">
         <i data-lucide="compass" class="w-4 h-4"></i>
         Propósito & Roadmap
@@ -725,6 +729,134 @@
           </div>
         </div>
       </div>
+    </section>
+
+    <!-- TAB CONTENT 6: MÓDULO DOCENTE & CASOS DE ESTUDIO -->
+    <section id="tab-docente" class="hidden space-y-8">
+      
+      <!-- HEADER DOCENTE -->
+      <div class="space-y-4">
+        <div class="flex flex-wrap items-center justify-between gap-2">
+          <div>
+            <h2 class="text-xl sm:text-2xl font-bold tracking-tight text-zinc-100 flex items-center gap-2.5">
+              <i data-lucide="graduation-cap" class="w-6 h-6 text-emerald-400"></i>
+              Módulo Docente & Casos de Investigación
+            </h2>
+            <p class="text-xs text-zinc-300 mt-1">Guías prácticas, cuadernos de análisis de datos y casos comparados para cátedras universitarias sobre gestión y políticas locales.</p>
+          </div>
+          <a href="descargas/analisis_ordenanzas_chile_estudiantes.ipynb" download class="px-4 py-2 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl text-xs font-mono font-semibold transition-all flex items-center gap-2 shadow-lg hover:shadow-emerald-500/10">
+            <i data-lucide="file-code" class="w-4 h-4"></i>
+            <span>Descargar Notebook Docente (.ipynb)</span>
+          </a>
+        </div>
+
+        <!-- BANNER DE ENFOQUE PEDAGÓGICO -->
+        <div class="bg-gradient-to-r from-[#071f43] via-[#0b356d] to-[#071f43] border border-[#153b70] rounded-2xl p-6 space-y-3">
+          <div class="flex items-center gap-2 text-emerald-400 text-xs font-mono font-semibold">
+            <i data-lucide="sparkles" class="w-4 h-4"></i>
+            <span>Orientación a Estudiantes e Investigadores</span>
+          </div>
+          <p class="text-xs text-zinc-200 leading-relaxed max-w-4xl">
+            Este módulo proporciona a estudiantes de <strong>Administración Pública, Ciencia Política, Derecho, Sociología y Urbanismo</strong> un marco estructurado para investigar cómo los municipios chilenos ejercen su potestad reglamentaria. Utiliza datos empíricos abiertos para contrastar la teoría del federalismo fiscal y la autonomía comunal con la realidad regulatoria en el territorio.
+          </p>
+        </div>
+      </div>
+
+      <!-- CASOS DE ESTUDIO GUIADOS -->
+      <div class="space-y-4">
+        <h3 class="text-base font-bold text-zinc-100 flex items-center gap-2">
+          <i data-lucide="layers" class="w-4 h-4 text-[#38bdf8]"></i>
+          Casos de Estudio para Cátedras y Ensayos
+        </h3>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+          
+          <!-- Caso 1 -->
+          <div class="bg-[#071f43]/70 border border-[#153b70] rounded-2xl p-5 space-y-3 flex flex-col justify-between hover:border-emerald-500/40 transition-all">
+            <div class="space-y-2">
+              <span class="text-[10px] font-mono font-bold uppercase px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 inline-block">Caso A • Finanzas Locales</span>
+              <h4 class="text-sm font-bold text-zinc-100">Disparidad en Derechos de Aseo y Exenciones Sociales</h4>
+              <p class="text-xs text-zinc-300 leading-relaxed">
+                ¿Cómo varía la tarifa de derechos de aseo domiciliario y los criterios de exención social entre comunas del Cono Oriente (ej: Providencia, Las Condes) y comunas periféricas o rurales (ej: Chimbarongo, Alhué)?
+              </p>
+              <div class="bg-[#04142b] p-2.5 rounded-lg border border-[#153b70]/80 text-[11px] font-mono text-zinc-400">
+                <span class="text-emerald-400 block font-semibold">Pregunta Clave:</span>
+                ¿Existe regresividad tributaria en las tarifas fijadas por ordenanza?
+              </div>
+            </div>
+            <button onclick="switchTab('matriz'); document.getElementById('topic-filter').value='derechos_tarifas'; applyFilters();" class="w-full py-2 bg-[#153b70] hover:bg-[#1f5091] text-zinc-200 text-xs rounded-xl font-mono flex items-center justify-center gap-1.5 transition-colors">
+              <span>Explorar Ordenanzas de Derechos</span>
+              <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+            </button>
+          </div>
+
+          <!-- Caso 2 -->
+          <div class="bg-[#071f43]/70 border border-[#153b70] rounded-2xl p-5 space-y-3 flex flex-col justify-between hover:border-amber-500/40 transition-all">
+            <div class="space-y-2">
+              <span class="text-[10px] font-mono font-bold uppercase px-2 py-0.5 rounded bg-amber-500/20 text-amber-300 border border-amber-500/30 inline-block">Caso B • Desarrollo Económico</span>
+              <h4 class="text-sm font-bold text-zinc-100">Comercio Ambulante, Ferias y Uso del Espacio Público</h4>
+              <p class="text-xs text-zinc-300 leading-relaxed">
+                Análisis comparado de las restricciones horarias, zonas de exclusión y régimen de sanciones para el comercio en la vía pública frente a las patentes comerciales establecidas.
+              </p>
+              <div class="bg-[#04142b] p-2.5 rounded-lg border border-[#153b70]/80 text-[11px] font-mono text-zinc-400">
+                <span class="text-amber-400 block font-semibold">Pregunta Clave:</span>
+                ¿Cómo equilibran los municipios la formalización comercial con la inclusión laboral?
+              </div>
+            </div>
+            <button onclick="switchTab('matriz'); document.getElementById('topic-filter').value='alcoholes_comercio'; applyFilters();" class="w-full py-2 bg-[#153b70] hover:bg-[#1f5091] text-zinc-200 text-xs rounded-xl font-mono flex items-center justify-center gap-1.5 transition-colors">
+              <span>Explorar Ordenanzas de Comercio</span>
+              <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+            </button>
+          </div>
+
+          <!-- Caso 3 -->
+          <div class="bg-[#071f43]/70 border border-[#153b70] rounded-2xl p-5 space-y-3 flex flex-col justify-between hover:border-cyan-500/40 transition-all">
+            <div class="space-y-2">
+              <span class="text-[10px] font-mono font-bold uppercase px-2 py-0.5 rounded bg-cyan-500/20 text-cyan-300 border border-cyan-500/30 inline-block">Caso C • Bienestar y Zoonosis</span>
+              <h4 class="text-sm font-bold text-zinc-100">Tenencia Responsable y Sanciones post-Ley 21.020</h4>
+              <p class="text-xs text-zinc-300 leading-relaxed">
+                Estudio del impacto y adopción de la Ley Cholito en las ordenanzas locales. ¿Qué municipios cuentan con sanciones activas, esterilización obligatoria y registro comunal?
+              </p>
+              <div class="bg-[#04142b] p-2.5 rounded-lg border border-[#153b70]/80 text-[11px] font-mono text-zinc-400">
+                <span class="text-cyan-400 block font-semibold">Pregunta Clave:</span>
+                ¿Tienen los municipios rurales capacidad efectiva de fiscalizar la tenencia responsable?
+              </div>
+            </div>
+            <button onclick="switchTab('matriz'); document.getElementById('topic-filter').value='tenencia_mascotas'; applyFilters();" class="w-full py-2 bg-[#153b70] hover:bg-[#1f5091] text-zinc-200 text-xs rounded-xl font-mono flex items-center justify-center gap-1.5 transition-colors">
+              <span>Explorar Ordenanzas de Mascotas</span>
+              <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+            </button>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- PAUTA METODOLÓGICA -->
+      <div class="bg-[#071f43]/60 border border-[#153b70] rounded-2xl p-6 space-y-4">
+        <h3 class="text-sm font-bold text-zinc-100 flex items-center gap-2">
+          <i data-lucide="terminal" class="w-4 h-4 text-[#38bdf8]"></i>
+          Estructura de un Informe de Investigación Municipal en 4 Pasos
+        </h3>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-xs text-zinc-300">
+          <div class="bg-[#04142b] p-3.5 rounded-xl border border-[#153b70]/60 space-y-1">
+            <span class="font-mono text-[#38bdf8] font-semibold block">1. Formulación de Hipótesis</span>
+            <p class="text-zinc-400">Definir una pregunta comparativa entre comunas con distintas realidades sociodemográficas o geográficas.</p>
+          </div>
+          <div class="bg-[#04142b] p-3.5 rounded-xl border border-[#153b70]/60 space-y-1">
+            <span class="font-mono text-[#54b995] font-semibold block">2. Extracción de Microdatos</span>
+            <p class="text-zinc-400">Cargar el dataset CSV en Python/R o Excel y filtrar los registros correspondientes al eje temático de interés.</p>
+          </div>
+          <div class="bg-[#04142b] p-3.5 rounded-xl border border-[#153b70]/60 space-y-1">
+            <span class="font-mono text-purple-300 font-semibold block">3. Análisis Textual Comparado</span>
+            <p class="text-zinc-400">Descargar los PDFs oficiales y comparar los artículos que fijan montos en UTM, sanciones o plazos de cumplimiento.</p>
+          </div>
+          <div class="bg-[#04142b] p-3.5 rounded-xl border border-[#153b70]/60 space-y-1">
+            <span class="font-mono text-amber-300 font-semibold block">4. Propuesta de Política Pública</span>
+            <p class="text-zinc-400">Elaborar recomendaciones para modernizar la ordenanza local o proponer una ordenanza tipo homologada.</p>
+          </div>
+        </div>
+      </div>
+
     </section>
 
   </main>
@@ -1737,7 +1869,7 @@
     }
 
     function switchTab(tabId) {
-      ['matriz', 'tematicas', 'metodologia', 'descargas', 'roadmap'].forEach(id => {
+      ['matriz', 'tematicas', 'metodologia', 'descargas', 'docente', 'roadmap'].forEach(id => {
         const tabEl = document.getElementById('tab-' + id);
         const btnEl = document.getElementById('tab-btn-' + id);
         if (tabEl) tabEl.classList.add('hidden');
