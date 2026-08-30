@@ -2,9 +2,9 @@ window.CATASTRO_DATA = {
   "updated_at": "2026-08-25T22:49:10.579553",
   "metrics": {
     "total_comunas": 346,
-    "comunas_con_datos": 275,
+    "comunas_con_datos": 292,
     "total_regiones": 16,
-    "total_ordenanzas": 2835,
+    "total_ordenanzas": 2908,
     "ordenanzas_bcn": 1710,
     "ordenanzas_cplt": 0,
     "pdfs_descargados": 0,
@@ -13,7 +13,7 @@ window.CATASTRO_DATA = {
       "bloqueos_ip": 0,
       "user_agents_rotados": 12
     },
-    "ordenanzas_municipales_verificadas": 1125,
+    "ordenanzas_municipales_verificadas": 1198,
     "cplt_en_cuarentena": 0
   },
   "regiones": [
@@ -573,12 +573,34 @@ window.CATASTRO_DATA = {
       "comuna": "Putre",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_putre",
+          "fuente": "Municipalidad",
+          "numero": "S/N",
+          "fecha": "2026-01-01",
+          "titulo": "Ordenanza de Participación Ciudadana y Modificaciones Comuna de Putre",
+          "materia": "Participación Ciudadana",
+          "materia_id": "participacion_ciudadana",
+          "source_listing_url": "https://imputre.cl/transparencia/",
+          "target_url": "https://imputre.cl/wp-content/uploads/2023/07/Ordenanza-de-participacion-ciudadanaymodificacion.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://imputre.cl/wp-content/uploads/2023/07/Ordenanza-de-participacion-ciudadanaymodificacion.pdf",
+            "content_type": "application/pdf",
+            "sha256": "21d2e3df605a3b108e3c2e2de835e0c2a61f4cf6e0935e320e586b8c9a434525",
+            "bytes": 1735431,
+            "verified_at": "2026-08-30T18:19:59.952626+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "15",
@@ -17686,12 +17708,34 @@ window.CATASTRO_DATA = {
       "comuna": "La Reina",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_la reina",
+          "fuente": "Municipalidad",
+          "numero": "2279",
+          "fecha": "2023-01-01",
+          "titulo": "Fija Texto Refundido de la Ordenanza Local sobre Derechos Municipales por Concesiones, Permisos y Servicios",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://www.lareina.cl/transparencia-activa/",
+          "target_url": "https://www.lareina.cl/wp-content/uploads/2023/11/DECRETO-ALCALDICIO-N%C2%B0-2279-DEL-14.11.2023.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.lareina.cl/wp-content/uploads/2023/11/DECRETO-ALCALDICIO-N%C2%B0-2279-DEL-14.11.2023.pdf",
+            "content_type": "application/pdf",
+            "sha256": "8e933061f9e331baeb2b64d1d4d5a4fd02cd3bfd2cc3d7b118a45664cf39fb9a",
+            "bytes": 4883797,
+            "verified_at": "2026-08-30T18:19:56.167995+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "13",
@@ -24595,12 +24639,55 @@ window.CATASTRO_DATA = {
       "comuna": "San Ramón",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 2,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_san ramon",
+          "fuente": "Municipalidad",
+          "numero": "2026",
+          "fecha": "2026-01-01",
+          "titulo": "Ordenanza Municipal San Ramón — INFORMA SOBRE EL CALCULO DE TARIFA DE ASEO PARA EL PERIODO 2026",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://municipalidadsanramon.cl/",
+          "target_url": "https://municipalidadsanramon.cl/wp-content/uploads/2025/08/INFORMA-SOBRE-EL-CALCULO-DE-TARIFA-DE-ASEO-PARA-EL-PERIODO-2026.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://municipalidadsanramon.cl/wp-content/uploads/2025/08/INFORMA-SOBRE-EL-CALCULO-DE-TARIFA-DE-ASEO-PARA-EL-PERIODO-2026.pdf",
+            "content_type": "application/pdf",
+            "sha256": "2444ea90a2d947162ceebb36f4f5bfb66b94ad37322dc66df0541632b81efac6",
+            "bytes": 484366,
+            "verified_at": "2026-08-30T18:20:46.163353+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_san ramon",
+          "fuente": "Municipalidad",
+          "numero": "S/N",
+          "fecha": "2026-01-01",
+          "titulo": "Ordenanza Municipal San Ramón — Formulario trabajadores y sucursales",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://municipalidadsanramon.cl/",
+          "target_url": "https://municipalidadsanramon.cl/wp-content/uploads/2026/04/Formulario-trabajadores-y-sucursales.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://municipalidadsanramon.cl/wp-content/uploads/2026/04/Formulario-trabajadores-y-sucursales.pdf",
+            "content_type": "application/pdf",
+            "sha256": "3f7b3c516b9e61e1ae03602fc81fce0b9e955030716f9c58526bda8b3e526d76",
+            "bytes": 991101,
+            "verified_at": "2026-08-30T18:20:46.927499+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 2
     },
     {
       "region_id": "13",
@@ -25639,12 +25726,55 @@ window.CATASTRO_DATA = {
       "comuna": "Tiltil",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 2,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_tiltil",
+          "fuente": "Municipalidad",
+          "numero": "S/N",
+          "fecha": "2026-01-01",
+          "titulo": "Políticas de la Seguridad de la Información",
+          "materia": "Seguridad Ciudadana y Convivencia",
+          "materia_id": "seguridad_convivencia",
+          "source_listing_url": "https://tiltil.cl/",
+          "target_url": "https://munitiltil.cl/wp-content/uploads/2023/07/Politicas-de-la-Seguridad-de-la-Informacion.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://munitiltil.cl/wp-content/uploads/2023/07/Politicas-de-la-Seguridad-de-la-Informacion.pdf",
+            "content_type": "application/pdf",
+            "sha256": "a056ae30d4ecd6e86bf809eb7386ae0401086ae2e050a07447876bb35f0c895b",
+            "bytes": 1204318,
+            "verified_at": "2026-08-30T18:20:13.536972+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_tiltil",
+          "fuente": "Municipalidad",
+          "numero": "934",
+          "fecha": "2022-01-01",
+          "titulo": "Unidades Vecinales",
+          "materia": "Seguridad Ciudadana y Convivencia",
+          "materia_id": "seguridad_convivencia",
+          "source_listing_url": "https://tiltil.cl/",
+          "target_url": "https://munitiltil.cl/wp-content/uploads/2023/01/DECRETO-N°934-2022-UNIDADES-VECINALES-TODOS-LOS-ADJUNTOS.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://munitiltil.cl/wp-content/uploads/2023/01/DECRETO-N°934-2022-UNIDADES-VECINALES-TODOS-LOS-ADJUNTOS.pdf",
+            "content_type": "application/pdf",
+            "sha256": "fb4d8ed9eaf71a6fc6b9f741c0eb9bc22c11a451fa144a82a0204a484482205d",
+            "bytes": 15188331,
+            "verified_at": "2026-08-30T18:20:17.798591+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 2
     },
     {
       "region_id": "13",
@@ -29815,12 +29945,244 @@ window.CATASTRO_DATA = {
       "comuna": "Las Cabras",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 11,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_las cabras",
+          "fuente": "Municipalidad",
+          "numero": "13",
+          "fecha": "2016-09-13",
+          "titulo": "Aprueba Enmienda Plan Regulador Comunal Las Cabras en Zonas Z2 y ZEA",
+          "materia": "Urbanismo, Obras y Edificación",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://munilascabras.cl/plan-regulador/",
+          "target_url": "https://munilascabras.cl/wp-content/uploads/2024/03/Diario-Oficial-13-09-2016-Enmienda-al-PRC-Las-Cabras-1987-por-Muni-Las-Cabras.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://munilascabras.cl/wp-content/uploads/2024/03/Diario-Oficial-13-09-2016-Enmienda-al-PRC-Las-Cabras-1987-por-Muni-Las-Cabras.pdf",
+            "content_type": "application/pdf",
+            "sha256": "9e6ec7ab8a42c7da49fb96f60cd9473e4bd4ab69e68735fad4265159fb60b68b",
+            "bytes": 963436,
+            "verified_at": "2026-08-30T18:20:02.635398+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_las cabras",
+          "fuente": "Municipalidad",
+          "numero": "341",
+          "fecha": "2025-02-12",
+          "titulo": "Decreto 341 del 2025, del 12-02-2025 - Aprueba Modificación al Art 8 de la Ordenanza Local de Derechos Municipales",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://munilascabras.cl/ordenanzas/",
+          "target_url": "https://munilascabras.cl/wp-content/uploads/2025/02/Alcaldia-Decreto-341_2025-12-02-2025-Aprueba-Mod-al-Art-8-de-la-Ordenanza-Local-de-Derechos-Municipales.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://munilascabras.cl/wp-content/uploads/2025/02/Alcaldia-Decreto-341_2025-12-02-2025-Aprueba-Mod-al-Art-8-de-la-Ordenanza-Local-de-Derechos-Municipales.pdf",
+            "content_type": "application/pdf",
+            "sha256": "e161255fc577b9aa04d2286efc64e49bb32693e0069ad0f584238173140b6fd5",
+            "bytes": 3995940,
+            "verified_at": "2026-08-30T18:20:09.789403+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_las cabras",
+          "fuente": "Municipalidad",
+          "numero": "23",
+          "fecha": "2026-07-23",
+          "titulo": "Ordenanza Municipal Las Cabras — ORDENANZA N°23 del 23 07 2026 Derechos Municipales DOM",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://munilascabras.cl/ordenanzas/",
+          "target_url": "https://munilascabras.cl/wp-content/uploads/2026/07/ORDENANZA-N°23-del-23-07-2026-Derechos-Municipales-DOM.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://munilascabras.cl/wp-content/uploads/2026/07/ORDENANZA-N°23-del-23-07-2026-Derechos-Municipales-DOM.pdf",
+            "content_type": "application/pdf",
+            "sha256": "bd6b9204d0e38deaaf6ec88c5c5aad0033b54006f89f76ed50bf667a624fd148",
+            "bytes": 1306504,
+            "verified_at": "2026-08-30T18:20:09.916935+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_las cabras",
+          "fuente": "Municipalidad",
+          "numero": "20",
+          "fecha": "2025-01-01",
+          "titulo": "Ordenanza Municipal Las Cabras — Ordenanza N°20 2025 Modificacion precio metro cubico",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://munilascabras.cl/ordenanzas/",
+          "target_url": "https://munilascabras.cl/wp-content/uploads/2025/09/Ordenanza-N%C2%B020-2025-Modificacion-precio-metro-cubico.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://munilascabras.cl/wp-content/uploads/2025/09/Ordenanza-N%C2%B020-2025-Modificacion-precio-metro-cubico.pdf",
+            "content_type": "application/pdf",
+            "sha256": "7af7adb52c63b92f43dbf444f96bc406eb7de31886588a340e520b3f4cef09f7",
+            "bytes": 3379290,
+            "verified_at": "2026-08-30T18:20:10.260746+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_las cabras",
+          "fuente": "Municipalidad",
+          "numero": "15",
+          "fecha": "2024-08-09",
+          "titulo": "Ordenanza N° 15 del 2024, del 09-08-2024 - Ordenanza para el Cierre de Acceso a Calles, Pasajes o Conjuntos Habitacionales",
+          "materia": "Urbanismo, Obras y Edificación",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://munilascabras.cl/ordenanzas/",
+          "target_url": "https://munilascabras.cl/wp-content/uploads/2025/07/Ordenanza-15_2024-09-08-2024-Ordenanza-para-el-Cierre-de-Calles-Pasajes-o-Conjuntos-Habitacionales-Urbanos-o-Rurales.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://munilascabras.cl/wp-content/uploads/2025/07/Ordenanza-15_2024-09-08-2024-Ordenanza-para-el-Cierre-de-Calles-Pasajes-o-Conjuntos-Habitacionales-Urbanos-o-Rurales.pdf",
+            "content_type": "application/pdf",
+            "sha256": "5e8e1f0f4c4257b08508a0bde0473879a5c2405f009deb5496c565174f0805c9",
+            "bytes": 2397393,
+            "verified_at": "2026-08-30T18:20:10.498528+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_las cabras",
+          "fuente": "Municipalidad",
+          "numero": "17",
+          "fecha": "2024-25-11",
+          "titulo": "Ordenanza N° 17 del 2024, del 25-11-2024 - Modifica Art 13 de la Ordenanza del Decreto 188-1994 con un nuevo inciso por áridos",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://munilascabras.cl/ordenanzas/",
+          "target_url": "https://munilascabras.cl/wp-content/uploads/2024/12/Muni-Las-Cabras-Ordenanza-17-2024-25-11-2024-Modifica-Art-13-de-la-Ordenanza-del-Decreto-188-1994-con-un-nuevo-inciso.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://munilascabras.cl/wp-content/uploads/2024/12/Muni-Las-Cabras-Ordenanza-17-2024-25-11-2024-Modifica-Art-13-de-la-Ordenanza-del-Decreto-188-1994-con-un-nuevo-inciso.pdf",
+            "content_type": "application/pdf",
+            "sha256": "15ba497b19a9c7917e36a0bf4c621d2ade3aaeb04a0be525d85c3c8c1852e37f",
+            "bytes": 2165397,
+            "verified_at": "2026-08-30T18:20:10.708320+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_las cabras",
+          "fuente": "Municipalidad",
+          "numero": "9",
+          "fecha": "2023-07-11",
+          "titulo": "Ordenanza N° 9 del 2023, del 11-07-2023 - Ordenanza de Nombramiento de BNUP y Otros Bienes",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://munilascabras.cl/ordenanzas/",
+          "target_url": "https://munilascabras.cl/wp-content/uploads/2024/11/Ordenanza-9_2023-11-07-2023-Ordenanza-de-Nombramiento-de-BNUP-y-Otros-Bienes.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://munilascabras.cl/wp-content/uploads/2024/11/Ordenanza-9_2023-11-07-2023-Ordenanza-de-Nombramiento-de-BNUP-y-Otros-Bienes.pdf",
+            "content_type": "application/pdf",
+            "sha256": "1d8e3b6b86fac71b516374e8d0b89b66329deb3001a0ef69a29deab54abab10d",
+            "bytes": 1668214,
+            "verified_at": "2026-08-30T18:20:10.909833+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_las cabras",
+          "fuente": "Municipalidad",
+          "numero": "3",
+          "fecha": "2022-16-11",
+          "titulo": "Ordenanza N° 3 del 2022, del 16-11-2022 - Modifica Ordenanza Ambiental",
+          "materia": "Aseo, Ornato y Medio Ambiente",
+          "materia_id": "aseo_medioambiente",
+          "source_listing_url": "https://munilascabras.cl/ordenanzas/",
+          "target_url": "https://munilascabras.cl/wp-content/uploads/2025/06/Muni-Las-Cabras-Ordenanza-03-2022-16-11-2022-Aprueba-Modificacion-Ordenanza-Medioambiental.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://munilascabras.cl/wp-content/uploads/2025/06/Muni-Las-Cabras-Ordenanza-03-2022-16-11-2022-Aprueba-Modificacion-Ordenanza-Medioambiental.pdf",
+            "content_type": "application/pdf",
+            "sha256": "182e93b4159364d85375f953ca1fe7307cde07151ec52f7e17e6de36046828d8",
+            "bytes": 18737572,
+            "verified_at": "2026-08-30T18:20:14.499508+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_las cabras",
+          "fuente": "Municipalidad",
+          "numero": "2454",
+          "fecha": "2023-10-26",
+          "titulo": "Decreto 2454-2023 - 26-10-2023 - Asigna Nombres a Calles que se indica: Loteo Santa Ana de El Carmen",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://munilascabras.cl/ordenanzas/",
+          "target_url": "https://munilascabras.cl/wp-content/uploads/2025/07/Decreto-2454_2023-26-10-2023-Declara-BNUP-Lote-Calle-del-Loteo-Santa-Ana-de-El-Carmen.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://munilascabras.cl/wp-content/uploads/2025/07/Decreto-2454_2023-26-10-2023-Declara-BNUP-Lote-Calle-del-Loteo-Santa-Ana-de-El-Carmen.pdf",
+            "content_type": "application/pdf",
+            "sha256": "73bddd31d876c6b12748d20cb5a801e10b202f0b4d223d824a1cb983f27680b8",
+            "bytes": 698884,
+            "verified_at": "2026-08-30T18:20:17.933305+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_las cabras",
+          "fuente": "Municipalidad",
+          "numero": "2449",
+          "fecha": "2024-11-04",
+          "titulo": "Ordenanza Municipal Las Cabras — Muni Las Cabras Decreto 2449 04 11 2024 Asigna Nombres de calles en sectores de la comuna que se indica",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://munilascabras.cl/ordenanzas/",
+          "target_url": "https://munilascabras.cl/wp-content/uploads/2024/12/Muni-Las-Cabras-Decreto-2449-04-11-2024-Asigna-Nombres-de-calles-en-sectores-de-la-comuna-que-se-indica.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://munilascabras.cl/wp-content/uploads/2024/12/Muni-Las-Cabras-Decreto-2449-04-11-2024-Asigna-Nombres-de-calles-en-sectores-de-la-comuna-que-se-indica.pdf",
+            "content_type": "application/pdf",
+            "sha256": "919bb7ca67e5e59b945f0843d359fae8979013b05f2c21489bd1fe57e675a28e",
+            "bytes": 819677,
+            "verified_at": "2026-08-30T18:20:18.189580+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_las cabras",
+          "fuente": "Municipalidad",
+          "numero": "2843",
+          "fecha": "2024-12-24",
+          "titulo": "Decreto 2843-2024 - 24-12-2024 - Asigna Nombres a Calles que se indica: Villa La Amistad de Llavería",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://munilascabras.cl/ordenanzas/",
+          "target_url": "https://munilascabras.cl/wp-content/uploads/2025/07/Decreto-2843_2024-24-12-2024-Asigna-nombres-de-calle-en-Comite-La-Amistad-de-Llaveria.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://munilascabras.cl/wp-content/uploads/2025/07/Decreto-2843_2024-24-12-2024-Asigna-nombres-de-calle-en-Comite-La-Amistad-de-Llaveria.pdf",
+            "content_type": "application/pdf",
+            "sha256": "17d2ac3aa4722ae3fb05c6c6fb50eb87a135555a0e035557d1fcfbe35b71419c",
+            "bytes": 533765,
+            "verified_at": "2026-08-30T18:20:18.449601+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 11
     },
     {
       "region_id": "06",
@@ -31032,12 +31394,601 @@ window.CATASTRO_DATA = {
       "comuna": "Marchihue",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 28,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_marchihue",
+          "fuente": "Municipalidad",
+          "numero": "00",
+          "fecha": "2026-01-01",
+          "titulo": "Ordenanza Municipal Marchihue — decreto00",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://marchigue.cl/transparencia/ordenanzas/",
+          "target_url": "https://marchigue.cl/transparencia/ordenanzas/decreto00.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://marchigue.cl/transparencia/ordenanzas/decreto00.pdf",
+            "content_type": "application/pdf",
+            "sha256": "24daa08584ceffa56b594014172aedd59b859906b856815c2c4f4f8eea7e7989",
+            "bytes": 1580310,
+            "verified_at": "2026-08-30T18:20:14.539069+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_marchihue",
+          "fuente": "Municipalidad",
+          "numero": "182",
+          "fecha": "2026-01-01",
+          "titulo": "Ordenanza Municipal Marchihue — decreto182",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://marchigue.cl/transparencia/ordenanzas/",
+          "target_url": "https://marchigue.cl/transparencia/ordenanzas/decreto182.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://marchigue.cl/transparencia/ordenanzas/decreto182.pdf",
+            "content_type": "application/pdf",
+            "sha256": "eb7194f398acfed33876a7722e7b8982e23d18ef3dc288dd23590ed2ffd0e534",
+            "bytes": 2356866,
+            "verified_at": "2026-08-30T18:20:16.086958+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_marchihue",
+          "fuente": "Municipalidad",
+          "numero": "464",
+          "fecha": "2026-01-01",
+          "titulo": "Ordenanza Municipal Marchihue — decreto464",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://marchigue.cl/transparencia/ordenanzas/",
+          "target_url": "https://marchigue.cl/transparencia/ordenanzas/decreto464.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://marchigue.cl/transparencia/ordenanzas/decreto464.pdf",
+            "content_type": "application/pdf",
+            "sha256": "50642427b794958d00bfb12ab9f46d8b33393dfbe937d4f4238cda0b5a82d6fa",
+            "bytes": 2511297,
+            "verified_at": "2026-08-30T18:20:18.569561+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_marchihue",
+          "fuente": "Municipalidad",
+          "numero": "507",
+          "fecha": "2026-01-01",
+          "titulo": "Ordenanza Municipal Marchihue — decreto507",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://marchigue.cl/transparencia/ordenanzas/",
+          "target_url": "https://marchigue.cl/transparencia/ordenanzas/decreto507.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://marchigue.cl/transparencia/ordenanzas/decreto507.pdf",
+            "content_type": "application/pdf",
+            "sha256": "5cb7fd3e27cf4e995414cd914ab41c93aee739a1636516e7a296f748e6b2a338",
+            "bytes": 427989,
+            "verified_at": "2026-08-30T18:20:18.887780+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_marchihue",
+          "fuente": "Municipalidad",
+          "numero": "532",
+          "fecha": "2026-01-01",
+          "titulo": "Ordenanza Municipal Marchihue — decreto532",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://marchigue.cl/transparencia/ordenanzas/",
+          "target_url": "https://marchigue.cl/transparencia/ordenanzas/decreto532.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://marchigue.cl/transparencia/ordenanzas/decreto532.pdf",
+            "content_type": "application/pdf",
+            "sha256": "9787fee622eeca4217c464bcab36ff1a9fa18d38b3c1cd5055c82a18f62c4c59",
+            "bytes": 2437165,
+            "verified_at": "2026-08-30T18:20:21.138252+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_marchihue",
+          "fuente": "Municipalidad",
+          "numero": "603",
+          "fecha": "2026-01-01",
+          "titulo": "Ordenanza Municipal Marchihue — decreto603",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://marchigue.cl/transparencia/ordenanzas/",
+          "target_url": "https://marchigue.cl/transparencia/ordenanzas/decreto603.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://marchigue.cl/transparencia/ordenanzas/decreto603.pdf",
+            "content_type": "application/pdf",
+            "sha256": "f95f7d3a14f04b11d5e16cf344f44795765d77dca0f1e056fded9dc79324badc",
+            "bytes": 2555329,
+            "verified_at": "2026-08-30T18:20:22.811308+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_marchihue",
+          "fuente": "Municipalidad",
+          "numero": "810",
+          "fecha": "2026-01-01",
+          "titulo": "Ordenanza Municipal Marchihue — decreto810",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://marchigue.cl/transparencia/ordenanzas/",
+          "target_url": "https://marchigue.cl/transparencia/ordenanzas/decreto810.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://marchigue.cl/transparencia/ordenanzas/decreto810.pdf",
+            "content_type": "application/pdf",
+            "sha256": "db7707230ed1768906089835ebe6678753fdafc79739f16ea138a73ba35fd50f",
+            "bytes": 710284,
+            "verified_at": "2026-08-30T18:20:24.523287+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_marchihue",
+          "fuente": "Municipalidad",
+          "numero": "1039",
+          "fecha": "2026-01-01",
+          "titulo": "Ordenanza Municipal Marchihue — decreto1039",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://marchigue.cl/transparencia/ordenanzas/",
+          "target_url": "https://marchigue.cl/transparencia/ordenanzas/decreto1039.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://marchigue.cl/transparencia/ordenanzas/decreto1039.pdf",
+            "content_type": "application/pdf",
+            "sha256": "d9599e62960229d184753e3425d062abc1652c05c55e5a1128b9b5d1d53c1325",
+            "bytes": 854240,
+            "verified_at": "2026-08-30T18:20:25.333884+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_marchihue",
+          "fuente": "Municipalidad",
+          "numero": "1079",
+          "fecha": "2026-01-01",
+          "titulo": "Ordenanza Municipal Marchihue — decreto1079",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://marchigue.cl/transparencia/ordenanzas/",
+          "target_url": "https://marchigue.cl/transparencia/ordenanzas/decreto1079.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://marchigue.cl/transparencia/ordenanzas/decreto1079.pdf",
+            "content_type": "application/pdf",
+            "sha256": "fd67884e4a43a77867d5c7969762da6138c1aabc1ba7a5bc269bc67a61467b4a",
+            "bytes": 1983847,
+            "verified_at": "2026-08-30T18:20:28.359901+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_marchihue",
+          "fuente": "Municipalidad",
+          "numero": "1300",
+          "fecha": "2026-01-01",
+          "titulo": "Ordenanza Municipal Marchihue — decreto1300",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://marchigue.cl/transparencia/ordenanzas/",
+          "target_url": "https://marchigue.cl/transparencia/ordenanzas/decreto1300.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://marchigue.cl/transparencia/ordenanzas/decreto1300.pdf",
+            "content_type": "application/pdf",
+            "sha256": "9ae1eb50014e970451aa19b5a252fc5be10fbd7f6776cf9f6aacb69d1aa1b497",
+            "bytes": 15891638,
+            "verified_at": "2026-08-30T18:20:40.914523+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_marchihue",
+          "fuente": "Municipalidad",
+          "numero": "1880",
+          "fecha": "2026-01-01",
+          "titulo": "Ordenanza Municipal Marchihue — decreto1880",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://marchigue.cl/transparencia/ordenanzas/",
+          "target_url": "https://marchigue.cl/transparencia/ordenanzas/decreto1880.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://marchigue.cl/transparencia/ordenanzas/decreto1880.pdf",
+            "content_type": "application/pdf",
+            "sha256": "1c31221d17ca98b1abdd4b486cf0e8767d313ef3c6ca08638a65e59900d4b03e",
+            "bytes": 569905,
+            "verified_at": "2026-08-30T18:20:41.249930+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_marchihue",
+          "fuente": "Municipalidad",
+          "numero": "2104",
+          "fecha": "2026-01-01",
+          "titulo": "Ordenanza Municipal Marchihue — decreto2104",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://marchigue.cl/transparencia/ordenanzas/",
+          "target_url": "https://marchigue.cl/transparencia/ordenanzas/decreto2104.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://marchigue.cl/transparencia/ordenanzas/decreto2104.pdf",
+            "content_type": "application/pdf",
+            "sha256": "62c1d6e37ddbe924500fa281a5a8deb45ca7e598a28e233b08fad254f5d13be0",
+            "bytes": 344898,
+            "verified_at": "2026-08-30T18:20:41.388893+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_marchihue",
+          "fuente": "Municipalidad",
+          "numero": "2105",
+          "fecha": "2026-01-01",
+          "titulo": "Ordenanza Municipal Marchihue — decreto2105",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://marchigue.cl/transparencia/ordenanzas/",
+          "target_url": "https://marchigue.cl/transparencia/ordenanzas/decreto2105.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://marchigue.cl/transparencia/ordenanzas/decreto2105.pdf",
+            "content_type": "application/pdf",
+            "sha256": "490dce33f0a5a4b04feb41c2f6a69ca2c41b902f0e2fdf307ffa72857c8a8ad7",
+            "bytes": 347582,
+            "verified_at": "2026-08-30T18:20:41.560652+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_marchihue",
+          "fuente": "Municipalidad",
+          "numero": "2116",
+          "fecha": "2026-01-01",
+          "titulo": "Ordenanza Municipal Marchihue — decreto2116",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://marchigue.cl/transparencia/ordenanzas/",
+          "target_url": "https://marchigue.cl/transparencia/ordenanzas/decreto2116.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://marchigue.cl/transparencia/ordenanzas/decreto2116.pdf",
+            "content_type": "application/pdf",
+            "sha256": "ddfa46566610d8380c008e118388e12635264a940223c27e2464900b633d49ac",
+            "bytes": 1474018,
+            "verified_at": "2026-08-30T18:20:42.733308+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_marchihue",
+          "fuente": "Municipalidad",
+          "numero": "2259",
+          "fecha": "2026-01-01",
+          "titulo": "Ordenanza Municipal Marchihue — decreto2259",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://marchigue.cl/transparencia/ordenanzas/",
+          "target_url": "https://marchigue.cl/transparencia/ordenanzas/decreto2259.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://marchigue.cl/transparencia/ordenanzas/decreto2259.pdf",
+            "content_type": "application/pdf",
+            "sha256": "36569b50fdc5d9f75f346cd00453ec3a02cfab1ed8e6f56a41faae71283127a7",
+            "bytes": 1384211,
+            "verified_at": "2026-08-30T18:20:43.586506+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_marchihue",
+          "fuente": "Municipalidad",
+          "numero": "2333",
+          "fecha": "2026-01-01",
+          "titulo": "Ordenanza Municipal Marchihue — decreto2333",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://marchigue.cl/transparencia/ordenanzas/",
+          "target_url": "https://marchigue.cl/transparencia/ordenanzas/decreto2333.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://marchigue.cl/transparencia/ordenanzas/decreto2333.pdf",
+            "content_type": "application/pdf",
+            "sha256": "4f47401bbc3778cdaa2ff2e92616df20b7e2b274c788ecb3c97654d1dde83b20",
+            "bytes": 2535713,
+            "verified_at": "2026-08-30T18:20:44.596940+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_marchihue",
+          "fuente": "Municipalidad",
+          "numero": "2533",
+          "fecha": "2026-01-01",
+          "titulo": "Ordenanza Municipal Marchihue — decreto2533",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://marchigue.cl/transparencia/ordenanzas/",
+          "target_url": "https://marchigue.cl/transparencia/ordenanzas/decreto2533.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://marchigue.cl/transparencia/ordenanzas/decreto2533.pdf",
+            "content_type": "application/pdf",
+            "sha256": "85c3d0bc90f369a1ea40c22f357f9847771a77228daa6737635b20c0fbedfd51",
+            "bytes": 3957786,
+            "verified_at": "2026-08-30T18:20:47.694572+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_marchihue",
+          "fuente": "Municipalidad",
+          "numero": "2663",
+          "fecha": "2026-01-01",
+          "titulo": "Ordenanza Municipal Marchihue — decreto2663",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://marchigue.cl/transparencia/ordenanzas/",
+          "target_url": "https://marchigue.cl/transparencia/ordenanzas/decreto2663.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://marchigue.cl/transparencia/ordenanzas/decreto2663.pdf",
+            "content_type": "application/pdf",
+            "sha256": "48484b9b3a7ccf4f7a68a922a86977254c59ac91e6f7ece2a4c9265293e260c1",
+            "bytes": 1530139,
+            "verified_at": "2026-08-30T18:20:48.650574+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_marchihue",
+          "fuente": "Municipalidad",
+          "numero": "2712",
+          "fecha": "2026-01-01",
+          "titulo": "Ordenanza Municipal Marchihue — decreto2712",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://marchigue.cl/transparencia/ordenanzas/",
+          "target_url": "https://marchigue.cl/transparencia/ordenanzas/decreto2712.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://marchigue.cl/transparencia/ordenanzas/decreto2712.pdf",
+            "content_type": "application/pdf",
+            "sha256": "a62b560717aac84eb3789fe0b5e81d240e83417035d08f53ca55c34b9b2fbf18",
+            "bytes": 245447,
+            "verified_at": "2026-08-30T18:20:48.809962+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_marchihue",
+          "fuente": "Municipalidad",
+          "numero": "2713",
+          "fecha": "2026-01-01",
+          "titulo": "Ordenanza Municipal Marchihue — decreto2713",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://marchigue.cl/transparencia/ordenanzas/",
+          "target_url": "https://marchigue.cl/transparencia/ordenanzas/decreto2713.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://marchigue.cl/transparencia/ordenanzas/decreto2713.pdf",
+            "content_type": "application/pdf",
+            "sha256": "cb38a9b202b2986e3c4745a20267b1d53631854f879b39b9b3ef8a7477447f62",
+            "bytes": 2836248,
+            "verified_at": "2026-08-30T18:20:50.103460+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_marchihue",
+          "fuente": "Municipalidad",
+          "numero": "2714",
+          "fecha": "2026-01-01",
+          "titulo": "Ordenanza Municipal Marchihue — decreto2714",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://marchigue.cl/transparencia/ordenanzas/",
+          "target_url": "https://marchigue.cl/transparencia/ordenanzas/decreto2714.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://marchigue.cl/transparencia/ordenanzas/decreto2714.pdf",
+            "content_type": "application/pdf",
+            "sha256": "1ddba4bb5d04f0d3405c2873c37a226166730e5e65d8c55b356f0a7fc9ce3de8",
+            "bytes": 1677864,
+            "verified_at": "2026-08-30T18:20:51.052837+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_marchihue",
+          "fuente": "Municipalidad",
+          "numero": "2781",
+          "fecha": "2026-01-01",
+          "titulo": "Ordenanza Municipal Marchihue — decreto2781",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://marchigue.cl/transparencia/ordenanzas/",
+          "target_url": "https://marchigue.cl/transparencia/ordenanzas/decreto2781.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://marchigue.cl/transparencia/ordenanzas/decreto2781.pdf",
+            "content_type": "application/pdf",
+            "sha256": "ca51045a500eaebd64af14c0ffe7d117bcb4a475d2bbade280c4eb7482f1892e",
+            "bytes": 454321,
+            "verified_at": "2026-08-30T18:20:51.224911+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_marchihue",
+          "fuente": "Municipalidad",
+          "numero": "2995",
+          "fecha": "2026-01-01",
+          "titulo": "Ordenanza Municipal Marchihue — decreto2995",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://marchigue.cl/transparencia/ordenanzas/",
+          "target_url": "https://marchigue.cl/transparencia/ordenanzas/decreto2995.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://marchigue.cl/transparencia/ordenanzas/decreto2995.pdf",
+            "content_type": "application/pdf",
+            "sha256": "4e6def094a795ebaf6161d1512ec9a5ea930a067cc34ace315c63a5ffb820412",
+            "bytes": 2153873,
+            "verified_at": "2026-08-30T18:20:52.447520+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_marchihue",
+          "fuente": "Municipalidad",
+          "numero": "3304",
+          "fecha": "2026-01-01",
+          "titulo": "Ordenanza Municipal Marchihue — decreto3304",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://marchigue.cl/transparencia/ordenanzas/",
+          "target_url": "https://marchigue.cl/transparencia/ordenanzas/decreto3304.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://marchigue.cl/transparencia/ordenanzas/decreto3304.pdf",
+            "content_type": "application/pdf",
+            "sha256": "7dfeb609f406dfae05db0f187a75f40c61d8f231a61df5339d72a14ac5da6e4f",
+            "bytes": 500703,
+            "verified_at": "2026-08-30T18:20:52.820085+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_marchihue",
+          "fuente": "Municipalidad",
+          "numero": "3714",
+          "fecha": "2026-01-01",
+          "titulo": "Ordenanza Municipal Marchihue — decreto3714",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://marchigue.cl/transparencia/ordenanzas/",
+          "target_url": "https://marchigue.cl/transparencia/ordenanzas/decreto3714.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://marchigue.cl/transparencia/ordenanzas/decreto3714.pdf",
+            "content_type": "application/pdf",
+            "sha256": "b39992a98575802bb7858bff8f4940478f1bb159f54008f5556b5b471c0ffe25",
+            "bytes": 1000609,
+            "verified_at": "2026-08-30T18:20:53.181864+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_marchihue",
+          "fuente": "Municipalidad",
+          "numero": "4138",
+          "fecha": "2026-01-01",
+          "titulo": "Ordenanza Municipal Marchihue — decreto4138",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://marchigue.cl/transparencia/ordenanzas/",
+          "target_url": "https://marchigue.cl/transparencia/ordenanzas/decreto4138.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://marchigue.cl/transparencia/ordenanzas/decreto4138.pdf",
+            "content_type": "application/pdf",
+            "sha256": "02fa31a80393ca4a35c51a26d26229b52e603f96d06d3819e4bf23df4ce3ae4f",
+            "bytes": 1338751,
+            "verified_at": "2026-08-30T18:20:53.577417+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_marchihue",
+          "fuente": "Municipalidad",
+          "numero": "4218",
+          "fecha": "2026-01-01",
+          "titulo": "Ordenanza Municipal Marchihue — decreto4218",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://marchigue.cl/transparencia/ordenanzas/",
+          "target_url": "https://marchigue.cl/transparencia/ordenanzas/decreto4218.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://marchigue.cl/transparencia/ordenanzas/decreto4218.pdf",
+            "content_type": "application/pdf",
+            "sha256": "e3d859e9ad22ef66106c084c5478c0de20b8b2921549a85ba524c701f1b89774",
+            "bytes": 320804,
+            "verified_at": "2026-08-30T18:20:53.701729+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_marchihue",
+          "fuente": "Municipalidad",
+          "numero": "4219",
+          "fecha": "2026-01-01",
+          "titulo": "Ordenanza Municipal Marchihue — decreto4219",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://marchigue.cl/transparencia/ordenanzas/",
+          "target_url": "https://marchigue.cl/transparencia/ordenanzas/decreto4219.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://marchigue.cl/transparencia/ordenanzas/decreto4219.pdf",
+            "content_type": "application/pdf",
+            "sha256": "460b2f87df718c0fad0fd848fd11788f9578ed027f391be66a16adc4546c394b",
+            "bytes": 1836168,
+            "verified_at": "2026-08-30T18:20:54.769766+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 28
     },
     {
       "region_id": "06",
@@ -32726,12 +33677,55 @@ window.CATASTRO_DATA = {
       "comuna": "Lolol",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 2,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_lolol",
+          "fuente": "Municipalidad",
+          "numero": "S/N",
+          "fecha": "2026-01-01",
+          "titulo": "Ordenanza Municipal Lolol — PLADECO LOLOL",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://munilolol.cl/",
+          "target_url": "https://municipalidaddelolol.cl/wp-content/uploads/2026/04/PLADECO-LOLOL.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://municipalidaddelolol.cl/wp-content/uploads/2026/04/PLADECO-LOLOL.pdf",
+            "content_type": "application/pdf",
+            "sha256": "f5b7fb6304f41c8cd842930bb411dd378494a0b4e6a12fcc05de8195a3143a0f",
+            "bytes": 12988225,
+            "verified_at": "2026-08-30T18:20:20.483613+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_lolol",
+          "fuente": "Municipalidad",
+          "numero": "S/N-37d2",
+          "fecha": "2026-01-01",
+          "titulo": "Ordenanza Municipal Lolol — APRUEBA ORDENAZA MUNICIPAL",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://munilolol.cl/",
+          "target_url": "https://municipalidaddelolol.cl/wp-content/uploads/2025/10/APRUEBA-ORDENAZA-MUNICIPAL.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://municipalidaddelolol.cl/wp-content/uploads/2025/10/APRUEBA-ORDENAZA-MUNICIPAL.pdf",
+            "content_type": "application/pdf",
+            "sha256": "37d2e1f0f959cd1b004877865ea57576b0651d1701c8259ba2cdaa237c1d7f1d",
+            "bytes": 7321684,
+            "verified_at": "2026-08-30T18:20:21.696693+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 2
     },
     {
       "region_id": "06",
@@ -32774,12 +33768,76 @@ window.CATASTRO_DATA = {
       "comuna": "Palmilla",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 3,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_palmilla",
+          "fuente": "Municipalidad",
+          "numero": "S/N",
+          "fecha": "2026-01-01",
+          "titulo": "UNIDADES VECINALES",
+          "materia": "Seguridad Ciudadana y Convivencia",
+          "materia_id": "seguridad_convivencia",
+          "source_listing_url": "https://munipalmilla.cl/ordenanzas/",
+          "target_url": "https://data.munipalmilla.cl/ta/pdf/static/unidades_vecinales_palmilla.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://data.munipalmilla.cl/ta/pdf/static/unidades_vecinales_palmilla.pdf",
+            "content_type": "application/pdf",
+            "sha256": "2f5d09c9e80274303c5aeaeeac4472327ddca65ebfe1308879f964b615ca3edf",
+            "bytes": 1659879,
+            "verified_at": "2026-08-30T18:20:17.655982+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_palmilla",
+          "fuente": "Municipalidad",
+          "numero": "S/N-e002",
+          "fecha": "2026-01-01",
+          "titulo": "PLANO REGULADOR LOCALIDAD DE PALMILLA",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://munipalmilla.cl/ordenanzas/",
+          "target_url": "https://www.munipalmilla.cl/ta/bkp-site/uploads/PR_palmilla.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.munipalmilla.cl/ta/bkp-site/uploads/PR_palmilla.pdf",
+            "content_type": "application/pdf",
+            "sha256": "e0026c628d898077c3cea6e36ab078ce0e912b21a01dc575d27c70e998b25651",
+            "bytes": 564662,
+            "verified_at": "2026-08-30T18:20:18.145027+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_palmilla",
+          "fuente": "Municipalidad",
+          "numero": "S/N-fafd",
+          "fecha": "2026-01-01",
+          "titulo": "PLANO REGULADOR LOCALIDAD DE SAN JOSÉ DEL CARMEN",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://munipalmilla.cl/ordenanzas/",
+          "target_url": "https://www.munipalmilla.cl/ta/bkp-site/uploads/PR_sjc.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.munipalmilla.cl/ta/bkp-site/uploads/PR_sjc.pdf",
+            "content_type": "application/pdf",
+            "sha256": "fafd5dbc2ef1e10be6d4e3e6408f5e0f246cf72dab0066a7c21c8ee889d3220b",
+            "bytes": 488763,
+            "verified_at": "2026-08-30T18:20:18.353099+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 3
     },
     {
       "region_id": "06",
@@ -33260,12 +34318,34 @@ window.CATASTRO_DATA = {
       "comuna": "Constitución",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_constitucion",
+          "fuente": "Municipalidad",
+          "numero": "3",
+          "fecha": "2026-01-01",
+          "titulo": "Ordenanza General sobre Otorgamiento de Subvenciones Municipales",
+          "materia": "Salud, Deporte y Desarrollo Social",
+          "materia_id": "social_salud_deporte",
+          "source_listing_url": "https://www.constitucion.cl/transparencia/",
+          "target_url": "https://www.constitucion.cl/transparencia/archivos/3-potestades_y_marco_normativo/3-ordenanza_subvenciones_municipales.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.constitucion.cl/transparencia/archivos/3-potestades_y_marco_normativo/3-ordenanza_subvenciones_municipales.pdf",
+            "content_type": "application/pdf",
+            "sha256": "9317b46eb486a60ff6fc8c88ada189a0f944cf358093e7b1433b099ad1412d82",
+            "bytes": 4264591,
+            "verified_at": "2026-08-30T18:20:02.358437+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "07",
@@ -35250,12 +36330,181 @@ window.CATASTRO_DATA = {
       "comuna": "Linares",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 8,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_linares",
+          "fuente": "Municipalidad",
+          "numero": "20",
+          "fecha": "2026-01-01",
+          "titulo": "Renovacion Patente de Alcoholes",
+          "materia": "Patentes, Comercio y Alcoholes",
+          "materia_id": "alcoholes_comercio",
+          "source_listing_url": "https://corporacionlinares.cl/ordenanzas/",
+          "target_url": "https://www.corporacionlinares.cl/utilidad/DECLARACION%20JURAMENTADA%20(ALCOHOL).pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.corporacionlinares.cl/utilidad/DECLARACION%20JURAMENTADA%20(ALCOHOL).pdf",
+            "content_type": "application/pdf",
+            "sha256": "abb484898f96972521c9ebc7216ad1ced55ba151ba096fe95ccd945bcfbbe407",
+            "bytes": 106482,
+            "verified_at": "2026-08-30T18:20:16.468807+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_linares",
+          "fuente": "Municipalidad",
+          "numero": "S/N",
+          "fecha": "2026-01-01",
+          "titulo": "Declaración de Capital",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://corporacionlinares.cl/ordenanzas/",
+          "target_url": "https://www.corporacionlinares.cl/utilidad/DECLARACION%20DE%20CAPITAL.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.corporacionlinares.cl/utilidad/DECLARACION%20DE%20CAPITAL.pdf",
+            "content_type": "application/pdf",
+            "sha256": "3d588186dda8ee54ce70d19193b5d7b7e0aff6424e5c24e494ce5f84a045036a",
+            "bytes": 177814,
+            "verified_at": "2026-08-30T18:20:16.974933+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_linares",
+          "fuente": "Municipalidad",
+          "numero": "S/N",
+          "fecha": "2025-01-01",
+          "titulo": "Reavalúo Sitios No Edificados 2025",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://corporacionlinares.cl/ordenanzas/",
+          "target_url": "https://www.corporacionlinares.cl/utilidades/menu_informacion/ROLREAVALUO_SNE-07301_2025.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.corporacionlinares.cl/utilidades/menu_informacion/ROLREAVALUO_SNE-07301_2025.pdf",
+            "content_type": "application/pdf",
+            "sha256": "e6cfe7949d0f826c27d45729562f6be270994c795af1180a7b66339c59758635",
+            "bytes": 46512,
+            "verified_at": "2026-08-30T18:20:17.586402+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_linares",
+          "fuente": "Municipalidad",
+          "numero": "S/N-3f5e",
+          "fecha": "2026-01-01",
+          "titulo": "Inventario de emisiones de Gases de Efecto Invernadero",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://corporacionlinares.cl/ordenanzas/",
+          "target_url": "https://www.corporacionlinares.cl/utilidades/menu_informacion/GEI.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.corporacionlinares.cl/utilidades/menu_informacion/GEI.pdf",
+            "content_type": "application/pdf",
+            "sha256": "3f5e75ad31d2393e9a6d97fea98e157e23ef4673b5e457faf1648a8d1a9b2490",
+            "bytes": 5142359,
+            "verified_at": "2026-08-30T18:20:20.733545+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_linares",
+          "fuente": "Municipalidad",
+          "numero": "S/N-fe34",
+          "fecha": "2026-01-01",
+          "titulo": "Reporte Final PACCC",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://corporacionlinares.cl/ordenanzas/",
+          "target_url": "https://www.corporacionlinares.cl/utilidades/menu_informacion/PACCC.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.corporacionlinares.cl/utilidades/menu_informacion/PACCC.pdf",
+            "content_type": "application/pdf",
+            "sha256": "fe34981d6f3f3075e5a978b033499b3dcf5efd2e57b05e756104aed96332d0af",
+            "bytes": 42008576,
+            "verified_at": "2026-08-30T18:20:33.939391+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_linares",
+          "fuente": "Municipalidad",
+          "numero": "S/N-8fbc",
+          "fecha": "2026-01-01",
+          "titulo": "Plan de Acción Comunal de Cambio Climático",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://corporacionlinares.cl/ordenanzas/",
+          "target_url": "https://www.corporacionlinares.cl/utilidades/menu_informacion/Plan_Accion.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.corporacionlinares.cl/utilidades/menu_informacion/Plan_Accion.pdf",
+            "content_type": "application/pdf",
+            "sha256": "8fbc5a720bc3278cfe92b439b2f91937bcbbd832c6c8148a03c87835d34277f7",
+            "bytes": 898340,
+            "verified_at": "2026-08-30T18:20:34.440806+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_linares",
+          "fuente": "Municipalidad",
+          "numero": "S/N-5bc3",
+          "fecha": "2026-01-01",
+          "titulo": "Carta de Derechos Ciudadanos",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://corporacionlinares.cl/ordenanzas/",
+          "target_url": "https://www.corporacionlinares.cl/ley20285/pdf/informativo/CARTA.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.corporacionlinares.cl/ley20285/pdf/informativo/CARTA.pdf",
+            "content_type": "application/pdf",
+            "sha256": "5bc375567d479d543859a5f6799a05ba47d38c1d71da21f0966119b7017ef47f",
+            "bytes": 734836,
+            "verified_at": "2026-08-30T18:20:34.965223+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_linares",
+          "fuente": "Municipalidad",
+          "numero": "S/N-bf73",
+          "fecha": "2026-01-01",
+          "titulo": "Reglamento Interno Transparencia Mun.de Linares",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://corporacionlinares.cl/ordenanzas/",
+          "target_url": "https://www.corporacionlinares.cl/ley20285/pdf/07/Reglamentos/reglamento_2502.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.corporacionlinares.cl/ley20285/pdf/07/Reglamentos/reglamento_2502.pdf",
+            "content_type": "application/pdf",
+            "sha256": "bf7353ca228cec804c63b521e8045011611351278d87f50bff75c7c51a3fbcd4",
+            "bytes": 361687,
+            "verified_at": "2026-08-30T18:20:35.303113+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 8
     },
     {
       "region_id": "07",
@@ -37205,12 +38454,76 @@ window.CATASTRO_DATA = {
       "comuna": "Portezuelo",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 3,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_portezuelo",
+          "fuente": "Municipalidad",
+          "numero": "2026",
+          "fecha": "2025-01-01",
+          "titulo": "Cuenta Pública 2025",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://municipalidaddeportezuelo.cl/",
+          "target_url": "https://mportezuelo.cl/Inicio/wp-content/uploads/2026/04/Cuenta-Publica-2026-comprimida.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://mportezuelo.cl/Inicio/wp-content/uploads/2026/04/Cuenta-Publica-2026-comprimida.pdf",
+            "content_type": "application/pdf",
+            "sha256": "f65c0d9f519edcf081f200c189003f608d6694f9c36ab2457025c591d97c56b6",
+            "bytes": 7526187,
+            "verified_at": "2026-08-30T18:20:24.569552+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_portezuelo",
+          "fuente": "Municipalidad",
+          "numero": "16",
+          "fecha": "2026-01-01",
+          "titulo": "Bases Cargo",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://municipalidaddeportezuelo.cl/",
+          "target_url": "https://mportezuelo.cl/Inicio/wp-content/uploads/2025/10/Bases-Concurso-Publico-Tecnico-Grado-16°-I.-Municipalidad-de-Portezuelo.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://mportezuelo.cl/Inicio/wp-content/uploads/2025/10/Bases-Concurso-Publico-Tecnico-Grado-16°-I.-Municipalidad-de-Portezuelo.pdf",
+            "content_type": "application/pdf",
+            "sha256": "b36124bf4ee1e598b183f8fd3ef6afb7a3081b3e899033da161093631a857b6e",
+            "bytes": 496914,
+            "verified_at": "2026-08-30T18:20:24.881089+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_portezuelo",
+          "fuente": "Municipalidad",
+          "numero": "19",
+          "fecha": "2026-01-01",
+          "titulo": "Bases Cargo",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://municipalidaddeportezuelo.cl/",
+          "target_url": "https://mportezuelo.cl/Inicio/wp-content/uploads/2025/10/Bases-Concurso-Publico-Auxiliar-19°-I.-Municipalidad-de-Portezuelo.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://mportezuelo.cl/Inicio/wp-content/uploads/2025/10/Bases-Concurso-Publico-Auxiliar-19°-I.-Municipalidad-de-Portezuelo.pdf",
+            "content_type": "application/pdf",
+            "sha256": "418b676905534fbb6fdd453de8a6d4923136043686173e3b14c762d7298cf762",
+            "bytes": 495914,
+            "verified_at": "2026-08-30T18:20:25.092726+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 3
     },
     {
       "region_id": "16",
@@ -38182,12 +39495,97 @@ window.CATASTRO_DATA = {
       "comuna": "Treguaco",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 4,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_treguaco",
+          "fuente": "Municipalidad",
+          "numero": "S/N",
+          "fecha": "2024-01-01",
+          "titulo": "Ordenanza Municipal Treguaco — Cuenta Publica 2024",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://munitrehuaco.cl/",
+          "target_url": "https://www.municipalidaddetrehuaco.cl/Cuenta%20Publica/Cuenta%20Publica%202024.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.municipalidaddetrehuaco.cl/Cuenta%20Publica/Cuenta%20Publica%202024.pdf",
+            "content_type": "application/pdf",
+            "sha256": "52f35faa7874814ced86e3cd3974cf6591fe01a3a0a4a702cbc4070c716b5593",
+            "bytes": 11434438,
+            "verified_at": "2026-08-30T18:20:27.791155+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_treguaco",
+          "fuente": "Municipalidad",
+          "numero": "S/N",
+          "fecha": "2026-01-01",
+          "titulo": "Ordenanza Municipal Treguaco — KARIN",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://munitrehuaco.cl/",
+          "target_url": "https://www.municipalidaddetrehuaco.cl/KARIN.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.municipalidaddetrehuaco.cl/KARIN.pdf",
+            "content_type": "application/pdf",
+            "sha256": "d1e1621c7bd6600adfefd2b23d0c8a7dfa8b12705c5115ecebe58cef17a00889",
+            "bytes": 13046056,
+            "verified_at": "2026-08-30T18:20:32.456697+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_treguaco",
+          "fuente": "Municipalidad",
+          "numero": "S/N-bf03",
+          "fecha": "2026-01-01",
+          "titulo": "Ordenanza Municipal Treguaco — concu26",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://munitrehuaco.cl/",
+          "target_url": "https://www.municipalidaddetrehuaco.cl/concu26.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.municipalidaddetrehuaco.cl/concu26.pdf",
+            "content_type": "application/pdf",
+            "sha256": "bf03d69252128d3797882b977c5ce36b6f8317d6d30b6dc180d894b0af4169de",
+            "bytes": 1668439,
+            "verified_at": "2026-08-30T18:20:33.391123+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_treguaco",
+          "fuente": "Municipalidad",
+          "numero": "S/N-a981",
+          "fecha": "2026-01-01",
+          "titulo": "Ordenanza Municipal Treguaco — roles2024",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://munitrehuaco.cl/",
+          "target_url": "https://www.municipalidaddetrehuaco.cl/roles2024.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.municipalidaddetrehuaco.cl/roles2024.pdf",
+            "content_type": "application/pdf",
+            "sha256": "a981ad47b32342fdf23fe40919ea7c4143e5e7b7442aa274c00bb168c3c061e3",
+            "bytes": 251297,
+            "verified_at": "2026-08-30T18:20:33.501836+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 4
     },
     {
       "region_id": "16",
@@ -39345,12 +40743,34 @@ window.CATASTRO_DATA = {
       "comuna": "Chiguayante",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_chiguayante",
+          "fuente": "Municipalidad",
+          "numero": "1306",
+          "fecha": "2016-01-01",
+          "titulo": "Modificación a la Ordenanza sobre Otorgamiento de Patentes de Alcoholes",
+          "materia": "Patentes, Comercio y Alcoholes",
+          "materia_id": "alcoholes_comercio",
+          "source_listing_url": "https://www.chiguayante.cl/transparencia/",
+          "target_url": "https://www.chiguayante.cl/transparencia/2017/7_ACTOS%20Y%20RESOLUCIONES%20CON%20EFECTOS%20SOBRE%20TERCEROS/ORDENANZAS/1%20DECRETO%20N-1306-2016.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.chiguayante.cl/transparencia/2017/7_ACTOS%20Y%20RESOLUCIONES%20CON%20EFECTOS%20SOBRE%20TERCEROS/ORDENANZAS/1%20DECRETO%20N-1306-2016.pdf",
+            "content_type": "application/pdf",
+            "sha256": "4170ec7907f9fb55fda1371e86eae4b747a2c8636b6a65c08cae861ba8971139",
+            "bytes": 365385,
+            "verified_at": "2026-08-30T18:20:00.389599+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "08",
@@ -41977,12 +43397,34 @@ window.CATASTRO_DATA = {
       "comuna": "Alto Biobío",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_alto biobio",
+          "fuente": "Municipalidad",
+          "numero": "S/N",
+          "fecha": "2026-01-01",
+          "titulo": "Reglamento",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://munialtobiobio.cl/ordenanzas/",
+          "target_url": "https://munialtobiobio.cl/wp-content/uploads/2024/02/20240115120113875.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://munialtobiobio.cl/wp-content/uploads/2024/02/20240115120113875.pdf",
+            "content_type": "application/pdf",
+            "sha256": "2129770802e89f5db6e45dcb07bcf82db50c8068742ab66d6928d4426f08eb99",
+            "bytes": 137223,
+            "verified_at": "2026-08-30T18:20:29.528021+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "09",
@@ -44056,12 +45498,76 @@ window.CATASTRO_DATA = {
       "comuna": "Carahue",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 3,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_carahue",
+          "fuente": "Municipalidad",
+          "numero": "13",
+          "fecha": "2026-01-01",
+          "titulo": "Ordenanza Municipal Carahue — ORDENANZA N°13 TENENCIA RESPONSABLE DE MASCOTAS Y ANIMALES DE COMPANIA DE LA COMUNA DE CARAHUE",
+          "materia": "Tenencia Responsable de Mascotas",
+          "materia_id": "tenencia_mascotas",
+          "source_listing_url": "https://carahue.cl/",
+          "target_url": "https://carahue.cl/web/wp-content/uploads/2025/10/ORDENANZA-N°13-TENENCIA-RESPONSABLE-DE-MASCOTAS-Y-ANIMALES-DE-COMPANIA-DE-LA-COMUNA-DE-CARAHUE.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://carahue.cl/web/wp-content/uploads/2025/10/ORDENANZA-N°13-TENENCIA-RESPONSABLE-DE-MASCOTAS-Y-ANIMALES-DE-COMPANIA-DE-LA-COMUNA-DE-CARAHUE.pdf",
+            "content_type": "application/pdf",
+            "sha256": "e04b21553469108fee88d01175f15384ef1b4f82b91013435ce75f8d1ef37e69",
+            "bytes": 2408599,
+            "verified_at": "2026-08-30T18:20:39.404378+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_carahue",
+          "fuente": "Municipalidad",
+          "numero": "2025",
+          "fecha": "2025-01-01",
+          "titulo": "Ordenanza Municipal Carahue — ORDENANZA 2025",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://carahue.cl/",
+          "target_url": "https://carahue.cl/web/wp-content/uploads/2025/09/ORDENANZA-2025.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://carahue.cl/web/wp-content/uploads/2025/09/ORDENANZA-2025.pdf",
+            "content_type": "application/pdf",
+            "sha256": "1129c2bec95a9e59eb1f2a6991741b553318ca682b6cdf96e7db851e16d2bc98",
+            "bytes": 554506,
+            "verified_at": "2026-08-30T18:20:39.501800+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_carahue",
+          "fuente": "Municipalidad",
+          "numero": "2023",
+          "fecha": "2023-01-01",
+          "titulo": "Ordenanza Municipal Carahue — Plan de Seguridad de Carahue 2023 pdf 1",
+          "materia": "Seguridad Ciudadana y Convivencia",
+          "materia_id": "seguridad_convivencia",
+          "source_listing_url": "https://carahue.cl/",
+          "target_url": "https://carahue.cl/web/wp-content/uploads/2025/01/Plan-de-Seguridad-de-Carahue-2023-pdf-1.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://carahue.cl/web/wp-content/uploads/2025/01/Plan-de-Seguridad-de-Carahue-2023-pdf-1.pdf",
+            "content_type": "application/pdf",
+            "sha256": "6499ecd545379146a4cf060835e471199c1242c4697f47cce2784399df154625",
+            "bytes": 5508243,
+            "verified_at": "2026-08-30T18:20:40.439815+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 3
     },
     {
       "region_id": "09",
@@ -46235,12 +47741,34 @@ window.CATASTRO_DATA = {
       "comuna": "Angol",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_angol",
+          "fuente": "Municipalidad",
+          "numero": "1091",
+          "fecha": "2026-01-01",
+          "titulo": "Aprueba Ordenanza Municipal Feria Estación de la Comuna de Angol",
+          "materia": "Patentes, Comercio y Alcoholes",
+          "materia_id": "alcoholes_comercio",
+          "source_listing_url": "https://www.angol.cl/transparencia/actos,decisiones/ORDENANZAS/",
+          "target_url": "https://www.angol.cl/transparencia/actos,decisiones/ORDENANZAS/1091.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.angol.cl/transparencia/actos,decisiones/ORDENANZAS/1091.pdf",
+            "content_type": "application/pdf",
+            "sha256": "6cb5ffc33c0150a011073a8f9efce5b0ec97abdc5ada2e600a2409e99a7fd406",
+            "bytes": 1780224,
+            "verified_at": "2026-08-30T18:19:58.561451+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "09",
@@ -54174,12 +55702,34 @@ window.CATASTRO_DATA = {
       "comuna": "San Pablo",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 0,
+      "total_count": 1,
       "pdfs_count": 0,
-      "status": "Sin registros verificados",
+      "status": "Municipalidad verificada",
       "last_update": null,
-      "ordenanzas": [],
-      "municipal_count": 0
+      "ordenanzas": [
+        {
+          "cplt_code": "MU_san pablo",
+          "fuente": "Municipalidad",
+          "numero": "2022",
+          "fecha": "2022-01-01",
+          "titulo": "Ordenanza Municipal San Pablo — PROPUESTA FINAL PLAN COMUNAL DE SEGURIDAD PUBLICA SAN PABLO 2022 2025 2 2",
+          "materia": "Seguridad Ciudadana y Convivencia",
+          "materia_id": "seguridad_convivencia",
+          "source_listing_url": "https://sanpablo.cl/",
+          "target_url": "https://municipalidadsanpablo.cl/wp-content/uploads/2025/02/PROPUESTA-FINAL-PLAN-COMUNAL-DE-SEGURIDAD-PUBLICA-SAN-PABLO-2022-2025-2-2.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://municipalidadsanpablo.cl/wp-content/uploads/2025/02/PROPUESTA-FINAL-PLAN-COMUNAL-DE-SEGURIDAD-PUBLICA-SAN-PABLO-2022-2025-2-2.pdf",
+            "content_type": "application/pdf",
+            "sha256": "64b52ae4f7496cdbf567b887ee316080459dd618c96fe64a2807e16e732ccc73",
+            "bytes": 1015345,
+            "verified_at": "2026-08-30T18:20:47.400825+00:00"
+          },
+          "rdf_url": null
+        }
+      ],
+      "municipal_count": 1
     },
     {
       "region_id": "10",
@@ -56230,7 +57780,7 @@ window.CATASTRO_DATA = {
       "badge_bg": "bg-indigo-500/10",
       "badge_text": "text-indigo-400",
       "badge_border": "border-indigo-500/30",
-      "count": 787
+      "count": 792
     },
     {
       "id": "comercio_alcoholes",
@@ -56250,7 +57800,7 @@ window.CATASTRO_DATA = {
       "badge_bg": "bg-emerald-500/10",
       "badge_text": "text-emerald-400",
       "badge_border": "border-emerald-500/30",
-      "count": 181
+      "count": 182
     },
     {
       "id": "transito_transporte",
@@ -56270,7 +57820,7 @@ window.CATASTRO_DATA = {
       "badge_bg": "bg-orange-500/10",
       "badge_text": "text-orange-400",
       "badge_border": "border-orange-500/30",
-      "count": 92
+      "count": 94
     },
     {
       "id": "seguridad_convivencia",
@@ -56300,7 +57850,7 @@ window.CATASTRO_DATA = {
       "badge_bg": "bg-purple-500/10",
       "badge_text": "text-purple-400",
       "badge_border": "border-purple-500/30",
-      "count": 30
+      "count": 31
     },
     {
       "id": "administracion_interna",
@@ -56320,7 +57870,7 @@ window.CATASTRO_DATA = {
       "badge_bg": "bg-zinc-800",
       "badge_text": "text-zinc-400",
       "badge_border": "border-zinc-700",
-      "count": 1151
+      "count": 1205
     }
   ],
   "public_scope": {
@@ -56333,7 +57883,7 @@ window.CATASTRO_DATA = {
       "CPLT"
     ],
     "quarantined_records": 0,
-    "verified_municipal_records": 1125,
+    "verified_municipal_records": 1198,
     "reason": "Las referencias CPLT manuales sin evidencia se mantienen en cuarentena. Solo se publican documentos municipales con listado oficial, PDF resoluble y huella SHA-256 verificada."
   }
 };

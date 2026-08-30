@@ -90,3 +90,439 @@
 {"timestamp": "2026-08-30T17:30:35.724410+00:00", "comuna": "Viña del Mar", "url": "https://www.munivina.cl/uploads/2019/05/20190511110223-o21ordmercado.pdf", "status": 200, "count": 1}
 {"timestamp": "2026-08-30T17:30:36.930212+00:00", "comuna": "Viña del Mar", "url": "https://www.munivina.cl/uploads/2019/05/20190511110223-o35ordferiaslibres.pdf", "status": 200, "count": 1}
 {"timestamp": "2026-08-30T17:32:45.338952+00:00", "comuna": "Punta Arenas", "url": "https://puntaarenas.cl/archivos/Direcciones/dom/PRC_PUNTA_ARENAS_2016.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:19:56.168019+00:00", "comuna": "La Reina", "url": "https://www.lareina.cl/wp-content/uploads/2023/11/DECRETO-ALCALDICIO-N%C2%B0-2279-DEL-14.11.2023.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:19:58.561478+00:00", "comuna": "Angol", "url": "https://www.angol.cl/transparencia/actos,decisiones/ORDENANZAS/1091.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:19:59.952647+00:00", "comuna": "Putre", "url": "https://imputre.cl/wp-content/uploads/2023/07/Ordenanza-de-participacion-ciudadanaymodificacion.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:00.389619+00:00", "comuna": "Chiguayante", "url": "https://www.chiguayante.cl/transparencia/2017/7_ACTOS%20Y%20RESOLUCIONES%20CON%20EFECTOS%20SOBRE%20TERCEROS/ORDENANZAS/1%20DECRETO%20N-1306-2016.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:02.358463+00:00", "comuna": "Constitución", "url": "https://www.constitucion.cl/transparencia/archivos/3-potestades_y_marco_normativo/3-ordenanza_subvenciones_municipales.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:02.635509+00:00", "comuna": "Las Cabras", "url": "https://munilascabras.cl/wp-content/uploads/2024/03/Diario-Oficial-13-09-2016-Enmienda-al-PRC-Las-Cabras-1987-por-Muni-Las-Cabras.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:08.654497+00:00", "comuna": "La Reina", "url": "https://lareina.cl/ordenanzas/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:08.743467+00:00", "comuna": "Pudahuel", "url": "https://mpudahuel.cl/ordenanzas/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:08.945890+00:00", "comuna": "Tiltil", "url": "https://tiltil.cl/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:09.041616+00:00", "comuna": "La Reina", "url": "https://lareina.cl/ordenanzas-municipales/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:09.193443+00:00", "comuna": "Pudahuel", "url": "https://mpudahuel.cl/ordenanzas-municipales/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:09.249360+00:00", "comuna": "Las Cabras", "url": "https://munilascabras.cl/ordenanzas/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:09.326665+00:00", "comuna": "Tiltil", "url": "https://tiltil.cl/ordenanzas-municipales/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:09.569107+00:00", "comuna": "Tiltil", "url": "https://tiltil.cl/transparencia/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:09.569917+00:00", "comuna": "Olmué", "url": "https://muniolmue.cl/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:09.612140+00:00", "comuna": "La Reina", "url": "https://lareina.cl/transparencia/ordenanzas/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:09.676842+00:00", "comuna": "Pudahuel", "url": "https://mpudahuel.cl/transparencia/ordenanzas/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:09.754190+00:00", "comuna": "Coinco", "url": "https://municoinco.cl/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:09.789423+00:00", "comuna": "Las Cabras", "url": "https://munilascabras.cl/wp-content/uploads/2025/02/Alcaldia-Decreto-341_2025-12-02-2025-Aprueba-Mod-al-Art-8-de-la-Ordenanza-Local-de-Derechos-Municipales.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:09.872816+00:00", "comuna": "Tiltil", "url": "https://tiltil.cl/marco-normativo/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:09.916955+00:00", "comuna": "Las Cabras", "url": "https://munilascabras.cl/wp-content/uploads/2026/07/ORDENANZA-N°23-del-23-07-2026-Derechos-Municipales-DOM.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:09.917293+00:00", "comuna": "Limache", "url": "https://limache.cl/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:09.927397+00:00", "comuna": "Olmué", "url": "https://muniolmue.cl/ordenanzas-municipales/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:10.098964+00:00", "comuna": "La Reina", "url": "https://lareina.cl/marco-normativo/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:10.146044+00:00", "comuna": "Tiltil", "url": "https://tiltil.cl/transparencia-activa/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:10.147820+00:00", "comuna": "Pudahuel", "url": "https://mpudahuel.cl/marco-normativo/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:10.187421+00:00", "comuna": "Diego de Almagro", "url": "https://imda.cl/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:10.260772+00:00", "comuna": "Las Cabras", "url": "https://munilascabras.cl/wp-content/uploads/2025/09/Ordenanza-N%C2%B020-2025-Modificacion-precio-metro-cubico.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:10.262004+00:00", "comuna": "Coinco", "url": "https://municoinco.cl/ordenanzas-municipales/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:10.335133+00:00", "comuna": "Olmué", "url": "https://muniolmue.cl/transparencia/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:10.409645+00:00", "comuna": "Tiltil", "url": "https://tiltil.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:10.498544+00:00", "comuna": "Las Cabras", "url": "https://munilascabras.cl/wp-content/uploads/2025/07/Ordenanza-15_2024-09-08-2024-Ordenanza-para-el-Cierre-de-Calles-Pasajes-o-Conjuntos-Habitacionales-Urbanos-o-Rurales.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:10.616941+00:00", "comuna": "Pudahuel", "url": "https://mpudahuel.cl/transparencia-activa/ordenanzas/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:10.706603+00:00", "comuna": "Olmué", "url": "https://muniolmue.cl/marco-normativo/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:10.708508+00:00", "comuna": "La Reina", "url": "https://lareina.cl/transparencia-activa/ordenanzas/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:10.708336+00:00", "comuna": "Las Cabras", "url": "https://munilascabras.cl/wp-content/uploads/2024/12/Muni-Las-Cabras-Ordenanza-17-2024-25-11-2024-Modifica-Art-13-de-la-Ordenanza-del-Decreto-188-1994-con-un-nuevo-inciso.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:10.744247+00:00", "comuna": "Limache", "url": "https://limache.cl/ordenanzas-municipales/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:10.744115+00:00", "comuna": "Freirina", "url": "https://imfreirina.cl/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:10.894401+00:00", "comuna": "Coinco", "url": "https://municoinco.cl/transparencia/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:10.909850+00:00", "comuna": "Las Cabras", "url": "https://munilascabras.cl/wp-content/uploads/2024/11/Ordenanza-9_2023-11-07-2023-Ordenanza-de-Nombramiento-de-BNUP-y-Otros-Bienes.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:10.998787+00:00", "comuna": "Camarones", "url": "https://municamarones.cl/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:11.182891+00:00", "comuna": "Freirina", "url": "https://imfreirina.cl/ordenanzas-municipales/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:11.186895+00:00", "comuna": "Pudahuel", "url": "https://mpudahuel.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:11.246049+00:00", "comuna": "La Reina", "url": "https://lareina.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:11.275926+00:00", "comuna": "Olmué", "url": "https://muniolmue.cl/transparencia-activa/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:11.409071+00:00", "comuna": "Freirina", "url": "https://imfreirina.cl/transparencia/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:11.518328+00:00", "comuna": "Pudahuel", "url": "https://mpudahuel.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:11.605931+00:00", "comuna": "Limache", "url": "https://limache.cl/transparencia/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:11.678445+00:00", "comuna": "Coinco", "url": "https://municoinco.cl/marco-normativo/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:11.684518+00:00", "comuna": "Diego de Almagro", "url": "https://imda.cl/ordenanzas-municipales/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:11.716046+00:00", "comuna": "Olmué", "url": "https://muniolmue.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:11.792125+00:00", "comuna": "Canela", "url": "https://canela.cl/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:11.823832+00:00", "comuna": "La Reina", "url": "https://lareina.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:11.906534+00:00", "comuna": "Freirina", "url": "https://imfreirina.cl/marco-normativo/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:12.061838+00:00", "comuna": "Petorca", "url": "https://munipetorca.cl/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:12.194440+00:00", "comuna": "Olmué", "url": "https://muniolmue.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:12.267177+00:00", "comuna": "Coinco", "url": "https://municoinco.cl/transparencia-activa/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:12.363545+00:00", "comuna": "Putre", "url": "https://imputre.cl/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:12.397344+00:00", "comuna": "Freirina", "url": "https://imfreirina.cl/transparencia-activa/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:12.518613+00:00", "comuna": "Marchihue", "url": "https://marchigue.cl/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:12.581676+00:00", "comuna": "Marchihue", "url": "https://marchigue.cl/ordenanzas-municipales/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:12.601607+00:00", "comuna": "Freirina", "url": "https://imfreirina.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:12.608253+00:00", "comuna": "Limache", "url": "https://limache.cl/marco-normativo/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:12.638847+00:00", "comuna": "Marchihue", "url": "https://marchigue.cl/transparencia/ordenanzas/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:12.772756+00:00", "comuna": "Tiltil", "url": "https://tiltil.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:12.828456+00:00", "comuna": "Freirina", "url": "https://imfreirina.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:12.847164+00:00", "comuna": "Coinco", "url": "https://municoinco.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:12.856588+00:00", "comuna": "Lolol", "url": "https://munilolol.cl/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:13.222259+00:00", "comuna": "Camarones", "url": "https://municamarones.cl/ordenanzas-municipales/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:13.289495+00:00", "comuna": "Coinco", "url": "https://municoinco.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:13.361608+00:00", "comuna": "Diego de Almagro", "url": "https://imda.cl/transparencia/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:13.527325+00:00", "comuna": "Lolol", "url": "https://munilolol.cl/ordenanzas-municipales/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:13.537011+00:00", "comuna": "Tiltil", "url": "https://munitiltil.cl/wp-content/uploads/2023/07/Politicas-de-la-Seguridad-de-la-Informacion.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:13.576495+00:00", "comuna": "Limache", "url": "https://limache.cl/transparencia-activa/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:13.825630+00:00", "comuna": "Pichidegua", "url": "https://pichidegua.cl/ordenanzas/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:13.886687+00:00", "comuna": "Placilla", "url": "https://municipalidadplacilla.cl/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:13.954634+00:00", "comuna": "Placilla", "url": "https://municipalidadplacilla.cl/ordenanzas-municipales/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:14.027172+00:00", "comuna": "Placilla", "url": "https://municipalidadplacilla.cl/transparencia/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:14.084953+00:00", "comuna": "Lolol", "url": "https://munilolol.cl/transparencia/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:14.101410+00:00", "comuna": "Placilla", "url": "https://municipalidadplacilla.cl/marco-normativo/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:14.222858+00:00", "comuna": "Pichidegua", "url": "https://pichidegua.cl/ordenanzas-municipales/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:14.353691+00:00", "comuna": "Placilla", "url": "https://municipalidadplacilla.cl/transparencia-activa/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:14.451923+00:00", "comuna": "Placilla", "url": "https://municipalidadplacilla.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:14.499529+00:00", "comuna": "Las Cabras", "url": "https://munilascabras.cl/wp-content/uploads/2025/06/Muni-Las-Cabras-Ordenanza-03-2022-16-11-2022-Aprueba-Modificacion-Ordenanza-Medioambiental.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:14.539089+00:00", "comuna": "Marchihue", "url": "https://marchigue.cl/transparencia/ordenanzas/decreto00.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:14.543968+00:00", "comuna": "Pichidegua", "url": "https://pichidegua.cl/transparencia/ordenanzas/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:14.579125+00:00", "comuna": "Limache", "url": "https://limache.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:14.602478+00:00", "comuna": "Lolol", "url": "https://munilolol.cl/marco-normativo/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:14.648095+00:00", "comuna": "Canela", "url": "https://canela.cl/ordenanzas-municipales/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:14.775552+00:00", "comuna": "Pichidegua", "url": "https://pichidegua.cl/marco-normativo/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:14.805137+00:00", "comuna": "Placilla", "url": "https://municipalidadplacilla.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:14.881079+00:00", "comuna": "Diego de Almagro", "url": "https://imda.cl/marco-normativo/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:14.897988+00:00", "comuna": "Lolol", "url": "https://munilolol.cl/transparencia-activa/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:15.030666+00:00", "comuna": "Pichidegua", "url": "https://pichidegua.cl/transparencia-activa/ordenanzas/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:15.108749+00:00", "comuna": "Camarones", "url": "https://municamarones.cl/transparencia/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:15.209297+00:00", "comuna": "Lolol", "url": "https://munilolol.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:15.212697+00:00", "comuna": "Constitución", "url": "https://constitucion.cl/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:15.245129+00:00", "comuna": "Constitución", "url": "https://constitucion.cl/ordenanzas-municipales/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:15.278896+00:00", "comuna": "Pichidegua", "url": "https://pichidegua.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:15.376636+00:00", "comuna": "Constitución", "url": "https://constitucion.cl/transparencia/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:15.416026+00:00", "comuna": "Constitución", "url": "https://constitucion.cl/marco-normativo/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:15.444501+00:00", "comuna": "Constitución", "url": "https://constitucion.cl/transparencia-activa/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:15.519127+00:00", "comuna": "Constitución", "url": "https://constitucion.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:15.599183+00:00", "comuna": "Pichidegua", "url": "https://pichidegua.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:15.935343+00:00", "comuna": "Constitución", "url": "https://constitucion.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:16.026811+00:00", "comuna": "Linares", "url": "https://corporacionlinares.cl/ordenanzas/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:16.086990+00:00", "comuna": "Marchihue", "url": "https://marchigue.cl/transparencia/ordenanzas/decreto182.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:16.134166+00:00", "comuna": "Petorca", "url": "https://munipetorca.cl/ordenanzas-municipales/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:16.229817+00:00", "comuna": "Putre", "url": "https://imputre.cl/ordenanzas-municipales/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:16.372970+00:00", "comuna": "Diego de Almagro", "url": "https://imda.cl/transparencia-activa/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:16.441473+00:00", "comuna": "Limache", "url": "https://limache.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:16.469179+00:00", "comuna": "Linares", "url": "https://www.corporacionlinares.cl/utilidad/DECLARACION%20JURAMENTADA%20(ALCOHOL).pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:16.575729+00:00", "comuna": "Lolol", "url": "https://munilolol.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:16.607813+00:00", "comuna": "Palmilla", "url": "https://munipalmilla.cl/ordenanzas/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:16.839168+00:00", "comuna": "Maule", "url": "https://comunademaule.cl/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:16.894734+00:00", "comuna": "Maule", "url": "https://comunademaule.cl/ordenanzas-municipales/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:16.936864+00:00", "comuna": "Maule", "url": "https://comunademaule.cl/transparencia/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:16.968673+00:00", "comuna": "Maule", "url": "https://comunademaule.cl/marco-normativo/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:16.975482+00:00", "comuna": "Linares", "url": "https://www.corporacionlinares.cl/utilidad/DECLARACION%20DE%20CAPITAL.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:16.991560+00:00", "comuna": "Camarones", "url": "https://municamarones.cl/marco-normativo/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:17.042563+00:00", "comuna": "Maule", "url": "https://comunademaule.cl/transparencia-activa/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:17.073665+00:00", "comuna": "Maule", "url": "https://comunademaule.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:17.099688+00:00", "comuna": "Maule", "url": "https://comunademaule.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:17.586975+00:00", "comuna": "Linares", "url": "https://www.corporacionlinares.cl/utilidades/menu_informacion/ROLREAVALUO_SNE-07301_2025.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:17.656010+00:00", "comuna": "Palmilla", "url": "https://data.munipalmilla.cl/ta/pdf/static/unidades_vecinales_palmilla.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:17.758279+00:00", "comuna": "Canela", "url": "https://canela.cl/transparencia/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:17.798612+00:00", "comuna": "Tiltil", "url": "https://munitiltil.cl/wp-content/uploads/2023/01/DECRETO-N°934-2022-UNIDADES-VECINALES-TODOS-LOS-ADJUNTOS.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:17.933339+00:00", "comuna": "Las Cabras", "url": "https://munilascabras.cl/wp-content/uploads/2025/07/Decreto-2454_2023-26-10-2023-Declara-BNUP-Lote-Calle-del-Loteo-Santa-Ana-de-El-Carmen.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:17.949737+00:00", "comuna": "Diego de Almagro", "url": "https://imda.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:18.145048+00:00", "comuna": "Palmilla", "url": "https://www.munipalmilla.cl/ta/bkp-site/uploads/PR_palmilla.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:18.189603+00:00", "comuna": "Las Cabras", "url": "https://munilascabras.cl/wp-content/uploads/2024/12/Muni-Las-Cabras-Decreto-2449-04-11-2024-Asigna-Nombres-de-calles-en-sectores-de-la-comuna-que-se-indica.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:18.323400+00:00", "comuna": "Diego de Almagro", "url": "https://imda.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:18.353120+00:00", "comuna": "Palmilla", "url": "https://www.munipalmilla.cl/ta/bkp-site/uploads/PR_sjc.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:18.420599+00:00", "comuna": "Bulnes", "url": "https://munibulnes.cl/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:18.449622+00:00", "comuna": "Las Cabras", "url": "https://munilascabras.cl/wp-content/uploads/2025/07/Decreto-2843_2024-24-12-2024-Asigna-nombres-de-calle-en-Comite-La-Amistad-de-Llaveria.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:18.569584+00:00", "comuna": "Marchihue", "url": "https://marchigue.cl/transparencia/ordenanzas/decreto464.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:18.614202+00:00", "comuna": "Ninhue", "url": "https://munininhue.cl/ordenanzas/", "status": 401, "count": 0}
+{"timestamp": "2026-08-30T18:20:18.625001+00:00", "comuna": "Bulnes", "url": "https://munibulnes.cl/ordenanzas-municipales/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:18.650415+00:00", "comuna": "Ninhue", "url": "https://munininhue.cl/ordenanzas-municipales/", "status": 401, "count": 0}
+{"timestamp": "2026-08-30T18:20:18.683837+00:00", "comuna": "Ninhue", "url": "https://munininhue.cl/transparencia/ordenanzas/", "status": 401, "count": 0}
+{"timestamp": "2026-08-30T18:20:18.720376+00:00", "comuna": "Ninhue", "url": "https://munininhue.cl/marco-normativo/", "status": 401, "count": 0}
+{"timestamp": "2026-08-30T18:20:18.761646+00:00", "comuna": "Bulnes", "url": "https://munibulnes.cl/transparencia/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:18.812909+00:00", "comuna": "Ninhue", "url": "https://munininhue.cl/transparencia-activa/ordenanzas/", "status": 401, "count": 0}
+{"timestamp": "2026-08-30T18:20:18.859220+00:00", "comuna": "Ninhue", "url": "https://munininhue.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 401, "count": 0}
+{"timestamp": "2026-08-30T18:20:18.887807+00:00", "comuna": "Marchihue", "url": "https://marchigue.cl/transparencia/ordenanzas/decreto507.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:18.901352+00:00", "comuna": "Ninhue", "url": "https://munininhue.cl/", "status": 401, "count": 0}
+{"timestamp": "2026-08-30T18:20:18.909326+00:00", "comuna": "Bulnes", "url": "https://munibulnes.cl/marco-normativo/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:18.949002+00:00", "comuna": "Camarones", "url": "https://municamarones.cl/transparencia-activa/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:19.082091+00:00", "comuna": "Putre", "url": "https://imputre.cl/transparencia/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:19.111873+00:00", "comuna": "Bulnes", "url": "https://munibulnes.cl/transparencia-activa/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:19.254232+00:00", "comuna": "Bulnes", "url": "https://munibulnes.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:19.810972+00:00", "comuna": "Petorca", "url": "https://munipetorca.cl/transparencia/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:19.850608+00:00", "comuna": "Bulnes", "url": "https://munibulnes.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:20.252689+00:00", "comuna": "Portezuelo", "url": "https://municipalidaddeportezuelo.cl/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:20.435841+00:00", "comuna": "Portezuelo", "url": "https://municipalidaddeportezuelo.cl/ordenanzas-municipales/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:20.483635+00:00", "comuna": "Lolol", "url": "https://municipalidaddelolol.cl/wp-content/uploads/2026/04/PLADECO-LOLOL.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:20.616789+00:00", "comuna": "Portezuelo", "url": "https://municipalidaddeportezuelo.cl/transparencia/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:20.637490+00:00", "comuna": "Pelluhue", "url": "https://munipelluhue.cl/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:20.671386+00:00", "comuna": "Canela", "url": "https://canela.cl/marco-normativo/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:20.733866+00:00", "comuna": "Linares", "url": "https://www.corporacionlinares.cl/utilidades/menu_informacion/GEI.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:20.769394+00:00", "comuna": "Palmilla", "url": "https://munipalmilla.cl/ordenanzas-municipales/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:20.780495+00:00", "comuna": "Portezuelo", "url": "https://municipalidaddeportezuelo.cl/marco-normativo/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:20.900639+00:00", "comuna": "Longaví", "url": "https://municipalidadlongavi.cl/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:20.944756+00:00", "comuna": "Camarones", "url": "https://municamarones.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:20.949811+00:00", "comuna": "Portezuelo", "url": "https://municipalidaddeportezuelo.cl/transparencia-activa/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:21.019561+00:00", "comuna": "Quirihue", "url": "https://muniquirihue.cl/ordenanzas/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:21.109947+00:00", "comuna": "Portezuelo", "url": "https://municipalidaddeportezuelo.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:21.138275+00:00", "comuna": "Marchihue", "url": "https://marchigue.cl/transparencia/ordenanzas/decreto532.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:21.245346+00:00", "comuna": "Camarones", "url": "https://municamarones.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:21.499945+00:00", "comuna": "Treguaco", "url": "https://munitrehuaco.cl/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:21.528638+00:00", "comuna": "Treguaco", "url": "https://munitrehuaco.cl/ordenanzas-municipales/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:21.563264+00:00", "comuna": "Treguaco", "url": "https://munitrehuaco.cl/transparencia/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:21.597651+00:00", "comuna": "Treguaco", "url": "https://munitrehuaco.cl/marco-normativo/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:21.628419+00:00", "comuna": "Treguaco", "url": "https://munitrehuaco.cl/transparencia-activa/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:21.638624+00:00", "comuna": "Quirihue", "url": "https://muniquirihue.cl/ordenanzas-municipales/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:21.661212+00:00", "comuna": "Treguaco", "url": "https://munitrehuaco.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:21.672414+00:00", "comuna": "Putre", "url": "https://imputre.cl/marco-normativo/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:21.696711+00:00", "comuna": "Lolol", "url": "https://municipalidaddelolol.cl/wp-content/uploads/2025/10/APRUEBA-ORDENAZA-MUNICIPAL.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:21.827064+00:00", "comuna": "Quirihue", "url": "https://muniquirihue.cl/transparencia/ordenanzas/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:21.999570+00:00", "comuna": "Portezuelo", "url": "https://municipalidaddeportezuelo.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:22.261578+00:00", "comuna": "Quirihue", "url": "https://muniquirihue.cl/marco-normativo/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:22.479123+00:00", "comuna": "San Ignacio", "url": "https://munisanignacio.cl/ordenanzas/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:22.554484+00:00", "comuna": "Quirihue", "url": "https://muniquirihue.cl/transparencia-activa/ordenanzas/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:22.811329+00:00", "comuna": "Marchihue", "url": "https://marchigue.cl/transparencia/ordenanzas/decreto603.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:23.031789+00:00", "comuna": "Quirihue", "url": "https://muniquirihue.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:23.100911+00:00", "comuna": "Pelluhue", "url": "https://munipelluhue.cl/ordenanzas-municipales/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:23.442983+00:00", "comuna": "Quirihue", "url": "https://muniquirihue.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:23.484834+00:00", "comuna": "Palmilla", "url": "https://munipalmilla.cl/transparencia/ordenanzas/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:23.520407+00:00", "comuna": "Canela", "url": "https://canela.cl/transparencia-activa/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:23.893462+00:00", "comuna": "Petorca", "url": "https://munipetorca.cl/marco-normativo/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:23.949600+00:00", "comuna": "Longaví", "url": "https://municipalidadlongavi.cl/ordenanzas-municipales/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:24.285545+00:00", "comuna": "Treguaco", "url": "https://munitrehuaco.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:24.523323+00:00", "comuna": "Marchihue", "url": "https://marchigue.cl/transparencia/ordenanzas/decreto810.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:24.569576+00:00", "comuna": "Portezuelo", "url": "https://mportezuelo.cl/Inicio/wp-content/uploads/2026/04/Cuenta-Publica-2026-comprimida.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:24.573121+00:00", "comuna": "Putre", "url": "https://imputre.cl/transparencia-activa/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:24.791737+00:00", "comuna": "Yungay", "url": "https://yungay.cl/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:24.881109+00:00", "comuna": "Portezuelo", "url": "https://mportezuelo.cl/Inicio/wp-content/uploads/2025/10/Bases-Concurso-Publico-Tecnico-Grado-16°-I.-Municipalidad-de-Portezuelo.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:24.951854+00:00", "comuna": "Ñiquén", "url": "https://muniniquen.cl/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:24.989745+00:00", "comuna": "Ñiquén", "url": "https://muniniquen.cl/ordenanzas-municipales/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:25.048421+00:00", "comuna": "Ñiquén", "url": "https://muniniquen.cl/transparencia/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:25.092745+00:00", "comuna": "Portezuelo", "url": "https://mportezuelo.cl/Inicio/wp-content/uploads/2025/10/Bases-Concurso-Publico-Auxiliar-19°-I.-Municipalidad-de-Portezuelo.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:25.244273+00:00", "comuna": "Ñiquén", "url": "https://muniniquen.cl/marco-normativo/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:25.281040+00:00", "comuna": "Ñiquén", "url": "https://muniniquen.cl/transparencia-activa/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:25.317264+00:00", "comuna": "Ñiquén", "url": "https://muniniquen.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:25.333905+00:00", "comuna": "Marchihue", "url": "https://marchigue.cl/transparencia/ordenanzas/decreto1039.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:25.572380+00:00", "comuna": "Pelluhue", "url": "https://munipelluhue.cl/transparencia/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:26.369450+00:00", "comuna": "Canela", "url": "https://canela.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:26.506945+00:00", "comuna": "Canela", "url": "https://canela.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:26.657829+00:00", "comuna": "Yungay", "url": "https://yungay.cl/ordenanzas-municipales/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:26.775208+00:00", "comuna": "Longaví", "url": "https://municipalidadlongavi.cl/transparencia/ordenanzas/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:26.826709+00:00", "comuna": "Palmilla", "url": "https://munipalmilla.cl/marco-normativo/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:26.839359+00:00", "comuna": "Chiguayante", "url": "https://chiguayante.cl/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:26.868546+00:00", "comuna": "Chiguayante", "url": "https://chiguayante.cl/ordenanzas-municipales/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:26.899107+00:00", "comuna": "Chiguayante", "url": "https://chiguayante.cl/transparencia/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:26.924987+00:00", "comuna": "Chiguayante", "url": "https://chiguayante.cl/marco-normativo/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:26.952495+00:00", "comuna": "Chiguayante", "url": "https://chiguayante.cl/transparencia-activa/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:26.978694+00:00", "comuna": "Chiguayante", "url": "https://chiguayante.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:27.658482+00:00", "comuna": "Petorca", "url": "https://munipetorca.cl/transparencia-activa/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:27.689534+00:00", "comuna": "Putre", "url": "https://imputre.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:27.791184+00:00", "comuna": "Treguaco", "url": "http://www.municipalidaddetrehuaco.cl/Cuenta%20Publica/Cuenta%20Publica%202024.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:28.144286+00:00", "comuna": "Ñiquén", "url": "https://muniniquen.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:28.226333+00:00", "comuna": "Pelluhue", "url": "https://munipelluhue.cl/marco-normativo/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:28.359930+00:00", "comuna": "Marchihue", "url": "https://marchigue.cl/transparencia/ordenanzas/decreto1079.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:28.724388+00:00", "comuna": "Yungay", "url": "https://yungay.cl/transparencia/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:29.188343+00:00", "comuna": "Palmilla", "url": "https://munipalmilla.cl/transparencia-activa/ordenanzas/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:29.332138+00:00", "comuna": "Alto Biobío", "url": "https://munialtobiobio.cl/ordenanzas/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:29.528046+00:00", "comuna": "Alto Biobío", "url": "https://munialtobiobio.cl/wp-content/uploads/2024/02/20240115120113875.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:29.567687+00:00", "comuna": "Longaví", "url": "https://municipalidadlongavi.cl/marco-normativo/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:30.723576+00:00", "comuna": "Pelluhue", "url": "https://munipelluhue.cl/transparencia-activa/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:30.726045+00:00", "comuna": "Yungay", "url": "https://yungay.cl/marco-normativo/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:30.806877+00:00", "comuna": "Putre", "url": "https://imputre.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:31.289958+00:00", "comuna": "Petorca", "url": "https://munipetorca.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:31.592971+00:00", "comuna": "Palmilla", "url": "https://munipalmilla.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:32.152179+00:00", "comuna": "Hualqui", "url": "https://munihualqui.cl/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:32.294194+00:00", "comuna": "Longaví", "url": "https://municipalidadlongavi.cl/transparencia-activa/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:32.336769+00:00", "comuna": "Hualqui", "url": "https://munihualqui.cl/ordenanzas-municipales/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:32.456720+00:00", "comuna": "Treguaco", "url": "http://www.municipalidaddetrehuaco.cl/KARIN.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:32.571427+00:00", "comuna": "Hualqui", "url": "https://munihualqui.cl/transparencia/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:32.807259+00:00", "comuna": "Hualqui", "url": "https://munihualqui.cl/marco-normativo/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:32.974490+00:00", "comuna": "Hualqui", "url": "https://munihualqui.cl/transparencia-activa/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:33.031597+00:00", "comuna": "Pelluhue", "url": "https://munipelluhue.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:33.122454+00:00", "comuna": "Yungay", "url": "https://yungay.cl/transparencia-activa/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:33.168136+00:00", "comuna": "Hualqui", "url": "https://munihualqui.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:33.354551+00:00", "comuna": "Hualqui", "url": "https://munihualqui.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:33.391143+00:00", "comuna": "Treguaco", "url": "https://www.municipalidaddetrehuaco.cl/concu26.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:33.501858+00:00", "comuna": "Treguaco", "url": "http://www.municipalidaddetrehuaco.cl/roles2024.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:33.548895+00:00", "comuna": "Alto Biobío", "url": "https://munialtobiobio.cl/ordenanzas-municipales/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:33.939886+00:00", "comuna": "Linares", "url": "https://www.corporacionlinares.cl/utilidades/menu_informacion/PACCC.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:34.441600+00:00", "comuna": "Linares", "url": "https://www.corporacionlinares.cl/utilidades/menu_informacion/Plan_Accion.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:34.534512+00:00", "comuna": "Nacimiento", "url": "https://nacimiento.cl/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:34.857995+00:00", "comuna": "Petorca", "url": "https://munipetorca.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:34.874520+00:00", "comuna": "Chiguayante", "url": "https://chiguayante.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:34.895420+00:00", "comuna": "Nacimiento", "url": "https://nacimiento.cl/ordenanzas-municipales/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:34.932604+00:00", "comuna": "Longaví", "url": "https://municipalidadlongavi.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:34.965542+00:00", "comuna": "Linares", "url": "https://www.corporacionlinares.cl/ley20285/pdf/informativo/CARTA.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:35.060543+00:00", "comuna": "Yungay", "url": "https://yungay.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:35.269109+00:00", "comuna": "Nacimiento", "url": "https://nacimiento.cl/transparencia/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:35.303379+00:00", "comuna": "Linares", "url": "https://www.corporacionlinares.cl/ley20285/pdf/07/Reglamentos/reglamento_2502.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:35.590226+00:00", "comuna": "Nacimiento", "url": "https://nacimiento.cl/marco-normativo/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:35.658737+00:00", "comuna": "Longaví", "url": "https://municipalidadlongavi.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:35.692552+00:00", "comuna": "Pelluhue", "url": "https://munipelluhue.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:36.065325+00:00", "comuna": "Nacimiento", "url": "https://nacimiento.cl/transparencia-activa/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:36.070170+00:00", "comuna": "Mulchén", "url": "https://munimulchen.cl/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:36.210596+00:00", "comuna": "Carahue", "url": "https://carahue.cl/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:36.237020+00:00", "comuna": "Carahue", "url": "https://carahue.cl/ordenanzas-municipales/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:36.258714+00:00", "comuna": "Carahue", "url": "https://carahue.cl/transparencia/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:36.282581+00:00", "comuna": "Carahue", "url": "https://carahue.cl/marco-normativo/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:36.303295+00:00", "comuna": "Carahue", "url": "https://carahue.cl/transparencia-activa/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:36.355966+00:00", "comuna": "Carahue", "url": "https://carahue.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:36.457392+00:00", "comuna": "Nacimiento", "url": "https://nacimiento.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:36.552847+00:00", "comuna": "Mulchén", "url": "https://munimulchen.cl/ordenanzas-municipales/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:36.605419+00:00", "comuna": "Nacimiento", "url": "https://nacimiento.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:36.748299+00:00", "comuna": "Angol", "url": "https://angol.cl/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:36.819999+00:00", "comuna": "Yungay", "url": "https://yungay.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:37.006075+00:00", "comuna": "Mulchén", "url": "https://munimulchen.cl/transparencia/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:37.122999+00:00", "comuna": "Cholchol", "url": "https://municholchol.cl/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:37.327992+00:00", "comuna": "Angol", "url": "https://angol.cl/ordenanzas-municipales/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:37.390781+00:00", "comuna": "Cholchol", "url": "https://municholchol.cl/ordenanzas-municipales/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:37.441663+00:00", "comuna": "Santa Juana", "url": "https://santajuana.cl/ordenanzas/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:37.498192+00:00", "comuna": "Alto Biobío", "url": "https://munialtobiobio.cl/transparencia/ordenanzas/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:37.531387+00:00", "comuna": "Mulchén", "url": "https://munimulchen.cl/marco-normativo/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:37.542246+00:00", "comuna": "Palmilla", "url": "https://munipalmilla.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:37.639742+00:00", "comuna": "Cholchol", "url": "https://municholchol.cl/transparencia/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:37.674349+00:00", "comuna": "Angol", "url": "https://angol.cl/transparencia/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:37.963345+00:00", "comuna": "Cholchol", "url": "https://municholchol.cl/marco-normativo/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:38.034006+00:00", "comuna": "Angol", "url": "https://angol.cl/marco-normativo/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:38.053741+00:00", "comuna": "Mulchén", "url": "https://munimulchen.cl/transparencia-activa/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:38.202217+00:00", "comuna": "Curacautín", "url": "https://mcuracautin.cl/ordenanzas/", "status": 403, "count": 0}
+{"timestamp": "2026-08-30T18:20:38.243616+00:00", "comuna": "Cholchol", "url": "https://municholchol.cl/transparencia-activa/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:38.358792+00:00", "comuna": "Angol", "url": "https://angol.cl/transparencia-activa/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:38.423173+00:00", "comuna": "Santa Juana", "url": "https://santajuana.cl/ordenanzas-municipales/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:38.489234+00:00", "comuna": "Cholchol", "url": "https://municholchol.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:38.536301+00:00", "comuna": "Mulchén", "url": "https://munimulchen.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:38.538694+00:00", "comuna": "Cholchol", "url": "https://municholchol.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:38.668705+00:00", "comuna": "Angol", "url": "https://angol.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:38.706722+00:00", "comuna": "Negrete", "url": "https://muninegrete.cl/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:38.810029+00:00", "comuna": "Curacautín", "url": "https://mcuracautin.cl/ordenanzas-municipales/", "status": 403, "count": 0}
+{"timestamp": "2026-08-30T18:20:38.863161+00:00", "comuna": "Carahue", "url": "https://carahue.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:39.100179+00:00", "comuna": "Mulchén", "url": "https://munimulchen.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:39.125617+00:00", "comuna": "Angol", "url": "https://angol.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:39.275983+00:00", "comuna": "Curacautín", "url": "https://mcuracautin.cl/transparencia/ordenanzas/", "status": 403, "count": 0}
+{"timestamp": "2026-08-30T18:20:39.404405+00:00", "comuna": "Carahue", "url": "https://carahue.cl/web/wp-content/uploads/2025/10/ORDENANZA-N°13-TENENCIA-RESPONSABLE-DE-MASCOTAS-Y-ANIMALES-DE-COMPANIA-DE-LA-COMUNA-DE-CARAHUE.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:39.501821+00:00", "comuna": "Carahue", "url": "https://carahue.cl/web/wp-content/uploads/2025/09/ORDENANZA-2025.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:39.614228+00:00", "comuna": "Nueva Imperial", "url": "https://nuevaimperial.cl/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:39.703351+00:00", "comuna": "Curacautín", "url": "https://mcuracautin.cl/marco-normativo/", "status": 403, "count": 0}
+{"timestamp": "2026-08-30T18:20:39.971825+00:00", "comuna": "Nueva Imperial", "url": "https://nuevaimperial.cl/ordenanzas-municipales/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:39.987150+00:00", "comuna": "Alto Biobío", "url": "https://munialtobiobio.cl/marco-normativo/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:40.309906+00:00", "comuna": "Curacautín", "url": "https://mcuracautin.cl/transparencia-activa/ordenanzas/", "status": 403, "count": 0}
+{"timestamp": "2026-08-30T18:20:40.439837+00:00", "comuna": "Carahue", "url": "https://carahue.cl/web/wp-content/uploads/2025/01/Plan-de-Seguridad-de-Carahue-2023-pdf-1.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:40.561953+00:00", "comuna": "Pitrufquén", "url": "https://mpitrufquen.cl/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:40.669195+00:00", "comuna": "Santa Juana", "url": "https://santajuana.cl/transparencia/ordenanzas/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:40.774589+00:00", "comuna": "Curacautín", "url": "https://mcuracautin.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 403, "count": 0}
+{"timestamp": "2026-08-30T18:20:40.782630+00:00", "comuna": "Curacautín", "url": "https://mcuracautin.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:40.858871+00:00", "comuna": "Nueva Imperial", "url": "https://nuevaimperial.cl/transparencia/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:40.914546+00:00", "comuna": "Marchihue", "url": "https://marchigue.cl/transparencia/ordenanzas/decreto1300.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:40.960849+00:00", "comuna": "Pitrufquén", "url": "https://mpitrufquen.cl/ordenanzas-municipales/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:41.249949+00:00", "comuna": "Marchihue", "url": "https://marchigue.cl/transparencia/ordenanzas/decreto1880.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:41.276441+00:00", "comuna": "Nueva Imperial", "url": "https://nuevaimperial.cl/marco-normativo/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:41.312971+00:00", "comuna": "Pitrufquén", "url": "https://mpitrufquen.cl/transparencia/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:41.388922+00:00", "comuna": "Marchihue", "url": "https://marchigue.cl/transparencia/ordenanzas/decreto2104.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:41.560674+00:00", "comuna": "Marchihue", "url": "https://marchigue.cl/transparencia/ordenanzas/decreto2105.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:41.793542+00:00", "comuna": "Santa Juana", "url": "https://santajuana.cl/marco-normativo/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:41.793881+00:00", "comuna": "Pitrufquén", "url": "https://mpitrufquen.cl/marco-normativo/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:41.810002+00:00", "comuna": "Llanquihue", "url": "https://llanquihue.cl/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:41.858298+00:00", "comuna": "Nueva Imperial", "url": "https://nuevaimperial.cl/transparencia-activa/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:42.088912+00:00", "comuna": "Negrete", "url": "https://muninegrete.cl/ordenanzas-municipales/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:42.147078+00:00", "comuna": "Pitrufquén", "url": "https://mpitrufquen.cl/transparencia-activa/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:42.338601+00:00", "comuna": "Nueva Imperial", "url": "https://nuevaimperial.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:42.475385+00:00", "comuna": "Pitrufquén", "url": "https://mpitrufquen.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:42.566565+00:00", "comuna": "Llanquihue", "url": "https://llanquihue.cl/ordenanzas-municipales/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:42.603264+00:00", "comuna": "Nueva Imperial", "url": "https://nuevaimperial.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:42.695583+00:00", "comuna": "Cunco", "url": "https://municunco.cl/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:42.733340+00:00", "comuna": "Marchihue", "url": "https://marchigue.cl/transparencia/ordenanzas/decreto2116.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:42.745773+00:00", "comuna": "Puerto Octay", "url": "https://puertooctay.cl/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:42.758124+00:00", "comuna": "Puerto Octay", "url": "https://puertooctay.cl/ordenanzas-municipales/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:42.768918+00:00", "comuna": "Puerto Octay", "url": "https://puertooctay.cl/transparencia/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:42.800590+00:00", "comuna": "Palena", "url": "https://municipalidadpalena.cl/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:42.828149+00:00", "comuna": "Puerto Octay", "url": "https://puertooctay.cl/marco-normativo/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:42.839941+00:00", "comuna": "Puerto Octay", "url": "https://puertooctay.cl/transparencia-activa/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:42.849965+00:00", "comuna": "Puerto Octay", "url": "https://puertooctay.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:42.981338+00:00", "comuna": "Pitrufquén", "url": "https://mpitrufquen.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:43.351878+00:00", "comuna": "Llanquihue", "url": "https://llanquihue.cl/transparencia/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:43.497726+00:00", "comuna": "Santa Juana", "url": "https://santajuana.cl/transparencia-activa/ordenanzas/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:43.586547+00:00", "comuna": "Marchihue", "url": "https://marchigue.cl/transparencia/ordenanzas/decreto2259.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:43.595997+00:00", "comuna": "Puerto Octay", "url": "https://puertooctay.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:43.669756+00:00", "comuna": "Palena", "url": "https://municipalidadpalena.cl/ordenanzas-municipales/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:44.091163+00:00", "comuna": "Llanquihue", "url": "https://llanquihue.cl/marco-normativo/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:44.256466+00:00", "comuna": "Alto Biobío", "url": "https://munialtobiobio.cl/transparencia-activa/ordenanzas/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:44.383750+00:00", "comuna": "Palena", "url": "https://municipalidadpalena.cl/transparencia/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:44.596963+00:00", "comuna": "Marchihue", "url": "https://marchigue.cl/transparencia/ordenanzas/decreto2333.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:44.681577+00:00", "comuna": "Santa Juana", "url": "https://santajuana.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:44.866644+00:00", "comuna": "Llanquihue", "url": "https://llanquihue.cl/transparencia-activa/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:45.062143+00:00", "comuna": "San Pablo", "url": "https://sanpablo.cl/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:45.110918+00:00", "comuna": "San Pablo", "url": "https://sanpablo.cl/ordenanzas-municipales/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:45.122151+00:00", "comuna": "San Pablo", "url": "https://sanpablo.cl/transparencia/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:45.181641+00:00", "comuna": "San Pablo", "url": "https://sanpablo.cl/marco-normativo/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:45.238429+00:00", "comuna": "San Pablo", "url": "https://sanpablo.cl/transparencia-activa/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:45.335093+00:00", "comuna": "San Pablo", "url": "https://sanpablo.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:45.335428+00:00", "comuna": "Palena", "url": "https://municipalidadpalena.cl/marco-normativo/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:45.406389+00:00", "comuna": "Negrete", "url": "https://muninegrete.cl/transparencia/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:45.556558+00:00", "comuna": "San Ramón", "url": "https://municipalidadsanramon.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:45.664180+00:00", "comuna": "Llanquihue", "url": "https://llanquihue.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:45.815142+00:00", "comuna": "Llanquihue", "url": "https://llanquihue.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:45.872620+00:00", "comuna": "Santa Juana", "url": "https://santajuana.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:46.163378+00:00", "comuna": "San Ramón", "url": "https://municipalidadsanramon.cl/wp-content/uploads/2025/08/INFORMA-SOBRE-EL-CALCULO-DE-TARIFA-DE-ASEO-PARA-EL-PERIODO-2026.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:46.210564+00:00", "comuna": "Lago Verde", "url": "https://lagoverdeaysen.cl/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:46.220921+00:00", "comuna": "Lago Verde", "url": "https://lagoverdeaysen.cl/ordenanzas-municipales/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:46.312825+00:00", "comuna": "Palena", "url": "https://municipalidadpalena.cl/transparencia-activa/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:46.322259+00:00", "comuna": "Lago Verde", "url": "https://lagoverdeaysen.cl/transparencia/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:46.358347+00:00", "comuna": "Lago Verde", "url": "https://lagoverdeaysen.cl/marco-normativo/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:46.463031+00:00", "comuna": "Lago Verde", "url": "https://lagoverdeaysen.cl/transparencia-activa/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:46.474816+00:00", "comuna": "Lago Verde", "url": "https://lagoverdeaysen.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:46.650993+00:00", "comuna": "Lago Verde", "url": "https://lagoverdeaysen.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:46.875224+00:00", "comuna": "Alto Biobío", "url": "https://munialtobiobio.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:46.927529+00:00", "comuna": "San Ramón", "url": "https://municipalidadsanramon.cl/wp-content/uploads/2026/04/Formulario-trabajadores-y-sucursales.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:46.930268+00:00", "comuna": "Puyehue", "url": "https://puyehuechile.cl/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:47.084902+00:00", "comuna": "Río Verde", "url": "https://rioverde.cl/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:47.138027+00:00", "comuna": "San Pablo", "url": "https://sanpablo.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:47.159431+00:00", "comuna": "Río Verde", "url": "https://rioverde.cl/ordenanzas-municipales/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:47.217267+00:00", "comuna": "Río Verde", "url": "https://rioverde.cl/transparencia/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:47.260098+00:00", "comuna": "Cunco", "url": "https://municunco.cl/ordenanzas-municipales/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:47.268247+00:00", "comuna": "Timaukel", "url": "https://municipalidadtimaukel.cl/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:47.316502+00:00", "comuna": "Río Verde", "url": "https://rioverde.cl/marco-normativo/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:47.400873+00:00", "comuna": "San Pablo", "url": "https://municipalidadsanpablo.cl/wp-content/uploads/2025/02/PROPUESTA-FINAL-PLAN-COMUNAL-DE-SEGURIDAD-PUBLICA-SAN-PABLO-2022-2025-2-2.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:47.402136+00:00", "comuna": "Río Verde", "url": "https://rioverde.cl/transparencia-activa/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:47.415282+00:00", "comuna": "Timaukel", "url": "https://municipalidadtimaukel.cl/ordenanzas-municipales/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:47.456448+00:00", "comuna": "Río Verde", "url": "https://rioverde.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:47.485731+00:00", "comuna": "Palena", "url": "https://municipalidadpalena.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:47.571149+00:00", "comuna": "Timaukel", "url": "https://municipalidadtimaukel.cl/transparencia/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:47.686773+00:00", "comuna": "Timaukel", "url": "https://municipalidadtimaukel.cl/marco-normativo/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:47.694598+00:00", "comuna": "Marchihue", "url": "https://marchigue.cl/transparencia/ordenanzas/decreto2533.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:47.863973+00:00", "comuna": "Timaukel", "url": "https://municipalidadtimaukel.cl/transparencia-activa/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:47.973406+00:00", "comuna": "Timaukel", "url": "https://municipalidadtimaukel.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:48.096560+00:00", "comuna": "Timaukel", "url": "https://municipalidadtimaukel.cl/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:48.203092+00:00", "comuna": "Palena", "url": "https://municipalidadpalena.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:48.366468+00:00", "comuna": "Río Verde", "url": "https://rioverde.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:48.650598+00:00", "comuna": "Marchihue", "url": "https://marchigue.cl/transparencia/ordenanzas/decreto2663.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:48.690090+00:00", "comuna": "Negrete", "url": "https://muninegrete.cl/marco-normativo/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:48.809989+00:00", "comuna": "Marchihue", "url": "https://marchigue.cl/transparencia/ordenanzas/decreto2712.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:49.488197+00:00", "comuna": "Puyehue", "url": "https://puyehuechile.cl/ordenanzas-municipales/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:49.504335+00:00", "comuna": "Alto Biobío", "url": "https://munialtobiobio.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:50.047491+00:00", "comuna": "Cisnes", "url": "https://municipalidadcisnes.cl/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:50.103483+00:00", "comuna": "Marchihue", "url": "https://marchigue.cl/transparencia/ordenanzas/decreto2713.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:51.052864+00:00", "comuna": "Marchihue", "url": "https://marchigue.cl/transparencia/ordenanzas/decreto2714.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:51.224950+00:00", "comuna": "Marchihue", "url": "https://marchigue.cl/transparencia/ordenanzas/decreto2781.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:51.478794+00:00", "comuna": "Cunco", "url": "https://municunco.cl/transparencia/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:51.993112+00:00", "comuna": "Negrete", "url": "https://muninegrete.cl/transparencia-activa/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:52.106097+00:00", "comuna": "Puyehue", "url": "https://puyehuechile.cl/transparencia/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:52.447549+00:00", "comuna": "Marchihue", "url": "https://marchigue.cl/transparencia/ordenanzas/decreto2995.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:52.820107+00:00", "comuna": "Marchihue", "url": "https://marchigue.cl/transparencia/ordenanzas/decreto3304.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:53.181888+00:00", "comuna": "Marchihue", "url": "https://marchigue.cl/transparencia/ordenanzas/decreto3714.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:53.342077+00:00", "comuna": "Cisnes", "url": "https://municipalidadcisnes.cl/ordenanzas-municipales/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:53.577440+00:00", "comuna": "Marchihue", "url": "https://marchigue.cl/transparencia/ordenanzas/decreto4138.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:53.701750+00:00", "comuna": "Marchihue", "url": "https://marchigue.cl/transparencia/ordenanzas/decreto4218.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:54.769805+00:00", "comuna": "Marchihue", "url": "https://marchigue.cl/transparencia/ordenanzas/decreto4219.pdf", "status": 200, "count": 1}
+{"timestamp": "2026-08-30T18:20:55.006671+00:00", "comuna": "Puyehue", "url": "https://puyehuechile.cl/marco-normativo/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:55.206107+00:00", "comuna": "Negrete", "url": "https://muninegrete.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:56.021081+00:00", "comuna": "Cunco", "url": "https://municunco.cl/marco-normativo/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:56.520841+00:00", "comuna": "Cisnes", "url": "https://municipalidadcisnes.cl/transparencia/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:58.012120+00:00", "comuna": "Puyehue", "url": "https://puyehuechile.cl/transparencia-activa/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:20:58.468348+00:00", "comuna": "Negrete", "url": "https://muninegrete.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:20:59.661632+00:00", "comuna": "Cisnes", "url": "https://municipalidadcisnes.cl/marco-normativo/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:21:00.465623+00:00", "comuna": "Cunco", "url": "https://municunco.cl/transparencia-activa/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:21:00.846930+00:00", "comuna": "Puyehue", "url": "https://puyehuechile.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:21:02.683176+00:00", "comuna": "Cisnes", "url": "https://municipalidadcisnes.cl/transparencia-activa/ordenanzas/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:21:03.609081+00:00", "comuna": "Puyehue", "url": "https://puyehuechile.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:21:04.009597+00:00", "comuna": "San Ignacio", "url": "https://munisanignacio.cl/ordenanzas-municipales/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:21:05.011196+00:00", "comuna": "Cunco", "url": "https://municunco.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:21:05.576683+00:00", "comuna": "San Ignacio", "url": "https://munisanignacio.cl/transparencia/ordenanzas/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:21:05.869073+00:00", "comuna": "Cisnes", "url": "https://municipalidadcisnes.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:21:06.380077+00:00", "comuna": "San Ignacio", "url": "https://munisanignacio.cl/marco-normativo/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:21:07.816906+00:00", "comuna": "San Ignacio", "url": "https://munisanignacio.cl/transparencia-activa/ordenanzas/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:21:08.751308+00:00", "comuna": "San Ignacio", "url": "https://munisanignacio.cl/transparencia/actos-y-resoluciones-con-efectos-sobre-terceros/", "status": 404, "count": 0}
+{"timestamp": "2026-08-30T18:21:09.262189+00:00", "comuna": "Cisnes", "url": "https://municipalidadcisnes.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:21:09.377002+00:00", "comuna": "Cunco", "url": "https://municunco.cl/", "status": 200, "count": 0}
+{"timestamp": "2026-08-30T18:21:09.742078+00:00", "comuna": "San Ignacio", "url": "https://munisanignacio.cl/", "status": 200, "count": 0}
