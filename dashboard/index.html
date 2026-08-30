@@ -178,9 +178,9 @@
         <i data-lucide="cpu" class="w-4 h-4"></i>
         Extracción Multi-Agente & Pipeline
       </button>
-      <button onclick="switchTab('recursos')" id="tab-btn-recursos" class="pb-3 text-sm font-medium border-b-2 border-transparent text-zinc-400 hover:text-zinc-200 flex items-center gap-2 shrink-0 transition-colors">
-        <i data-lucide="folder-archive" class="w-4 h-4"></i>
-        Descargas & Entregables
+      <button onclick="switchTab('buzon')" id="tab-btn-buzon" class="pb-3 text-sm font-medium border-b-2 border-transparent text-zinc-400 hover:text-zinc-200 flex items-center gap-2 shrink-0 transition-colors">
+        <i data-lucide="send" class="w-4 h-4 text-[#54b995]"></i>
+        Buzón & Colaborar
       </button>
       <button onclick="switchTab('roadmap')" id="tab-btn-roadmap" class="pb-3 text-sm font-medium border-b-2 border-transparent text-zinc-400 hover:text-zinc-200 flex items-center gap-2 shrink-0 transition-colors">
         <i data-lucide="compass" class="w-4 h-4"></i>
@@ -421,35 +421,111 @@
       </div>
     </section>
 
-    <!-- TAB CONTENT 4: RECURSOS -->
-    <section id="tab-recursos" class="hidden space-y-6">
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-        <div class="bg-[#071f43]/60 border border-[#153b70] rounded-xl p-5 space-y-3 flex flex-col justify-between">
-          <div class="space-y-3">
-            <div class="h-10 w-10 rounded-lg bg-[#0b4aa2]/10 border border-[#38bdf8]/20 flex items-center justify-center text-[#38bdf8]">
-              <i data-lucide="file-spreadsheet" class="w-5 h-5"></i>
-            </div>
-            <h4 class="text-sm font-semibold text-zinc-100">Excel Catastro Nacional</h4>
-            <p class="text-xs text-zinc-400">Planilla oficial con 1.632 ordenanzas, clasificación en 9 ejes e hipervínculos funcionales.</p>
+    <!-- TAB CONTENT 4: BUZÓN COLABORATIVO & CONTACTO -->
+    <section id="tab-buzon" class="hidden space-y-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+        
+        <!-- Formulario Colaborativo -->
+        <div class="lg:col-span-7 bg-[#071f43]/70 border border-[#153b70] rounded-2xl p-6 sm:p-8 space-y-6">
+          <div class="flex items-center gap-2">
+            <span class="text-xs font-mono text-[#54b995] bg-[#54b995]/10 px-2.5 py-1 rounded-full border border-[#54b995]/30 uppercase tracking-wider font-semibold">
+              Catastro Colaborativo
+            </span>
+            <span class="text-zinc-500 text-xs">•</span>
+            <span class="text-xs font-mono text-[#38bdf8]">Aporte Ciudadano y Académico</span>
           </div>
-          <a href="descargas/catastro_ordenanzas_nacional_2026.xlsx" download class="w-full py-2 bg-[#0b4aa2] hover:bg-[#073c86] text-white rounded-lg text-xs font-mono font-semibold transition-colors flex items-center justify-center gap-2">
-            <i data-lucide="download" class="w-3.5 h-3.5"></i>
-            <span>Descargar .xlsx (0.19 MB)</span>
-          </a>
-        </div>
-        <div class="bg-[#071f43]/60 border border-[#153b70] rounded-xl p-5 space-y-3 flex flex-col justify-between">
-          <div class="space-y-3">
-            <div class="h-10 w-10 rounded-lg bg-sky-500/10 border border-sky-500/20 flex items-center justify-center text-sky-400">
-              <i data-lucide="archive" class="w-5 h-5"></i>
-            </div>
-            <h4 class="text-sm font-semibold text-zinc-100">Paquete Consolidado ZIP</h4>
-            <p class="text-xs text-zinc-400">Excel maestro, base SQLite, directorio CSV y documentos normativos oficiales.</p>
+
+          <div>
+            <h2 class="text-xl sm:text-2xl font-bold tracking-tight text-zinc-100">
+              ¿Falta alguna ordenanza de tu comuna?
+            </h2>
+            <p class="text-xs text-zinc-300 mt-2 leading-relaxed">
+              Ayúdanos a completar la cobertura nacional de las 346 comunas. Si tienes el enlace al portal municipal, decreto alcaldicio o archivo PDF oficial de una ordenanza no registrada, envíalo por este buzón para auditarlo e indexarlo en la siguiente actualización.
+            </p>
           </div>
-          <a href="descargas/consolidado_ordenanzas_chile_2026.zip" download class="w-full py-2 bg-[#153b70] hover:bg-[#1f5091] border border-[#1f5091] text-zinc-200 rounded-lg text-xs font-mono font-medium transition-colors flex items-center justify-center gap-2">
-            <i data-lucide="download" class="w-3.5 h-3.5"></i>
-            <span>Descargar .zip (0.34 MB)</span>
-          </a>
+
+          <form id="buzon-form" onsubmit="handleBuzonFormSubmit(event)" class="space-y-4 pt-2">
+            <div>
+              <label class="block text-xs font-semibold text-zinc-300 mb-1.5 font-mono">Comuna / Municipalidad *</label>
+              <input type="text" id="buzon-comuna" required placeholder="Ej: Curicó, San Antonio, Pudahuel, Natales..." class="w-full bg-[#04142b] border border-[#153b70] rounded-xl px-4 py-2.5 text-xs text-zinc-200 placeholder-zinc-500 focus:outline-none focus:border-[#38bdf8] transition-colors">
+            </div>
+
+            <div>
+              <label class="block text-xs font-semibold text-zinc-300 mb-1.5 font-mono">Título o Materia de la Ordenanza *</label>
+              <input type="text" id="buzon-titulo" required placeholder="Ej: Ordenanza de Derechos Municipales 2026 / Tenencia de Mascotas..." class="w-full bg-[#04142b] border border-[#153b70] rounded-xl px-4 py-2.5 text-xs text-zinc-200 placeholder-zinc-500 focus:outline-none focus:border-[#38bdf8] transition-colors">
+            </div>
+
+            <div>
+              <label class="block text-xs font-semibold text-zinc-300 mb-1.5 font-mono">Enlace Web o URL del Documento Oficial (PDF / Portal) *</label>
+              <input type="url" id="buzon-url" required placeholder="https://www.municipio.cl/ordenanzas/documento.pdf" class="w-full bg-[#04142b] border border-[#153b70] rounded-xl px-4 py-2.5 text-xs text-zinc-200 placeholder-zinc-500 focus:outline-none focus:border-[#38bdf8] transition-colors">
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label class="block text-xs font-semibold text-zinc-300 mb-1.5 font-mono">Tu Nombre / Institución (Opcional)</label>
+                <input type="text" id="buzon-remitente" placeholder="Estudiante FAGOB / Funcionario..." class="w-full bg-[#04142b] border border-[#153b70] rounded-xl px-4 py-2.5 text-xs text-zinc-200 placeholder-zinc-500 focus:outline-none focus:border-[#38bdf8] transition-colors">
+              </div>
+              <div>
+                <label class="block text-xs font-semibold text-zinc-300 mb-1.5 font-mono">Tu Correo Electrónico (Opcional)</label>
+                <input type="email" id="buzon-email" placeholder="contacto@universidad.cl" class="w-full bg-[#04142b] border border-[#153b70] rounded-xl px-4 py-2.5 text-xs text-zinc-200 placeholder-zinc-500 focus:outline-none focus:border-[#38bdf8] transition-colors">
+              </div>
+            </div>
+
+            <div>
+              <label class="block text-xs font-semibold text-zinc-300 mb-1.5 font-mono">Comentarios adicionales / Contexto (Opcional)</label>
+              <textarea id="buzon-comentarios" rows="2" placeholder="Información sobre año de promulgación, estado de vigencia o reformas recientes..." class="w-full bg-[#04142b] border border-[#153b70] rounded-xl px-4 py-2.5 text-xs text-zinc-200 placeholder-zinc-500 focus:outline-none focus:border-[#38bdf8] transition-colors resize-none"></textarea>
+            </div>
+
+            <button type="submit" class="w-full py-3 bg-[#0b4aa2] hover:bg-[#073c86] text-white rounded-xl text-xs font-mono font-semibold transition-all flex items-center justify-center gap-2 shadow-lg hover:shadow-cyan-500/10">
+              <i data-lucide="send" class="w-4 h-4"></i>
+              <span>Enviar Reporte de Ordenanza</span>
+            </button>
+          </form>
         </div>
+
+        <!-- Panel Lateral: Solicitud de Datos para Investigación -->
+        <div class="lg:col-span-5 space-y-6">
+          
+          <div class="bg-[#071f43]/60 border border-[#153b70] rounded-2xl p-6 space-y-4">
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-xl bg-purple-500/10 border border-purple-500/30 flex items-center justify-center text-purple-400">
+                <i data-lucide="database" class="w-5 h-5"></i>
+              </div>
+              <div>
+                <h4 class="text-sm font-bold text-zinc-100">Solicitud de Base de Datos para Tesis e Investigación</h4>
+                <span class="text-[11px] font-mono text-zinc-400">Uso académico y científico</span>
+              </div>
+            </div>
+
+            <p class="text-xs text-zinc-300 leading-relaxed">
+              Para preservar la integridad del proyecto y fomentar la colaboración con la comunidad universitaria, el microdataset estructurado completo (SQLite, CSV consolidado y metadatos) se entrega <strong>bajo solicitud directa</strong> para fines de investigación académica, docencia o proyectos de políticas públicas.
+            </p>
+
+            <div class="bg-[#04142b] border border-[#153b70] rounded-xl p-4 space-y-2">
+              <span class="text-[11px] font-mono text-[#38bdf8] font-semibold block">¿Cómo solicitar el dataset completo?</span>
+              <p class="text-[11px] text-zinc-400">
+                Escríbenos indicando tu nombre, institución académica o centro de estudios y el objetivo de tu investigación.
+              </p>
+            </div>
+
+            <a href="mailto:evegat@gmail.com?subject=Solicitud%20Dataset%20P090%20-%20Catastro%20Ordenanzas%20Municipales&body=Estimado%20Eduardo%20Vega%2C%0A%0AMe%20gustar%C3%ADa%20solicitar%20el%20dataset%20consolidado%20del%20Catastro%20Nacional%20de%20Ordenanzas%20Municipales%20(P090)%20para%20los%20siguientes%20fines%20acad%C3%A9micos%2Finvestigativos%3A%0A%0A-%20Nombre%3A%20%0A-%20Instituci%C3%B3n%20%2F%20Carrera%3A%20%0A-%20Objetivo%20de%20la%20investigaci%C3%B3n%3A%20%0A%0ASaludos%20cordiales." class="w-full py-2.5 bg-[#153b70] hover:bg-[#1f5091] border border-[#1f5091] text-zinc-100 rounded-xl text-xs font-mono font-medium transition-colors flex items-center justify-center gap-2 block text-center">
+              <i data-lucide="mail" class="w-4 h-4 text-[#38bdf8]"></i>
+              <span>Solicitar Dataset por Correo</span>
+            </a>
+          </div>
+
+          <div class="bg-[#071f43]/40 border border-[#153b70]/60 rounded-2xl p-5 space-y-3">
+            <div class="flex items-center gap-2 text-zinc-300">
+              <i data-lucide="shield-check" class="w-4 h-4 text-[#54b995]"></i>
+              <h5 class="text-xs font-semibold">Garantía de Auditoría de Evidencia</h5>
+            </div>
+            <p class="text-[11px] text-zinc-400 leading-relaxed">
+              Todos los aportes recibidos a través de este buzón pasan por una verificación estricta de procedencia oficial, descarga efectiva de archivo PDF, integridad SHA-256 y clasificación temática antes de ser incorporados al dataset público.
+            </p>
+          </div>
+
+        </div>
+
       </div>
     </section>
 
@@ -1264,12 +1340,26 @@
       listContainer.innerHTML = '';
 
       if (!ordinances || ordinances.length === 0) {
+        const currentCommuneName = document.getElementById('drawer-commune-name').textContent || 'esta comuna';
         listContainer.innerHTML = `
-          <div class="p-12 text-center text-zinc-500 font-mono text-xs border border-dashed border-[#153b70] rounded-xl space-y-2">
-            <div>No se encontraron ordenanzas para el criterio seleccionado en esta comuna.</div>
-            <button onclick="document.getElementById('drawer-topic-filter').value='ALL'; document.getElementById('drawer-year-filter').value='ALL'; filterDrawerOrdinances();" class="text-[#38bdf8] hover:underline">
-              Mostrar todas las ordenanzas de esta comuna
+          <div class="p-8 text-center text-zinc-400 font-mono text-xs border border-dashed border-[#153b70] rounded-xl space-y-4 bg-[#04142b]/40">
+            <div class="text-zinc-300">No se registran ordenanzas oficiales indexadas bajo los filtros actuales para <strong>${currentCommuneName}</strong>.</div>
+            <button onclick="document.getElementById('drawer-topic-filter').value='ALL'; document.getElementById('drawer-year-filter').value='ALL'; document.getElementById('drawer-source-filter').value='ALL'; document.getElementById('drawer-search-input').value=''; filterDrawerOrdinances();" class="text-[#38bdf8] hover:underline block mx-auto">
+              Restablecer filtros del panel
             </button>
+            <div class="pt-4 border-t border-[#153b70]/60 text-left space-y-2">
+              <div class="flex items-center gap-2 text-[#54b995]">
+                <i data-lucide="send" class="w-4 h-4"></i>
+                <span class="font-bold text-xs">¿Conoces ordenanzas oficiales de ${currentCommuneName}?</span>
+              </div>
+              <p class="text-[11px] text-zinc-400 leading-relaxed">
+                Ayúdanos a integrarlas aportando el enlace web o archivo oficial en el buzón colaborativo.
+              </p>
+              <button onclick="openBuzonForCommune('${currentCommuneName}')" class="w-full mt-2 py-2 bg-[#0b4aa2] hover:bg-[#073c86] text-white rounded-lg text-xs font-mono font-semibold transition-colors flex items-center justify-center gap-2">
+                <i data-lucide="send" class="w-3.5 h-3.5"></i>
+                <span>Aportar Ordenanza de ${currentCommuneName}</span>
+              </button>
+            </div>
           </div>
         `;
         lucide.createIcons();
@@ -1328,6 +1418,23 @@
         listContainer.appendChild(item);
       });
 
+      const currentCommuneName = document.getElementById('drawer-commune-name').textContent || 'esta comuna';
+      const contributeFooter = document.createElement('div');
+      contributeFooter.className = 'mt-6 p-4 rounded-xl bg-[#04142b]/90 border border-[#153b70] space-y-2';
+      contributeFooter.innerHTML = `
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+          <div class="flex items-center gap-2 text-zinc-300 text-xs font-semibold">
+            <i data-lucide="plus-circle" class="w-4 h-4 text-[#54b995]"></i>
+            <span>¿Falta alguna ordenanza reciente de ${currentCommuneName}?</span>
+          </div>
+          <button onclick="openBuzonForCommune('${currentCommuneName}')" class="px-3 py-1.5 bg-[#0b4aa2] hover:bg-[#073c86] text-white rounded-lg text-xs font-mono font-medium transition-colors flex items-center justify-center gap-1.5 shrink-0">
+            <i data-lucide="send" class="w-3 h-3"></i>
+            <span>Aportar al Buzón</span>
+          </button>
+        </div>
+      `;
+      listContainer.appendChild(contributeFooter);
+
       lucide.createIcons();
     }
 
@@ -1335,8 +1442,44 @@
       document.getElementById('commune-drawer').classList.add('hidden');
     }
 
+    function openBuzonForCommune(communeName) {
+      closeDrawer();
+      switchTab('buzon');
+      const input = document.getElementById('buzon-comuna');
+      if (input) {
+        input.value = communeName;
+        input.focus();
+      }
+    }
+
+    function handleBuzonFormSubmit(e) {
+      e.preventDefault();
+      const comuna = document.getElementById('buzon-comuna').value.trim();
+      const titulo = document.getElementById('buzon-titulo').value.trim();
+      const url = document.getElementById('buzon-url').value.trim();
+      const remitente = document.getElementById('buzon-remitente').value.trim();
+      const email = document.getElementById('buzon-email').value.trim();
+      const comentarios = document.getElementById('buzon-comentarios').value.trim();
+
+      const subject = encodeURIComponent(`[P090 Aporte] Ordenanza para ${comuna}: ${titulo}`);
+      const body = encodeURIComponent(
+        `Estimado Eduardo Vega,\n\n` +
+        `Envío un reporte/enlace de ordenanza para ser incorporada al Catastro Nacional (P090):\n\n` +
+        `• Comuna / Municipio: ${comuna}\n` +
+        `• Título / Materia: ${titulo}\n` +
+        `• URL oficial / PDF: ${url}\n` +
+        `• Remitente: ${remitente || 'Anónimo / Colaborador'}\n` +
+        `• Correo de contacto: ${email || 'No informado'}\n` +
+        `• Comentarios / Contexto: ${comentarios || 'Sin comentarios adicionales'}\n\n` +
+        `Enviado desde el visualizador P090.`
+      );
+
+      window.location.href = `mailto:evegat@gmail.com?subject=${subject}&body=${body}`;
+      showToast('Abriendo cliente de correo para enviar tu reporte...');
+    }
+
     function switchTab(tabId) {
-      ['matriz', 'tematicas', 'metodologia', 'recursos', 'roadmap'].forEach(id => {
+      ['matriz', 'tematicas', 'metodologia', 'buzon', 'roadmap'].forEach(id => {
         const tabEl = document.getElementById('tab-' + id);
         const btnEl = document.getElementById('tab-btn-' + id);
         if (tabEl) tabEl.classList.add('hidden');
