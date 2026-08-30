@@ -1672,11 +1672,31 @@
       const purpose = document.getElementById('lead-purpose').value;
       const interest = document.getElementById('lead-interest') ? document.getElementById('lead-interest').value.trim() : '';
       const ideas = document.getElementById('lead-ideas') ? document.getElementById('lead-ideas').value.trim() : '';
+      const fileType = (pendingDownloadType === 'xlsx') ? 'Excel Catastro Nacional (.xlsx)' : 'Paquete Consolidado (.zip)';
 
+      // 1. Guardar copia en el registro local del navegador
+      try {
+        const history = JSON.parse(localStorage.getItem('p090_lead_registry') || '[]');
+        history.push({
+          timestamp: new Date().toISOString(),
+          nombre: name,
+          email: email,
+          institucion: institution,
+          proposito: purpose,
+          interes: interest,
+          ideas: ideas,
+          archivo: fileType
+        });
+        localStorage.setItem('p090_lead_registry', JSON.stringify(history));
+      } catch (err) {
+        console.warn('Registro local no disponible', err);
+      }
+
+      // 2. Iniciar descarga inmediata
       triggerDirectDownload();
 
       if (name) {
-        showToast(`¡Gracias ${name}! Respuestas enviadas y descarga iniciada.`);
+        showToast(`¡Gracias ${name}! Respuestas registradas y descarga iniciada.`);
       }
     }
 
@@ -1701,7 +1721,7 @@
 
       const subject = encodeURIComponent(`[P090 Aporte] Ordenanza para ${comuna}: ${titulo}`);
       const body = encodeURIComponent(
-        `Estimado Eduardo Vega,\n\n` +
+        `Estimado Eduardo Vega (Universidad de Chile),\n\n` +
         `Envío un reporte/enlace de ordenanza para ser incorporada al Catastro Nacional (P090):\n\n` +
         `• Comuna / Municipio: ${comuna}\n` +
         `• Título / Materia: ${titulo}\n` +
@@ -1709,11 +1729,11 @@
         `• Remitente: ${remitente || 'Anónimo / Colaborador'}\n` +
         `• Correo de contacto: ${email || 'No informado'}\n` +
         `• Comentarios / Contexto: ${comentarios || 'Sin comentarios adicionales'}\n\n` +
-        `Enviado desde el visualizador P090.`
+        `Enviado desde el visualizador P090 (evegat.github.io/catastro-ordenanzas-municipales).`
       );
 
-      window.location.href = `mailto:evegat@gmail.com?subject=${subject}&body=${body}`;
-      showToast('Abriendo cliente de correo para enviar tu reporte...');
+      window.location.href = `mailto:evegat@uchile.cl?subject=${subject}&body=${body}`;
+      showToast('Abriendo cliente de correo para enviar tu reporte a evegat@uchile.cl...');
     }
 
     function switchTab(tabId) {
