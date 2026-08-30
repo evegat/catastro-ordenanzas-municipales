@@ -196,10 +196,16 @@
         
         <div class="flex flex-col lg:flex-row gap-3 items-center justify-between">
           
-          <!-- Text Search -->
-          <div class="relative w-full lg:w-80">
+          <!-- Text Search with Autocomplete -->
+          <div class="relative w-full lg:w-80" id="search-container">
             <i data-lucide="search" class="w-4 h-4 absolute left-3 top-1/2 -translate-y-1/2 text-zinc-500"></i>
-            <input type="text" id="search-input" placeholder="Buscar comuna, palabra clave o N°..." oninput="filterTable()" class="w-full bg-[#04142b] border border-[#153b70] rounded-lg pl-9 pr-4 py-2 text-xs text-zinc-200 placeholder-zinc-500 focus:outline-none focus:border-[#38bdf8] transition-colors">
+            <input type="text" id="search-input" placeholder="Buscar comuna, materia o concepto..." oninput="handleSearchInput(event)" onkeydown="handleSearchKeydown(event)" autocomplete="off" class="w-full bg-[#04142b] border border-[#153b70] rounded-lg pl-9 pr-8 py-2 text-xs text-zinc-200 placeholder-zinc-500 focus:outline-none focus:border-[#38bdf8] transition-colors">
+            <button id="search-clear-btn" onclick="clearSearchInput()" class="hidden absolute right-2.5 top-1/2 -translate-y-1/2 text-zinc-500 hover:text-zinc-300">
+              <i data-lucide="x" class="w-3.5 h-3.5"></i>
+            </button>
+            
+            <!-- Autocomplete Dropdown Panel -->
+            <div id="autocomplete-list" class="hidden absolute left-0 right-0 top-full mt-1 bg-[#04142b]/95 border border-[#153b70] rounded-xl shadow-2xl overflow-hidden z-50 max-h-80 overflow-y-auto divide-y divide-[#153b70]/40 backdrop-blur-md"></div>
           </div>
 
           <!-- Dropdowns Group (PRE-POPULATED IN DOM) -->
@@ -735,8 +741,261 @@
       window.open(url, '_blank', 'noopener,noreferrer');
     }
 
+    const FREQUENT_SEARCH_TERMS = [
+      { term: "Derechos y Tarifas", topicId: "derechos_tarifas" },
+      { term: "Patentes Comerciales", topicId: "comercio_alcoholes" },
+      { term: "Venta de Alcoholes", topicId: "comercio_alcoholes" },
+      { term: "Aseo y Extracción de Basura", topicId: "aseo_medioambiente" },
+      { term: "Medio Ambiente y Humedales", topicId: "aseo_medioambiente" },
+      { term: "Tránsito y Estacionamiento", topicId: "transito_transporte" },
+      { term: "Urbanismo y Edificación", topicId: "urbanismo_obras" },
+      { term: "Seguridad y Ruidos Molestos", topicId: "seguridad_convivencia" },
+      { term: "Tenencia Responsable de Mascotas", topicId: "mascotas_animales" },
+      { term: "Salud, Deporte y Social", topicId: "social_salud_deporte" },
+      { term: "Régimen Interno y Organización", topicId: "administracion_interna" },
+      { term: "Publicidad y Propaganda", topicId: "comercio_alcoholes" },
+      { term: "Ferias Libres y Comercio Ambulante", topicId: "comercio_alcoholes" },
+      { term: "Áreas Verdes y Especies Arbóreas", topicId: "aseo_medioambiente" }
+    ];
+
+    let currentSelectedSuggestionIndex = -1;
+    let currentSuggestions = [];
+
+    function normalizeText(text) {
+      return (text || '')
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .trim();
+    }
+
+    function handleSearchInput(e) {
+      const val = document.getElementById('search-input').value;
+      const clearBtn = document.getElementById('search-clear-btn');
+      if (clearBtn) {
+        if (val.length > 0) clearBtn.classList.remove('hidden');
+        else clearBtn.classList.add('hidden');
+      }
+
+      filterTable();
+      renderAutocomplete(val);
+    }
+
+    function clearSearchInput() {
+      const input = document.getElementById('search-input');
+      input.value = '';
+      const clearBtn = document.getElementById('search-clear-btn');
+      if (clearBtn) clearBtn.classList.add('hidden');
+      hideAutocomplete();
+      filterTable();
+      input.focus();
+    }
+
+    function highlightMatch(text, query) {
+      if (!query) return text;
+      const cleanQ = query.trim();
+      const regex = new RegExp(`(${cleanQ.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+      return text.replace(regex, '<span class="text-[#38bdf8] font-bold underline">$1</span>');
+    }
+
+    function renderAutocomplete(query) {
+      const container = document.getElementById('autocomplete-list');
+      if (!container) return;
+
+      const normQuery = normalizeText(query);
+      if (normQuery.length < 2 || !currentData) {
+        hideAutocomplete();
+        return;
+      }
+
+      currentSuggestions = [];
+
+      // 1. Match Comunas (up to 4)
+      if (currentData.comunas) {
+        currentData.comunas.forEach(c => {
+          const normComuna = normalizeText(c.comuna);
+          const normReg = normalizeText(c.region_nombre);
+          if (normComuna.includes(normQuery) || normReg.includes(normQuery)) {
+            currentSuggestions.push({
+              category: 'comuna',
+              label: c.comuna,
+              subtitle: `Región ${c.region_nombre}`,
+              badge: `${c.total_count} normas`,
+              action: () => selectCommuneSuggestion(c.comuna)
+            });
+          }
+        });
+      }
+      currentSuggestions = currentSuggestions.slice(0, 4);
+
+      // 2. Match Topics (up to 3)
+      if (currentData.topics) {
+        currentData.topics.forEach(t => {
+          const normTopic = normalizeText(t.nombre);
+          if (normTopic.includes(normQuery)) {
+            currentSuggestions.push({
+              category: 'topic',
+              label: t.nombre,
+              subtitle: `Eje temático municipal • ${t.count} normas`,
+              badge: 'Materia',
+              action: () => selectTopicSuggestion(t.id)
+            });
+          }
+        });
+      }
+
+      // 3. Match Frequent Search Terms (up to 3)
+      FREQUENT_SEARCH_TERMS.forEach(item => {
+        const normTerm = normalizeText(item.term);
+        if (normTerm.includes(normQuery)) {
+          if (!currentSuggestions.some(s => normalizeText(s.label) === normTerm)) {
+            currentSuggestions.push({
+              category: 'term',
+              label: item.term,
+              subtitle: `Término regulatorio frecuente`,
+              badge: 'Concepto',
+              action: () => selectTermSuggestion(item.term, item.topicId)
+            });
+          }
+        }
+      });
+
+      // Limit total suggestions
+      currentSuggestions = currentSuggestions.slice(0, 7);
+
+      if (currentSuggestions.length === 0) {
+        hideAutocomplete();
+        return;
+      }
+
+      currentSelectedSuggestionIndex = -1;
+      container.innerHTML = '';
+
+      currentSuggestions.forEach((sug, idx) => {
+        const item = document.createElement('div');
+        item.id = `suggestion-item-${idx}`;
+        item.className = `p-2.5 px-3.5 hover:bg-[#071f43] cursor-pointer flex items-center justify-between transition-colors text-left group`;
+        
+        let iconName = 'map-pin';
+        let badgeStyle = 'bg-[#0b4aa2]/20 text-[#38bdf8] border-[#38bdf8]/30';
+        if (sug.category === 'topic') {
+          iconName = 'tag';
+          badgeStyle = 'bg-[#54b995]/20 text-[#54b995] border-[#54b995]/30';
+        } else if (sug.category === 'term') {
+          iconName = 'search';
+          badgeStyle = 'bg-sky-500/20 text-sky-400 border-sky-500/30';
+        }
+
+        item.innerHTML = `
+          <div class="flex items-center gap-2.5 overflow-hidden">
+            <div class="w-6 h-6 rounded-lg bg-[#153b70]/60 flex items-center justify-center text-zinc-400 group-hover:text-zinc-200 shrink-0">
+              <i data-lucide="${iconName}" class="w-3.5 h-3.5"></i>
+            </div>
+            <div class="truncate">
+              <div class="text-xs font-semibold text-zinc-200 group-hover:text-white truncate">${highlightMatch(sug.label, query)}</div>
+              <div class="text-[10px] text-zinc-400 font-mono truncate">${sug.subtitle}</div>
+            </div>
+          </div>
+          <span class="text-[10px] font-mono px-2 py-0.5 rounded border ${badgeStyle} shrink-0 ml-2">
+            ${sug.badge}
+          </span>
+        `;
+
+        item.addEventListener('mousedown', (evt) => {
+          evt.preventDefault();
+          sug.action();
+        });
+
+        container.appendChild(item);
+      });
+
+      container.classList.remove('hidden');
+      if (window.lucide) lucide.createIcons();
+    }
+
+    function hideAutocomplete() {
+      const container = document.getElementById('autocomplete-list');
+      if (container) container.classList.add('hidden');
+      currentSelectedSuggestionIndex = -1;
+    }
+
+    function selectCommuneSuggestion(communeName) {
+      const input = document.getElementById('search-input');
+      input.value = communeName;
+      const clearBtn = document.getElementById('search-clear-btn');
+      if (clearBtn) clearBtn.classList.remove('hidden');
+      hideAutocomplete();
+      filterTable();
+    }
+
+    function selectTopicSuggestion(topicId) {
+      const topicSelect = document.getElementById('topic-filter');
+      topicSelect.value = topicId;
+      const input = document.getElementById('search-input');
+      input.value = '';
+      const clearBtn = document.getElementById('search-clear-btn');
+      if (clearBtn) clearBtn.classList.add('hidden');
+      hideAutocomplete();
+      filterTable();
+    }
+
+    function selectTermSuggestion(term, topicId) {
+      const input = document.getElementById('search-input');
+      input.value = term;
+      const clearBtn = document.getElementById('search-clear-btn');
+      if (clearBtn) clearBtn.classList.remove('hidden');
+      hideAutocomplete();
+      filterTable();
+    }
+
+    function handleSearchKeydown(e) {
+      const container = document.getElementById('autocomplete-list');
+      if (!container || container.classList.contains('hidden') || currentSuggestions.length === 0) {
+        if (e.key === 'Escape') hideAutocomplete();
+        return;
+      }
+
+      if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        currentSelectedSuggestionIndex = (currentSelectedSuggestionIndex + 1) % currentSuggestions.length;
+        updateSuggestionFocus();
+      } else if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        currentSelectedSuggestionIndex = (currentSelectedSuggestionIndex - 1 + currentSuggestions.length) % currentSuggestions.length;
+        updateSuggestionFocus();
+      } else if (e.key === 'Enter') {
+        if (currentSelectedSuggestionIndex >= 0 && currentSelectedSuggestionIndex < currentSuggestions.length) {
+          e.preventDefault();
+          currentSuggestions[currentSelectedSuggestionIndex].action();
+        }
+      } else if (e.key === 'Escape') {
+        hideAutocomplete();
+      }
+    }
+
+    function updateSuggestionFocus() {
+      currentSuggestions.forEach((_, idx) => {
+        const el = document.getElementById(`suggestion-item-${idx}`);
+        if (el) {
+          if (idx === currentSelectedSuggestionIndex) {
+            el.classList.add('bg-[#153b70]', 'border-l-2', 'border-[#38bdf8]');
+            el.scrollIntoView({ block: 'nearest' });
+          } else {
+            el.classList.remove('bg-[#153b70]', 'border-l-2', 'border-[#38bdf8]');
+          }
+        }
+      });
+    }
+
+    document.addEventListener('click', (e) => {
+      const searchContainer = document.getElementById('search-container');
+      if (searchContainer && !searchContainer.contains(e.target)) {
+        hideAutocomplete();
+      }
+    });
+
     function resetFilters() {
-      document.getElementById('search-input').value = '';
+      clearSearchInput();
       document.getElementById('region-filter').value = 'ALL';
       document.getElementById('topic-filter').value = 'ALL';
       document.getElementById('year-filter').value = 'ALL';
