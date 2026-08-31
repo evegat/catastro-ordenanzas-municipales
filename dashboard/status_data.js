@@ -4,7 +4,7 @@ window.CATASTRO_DATA = {
     "total_comunas": 346,
     "comunas_con_datos": 346,
     "total_regiones": 16,
-    "total_ordenanzas": 7186,
+    "total_ordenanzas": 7226,
     "ordenanzas_bcn": 5881,
     "ordenanzas_cplt": 0,
     "pdfs_descargados": 0,
@@ -13,7 +13,7 @@ window.CATASTRO_DATA = {
       "bloqueos_ip": 0,
       "user_agents_rotados": 12
     },
-    "ordenanzas_municipales_verificadas": 1305,
+    "ordenanzas_municipales_verificadas": 1345,
     "cplt_en_cuarentena": 0
   },
   "regiones": [
@@ -967,7 +967,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU012",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-294383",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de ARICA — ordenanza municipal diciembre",
           "materia": "Normativa General y Otras Materias",
@@ -1188,7 +1188,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU_putre",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-21D2E3",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza de Participación Ciudadana y Modificaciones Comuna de Putre",
           "materia": "Participación Ciudadana",
@@ -3127,7 +3127,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU005",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-FC0C29",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de ALTO HOSPICIO — ORDENANZA ESCOMBROS VERSION OFICIAL PDF",
           "materia": "Aseo, Ornato y Medio Ambiente",
@@ -3694,7 +3694,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU107",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-87EFC5",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de HUARA — ORDENANZA TENENCIA RESPONSABLE DE ANIMALES",
           "materia": "Tenencia Responsable de Mascotas",
@@ -4783,9 +4783,9 @@ window.CATASTRO_DATA = {
       "comuna": "Mejillones",
       "bcn_count": 14,
       "cplt_count": 0,
-      "total_count": 14,
+      "total_count": 16,
       "pdfs_count": 0,
-      "status": "Cargado BCN",
+      "status": "BCN + Municipalidad verificada",
       "last_update": null,
       "ordenanzas": [
         {
@@ -4978,9 +4978,51 @@ window.CATASTRO_DATA = {
           "rdf_url": "http://datos.bcn.cl/recurso/cl/dto/municipalidad-de-mejillones/2008-11-14/1944-exento/datos.json",
           "tipo_norma": "Ordenanza Municipal",
           "estado": "Vigente / LeyChile"
+        },
+        {
+          "cplt_code": "MU_AUTO",
+          "fuente": "Municipalidad",
+          "numero": "2023",
+          "fecha": "2023-01-01",
+          "titulo": "Plan Comunal de Seguridad Publica Mejillones 2023-2027",
+          "materia": "Convivencia Vecinal y Ruidos Molestos",
+          "materia_id": "convivencia_seguridad",
+          "source_listing_url": "https://mejillones.cl/ordenanzas/",
+          "target_url": "https://mejillones.cl/wp-content/uploads/2026/01/PCSP-2025-y-Decreto-2160.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://mejillones.cl/wp-content/uploads/2026/01/PCSP-2025-y-Decreto-2160.pdf",
+            "content_type": "application/pdf",
+            "sha256": "f7fd6a4848b8c33e2bc0ee4eacf1c655507782ea439a236232ffa6abd0255c50",
+            "bytes": 9824571,
+            "verified_at": "2026-08-31T02:27:14Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_AUTO",
+          "fuente": "Municipalidad",
+          "numero": "2024",
+          "fecha": "2024-01-01",
+          "titulo": "Plan Municipal de Cultura de Mejillones (PMC) 2024-2027",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://mejillones.cl/ordenanzas/",
+          "target_url": "https://mejillones.cl/wp-content/uploads/2023/12/PMC-Mejillones-2024-2027-con-Decreto.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://mejillones.cl/wp-content/uploads/2023/12/PMC-Mejillones-2024-2027-con-Decreto.pdf",
+            "content_type": "application/pdf",
+            "sha256": "b26226d4148a9d204817ac29c0465a417a2f04d047a1edf87cfc0b2d34c36e79",
+            "bytes": 4161903,
+            "verified_at": "2026-08-31T02:27:17Z"
+          },
+          "rdf_url": null
         }
       ],
-      "municipal_count": 0
+      "municipal_count": 2
     },
     {
       "region_id": "02",
@@ -5259,7 +5301,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU314",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-38B9EC",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de Taltal — ORDENANZA LOCAL IMT",
           "materia": "Normativa General y Otras Materias",
@@ -5906,7 +5948,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU019",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-9F4F03",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de Calama — ORDENANZAS 006 007 2026",
           "materia": "Normativa General y Otras Materias",
@@ -6208,7 +6250,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU189",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-A3056F",
           "fecha": "2026-01-01",
           "titulo": "Ordenanzas Municipales – Ilustre Municipalidad de Ollague",
           "materia": "Normativa General y Otras Materias",
@@ -7008,7 +7050,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU298",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-FD3B42",
           "fecha": "2026-01-01",
           "titulo": "***Para visualizar PDF hacer click sobre la imagen***",
           "materia": "Derechos Municipales y Tarifas",
@@ -7431,7 +7473,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU166",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-514211",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de MARÍA ELENA — 27741 ordenanza sobre subvenciones municipales de la municipalidad de maria elena",
           "materia": "Normativa General y Otras Materias",
@@ -9680,7 +9722,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU108",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-ED47C1",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de HUASCO — ORDENANZA PARTICIPACION CIUDADANA",
           "materia": "Normativa General y Otras Materias",
@@ -11051,7 +11093,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU122",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-0619C9",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de LA HIGUERA — DECRETOORDENANZA BECASMUNICIPALES",
           "materia": "Normativa General y Otras Materias",
@@ -11722,7 +11764,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU110",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-030A81",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de ILLAPEL — Ordenanza Ferias de la Comuna Illapel",
           "materia": "Patentes, Comercio y Alcoholes",
@@ -13634,7 +13676,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU272",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-CACAB0",
           "fecha": "2016-01-01",
           "titulo": "Ordenanza Municipal de RÍO HURTADO — Decreto y Ordenanza Municipal 2016",
           "materia": "Normativa General y Otras Materias",
@@ -13655,7 +13697,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU272",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-30A035",
           "fecha": "2017-01-01",
           "titulo": "Ordenanza Municipal de RÍO HURTADO — Decreto y Ordenanza Municipal 2017",
           "materia": "Normativa General y Otras Materias",
@@ -13676,7 +13718,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU272",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-67A0C7",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de RÍO HURTADO — ORDENANZA ASEO RIO HURTADO",
           "materia": "Aseo, Ornato y Medio Ambiente",
@@ -13697,7 +13739,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU272",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-0B8BEB",
           "fecha": "2011-01-01",
           "titulo": "Ordenanza Municipal de RÍO HURTADO — ORDENANZA MUNICIPAL 2011",
           "materia": "Normativa General y Otras Materias",
@@ -13718,7 +13760,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU272",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-B55C26",
           "fecha": "2014-01-01",
           "titulo": "Ordenanza Municipal de RÍO HURTADO — ORDENANZA MUNICIPAL 2014",
           "materia": "Normativa General y Otras Materias",
@@ -13739,7 +13781,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU272",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-C25F05",
           "fecha": "2015-01-01",
           "titulo": "Ordenanza Municipal de RÍO HURTADO — ORDENANZA MUNICIPAL 2015",
           "materia": "Normativa General y Otras Materias",
@@ -13760,7 +13802,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU272",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-E2C23D",
           "fecha": "2018-01-01",
           "titulo": "Ordenanza Municipal de RÍO HURTADO — ORDENANZA MUNICIPAL 2018",
           "materia": "Normativa General y Otras Materias",
@@ -13802,7 +13844,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU272",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-DEF9B3",
           "fecha": "2013-01-01",
           "titulo": "Ordenanza Municipal de RÍO HURTADO — ORDENANZAS DERECHOS MUNICIPALES 2013",
           "materia": "Derechos Municipales y Tarifas",
@@ -13865,7 +13907,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU272",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-597CD7",
           "fecha": "2012-01-01",
           "titulo": "Ordenanza Municipal de RÍO HURTADO — ordenanza derechos 2012",
           "materia": "Derechos Municipales y Tarifas",
@@ -14528,7 +14570,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU063",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-9B4CC6",
           "fecha": "2020-01-01",
           "titulo": "Ordenanza Municipal de CONCÓN — da 1212 2020 regula explotacion y extraccion de aridos",
           "materia": "Normativa General y Otras Materias",
@@ -14549,7 +14591,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU063",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-B147C9",
           "fecha": "2018-01-01",
           "titulo": "Ordenanza Municipal de CONCÓN — da 1276 2018 ruidos molestos de construccion",
           "materia": "Urbanismo, Obras y Edificación",
@@ -14570,7 +14612,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU063",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-F46B49",
           "fecha": "2017-01-01",
           "titulo": "Ordenanza Municipal de CONCÓN — da 1777 2017 autorizacion de transporte de basura desechos escombros o residuos de cualquier tipo",
           "materia": "Aseo, Ornato y Medio Ambiente",
@@ -14591,7 +14633,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU063",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-53D71B",
           "fecha": "2016-01-01",
           "titulo": "Ordenanza Municipal de CONCÓN — da 3030 2016 tenencia responsable de animales domesticos",
           "materia": "Tenencia Responsable de Mascotas",
@@ -14654,7 +14696,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU063",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-C020D7",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de CONCÓN — pacc concon",
           "materia": "Normativa General y Otras Materias",
@@ -14839,7 +14881,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU229",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-5EE571",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de PUCHUNCAVÍ — ordenanzasact",
           "materia": "Normativa General y Otras Materias",
@@ -15802,7 +15844,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU_vina del mar",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-B5B213",
           "fecha": "2025-01-01",
           "titulo": "Ordenanza Local de Derechos Municipales 2025",
           "materia": "Derechos Municipales y Tarifas",
@@ -15886,7 +15928,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU_vina del mar",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-AA66D7",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza del Servicio de Aseo Domiciliario y Limpieza",
           "materia": "Aseo, Ornato y Medio Ambiente",
@@ -17196,7 +17238,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU269",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-3A679B",
           "fecha": "2022-01-01",
           "titulo": "Ordenanza Municipal de RINCONADA — Ordenanza TENENCIA RESPONSABLE DE MASCOTAS ANIMALES DE COMPANIA RINCONADA 2022",
           "materia": "Tenencia Responsable de Mascotas",
@@ -17661,7 +17703,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU016",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-2CB307",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de CABILDO — Ordenanza local de aseo y ornato de la comuna de Cabildo texto no refundido",
           "materia": "Aseo, Ornato y Medio Ambiente",
@@ -17745,7 +17787,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU016",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-F77483",
           "fecha": "2015-08-18",
           "titulo": "Ordenanza local sobre ruidos molestos Ordenanza local sobre ruidos molestos (Publicado 18/08/2015)",
           "materia": "Seguridad Ciudadana y Convivencia",
@@ -18459,9 +18501,9 @@ window.CATASTRO_DATA = {
       "comuna": "Zapallar",
       "bcn_count": 23,
       "cplt_count": 0,
-      "total_count": 23,
+      "total_count": 37,
       "pdfs_count": 0,
-      "status": "Cargado BCN",
+      "status": "BCN + Municipalidad verificada",
       "last_update": null,
       "ordenanzas": [
         {
@@ -18780,9 +18822,303 @@ window.CATASTRO_DATA = {
           "rdf_url": "http://datos.bcn.cl/recurso/cl/orz/municipalidad-de-zapallar/2008-11-12/s-n/datos.json",
           "tipo_norma": "Ordenanza Municipal",
           "estado": "Vigente / LeyChile"
+        },
+        {
+          "cplt_code": "MU_AUTO",
+          "fuente": "Municipalidad",
+          "numero": "DOC-E88A6E",
+          "fecha": "2023-01-01",
+          "titulo": "descargar documento",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://www.munizapallar.cl/ordenanzas-municipales/",
+          "target_url": "https://uploads.strikinglycdn.com/files/1d9a3f32-edd4-47e8-ab32-7ff9625ff43f/DA+1678.2023+Aprueba+Ordenanza+sobre+instalaci%C3%B3n%2C+mantenimiento%2C+fiscalizaci%C3%B3n%2C+traslado+y+retiro+de+cableado+a%C3%A9reo.pdf?t=1686668828?id=4026559",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://uploads.strikinglycdn.com/files/1d9a3f32-edd4-47e8-ab32-7ff9625ff43f/DA+1678.2023+Aprueba+Ordenanza+sobre+instalaci%C3%B3n%2C+mantenimiento%2C+fiscalizaci%C3%B3n%2C+traslado+y+retiro+de+cableado+a%C3%A9reo.pdf?t=1686668828?id=4026559",
+            "content_type": "application/pdf",
+            "sha256": "e88a6eb85a3e4f4fd42cbfc8dcb13f721212d1fde395df5795cc1cac81c4377c",
+            "bytes": 595241,
+            "verified_at": "2026-08-31T02:24:29Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_AUTO",
+          "fuente": "Municipalidad",
+          "numero": "DOC-B19495",
+          "fecha": "2023-01-01",
+          "titulo": "descargar documento",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://www.munizapallar.cl/ordenanzas-municipales/",
+          "target_url": "https://uploads.strikinglycdn.com/files/65fb34a1-1553-4427-8801-18f460122f40/DA 689.2023 Ordenanza Prevencion y Gestion de Riesgos Comunales Producto de Incendios Forestales.pdf?t=1677864654?id=3995003",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://uploads.strikinglycdn.com/files/65fb34a1-1553-4427-8801-18f460122f40/DA%20689.2023%20Ordenanza%20Prevencion%20y%20Gestion%20de%20Riesgos%20Comunales%20Producto%20de%20Incendios%20Forestales.pdf?t=1677864654?id=3995003",
+            "content_type": "application/pdf",
+            "sha256": "b19495e6ec9821ad589def0e0311b954e78a6501266e12767e14159d9aca5585",
+            "bytes": 2235072,
+            "verified_at": "2026-08-31T02:24:31Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_AUTO",
+          "fuente": "Municipalidad",
+          "numero": "DOC-F134B4",
+          "fecha": "2023-01-01",
+          "titulo": "descargar documento",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://www.munizapallar.cl/ordenanzas-municipales/",
+          "target_url": "https://uploads.strikinglycdn.com/files/65fb34a1-1553-4427-8801-18f460122f40/DA+548.2023+Ordenanza+Que+Previene%2C+Prohibe+y+Sanciona+Acoso+Callejero.pdf?t=1677864528?id=3995001",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://uploads.strikinglycdn.com/files/65fb34a1-1553-4427-8801-18f460122f40/DA+548.2023+Ordenanza+Que+Previene%2C+Prohibe+y+Sanciona+Acoso+Callejero.pdf?t=1677864528?id=3995001",
+            "content_type": "application/pdf",
+            "sha256": "f134b4d2c50c87b2398ba57c6976026414168d6e3d9561a95249b331c0cfda30",
+            "bytes": 379786,
+            "verified_at": "2026-08-31T02:24:33Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_AUTO",
+          "fuente": "Municipalidad",
+          "numero": "DOC-1B5A1E",
+          "fecha": "2022-01-01",
+          "titulo": "descargar documento",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://www.munizapallar.cl/ordenanzas-municipales/",
+          "target_url": "https://uploads.strikinglycdn.com/files/a184ea71-783c-4745-93ac-472292d9e328/DA 3292.2022 Ordenanza Promocion Derechos Niños, Niñas y Adolescentes.pdf?t=1672163760?id=3971966",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://uploads.strikinglycdn.com/files/a184ea71-783c-4745-93ac-472292d9e328/DA%203292.2022%20Ordenanza%20Promocion%20Derechos%20Nin%CC%83os,%20Nin%CC%83as%20y%20Adolescentes.pdf?t=1672163760?id=3971966",
+            "content_type": "application/pdf",
+            "sha256": "1b5a1e31b3d5a78c799671756d22fc9e38c0adf3918a6e4a880f0c8d1db05393",
+            "bytes": 598738,
+            "verified_at": "2026-08-31T02:24:36Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_AUTO",
+          "fuente": "Municipalidad",
+          "numero": "DOC-9C1498",
+          "fecha": "2022-01-01",
+          "titulo": "descargar documento",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://www.munizapallar.cl/ordenanzas-municipales/",
+          "target_url": "https://uploads.strikinglycdn.com/files/a184ea71-783c-4745-93ac-472292d9e328/DA+3277.2022+Ordenanza+Plasticos+de+un+solo+uso+y+Materias+Sustentabilidad+para+el+COmercio.pdf?t=1672163531?id=3971963",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://uploads.strikinglycdn.com/files/a184ea71-783c-4745-93ac-472292d9e328/DA+3277.2022+Ordenanza+Plasticos+de+un+solo+uso+y+Materias+Sustentabilidad+para+el+COmercio.pdf?t=1672163531?id=3971963",
+            "content_type": "application/pdf",
+            "sha256": "9c1498a0a16e637e28b2cbf7d4911ff485105d58c9460da437efb8eaaf2fc22e",
+            "bytes": 422597,
+            "verified_at": "2026-08-31T02:24:38Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_AUTO",
+          "fuente": "Municipalidad",
+          "numero": "DOC-03709E",
+          "fecha": "2022-01-01",
+          "titulo": "descargar documento",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://www.munizapallar.cl/ordenanzas-municipales/",
+          "target_url": "https://uploads.strikinglycdn.com/files/a6f122aa-73cc-4d91-88e8-e8b804cc7867/DA 3276.2022 Ordenanza Ejercicio del Comercio.pdf?t=1672161660?id=3971936",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://uploads.strikinglycdn.com/files/a6f122aa-73cc-4d91-88e8-e8b804cc7867/DA%203276.2022%20Ordenanza%20Ejercicio%20del%20Comercio.pdf?t=1672161660?id=3971936",
+            "content_type": "application/pdf",
+            "sha256": "03709e18c06c402484658a524a336d2cc032b021e7fec9c1f56b464a881ae68b",
+            "bytes": 943067,
+            "verified_at": "2026-08-31T02:24:40Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_AUTO",
+          "fuente": "Municipalidad",
+          "numero": "DOC-585797",
+          "fecha": "2022-01-01",
+          "titulo": "descargar documento",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://www.munizapallar.cl/ordenanzas-municipales/",
+          "target_url": "https://uploads.strikinglycdn.com/files/8460ac0b-e64f-4843-8c24-910002d502fa/DA+3013.2022+Ordenanza+Regula+Aspectos+Publicos+Contratos+Arriendo+Bienes+Inmuebles+T.Estival.pdf?t=1669831815?id=3963138",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://uploads.strikinglycdn.com/files/8460ac0b-e64f-4843-8c24-910002d502fa/DA+3013.2022+Ordenanza+Regula+Aspectos+Publicos+Contratos+Arriendo+Bienes+Inmuebles+T.Estival.pdf?t=1669831815?id=3963138",
+            "content_type": "application/pdf",
+            "sha256": "585797665c7794d63462684f0b086fc9fbe50fdc5cc7a60db9948d5b167e5626",
+            "bytes": 245278,
+            "verified_at": "2026-08-31T02:24:42Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_AUTO",
+          "fuente": "Municipalidad",
+          "numero": "DOC-684CE9",
+          "fecha": "2022-01-01",
+          "titulo": "descargar documento",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://www.munizapallar.cl/ordenanzas-municipales/",
+          "target_url": "https://uploads.strikinglycdn.com/files/de7fd405-0726-4f47-9220-e0d6fe499491/DA 2850.2022 Aprueba ordenanza sobre cierre en calles, pasajes.pdf?t=1668773633?id=3958555",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://uploads.strikinglycdn.com/files/de7fd405-0726-4f47-9220-e0d6fe499491/DA%202850.2022%20Aprueba%20ordenanza%20sobre%20cierre%20en%20calles,%20pasajes.pdf?t=1668773633?id=3958555",
+            "content_type": "application/pdf",
+            "sha256": "684ce94b3b08813a2d06cb616166e0a25f26423ef753609c209d71fe26a2808a",
+            "bytes": 603688,
+            "verified_at": "2026-08-31T02:24:44Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_AUTO",
+          "fuente": "Municipalidad",
+          "numero": "DOC-5FBB02",
+          "fecha": "2022-01-01",
+          "titulo": "descargar documento",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://www.munizapallar.cl/ordenanzas-municipales/",
+          "target_url": "https://uploads.strikinglycdn.com/files/29d00c07-0142-47c1-9f9a-2d676fa8a157/DA 2093.2022 Ordenanza sobre Utilizacion Borde Costero (1).pdf?t=1670328904?id=3965212",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://uploads.strikinglycdn.com/files/29d00c07-0142-47c1-9f9a-2d676fa8a157/DA%202093.2022%20Ordenanza%20sobre%20Utilizacion%20Borde%20Costero%20(1).pdf?t=1670328904?id=3965212",
+            "content_type": "application/pdf",
+            "sha256": "5fbb02b1a63262ca3e797f40af8ce8ffd74578bf3a1cca43e38f504ef55506b4",
+            "bytes": 931113,
+            "verified_at": "2026-08-31T02:24:47Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_AUTO",
+          "fuente": "Municipalidad",
+          "numero": "DOC-CDA394",
+          "fecha": "2022-01-01",
+          "titulo": "descargar documento",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://www.munizapallar.cl/ordenanzas-municipales/",
+          "target_url": "https://uploads.strikinglycdn.com/files/4ca8c702-363a-4739-beab-643ac94a7ccd/DA 1723.2022 Ordenanza Explotacion y Extraccion de Aridos - Juan Pablo Destuet González.pdf?id=3925270",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://uploads.strikinglycdn.com/files/4ca8c702-363a-4739-beab-643ac94a7ccd/DA%201723.2022%20Ordenanza%20Explotacion%20y%20Extraccion%20de%20Aridos%20-%20Juan%20Pablo%20Destuet%20Gonza%CC%81lez.pdf?id=3925270",
+            "content_type": "application/pdf",
+            "sha256": "cda39472d1c3362e8e22cf04dc27774fd63ce93903d00a255fc114b91e0f6a8b",
+            "bytes": 2022847,
+            "verified_at": "2026-08-31T02:24:50Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_AUTO",
+          "fuente": "Municipalidad",
+          "numero": "DOC-787125",
+          "fecha": "2022-01-01",
+          "titulo": "descargar documento",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://www.munizapallar.cl/ordenanzas-municipales/",
+          "target_url": "https://uploads.strikinglycdn.com/files/1c7eb500-59c1-4788-8da3-3ce1a20c3eda/DA 931.2022 Modifica Ordenanza Derechos Municipales.pdf?id=3886559",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://uploads.strikinglycdn.com/files/1c7eb500-59c1-4788-8da3-3ce1a20c3eda/DA%20931.2022%20Modifica%20Ordenanza%20Derechos%20Municipales.pdf?id=3886559",
+            "content_type": "application/pdf",
+            "sha256": "7871258346b1d3350570b0ae72422f653194ff19425001fd1f303fbb052d6cb1",
+            "bytes": 890955,
+            "verified_at": "2026-08-31T02:24:52Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_AUTO",
+          "fuente": "Municipalidad",
+          "numero": "DOC-3B3F61",
+          "fecha": "2022-01-01",
+          "titulo": "descargar documento",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://www.munizapallar.cl/ordenanzas-municipales/",
+          "target_url": "https://uploads.strikinglycdn.com/files/01e481ce-e6a0-4643-99be-544e916a287e/DA 266.2022 Modifica Ordenanza Uso Obligatorio Mascarilla.pdf?id=3863408",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://uploads.strikinglycdn.com/files/01e481ce-e6a0-4643-99be-544e916a287e/DA%20266.2022%20Modifica%20Ordenanza%20Uso%20Obligatorio%20Mascarilla.pdf?id=3863408",
+            "content_type": "application/pdf",
+            "sha256": "3b3f618359fb9295d04afc998dd4fcc777c6508ecb178f2d05b8f0c4d2819fd6",
+            "bytes": 1570401,
+            "verified_at": "2026-08-31T02:24:55Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_AUTO",
+          "fuente": "Municipalidad",
+          "numero": "DOC-099C9C",
+          "fecha": "2021-01-01",
+          "titulo": "descargar documento",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://www.munizapallar.cl/ordenanzas-municipales/",
+          "target_url": "https://uploads.strikinglycdn.com/files/1fa56da0-9833-45e2-8999-24004796ff75/DA 555.2021 Ordenanza Extraccion Arboles y otros.pdf?id=3392740",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://uploads.strikinglycdn.com/files/1fa56da0-9833-45e2-8999-24004796ff75/DA%20555.2021%20Ordenanza%20Extraccion%20Arboles%20y%20otros.pdf?id=3392740",
+            "content_type": "application/pdf",
+            "sha256": "099c9c41ad20c225baa30bae254a0091c2e20da9f60658adca9c388cdd1d307a",
+            "bytes": 637962,
+            "verified_at": "2026-08-31T02:24:57Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_AUTO",
+          "fuente": "Municipalidad",
+          "numero": "DOC-93E47B",
+          "fecha": "2021-01-01",
+          "titulo": "descargar documento",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://www.munizapallar.cl/ordenanzas-municipales/",
+          "target_url": "https://uploads.strikinglycdn.com/files/7a41f48d-bce8-47af-bf46-52299a497646/DA 901.2021 Ordenanza Ocupacion Transitoria Espacio Publico.pdf?id=3403633",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://uploads.strikinglycdn.com/files/7a41f48d-bce8-47af-bf46-52299a497646/DA%20901.2021%20Ordenanza%20Ocupacion%20Transitoria%20Espacio%20Publico.pdf?id=3403633",
+            "content_type": "application/pdf",
+            "sha256": "93e47bf8952c172b80a3e60f7def96401f944f8feeb4b15a00da9433af25fb2e",
+            "bytes": 593038,
+            "verified_at": "2026-08-31T02:24:59Z"
+          },
+          "rdf_url": null
         }
       ],
-      "municipal_count": 0
+      "municipal_count": 14
     },
     {
       "region_id": "05",
@@ -19390,7 +19726,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU253",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-D26923",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de QUILLOTA — ORD. ASEO Y ORNATO DE LA COMUNA",
           "materia": "Aseo, Ornato y Medio Ambiente",
@@ -20180,7 +20516,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU102",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-B406F8",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de HIJUELAS — 216422ordderechmunicip",
           "materia": "Normativa General y Otras Materias",
@@ -20795,7 +21131,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU118",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-51C471",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de LA CRUZ — Ordenanza aridos 1305",
           "materia": "Normativa General y Otras Materias",
@@ -21916,7 +22252,7 @@ window.CATASTRO_DATA = {
       "comuna": "El Quisco",
       "bcn_count": 13,
       "cplt_count": 0,
-      "total_count": 28,
+      "total_count": 52,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
       "last_update": null,
@@ -22404,9 +22740,513 @@ window.CATASTRO_DATA = {
             "verified_at": "2026-08-30T17:00:12.003325+00:00"
           },
           "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_AUTO",
+          "fuente": "Municipalidad",
+          "numero": "DOC-DDC31E",
+          "fecha": "2025-01-01",
+          "titulo": "Ordenanza Municipal 2025 N° S/N",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://www.elquisco.cl/ordenanzas-municipales/",
+          "target_url": "https://www.elquisco.cl/wp-content/uploads/2025/06/2148-APRUEBA-MODIFICACION-A-LA-ORDENANZA-N°02-2019-FERIA-DE-FRUTOS-DEL-MAR-Y-DE-LA-TIERRA-ACUERDO-233-2025-1.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.elquisco.cl/wp-content/uploads/2025/06/2148-APRUEBA-MODIFICACION-A-LA-ORDENANZA-N%C2%B002-2019-FERIA-DE-FRUTOS-DEL-MAR-Y-DE-LA-TIERRA-ACUERDO-233-2025-1.pdf",
+            "content_type": "application/pdf",
+            "sha256": "ddc31eb3c4428d603a9be05b493716e35354cae63c8b0c6de30725cdc9f431fc",
+            "bytes": 1035249,
+            "verified_at": "2026-08-31T02:25:18Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_AUTO",
+          "fuente": "Municipalidad",
+          "numero": "DOC-08BCBC",
+          "fecha": "2024-01-01",
+          "titulo": "Ordenanza Municipal 2024 N° S/N",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://www.elquisco.cl/ordenanzas-municipales/",
+          "target_url": "https://www.elquisco.cl/wp-content/uploads/2024/05/016-ORDENANZA-MUNICIPAL-N°-016-ESTACIONAMIENTO-DE-BUSES-INTERURBANOS-COMUNA-DE-EL-QUISCO-APROBADO-POR-D.A.-N°-530-DE-FECHA-13.12.1995.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.elquisco.cl/wp-content/uploads/2024/05/016-ORDENANZA-MUNICIPAL-N%C2%B0-016-ESTACIONAMIENTO-DE-BUSES-INTERURBANOS-COMUNA-DE-EL-QUISCO-APROBADO-POR-D.A.-N%C2%B0-530-DE-FECHA-13.12.1995.pdf",
+            "content_type": "application/pdf",
+            "sha256": "08bcbc02d75a8c7e80c7b55f6b6caf7e9cfad1bac1a2ffccb26a46f838d2d0b8",
+            "bytes": 303102,
+            "verified_at": "2026-08-31T02:25:44Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_AUTO",
+          "fuente": "Municipalidad",
+          "numero": "DOC-72954D",
+          "fecha": "2024-01-01",
+          "titulo": "Ordenanza Municipal 2024 N° S/N",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://www.elquisco.cl/ordenanzas-municipales/",
+          "target_url": "https://www.elquisco.cl/wp-content/uploads/2024/05/017-ORDENANZA-MUNICPAL-VOLUNTARIA-SOBRE-DISMINUCION-DEL-USO-DE-BOLSAS-PLASTICAS-EN-EL-COMERCIO-Y-EL-FOMENTO-DE-BOLSAS-REUTILIZABLES-EN-LA-COMUNA-DE-EL-QUISCO-APROB.-POR-D.A.-3369-2016.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.elquisco.cl/wp-content/uploads/2024/05/017-ORDENANZA-MUNICPAL-VOLUNTARIA-SOBRE-DISMINUCION-DEL-USO-DE-BOLSAS-PLASTICAS-EN-EL-COMERCIO-Y-EL-FOMENTO-DE-BOLSAS-REUTILIZABLES-EN-LA-COMUNA-DE-EL-QUISCO-APROB.-POR-D.A.-3369-2016.pdf",
+            "content_type": "application/pdf",
+            "sha256": "72954d662d22b4d9ed335bcd6b590178d032a2a1d80b417234c7586fa2e031e8",
+            "bytes": 346042,
+            "verified_at": "2026-08-31T02:25:46Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_AUTO",
+          "fuente": "Municipalidad",
+          "numero": "DOC-CA0E25",
+          "fecha": "2024-01-01",
+          "titulo": "Ordenanza Municipal 2024 N° S/N",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://www.elquisco.cl/ordenanzas-municipales/",
+          "target_url": "https://www.elquisco.cl/wp-content/uploads/2024/05/018-ORDENANZA-MUNICIPAL-DE-FECHA-02.12.2019-SOBRE-HORARIO-DE-FUNCIONAMIENTO-DE-ESTAB-DE-EXPENDIO-DE-BEBIDAS-ALCOHOLICAS-APROB.-POR-D.A.-454-1999-MODIF-POR-D-A-058-Y-1131-2000.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.elquisco.cl/wp-content/uploads/2024/05/018-ORDENANZA-MUNICIPAL-DE-FECHA-02.12.2019-SOBRE-HORARIO-DE-FUNCIONAMIENTO-DE-ESTAB-DE-EXPENDIO-DE-BEBIDAS-ALCOHOLICAS-APROB.-POR-D.A.-454-1999-MODIF-POR-D-A-058-Y-1131-2000.pdf",
+            "content_type": "application/pdf",
+            "sha256": "ca0e25035a7e5a45d79d0df186cc73c76d3a118071c413e754dc273fb73341c6",
+            "bytes": 2387933,
+            "verified_at": "2026-08-31T02:25:47Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_AUTO",
+          "fuente": "Municipalidad",
+          "numero": "DOC-DCFCF9",
+          "fecha": "2024-01-01",
+          "titulo": "Ordenanza Municipal 2024 N° S/N",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://www.elquisco.cl/ordenanzas-municipales/",
+          "target_url": "https://www.elquisco.cl/wp-content/uploads/2024/05/019-ORDENANZA-MUNICIPAL-DE-FECHA-02.12.2019-AUTORIZACION-DE-TRANSPORTE-DE-BASURA-DESECHOS-ESCOMBROS-O-RESIDUOS-DE-CUALQUIER-TIPO-APROB.-POR-D.A.-3634-2016.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.elquisco.cl/wp-content/uploads/2024/05/019-ORDENANZA-MUNICIPAL-DE-FECHA-02.12.2019-AUTORIZACION-DE-TRANSPORTE-DE-BASURA-DESECHOS-ESCOMBROS-O-RESIDUOS-DE-CUALQUIER-TIPO-APROB.-POR-D.A.-3634-2016.pdf",
+            "content_type": "application/pdf",
+            "sha256": "dcfcf9ab7c40844c85ebb711b6a693b136d25617925fe8d84060bca94f7e023f",
+            "bytes": 7784923,
+            "verified_at": "2026-08-31T02:25:49Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_AUTO",
+          "fuente": "Municipalidad",
+          "numero": "DOC-4C0E7C",
+          "fecha": "2024-01-01",
+          "titulo": "Ordenanza Municipal 2024 N° S/N",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://www.elquisco.cl/ordenanzas-municipales/",
+          "target_url": "https://www.elquisco.cl/wp-content/uploads/2024/05/020-ORDENANZA-MUNICIPAL-DE-FECHA-02.12.2019-PARA-CONCESIONES-EN-BNUP-DESTINADO-AL-FUNCIONAMIENTO-DE-KIOSCO-DE-DIARIOS-Y-REVISTAS-APROB.-POR-D.A.-N°-428-1991.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.elquisco.cl/wp-content/uploads/2024/05/020-ORDENANZA-MUNICIPAL-DE-FECHA-02.12.2019-PARA-CONCESIONES-EN-BNUP-DESTINADO-AL-FUNCIONAMIENTO-DE-KIOSCO-DE-DIARIOS-Y-REVISTAS-APROB.-POR-D.A.-N%C2%B0-428-1991.pdf",
+            "content_type": "application/pdf",
+            "sha256": "4c0e7c916e931250ebeec76c110606161ad90b20c9e8550c3696a18db5a2b178",
+            "bytes": 2760460,
+            "verified_at": "2026-08-31T02:25:51Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_AUTO",
+          "fuente": "Municipalidad",
+          "numero": "DOC-5C9FB7",
+          "fecha": "2024-01-01",
+          "titulo": "Ordenanza Municipal 2024 N° S/N",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://www.elquisco.cl/ordenanzas-municipales/",
+          "target_url": "https://www.elquisco.cl/wp-content/uploads/2024/05/021-ORDENANZA-MUNICIPAL-QUE-ENTREGA-RECOMENDACIONES-AL-FUNCIONAMIENTO-DEL-COMERCIO-Y-EL-USO-DE-MASCARILLAS-COVID-19.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.elquisco.cl/wp-content/uploads/2024/05/021-ORDENANZA-MUNICIPAL-QUE-ENTREGA-RECOMENDACIONES-AL-FUNCIONAMIENTO-DEL-COMERCIO-Y-EL-USO-DE-MASCARILLAS-COVID-19.pdf",
+            "content_type": "application/pdf",
+            "sha256": "5c9fb75803b3b1af77ee89b58cd345b4185423e407dc40a3543975e786c4527c",
+            "bytes": 1128781,
+            "verified_at": "2026-08-31T02:25:55Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_AUTO",
+          "fuente": "Municipalidad",
+          "numero": "DOC-317C27",
+          "fecha": "2026-01-01",
+          "titulo": "Ordenanza Municipal 2026 N° S/N",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://www.elquisco.cl/ordenanzas-municipales/",
+          "target_url": "https://www.elquisco.cl/wp-content/uploads/2026/03/22-ORDENANZA-MUNICIPAL-IMAGEN-COMUNAL-DE-EL-QUISCO-ACUERDO-366-2020_compressed.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.elquisco.cl/wp-content/uploads/2026/03/22-ORDENANZA-MUNICIPAL-IMAGEN-COMUNAL-DE-EL-QUISCO-ACUERDO-366-2020_compressed.pdf",
+            "content_type": "application/pdf",
+            "sha256": "317c271c00cabfcf6a709f2fd5392241c3ae4ca40758f0961e6cad747ccebf0e",
+            "bytes": 99234625,
+            "verified_at": "2026-08-31T02:26:12Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_AUTO",
+          "fuente": "Municipalidad",
+          "numero": "DOC-E51AD7",
+          "fecha": "2024-01-01",
+          "titulo": "Ordenanza Municipal 2024 N° S/N",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://www.elquisco.cl/ordenanzas-municipales/",
+          "target_url": "https://www.elquisco.cl/wp-content/uploads/2024/05/023-ORDENANZA-MUNICIPAL-N°-23-APRUEBA-TEXTO-REFUNDIDO-DERECHOS-MUNICIPALES-1.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.elquisco.cl/wp-content/uploads/2024/05/023-ORDENANZA-MUNICIPAL-N%C2%B0-23-APRUEBA-TEXTO-REFUNDIDO-DERECHOS-MUNICIPALES-1.pdf",
+            "content_type": "application/pdf",
+            "sha256": "e51ad79b008a0762a8bead1efd6ddd307a3d2c4b1be58130fd527a8a2f267769",
+            "bytes": 1563841,
+            "verified_at": "2026-08-31T02:26:14Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_AUTO",
+          "fuente": "Municipalidad",
+          "numero": "DOC-2B5E3A",
+          "fecha": "2025-01-01",
+          "titulo": "Ordenanza Municipal 2025 N° S/N",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://www.elquisco.cl/ordenanzas-municipales/",
+          "target_url": "https://www.elquisco.cl/wp-content/uploads/2025/10/D.A.-4123-MOD.ORDENANZA-VALORES-No-23-1.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.elquisco.cl/wp-content/uploads/2025/10/D.A.-4123-MOD.ORDENANZA-VALORES-No-23-1.pdf",
+            "content_type": "application/pdf",
+            "sha256": "2b5e3a9da000dd84e4468848d1a8410deae484c383bcaafaabdaca0a3628e94b",
+            "bytes": 2671778,
+            "verified_at": "2026-08-31T02:26:15Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_AUTO",
+          "fuente": "Municipalidad",
+          "numero": "DOC-F6B7AF",
+          "fecha": "2024-01-01",
+          "titulo": "Ordenanza Municipal 2024 N° S/N",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://www.elquisco.cl/ordenanzas-municipales/",
+          "target_url": "https://www.elquisco.cl/wp-content/uploads/2024/05/024-ORDENANZA-MUNICIPAL-FOOD-TRACK-EN-LA-COMUNA-DE-EL-QUISCO.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.elquisco.cl/wp-content/uploads/2024/05/024-ORDENANZA-MUNICIPAL-FOOD-TRACK-EN-LA-COMUNA-DE-EL-QUISCO.pdf",
+            "content_type": "application/pdf",
+            "sha256": "f6b7af660d02129299c14708072251ac0f498b728e17d2a3d2ae452ffe0fd0d3",
+            "bytes": 4968207,
+            "verified_at": "2026-08-31T02:26:17Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_AUTO",
+          "fuente": "Municipalidad",
+          "numero": "DOC-F5419D",
+          "fecha": "2024-01-01",
+          "titulo": "Ordenanza Municipal 2024 N° S/N",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://www.elquisco.cl/ordenanzas-municipales/",
+          "target_url": "https://www.elquisco.cl/wp-content/uploads/2024/05/025-ORDENANZAS-2022-APRUEBA-ORDENANZA-MUNICIPAL-CONSULTA-INDIGENA-2021.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.elquisco.cl/wp-content/uploads/2024/05/025-ORDENANZAS-2022-APRUEBA-ORDENANZA-MUNICIPAL-CONSULTA-INDIGENA-2021.pdf",
+            "content_type": "application/pdf",
+            "sha256": "f5419d52187e950ddb45d07a98e305973a43422bab9c3c18a2e11ec0e0f357c7",
+            "bytes": 1799707,
+            "verified_at": "2026-08-31T02:26:19Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_AUTO",
+          "fuente": "Municipalidad",
+          "numero": "DOC-B8627B",
+          "fecha": "2024-01-01",
+          "titulo": "Ordenanza Municipal 2024 N° S/N",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://www.elquisco.cl/ordenanzas-municipales/",
+          "target_url": "https://www.elquisco.cl/wp-content/uploads/2024/05/026-ORDENANZA-MUNICIPAL-26-EJE-PROGRAMATICO-DEL-PROGRAMA-APOYO-Y-SEGUIMIENTO-PARA-LA-EDUCACION-SUPERIOR-DE-LA-OFICINA-DE-LA-JUVENTUD-1.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.elquisco.cl/wp-content/uploads/2024/05/026-ORDENANZA-MUNICIPAL-26-EJE-PROGRAMATICO-DEL-PROGRAMA-APOYO-Y-SEGUIMIENTO-PARA-LA-EDUCACION-SUPERIOR-DE-LA-OFICINA-DE-LA-JUVENTUD-1.pdf",
+            "content_type": "application/pdf",
+            "sha256": "b8627bf7aa1b89b1459538dae58b8e2c063c9d75212ab1080477075142a7cab0",
+            "bytes": 2316943,
+            "verified_at": "2026-08-31T02:26:20Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_AUTO",
+          "fuente": "Municipalidad",
+          "numero": "DOC-99DC0B",
+          "fecha": "2024-01-01",
+          "titulo": "Ordenanza Municipal 2024 N° S/N",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://www.elquisco.cl/ordenanzas-municipales/",
+          "target_url": "https://www.elquisco.cl/wp-content/uploads/2024/05/028-ORDENANZA-DE-FECHA-16.02.2022-ORDENANZA-DE-FERIAS-LIBRES-DE-EL-QUISCO.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.elquisco.cl/wp-content/uploads/2024/05/028-ORDENANZA-DE-FECHA-16.02.2022-ORDENANZA-DE-FERIAS-LIBRES-DE-EL-QUISCO.pdf",
+            "content_type": "application/pdf",
+            "sha256": "99dc0b80bcc3b46dcf8ed5b6ee40fbd41e945a9f2c6d984dc7b51cc31ba6a787",
+            "bytes": 17660293,
+            "verified_at": "2026-08-31T02:26:24Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_AUTO",
+          "fuente": "Municipalidad",
+          "numero": "DOC-5EE688",
+          "fecha": "2025-01-01",
+          "titulo": "Ordenanza Municipal 2025 N° S/N",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://www.elquisco.cl/ordenanzas-municipales/",
+          "target_url": "https://www.elquisco.cl/wp-content/uploads/2025/08/E44644_2024_Decreto-Alcaldicio_3005_2025_firmado-1.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.elquisco.cl/wp-content/uploads/2025/08/E44644_2024_Decreto-Alcaldicio_3005_2025_firmado-1.pdf",
+            "content_type": "application/pdf",
+            "sha256": "5ee688424f0f9ecd4dcfd371a4c833a311b5b13e6b8646f3fca27bb5c35a7c6f",
+            "bytes": 2740327,
+            "verified_at": "2026-08-31T02:26:26Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_AUTO",
+          "fuente": "Municipalidad",
+          "numero": "DOC-7D6897",
+          "fecha": "2024-01-01",
+          "titulo": "Ordenanza Municipal 2024 N° S/N",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://www.elquisco.cl/ordenanzas-municipales/",
+          "target_url": "https://www.elquisco.cl/wp-content/uploads/2024/05/029-ORDENANZA-DE-FECHA-16.05.2022-ORDENANZA-SOBRE-NO-DISCRIMINACION-Y-RESPETO-RECIPROCO.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.elquisco.cl/wp-content/uploads/2024/05/029-ORDENANZA-DE-FECHA-16.05.2022-ORDENANZA-SOBRE-NO-DISCRIMINACION-Y-RESPETO-RECIPROCO.pdf",
+            "content_type": "application/pdf",
+            "sha256": "7d689704910fb9ec6f50c4b14cdea23e3b05d21f80737dd45212a6a49cfd6daa",
+            "bytes": 13117147,
+            "verified_at": "2026-08-31T02:26:30Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_AUTO",
+          "fuente": "Municipalidad",
+          "numero": "DOC-E99727",
+          "fecha": "2024-01-01",
+          "titulo": "Ordenanza Municipal 2024 N° S/N",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://www.elquisco.cl/ordenanzas-municipales/",
+          "target_url": "https://www.elquisco.cl/wp-content/uploads/2024/05/030-ORDENANZA-DE-FECHA-16.05.2022-ORDENANZA-SOBRE-ACOSO-CALLEJERO-Y-LAS-MANIFESTACIONES-OFENSIVAS.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.elquisco.cl/wp-content/uploads/2024/05/030-ORDENANZA-DE-FECHA-16.05.2022-ORDENANZA-SOBRE-ACOSO-CALLEJERO-Y-LAS-MANIFESTACIONES-OFENSIVAS.pdf",
+            "content_type": "application/pdf",
+            "sha256": "e99727f71345f7fe941d2449a12bf53f78a9af12435dfe361c7b4686c2697c47",
+            "bytes": 3790478,
+            "verified_at": "2026-08-31T02:26:32Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_AUTO",
+          "fuente": "Municipalidad",
+          "numero": "DOC-1A8F66",
+          "fecha": "2024-01-01",
+          "titulo": "Ordenanza Municipal 2024 N° S/N",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://www.elquisco.cl/ordenanzas-municipales/",
+          "target_url": "https://www.elquisco.cl/wp-content/uploads/2024/05/031-ORDENANZA-SOBRE-BECAS-DEPORTIVAS-MUNICIPALIDAD-DE-EL-QUISCO.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.elquisco.cl/wp-content/uploads/2024/05/031-ORDENANZA-SOBRE-BECAS-DEPORTIVAS-MUNICIPALIDAD-DE-EL-QUISCO.pdf",
+            "content_type": "application/pdf",
+            "sha256": "1a8f661bac9752117499a513045532c8fb9b8f1d4b63644183e6ee8507f381c5",
+            "bytes": 12447108,
+            "verified_at": "2026-08-31T02:26:39Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_AUTO",
+          "fuente": "Municipalidad",
+          "numero": "2022",
+          "fecha": "2024-01-01",
+          "titulo": "Ordenanza Municipal 2024 N° S/N",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://www.elquisco.cl/ordenanzas-municipales/",
+          "target_url": "https://www.elquisco.cl/wp-content/uploads/2024/05/032-APRUEBA-ORDENANZA-2022-BECA-MUNICIPAL-DE-EDUCACION-SUPERIOR.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.elquisco.cl/wp-content/uploads/2024/05/032-APRUEBA-ORDENANZA-2022-BECA-MUNICIPAL-DE-EDUCACION-SUPERIOR.pdf",
+            "content_type": "application/pdf",
+            "sha256": "f77c446f53fcc66c81c3fb0833554bf05d896cdd4382c86c0977df35ab66a0a7",
+            "bytes": 2535440,
+            "verified_at": "2026-08-31T02:26:40Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_AUTO",
+          "fuente": "Municipalidad",
+          "numero": "DOC-CC72FD",
+          "fecha": "2024-01-01",
+          "titulo": "Ordenanza Municipal 2024 N° S/N",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://www.elquisco.cl/ordenanzas-municipales/",
+          "target_url": "https://www.elquisco.cl/wp-content/uploads/2024/07/033-ORDENANZA-MUNICIPAL-DE-FECHA-04.07.2024-SERVICIO-DE-INTERNET-PUBLICO-EL-QUISCO-LOCALIDAD-DE-EL-TOTORAL.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.elquisco.cl/wp-content/uploads/2024/07/033-ORDENANZA-MUNICIPAL-DE-FECHA-04.07.2024-SERVICIO-DE-INTERNET-PUBLICO-EL-QUISCO-LOCALIDAD-DE-EL-TOTORAL.pdf",
+            "content_type": "application/pdf",
+            "sha256": "cc72fd266c77f7fc5f24f7b77507529046f3698b1ebb9722842499619b725582",
+            "bytes": 2295027,
+            "verified_at": "2026-08-31T02:26:42Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_AUTO",
+          "fuente": "Municipalidad",
+          "numero": "DOC-85A807",
+          "fecha": "2025-01-01",
+          "titulo": "Ordenanza Municipal 2025 N° S/N",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://www.elquisco.cl/ordenanzas-municipales/",
+          "target_url": "https://www.elquisco.cl/wp-content/uploads/2025/01/34-APRUEBA-ORDENANZA-MUNICIPAL-DE-RUIDOS-MOLESTOS-SEGUN-ACUERDO-N°31-DEL-16.01.2025.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.elquisco.cl/wp-content/uploads/2025/01/34-APRUEBA-ORDENANZA-MUNICIPAL-DE-RUIDOS-MOLESTOS-SEGUN-ACUERDO-N%C2%B031-DEL-16.01.2025.pdf",
+            "content_type": "application/pdf",
+            "sha256": "85a8072e6cc7c4d4ed47a88573333b310c7bb124507f1c5d4fd5609f67828345",
+            "bytes": 1269151,
+            "verified_at": "2026-08-31T02:26:44Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_AUTO",
+          "fuente": "Municipalidad",
+          "numero": "DOC-F337D9",
+          "fecha": "2025-01-01",
+          "titulo": "Ordenanza Municipal 2025 N° S/N",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://www.elquisco.cl/ordenanzas-municipales/",
+          "target_url": "https://www.elquisco.cl/wp-content/uploads/2025/07/35-APRUEBA-ORDENANZA-AYUDAS-ASISTENCIALES-Y-BENEFICIOS-SOCIALES.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.elquisco.cl/wp-content/uploads/2025/07/35-APRUEBA-ORDENANZA-AYUDAS-ASISTENCIALES-Y-BENEFICIOS-SOCIALES.pdf",
+            "content_type": "application/pdf",
+            "sha256": "f337d93d87ba3832cf5414b7444a8cf508b5b2a004e4fac2190cc3dc57ac79eb",
+            "bytes": 23070485,
+            "verified_at": "2026-08-31T02:26:48Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_AUTO",
+          "fuente": "Municipalidad",
+          "numero": "DOC-6E08A1",
+          "fecha": "2026-01-01",
+          "titulo": "Ordenanza Municipal 2026 N° S/N",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://www.elquisco.cl/ordenanzas-municipales/",
+          "target_url": "https://www.elquisco.cl/wp-content/uploads/2026/03/37-ORDENANZA-MUNICIPAL-BECA-DE-EDUCACION-SUPERIOR-2026.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.elquisco.cl/wp-content/uploads/2026/03/37-ORDENANZA-MUNICIPAL-BECA-DE-EDUCACION-SUPERIOR-2026.pdf",
+            "content_type": "application/pdf",
+            "sha256": "6e08a190ae4f90bfee5698544fc07e4ebe61a619aeeb22453032e84704c98be8",
+            "bytes": 2889057,
+            "verified_at": "2026-08-31T02:26:50Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_AUTO",
+          "fuente": "Municipalidad",
+          "numero": "DOC-62B96B",
+          "fecha": "2026-01-01",
+          "titulo": "Ordenanza Municipal 2026 N° S/N",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://www.elquisco.cl/ordenanzas-municipales/",
+          "target_url": "https://www.elquisco.cl/wp-content/uploads/2026/03/38-APRUEBA-ORDENANZA-MUNICIPAL-ENTREGA-DE-AGUA-POTABLE-MUNICIPALIDAD-DE-EL-QUISCO.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.elquisco.cl/wp-content/uploads/2026/03/38-APRUEBA-ORDENANZA-MUNICIPAL-ENTREGA-DE-AGUA-POTABLE-MUNICIPALIDAD-DE-EL-QUISCO.pdf",
+            "content_type": "application/pdf",
+            "sha256": "62b96b6eb379ec99d8057e96b400ac9890c9837de5423ebbdfe6e6f51eef5655",
+            "bytes": 1706474,
+            "verified_at": "2026-08-31T02:26:51Z"
+          },
+          "rdf_url": null
         }
       ],
-      "municipal_count": 15
+      "municipal_count": 39
     },
     {
       "region_id": "05",
@@ -22655,7 +23495,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU309",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-445E59",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de SANTO DOMINGO — PRCSD c Ordenanza Preliminar ET6 IA",
           "materia": "Normativa General y Otras Materias",
@@ -24624,7 +25464,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU243",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-368A66",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de PUTAENDO — ORDENANZA ACOSO CALLEJERO PUTAENDO",
           "materia": "Normativa General y Otras Materias",
@@ -29887,7 +30727,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU035",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-967DD1",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de CERRO NAVIA — Untitled 10302025 195636",
           "materia": "Normativa General y Otras Materias",
@@ -31657,7 +32497,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU111",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-D00C52",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de INDEPENDENCIA — ordenanzasderogadas",
           "materia": "Normativa General y Otras Materias",
@@ -34113,7 +34953,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU121",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-8D5140",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de LA GRANJA — ORDENANZA TENENCIA RESPONSABLE 20211201",
           "materia": "Tenencia Responsable de Mascotas",
@@ -39698,7 +40538,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU161",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-2B5F93",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de MACUL — AO 1006",
           "materia": "Normativa General y Otras Materias",
@@ -39887,7 +40727,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU161",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-61C6D9",
           "fecha": "2007-01-01",
           "titulo": "Ordenanza Municipal de MACUL — AO 2007",
           "materia": "Normativa General y Otras Materias",
@@ -39908,7 +40748,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU161",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-37E46F",
           "fecha": "2063-01-01",
           "titulo": "Ordenanza Municipal de MACUL — AO 2063",
           "materia": "Normativa General y Otras Materias",
@@ -50944,7 +51784,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU_san ramon",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-3F7B3C",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal San Ramón — Formulario trabajadores y sucursales",
           "materia": "Normativa General y Otras Materias",
@@ -52306,7 +53146,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU232",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-C1CC87",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza de Cobros y derechos Municipales 3 2026 Julio URL 552359 kb",
           "materia": "Derechos Municipales y Tarifas",
@@ -53807,7 +54647,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU057",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-F1D367",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de COLINA — ordenanza mascarrillas",
           "materia": "Normativa General y Otras Materias",
@@ -54259,7 +55099,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU_tiltil",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-A056AE",
           "fecha": "2026-01-01",
           "titulo": "Políticas de la Seguridad de la Información",
           "materia": "Seguridad Ciudadana y Convivencia",
@@ -56134,7 +56974,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU014",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-A398A5",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de BUIN — 201211291111541318",
           "materia": "Normativa General y Otras Materias",
@@ -56575,7 +57415,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU014",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-B1C96C",
           "fecha": "2007-01-01",
           "titulo": "Ordenanza Municipal de BUIN — 2012962225122295  TARIFA  Basura 2007",
           "materia": "Derechos Municipales y Tarifas",
@@ -56596,7 +57436,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU014",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-177EB6",
           "fecha": "2009-01-01",
           "titulo": "Ordenanza Municipal de BUIN — 2012962230132349  ferias 2009",
           "materia": "Patentes, Comercio y Alcoholes",
@@ -56659,7 +57499,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU014",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-582FC8",
           "fecha": "2011-01-01",
           "titulo": "Ordenanza Municipal de BUIN — 2012962312222882 predios 2011",
           "materia": "Normativa General y Otras Materias",
@@ -56680,7 +57520,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU014",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-891B46",
           "fecha": "2012-01-01",
           "titulo": "Ordenanza Municipal de BUIN — 2012962316301927 azar 2012",
           "materia": "Normativa General y Otras Materias",
@@ -56764,7 +57604,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU014",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-7CD33D",
           "fecha": "2013-01-01",
           "titulo": "Ordenanza Municipal de BUIN — 20131030131328Ordenanza Derechos Municipales 2013 para el 2014 EX 2949",
           "materia": "Derechos Municipales y Tarifas",
@@ -56911,7 +57751,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU014",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-D9AB35",
           "fecha": "2014-01-01",
           "titulo": "Ordenanza Municipal de BUIN — 20145191249591051 2014 ord",
           "materia": "Normativa General y Otras Materias",
@@ -56932,7 +57772,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU014",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-C89A31",
           "fecha": "2003-01-01",
           "titulo": "Ordenanza Municipal de BUIN — 2014929135447Ex 1724 de 2003 Modifica Ordenanza Pob.Canina",
           "materia": "Normativa General y Otras Materias",
@@ -58461,7 +59301,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU002",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-DC91B4",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de ALHUÉ — Ordenanza apicola para decretar",
           "materia": "Aseo, Ornato y Medio Ambiente",
@@ -58781,7 +59621,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU073",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-9C1B8A",
           "fecha": "2026-01-01",
           "titulo": "Ordenanzas",
           "materia": "Normativa General y Otras Materias",
@@ -63492,7 +64332,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU059",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-853921",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de COLTAUCO — Ordenanza Becas Municipalidad Coltauco",
           "materia": "Normativa General y Otras Materias",
@@ -65266,7 +66106,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU164",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-BDA453",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de MALLOA — Ordenanza Santa Rosa",
           "materia": "Normativa General y Otras Materias",
@@ -65287,7 +66127,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU164",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "1538",
           "fecha": "2025-01-01",
           "titulo": "Ordenanza Municipal de MALLOA — Ordenanza extraccion de aridos DTO 1538 2025",
           "materia": "Normativa General y Otras Materias",
@@ -65768,7 +66608,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU188",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-652D32",
           "fecha": "2026-01-01",
           "titulo": "ORDENANZA DE DERECHOS MUNICIPALES ORDENANZA DE DERECHOS MUNICIPALES Descarga",
           "materia": "Derechos Municipales y Tarifas",
@@ -66175,7 +67015,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU256",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-C5314E",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de QUINTA DE TILCOCO — Actualizacion Ordenanza Medio Ambiente Aseo y Ornato. compressed",
           "materia": "Aseo, Ornato y Medio Ambiente",
@@ -67540,7 +68380,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU219",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-C4C45A",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de PICHILEMU — Ordenanza TenenciaResponsableMascotas",
           "materia": "Tenencia Responsable de Mascotas",
@@ -67735,7 +68575,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU119",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-349FE1",
           "fecha": "2022-01-01",
           "titulo": "Ordenanza Municipal de LA ESTRELLA — DECRETO ALCALDICIO 846 ORDENANZA MICROEMPRESAS FAMILIARES AGO 2022",
           "materia": "Normativa General y Otras Materias",
@@ -67756,7 +68596,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU119",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-670BC8",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de LA ESTRELLA — ORDENANZA COBROS ATENCION VETERINARIA",
           "materia": "Derechos Municipales y Tarifas",
@@ -68062,7 +68902,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU141",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-128DAD",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de LITUECHE — Ordenanza Medio Ambiental",
           "materia": "Aseo, Ornato y Medio Ambiente",
@@ -71304,7 +72144,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU044",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "3690",
           "fecha": "2026-01-01",
           "titulo": "Decreto_3690 APR. TEXTO ORDENANZA DERECHOS DE ASEO",
           "materia": "Derechos Municipales y Tarifas",
@@ -71519,7 +72359,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU_lolol",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-F5B7FB",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal Lolol — PLADECO LOLOL",
           "materia": "Normativa General y Otras Materias",
@@ -71878,7 +72718,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU_palmilla",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-2F5D09",
           "fecha": "2026-01-01",
           "titulo": "UNIDADES VECINALES",
           "materia": "Seguridad Ciudadana y Convivencia",
@@ -73468,7 +74308,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU087",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-89A201",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de EMPEDRADO — Modificacion Ordenanza corrales",
           "materia": "Normativa General y Otras Materias",
@@ -73723,7 +74563,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU_maule",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-BBE71E",
           "fecha": "2024-01-01",
           "titulo": "Ordenanza sobre extracción de áridos en la comuna de Maule",
           "materia": "Urbanismo, Obras y Edificación",
@@ -74208,7 +75048,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU271",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-BAC8AA",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de RÍO CLARO — Ordenanza Municipal medioambiente diario oficial",
           "materia": "Aseo, Ornato y Medio Ambiente",
@@ -74439,7 +75279,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU283",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-DDCF4C",
           "fecha": "2026-01-01",
           "titulo": "ORDENANZA-QUILLAYES ORDENANZA-QUILLAYES Download",
           "materia": "Normativa General y Otras Materias",
@@ -74668,7 +75508,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU300",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-F13091",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal Ordenanza Municipal Ordenanza Municipal",
           "materia": "Normativa General y Otras Materias",
@@ -74891,7 +75731,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU033",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-4FAF4A",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de CAUQUENES — DE3182",
           "materia": "Normativa General y Otras Materias",
@@ -75125,7 +75965,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU_pelluhue",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-18A1DB",
           "fecha": "2016-01-01",
           "titulo": "Ordenanza sobre manejo de desechos en la comuna de Pelluhue",
           "materia": "Aseo, Ornato y Medio Ambiente",
@@ -75146,7 +75986,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU_pelluhue",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-C7CED0",
           "fecha": "2014-01-01",
           "titulo": "Modificación de ordenanza que prohíbe conductas o actividades determinadas en Pelluhue",
           "materia": "Seguridad Ciudadana y Convivencia",
@@ -77026,7 +77866,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU276",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-3337FE",
           "fecha": "2018-06-08",
           "titulo": "ORDENANZA LOCAL SOBRE MEDIO AMBIENTE DEROGADA.pdf ORDENANZA LOCAL SOBRE MEDIO AMBIENTE DEROGADA.pdf 2018-06-08 11:55 51k",
           "materia": "Aseo, Ornato y Medio Ambiente",
@@ -77047,7 +77887,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU276",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-73C515",
           "fecha": "2025-12-22",
           "titulo": "ORDENANZA_DERECHOS_MUNIROMERAL.pdf ORDENANZA_DERECHOS_MUNIROMERAL.pdf 2025-12-22 20:08 1626k",
           "materia": "Derechos Municipales y Tarifas",
@@ -77068,7 +77908,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU276",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-6892CE",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de ROMERAL — ORDENANZA SOBRE LUMINARIAS EN LA COMUNA DE ROMERAL",
           "materia": "Normativa General y Otras Materias",
@@ -77089,7 +77929,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU276",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-47C829",
           "fecha": "2026-02-25",
           "titulo": "ORDESTADIO_DecretoExento3049.pdf ORDESTADIO_DecretoExento3049.pdf 2026-02-25 14:58 384k",
           "materia": "Normativa General y Otras Materias",
@@ -77110,7 +77950,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU276",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-540B4F",
           "fecha": "2020-11-02",
           "titulo": "ORD_MED_AMB_DEXE_2207.pdf ORD_MED_AMB_DEXE_2207.pdf 2020-11-02 15:29 1783k",
           "materia": "Normativa General y Otras Materias",
@@ -77131,7 +77971,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU276",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-0EEEB9",
           "fecha": "2026-08-12",
           "titulo": "Ordenanza Mercado Municipal DEC EX 0329.pdf Ordenanza Mercado Municipal DEC EX 0329.pdf 2026-08-12 20:36 2260k",
           "materia": "Normativa General y Otras Materias",
@@ -77152,7 +77992,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU276",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-FB93F4",
           "fecha": "2024-11-07",
           "titulo": "Ordenanza Tarjeta Binacional.pdf Ordenanza Tarjeta Binacional.pdf 2024-11-07 16:00 1239k",
           "materia": "Normativa General y Otras Materias",
@@ -77173,7 +78013,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU276",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-429C93",
           "fecha": "2022-10-13",
           "titulo": "Ordenanza_Parque_Pumaitén.pdf Ordenanza_Parque_Pumaitén.pdf 2022-10-13 13:45 1494k",
           "materia": "Normativa General y Otras Materias",
@@ -77194,7 +78034,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU276",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-042DA3",
           "fecha": "2022-04-25",
           "titulo": "Ordenanza_Patio_de_Artesanos.pdf Ordenanza_Patio_de_Artesanos.pdf 2022-04-25 18:58 1394k",
           "materia": "Normativa General y Otras Materias",
@@ -77215,7 +78055,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU276",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-4A031B",
           "fecha": "2023-04-17",
           "titulo": "Ordenanza_Residencia_Estudiantil.pdf Ordenanza_Residencia_Estudiantil.pdf 2023-04-17 19:19 366k",
           "materia": "Normativa General y Otras Materias",
@@ -77236,7 +78076,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU276",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-D41CE1",
           "fecha": "2024-10-11",
           "titulo": "Ordenanza_de_Artesania2024.pdf Ordenanza_de_Artesania2024.pdf 2024-10-11 14:28 2050k",
           "materia": "Normativa General y Otras Materias",
@@ -77257,7 +78097,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU276",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-450840",
           "fecha": "2023-11-20",
           "titulo": "ordenanza_cierre_de_calles.pdf ordenanza_cierre_de_calles.pdf 2023-11-20 18:03 1838k",
           "materia": "Normativa General y Otras Materias",
@@ -77278,7 +78118,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU276",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-929896",
           "fecha": "2024-02-13",
           "titulo": "ordenanza_medio_ambiente2.pdf ordenanza_medio_ambiente2.pdf 2024-02-13 12:15 2065k",
           "materia": "Normativa General y Otras Materias",
@@ -77299,7 +78139,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU276",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-7B173E",
           "fecha": "2020-08-18",
           "titulo": "ordenanza_participacion_MOD_3361_2019.pdf ordenanza_participacion_MOD_3361_2019.pdf 2020-08-18 17:11 268k",
           "materia": "Normativa General y Otras Materias",
@@ -78066,7 +78906,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU_linares",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-3D5881",
           "fecha": "2026-01-01",
           "titulo": "Declaración de Capital",
           "materia": "Normativa General y Otras Materias",
@@ -78087,7 +78927,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU_linares",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-E6CFE7",
           "fecha": "2025-01-01",
           "titulo": "Reavalúo Sitios No Edificados 2025",
           "materia": "Normativa General y Otras Materias",
@@ -78308,7 +79148,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU055",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-23AEC2",
           "fecha": "2019-01-11",
           "titulo": "ordambcom.pdf ordambcom.pdf 2019-01-11 08:35 2.3M",
           "materia": "Normativa General y Otras Materias",
@@ -78350,7 +79190,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU055",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-8E824F",
           "fecha": "2023-01-27",
           "titulo": "covid19.pdf covid19.pdf 2023-01-27 16:54 101K",
           "materia": "Normativa General y Otras Materias",
@@ -79234,7 +80074,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU268",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-6320C1",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de RETIRO — DECEX 1078 ORDENANZA TENENCIA RESPONSABLE MASCOTAS ANIMALES COMPAÑIA",
           "materia": "Tenencia Responsable de Mascotas",
@@ -79623,7 +80463,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU337",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-2E3889",
           "fecha": "2020-01-01",
           "titulo": "Ordenanza Municipal de VILLA ALEGRE — ROLREAVALUO AGR 07309 2020 AGRÍCOLA",
           "materia": "Normativa General y Otras Materias",
@@ -79644,7 +80484,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU337",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-AE0605",
           "fecha": "2023-01-01",
           "titulo": "Ordenanza Municipal de VILLA ALEGRE — ROLREAVALUO SNE 07309 2023",
           "materia": "Normativa General y Otras Materias",
@@ -79665,7 +80505,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU337",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-67552D",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de VILLA ALEGRE — doc 265650",
           "materia": "Normativa General y Otras Materias",
@@ -80250,7 +81090,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU048",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-E262CE",
           "fecha": "2026-01-01",
           "titulo": "Ver Bases Ver Bases",
           "materia": "Aseo, Ornato y Medio Ambiente",
@@ -80905,7 +81745,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU053",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-13C7CC",
           "fecha": "2025-01-01",
           "titulo": "Ordenanza Municipal de COIHUECO — Ordenanza Sobre Utilizacion Espacios Uso Publico 2025",
           "materia": "Normativa General y Otras Materias",
@@ -80926,7 +81766,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU053",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-50CDB7",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de COIHUECO — ordenanzas becas",
           "materia": "Normativa General y Otras Materias",
@@ -81143,7 +81983,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU083",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-E2CE50",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de EL CARMEN — BASES CONCURSO FOTOGRAFIA 2026",
           "materia": "Normativa General y Otras Materias",
@@ -81374,7 +82214,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU083",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-64A280",
           "fecha": "2025-01-01",
           "titulo": "Ordenanza Municipal de EL CARMEN — ROLREAVALUO SNE 08118 2025",
           "materia": "Normativa General y Otras Materias",
@@ -81538,7 +82378,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU_niquen",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-2EA2D4",
           "fecha": "2024-01-01",
           "titulo": "Ordenanza Local del Plan Regulador Comunal de Ñiquén",
           "materia": "Urbanismo, Obras y Edificación",
@@ -81559,7 +82399,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU_niquen",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-86357D",
           "fecha": "2021-01-01",
           "titulo": "Ordenanza de Cobros y Valores de la comuna de Ñiquén",
           "materia": "Derechos Municipales y Tarifas",
@@ -81649,7 +82489,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU208",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-0FFED8",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de PEMUCO — d881",
           "materia": "Normativa General y Otras Materias",
@@ -81810,7 +82650,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU220",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-7195EE",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de PINTO — decreto alcaldicio municipal 5414",
           "materia": "Normativa General y Otras Materias",
@@ -82334,7 +83174,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU252",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-289047",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de QUILLÓN — anteproyecto ordenanza mascotas",
           "materia": "Tenencia Responsable de Mascotas",
@@ -82502,7 +83342,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU_quirihue",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-2BCCB5",
           "fecha": "2023-01-01",
           "titulo": "Ordenanza Municipal de Prevención y Gestión de Riesgos Comunales Producto de Incendios Forestales",
           "materia": "Aseo, Ornato y Medio Ambiente",
@@ -82523,7 +83363,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU_quirihue",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-C85EB7",
           "fecha": "2024-01-01",
           "titulo": "Ordenanza Municipal de Participación Ciudadana de la comuna de Quirihue",
           "materia": "Participación Ciudadana",
@@ -83997,7 +84837,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU_treguaco",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-52F35F",
           "fecha": "2024-01-01",
           "titulo": "Ordenanza Municipal Treguaco — Cuenta Publica 2024",
           "materia": "Normativa General y Otras Materias",
@@ -84018,7 +84858,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU_treguaco",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-D1E162",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal Treguaco — KARIN",
           "materia": "Normativa General y Otras Materias",
@@ -86661,7 +87501,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU090",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-E5B8F1",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de FLORIDA — Ordenanza Comercio Ambulante",
           "materia": "Patentes, Comercio y Alcoholes",
@@ -87547,7 +88387,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU210",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-3A6C52",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de PENCO — ORDENANZA COBRO DERECHOS V2",
           "materia": "Derechos Municipales y Tarifas",
@@ -88349,7 +89189,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU324",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-654A42",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de TOMÉ — ORDENANZA DE SUBVENCIONES MUNICIPALES NUEVA",
           "materia": "Normativa General y Otras Materias",
@@ -88370,7 +89210,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU324",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-324253",
           "fecha": "2025-01-01",
           "titulo": "Ordenanza Municipal de TOMÉ — Ordenanza Municipal de Medio Ambiente 2025 (00000002)",
           "materia": "Aseo, Ornato y Medio Ambiente",
@@ -89202,7 +90042,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU065",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-64D379",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de CONTULMO — Ordenanzas 2026",
           "materia": "Normativa General y Otras Materias",
@@ -90275,7 +91115,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU018",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-DE2C4C",
           "fecha": "2019-01-01",
           "titulo": "Ordenanza Municipal de CABRERO — Ordenanza de Participacion Ciudadana y Convivencia Comuna de Cabrero 2019",
           "materia": "Seguridad Ciudadana y Convivencia",
@@ -90482,7 +91322,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU131",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-346D3A",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de LAJA — ORDENANZA MUNICIPAL TENENCIA RESPONSABLE DE MASCOTAS",
           "materia": "Tenencia Responsable de Mascotas",
@@ -90785,7 +91625,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU_mulchen",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-5BDED9",
           "fecha": "2024-01-01",
           "titulo": "Ordenanza de Participación Ciudadana de la comuna de Mulchén",
           "materia": "Participación Ciudadana",
@@ -90924,7 +91764,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU_nacimiento",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-E5A65E",
           "fecha": "2024-01-01",
           "titulo": "Ordenanza que crea beca para deportistas destacados de la comuna de Nacimiento",
           "materia": "Salud, Deporte y Desarrollo Social",
@@ -91312,7 +92152,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU302",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-B5BC1B",
           "fecha": "2026-01-01",
           "titulo": "| Ordenanza Municipal Medio Ambiente",
           "materia": "Aseo, Ornato y Medio Ambiente",
@@ -91918,7 +92758,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU_alto biobio",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-212977",
           "fecha": "2026-01-01",
           "titulo": "Reglamento",
           "materia": "Normativa General y Otras Materias",
@@ -93482,7 +94322,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU315",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "2022",
           "fecha": "2022-01-01",
           "titulo": "Ordenanza Municipal de TEMUCO — 001 ORD 2022",
           "materia": "Normativa General y Otras Materias",
@@ -93629,7 +94469,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU315",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "2023",
           "fecha": "2023-01-01",
           "titulo": "Ordenanza Municipal de TEMUCO — 001 ORD 2023",
           "materia": "Normativa General y Otras Materias",
@@ -93692,7 +94532,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU315",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "2024",
           "fecha": "2024-01-01",
           "titulo": "Ordenanza Municipal de TEMUCO — 001 ORD 2024",
           "materia": "Normativa General y Otras Materias",
@@ -93776,7 +94616,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU315",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "2025",
           "fecha": "2025-01-01",
           "titulo": "Ordenanza Municipal de TEMUCO — 01 ORD 2025",
           "materia": "Normativa General y Otras Materias",
@@ -93860,7 +94700,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU315",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-5824DB",
           "fecha": "2026-01-01",
           "titulo": "1991 No 3 06/11/1991 Ordenanza de instalación y funcionamiento de salas de pool y locales de entretención electrónicos.",
           "materia": "Normativa General y Otras Materias",
@@ -93923,7 +94763,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU315",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-46867A",
           "fecha": "2011-01-01",
           "titulo": "2011 Ordenanza de Cierre de Calle, Pasajes y Conjuntos Habitacionales por Motivos de Seguridad Ciudadana",
           "materia": "Seguridad Ciudadana y Convivencia",
@@ -93986,7 +94826,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU315",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-554B5A",
           "fecha": "2009-05-12",
           "titulo": "2009 12/05/2009 Ordenanza de la Leña.",
           "materia": "Normativa General y Otras Materias",
@@ -94519,7 +95359,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU076",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-F39121",
           "fecha": "2019-01-01",
           "titulo": "Ordenanza Municipal de CURARREHUE — ORDENANZA MODIFICACIONES 2019 REFUNDIDA",
           "materia": "Normativa General y Otras Materias",
@@ -94540,7 +95380,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU076",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-347102",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de CURARREHUE — ordenanza sobre subvenciones municipales",
           "materia": "Normativa General y Otras Materias",
@@ -94603,7 +95443,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU076",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-36D9E9",
           "fecha": "2041-01-01",
           "titulo": "Ordenanza Municipal de CURARREHUE — DECRETO EXENTO 2041 medio ambiente",
           "materia": "Aseo, Ornato y Medio Ambiente",
@@ -94624,7 +95464,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU076",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-E41BB2",
           "fecha": "2042-01-01",
           "titulo": "Ordenanza Municipal de CURARREHUE — DECRETO EXENTO 2042",
           "materia": "Normativa General y Otras Materias",
@@ -96269,7 +97109,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU148",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-EB0546",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de LONCOCHE — ORDENANZA",
           "materia": "Normativa General y Otras Materias",
@@ -96845,7 +97685,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU214",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-4A101C",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de PERQUENCO — Decreto Aprueba Plan de Accion Comunal Cambio Climatico PERQUENCO",
           "materia": "Normativa General y Otras Materias",
@@ -97013,7 +97853,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU214",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-B1193E",
           "fecha": "2019-01-01",
           "titulo": "Ordenanza Municipal de PERQUENCO — GUIA COMERCIAL UDEL 2019",
           "materia": "Patentes, Comercio y Alcoholes",
@@ -97160,7 +98000,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU214",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-DF499B",
           "fecha": "2020-01-01",
           "titulo": "Ordenanza Municipal de PERQUENCO — ROLREAVALUO AGRICOLA 09206 2020",
           "materia": "Normativa General y Otras Materias",
@@ -97299,7 +98139,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU_pitrufquen",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-88CA67",
           "fecha": "2024-01-01",
           "titulo": "Ordenanza sobre Tenencia Responsable de Mascotas y Animales de Compañía de la comuna de Pitrufquén",
           "materia": "Tenencia Responsable de Mascotas",
@@ -97545,7 +98385,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU277",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-1933ED",
           "fecha": "2018-01-01",
           "titulo": "Ordenanza Municipal de SAAVEDRA — Ordenanza Municipal de Gestion Medioambiental 2018 Compressed",
           "materia": "Aseo, Ornato y Medio Ambiente",
@@ -97566,7 +98406,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU277",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-37E788",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de SAAVEDRA — ORDENANZA MUNICIPAL TENENCIA DE MASCOTAS",
           "materia": "Tenencia Responsable de Mascotas",
@@ -98137,7 +98977,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU336",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-1113A9",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de VILCÚN — ORDENANZA DE PARTICIPACION CIUDADANA VILCUN",
           "materia": "Normativa General y Otras Materias",
@@ -98885,7 +99725,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU058",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-D36256",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de COLLIPULLI — Ordenanza",
           "materia": "Normativa General y Otras Materias",
@@ -99964,7 +100804,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU241",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-624332",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de PURÉN — Ordenanza de Participacion Ciudadana",
           "materia": "Normativa General y Otras Materias",
@@ -101339,7 +102179,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU154",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-28C080",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de LOS LAGOS — Ordenanza Participacion Ciudadana",
           "materia": "Normativa General y Otras Materias",
@@ -101561,7 +102401,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU168",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-36F66C",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de MARIQUINA — Ordenanza local derechos municipales",
           "materia": "Derechos Municipales y Tarifas",
@@ -101680,7 +102520,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU196",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-1F3CA4",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza que Regula Autorización y Explotación Comercial de Máquinas de Habilidad y Destreza o Juegos Similares",
           "materia": "Patentes, Comercio y Alcoholes",
@@ -103260,7 +104100,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU233",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-B1904E",
           "fecha": "2026-01-01",
           "titulo": "Descarga aquí Descarga aquí",
           "materia": "Tenencia Responsable de Mascotas",
@@ -103692,7 +104532,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU020",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "10",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de Calbuco — ord10",
           "materia": "Normativa General y Otras Materias",
@@ -104637,7 +105477,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU020",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "04",
           "fecha": "2023-01-01",
           "titulo": "Ordenanza Municipal de Calbuco — mod aseo ord 04 2023",
           "materia": "Aseo, Ornato y Medio Ambiente",
@@ -105187,7 +106027,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU094",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-2141CD",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de FRUTILLAR — Decreto Ordenanza Prohibicion bolsas Plasticas Frutillar",
           "materia": "Normativa General y Otras Materias",
@@ -105735,7 +106575,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU170",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-746C41",
           "fecha": "2026-01-01",
           "titulo": "Haz click aqui para ver Ordenanza Haz click aqui para ver Ordenanza",
           "materia": "Normativa General y Otras Materias",
@@ -106352,7 +107192,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU046",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-66AF5A",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de CHONCHI — DECRETO ORDENANZA MEDIO AMBIENTE",
           "materia": "Aseo, Ornato y Medio Ambiente",
@@ -106912,7 +107752,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU079",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-44B78D",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de DALCAHUE — 202005 Ordenanza Local de Mascarillas y Distanciamiento Social",
           "materia": "Normativa General y Otras Materias",
@@ -107521,7 +108361,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU079",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-742D34",
           "fecha": "2024-01-01",
           "titulo": "Ordenanza Municipal de DALCAHUE — ORDENANZA DE TARIFA ASEO DALCAHUE 2024",
           "materia": "Derechos Municipales y Tarifas",
@@ -107842,7 +108682,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU240",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-EB1E79",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de PUQUELDÓN — Ordenanza",
           "materia": "Normativa General y Otras Materias",
@@ -108026,7 +108866,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU246",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-356AC2",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de QUEILÉN — DE 2637 ordenanza derechos municipales concesiones y servicios",
           "materia": "Derechos Municipales y Tarifas",
@@ -108431,7 +109271,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU247",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-3B24B4",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de QUELLÓN — Acuerdo3 CierroSitiosEriazos",
           "materia": "Normativa General y Otras Materias",
@@ -109830,7 +110670,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU242",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-3424A7",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de PURRANQUE — BASES BECA ED SUPERIOR",
           "materia": "Normativa General y Otras Materias",
@@ -110186,7 +111026,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU293",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-A7D803",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de SAN JUAN DE LA COSTA — OM tenencia responsable",
           "materia": "Tenencia Responsable de Mascotas",
@@ -110580,7 +111420,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU095",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-2428DA",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de FUTALEUFÚ — Ordenanza Juego de Destraza",
           "materia": "Normativa General y Otras Materias",
@@ -110791,7 +111631,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU103",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-861A3B",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de HUALAIHUÉ — DECRETO ORDENANZA DE ALCOHOLES HUALAIHUE",
           "materia": "Patentes, Comercio y Alcoholes",
@@ -112350,7 +113190,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU326",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-908994",
           "fecha": "2026-01-01",
           "titulo": "Ver Documento Ver Documento",
           "materia": "Normativa General y Otras Materias",
@@ -113145,7 +113985,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU_punta arenas",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-BB891B",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Local Plan Regulador Comunal de Punta Arenas",
           "materia": "Urbanismo, Obras y Edificación",
@@ -113206,7 +114046,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU130",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-FB1E92",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de LAGUNA BLANCA — Ordenanza extraccion aridos",
           "materia": "Normativa General y Otras Materias",
@@ -113488,7 +114328,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU288",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-700D37",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de SAN GREGORIO — ordenanza circulacion y estacionamiento vehiculos",
           "materia": "Tránsito y Transporte",
@@ -113807,7 +114647,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU225",
           "fuente": "Municipalidad",
-          "numero": "S/N",
+          "numero": "DOC-F8BCDE",
           "fecha": "2026-01-01",
           "titulo": "Ordenanza Municipal de PORVENIR — FORMULARIO DE POSTULACION ASIGNACION DIRECTA",
           "materia": "Normativa General y Otras Materias",
@@ -114394,7 +115234,7 @@ window.CATASTRO_DATA = {
       "badge_bg": "bg-zinc-800",
       "badge_text": "text-zinc-400",
       "badge_border": "border-zinc-700",
-      "count": 2594
+      "count": 2633
     }
   ],
   "public_scope": {
@@ -114407,7 +115247,7 @@ window.CATASTRO_DATA = {
       "CPLT"
     ],
     "quarantined_records": 0,
-    "verified_municipal_records": 1305,
+    "verified_municipal_records": 1345,
     "reason": "Las referencias CPLT manuales sin evidencia se mantienen en cuarentena. Solo se publican documentos municipales con listado oficial, PDF resoluble y huella SHA-256 verificada."
   }
 };
