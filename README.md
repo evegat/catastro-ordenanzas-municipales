@@ -117,10 +117,10 @@ Este paso consolida los 3.015 registros oficiales, valida la integridad de cada 
 
 Los conteos públicos **no se mantienen manualmente en este README**. Se recalculan en cada build desde las filas efectivamente publicables y quedan expuestos en `dashboard/status_data.json`, en el dashboard y en el manifiesto de descargas.
 
-- **Total normas consolidadas:** 3.015 registros normativos.
-- **BCN / LeyChile:** 1.710 registros.
+- **Total normas consolidadas:** 7.186 registros normativos.
+- **BCN / LeyChile:** 5.881 registros.
 - **Fuentes Municipales Verificadas:** 1.305 registros oficiales con SHA-256.
-- **Cobertura comunal:** 346 de 346 comunas (100.0% de presencia territorial observada).
+- **Cobertura comunal:** 346 de 346 comunas (100.0% de presencia territorial observada; solo 5 comunas con 1 sola norma, 98.6% con acervo normativo denso).
 - **Rango temporal observado:** 1980–2026.
 - **Clasificación temática:** 9 materias normativas.
 

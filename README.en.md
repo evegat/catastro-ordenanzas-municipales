@@ -93,10 +93,10 @@ python src/build_public_snapshot.py dashboard
 
 ## 📊 Dataset Scope
 
-- **Consolidated Normative Records:** 3,015.
-- **BCN / LeyChile:** 1,710 records.
+- **Consolidated Normative Records:** 7,186.
+- **BCN / LeyChile:** 5,881 records.
 - **Verified Municipal Sources (SHA-256):** 1,305 official records.
-- **Observed Territorial Coverage:** 346 of 346 communes (100.0% national presence).
+- **Observed Territorial Coverage:** 346 of 346 communes (100.0% national presence; only 5 single-ordinance communes remaining, 98.6% dense coverage).
 - **Observed Time Span:** 1980–2026.
 - **Thematic Domains:** 9 municipal regulatory axes.
 
