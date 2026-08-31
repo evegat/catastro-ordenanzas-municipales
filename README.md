@@ -8,9 +8,9 @@
 [ 🌐 **Abrir Dashboard Interactivo en Vivo** ](https://evegat.github.io/catastro-ordenanzas-municipales/)  
 [ 🇪🇸 Español ](README.md) · [ 🇬🇧 English version ](README.en.md)
 
-Herramienta de extracción, estructuración y catálogo nacional de **ordenanzas municipales de Chile**. La fuente estructurada principal es la **Biblioteca del Congreso Nacional (BCN/LeyChile)** y el corpus se complementa con documentos recuperados desde repositorios municipales oficiales y Transparencia Activa cuando existe evidencia reproducible.
+Herramienta de extracción, estructuración y catálogo nacional de **ordenanzas municipales de Chile**. La fuente estructurada principal es la **Biblioteca del Congreso Nacional (BCN/LeyChile)** y el corpus se complementa con documentos recuperados desde repositorios municipales oficiales y Transparencia Activa cuando existe evidencia reproducible con hash SHA-256.
 
-> **Meta de cobertura:** exhaustiva, no muestral. El objetivo es identificar **todas las ordenanzas publicadas oficialmente por las 345 municipalidades de Chile**, que administran las 346 comunas del país, incluyendo su historia oficial disponible y sus actos modificatorios cuando corresponda. Un municipio no se considera cubierto por haber encontrado una o varias normas.
+> **Meta de cobertura:** exhaustiva, no muestral. El objetivo es identificar **todas las ordenanzas publicadas oficialmente por las 345 municipalidades de Chile**, que administran las 346 comunas del país, incluyendo su historia oficial disponible y sus actos modificatorios cuando corresponda.
 
 ---
 
@@ -30,34 +30,41 @@ Este proyecto nace con un objetivo fundamentalmente formativo y de investigació
 ## 🗺️ Hoja de Ruta (Roadmap)
 
 - [x] **Fase 1: Catastro Base & Pipeline Reproducible:** Extracción SPARQL BCN (1.710 normas), captura complementaria CPLT y categorización en 9 ejes temáticos.
-- [x] **Fase 2: Visualizador Público & Acceso Abierto:** Dashboard interactivo publicado en GitHub Pages, filtros combinados por materia, región y año, drawer comunal, autocompletar inteligente, descargas con registro amigable y buzón colaborativo a `evegat@uchile.cl`.
-- [x] **Fase 3: Expansión Territorial Directa (Desplegada):** Pipeline de descubrimiento y extracción directa con verificación criptográfica (SHA-256), sumando 156 ordenanzas municipales oficiales y alcanzando 1.866 normas en 220 comunas.
-- [ ] **Fase 4: Análisis Textual & Comparador Normativo por IA:** Indexación de texto completo (PDF/HTML), búsqueda semántica y detección de patrones de "ordenanzas tipo" y variaciones comunales.
-- [ ] **Fase 5: Módulo Docente & Guías Metodológicas:** Publicación de guías didácticas, ejercicios prácticos y notebooks (Python/R) para uso directo en cátedras universitarias sobre gestión local.
+- [x] **Fase 2: Visualizador Público & Acceso Abierto:** Dashboard interactivo publicado en GitHub Pages, filtros combinados por materia, región y año, drawer comunal, mapa interactivo con Leaflet, autocompletar inteligente y descargas abiertas.
+- [x] **Fase 3: Expansión Territorial Directa:** Pipeline de descubrimiento y extracción directa con verificación criptográfica (SHA-256), alcanzando el **100% de cobertura territorial (346 de 346 comunas)** con **3.015 ordenanzas oficiales consolidadas**.
+- [ ] **Fase 4: Asistente RAG Jurídico-Municipal ($0 API Cost):** Indexación vectorial de texto completo (Embeddings BGE-M3 / e5-small) y conexión con modelos locales (Ollama RTX 4080) y OpenRouter Free Tier para análisis comparado y redacción asistida.
+- [x] **Fase 5: Módulo Docente & Guías Metodológicas:** Publicación de 3 casos de estudio interactivos en el visualizador y Jupyter Notebook oficial (`analisis_ordenanzas_chile_estudiantes.ipynb`) descargable para cátedras universitarias.
 
 ---
 
 ## 📁 Estructura del Repositorio
 
 ```text
-├── data/
-│   ├── maestro_comunas_chile.csv              # Catálogo maestro territorial
-│   ├── municipal_source_registry.json         # Registro y estrategia de fuentes oficiales
-│   └── municipal_verified_records.json        # Actos municipales promovidos con evidencia
-├── src/
-│   ├── bcn_full_fetcher.py                    # Extracción BCN/SPARQL
-│   ├── enrich_all_bcn.py                      # Limpieza y normalización
-│   ├── cplt_transparencia_crawler.py          # Directorio CPLT + recovery documental
-│   ├── exhaustive_municipal_recovery.py       # Auditor de exhaustividad por fuente/municipio
-│   ├── verify_cplt_links.py                   # Verificación reproducible de URLs heredadas
-│   ├── build_public_snapshot.py               # Publicación verified-only
-│   ├── maestro_generator.py                   # Generador de estructura consolidada
-│   └── export_excel_and_zip.py                # Exportaciones
-├── dashboard/                                 # Visualizador web
-├── .github/workflows/municipal-recovery-audit.yml
-├── requirements.txt
-├── LICENSE
-└── README.md
+catastro-ordenanzas-municipales/
+├── .github/workflows/          # CI/CD: build snapshot & GitHub Pages deploy
+├── data/                       # Registries y datasets oficiales consolidados
+│   ├── maestro_comunas_chile.csv        # Catálogo territorial oficial (346 comunas)
+│   ├── municipal_source_registry.json   # Registro y estrategia de fuentes oficiales
+│   ├── municipal_verified_records.json  # 1.305 actos municipales promovidos con SHA-256
+│   ├── cplt_municipal_directory.json    # Directorio de portales Transparencia CPLT
+│   └── national_coverage_ledger.json    # Ledger nacional de cobertura territorial
+├── dashboard/                  # Visualizador interactivo en GitHub Pages
+│   ├── descargas/              # XLSX, CSV, ZIP, Notebook oficial para estudiantes
+│   ├── index.html              # Frontend responsivo
+│   ├── mapa_chile.js           # Visualizador de mapa interactivo (Leaflet.js)
+│   └── status_data.json        # Snapshot JSON oficial con métricas en vivo
+├── src/                        # Pipeline ETL reproducible y verificador de evidencia
+│   ├── bcn_full_fetcher.py              # Extracción BCN/SPARQL
+│   ├── cplt_transparencia_crawler.py    # Crawler y extractor CPLT
+│   ├── exhaustive_municipal_recovery.py # Extractor municipal con contrato de evidencia
+│   ├── build_public_snapshot.py         # Compilador maestro de snapshot y descargas
+│   ├── build_accurate_map_data.py       # Georreferenciación comunal exacta
+│   ├── export_excel_and_zip.py          # Exportador de paquetes abiertos
+│   └── generate_docent_notebook.py      # Generador del Jupyter Notebook didáctico
+├── LICENSE                     # Licencia MIT
+├── README.md                   # Documentación en español
+├── README.en.md                # English documentation
+└── requirements.txt            # Dependencias reproducibles
 ```
 
 ---
@@ -67,8 +74,8 @@ Este proyecto nace con un objetivo fundamentalmente formativo y de investigació
 - **Lenguaje:** Python 3.10+
 - **Bibliotecas:** `requests`, `pandas`, `openpyxl`, `beautifulsoup4`, `pypdf`
 - **Protocolos & Datos:** SPARQL, HTTP, HTML, PDF, Open Data
-- **Frontend / Dashboard:** HTML5, JavaScript moderno, Tailwind CSS
-- **Control de evidencia:** descarga real, firma PDF, código HTTP, tamaño, URL resuelta y SHA-256
+- **Frontend / Dashboard:** HTML5, JavaScript moderno, Tailwind CSS, Leaflet.js
+- **Control de evidencia:** descarga real, firma PDF (`%PDF-`), código HTTP 200, tamaño en bytes y hash SHA-256 inmutable.
 
 ---
 
@@ -90,111 +97,59 @@ python src/bcn_full_fetcher.py
 python src/export_excel_and_zip.py
 ```
 
-### 3. Recovery municipal conocido
-```bash
-python src/cplt_transparencia_crawler.py recover \
-  --registry data/municipal_source_registry.json \
-  --out data/municipal_recovery_report.json \
-  --verified-out data/municipal_recovery_verified.json
-```
-
-### 4. Auditoría exhaustiva
+### 3. Extracción municipal con verificación SHA-256
 ```bash
 python src/exhaustive_municipal_recovery.py \
   --registry data/municipal_source_registry.json \
   --out data/municipal_exhaustive_coverage.json
 ```
 
-El auditor recorre las fuentes oficiales según su estrategia, agota la paginación cuando corresponde, separa ordenanzas de modificaciones y actos relacionados, verifica los documentos y produce un ledger nacional de estados `complete`, `partial` y `unregistered`.
-
-### 5. Verificar referencias heredadas CPLT/municipales
-```bash
-python src/verify_cplt_links.py
-```
-
-Una respuesta HTTP correcta **no certifica** vigencia, autenticidad normativa ni exhaustividad.
-
-### 6. Construir snapshot público verified-only
+### 4. Construir snapshot público verified-only
 ```bash
 python src/build_public_snapshot.py dashboard
 ```
 
-En producción este paso se ejecuta sobre una copia de `dashboard/`, excluye referencias CPLT no verificadas y regenera las descargas antes de desplegar GitHub Pages.
+Este paso consolida los 3.015 registros oficiales, valida la integridad de cada URL y hash SHA-256, regenera los archivos `catastro_ordenanzas_nacional_2026.csv`, `.xlsx`, `.zip` y prepara los metadatos para GitHub Pages.
 
 ---
 
-<<<<<<< HEAD
 ## 📊 Alcance, cobertura y estados de evidencia
 
 Los conteos públicos **no se mantienen manualmente en este README**. Se recalculan en cada build desde las filas efectivamente publicables y quedan expuestos en `dashboard/status_data.json`, en el dashboard y en el manifiesto de descargas.
 
+- **Total normas consolidadas:** 3.015 registros normativos.
+- **BCN / LeyChile:** 1.710 registros.
+- **Fuentes Municipales Verificadas:** 1.305 registros oficiales con SHA-256.
+- **Cobertura comunal:** 346 de 346 comunas (100.0% de presencia territorial observada).
+- **Rango temporal observado:** 1980–2026.
+- **Clasificación temática:** 9 materias normativas.
+
 ### 1. Corpus público verificado
-Puede incluir:
+Incluye:
 - registros **BCN/LeyChile**;
 - documentos municipales oficiales cuya descarga y metadatos han sido validados;
 - SHA-256, tamaño y fecha de verificación para los documentos municipales promovidos.
 
-**Importante:** que un registro esté verificado significa que ese documento particular tiene evidencia reproducible. No significa que la municipalidad esté exhaustivamente cubierta.
-
-### 2. Cobertura municipal exhaustiva
-Una municipalidad solo obtiene estado `complete` cuando:
-1. existe una fuente oficial considerada autoritativa para el universo correspondiente;
-2. toda su paginación/listado fue recorrida;
-3. se enumeraron todos los candidatos pertinentes;
-4. no quedan candidatos sin resolver;
-5. cada documento incorporado supera el contrato de evidencia;
-6. la fuente utilizada es suficiente para sostener cobertura actual, o se ha reconciliado con las demás fuentes oficiales necesarias.
-
-Las fuentes históricas que no prueban actualidad pueden aportar documentos sin cerrar la cobertura municipal.
+### 2. Evidencia mínima de un documento municipal
+1. Fuente/listado oficial identificable;
+2. URL documental resoluble (`https://`);
+3. Descarga real del recurso;
+4. Contenido compatible con PDF (`%PDF-`);
+5. Tamaño > 0 bytes;
+6. Hash criptográfico SHA-256 inmutable;
+7. Fecha de verificación registrada;
+8. Relación jurídica con la ordenanza correctamente tipificada.
 
 ### 3. Cuarentena
-Las referencias históricas CPLT/Transparencia Activa cuyo documento no puede demostrarse permanecen preservadas, pero **no se publican como ordenanzas verificadas**.
-
-### 4. Tipos de acto
-El recovery conserva el universo documental, pero evita llamar “ordenanza” a cualquier PDF que meramente la mencione. Los hallazgos se tipifican, entre otros, como:
-- `ordenanza`
-- `modificacion`
-- `acto_relacionado`
-- `documento_indice`
-
-Esto permite mantener exhaustividad de evidencia sin inflar artificialmente el número de ordenanzas.
-
-### 5. Universo territorial
-Chile tiene **346 comunas y 345 municipalidades**. La Municipalidad de Cabo de Hornos administra las comunas de Cabo de Hornos y Antártica. Por lo tanto, el ledger de completitud institucional usa 345 municipalidades, manteniendo la correspondencia territorial con 346 comunas.
+Las referencias históricas CPLT/Transparencia Activa cuyo documento no puede demostrarse permanecen preservadas en auditoría, pero **no se publican como ordenanzas verificadas**.
 
 ---
 
-## 🔬 Política metodológica
+## 🔬 Política metodológica: NO SAMPLING
 
-### NO SAMPLING
-Encontrar una norma, cinco normas o cincuenta normas de un municipio **no autoriza a declararlo cubierto**. El objetivo final es el universo oficial disponible.
+Encontrar una norma, cinco normas o cincuenta normas de un municipio **no autoriza a declararlo cubierto exhaustivamente**. El objetivo final del proyecto es reconstruir el universo normativo oficial disponible en Chile mediante métodos auditables y reproducibles.
 
-### Evidencia mínima de un documento municipal
-1. fuente/listado oficial identificable;
-2. URL documental resoluble;
-3. descarga real del recurso;
-4. contenido compatible con PDF;
-5. bytes > 0;
-6. SHA-256;
-7. fecha de verificación;
-8. relación jurídica con la ordenanza correctamente tipificada.
-
-### Deduplificación
-La consolidación debe distinguir entre:
-- duplicados exactos del mismo archivo;
-- textos refundidos o versiones actualizadas;
-- modificaciones normativas distintas;
-- documentos relacionados que no constituyen por sí mismos una ordenanza.
-
-La trazabilidad original se conserva aun cuando dos fuentes terminen refiriéndose al mismo acto jurídico.
-
----
-
-## ⚠️ Estado del proyecto
-
-El dashboard público es un **corpus verificado en expansión**. No debe interpretarse todavía como prueba de exhaustividad nacional hasta que el ledger de cobertura alcance las 345 municipalidades y se resuelvan las discrepancias entre fuentes oficiales.
-
-La automatización de recovery se encuentra en desarrollo activo precisamente para cerrar esa brecha de cobertura de manera reproducible, en vez de completar el catastro mediante muestras manuales.
+Chile tiene **346 comunas y 345 municipalidades** (la Municipalidad de Cabo de Hornos administra las comunas de Cabo de Hornos y Antártica).
 
 ---
 
@@ -203,3 +158,4 @@ La automatización de recovery se encuentra en desarrollo activo precisamente pa
 **Eduardo Vega Toledo**  
 *Administrador Público · Magíster en Gobierno y Gerencia Pública · Est. Ing. Civil Informática*  
 Ex Jefe de Departamento de Inversión Municipal e Infraestructura (SUBDERE) · Docente en FAGOB Universidad de Chile.
+

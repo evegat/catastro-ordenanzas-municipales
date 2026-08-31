@@ -1,12 +1,15 @@
 # Binaries & Executables
 *.exe
 cloudflared*
+*.bat
 
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 .venv/
 env/
+.env
 
 # OS / Editor
 .DS_Store
@@ -14,12 +17,26 @@ Thumbs.db
 .vscode/
 .idea/
 
+# Logs and crawler audits
+logs/
+*.log
+*.err.log
+*.jsonl
+
 # MyWorld Harness runtime evidence
 .myworld-harness/evidence/
 .myworld-harness/cache/
 
-# Local data dumps & heavy scratch files
+# Local data dumps, intermediate shards & scratch files
 data/*.txt
 data/*.html
 data/official_pdfs/
+data/*shard*.json
+data/*dump*
+data/local_crawler_candidates.json
+data/missing_communes_extraction.json
+data/playwright_rescued_records.json
+data/extraction_current_seeds.json
+data/crawler_state.json
+
 

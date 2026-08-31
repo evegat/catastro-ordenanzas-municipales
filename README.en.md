@@ -8,7 +8,9 @@
 [ 🌐 **Launch Interactive Dashboard Online** ](https://evegat.github.io/catastro-ordenanzas-municipales/)  
 [ 🇪🇸 Versión en Español ](README.md) · [ 🇬🇧 English version ](README.en.md)
 
-Automated ETL pipeline, structured dataset, and exploratory dashboard for **Chilean Municipal By-Laws (*Ordenanzas Municipales*)**, querying open data from the **Library of the National Congress of Chile (BCN)** SPARQL endpoint and complementary **Active Transparency (CPLT)** records.
+Automated ETL pipeline, structured dataset, and exploratory visualizer for **Chilean Municipal By-Laws (*Ordenanzas Municipales*)**, querying open data from the **Library of the National Congress of Chile (BCN/LeyChile)** SPARQL endpoint and complementary verified municipal official sources with SHA-256 cryptographic hashes.
+
+> **Coverage goal:** exhaustive, not sample-based. The objective is to identify **all by-laws officially published by Chile's 345 municipalities**, governing the country's 346 communes.
 
 ---
 
@@ -28,29 +30,41 @@ This project is built primarily as an educational and empirical research resourc
 ## 🗺️ Project Roadmap
 
 - [x] **Phase 1: Base Registry & Reproducible Pipeline:** BCN SPARQL extraction (1,710 records) + initial multi-agent crawler + 9-domain classification.
-- [x] **Phase 2: Public Visualizer & Open Access:** Interactive dashboard hosted on GitHub Pages with multi-filter matrix, detailed commune drawer, smart autocomplete, and collaborative inbox to `evegat@uchile.cl`.
-- [x] **Phase 3: Direct Municipal Crawling (Deployed):** Direct municipal crawler with cryptographic verification (SHA-256), adding 156 official municipal ordinances and reaching 1,866 total records across 220 communes.
-- [ ] **Phase 4: AI-Assisted Text Analysis & Normative Comparison:** Full-text indexing (PDF/HTML), semantic search, and detection of standard/template ordinance patterns.
-- [ ] **Phase 5: Teaching Modules & Academic Workbooks:** Downloadable research guides, case studies, and Jupyter/R notebooks for university courses on local governance.
+- [x] **Phase 2: Public Visualizer & Open Access:** Interactive dashboard hosted on GitHub Pages with multi-filter matrix, detailed commune drawer, interactive Leaflet map, smart autocomplete, and open data downloads.
+- [x] **Phase 3: Direct Municipal Crawling:** Direct municipal crawler with cryptographic verification (SHA-256), reaching **100.0% national coverage (346 of 346 communes)** and **3,015 consolidated official ordinances**.
+- [ ] **Phase 4: AI-Assisted RAG & Text Analysis ($0 API Cost):** Full-text vector indexing (BGE-M3 / e5-small embeddings) and local inference (Ollama RTX 4080) / OpenRouter Free Tier for semantic comparative legal queries.
+- [x] **Phase 5: Teaching Modules & Academic Workbooks:** 3 interactive case studies in the web dashboard and official downloadable Jupyter Notebook (`analisis_ordenanzas_chile_estudiantes.ipynb`) for university courses.
 
 ---
 
 ## 📁 Repository Structure
 
 ```text
-├── data/
-│   └── maestro_comunas_chile.csv      # Master territorial and municipal reference catalogue
-├── src/
-│   ├── bcn_full_fetcher.py            # BCN SPARQL endpoint query worker
-│   ├── enrich_all_bcn.py              # Metadata enrichment and normalization
-│   ├── cplt_transparencia_crawler.py  # CPLT Active Transparency crawler module
-│   ├── maestro_generator.py           # Core dataset compiler
-│   └── export_excel_and_zip.py        # Export multi-format open packages (XLSX, CSV, JSON)
-├── dashboard/                         # HTML5/JS dashboard (GitHub Pages)
-│   └── descargas/                     # Precompiled data packages
-├── requirements.txt                   # Reproducible Python dependencies
-├── LICENSE                            # MIT License
-└── README.md
+catastro-ordenanzas-municipales/
+├── .github/workflows/          # CI/CD: build snapshot & GitHub Pages deploy
+├── data/                       # Official registries and verified datasets
+│   ├── maestro_comunas_chile.csv        # Master territorial reference (346 communes)
+│   ├── municipal_source_registry.json   # Registry of official municipal endpoints
+│   ├── municipal_verified_records.json  # 1,305 municipal acts verified with SHA-256
+│   ├── cplt_municipal_directory.json    # Active Transparency CPLT directory
+│   └── national_coverage_ledger.json    # National coverage ledger
+├── dashboard/                  # Static web dashboard (GitHub Pages)
+│   ├── descargas/              # XLSX, CSV, ZIP, and teaching notebook downloads
+│   ├── index.html              # Responsive web application
+│   ├── mapa_chile.js           # Interactive Leaflet.js map logic
+│   └── status_data.json        # Live JSON snapshot and metrics
+├── src/                        # Reproducible ETL pipeline and evidence verifiers
+│   ├── bcn_full_fetcher.py              # BCN/LeyChile SPARQL query extractor
+│   ├── cplt_transparencia_crawler.py    # CPLT Active Transparency crawler
+│   ├── exhaustive_municipal_recovery.py # Municipal extractor with evidence contract
+│   ├── build_public_snapshot.py         # Master snapshot & export compiler
+│   ├── build_accurate_map_data.py       # Accurate geospatial coordinate generator
+│   ├── export_excel_and_zip.py          # Multi-format data exporter
+│   └── generate_docent_notebook.py      # Educational Jupyter Notebook builder
+├── LICENSE                     # MIT License
+├── README.md                   # Spanish documentation
+├── README.en.md                # English documentation
+└── requirements.txt            # Reproducible dependencies
 ```
 
 ---
@@ -65,30 +79,26 @@ python -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
-# Run SPARQL ingestion
+# 1. Run SPARQL ingestion from BCN
 python src/bcn_full_fetcher.py
 
-# Export clean datasets
-python src/export_excel_and_zip.py
+# 2. Run municipal crawler with SHA-256 verification
+python src/exhaustive_municipal_recovery.py
+
+# 3. Build public snapshot and release packages
+python src/build_public_snapshot.py dashboard
 ```
 
 ---
 
 ## 📊 Dataset Scope
 
-Published dataset snapshot: **August 27, 2026**.
-
-- **Indexed records:** 1,632.
-- **Sources:** 1,572 BCN records plus 60 complementary CPLT Active Transparency records (2022–2026).
-- **Observed territorial coverage:** 217 of Chile's 346 communes have at least one record in the consolidated dataset.
-- **Observed time span:** 1980–2026.
-- **Thematic classification:** 9 categories.
-
-### Methodological note and limitations
-
-This catalogue consolidates documents identified in the consulted sources and should not be interpreted as a certification that each municipality's regulatory corpus is complete. **No records for a commune does not necessarily mean that the municipality has no ordinances in force**; it may reflect publication gaps, source lag, identifier differences, or limitations in document discovery.
-
-Territorial coverage is calculated over Chile's **346 communes**. A commune is counted as “covered” when the published dataset contains at least one associated record. Figures may change between versions as new sources are incorporated, identifiers are corrected, and duplicates are reviewed.
+- **Consolidated Normative Records:** 3,015.
+- **BCN / LeyChile:** 1,710 records.
+- **Verified Municipal Sources (SHA-256):** 1,305 official records.
+- **Observed Territorial Coverage:** 346 of 346 communes (100.0% national presence).
+- **Observed Time Span:** 1980–2026.
+- **Thematic Domains:** 9 municipal regulatory axes.
 
 ---
 
@@ -97,3 +107,4 @@ Territorial coverage is calculated over Chile's **346 communes**. A commune is c
 **Eduardo Vega Toledo**  
 *Public Administrator · Master in Government & Public Management · Computer Engineering Student*  
 Former Head of Municipal Investment Dept. (SUBDERE) · Lecturer at FAGOB Universidad de Chile.
+
