@@ -16,17 +16,39 @@
     transito_transporte: 'Tránsito y Transporte',
     urbanismo_obras: 'Urbanismo, Obras y Edificación',
     seguridad_convivencia: 'Seguridad y Convivencia',
-    mascotas_animales: 'Tenencia Responsable y Mascotas',
+    tenencia_mascotas: 'Tenencia Responsable de Mascotas',
     social_salud_deporte: 'Salud, Deporte y Desarrollo Social',
     participacion_ciudadana: 'Participación Ciudadana',
+    administracion_interna: 'Organización y Régimen Interno',
+    general: 'Normativa General y Otras Materias',
+    alcoholes_comercio: 'Comercio, Alcoholes y Patentes',
+    mascotas_animales: 'Tenencia Responsable de Mascotas',
   };
+
+  const TOPIC_ALIASES = {
+    alcoholes_comercio: 'comercio_alcoholes',
+    comercio_alcoholes: 'alcoholes_comercio',
+    tenencia_mascotas: 'mascotas_animales',
+    mascotas_animales: 'tenencia_mascotas',
+  };
+
+  function getTopicCount(item, topicFilter) {
+    if (!item || !item.topics) return 0;
+    if (topicFilter === 'ALL') return item.total || 0;
+    let count = item.topics[topicFilter] || 0;
+    const alias = TOPIC_ALIASES[topicFilter];
+    if (alias && item.topics[alias]) {
+      count += item.topics[alias];
+    }
+    return count;
+  }
 
   function getMarkerColor(item, topicFilter) {
     if (item.total === 0) return '#4b5563'; // sin datos - gris
 
     if (topicFilter === 'ALL') return '#54b995'; // verde catastro
 
-    const count = (item.topics || {})[topicFilter] || 0;
+    const count = getTopicCount(item, topicFilter);
     if (count === 0) return '#d97706'; // amber: tiene datos pero no en esta materia
     return '#54b995'; // verde: tiene datos en esta materia
   }
@@ -34,19 +56,19 @@
   function getMarkerRadius(item, topicFilter) {
     if (item.total === 0) return 4;
     if (topicFilter === 'ALL') return Math.min(5 + Math.sqrt(item.total) * 0.8, 14);
-    const count = (item.topics || {})[topicFilter] || 0;
+    const count = getTopicCount(item, topicFilter);
     if (count === 0) return 4;
     return Math.min(5 + Math.sqrt(count) * 1.5, 14);
   }
 
   function buildPopup(item, topicFilter) {
-    const topicCount = topicFilter !== 'ALL' ? ((item.topics || {})[topicFilter] || 0) : item.total;
+    const topicCount = topicFilter !== 'ALL' ? getTopicCount(item, topicFilter) : item.total;
     const topicLine = topicFilter !== 'ALL'
       ? `<tr><td style="color:#94a3b8;font-size:10px">Materia filtrada</td><td style="color:#54b995;font-weight:600">${topicCount} normas</td></tr>`
       : '';
     const topicsRows = Object.entries(item.topics || {})
       .filter(([, v]) => v > 0)
-      .map(([k, v]) => `<tr><td style="color:#94a3b8;font-size:10px">${TOPIC_LABELS[k] || k}</td><td style="color:#e2e8f0">${v}</td></tr>`)
+      .map(([k, v]) => `<tr><td style="color:#94a3b8;font-size:10px">${TOPIC_LABELS[k] || TOPIC_LABELS[TOPIC_ALIASES[k]] || k}</td><td style="color:#e2e8f0">${v}</td></tr>`)
       .join('');
 
     return `
@@ -85,7 +107,7 @@
       allMarkers.push(circle);
 
       if (topicFilter !== 'ALL') {
-        const count = (item.topics || {})[topicFilter] || 0;
+        const count = getTopicCount(item, topicFilter);
         if (count > 0) countFiltered++;
       }
     });
@@ -95,7 +117,8 @@
     const labEl = document.getElementById('mapa-stat-label');
     if (filtEl && labEl) {
       if (topicFilter === 'ALL') {
-        filtEl.textContent = '220';
+        const totalConDatos = mapaData.filter(d => (d.total || 0) > 0).length;
+        filtEl.textContent = totalConDatos.toString();
         labEl.textContent = 'Con ordenanzas';
       } else {
         filtEl.textContent = countFiltered;

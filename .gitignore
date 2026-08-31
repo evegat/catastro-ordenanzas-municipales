@@ -1,4 +1,4 @@
-﻿# Binaries & Executables
+# Binaries & Executables
 *.exe
 cloudflared*
 
@@ -17,3 +17,9 @@ Thumbs.db
 # MyWorld Harness runtime evidence
 .myworld-harness/evidence/
 .myworld-harness/cache/
+
+# Local data dumps & heavy scratch files
+data/*.txt
+data/*.html
+data/official_pdfs/
+

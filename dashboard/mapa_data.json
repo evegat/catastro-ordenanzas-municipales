@@ -69,13 +69,11 @@
       "general": 35,
       "social_salud_deporte": 2,
       "administracion_interna": 4,
-      "comercio_alcoholes": 12,
+      "comercio_alcoholes": 13,
       "derechos_tarifas": 15,
-      "mascotas_animales": 1,
       "seguridad_convivencia": 1,
       "aseo_medioambiente": 2,
-      "tenencia_mascotas": 1,
-      "alcoholes_comercio": 1
+      "tenencia_mascotas": 2
     }
   },
   {
@@ -179,12 +177,12 @@
       "aseo_medioambiente": 4,
       "social_salud_deporte": 2,
       "seguridad_convivencia": 1,
-      "mascotas_animales": 1,
       "urbanismo_obras": 5,
       "comercio_alcoholes": 11,
       "general": 17,
       "derechos_tarifas": 9,
-      "transito_transporte": 1
+      "transito_transporte": 1,
+      "tenencia_mascotas": 1
     }
   },
   {
@@ -242,10 +240,10 @@
       "comercio_alcoholes": 4,
       "transito_transporte": 2,
       "administracion_interna": 1,
-      "mascotas_animales": 1,
       "derechos_tarifas": 15,
       "urbanismo_obras": 4,
-      "general": 14
+      "general": 14,
+      "tenencia_mascotas": 1
     }
   },
   {
@@ -261,7 +259,7 @@
       "derechos_tarifas": 2,
       "general": 9,
       "aseo_medioambiente": 1,
-      "alcoholes_comercio": 1
+      "comercio_alcoholes": 1
     }
   },
   {
@@ -275,12 +273,12 @@
     "lon": -68.1997,
     "topics": {
       "derechos_tarifas": 16,
-      "mascotas_animales": 1,
       "comercio_alcoholes": 8,
       "transito_transporte": 3,
       "aseo_medioambiente": 1,
       "general": 7,
-      "social_salud_deporte": 1
+      "social_salud_deporte": 1,
+      "tenencia_mascotas": 1
     }
   },
   {
@@ -313,7 +311,7 @@
       "aseo_medioambiente": 1,
       "derechos_tarifas": 1,
       "general": 4,
-      "alcoholes_comercio": 1
+      "comercio_alcoholes": 1
     }
   },
   {
@@ -539,7 +537,7 @@
     "topics": {
       "transito_transporte": 1,
       "general": 2,
-      "alcoholes_comercio": 1
+      "comercio_alcoholes": 1
     }
   },
   {
@@ -667,8 +665,8 @@
     "topics": {
       "urbanismo_obras": 1,
       "transito_transporte": 1,
-      "alcoholes_comercio": 1,
-      "general": 1
+      "general": 1,
+      "comercio_alcoholes": 1
     }
   },
   {
@@ -699,7 +697,7 @@
       "urbanismo_obras": 1,
       "aseo_medioambiente": 2,
       "tenencia_mascotas": 1,
-      "alcoholes_comercio": 1
+      "comercio_alcoholes": 1
     }
   },
   {
@@ -756,9 +754,9 @@
       "urbanismo_obras": 4,
       "derechos_tarifas": 6,
       "aseo_medioambiente": 2,
-      "alcoholes_comercio": 6,
       "general": 1,
-      "tenencia_mascotas": 1
+      "tenencia_mascotas": 1,
+      "comercio_alcoholes": 6
     }
   },
   {
@@ -854,11 +852,11 @@
     "topics": {
       "general": 11,
       "aseo_medioambiente": 1,
-      "alcoholes_comercio": 2,
       "transito_transporte": 3,
       "seguridad_convivencia": 1,
       "tenencia_mascotas": 1,
-      "derechos_tarifas": 4
+      "derechos_tarifas": 4,
+      "comercio_alcoholes": 2
     }
   },
   {
@@ -915,11 +913,11 @@
       "urbanismo_obras": 3,
       "social_salud_deporte": 1,
       "general": 9,
-      "mascotas_animales": 1,
       "derechos_tarifas": 4,
       "comercio_alcoholes": 2,
       "aseo_medioambiente": 3,
-      "transito_transporte": 1
+      "transito_transporte": 1,
+      "tenencia_mascotas": 1
     }
   },
   {
@@ -949,8 +947,8 @@
     "topics": {
       "derechos_tarifas": 4,
       "general": 7,
-      "alcoholes_comercio": 2,
-      "aseo_medioambiente": 1
+      "aseo_medioambiente": 1,
+      "comercio_alcoholes": 2
     }
   },
   {
@@ -966,8 +964,8 @@
       "general": 7,
       "derechos_tarifas": 3,
       "aseo_medioambiente": 1,
-      "alcoholes_comercio": 1,
-      "tenencia_mascotas": 1
+      "tenencia_mascotas": 1,
+      "comercio_alcoholes": 1
     }
   },
   {
@@ -1037,10 +1035,10 @@
     "lon": -71.6972,
     "topics": {
       "general": 8,
-      "alcoholes_comercio": 4,
       "tenencia_mascotas": 1,
       "aseo_medioambiente": 1,
-      "derechos_tarifas": 1
+      "derechos_tarifas": 1,
+      "comercio_alcoholes": 4
     }
   },
   {
@@ -1072,7 +1070,7 @@
       "transito_transporte": 1,
       "tenencia_mascotas": 1,
       "derechos_tarifas": 1,
-      "alcoholes_comercio": 1
+      "comercio_alcoholes": 1
     }
   },
   {
@@ -1191,7 +1189,7 @@
     "bcn": 0,
     "municipal": 4,
     "status": "Municipalidad verificada",
-    "lat": -33.0,
+    "lat": -33,
     "lon": -71.2667,
     "topics": {
       "transito_transporte": 1,
@@ -1378,13 +1376,13 @@
       "comercio_alcoholes": 18,
       "derechos_tarifas": 16,
       "aseo_medioambiente": 1,
-      "mascotas_animales": 1,
       "transito_transporte": 3,
       "administracion_interna": 3,
       "seguridad_convivencia": 2,
       "social_salud_deporte": 1,
       "general": 16,
-      "urbanismo_obras": 3
+      "urbanismo_obras": 3,
+      "tenencia_mascotas": 1
     }
   },
   {
@@ -1399,10 +1397,10 @@
     "topics": {
       "derechos_tarifas": 3,
       "tenencia_mascotas": 1,
-      "alcoholes_comercio": 4,
       "general": 11,
       "urbanismo_obras": 1,
-      "aseo_medioambiente": 1
+      "aseo_medioambiente": 1,
+      "comercio_alcoholes": 4
     }
   },
   {
@@ -1418,7 +1416,7 @@
       "general": 10,
       "derechos_tarifas": 2,
       "administracion_interna": 1,
-      "mascotas_animales": 1
+      "tenencia_mascotas": 1
     }
   },
   {
@@ -1517,12 +1515,12 @@
     "topics": {
       "transito_transporte": 3,
       "derechos_tarifas": 15,
-      "alcoholes_comercio": 6,
       "social_salud_deporte": 4,
       "urbanismo_obras": 3,
       "aseo_medioambiente": 3,
       "general": 7,
-      "seguridad_convivencia": 1
+      "seguridad_convivencia": 1,
+      "comercio_alcoholes": 6
     }
   },
   {
@@ -1537,12 +1535,12 @@
     "topics": {
       "social_salud_deporte": 1,
       "administracion_interna": 1,
-      "mascotas_animales": 1,
       "general": 3,
       "transito_transporte": 3,
       "comercio_alcoholes": 4,
       "derechos_tarifas": 3,
-      "aseo_medioambiente": 1
+      "aseo_medioambiente": 1,
+      "tenencia_mascotas": 1
     }
   },
   {
@@ -1833,13 +1831,12 @@
     "lat": -33.6,
     "lon": -70.7,
     "topics": {
-      "mascotas_animales": 1,
       "general": 7,
       "derechos_tarifas": 8,
-      "comercio_alcoholes": 1,
+      "comercio_alcoholes": 7,
       "transito_transporte": 2,
       "aseo_medioambiente": 2,
-      "alcoholes_comercio": 6
+      "tenencia_mascotas": 1
     }
   },
   {
@@ -1856,8 +1853,8 @@
       "general": 38,
       "urbanismo_obras": 1,
       "tenencia_mascotas": 1,
-      "alcoholes_comercio": 4,
-      "aseo_medioambiente": 5
+      "aseo_medioambiente": 5,
+      "comercio_alcoholes": 4
     }
   },
   {
@@ -1913,7 +1910,7 @@
     "topics": {
       "general": 1,
       "aseo_medioambiente": 1,
-      "alcoholes_comercio": 1
+      "comercio_alcoholes": 1
     }
   },
   {
@@ -1931,7 +1928,7 @@
       "aseo_medioambiente": 1,
       "urbanismo_obras": 1,
       "seguridad_convivencia": 1,
-      "alcoholes_comercio": 2
+      "comercio_alcoholes": 2
     }
   },
   {
@@ -1961,13 +1958,13 @@
     "lon": -71.4667,
     "topics": {
       "derechos_tarifas": 15,
-      "mascotas_animales": 2,
       "comercio_alcoholes": 8,
       "transito_transporte": 3,
       "aseo_medioambiente": 1,
       "general": 7,
       "seguridad_convivencia": 1,
-      "social_salud_deporte": 1
+      "social_salud_deporte": 1,
+      "tenencia_mascotas": 2
     }
   },
   {
@@ -2285,7 +2282,7 @@
     "municipal": 1,
     "status": "BCN + Municipalidad verificada",
     "lat": -34.3833,
-    "lon": -72.0,
+    "lon": -72,
     "topics": {
       "urbanismo_obras": 2,
       "derechos_tarifas": 2,
@@ -2304,10 +2301,10 @@
     "lon": -71.65,
     "topics": {
       "derechos_tarifas": 4,
-      "alcoholes_comercio": 1,
       "general": 2,
       "tenencia_mascotas": 1,
-      "aseo_medioambiente": 1
+      "aseo_medioambiente": 1,
+      "comercio_alcoholes": 1
     }
   },
   {
@@ -2348,8 +2345,7 @@
     "lon": -71.8333,
     "topics": {
       "derechos_tarifas": 9,
-      "comercio_alcoholes": 1,
-      "alcoholes_comercio": 2,
+      "comercio_alcoholes": 3,
       "urbanismo_obras": 1,
       "tenencia_mascotas": 1,
       "aseo_medioambiente": 2,
@@ -2412,9 +2408,9 @@
     "topics": {
       "general": 12,
       "derechos_tarifas": 7,
-      "alcoholes_comercio": 3,
       "tenencia_mascotas": 1,
-      "aseo_medioambiente": 1
+      "aseo_medioambiente": 1,
+      "comercio_alcoholes": 3
     }
   },
   {
@@ -2569,7 +2565,7 @@
       "general": 6,
       "aseo_medioambiente": 1,
       "tenencia_mascotas": 1,
-      "alcoholes_comercio": 1
+      "comercio_alcoholes": 1
     }
   },
   {
@@ -2638,8 +2634,8 @@
       "general": 5,
       "derechos_tarifas": 5,
       "urbanismo_obras": 1,
-      "alcoholes_comercio": 1,
-      "aseo_medioambiente": 1
+      "aseo_medioambiente": 1,
+      "comercio_alcoholes": 1
     }
   },
   {
@@ -2730,7 +2726,7 @@
     "municipal": 0,
     "status": "Cargado BCN",
     "lat": -34.9833,
-    "lon": -72.0,
+    "lon": -72,
     "topics": {
       "comercio_alcoholes": 1
     }
@@ -2787,7 +2783,7 @@
     "bcn": 0,
     "municipal": 1,
     "status": "Municipalidad verificada",
-    "lat": -35.0,
+    "lat": -35,
     "lon": -71.3833,
     "topics": {
       "derechos_tarifas": 1
@@ -2814,7 +2810,7 @@
     "municipal": 1,
     "status": "Municipalidad verificada",
     "lat": -34.8833,
-    "lon": -72.0,
+    "lon": -72,
     "topics": {
       "aseo_medioambiente": 1
     }
@@ -2829,9 +2825,9 @@
     "lat": -35.85,
     "lon": -71.6,
     "topics": {
-      "alcoholes_comercio": 1,
       "general": 6,
-      "derechos_tarifas": 1
+      "derechos_tarifas": 1,
+      "comercio_alcoholes": 1
     }
   },
   {
@@ -2889,8 +2885,8 @@
       "tenencia_mascotas": 1,
       "aseo_medioambiente": 2,
       "general": 2,
-      "alcoholes_comercio": 1,
-      "derechos_tarifas": 2
+      "derechos_tarifas": 2,
+      "comercio_alcoholes": 1
     }
   },
   {
@@ -3265,7 +3261,7 @@
     "lat": -36.9167,
     "lon": -73.0167,
     "topics": {
-      "alcoholes_comercio": 1
+      "comercio_alcoholes": 1
     }
   },
   {
@@ -3278,17 +3274,16 @@
     "lat": -36.8167,
     "lon": -72.7,
     "topics": {
-      "comercio_alcoholes": 18,
+      "comercio_alcoholes": 20,
       "derechos_tarifas": 16,
       "aseo_medioambiente": 1,
-      "mascotas_animales": 1,
       "transito_transporte": 3,
       "administracion_interna": 3,
       "seguridad_convivencia": 2,
       "social_salud_deporte": 1,
       "general": 2,
       "urbanismo_obras": 3,
-      "alcoholes_comercio": 2
+      "tenencia_mascotas": 1
     }
   },
   {
@@ -3317,9 +3312,9 @@
       "urbanismo_obras": 2,
       "social_salud_deporte": 1,
       "general": 1,
-      "mascotas_animales": 1,
       "derechos_tarifas": 2,
-      "comercio_alcoholes": 2
+      "comercio_alcoholes": 2,
+      "tenencia_mascotas": 1
     }
   },
   {
@@ -3346,7 +3341,7 @@
     "lon": -73.1,
     "topics": {
       "seguridad_convivencia": 1,
-      "mascotas_animales": 1
+      "tenencia_mascotas": 1
     }
   },
   {
@@ -3705,15 +3700,14 @@
     "lat": -38.7397,
     "lon": -72.5986,
     "topics": {
-      "comercio_alcoholes": 1,
+      "comercio_alcoholes": 2,
       "general": 85,
       "transito_transporte": 2,
       "administracion_interna": 1,
       "derechos_tarifas": 8,
       "aseo_medioambiente": 1,
       "urbanismo_obras": 2,
-      "seguridad_convivencia": 1,
-      "alcoholes_comercio": 1
+      "seguridad_convivencia": 1
     }
   },
   {
@@ -3758,9 +3752,9 @@
       "general": 17,
       "aseo_medioambiente": 2,
       "derechos_tarifas": 1,
-      "alcoholes_comercio": 2,
       "transito_transporte": 1,
-      "tenencia_mascotas": 1
+      "tenencia_mascotas": 1,
+      "comercio_alcoholes": 2
     }
   },
   {
@@ -3886,9 +3880,9 @@
     "lon": -72.3833,
     "topics": {
       "derechos_tarifas": 2,
-      "alcoholes_comercio": 2,
       "general": 16,
-      "tenencia_mascotas": 1
+      "tenencia_mascotas": 1,
+      "comercio_alcoholes": 2
     }
   },
   {
@@ -4013,7 +4007,7 @@
     "lat": -37.8,
     "lon": -72.7167,
     "topics": {
-      "alcoholes_comercio": 1
+      "comercio_alcoholes": 1
     }
   },
   {
@@ -4137,11 +4131,11 @@
     "lat": -38.25,
     "lon": -72.6833,
     "topics": {
-      "mascotas_animales": 1,
       "general": 9,
       "derechos_tarifas": 11,
       "transito_transporte": 1,
-      "social_salud_deporte": 1
+      "social_salud_deporte": 1,
+      "tenencia_mascotas": 1
     }
   },
   {
@@ -4198,7 +4192,7 @@
     "lon": -72.7833,
     "topics": {
       "general": 1,
-      "alcoholes_comercio": 1
+      "comercio_alcoholes": 1
     }
   },
   {
@@ -4254,12 +4248,12 @@
     "topics": {
       "urbanismo_obras": 2,
       "derechos_tarifas": 2,
-      "alcoholes_comercio": 3,
       "aseo_medioambiente": 3,
       "tenencia_mascotas": 1,
       "seguridad_convivencia": 1,
       "general": 3,
-      "transito_transporte": 1
+      "transito_transporte": 1,
+      "comercio_alcoholes": 3
     }
   },
   {
@@ -4365,12 +4359,11 @@
     "lon": -73.1333,
     "topics": {
       "general": 56,
-      "comercio_alcoholes": 1,
+      "comercio_alcoholes": 2,
       "administracion_interna": 1,
       "derechos_tarifas": 3,
       "transito_transporte": 1,
-      "aseo_medioambiente": 4,
-      "alcoholes_comercio": 1
+      "aseo_medioambiente": 4
     }
   },
   {
@@ -4436,7 +4429,7 @@
     "municipal": 2,
     "status": "Municipalidad verificada",
     "lat": -41.25,
-    "lon": -73.0,
+    "lon": -73,
     "topics": {
       "derechos_tarifas": 1,
       "aseo_medioambiente": 1
@@ -4454,7 +4447,7 @@
     "topics": {
       "urbanismo_obras": 1,
       "general": 6,
-      "alcoholes_comercio": 1
+      "comercio_alcoholes": 1
     }
   },
   {
@@ -4496,7 +4489,7 @@
     "lat": -41.8667,
     "lon": -73.8333,
     "topics": {
-      "mascotas_animales": 1
+      "tenencia_mascotas": 1
     }
   },
   {
@@ -4511,9 +4504,9 @@
     "topics": {
       "aseo_medioambiente": 1,
       "general": 10,
-      "alcoholes_comercio": 2,
       "derechos_tarifas": 1,
-      "tenencia_mascotas": 1
+      "tenencia_mascotas": 1,
+      "comercio_alcoholes": 2
     }
   },
   {
@@ -4541,8 +4534,8 @@
     "topics": {
       "derechos_tarifas": 3,
       "general": 33,
-      "alcoholes_comercio": 6,
-      "aseo_medioambiente": 2
+      "aseo_medioambiente": 2,
+      "comercio_alcoholes": 6
     }
   },
   {
@@ -4631,10 +4624,10 @@
       "aseo_medioambiente": 1,
       "general": 6,
       "derechos_tarifas": 18,
-      "mascotas_animales": 1,
       "comercio_alcoholes": 7,
       "transito_transporte": 3,
-      "urbanismo_obras": 1
+      "urbanismo_obras": 1,
+      "tenencia_mascotas": 1
     }
   },
   {
@@ -4745,7 +4738,7 @@
     "topics": {
       "transito_transporte": 1,
       "general": 1,
-      "alcoholes_comercio": 1
+      "comercio_alcoholes": 1
     }
   },
   {
@@ -4758,11 +4751,10 @@
     "lat": -41.9833,
     "lon": -72.6833,
     "topics": {
-      "comercio_alcoholes": 2,
+      "comercio_alcoholes": 3,
       "transito_transporte": 1,
       "general": 2,
-      "aseo_medioambiente": 1,
-      "alcoholes_comercio": 1
+      "aseo_medioambiente": 1
     }
   },
   {
@@ -4823,7 +4815,7 @@
       "urbanismo_obras": 1,
       "derechos_tarifas": 3,
       "general": 13,
-      "alcoholes_comercio": 1
+      "comercio_alcoholes": 1
     }
   },
   {
@@ -4916,7 +4908,7 @@
     "lon": -71.95,
     "topics": {
       "derechos_tarifas": 1,
-      "alcoholes_comercio": 1
+      "comercio_alcoholes": 1
     }
   },
   {

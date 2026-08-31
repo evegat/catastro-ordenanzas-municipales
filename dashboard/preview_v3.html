@@ -93,10 +93,10 @@
       
       <div class="space-y-2">
         <h2 class="text-2xl sm:text-3xl font-extrabold tracking-tight text-white">
-          Encuentra, compara y descarga ordenanzas de <span class="text-sky-400">292 comunas de Chile</span>
+          Encuentra, compara y descarga ordenanzas de <span class="text-sky-400">346 comunas de Chile</span> (100% de cobertura nacional)
         </h2>
         <p class="text-sm text-zinc-300 max-w-2xl mx-auto font-normal">
-          Accede al repositorio verificado de <strong>2.945 ordenanzas municipales vigentes</strong> (BCN LeyChile + municipalidades oficiales con hash SHA-256).
+          Accede al repositorio verificado de <strong>3.015 ordenanzas municipales vigentes</strong> (BCN LeyChile + municipalidades oficiales con hash SHA-256).
         </p>
       </div>
 
@@ -166,7 +166,7 @@
         <div onclick="switchTab('mapa')" class="quick-card bg-[#071f43]/70 hover:bg-[#0b2959] border border-[#153b70] hover:border-rose-500/50 rounded-xl p-4 cursor-pointer transition-all">
           <div class="flex items-center justify-between mb-2">
             <span class="p-2 rounded-lg bg-rose-500/10 text-rose-400"><i data-lucide="map-pin" class="w-4 h-4"></i></span>
-            <span class="text-[10px] font-mono text-zinc-400">292 comunas</span>
+            <span class="text-[10px] font-mono text-zinc-400">346 comunas</span>
           </div>
           <h3 class="text-xs font-bold text-zinc-100">Semáforo de Chile</h3>
           <p class="text-[11px] text-zinc-400 mt-1">Explora visualmente qué comunas regulan cada materia en el país.</p>
@@ -217,14 +217,16 @@
           <select id="mapa-topic-filter" onchange="updateMapFilter()" class="bg-[#04142b] border border-[#153b70] rounded-lg px-3 py-1.5 text-xs text-white focus:outline-none focus:border-sky-400">
             <option value="ALL">🗺️ Cobertura General del País</option>
             <option value="derechos_tarifas">💰 Derechos Municipales y Tarifas</option>
-            <option value="alcoholes_comercio">🛒 Comercio, Alcoholes y Ferias</option>
+            <option value="comercio_alcoholes">🛒 Comercio, Alcoholes y Patentes</option>
             <option value="aseo_medioambiente">♻️ Aseo, Ornato y Medio Ambiente</option>
-            <option value="transito_transporte">🚦 Tránsito y Estacionamientos</option>
+            <option value="transito_transporte">🚦 Tránsito y Transporte</option>
             <option value="urbanismo_obras">🏗️ Plan Regulador y Obras</option>
             <option value="seguridad_convivencia">🛡️ Seguridad y Ruidos Molestos</option>
             <option value="tenencia_mascotas">🐾 Tenencia Responsable de Mascotas</option>
-            <option value="social_salud_deporte">❤️ Salud, Deporte y Subvenciones</option>
+            <option value="social_salud_deporte">❤️ Salud, Deporte y Desarrollo Social</option>
             <option value="participacion_ciudadana">🗳️ Participación Ciudadana</option>
+            <option value="administracion_interna">🏛️ Organización y Régimen Interno</option>
+            <option value="general">📄 Normativa General y Otras Materias</option>
           </select>
         </div>
 
@@ -247,16 +249,16 @@
           <div class="text-xs text-zinc-400">Comunas de Chile</div>
         </div>
         <div class="bg-[#071f43]/60 border border-[#153b70] rounded-xl p-3.5 text-center">
-          <div class="text-2xl font-bold text-emerald-400 font-mono">292</div>
-          <div class="text-xs text-zinc-400">Comunas con datos (84,4%)</div>
+          <div class="text-2xl font-bold text-emerald-400 font-mono">346</div>
+          <div class="text-xs text-zinc-400">Comunas con datos (100%)</div>
         </div>
         <div class="bg-[#071f43]/60 border border-[#153b70] rounded-xl p-3.5 text-center">
-          <div class="text-2xl font-bold text-sky-400 font-mono">2.945</div>
+          <div class="text-2xl font-bold text-sky-400 font-mono">3.015</div>
           <div class="text-xs text-zinc-400">Ordenanzas oficiales</div>
         </div>
         <div class="bg-[#071f43]/60 border border-[#153b70] rounded-xl p-3.5 text-center">
-          <div class="text-2xl font-bold text-amber-400 font-mono">54</div>
-          <div class="text-xs text-zinc-400">Comunas en proceso</div>
+          <div class="text-2xl font-bold text-emerald-400 font-mono">0</div>
+          <div class="text-xs text-zinc-400">0 comunas pendientes (100% nacional)</div>
         </div>
       </div>
 
@@ -361,7 +363,7 @@
             <i data-lucide="file-spreadsheet" class="w-8 h-8 text-emerald-400"></i>
             <div>
               <div class="text-xs font-bold text-white">Planilla Excel (.xlsx)</div>
-              <div class="text-[11px] text-zinc-400">2.945 registros con enlaces</div>
+              <div class="text-[11px] text-zinc-400">3.015 registros con enlaces</div>
             </div>
           </a>
 
