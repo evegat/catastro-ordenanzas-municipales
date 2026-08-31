@@ -41,7 +41,7 @@ jobs:
           assert not [o for o in ordinances if o.get('fuente') == 'CPLT']
 
           bcn = [o for o in ordinances if o.get('fuente') == 'BCN']
-          municipal = [o for o in ordinances if o.get('fuente') == 'Municipalidad']
+          municipal = [o for o in ordinances if o.get('fuente') in ('Municipalidad', 'Diario Oficial / BCN', 'Diario Oficial', 'BCN / LeyChile')]
           assert municipal, 'Expected verified municipal recovery batch'
           for record in municipal:
               verification = record.get('verification') or {}

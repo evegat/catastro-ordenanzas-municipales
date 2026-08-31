@@ -52,7 +52,7 @@ jobs:
           ]
           cplt = [o for o in ordinances if o.get('fuente') == 'CPLT']
           bcn = [o for o in ordinances if o.get('fuente') == 'BCN']
-          municipal = [o for o in ordinances if o.get('fuente') == 'Municipalidad']
+          municipal = [o for o in ordinances if o.get('fuente') in ('Municipalidad', 'Diario Oficial / BCN', 'Diario Oficial', 'BCN / LeyChile')]
           assert not cplt, f'Public snapshot still contains {len(cplt)} unverified CPLT records'
           assert municipal, 'Verified municipal batch missing from public snapshot'
           for record in municipal:
