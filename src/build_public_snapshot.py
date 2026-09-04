@@ -111,6 +111,8 @@ def recalculate_metrics(public: dict, quarantined: int) -> None:
 
     for comuna in public.get("comunas", []):
         ordinances = comuna.get("ordenanzas", []) or []
+        ordinances.sort(key=lambda o: str(o.get("fecha") or ""), reverse=True)
+        comuna["ordenanzas"] = ordinances
         bcn_count = sum(1 for o in ordinances if o.get("fuente") == "BCN")
         municipal_count = sum(1 for o in ordinances if o.get("fuente") in (MUNICIPAL_SOURCE, "Diario Oficial / BCN", "Diario Oficial", "BCN / LeyChile"))
         total_bcn += bcn_count

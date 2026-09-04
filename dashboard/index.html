@@ -129,6 +129,47 @@
         </div>
       </div>
 
+      <!-- LIVE SEARCH RESULTS PANEL (Resultados inmediatos en primer plano) -->
+      <div id="hero-search-results" class="hidden text-left bg-[#071f43]/95 border-2 border-sky-500/60 rounded-2xl p-5 shadow-2xl space-y-4 max-w-4xl mx-auto backdrop-blur-md transition-all">
+        <div class="flex items-center justify-between border-b border-[#153b70] pb-3">
+          <div class="flex items-center gap-2">
+            <span class="p-1.5 rounded-lg bg-sky-500/20 text-sky-400"><i data-lucide="search" class="w-4 h-4"></i></span>
+            <span id="search-results-summary" class="text-sm font-bold text-white">Resultados de búsqueda</span>
+          </div>
+          <button onclick="clearHeroSearch()" class="text-xs text-zinc-400 hover:text-white px-2.5 py-1 rounded-lg bg-[#153b70]/60 hover:bg-[#1f5091] flex items-center gap-1 transition-colors">
+            <i data-lucide="x" class="w-3.5 h-3.5"></i>
+            <span>Cerrar</span>
+          </button>
+        </div>
+
+        <!-- Comunas encontradas -->
+        <div id="search-results-comunas-wrap" class="hidden space-y-1.5">
+          <span class="text-[11px] font-mono text-zinc-400 uppercase tracking-wider">Comunas relacionadas:</span>
+          <div id="search-results-comunas" class="flex flex-wrap gap-2"></div>
+        </div>
+
+        <!-- Ordenanzas encontradas -->
+        <div class="space-y-2">
+          <div class="flex items-center justify-between text-xs text-zinc-400">
+            <span class="font-mono uppercase text-[10px] tracking-wider">Ordenanzas encontradas (más recientes primero):</span>
+            <span id="search-results-counter" class="font-mono text-[11px] text-sky-400 font-semibold"></span>
+          </div>
+          <div id="search-results-list" class="max-h-[380px] overflow-y-auto space-y-2 pr-1"></div>
+        </div>
+
+        <!-- Alerta de buzón colaborativo si faltan resultados -->
+        <div class="pt-2 border-t border-[#153b70]/80 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-zinc-400 bg-[#04142b]/60 p-3 rounded-xl">
+          <span class="flex items-center gap-1.5 text-zinc-300">
+            <i data-lucide="mail" class="w-4 h-4 text-emerald-400 shrink-0"></i>
+            <span>¿Buscas una ordenanza que no aparece en este catastro?</span>
+          </span>
+          <button onclick="openBuzonModal('')" class="px-3 py-1 rounded-lg bg-sky-600 hover:bg-sky-500 text-white font-semibold text-xs transition-colors shrink-0 flex items-center gap-1">
+            <span>Aportar al Buzón</span>
+            <i data-lucide="send" class="w-3 h-3"></i>
+          </button>
+        </div>
+      </div>
+
       <!-- 4 QUICK INSIGHT CARDS (Orientadas al Administrador Público) -->
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3.5 pt-4 text-left max-w-5xl mx-auto">
         
@@ -493,13 +534,31 @@
       lucide.createIcons();
     }
 
+    // MATERIAS CLAVE PARA ANÁLISIS DE BRECHAS
+    const MATERIAS_CLAVE = [
+      'Derechos Municipales y Tarifas',
+      'Comercio, Alcoholes y Patentes',
+      'Aseo, Ornato y Medio Ambiente',
+      'Tránsito y Transporte',
+      'Urbanismo, Obras y Edificación',
+      'Seguridad y Convivencia',
+      'Tenencia Responsable de Mascotas',
+      'Salud, Deporte y Desarrollo Social',
+      'Participación Ciudadana'
+    ];
+
+    function normalizeText(text) {
+      return (text || '')
+        .toLowerCase()
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .trim();
+    }
+
     function quickSearch(term) {
-      switchTab('matriz');
-      const inp = document.getElementById('matriz-search-input');
-      if (inp) {
-        inp.value = term;
-        filterMatrizTable();
-      }
+      const heroInp = document.getElementById('hero-search-input');
+      if (heroInp) heroInp.value = term;
+      executeHeroSearch();
     }
 
     function filterByTopic(topicId) {
@@ -518,12 +577,123 @@
       if (e.key === 'Enter') executeHeroSearch();
     }
 
+    // BUSCADOR EN PRIMER PLANO (Resultados directos e inmediatos)
     function executeHeroSearch() {
-      const val = document.getElementById('hero-search-input').value.trim();
-      if (!val) return;
-      quickSearch(val);
+      const rawVal = (document.getElementById('hero-search-input').value || '').trim();
+      const term = normalizeText(rawVal);
+      const resultsPanel = document.getElementById('hero-search-results');
+      if (!term) {
+        if (resultsPanel) resultsPanel.classList.add('hidden');
+        return;
+      }
+      if (!globalStatusData || !globalStatusData.comunas) return;
+
+      const comunasCoincidentes = [];
+      const ordenanzasCoincidentes = [];
+
+      globalStatusData.comunas.forEach(c => {
+        const normComuna = normalizeText(c.comuna);
+        const normRegion = normalizeText(c.region_nombre);
+        const comunaCoincide = normComuna.includes(term) || normRegion.includes(term);
+
+        if (comunaCoincide) {
+          comunasCoincidentes.push(c);
+        }
+
+        if (c.ordenanzas && Array.isArray(c.ordenanzas)) {
+          c.ordenanzas.forEach(o => {
+            const normTitulo = normalizeText(o.titulo);
+            const normMateria = normalizeText(o.materia);
+            const normNumero = normalizeText(o.numero);
+
+            if (comunaCoincide || normTitulo.includes(term) || normMateria.includes(term) || normNumero.includes(term)) {
+              ordenanzasCoincidentes.push({
+                ...o,
+                comuna: c.comuna,
+                region_nombre: c.region_nombre
+              });
+            }
+          });
+        }
+      });
+
+      // Ordenar ordenanzas encontradas: más recientes primero
+      ordenanzasCoincidentes.sort((a, b) => (b.fecha || '').localeCompare(a.fecha || ''));
+
+      // Renderizar panel de resultados
+      const summaryEl = document.getElementById('search-results-summary');
+      const counterEl = document.getElementById('search-results-counter');
+      const comunasWrap = document.getElementById('search-results-comunas-wrap');
+      const comunasList = document.getElementById('search-results-comunas');
+      const ordenanzasList = document.getElementById('search-results-list');
+
+      summaryEl.textContent = `Resultados para "${rawVal}"`;
+      counterEl.textContent = `${ordenanzasCoincidentes.length} ordenanzas en ${comunasCoincidentes.length > 0 ? comunasCoincidentes.length : 'varias'} comunas`;
+
+      // Comunas chips
+      if (comunasCoincidentes.length > 0) {
+        comunasWrap.classList.remove('hidden');
+        comunasList.innerHTML = '';
+        comunasCoincidentes.slice(0, 12).forEach(c => {
+          const chip = document.createElement('button');
+          chip.onclick = () => showComunaModal(c.comuna);
+          chip.className = 'px-2.5 py-1 rounded-lg bg-[#153b70] hover:bg-sky-600 text-sky-200 hover:text-white text-xs font-medium transition-colors flex items-center gap-1.5 border border-[#1f5091]';
+          chip.innerHTML = `🏛️ <span>${c.comuna}</span> <span class="text-[10px] font-mono bg-[#04142b]/60 px-1.5 py-0.2 rounded text-zinc-300">${c.total_count || 0}</span>`;
+          comunasList.appendChild(chip);
+        });
+      } else {
+        comunasWrap.classList.add('hidden');
+      }
+
+      // Ordenanzas lista
+      ordenanzasList.innerHTML = '';
+      if (ordenanzasCoincidentes.length === 0) {
+        ordenanzasList.innerHTML = `
+          <div class="p-6 text-center text-zinc-400 bg-[#04142b]/60 rounded-xl border border-[#153b70]/60 space-y-2">
+            <p class="text-xs">No se encontraron ordenanzas que coincidan exactamente con "<strong>${rawVal}</strong>".</p>
+            <p class="text-[11px] text-zinc-500">Prueba con palabras clave como <em>ruidos, derechos, aseo, comercio</em> o el nombre de una comuna.</p>
+          </div>
+        `;
+      } else {
+        ordenanzasCoincidentes.slice(0, 50).forEach(o => {
+          const anio = (o.fecha || '').substring(0, 4) || 'S/F';
+          const item = document.createElement('div');
+          item.className = 'p-3 rounded-xl bg-[#04142b]/90 border border-[#153b70] hover:border-sky-500/50 transition-all space-y-1.5';
+          item.innerHTML = `
+            <div class="flex flex-wrap items-center justify-between gap-2">
+              <div class="flex items-center gap-2">
+                <span class="px-2 py-0.5 rounded text-[10px] font-mono font-bold bg-sky-500/20 text-sky-300 border border-sky-500/40">${anio}</span>
+                <span class="px-2 py-0.5 rounded text-[10px] font-mono bg-zinc-800 text-zinc-300">${o.materia || 'General'}</span>
+              </div>
+              <button onclick="showComunaModal('${o.comuna}')" class="text-[11px] text-sky-400 hover:text-sky-300 font-medium flex items-center gap-1">
+                🏛️ ${o.comuna} (${o.region_nombre || ''}) ↗
+              </button>
+            </div>
+            <h4 class="text-xs font-bold text-white leading-snug">${o.titulo || 'Ordenanza Municipal'}</h4>
+            <div class="flex items-center justify-between pt-1 text-[11px] font-mono">
+              <span class="text-zinc-400">Fuente: <strong class="text-zinc-300">${o.fuente || 'Municipal'}</strong> ${o.numero ? '• N° ' + o.numero : ''}</span>
+              ${o.target_url ? `<a href="${o.target_url}" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 font-semibold flex items-center gap-1">Descargar PDF ↗</a>` : ''}
+            </div>
+          `;
+          ordenanzasList.appendChild(item);
+        });
+      }
+
+      resultsPanel.classList.remove('hidden');
+      lucide.createIcons();
+
+      // Scroll suave hacia los resultados para mantener al usuario orientado
+      resultsPanel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     }
 
+    function clearHeroSearch() {
+      const resultsPanel = document.getElementById('hero-search-results');
+      const heroInp = document.getElementById('hero-search-input');
+      if (resultsPanel) resultsPanel.classList.add('hidden');
+      if (heroInp) heroInp.value = '';
+    }
+
+    // RENDERIZADO DE MATRIZ CON SEMÁFORO DE DENSIDAD
     function renderMatriz(comunas) {
       const tbody = document.getElementById('comunas-table-body');
       if (!tbody) return;
@@ -533,9 +703,17 @@
         const total = c.total_count || 0;
         const bcn = c.bcn_count || 0;
         const muni = c.municipal_count || 0;
-        const statusBadge = total > 0 
-          ? '<span class="px-2 py-0.5 rounded-full text-[10px] font-mono bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">Con registros</span>'
-          : '<span class="px-2 py-0.5 rounded-full text-[10px] font-mono bg-zinc-800/80 text-zinc-400 border border-zinc-700">Sin datos</span>';
+
+        let statusBadge = '';
+        if (total >= 10) {
+          statusBadge = '<span class="px-2 py-0.5 rounded-full text-[10px] font-mono bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">🟢 Alta (' + total + ')</span>';
+        } else if (total >= 4) {
+          statusBadge = '<span class="px-2 py-0.5 rounded-full text-[10px] font-mono bg-amber-500/10 text-amber-400 border border-amber-500/30">🟡 Media (' + total + ')</span>';
+        } else if (total >= 1) {
+          statusBadge = '<span class="px-2 py-0.5 rounded-full text-[10px] font-mono bg-rose-500/10 text-rose-400 border border-rose-500/30">🔴 1–3 normas</span>';
+        } else {
+          statusBadge = '<span class="px-2 py-0.5 rounded-full text-[10px] font-mono bg-zinc-800 text-zinc-400 border border-zinc-700">Sin datos</span>';
+        }
 
         const tr = document.createElement('tr');
         tr.className = 'hover:bg-[#071f43]/80 transition-colors';
@@ -546,61 +724,259 @@
           <td class="px-4 py-3 text-center font-mono text-[11px] text-zinc-400">${bcn} BCN / ${muni} Muni</td>
           <td class="px-4 py-3 text-center">${statusBadge}</td>
           <td class="px-4 py-3 text-right">
-            ${total > 0 ? `<button onclick="showComunaModal('${c.comuna}')" class="px-2.5 py-1 rounded bg-sky-600/20 hover:bg-sky-600 text-sky-400 hover:text-white font-semibold transition-colors">Ver ${total} normas ↗</button>` : `<span class="text-zinc-500">—</span>`}
+            <button onclick="showComunaModal('${c.comuna}')" class="px-2.5 py-1 rounded bg-sky-600/20 hover:bg-sky-600 text-sky-400 hover:text-white font-semibold transition-colors">
+              ${total > 0 ? `Ver ${total} normas ↗` : `Aportar norma ↗`}
+            </button>
           </td>
         `;
         tbody.appendChild(tr);
       });
     }
 
+    // ESTADO ACTIVO DEL MODAL COMUNAL
+    let currentModalComuna = null;
+
     function showComunaModal(comunaName) {
       if (!globalStatusData) return;
       const c = globalStatusData.comunas.find(x => x.comuna === comunaName);
       if (!c) return;
 
+      currentModalComuna = c;
+
       document.getElementById('modal-comuna-title').textContent = c.comuna;
       document.getElementById('modal-comuna-subtitle').textContent = `${c.region_nombre || ''} • ${c.total_count} ordenanzas consolidadas (${c.bcn_count} BCN / ${c.municipal_count} Verificadas)`;
+
+      // Poblar selectores de Materia y Año para esta comuna específica
+      const materiaSelect = document.getElementById('modal-filter-materia');
+      const anioSelect = document.getElementById('modal-filter-anio');
+      const textInp = document.getElementById('modal-filter-text');
+      if (textInp) textInp.value = '';
+
+      // Materias en esta comuna con conteo
+      const materiasMap = {};
+      const aniosSet = new Set();
+
+      (c.ordenanzas || []).forEach(o => {
+        const mat = o.materia || 'Normativa General y Otras Materias';
+        materiasMap[mat] = (materiasMap[mat] || 0) + 1;
+        const anio = (o.fecha || '').substring(0, 4);
+        if (anio && anio.length === 4) aniosSet.add(anio);
+      });
+
+      if (materiaSelect) {
+        materiaSelect.innerHTML = '<option value="ALL">Todas las materias (' + (c.ordenanzas || []).length + ')</option>';
+        Object.entries(materiasMap).sort((a, b) => b[1] - a[1]).forEach(([mat, cnt]) => {
+          const opt = document.createElement('option');
+          opt.value = mat;
+          opt.textContent = `${mat} (${cnt})`;
+          materiaSelect.appendChild(opt);
+        });
+      }
+
+      if (anioSelect) {
+        anioSelect.innerHTML = '<option value="ALL">Todos los años</option>';
+        Array.from(aniosSet).sort((a, b) => b.localeCompare(a)).forEach(anio => {
+          const opt = document.createElement('option');
+          opt.value = anio;
+          opt.textContent = anio;
+          anioSelect.appendChild(opt);
+        });
+      }
+
+      applyModalFilters();
+      document.getElementById('comuna-modal').classList.remove('hidden');
+      lucide.createIcons();
+    }
+
+    function applyModalFilters() {
+      if (!currentModalComuna) return;
+
+      const selMateria = document.getElementById('modal-filter-materia').value;
+      const selAnio = document.getElementById('modal-filter-anio').value;
+      const textTerm = normalizeText(document.getElementById('modal-filter-text').value);
+
+      const allOrdenanzas = currentModalComuna.ordenanzas || [];
+
+      // Filtrar
+      const filtradas = allOrdenanzas.filter(o => {
+        const matchMateria = (selMateria === 'ALL' || o.materia === selMateria);
+        const anioO = (o.fecha || '').substring(0, 4);
+        const matchAnio = (selAnio === 'ALL' || anioO === selAnio);
+        const matchText = !textTerm || normalizeText(o.titulo).includes(textTerm) || normalizeText(o.numero).includes(textTerm);
+        return matchMateria && matchAnio && matchText;
+      });
+
+      // Ordenar: más recientes primero
+      filtradas.sort((a, b) => (b.fecha || '').localeCompare(a.fecha || ''));
+
+      // Contador
+      const counterEl = document.getElementById('modal-filter-counter');
+      if (counterEl) {
+        counterEl.textContent = `Mostrando ${filtradas.length} de ${allOrdenanzas.length}`;
+      }
 
       const list = document.getElementById('modal-ordenanzas-list');
       list.innerHTML = '';
 
-      if (!c.ordenanzas || c.ordenanzas.length === 0) {
-        list.innerHTML = '<p class="text-xs text-zinc-400 py-4 text-center">No hay ordenanzas registradas para esta comuna.</p>';
+      if (filtradas.length === 0) {
+        list.innerHTML = `
+          <div class="text-center py-6 text-zinc-400 bg-[#04142b]/60 rounded-xl border border-[#153b70] space-y-2">
+            <p class="text-xs">No hay ordenanzas que coincidan con estos filtros en ${currentModalComuna.comuna}.</p>
+            <button onclick="resetModalFilters()" class="text-xs text-sky-400 hover:underline">Restablecer filtros</button>
+          </div>
+        `;
       } else {
-        c.ordenanzas.forEach(o => {
+        filtradas.forEach(o => {
+          const anio = (o.fecha || '').substring(0, 4) || 'S/F';
           const item = document.createElement('div');
           item.className = 'p-3.5 rounded-xl bg-[#04142b] border border-[#153b70] hover:border-sky-500/50 transition-all space-y-1.5';
           item.innerHTML = `
             <div class="flex items-start justify-between gap-3">
-              <span class="px-2 py-0.5 rounded text-[10px] font-mono bg-sky-500/10 text-sky-400 border border-sky-500/30">${o.materia || 'General'}</span>
+              <div class="flex items-center gap-2">
+                <span class="px-2 py-0.5 rounded text-[10px] font-mono font-bold bg-sky-500/20 text-sky-300 border border-sky-500/40">${anio}</span>
+                <span class="px-2 py-0.5 rounded text-[10px] font-mono bg-sky-500/10 text-sky-400 border border-sky-500/30">${o.materia || 'General'}</span>
+              </div>
               <span class="text-[11px] font-mono text-zinc-400">${o.fecha || 'Sin fecha'}</span>
             </div>
             <h4 class="text-xs font-bold text-white leading-snug">${o.titulo || 'Ordenanza Municipal'}</h4>
             <div class="flex items-center justify-between pt-1 text-[11px] font-mono">
               <span class="text-zinc-400">Fuente: <strong class="text-zinc-300">${o.fuente || 'Municipalidad'}</strong> ${o.numero ? '• N° ' + o.numero : ''}</span>
-              ${o.target_url ? `<a href="${o.target_url}" target="_blank" rel="noopener noreferrer" class="text-sky-400 hover:text-sky-300 font-semibold flex items-center gap-1">Descargar PDF ↗</a>` : ''}
+              ${o.target_url ? `<a href="${o.target_url}" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 font-semibold flex items-center gap-1">Descargar PDF ↗</a>` : ''}
             </div>
           `;
           list.appendChild(item);
         });
       }
 
-      document.getElementById('comuna-modal').classList.remove('hidden');
+      // BANNER DE BRECHAS Y BUZÓN COLABORATIVO AL PIE DEL MODAL
+      const materiasRegistradas = new Set(allOrdenanzas.map(o => o.materia).filter(Boolean));
+      const materiasFaltantes = MATERIAS_CLAVE.filter(m => !materiasRegistradas.has(m));
+
+      const footerSection = document.createElement('div');
+      footerSection.className = 'mt-4 pt-4 border-t border-[#153b70] space-y-3';
+
+      let faltantesHTML = '';
+      if (materiasFaltantes.length > 0 && materiasFaltantes.length < MATERIAS_CLAVE.length) {
+        faltantesHTML = `
+          <div class="p-3 rounded-xl bg-amber-500/10 border border-amber-500/30 space-y-1.5">
+            <div class="flex items-center gap-1.5 text-xs font-bold text-amber-300">
+              <i data-lucide="info" class="w-3.5 h-3.5"></i>
+              <span>Materias no detectadas aún en el catálogo para ${currentModalComuna.comuna}:</span>
+            </div>
+            <div class="flex flex-wrap gap-1.5">
+              ${materiasFaltantes.slice(0, 5).map(m => `<span class="px-2 py-0.5 rounded text-[10px] font-mono bg-[#04142b] text-amber-200 border border-amber-500/20">${m}</span>`).join('')}
+              ${materiasFaltantes.length > 5 ? `<span class="text-[10px] text-zinc-400 self-center">+${materiasFaltantes.length - 5} más</span>` : ''}
+            </div>
+          </div>
+        `;
+      }
+
+      footerSection.innerHTML = `
+        ${faltantesHTML}
+        <div class="p-3.5 rounded-xl bg-[#04142b]/90 border border-[#153b70] flex flex-col sm:flex-row items-center justify-between gap-3">
+          <div class="text-left space-y-0.5">
+            <div class="text-xs font-bold text-white flex items-center gap-1.5">
+              <i data-lucide="send" class="w-3.5 h-3.5 text-sky-400"></i>
+              <span>¿Falta alguna ordenanza de ${currentModalComuna.comuna}?</span>
+            </div>
+            <p class="text-[11px] text-zinc-400">Si eres funcionario, concejal, académico o vecino y tienes el decreto o PDF, compártelo.</p>
+          </div>
+          <button onclick="openBuzonModal('${currentModalComuna.comuna}')" class="px-3.5 py-1.5 rounded-lg bg-sky-600 hover:bg-sky-500 text-white font-semibold text-xs transition-colors shrink-0 flex items-center gap-1.5">
+            <span>Aportar al Buzón</span>
+            <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+          </button>
+        </div>
+      `;
+      list.appendChild(footerSection);
+
       lucide.createIcons();
+    }
+
+    function resetModalFilters() {
+      const m = document.getElementById('modal-filter-materia');
+      const a = document.getElementById('modal-filter-anio');
+      const t = document.getElementById('modal-filter-text');
+      if (m) m.value = 'ALL';
+      if (a) a.value = 'ALL';
+      if (t) t.value = '';
+      applyModalFilters();
     }
 
     function closeComunaModal() {
       document.getElementById('comuna-modal').classList.add('hidden');
     }
 
+    // MODAL DEL BUZÓN COLABORATIVO
+    function openBuzonModal(comunaPrefill) {
+      const modal = document.getElementById('buzon-modal');
+      const inpComuna = document.getElementById('buzon-comuna-input');
+      const inpTitulo = document.getElementById('buzon-titulo-input');
+      const inpUrl = document.getElementById('buzon-url-input');
+      const inpRemitente = document.getElementById('buzon-remitente-input');
+
+      if (inpComuna) inpComuna.value = comunaPrefill || (currentModalComuna ? currentModalComuna.comuna : '');
+      if (inpTitulo) inpTitulo.value = '';
+      if (inpUrl) inpUrl.value = '';
+      if (inpRemitente) inpRemitente.value = '';
+
+      if (modal) modal.classList.remove('hidden');
+      lucide.createIcons();
+    }
+
+    function closeBuzonModal() {
+      const modal = document.getElementById('buzon-modal');
+      if (modal) modal.classList.add('hidden');
+    }
+
+    function submitBuzonEmail() {
+      const comuna = (document.getElementById('buzon-comuna-input').value || '').trim();
+      const titulo = (document.getElementById('buzon-titulo-input').value || '').trim();
+      const url = (document.getElementById('buzon-url-input').value || '').trim();
+      const remitente = (document.getElementById('buzon-remitente-input').value || '').trim();
+
+      if (!comuna || !titulo) {
+        alert('Por favor indica al menos la comuna y el nombre o materia de la ordenanza.');
+        return;
+      }
+
+      const subject = encodeURIComponent(`[Catastro P090] Aporte de Ordenanza: ${comuna} - ${titulo}`);
+      const body = encodeURIComponent(
+        `Estimado Eduardo Vega (Catastro Nacional de Ordenanzas):\n\n` +
+        `Envío información de una ordenanza municipal para incorporar al catastro:\n\n` +
+        `• Comuna: ${comuna}\n` +
+        `• Ordenanza / Materia: ${titulo}\n` +
+        `• Enlace oficial o decreto: ${url || 'No especificado'}\n` +
+        `• Aportado por: ${remitente || 'Colaborador del catálogo'}\n\n` +
+        `Enviado desde el visualizador público P090.`
+      );
+
+      window.location.href = `mailto:evegat@uchile.cl?subject=${subject}&body=${body}`;
+      closeBuzonModal();
+    }
+
+    function copyBuzonReport() {
+      const comuna = (document.getElementById('buzon-comuna-input').value || '').trim();
+      const titulo = (document.getElementById('buzon-titulo-input').value || '').trim();
+      const url = (document.getElementById('buzon-url-input').value || '').trim();
+      const remitente = (document.getElementById('buzon-remitente-input').value || '').trim();
+
+      const text = `[Aporte Ordenanza Catastro P090]\nComuna: ${comuna}\nOrdenanza: ${titulo}\nEnlace/Decreto: ${url}\nAportado por: ${remitente}`;
+      navigator.clipboard.writeText(text).then(() => {
+        alert('¡Texto copiado al portapapeles! Puedes pegarlo en tu correo para enviarlo a evegat@uchile.cl.');
+      });
+    }
+
     function filterMatrizTable() {
       if (!globalStatusData) return;
-      const term = (document.getElementById('matriz-search-input').value || '').toLowerCase();
+      const term = normalizeText(document.getElementById('matriz-search-input').value);
       const reg = document.getElementById('region-filter').value;
       const stat = document.getElementById('status-filter').value;
 
       const filtered = globalStatusData.comunas.filter(c => {
-        const matchTerm = !term || c.comuna.toLowerCase().includes(term) || (c.region_nombre || '').toLowerCase().includes(term);
+        const normCom = normalizeText(c.comuna);
+        const normReg = normalizeText(c.region_nombre);
+        const matchTerm = !term || normCom.includes(term) || normReg.includes(term) ||
+          (c.ordenanzas && c.ordenanzas.some(o => normalizeText(o.titulo).includes(term) || normalizeText(o.materia).includes(term)));
         const matchReg = reg === 'ALL' || c.region_nombre === reg;
         const matchStat = stat === 'ALL' || (stat === 'con_datos' && c.total_count > 0) || (stat === 'sin_datos' && c.total_count === 0);
         return matchTerm && matchReg && matchStat;
@@ -614,6 +990,14 @@
       const dataSrc = window.CATASTRO_DATA || (typeof STATUS_DATA !== 'undefined' ? STATUS_DATA : null);
       if (dataSrc && dataSrc.comunas) {
         globalStatusData = dataSrc;
+
+        // ORDEN CRONOLÓGICO: Asegurar que todas las ordenanzas estén ordenadas con las más recientes primero
+        globalStatusData.comunas.forEach(c => {
+          if (c.ordenanzas && Array.isArray(c.ordenanzas)) {
+            c.ordenanzas.sort((a, b) => (b.fecha || '').localeCompare(a.fecha || ''));
+          }
+        });
+
         // Llenar selector de regiones
         const regSet = new Set(globalStatusData.comunas.map(c => c.region_nombre).filter(Boolean));
         const regSelect = document.getElementById('region-filter');
@@ -633,11 +1017,11 @@
     });
   </script>
 
-  <!-- MODAL DE ORDENANZAS COMUNALES -->
+  <!-- MODAL DE ORDENANZAS COMUNALES (CON FILTROS INTERACTIVOS) -->
   <div id="comuna-modal" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70 backdrop-blur-sm">
-    <div class="bg-[#071f43] border border-[#153b70] rounded-2xl max-w-2xl w-full max-h-[85vh] flex flex-col shadow-2xl overflow-hidden">
+    <div class="bg-[#071f43] border border-[#153b70] rounded-2xl max-w-2xl w-full max-h-[90vh] flex flex-col shadow-2xl overflow-hidden">
       <!-- Modal Header -->
-      <div class="p-5 border-b border-[#153b70] flex items-center justify-between bg-[#04142b]">
+      <div class="p-4 sm:p-5 border-b border-[#153b70] flex items-center justify-between bg-[#04142b]">
         <div>
           <h3 id="modal-comuna-title" class="text-lg font-bold text-white">Comuna</h3>
           <p id="modal-comuna-subtitle" class="text-xs text-zinc-400">Región • Detalle</p>
@@ -647,15 +1031,84 @@
         </button>
       </div>
 
+      <!-- BARRA DE FILTROS DENTRO DEL MUNICIPIO SELECCIONADO -->
+      <div class="p-3 bg-[#04142b]/90 border-b border-[#153b70] flex flex-wrap items-center gap-2 text-xs">
+        <select id="modal-filter-materia" onchange="applyModalFilters()" class="bg-[#071f43] border border-[#153b70] rounded-lg px-2.5 py-1.5 text-zinc-200 text-xs focus:outline-none focus:border-sky-400 max-w-[200px]">
+          <option value="ALL">Todas las materias</option>
+        </select>
+        <select id="modal-filter-anio" onchange="applyModalFilters()" class="bg-[#071f43] border border-[#153b70] rounded-lg px-2.5 py-1.5 text-zinc-200 text-xs focus:outline-none focus:border-sky-400">
+          <option value="ALL">Todos los años</option>
+        </select>
+        <div class="relative flex-1 min-w-[140px]">
+          <input type="text" id="modal-filter-text" placeholder="Filtrar en esta comuna..." oninput="applyModalFilters()" class="w-full bg-[#071f43] border border-[#153b70] rounded-lg pl-7 pr-2 py-1.5 text-xs text-zinc-200 placeholder-zinc-500 focus:outline-none focus:border-sky-400">
+          <i data-lucide="search" class="w-3.5 h-3.5 text-zinc-400 absolute left-2 top-2"></i>
+        </div>
+        <button onclick="resetModalFilters()" class="text-[11px] text-zinc-400 hover:text-white underline px-1 shrink-0">Limpiar</button>
+        <span id="modal-filter-counter" class="text-[11px] font-mono text-sky-400 font-semibold ml-auto shrink-0"></span>
+      </div>
+
       <!-- Modal Body (Lista de Ordenanzas) -->
-      <div id="modal-ordenanzas-list" class="p-5 overflow-y-auto space-y-3 flex-1">
+      <div id="modal-ordenanzas-list" class="p-4 sm:p-5 overflow-y-auto space-y-3 flex-1">
         <!-- Renderizado dinámico de ordenanzas -->
       </div>
 
       <!-- Modal Footer -->
-      <div class="p-4 border-t border-[#153b70] bg-[#04142b] flex items-center justify-between text-xs text-zinc-400">
+      <div class="p-3.5 border-t border-[#153b70] bg-[#04142b] flex items-center justify-between text-xs text-zinc-400">
         <span>Catastro Nacional de Ordenanzas Municipales P090</span>
         <button onclick="closeComunaModal()" class="px-4 py-1.5 rounded-lg bg-[#153b70] hover:bg-[#1f5091] text-white font-semibold">Cerrar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL DEL BUZÓN COLABORATIVO -->
+  <div id="buzon-modal" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/70 backdrop-blur-sm">
+    <div class="bg-[#071f43] border border-[#153b70] rounded-2xl max-w-lg w-full flex flex-col shadow-2xl overflow-hidden">
+      <div class="p-4 sm:p-5 border-b border-[#153b70] flex items-center justify-between bg-[#04142b]">
+        <div class="flex items-center gap-2.5">
+          <div class="p-2 rounded-xl bg-sky-500/10 text-sky-400 border border-sky-500/30">
+            <i data-lucide="mail" class="w-5 h-5"></i>
+          </div>
+          <div>
+            <h3 class="text-base font-bold text-white">Buzón Colaborativo de Ordenanzas</h3>
+            <p class="text-xs text-zinc-400">Aporta documentos o decretos que falten en el catastro</p>
+          </div>
+        </div>
+        <button onclick="closeBuzonModal()" class="p-1.5 rounded-lg bg-[#153b70]/60 hover:bg-[#1f5091] text-zinc-300 transition-colors">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+
+      <div class="p-5 space-y-3 text-xs">
+        <div>
+          <label class="block text-zinc-300 font-semibold mb-1">Comuna / Municipalidad:</label>
+          <input type="text" id="buzon-comuna-input" placeholder="Ej. Maipú, Tiltil, Cholchol..." class="w-full bg-[#04142b] border border-[#153b70] rounded-lg px-3 py-2 text-white placeholder-zinc-500 focus:outline-none focus:border-sky-400">
+        </div>
+        <div>
+          <label class="block text-zinc-300 font-semibold mb-1">Nombre o Materia de la Ordenanza:</label>
+          <input type="text" id="buzon-titulo-input" placeholder="Ej. Ordenanza de Aseo, Derechos Municipales 2026..." class="w-full bg-[#04142b] border border-[#153b70] rounded-lg px-3 py-2 text-white placeholder-zinc-500 focus:outline-none focus:border-sky-400">
+        </div>
+        <div>
+          <label class="block text-zinc-300 font-semibold mb-1">Enlace Oficial al PDF o Número de Decreto (opcional):</label>
+          <input type="text" id="buzon-url-input" placeholder="https://transparencia... o Decreto N° 1234" class="w-full bg-[#04142b] border border-[#153b70] rounded-lg px-3 py-2 text-white placeholder-zinc-500 focus:outline-none focus:border-sky-400">
+        </div>
+        <div>
+          <label class="block text-zinc-300 font-semibold mb-1">Tu Nombre o Contacto (opcional):</label>
+          <input type="text" id="buzon-remitente-input" placeholder="Ej. Juan Pérez (vecino / funcionario / estudiante)" class="w-full bg-[#04142b] border border-[#153b70] rounded-lg px-3 py-2 text-white placeholder-zinc-500 focus:outline-none focus:border-sky-400">
+        </div>
+      </div>
+
+      <div class="p-4 border-t border-[#153b70] bg-[#04142b] flex flex-wrap items-center justify-between gap-2">
+        <button onclick="copyBuzonReport()" class="px-3 py-2 rounded-lg bg-[#153b70] hover:bg-[#1f5091] text-zinc-200 text-xs font-semibold flex items-center gap-1.5 transition-colors">
+          <i data-lucide="copy" class="w-3.5 h-3.5"></i>
+          <span>Copiar texto</span>
+        </button>
+        <div class="flex items-center gap-2">
+          <button onclick="closeBuzonModal()" class="px-3 py-2 text-zinc-400 hover:text-white text-xs">Cancelar</button>
+          <button onclick="submitBuzonEmail()" class="px-4 py-2 rounded-lg bg-sky-600 hover:bg-sky-500 text-white text-xs font-bold transition-colors flex items-center gap-1.5">
+            <i data-lucide="send" class="w-3.5 h-3.5"></i>
+            <span>Enviar a evegat@uchile.cl</span>
+          </button>
+        </div>
       </div>
     </div>
   </div>
