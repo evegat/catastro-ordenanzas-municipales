@@ -1,0 +1,145 @@
+{
+  "task_id": "P090-20260908-plan-publico-02",
+  "generated_at": "2026-09-08T05:27:00.374031+00:00",
+  "status_data": {
+    "updated_at": "2026-08-25T22:49:10.579553",
+    "declared_metrics": {
+      "total_comunas": 346,
+      "comunas_con_datos": 346,
+      "total_regiones": 16,
+      "total_ordenanzas": 7226,
+      "ordenanzas_bcn": 5881,
+      "ordenanzas_cplt": 0,
+      "pdfs_descargados": 0,
+      "anti_bloqueo": {
+        "estado": "Activo (Rate-limit 2.5s)",
+        "bloqueos_ip": 0,
+        "user_agents_rotados": 12
+      },
+      "ordenanzas_municipales_verificadas": 1345,
+      "cplt_en_cuarentena": 0
+    },
+    "total_comunas": 346,
+    "total_records_in_comunas": 7226,
+    "fuentes_desglose": {
+      "Municipalidad": 1335,
+      "BCN": 5881,
+      "Diario Oficial / BCN": 10
+    },
+    "registros_con_sha256_remoto": 1345,
+    "comunas_1_norma_count": 5,
+    "comunas_1_norma": [
+      "Pencahue",
+      "Hualpén",
+      "Cholchol",
+      "O Higgins",
+      "Antártica"
+    ],
+    "comunas_2_normas_count": 10,
+    "comunas_2_normas": [
+      "Camiña",
+      "Paiguano",
+      "Tiltil",
+      "Pumanque",
+      "Chillán Viejo",
+      "Alto Biobío",
+      "Nueva Imperial",
+      "Lanco",
+      "Chaitén",
+      "Timaukel"
+    ],
+    "comunas_3_normas_count": 6,
+    "comunas_3_normas": [
+      "Freirina",
+      "Punitaqui",
+      "San Rafael",
+      "Ñiquén",
+      "Máfil",
+      "Mariquina"
+    ],
+    "comunas_baja_densidad_1_3_count": 21
+  },
+  "municipal_verified": {
+    "generated_at": "2026-08-30T18:59:13.859161+00:00",
+    "declared_count": 1345,
+    "actual_records_count": 1345,
+    "unique_comunas_count": 215,
+    "unique_sha256_count": 1345
+  },
+  "physical_pdfs": {
+    "path": "D:\\Proyectos\\P090 - Catastro Ordenanzas Municipales BCN\\data\\official_pdfs",
+    "count": 10,
+    "files": [
+      {
+        "filename": "bulnes_norma_oficial.pdf",
+        "bytes": 123569
+      },
+      {
+        "filename": "canela_norma_oficial.pdf",
+        "bytes": 165227
+      },
+      {
+        "filename": "cholchol_norma_oficial.pdf",
+        "bytes": 122613
+      },
+      {
+        "filename": "diego de almagro_norma_oficial.pdf",
+        "bytes": 144075
+      },
+      {
+        "filename": "donihue_norma_oficial.pdf",
+        "bytes": 61937
+      },
+      {
+        "filename": "negrete_norma_oficial.pdf",
+        "bytes": 61648
+      },
+      {
+        "filename": "palena_norma_oficial.pdf",
+        "bytes": 153629
+      },
+      {
+        "filename": "puerto octay_norma_oficial.pdf",
+        "bytes": 122273
+      },
+      {
+        "filename": "rio negro_norma_oficial.pdf",
+        "bytes": 140063
+      },
+      {
+        "filename": "santa juana_norma_oficial.pdf",
+        "bytes": 127693
+      }
+    ]
+  },
+  "datasets_external": {
+    "path": "D:\\Datasets\\P090 - BCN Ordenanzas municipales",
+    "exists": true,
+    "bcn_textos_count": 19,
+    "bcn_textos_sample": [
+      "municipalidad-de-alhue_2004-12-31_s-n.json",
+      "municipalidad-de-alto-del-carmen_1989-08-12_2.json",
+      "municipalidad-de-alto-hospicio_2009-10-19_9.json",
+      "municipalidad-de-alto-hospicio_2010-04-30_13.json",
+      "municipalidad-de-alto-hospicio_2011-01-03_15.json"
+    ],
+    "sqlite_db": {
+      "path": "D:\\Datasets\\P090 - BCN Ordenanzas municipales\\catastro_ordenanzas.db",
+      "bytes": 1159168,
+      "tables": {
+        "sqlite_sequence": 1,
+        "ordenanzas": 1632
+      }
+    }
+  },
+  "conclusions": {
+    "canonical_total_records": 7226,
+    "bcn_records": 5881,
+    "municipal_verified_remote_records": 1345,
+    "physical_local_pdfs_count": 10,
+    "physical_local_text_files_count": 19,
+    "territorial_communes_total": 346,
+    "territorial_communes_represented": 346,
+    "critical_gap_for_rag": "El catastro público referencia 7.226 normas verificadas (1.345 con SHA-256 en origen y 5.881 BCN), pero en almacenamiento local solo existen 10 binarios PDF y 19 extracciones de texto. Para la Fase 4 (RAG) se requiere un pipeline controlado de descarga e ingesta de texto a demanda iniciando con el lote piloto de 50-100 documentos (Paquete 05)."
+  }
+}

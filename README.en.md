@@ -1,11 +1,11 @@
 # Chilean Municipal By-Laws (Ordenanzas) Open Data Pipeline
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Online-success.svg)](https://evegat.github.io/catastro-ordenanzas-municipales/)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Online-success.svg)](https://ordenanzas.evegat.cl)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Open Data](https://img.shields.io/badge/Open%20Data-Chile-green.svg)](#)
 
-[ 🌐 **Launch Interactive Dashboard Online** ](https://evegat.github.io/catastro-ordenanzas-municipales/)  
+[ 🌐 **Launch Interactive Dashboard Online** ](https://ordenanzas.evegat.cl)  
 [ 🇪🇸 Versión en Español ](README.md) · [ 🇬🇧 English version ](README.en.md)
 
 Automated ETL pipeline, structured dataset, and exploratory visualizer for **Chilean Municipal By-Laws (*Ordenanzas Municipales*)**, querying open data from the **Library of the National Congress of Chile (BCN/LeyChile)** SPARQL endpoint and complementary verified municipal official sources with SHA-256 cryptographic hashes.
@@ -31,7 +31,7 @@ This project is built primarily as an educational and empirical research resourc
 
 - [x] **Phase 1: Base Registry & Reproducible Pipeline:** BCN SPARQL extraction (1,710 records) + initial multi-agent crawler + 9-domain classification.
 - [x] **Phase 2: Public Visualizer & Open Access:** Interactive dashboard hosted on GitHub Pages with multi-filter matrix, detailed commune drawer, interactive Leaflet map, smart autocomplete, and open data downloads.
-- [x] **Phase 3: Direct Municipal Crawling:** Direct municipal crawler with cryptographic verification (SHA-256), reaching **100.0% national coverage (346 of 346 communes)** and **3,015 consolidated official ordinances**.
+- [x] **Phase 3: Direct Municipal Crawling:** Direct municipal crawler with cryptographic verification (SHA-256), reaching **100.0% national coverage (346 of 346 communes)** and **7,226 consolidated official ordinances** (5,881 BCN/LeyChile + 1,345 verified municipal records).
 - [ ] **Phase 4: AI-Assisted RAG & Text Analysis ($0 API Cost):** Full-text vector indexing (BGE-M3 / e5-small embeddings) and local inference (Ollama RTX 4080) / OpenRouter Free Tier for semantic comparative legal queries.
 - [x] **Phase 5: Teaching Modules & Academic Workbooks:** 3 interactive case studies in the web dashboard and official downloadable Jupyter Notebook (`analisis_ordenanzas_chile_estudiantes.ipynb`) for university courses.
 
@@ -45,7 +45,7 @@ catastro-ordenanzas-municipales/
 ├── data/                       # Official registries and verified datasets
 │   ├── maestro_comunas_chile.csv        # Master territorial reference (346 communes)
 │   ├── municipal_source_registry.json   # Registry of official municipal endpoints
-│   ├── municipal_verified_records.json  # 1,305 municipal acts verified with SHA-256
+│   ├── municipal_verified_records.json  # 1,345 municipal acts verified with SHA-256
 │   ├── cplt_municipal_directory.json    # Active Transparency CPLT directory
 │   └── national_coverage_ledger.json    # National coverage ledger
 ├── dashboard/                  # Static web dashboard (GitHub Pages)
@@ -93,9 +93,9 @@ python src/build_public_snapshot.py dashboard
 
 ## 📊 Dataset Scope
 
-- **Consolidated Normative Records:** 7,186.
+- **Consolidated Normative Records:** 7,226.
 - **BCN / LeyChile:** 5,881 records.
-- **Verified Municipal Sources (SHA-256):** 1,305 official records.
+- **Verified Municipal Sources (SHA-256):** 1,345 official records.
 - **Observed Territorial Coverage:** 346 of 346 communes (100.0% national presence; only 5 single-ordinance communes remaining, 98.6% dense coverage).
 - **Observed Time Span:** 1980–2026.
 - **Thematic Domains:** 9 municipal regulatory axes.
