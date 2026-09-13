@@ -1,13 +1,13 @@
 {
   "task_id": "P090-20260908-plan-publico-02",
-  "generated_at": "2026-09-08T05:27:00.374031+00:00",
+  "generated_at": "2026-09-13T20:19:24.960155+00:00",
   "status_data": {
     "updated_at": "2026-08-25T22:49:10.579553",
     "declared_metrics": {
       "total_comunas": 346,
       "comunas_con_datos": 346,
       "total_regiones": 16,
-      "total_ordenanzas": 7226,
+      "total_ordenanzas": 7287,
       "ordenanzas_bcn": 5881,
       "ordenanzas_cplt": 0,
       "pdfs_descargados": 0,
@@ -16,30 +16,29 @@
         "bloqueos_ip": 0,
         "user_agents_rotados": 12
       },
-      "ordenanzas_municipales_verificadas": 1345,
+      "ordenanzas_municipales_verificadas": 1406,
       "cplt_en_cuarentena": 0
     },
     "total_comunas": 346,
-    "total_records_in_comunas": 7226,
+    "total_records_in_comunas": 7287,
     "fuentes_desglose": {
-      "Municipalidad": 1335,
+      "Municipalidad": 1395,
       "BCN": 5881,
-      "Diario Oficial / BCN": 10
+      "Diario Oficial / BCN": 10,
+      "BCN / LeyChile": 1
     },
-    "registros_con_sha256_remoto": 1345,
-    "comunas_1_norma_count": 5,
+    "registros_con_sha256_remoto": 1406,
+    "comunas_1_norma_count": 4,
     "comunas_1_norma": [
       "Pencahue",
-      "Hualpén",
       "Cholchol",
       "O Higgins",
       "Antártica"
     ],
-    "comunas_2_normas_count": 10,
+    "comunas_2_normas_count": 9,
     "comunas_2_normas": [
       "Camiña",
       "Paiguano",
-      "Tiltil",
       "Pumanque",
       "Chillán Viejo",
       "Alto Biobío",
@@ -57,14 +56,14 @@
       "Máfil",
       "Mariquina"
     ],
-    "comunas_baja_densidad_1_3_count": 21
+    "comunas_baja_densidad_1_3_count": 19
   },
   "municipal_verified": {
     "generated_at": "2026-08-30T18:59:13.859161+00:00",
-    "declared_count": 1345,
-    "actual_records_count": 1345,
+    "declared_count": 1406,
+    "actual_records_count": 1406,
     "unique_comunas_count": 215,
-    "unique_sha256_count": 1345
+    "unique_sha256_count": 1406
   },
   "physical_pdfs": {
     "path": "D:\\Proyectos\\P090 - Catastro Ordenanzas Municipales BCN\\data\\official_pdfs",

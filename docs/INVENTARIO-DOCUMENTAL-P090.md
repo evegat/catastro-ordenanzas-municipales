@@ -1,7 +1,7 @@
 # Inventario Documental y Conciliación de Cifras — P090
 
 - **Task ID:** `P090-20260908-plan-publico-02`
-- **Fecha de corte:** 2026-09-08
+- **Fecha de corte:** 2026-09-13
 - **Estado:** Completado sin LLM mediante inspección física y sintáctica determinista.
 
 ---
@@ -38,8 +38,8 @@
 
 ## 3. Detalle Territorial de Comunas con Brecha Normativa (1–3 normas)
 
-- **1 norma (5 comunas):** Pencahue, Hualpén, Cholchol, O Higgins, Antártica
-- **2 normas (10 comunas):** Camiña, Paiguano, Tiltil, Pumanque, Chillán Viejo, Alto Biobío, Nueva Imperial, Lanco, Chaitén, Timaukel
+- **1 norma (5 comunas):** Pencahue, Cholchol, O Higgins, Antártica
+- **2 normas (10 comunas):** Camiña, Paiguano, Pumanque, Chillán Viejo, Alto Biobío, Nueva Imperial, Lanco, Chaitén, Timaukel
 - **3 normas (6 comunas):** Freirina, Punitaqui, San Rafael, Ñiquén, Máfil, Mariquina
 
 ---
