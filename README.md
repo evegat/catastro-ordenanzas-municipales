@@ -1,5 +1,7 @@
 # Catastro y Pipeline de Ordenanzas Municipales de Chile
 
+> **Work in progress / En evolución (2026-09-15).** Proyecto no terminado. Presencia territorial no acredita exhaustividad. [Estado y reentrada / Current status](docs/ESTADO-Y-REENTRADA-P090.md). Revisión local; despliegue público no verificado.
+
 [![Demo en Vivo](https://img.shields.io/badge/Demo%20en%20Vivo-Online-success.svg)](https://ordenanzas.evegat.cl)
 [![Licencia](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
@@ -31,8 +33,8 @@ Este proyecto nace con un objetivo fundamentalmente formativo y de investigació
 
 - [x] **Fase 1: Catastro Base & Pipeline Reproducible:** Extracción SPARQL BCN (1.710 normas), captura complementaria CPLT y categorización en 9 ejes temáticos.
 - [x] **Fase 2: Visualizador Público & Acceso Abierto:** Dashboard interactivo publicado en GitHub Pages, filtros combinados por materia, región y año, drawer comunal, mapa interactivo con Leaflet, autocompletar inteligente y descargas abiertas.
-- [x] **Fase 3: Expansión Territorial Directa:** Pipeline de descubrimiento y extracción directa con verificación criptográfica (SHA-256), alcanzando el **100% de cobertura territorial (346 de 346 comunas)** con **7.226 ordenanzas oficiales consolidadas** (5.881 BCN/LeyChile + 1.345 municipales verificadas con SHA-256).
-- [ ] **Fase 4: Asistente RAG Jurídico-Municipal ($0 API Cost):** Indexación vectorial de texto completo (Embeddings BGE-M3 / e5-small) y conexión con modelos locales (Ollama RTX 4080) y OpenRouter Free Tier para análisis comparado y redacción asistida.
+- [ ] **Fase 3: Expansión Territorial Directa:** Pipeline de descubrimiento y extracción directa con verificación criptográfica (SHA-256), alcanzando el **100% de cobertura territorial (346 de 346 comunas)** con **7.287 ordenanzas oficiales consolidadas** (5.881 BCN/LeyChile + 1.406 municipales verificadas con SHA-256). Exhaustividad pendiente / Exhaustiveness unproven: `coverage_complete=false`.
+- [ ] **Fase 4: Asistente RAG Jurídico-Municipal (costos por validar / costs to validate):** Indexación vectorial de texto completo (Embeddings BGE-M3 / e5-small) y conexión con modelos locales (inferencia por definir) y proveedor por evaluar para análisis comparado y redacción asistida.
 - [x] **Fase 5: Módulo Docente & Guías Metodológicas:** Publicación de 3 casos de estudio interactivos en el visualizador y Jupyter Notebook oficial (`analisis_ordenanzas_chile_estudiantes.ipynb`) descargable para cátedras universitarias.
 
 ---
@@ -45,7 +47,7 @@ catastro-ordenanzas-municipales/
 ├── data/                       # Registries y datasets oficiales consolidados
 │   ├── maestro_comunas_chile.csv        # Catálogo territorial oficial (346 comunas)
 │   ├── municipal_source_registry.json   # Registro y estrategia de fuentes oficiales
-│   ├── municipal_verified_records.json  # 1.345 actos municipales promovidos con SHA-256
+│   ├── municipal_verified_records.json  # 1.406 actos municipales promovidos con SHA-256
 │   ├── cplt_municipal_directory.json    # Directorio de portales Transparencia CPLT
 │   └── national_coverage_ledger.json    # Ledger nacional de cobertura territorial
 ├── dashboard/                  # Visualizador interactivo en GitHub Pages
@@ -79,48 +81,26 @@ catastro-ordenanzas-municipales/
 
 ---
 
-## 🚀 Uso y Reproducción
+## Uso local y reproducción
 
-### 1. Requisitos e instalación
+Para revisar el dashboard existente con Python:
+
 ```bash
-git clone https://github.com/evegat/catastro-ordenanzas-municipales.git
-cd catastro-ordenanzas-municipales
-
-python -m venv .venv
-source .venv/bin/activate  # En Windows: .venv\Scripts\activate
-pip install -r requirements.txt
+python -m http.server 8000 --directory dashboard
 ```
 
-### 2. Extracción BCN y procesamiento
-```bash
-python src/bcn_full_fetcher.py
-python src/export_excel_and_zip.py
-```
+Abrir http://localhost:8000. Sirve archivos existentes; no reconstruye datos. Los extractores dependen de módulos locales ausentes: consultar [pendientes y reentrada](docs/ESTADO-Y-REENTRADA-P090.md) antes de ejecutarlos.
 
-### 3. Extracción municipal con verificación SHA-256
-```bash
-python src/exhaustive_municipal_recovery.py \
-  --registry data/municipal_source_registry.json \
-  --out data/municipal_exhaustive_coverage.json
-```
-
-### 4. Construir snapshot público verified-only
-```bash
-python src/build_public_snapshot.py dashboard
-```
-
-Este paso consolida los 7.226 registros oficiales (5.881 BCN + 1.345 municipales), valida la integridad de cada URL y hash SHA-256, regenera los archivos `catastro_ordenanzas_nacional_2026.csv`, `.xlsx`, `.zip` y prepara los metadatos para el despliegue.
-
----
+`src/build_public_snapshot.py` sobrescribe JSON, JS, HTML y descargas del directorio recibido. Probar sobre una copia separada. La compilación no demuestra que los imports, las fuentes remotas ni el pipeline funcionen.
 
 ## 📊 Alcance, cobertura y estados de evidencia
 
-Los conteos públicos **no se mantienen manualmente en este README**. Se recalculan en cada build desde las filas efectivamente publicables y quedan expuestos en `dashboard/status_data.json`, en el dashboard y en el manifiesto de descargas.
+Corte documental local del 2026-09-15, contado desde `dashboard/status_data.json` y contrastado con el CSV. Estas cifras requieren actualización cuando cambien los datos; no hay sincronización automática de este README. No se revalidaron documentos remotos ni todas las exportaciones.
 
-- **Total normas consolidadas:** 7.226 registros normativos.
+- **Total normas consolidadas:** 7.287 registros normativos.
 - **BCN / LeyChile:** 5.881 registros.
-- **Fuentes Municipales Verificadas:** 1.345 registros oficiales con SHA-256.
-- **Cobertura comunal:** 346 de 346 comunas (100.0% de presencia territorial observada; solo 5 comunas con 1 sola norma, 98.6% con acervo normativo denso).
+- **Fuentes Municipales Verificadas:** 1.406 registros oficiales con SHA-256.
+- **Presencia territorial:** 346/346 comunas; 4 tienen un registro y 19 tienen entre 1 y 3. Exhaustividad pendiente.
 - **Rango temporal observado:** 1980–2026.
 - **Clasificación temática:** 9 materias normativas.
 

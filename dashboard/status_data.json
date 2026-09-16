@@ -4,7 +4,7 @@
     "total_comunas": 346,
     "comunas_con_datos": 346,
     "total_regiones": 16,
-    "total_ordenanzas": 7287,
+    "total_ordenanzas": 7312,
     "ordenanzas_bcn": 5881,
     "ordenanzas_cplt": 0,
     "pdfs_descargados": 0,
@@ -13,7 +13,7 @@
       "bloqueos_ip": 0,
       "user_agents_rotados": 12
     },
-    "ordenanzas_municipales_verificadas": 1406,
+    "ordenanzas_municipales_verificadas": 1431,
     "cplt_en_cuarentena": 0
   },
   "regiones": [
@@ -9484,11 +9484,57 @@
       "comuna": "Freirina",
       "bcn_count": 2,
       "cplt_count": 0,
-      "total_count": 3,
+      "total_count": 5,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
       "last_update": null,
       "ordenanzas": [
+        {
+          "cplt_code": "MU092",
+          "fuente": "Diario Oficial / BCN",
+          "tipo_norma": "Ordenanza Municipal",
+          "numero": "3095",
+          "fecha": "2019-11-04",
+          "titulo": "Modifica Ordenanza de Derechos Municipales Decreto N° 3.095 de 2017",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-3095_04-NOV-2019&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1138581.2019-11-04.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-3095_04-NOV-2019&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1138581.2019-11-04.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "1e51b1fea052276e06ec389ce102bf1cd40811b45f5ad6f3b954249219f3f192",
+            "bytes": 23995,
+            "verified_at": "2026-09-16T17:29:54.091688Z",
+            "local_file": "freirina_3095_2019-11-04.pdf"
+          },
+          "source_listing_url": "https://www.bcn.cl/leychile/",
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU092",
+          "fuente": "Diario Oficial / BCN",
+          "tipo_norma": "Ordenanza Municipal",
+          "numero": "4",
+          "fecha": "2017-10-18",
+          "titulo": "Aprueba Enmienda N° 1 al Plan Regulador Comunal de Freirina",
+          "materia": "Plan Regulador y Obras",
+          "materia_id": "urbanismo_obras",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=RES-4-AFECTA_18-OCT-2017&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1110510.2017-10-18.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=RES-4-AFECTA_18-OCT-2017&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1110510.2017-10-18.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "7edfebd5d6de7a8504c74c27d58857a3bc8d1cdb0ba7698fa7a1d339fc89a195",
+            "bytes": 23860,
+            "verified_at": "2026-09-16T17:29:51.965254Z",
+            "local_file": "freirina_4_2017-10-18.pdf"
+          },
+          "source_listing_url": "https://www.bcn.cl/leychile/",
+          "rdf_url": null
+        },
         {
           "cplt_code": "MU_freirina",
           "fuente": "Municipalidad",
@@ -9537,7 +9583,7 @@
           "estado": "Vigente / LeyChile"
         }
       ],
-      "municipal_count": 1
+      "municipal_count": 3
     },
     {
       "region_id": "03",
@@ -13461,7 +13507,7 @@
       "comuna": "Punitaqui",
       "bcn_count": 2,
       "cplt_count": 0,
-      "total_count": 3,
+      "total_count": 4,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
       "last_update": null,
@@ -13478,6 +13524,29 @@
           "rdf_url": "http://datos.bcn.cl/recurso/cl/dto/municipalidad-de-punitaqui/2011-01-05/2369/datos.json",
           "tipo_norma": "Ordenanza Municipal",
           "estado": "Vigente / LeyChile"
+        },
+        {
+          "cplt_code": "MU238",
+          "fuente": "Diario Oficial / BCN",
+          "tipo_norma": "Ordenanza Municipal",
+          "numero": "2369",
+          "fecha": "2010-12-15",
+          "titulo": "Aprueba Ordenanza de Medio Ambiente de la Comuna de Punitaqui",
+          "materia": "Aseo, Ornato y Medio Ambiente",
+          "materia_id": "aseo_medioambiente",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-2369_15-DIC-2010&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1020847.2010-12-15.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-2369_15-DIC-2010&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1020847.2010-12-15.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "e156ebc45214f0184d19790652019618902c044d2e8d917af22759e942751461",
+            "bytes": 46540,
+            "verified_at": "2026-09-16T17:29:21.179480Z",
+            "local_file": "punitaqui_2369_2010-12-15.pdf"
+          },
+          "source_listing_url": "https://www.bcn.cl/leychile/",
+          "rdf_url": null
         },
         {
           "cplt_code": "MU_punitaqui",
@@ -13514,7 +13583,7 @@
           "estado": "Vigente / LeyChile"
         }
       ],
-      "municipal_count": 1
+      "municipal_count": 2
     },
     {
       "region_id": "04",
@@ -82171,9 +82240,9 @@
       "comuna": "Chillán Viejo",
       "bcn_count": 2,
       "cplt_count": 0,
-      "total_count": 2,
+      "total_count": 4,
       "pdfs_count": 0,
-      "status": "Cargado BCN",
+      "status": "BCN + Municipalidad verificada",
       "last_update": null,
       "ordenanzas": [
         {
@@ -82190,6 +82259,29 @@
           "estado": "Vigente / LeyChile"
         },
         {
+          "cplt_code": "MU043",
+          "fuente": "Diario Oficial / BCN",
+          "tipo_norma": "Ordenanza Municipal",
+          "numero": "1838",
+          "fecha": "2009-11-14",
+          "titulo": "Dicta Ordenanza sobre Trabajos en Beneficio de la Comunidad para Cumplir Sentencias Dictadas por Juez de Policía Local",
+          "materia": "Seguridad y Convivencia",
+          "materia_id": "seguridad_convivencia",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-1838_14-NOV-2009&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1008688.2009-11-14.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-1838_14-NOV-2009&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1008688.2009-11-14.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "8701f5111bb7d4ea5b6f2248f86bb51456e1ed7fedd416633de5c92dffdeb519",
+            "bytes": 23998,
+            "verified_at": "2026-09-16T17:29:15.633809Z",
+            "local_file": "chill_n_viejo_1838_2009-11-14.pdf"
+          },
+          "source_listing_url": "https://www.bcn.cl/leychile/",
+          "rdf_url": null
+        },
+        {
           "id": 139,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -82204,9 +82296,32 @@
           "badge_border": "border-indigo-500/30",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=30896",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-chillan/1995-01-26/1/datos.json"
+        },
+        {
+          "cplt_code": "MU043",
+          "fuente": "Diario Oficial / BCN",
+          "tipo_norma": "Ordenanza Municipal",
+          "numero": "1",
+          "fecha": "1995-01-26",
+          "titulo": "Dicta Ordenanza sobre Derechos Municipales por Concesiones, Permisos o Servicios",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-1_26-ENE-1995&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=30896.1995-01-26.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-1_26-ENE-1995&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=30896.1995-01-26.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "1c68ef97d8ce070501756153b8e864afbf40323b1329257d6004b3995346593c",
+            "bytes": 23749,
+            "verified_at": "2026-09-16T17:29:18.422103Z",
+            "local_file": "chill_n_viejo_1_1995-01-26.pdf"
+          },
+          "source_listing_url": "https://www.bcn.cl/leychile/",
+          "rdf_url": null
         }
       ],
-      "municipal_count": 0
+      "municipal_count": 2
     },
     {
       "region_id": "16",
@@ -94031,7 +94146,7 @@
       "comuna": "Alto Biobío",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 2,
+      "total_count": 8,
       "pdfs_count": 0,
       "status": "Municipalidad verificada",
       "last_update": null,
@@ -94058,6 +94173,132 @@
           "rdf_url": null
         },
         {
+          "cplt_code": "MU003",
+          "fuente": "Municipalidad",
+          "numero": "DOC-B80E4B",
+          "fecha": "2024-01-01",
+          "titulo": "Ordenanza Local sobre Derechos Municipales por Concesiones, Permisos y Servicios",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU003/AR/AREST/58880441?estadoItem=Publicado",
+          "target_url": "https://munialtobiobio.cl/transparencia/ordenanza/permisosderechosconcesiones.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://munialtobiobio.cl/transparencia/ordenanza/permisosderechosconcesiones.pdf",
+            "content_type": "application/pdf",
+            "sha256": "b80e4ba6f10b1dafb80cc3403eb9cc4ce66869f63f975c0d94416c3e2e03e4e2",
+            "bytes": 1770076,
+            "verified_at": "2026-09-16T13:23:25Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU003",
+          "fuente": "Municipalidad",
+          "numero": "DOC-3801FD",
+          "fecha": "2022-01-01",
+          "titulo": "Ordenanza Municipal para el Desarrollo y Protección de la Actividad Apícola",
+          "materia": "Medio Ambiente y Sustentabilidad",
+          "materia_id": "medio_ambiente",
+          "source_listing_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU003/AR/AREST/58880441?estadoItem=Publicado",
+          "target_url": "https://munialtobiobio.cl/transparencia/ordenanza/apicola.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://munialtobiobio.cl/transparencia/ordenanza/apicola.pdf",
+            "content_type": "application/pdf",
+            "sha256": "3801fd875843e4271f9716cdcaf92dcb66714ba057d559fe2413d254a2a19e7f",
+            "bytes": 5452874,
+            "verified_at": "2026-09-16T13:23:25Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU003",
+          "fuente": "Municipalidad",
+          "numero": "DOC-2A8FC2",
+          "fecha": "2021-01-01",
+          "titulo": "Ordenanza de Protección del Medio Ambiente de la Comuna de Alto Biobío",
+          "materia": "Medio Ambiente y Sustentabilidad",
+          "materia_id": "medio_ambiente",
+          "source_listing_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU003/AR/AREST/58880441?estadoItem=Publicado",
+          "target_url": "https://munialtobiobio.cl/transparencia/ordenanza/ordenanzamedioambiental.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://munialtobiobio.cl/transparencia/ordenanza/ordenanzamedioambiental.pdf",
+            "content_type": "application/pdf",
+            "sha256": "2a8fc277385e8bcba5a3cc40662ddcee79f4b84526cf41dcbb4c7076df572398",
+            "bytes": 262475,
+            "verified_at": "2026-09-16T13:23:25Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU003",
+          "fuente": "Municipalidad",
+          "numero": "DOC-C3BE6D",
+          "fecha": "2021-01-01",
+          "titulo": "Ordenanza Local de Promoción de Estilos de Vida Saludables",
+          "materia": "Salud, Higiene y Bienestar Social",
+          "materia_id": "salud_higiene",
+          "source_listing_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU003/AR/AREST/58880441?estadoItem=Publicado",
+          "target_url": "https://munialtobiobio.cl/transparencia/ordenanza/estilodevidasaludable.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://munialtobiobio.cl/transparencia/ordenanza/estilodevidasaludable.pdf",
+            "content_type": "application/pdf",
+            "sha256": "c3be6d02070a5fba1cf7694b5db7ce01a308f3f5804b9f16e24e3e2b276244f5",
+            "bytes": 1191053,
+            "verified_at": "2026-09-16T13:23:25Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU003",
+          "fuente": "Municipalidad",
+          "numero": "DOC-9BCB49",
+          "fecha": "2020-01-01",
+          "titulo": "Ordenanza sobre Derechos Municipales por Permisos y Concesiones 2020",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU003/AR/AREST/58880441?estadoItem=Publicado",
+          "target_url": "https://munialtobiobio.cl/transparencia/ordenanza/permisosderechosconcesiones2020.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://munialtobiobio.cl/transparencia/ordenanza/permisosderechosconcesiones2020.pdf",
+            "content_type": "application/pdf",
+            "sha256": "9bcb49536061e519f3d4b961530d4b77545d174b2529eb023a2b12da650237f2",
+            "bytes": 3072342,
+            "verified_at": "2026-09-16T13:23:25Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU003",
+          "fuente": "Municipalidad",
+          "numero": "DOC-4EA0D6",
+          "fecha": "2019-01-01",
+          "titulo": "Ordenanza Municipal de Oficialización de la Lengua Mapuche Chedungun",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU003/AR/AREST/58880441?estadoItem=Publicado",
+          "target_url": "https://munialtobiobio.cl/transparencia/ordenanza/chedungun.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://munialtobiobio.cl/transparencia/ordenanza/chedungun.pdf",
+            "content_type": "application/pdf",
+            "sha256": "4ea0d65dca608efc4d7b76923133e44acf268dc401557038b70e8b64c0702ac8",
+            "bytes": 349631,
+            "verified_at": "2026-09-16T13:23:25Z"
+          },
+          "rdf_url": null
+        },
+        {
           "cplt_code": "MU_alto biobio",
           "fuente": "Municipalidad",
           "numero": "450",
@@ -94079,7 +94320,7 @@
           "rdf_url": null
         }
       ],
-      "municipal_count": 2
+      "municipal_count": 8
     },
     {
       "region_id": "09",
@@ -98562,7 +98803,7 @@
       "comuna": "Nueva Imperial",
       "bcn_count": 1,
       "cplt_count": 0,
-      "total_count": 2,
+      "total_count": 3,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
       "last_update": null,
@@ -98589,6 +98830,29 @@
           "rdf_url": null
         },
         {
+          "cplt_code": "MU179",
+          "fuente": "Diario Oficial / BCN",
+          "tipo_norma": "Ordenanza Municipal",
+          "numero": "401",
+          "fecha": "1992-01-28",
+          "titulo": "Ordenanza Local sobre Derechos Municipales por Concesiones, Permisos y Servicios",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-401-EXENTO_28-ENE-1992&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=96283.1992-01-28.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-401-EXENTO_28-ENE-1992&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=96283.1992-01-28.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "aa43e959b765deb4e183db1b496c03ab9b1c99305cce7a4202e6a5faf324ad57",
+            "bytes": 54767,
+            "verified_at": "2026-09-16T17:29:47.856952Z",
+            "local_file": "nueva_imperial_401_1992-01-28.pdf"
+          },
+          "source_listing_url": "https://www.bcn.cl/leychile/",
+          "rdf_url": null
+        },
+        {
           "fuente": "BCN",
           "numero": "401-exento",
           "fecha": "1992-01-21",
@@ -98602,7 +98866,7 @@
           "estado": "Vigente / LeyChile"
         }
       ],
-      "municipal_count": 1
+      "municipal_count": 2
     },
     {
       "region_id": "09",
@@ -103253,7 +103517,7 @@
       "comuna": "Lanco",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 2,
+      "total_count": 6,
       "pdfs_count": 0,
       "status": "Municipalidad verificada",
       "last_update": null,
@@ -103282,6 +103546,27 @@
         {
           "cplt_code": "MU133",
           "fuente": "Municipalidad",
+          "numero": "DOC-AF07D5",
+          "fecha": "2024-12-02",
+          "titulo": "Rectificación Ordenanza Municipal",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://munilanco.cl/index.php/documentos-home/1-home?start=20",
+          "target_url": "https://munilanco.cl/index.php/documentos-home/1-home?download=45:rectificacion-ordenanza-municipal&start=20",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://munilanco.cl/index.php/documentos-home/1-home?download=45:rectificacion-ordenanza-municipal&start=20",
+            "content_type": "application/pdf",
+            "sha256": "af07d56a4535a722b1967c1e48892fcacd9ad37613e5244b01a0eaf9bde54a3f",
+            "bytes": 236917,
+            "verified_at": "2026-09-16T12:56:55Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU133",
+          "fuente": "Municipalidad",
           "numero": "3689",
           "fecha": "2024-01-01",
           "titulo": "Ordenanza Municipal de LANCO — 1 home?download=30:decreto exento n3689 2024 aprueba el texto actualizado y refundido de la ordenanza sobre el funcionamiento de ferias libres",
@@ -103299,9 +103584,72 @@
             "verified_at": "2026-08-30T17:00:12.009021+00:00"
           },
           "rdf_url": null
+        },
+        {
+          "cplt_code": "MU133",
+          "fuente": "Municipalidad",
+          "numero": "DOC-13E376",
+          "fecha": "2024-01-01",
+          "titulo": "Ordenanza sobre Derechos Municipales por Permisos, Concesiones y Servicios",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://munilanco.cl/index.php/documentos-home/1-home",
+          "target_url": "https://munilanco.cl/index.php/documentos-home/1-home?download=29:ordenanza-servicios",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://munilanco.cl/index.php/documentos-home/1-home?download=29:ordenanza-servicios",
+            "content_type": "application/pdf",
+            "sha256": "13e376e83ce58504805ad72abd8769608815f93e3b53e75386e78bf511f83eb2",
+            "bytes": 7638326,
+            "verified_at": "2026-09-16T12:56:55Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU133",
+          "fuente": "Municipalidad",
+          "numero": "DOC-070564",
+          "fecha": "2023-01-01",
+          "titulo": "Ordenanza Municipal de Lanco",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://munilanco.cl/index.php/documentos-home/1-home?start=220",
+          "target_url": "https://munilanco.cl/index.php/documentos-home/1-home?download=246:ordenanza-municipal&start=220",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://munilanco.cl/index.php/documentos-home/1-home?download=246:ordenanza-municipal&start=220",
+            "content_type": "application/pdf",
+            "sha256": "0705640150053793255989654b4e58560fc1afc66b1af1dc2b02d4595574c1bf",
+            "bytes": 7173226,
+            "verified_at": "2026-09-16T12:56:55Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU133",
+          "fuente": "Municipalidad",
+          "numero": "DOC-4AC9F4",
+          "fecha": "2023-01-01",
+          "titulo": "Ordenanza sobre Determinación de Tarifas de Aseo y Exenciones",
+          "materia": "Aseo, Ornato y Gestión de Residuos",
+          "materia_id": "aseo_residuos",
+          "source_listing_url": "https://munilanco.cl/index.php/documentos-home/1-home?start=220",
+          "target_url": "https://munilanco.cl/index.php/documentos-home/1-home?download=247:tarifa-aseo&start=220",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://munilanco.cl/index.php/documentos-home/1-home?download=247:tarifa-aseo&start=220",
+            "content_type": "application/pdf",
+            "sha256": "4ac9f42a21f391193f28fa01d241ba2e5517ab1cced2d920e1b11577d55a5c4a",
+            "bytes": 529180,
+            "verified_at": "2026-09-16T12:56:55Z"
+          },
+          "rdf_url": null
         }
       ],
-      "municipal_count": 2
+      "municipal_count": 6
     },
     {
       "region_id": "14",
@@ -103648,7 +103996,7 @@
       "comuna": "Mariquina",
       "bcn_count": 2,
       "cplt_count": 0,
-      "total_count": 3,
+      "total_count": 6,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
       "last_update": null,
@@ -103671,6 +104019,69 @@
             "sha256": "36f66c44baaed88417c8525b7d66c8f3294544dae674b012e20c41aa15c5754e",
             "bytes": 10059779,
             "verified_at": "2026-08-30T17:00:12.010984+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU168",
+          "fuente": "Municipalidad",
+          "numero": "DOC-9A7EF3",
+          "fecha": "2025-01-01",
+          "titulo": "Ordenanza de Medio Ambiente, Aseo y Ornato de la Comuna de Mariquina",
+          "materia": "Medio Ambiente y Sustentabilidad",
+          "materia_id": "medio_ambiente",
+          "source_listing_url": "https://munimariquina.cl/oficina-de-medio-ambiente/",
+          "target_url": "https://munimariquina.cl/wp-content/uploads/2025/08/Ordenanza-Medio-Ambiente-Aseo-y-Ornato-de-la-Comuna-de-Mariquina.pdf_1516998415873.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://munimariquina.cl/wp-content/uploads/2025/08/Ordenanza-Medio-Ambiente-Aseo-y-Ornato-de-la-Comuna-de-Mariquina.pdf_1516998415873.pdf",
+            "content_type": "application/pdf",
+            "sha256": "9a7ef3404d7d8beb9d752d7f937788a48f60031b7d8964d4c985f0998fde26a1",
+            "bytes": 2865474,
+            "verified_at": "2026-09-16T13:10:00Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU168",
+          "fuente": "Municipalidad",
+          "numero": "DOC-D80FF6",
+          "fecha": "2025-01-01",
+          "titulo": "Ordenanza Municipal sobre Extracción de Áridos en Cauces Naturales y Pozos Lastreros",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "obras_urbanismo",
+          "source_listing_url": "https://munimariquina.cl/oficina-de-medio-ambiente/",
+          "target_url": "https://munimariquina.cl/wp-content/uploads/2025/08/ORDENANZA-ARIDOS.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://munimariquina.cl/wp-content/uploads/2025/08/ORDENANZA-ARIDOS.pdf",
+            "content_type": "application/pdf",
+            "sha256": "d80ff6920f4294629e103e57ff283efa38febe588dd950f11629d468b0d6ee85",
+            "bytes": 4451436,
+            "verified_at": "2026-09-16T13:10:00Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU168",
+          "fuente": "Municipalidad",
+          "numero": "DOC-EB43CF",
+          "fecha": "2019-01-01",
+          "titulo": "Ordenanza del Plan Regulador Comunal de Mariquina",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "obras_urbanismo",
+          "source_listing_url": "https://munimariquina.cl/estudio-moficacion-plan-regulador/",
+          "target_url": "https://munimariquina.cl/wp-content/uploads/2022/05/ORDENANZA_PRC_MARIQUINA_NOV_2019.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://munimariquina.cl/wp-content/uploads/2022/05/ORDENANZA_PRC_MARIQUINA_NOV_2019.pdf",
+            "content_type": "application/pdf",
+            "sha256": "eb43cf86e2eb4c358f0d2d07ef431c70d56e2f1fb632133fab7f1bbac0609242",
+            "bytes": 321938,
+            "verified_at": "2026-09-16T13:10:00Z"
           },
           "rdf_url": null
         },
@@ -103701,7 +104112,7 @@
           "estado": "Vigente / LeyChile"
         }
       ],
-      "municipal_count": 1
+      "municipal_count": 4
     },
     {
       "region_id": "14",
@@ -112585,7 +112996,7 @@
       "comuna": "Chaitén",
       "bcn_count": 1,
       "cplt_count": 0,
-      "total_count": 2,
+      "total_count": 3,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
       "last_update": null,
@@ -112623,9 +113034,32 @@
           "rdf_url": "http://datos.bcn.cl/recurso/cl/dto/municipalidad-de-chaiten/1990-10-18/490-exento/datos.json",
           "tipo_norma": "Ordenanza Municipal",
           "estado": "Vigente / LeyChile"
+        },
+        {
+          "cplt_code": "MU036",
+          "fuente": "Diario Oficial / BCN",
+          "tipo_norma": "Ordenanza Municipal",
+          "numero": "490",
+          "fecha": "1990-10-18",
+          "titulo": "Modifica Ordenanza Municipal N° 2, de 1989 (Aseo, Limpieza y Ornato de la Comuna)",
+          "materia": "Aseo, Ornato y Medio Ambiente",
+          "materia_id": "aseo_medioambiente",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-490-EXENTO_18-OCT-1990&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=188371.1990-10-18.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-490-EXENTO_18-OCT-1990&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=188371.1990-10-18.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "639a8c327f570f0f3c582e390e04fec96f627f67131332c389efe9f28ad7f75b",
+            "bytes": 23929,
+            "verified_at": "2026-09-16T17:29:37.450075Z",
+            "local_file": "chait_n_490_1990-10-18.pdf"
+          },
+          "source_listing_url": "https://www.bcn.cl/leychile/",
+          "rdf_url": null
         }
       ],
-      "municipal_count": 1
+      "municipal_count": 2
     },
     {
       "region_id": "10",
@@ -114313,11 +114747,80 @@
       "comuna": "O Higgins",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 1,
+      "total_count": 4,
       "pdfs_count": 0,
       "status": "Municipalidad verificada",
       "last_update": null,
       "ordenanzas": [
+        {
+          "cplt_code": "MU187",
+          "fuente": "Diario Oficial / BCN",
+          "tipo_norma": "Ordenanza Municipal",
+          "numero": "894",
+          "fecha": "2024-12-21",
+          "titulo": "Aprueba Ordenanza Municipal Medioambiental de la comuna de O'Higgins",
+          "materia": "Aseo, Ornato y Medio Ambiente",
+          "materia_id": "aseo_medioambiente",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-894_21-DIC-2024&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1209613.2024-12-21.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-894_21-DIC-2024&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1209613.2024-12-21.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "173f3307ed10df58fffc5aef2d7af71d612eaa10aa20ea4fe6879bf35f644269",
+            "bytes": 46884,
+            "verified_at": "2026-09-16T17:29:26.905819Z",
+            "local_file": "o_higgins_894_2024-12-21.pdf"
+          },
+          "source_listing_url": "https://www.bcn.cl/leychile/",
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU187",
+          "fuente": "Diario Oficial / BCN",
+          "tipo_norma": "Ordenanza Municipal",
+          "numero": "877",
+          "fecha": "2024-10-30",
+          "titulo": "Aprueba Ordenanza local sobre utilización de lugares de uso público, prohibiciones",
+          "materia": "Seguridad y Convivencia",
+          "materia_id": "seguridad_convivencia",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-877_30-OCT-2024&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1207875.2024-10-30.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-877_30-OCT-2024&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1207875.2024-10-30.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "101f7441edc462cee40b73c6a5b0bd18ed2f5c935a59230d34291760993e6e11",
+            "bytes": 47819,
+            "verified_at": "2026-09-16T17:29:29.434957Z",
+            "local_file": "o_higgins_877_2024-10-30.pdf"
+          },
+          "source_listing_url": "https://www.bcn.cl/leychile/",
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU187",
+          "fuente": "Diario Oficial / BCN",
+          "tipo_norma": "Ordenanza Municipal",
+          "numero": "330",
+          "fecha": "2024-07-19",
+          "titulo": "Aprueba Ordenanza Municipal sobre funcionamiento de ferias libres",
+          "materia": "Comercio, Alcoholes y Ferias",
+          "materia_id": "comercio_alcoholes_ferias",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-330_19-JUL-2024&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1214050.2024-07-19.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-330_19-JUL-2024&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1214050.2024-07-19.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "5e768f3e35e1d3b4e063ce4eca14f20fc7cd38c5d627d1eb23405b5630deffaa",
+            "bytes": 23974,
+            "verified_at": "2026-09-16T17:29:34.806144Z",
+            "local_file": "o_higgins_330_2024-07-19.pdf"
+          },
+          "source_listing_url": "https://www.bcn.cl/leychile/",
+          "rdf_url": null
+        },
         {
           "cplt_code": "MU_o higgins",
           "fuente": "Municipalidad",
@@ -114340,7 +114843,7 @@
           "rdf_url": null
         }
       ],
-      "municipal_count": 1
+      "municipal_count": 4
     },
     {
       "region_id": "11",
@@ -115678,7 +116181,7 @@
       "comuna": "Cabo de Hornos",
       "bcn_count": 7,
       "cplt_count": 0,
-      "total_count": 8,
+      "total_count": 10,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
       "last_update": null,
@@ -115702,6 +116205,29 @@
             "bytes": 3540715,
             "verified_at": "2026-08-30T17:00:11.996468+00:00"
           },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU017",
+          "fuente": "Municipalidad",
+          "tipo_norma": "Ordenanza Municipal",
+          "numero": "473",
+          "fecha": "2024-08-23",
+          "titulo": "Fija texto modificado de la Ordenanza de Derechos Municipales por Concesiones, Permisos y Servicios",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "target_url": "https://www.imcabodehornos.cl/jsmallfib_top/Actos%20y%20Resoluciones/Decretos%20Municipales/2024/agosto/D%20473.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.imcabodehornos.cl/jsmallfib_top/Actos%20y%20Resoluciones/Decretos%20Municipales/2024/agosto/D%20473.pdf",
+            "content_type": "application/pdf",
+            "sha256": "04e069021e1c5bab4cf2c7fb07214e9dcf81f0d1a88591d5886cccb487dffb9a",
+            "bytes": 7227399,
+            "verified_at": "2026-09-16T17:29:38.302661Z",
+            "local_file": "cabo_de_hornos_473_2024-08-23.pdf"
+          },
+          "source_listing_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU017/AR/AREST",
           "rdf_url": null
         },
         {
@@ -115783,6 +116309,29 @@
           "estado": "Vigente / LeyChile"
         },
         {
+          "cplt_code": "MU017",
+          "fuente": "Diario Oficial / BCN",
+          "tipo_norma": "Ordenanza Municipal",
+          "numero": "194",
+          "fecha": "1988-02-08",
+          "titulo": "Aprueba Plan Regulador Comunal de Navarino, Localidad de Puerto Williams",
+          "materia": "Plan Regulador y Obras",
+          "materia_id": "urbanismo_obras",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-194_08-FEB-1988&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=20084.1988-02-08.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-194_08-FEB-1988&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=20084.1988-02-08.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "064ce81dbc256036c3fcd14ef72349029476ff0dcc3479ed34bc93bd55b943b4",
+            "bytes": 23791,
+            "verified_at": "2026-09-16T17:29:43.284410Z",
+            "local_file": "cabo_de_hornos_194_1988-02-08.pdf"
+          },
+          "source_listing_url": "https://www.bcn.cl/leychile/",
+          "rdf_url": null
+        },
+        {
           "fuente": "BCN",
           "numero": "60",
           "fecha": "1988-01-07",
@@ -115796,7 +116345,7 @@
           "estado": "Vigente / LeyChile"
         }
       ],
-      "municipal_count": 1
+      "municipal_count": 3
     },
     {
       "region_id": "12",
@@ -116425,7 +116974,7 @@
       "badge_bg": "bg-indigo-500/10",
       "badge_text": "text-indigo-400",
       "badge_border": "border-indigo-500/30",
-      "count": 2825
+      "count": 2832
     },
     {
       "id": "comercio_alcoholes",
@@ -116445,7 +116994,7 @@
       "badge_bg": "bg-emerald-500/10",
       "badge_text": "text-emerald-400",
       "badge_border": "border-emerald-500/30",
-      "count": 198
+      "count": 201
     },
     {
       "id": "transito_transporte",
@@ -116475,7 +117024,7 @@
       "badge_bg": "bg-rose-500/10",
       "badge_text": "text-rose-400",
       "badge_border": "border-rose-500/30",
-      "count": 17
+      "count": 19
     },
     {
       "id": "mascotas_animales",
@@ -116515,7 +117064,7 @@
       "badge_bg": "bg-zinc-800",
       "badge_text": "text-zinc-400",
       "badge_border": "border-zinc-700",
-      "count": 2661
+      "count": 2664
     }
   ],
   "public_scope": {
@@ -116528,7 +117077,7 @@
       "CPLT"
     ],
     "quarantined_records": 0,
-    "verified_municipal_records": 1406,
+    "verified_municipal_records": 1431,
     "reason": "Las referencias CPLT manuales sin evidencia se mantienen en cuarentena. Solo se publican documentos municipales con listado oficial, PDF resoluble y huella SHA-256 verificada."
   }
 }

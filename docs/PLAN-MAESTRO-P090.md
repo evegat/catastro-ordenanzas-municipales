@@ -1,5 +1,7 @@
 # Plan maestro P090: corpus, RAG, experiencia pública y analítica
 
+> **Revisión 2026-09-15:** ver [estado y reentrada](ESTADO-Y-REENTRADA-P090.md) para evidencia local vigente y prioridades. El contenido inferior conserva el plan o reporte histórico; sus cifras y pruebas no se revalidan por esta actualización. Proyecto en evolución.
+
 Fecha: 2026-09-08. Estado: **plan listo para ejecución; implementación pendiente**.
 Task ID: `P090-20260908-plan-publico`.
 Base revisada: `34a1034893564e6c1d6a96cb487d020cb87c130a` (main).

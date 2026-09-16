@@ -1,5 +1,7 @@
 # Handoff para Antigravity — P090
 
+> **Revisión 2026-09-15:** ver [estado y reentrada](ESTADO-Y-REENTRADA-P090.md) para evidencia local vigente y prioridades. El contenido inferior conserva el plan o reporte histórico; sus cifras y pruebas no se revalidan por esta actualización. Proyecto en evolución.
+
 Fecha: 2026-09-08.
 Task ID: `P090-20260908-plan-publico`.
 Integration owner: Eduardo Vega.

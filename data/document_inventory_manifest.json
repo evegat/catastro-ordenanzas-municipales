@@ -1,13 +1,13 @@
 {
   "task_id": "P090-20260908-plan-publico-02",
-  "generated_at": "2026-09-13T20:19:24.960155+00:00",
+  "generated_at": "2026-09-16T17:33:29.666153+00:00",
   "status_data": {
     "updated_at": "2026-08-25T22:49:10.579553",
     "declared_metrics": {
       "total_comunas": 346,
       "comunas_con_datos": 346,
       "total_regiones": 16,
-      "total_ordenanzas": 7287,
+      "total_ordenanzas": 7312,
       "ordenanzas_bcn": 5881,
       "ordenanzas_cplt": 0,
       "pdfs_descargados": 0,
@@ -16,66 +16,87 @@
         "bloqueos_ip": 0,
         "user_agents_rotados": 12
       },
-      "ordenanzas_municipales_verificadas": 1406,
+      "ordenanzas_municipales_verificadas": 1431,
       "cplt_en_cuarentena": 0
     },
     "total_comunas": 346,
-    "total_records_in_comunas": 7287,
+    "total_records_in_comunas": 7312,
     "fuentes_desglose": {
-      "Municipalidad": 1395,
+      "Municipalidad": 1409,
       "BCN": 5881,
-      "Diario Oficial / BCN": 10,
+      "Diario Oficial / BCN": 21,
       "BCN / LeyChile": 1
     },
-    "registros_con_sha256_remoto": 1406,
-    "comunas_1_norma_count": 4,
+    "registros_con_sha256_remoto": 1431,
+    "comunas_1_norma_count": 3,
     "comunas_1_norma": [
       "Pencahue",
       "Cholchol",
-      "O Higgins",
       "Antártica"
     ],
-    "comunas_2_normas_count": 9,
+    "comunas_2_normas_count": 4,
     "comunas_2_normas": [
       "Camiña",
       "Paiguano",
       "Pumanque",
-      "Chillán Viejo",
-      "Alto Biobío",
-      "Nueva Imperial",
-      "Lanco",
-      "Chaitén",
       "Timaukel"
     ],
-    "comunas_3_normas_count": 6,
+    "comunas_3_normas_count": 5,
     "comunas_3_normas": [
-      "Freirina",
-      "Punitaqui",
       "San Rafael",
       "Ñiquén",
+      "Nueva Imperial",
       "Máfil",
-      "Mariquina"
+      "Chaitén"
     ],
-    "comunas_baja_densidad_1_3_count": 19
+    "comunas_baja_densidad_1_3_count": 12
   },
   "municipal_verified": {
-    "generated_at": "2026-08-30T18:59:13.859161+00:00",
-    "declared_count": 1406,
-    "actual_records_count": 1406,
-    "unique_comunas_count": 215,
-    "unique_sha256_count": 1406
+    "generated_at": "2026-09-16T17:30:47.797314Z",
+    "declared_count": 1431,
+    "actual_records_count": 1431,
+    "unique_comunas_count": 219,
+    "unique_sha256_count": 1431
   },
   "physical_pdfs": {
     "path": "D:\\Proyectos\\P090 - Catastro Ordenanzas Municipales BCN\\data\\official_pdfs",
-    "count": 10,
+    "count": 26,
     "files": [
+      {
+        "filename": "_iqu_n_COBROS-2021_2021-01-01.pdf",
+        "bytes": 1207463
+      },
+      {
+        "filename": "_iqu_n_PRC-2024_2024-01-01.pdf",
+        "bytes": 306510
+      },
       {
         "filename": "bulnes_norma_oficial.pdf",
         "bytes": 123569
       },
       {
+        "filename": "cabo_de_hornos_194_1988-02-08.pdf",
+        "bytes": 23791
+      },
+      {
+        "filename": "cabo_de_hornos_473_2024-08-23.pdf",
+        "bytes": 7227399
+      },
+      {
         "filename": "canela_norma_oficial.pdf",
         "bytes": 165227
+      },
+      {
+        "filename": "chait_n_490_1990-10-18.pdf",
+        "bytes": 23929
+      },
+      {
+        "filename": "chill_n_viejo_1838_2009-11-14.pdf",
+        "bytes": 23998
+      },
+      {
+        "filename": "chill_n_viejo_1_1995-01-26.pdf",
+        "bytes": 23749
       },
       {
         "filename": "cholchol_norma_oficial.pdf",
@@ -90,8 +111,32 @@
         "bytes": 61937
       },
       {
+        "filename": "freirina_3095_2019-11-04.pdf",
+        "bytes": 23995
+      },
+      {
+        "filename": "freirina_4_2017-10-18.pdf",
+        "bytes": 23860
+      },
+      {
         "filename": "negrete_norma_oficial.pdf",
         "bytes": 61648
+      },
+      {
+        "filename": "nueva_imperial_401_1992-01-28.pdf",
+        "bytes": 54767
+      },
+      {
+        "filename": "o_higgins_330_2024-07-19.pdf",
+        "bytes": 23974
+      },
+      {
+        "filename": "o_higgins_877_2024-10-30.pdf",
+        "bytes": 47819
+      },
+      {
+        "filename": "o_higgins_894_2024-12-21.pdf",
+        "bytes": 46884
       },
       {
         "filename": "palena_norma_oficial.pdf",
@@ -100,6 +145,18 @@
       {
         "filename": "puerto octay_norma_oficial.pdf",
         "bytes": 122273
+      },
+      {
+        "filename": "pumanque_290_2020-02-18.pdf",
+        "bytes": 26176
+      },
+      {
+        "filename": "punitaqui_2369_2010-12-15.pdf",
+        "bytes": 46540
+      },
+      {
+        "filename": "punitaqui_617_2004-08-26.pdf",
+        "bytes": 25403
       },
       {
         "filename": "rio negro_norma_oficial.pdf",
@@ -135,7 +192,7 @@
     "canonical_total_records": 7226,
     "bcn_records": 5881,
     "municipal_verified_remote_records": 1345,
-    "physical_local_pdfs_count": 10,
+    "physical_local_pdfs_count": 26,
     "physical_local_text_files_count": 19,
     "territorial_communes_total": 346,
     "territorial_communes_represented": 346,

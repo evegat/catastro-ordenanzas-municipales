@@ -1,7 +1,9 @@
 # Backlog ejecutable P090
 
+> **Revisión 2026-09-15:** ver [estado y reentrada](ESTADO-Y-REENTRADA-P090.md) para evidencia local vigente y prioridades. El contenido inferior conserva el plan o reporte histórico; sus cifras y pruebas no se revalidan por esta actualización. Proyecto en evolución.
+
 Task ID padre: `P090-20260908-plan-publico`. Fecha: 2026-09-08.
-Todos los paquetes están **pendientes**. Este archivo describe trabajo; no acredita implementación.
+Los paquetes 01–02 tienen avances, pero requieren cierre de verificación: documentación conciliada, conclusiones del manifiesto desactualizadas y exportaciones pendientes de comparación completa. Los demás paquetes conservan alcance planificado, sin cierre verificado en esta revisión. Ver pendientes DOC-01 a DOC-06 en la guía de reentrada.
 Cada paquete usa `P090-20260908-plan-publico-NN` como identificador estable. Si hay Issue canónico, conservar ese identificador y registrar su URL antes de integrar; no crear Issues externos sin autorización vigente.
 
 Consultar [plan maestro](PLAN-MAESTRO-P090.md) y [handoff](HANDOFF-ANTIGRAVITY-P090.md).

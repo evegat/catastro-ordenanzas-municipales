@@ -1,0 +1,165 @@
+{
+  "generated_at": "2026-09-16T16:15:44+00:00",
+  "results": [
+    {
+      "cplt_code": "MU003",
+      "organism_name": "Municipalidad de Alto Biobío",
+      "municipality_key": "alto biobio",
+      "ta_status": "portal",
+      "ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU003",
+      "sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=6a50eeba9e14b68320bf5214aa0db230",
+      "directory_url": "https://www.consejotransparencia.cl/transparencia_activa/datoabierto/archivos/lista_enlaces_banner_sai.html",
+      "probes": [
+        {
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU003",
+          "status_code": 403,
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU003",
+          "content_type": "text/html",
+          "ok": false
+        },
+        {
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU003",
+          "status_code": 403,
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU003",
+          "content_type": "text/html",
+          "ok": false
+        },
+        {
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU003/PDO/AD",
+          "status_code": 403,
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU003/PDO/AD",
+          "content_type": "text/html",
+          "ok": false
+        }
+      ]
+    },
+    {
+      "cplt_code": "MU044",
+      "organism_name": "Municipalidad de Chimbarongo",
+      "municipality_key": "chimbarongo",
+      "ta_status": "portal",
+      "ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU044",
+      "sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=3e534f12b2a9c3fcf4e3d51e9a0396fd",
+      "directory_url": "https://www.consejotransparencia.cl/transparencia_activa/datoabierto/archivos/lista_enlaces_banner_sai.html",
+      "probes": [
+        {
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU044",
+          "status_code": 403,
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU044",
+          "content_type": "text/html",
+          "ok": false
+        },
+        {
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU044",
+          "status_code": 403,
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU044",
+          "content_type": "text/html",
+          "ok": false
+        },
+        {
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU044/PDO/AD",
+          "status_code": 403,
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU044/PDO/AD",
+          "content_type": "text/html",
+          "ok": false
+        }
+      ]
+    },
+    {
+      "cplt_code": "MU045",
+      "organism_name": "Municipalidad de Cholchol",
+      "municipality_key": "cholchol",
+      "ta_status": "portal",
+      "ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU045",
+      "sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=8bc0ff13f1adc924808e9e7418cc6254",
+      "directory_url": "https://www.consejotransparencia.cl/transparencia_activa/datoabierto/archivos/lista_enlaces_banner_sai.html",
+      "probes": [
+        {
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU045",
+          "status_code": 403,
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU045",
+          "content_type": "text/html",
+          "ok": false
+        },
+        {
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU045",
+          "status_code": 403,
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU045",
+          "content_type": "text/html",
+          "ok": false
+        },
+        {
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU045/PDO/AD",
+          "status_code": 403,
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU045/PDO/AD",
+          "content_type": "text/html",
+          "ok": false
+        }
+      ]
+    },
+    {
+      "cplt_code": "MU184",
+      "organism_name": "Municipalidad de Nueva Imperial",
+      "municipality_key": "nueva imperial",
+      "ta_status": "portal",
+      "ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU184",
+      "sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=5fcafdcb2d1746a29598fd1232f5393f",
+      "directory_url": "https://www.consejotransparencia.cl/transparencia_activa/datoabierto/archivos/lista_enlaces_banner_sai.html",
+      "probes": [
+        {
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU184",
+          "status_code": 403,
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU184",
+          "content_type": "text/html",
+          "ok": false
+        },
+        {
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU184",
+          "status_code": 403,
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU184",
+          "content_type": "text/html",
+          "ok": false
+        },
+        {
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU184/PDO/AD",
+          "status_code": 403,
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU184/PDO/AD",
+          "content_type": "text/html",
+          "ok": false
+        }
+      ]
+    },
+    {
+      "cplt_code": "MU209",
+      "organism_name": "Municipalidad de Pencahue",
+      "municipality_key": "pencahue",
+      "ta_status": "portal",
+      "ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU209",
+      "sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=4aac8ffeab4be802b1ee95d0041da1ad",
+      "directory_url": "https://www.consejotransparencia.cl/transparencia_activa/datoabierto/archivos/lista_enlaces_banner_sai.html",
+      "probes": [
+        {
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU209",
+          "status_code": 403,
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU209",
+          "content_type": "text/html",
+          "ok": false
+        },
+        {
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU209",
+          "status_code": 403,
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU209",
+          "content_type": "text/html",
+          "ok": false
+        },
+        {
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU209/PDO/AD",
+          "status_code": 403,
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU209/PDO/AD",
+          "content_type": "text/html",
+          "ok": false
+        }
+      ]
+    }
+  ]
+}
