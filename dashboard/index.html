@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Catastro & Comparador de Ordenanzas Municipales de Chile | Vista Previa v3</title>
+  <!-- Umami Analytics (Instancia Privada MyWorld) -->
+  <script defer src="https://analytics.evegat.cl/script.js" data-website-id="16c4adb8-d37b-468c-8805-1e1a26ea5590"></script>
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <!-- Google Fonts: Inter & JetBrains Mono -->
@@ -75,11 +77,11 @@
 
       <!-- Quick Actions Header -->
       <div class="flex items-center gap-2.5">
-        <button onclick="openDownloadRequestModal('xlsx')" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-sky-600 hover:bg-sky-500 text-white text-xs font-semibold transition-all shadow-sm">
+        <button onclick="openDownloadRequestModal('xlsx')" data-umami-event="solicitar_excel" data-umami-event-location="header" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-sky-600 hover:bg-sky-500 text-white text-xs font-semibold transition-all shadow-sm">
           <i data-lucide="file-spreadsheet" class="w-3.5 h-3.5"></i>
           <span>Solicitar Excel</span>
         </button>
-        <button onclick="switchTab('mapa')" class="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-[#153b70] hover:bg-[#1f5091] border border-[#1f5091] text-zinc-200 text-xs font-medium transition-all">
+        <button onclick="switchTab('mapa')" data-umami-event="ver_mapa" data-umami-event-location="header" class="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-[#153b70] hover:bg-[#1f5091] border border-[#1f5091] text-zinc-200 text-xs font-medium transition-all">
           <i data-lucide="map" class="w-3.5 h-3.5 text-rose-400"></i>
           <span>Ver Mapa</span>
         </button>
@@ -112,7 +114,7 @@
             onkeydown="handleHeroSearchKey(event)"
             class="w-full bg-transparent border-0 px-3 py-2.5 text-sm text-white placeholder-zinc-400 focus:outline-none"
           />
-          <button onclick="executeHeroSearch()" class="px-5 py-2.5 bg-sky-600 hover:bg-sky-500 text-white rounded-xl text-xs font-semibold transition-colors shrink-0 flex items-center gap-1.5">
+          <button onclick="executeHeroSearch()" data-umami-event="buscar_ordenanza" data-umami-event-location="hero" class="px-5 py-2.5 bg-sky-600 hover:bg-sky-500 text-white rounded-xl text-xs font-semibold transition-colors shrink-0 flex items-center gap-1.5">
             <span>Buscar</span>
             <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
           </button>
