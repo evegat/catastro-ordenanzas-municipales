@@ -135,6 +135,12 @@ def recalculate_metrics(public: dict, quarantined: int) -> None:
             comuna["status"] = "Sin registros verificados"
 
         for ord_ in ordinances:
+            target = ord_.get("target_url") or ""
+            if target.startswith("http://"):
+                ord_["target_url"] = "https://" + target[7:]
+            rdf = ord_.get("rdf_url") or ""
+            if rdf.startswith("http://"):
+                ord_["rdf_url"] = "https://" + rdf[7:]
             materia = ord_.get("materia") or "Normativa General y Otras Materias"
             topic_counts[materia] = topic_counts.get(materia, 0) + 1
 
@@ -146,6 +152,7 @@ def recalculate_metrics(public: dict, quarantined: int) -> None:
     metrics["total_ordenanzas"] = total
     metrics["comunas_con_datos"] = comunas_con_datos
     metrics["cplt_en_cuarentena"] = quarantined
+    metrics["cobertura_nacional_pct"] = round((comunas_con_datos / len(public.get("comunas", []))) * 100, 2) if public.get("comunas") else 0.0
 
     for topic in public.get("topics", []) or []:
         topic["count"] = topic_counts.get(topic.get("nombre", ""), 0)
@@ -164,6 +171,13 @@ def recalculate_metrics(public: dict, quarantined: int) -> None:
     }
 
 
+def normalize_public_url(url: str) -> str:
+    url = str(url or "").strip()
+    if url.startswith("http://"):
+        return "https://" + url[7:]
+    return url
+
+
 def iter_public_rows(data: dict):
     for comuna in data.get("comunas", []) or []:
         for ord_ in comuna.get("ordenanzas", []) or []:
@@ -177,10 +191,10 @@ def iter_public_rows(data: dict):
                 "fecha": ord_.get("fecha", ""),
                 "titulo": ord_.get("titulo", ""),
                 "materia": ord_.get("materia", ""),
-                "url": ord_.get("target_url", ""),
-                "source_listing_url": ord_.get("source_listing_url", ""),
+                "url": normalize_public_url(ord_.get("target_url", "")),
+                "source_listing_url": normalize_public_url(ord_.get("source_listing_url", "")),
                 "sha256": verification.get("sha256", ""),
-                "rdf_url": ord_.get("rdf_url", ""),
+                "rdf_url": normalize_public_url(ord_.get("rdf_url", "")),
             }
 
 

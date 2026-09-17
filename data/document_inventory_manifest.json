@@ -1,6 +1,6 @@
 {
   "task_id": "P090-20260908-plan-publico-02",
-  "generated_at": "2026-09-16T17:33:29.666153+00:00",
+  "generated_at": "2026-09-17T21:51:55.651829+00:00",
   "status_data": {
     "updated_at": "2026-08-25T22:49:10.579553",
     "declared_metrics": {
@@ -17,7 +17,8 @@
         "user_agents_rotados": 12
       },
       "ordenanzas_municipales_verificadas": 1431,
-      "cplt_en_cuarentena": 0
+      "cplt_en_cuarentena": 0,
+      "cobertura_nacional_pct": 100.0
     },
     "total_comunas": 346,
     "total_records_in_comunas": 7312,

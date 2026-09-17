@@ -1,7 +1,7 @@
 # Inventario Documental y Conciliación de Cifras — P090
 
 - **Task ID:** `P090-20260908-plan-publico-02`
-- **Fecha de corte:** 2026-09-16
+- **Fecha de corte:** 2026-09-17
 - **Estado:** Completado sin LLM mediante inspección física y sintáctica determinista.
 
 ---
