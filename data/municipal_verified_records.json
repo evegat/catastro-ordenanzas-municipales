@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T17:30:47.797314Z",
+  "generated_at": "2026-09-17T19:14:50.150654Z",
   "policy": "official-listing + resolvable-pdf + sha256 + canonical-legal-act",
   "evidence_runs": [
     {
@@ -15,7 +15,7 @@
       "artifact_id": 9705327141
     }
   ],
-  "count": 1431,
+  "count": 1440,
   "records": [
     {
       "comuna": "Las Condes",
@@ -27364,28 +27364,6 @@
       }
     },
     {
-      "comuna": "Pumanque",
-      "region_id": "06",
-      "cplt_code": "MU_pumanque",
-      "fuente": "Municipalidad",
-      "numero": "290",
-      "fecha": "2020-02-18",
-      "titulo": "Ordenanza sobre Derechos Municipales por Concesiones, Permisos y Servicios",
-      "materia": "Derechos Municipales y Tarifas",
-      "materia_id": "derechos_tarifas",
-      "source_listing_url": "https://munipumanque.cl/transparencia/",
-      "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-290_18-FEB-2020&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1142100.2020-02-18.0.0%23",
-      "verification": {
-        "status": "verified",
-        "http_status": 200,
-        "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-290_18-FEB-2020&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1142100.2020-02-18.0.0%23",
-        "content_type": "application/pdf",
-        "sha256": "0fec4086cb45e3f30efc8b494f19c2399ac951ec001529ae061a0724a71e4207",
-        "bytes": 26176,
-        "verified_at": "2026-08-30T18:37:09.016820+00:00"
-      }
-    },
-    {
       "comuna": "Chanco",
       "region_id": "07",
       "cplt_code": "MU_chanco",
@@ -31522,6 +31500,246 @@
         "local_file": "freirina_3095_2019-11-04.pdf"
       },
       "source_listing_url": "https://www.bcn.cl/leychile/"
+    },
+    {
+      "comuna": "Pencahue",
+      "region_id": "07",
+      "cplt_code": "MU209",
+      "fuente": "Diario Oficial / BCN",
+      "tipo_norma": "Ordenanza Municipal",
+      "numero": "RES-72",
+      "fecha": "2021-12-10",
+      "titulo": "Aprueba Plan Regulador Comunal de Pencahue y su Ordenanza Local",
+      "materia": "Plan Regulador y Obras",
+      "materia_id": "urbanismo_obras",
+      "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=RES-72_10-DIC-2021&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1168670.2021-12-10.0.0%23",
+      "source_listing_url": "https://www.bcn.cl/leychile/navegar?idNorma=1168670",
+      "verification": {
+        "status": "verified",
+        "http_status": 200,
+        "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=RES-72_10-DIC-2021&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1168670.2021-12-10.0.0%23",
+        "content_type": "application/pdf",
+        "sha256": "470cdebe42e75f57ad1a14c7a02fc60536ea47648cc06c3fa060b91b707e5b5d",
+        "bytes": 42833,
+        "verified_at": "2026-09-17T19:06:46.215925Z",
+        "local_file": "pencahue_RES-72_2021-12-10.pdf"
+      }
+    },
+    {
+      "comuna": "Pencahue",
+      "region_id": "07",
+      "cplt_code": "MU209",
+      "fuente": "Diario Oficial / BCN",
+      "tipo_norma": "Ordenanza Municipal",
+      "numero": "428",
+      "fecha": "2024-04-19",
+      "titulo": "Aprueba Enmienda al Plan Regulador Comunal de Pencahue",
+      "materia": "Plan Regulador y Obras",
+      "materia_id": "urbanismo_obras",
+      "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-428_19-ABR-2024&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1202868.2024-04-19.0.0%23",
+      "source_listing_url": "https://www.bcn.cl/leychile/navegar?idNorma=1202868",
+      "verification": {
+        "status": "verified",
+        "http_status": 200,
+        "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-428_19-ABR-2024&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1202868.2024-04-19.0.0%23",
+        "content_type": "application/pdf",
+        "sha256": "eadd0297f57905d44f822fa98df80bb2e2274069b6208334140f10c01f05e161",
+        "bytes": 24076,
+        "verified_at": "2026-09-17T19:06:48.145136Z",
+        "local_file": "pencahue_428_2024-04-19.pdf"
+      }
+    },
+    {
+      "comuna": "San Rafael",
+      "region_id": "07",
+      "cplt_code": "MU300",
+      "fuente": "Diario Oficial / BCN",
+      "tipo_norma": "Ordenanza Municipal",
+      "numero": "471",
+      "fecha": "2002-05-08",
+      "titulo": "Aprueba Ordenanza que Fija Horario de Funcionamiento de Establecimientos de Expendio de Bebidas Alcohólicas",
+      "materia": "Comercio, Alcoholes y Ferias",
+      "materia_id": "comercio_alcoholes_ferias",
+      "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-471-EXENTO_08-MAY-2002&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=200871.2002-05-08.0.0%23",
+      "source_listing_url": "https://www.bcn.cl/leychile/navegar?idNorma=200871",
+      "verification": {
+        "status": "verified",
+        "http_status": 200,
+        "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-471-EXENTO_08-MAY-2002&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=200871.2002-05-08.0.0%23",
+        "content_type": "application/pdf",
+        "sha256": "a96ce8297a6b2d3814ca5fbd77fd0d55cf7c8394d688569a9a1d703d02244a8c",
+        "bytes": 23998,
+        "verified_at": "2026-09-17T19:06:50.857986Z",
+        "local_file": "san_rafael_471_2002-05-08.pdf"
+      }
+    },
+    {
+      "comuna": "San Rafael",
+      "region_id": "07",
+      "cplt_code": "MU300",
+      "fuente": "Diario Oficial / BCN",
+      "tipo_norma": "Ordenanza Municipal",
+      "numero": "1737",
+      "fecha": "2008-11-10",
+      "titulo": "Ordenanza Local de Máquinas de Destreza en que se pueda Obtener Ganancia de Dinero para el Usuario",
+      "materia": "Comercio, Alcoholes y Ferias",
+      "materia_id": "comercio_alcoholes_ferias",
+      "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-1737-EXENTO_10-NOV-2008&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=286202.2008-11-10.0.0%23",
+      "source_listing_url": "https://www.bcn.cl/leychile/navegar?idNorma=286202",
+      "verification": {
+        "status": "verified",
+        "http_status": 200,
+        "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-1737-EXENTO_10-NOV-2008&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=286202.2008-11-10.0.0%23",
+        "content_type": "application/pdf",
+        "sha256": "3a98fe2daf1b563711315cdfe26a2d8d8653ae402a5d9311b6bb7fd886262b60",
+        "bytes": 24255,
+        "verified_at": "2026-09-17T19:06:53.087584Z",
+        "local_file": "san_rafael_1737_2008-11-10.pdf"
+      }
+    },
+    {
+      "comuna": "Cholchol",
+      "region_id": "09",
+      "cplt_code": "MU045",
+      "fuente": "Diario Oficial / BCN",
+      "tipo_norma": "Ordenanza Municipal",
+      "numero": "133",
+      "fecha": "2006-04-22",
+      "titulo": "Ordenanza Municipal para el Cálculo de Tarifas de Aseo, Cobro y Exenciones de Pago de Cholchol",
+      "materia": "Aseo, Ornato y Medio Ambiente",
+      "materia_id": "aseo_medioambiente",
+      "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-133_22-ABR-2006&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=223847.2006-04-22.0.0%23",
+      "source_listing_url": "https://www.bcn.cl/leychile/navegar?idNorma=223847",
+      "verification": {
+        "status": "verified",
+        "http_status": 200,
+        "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-133_22-ABR-2006&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=223847.2006-04-22.0.0%23",
+        "content_type": "application/pdf",
+        "sha256": "e127d5dfff6a46396abf6828543929db3730e4bfa952d859b30f0911df74b16d",
+        "bytes": 25039,
+        "verified_at": "2026-09-17T19:06:55.317260Z",
+        "local_file": "cholchol_133_2006-04-22.pdf"
+      }
+    },
+    {
+      "comuna": "Máfil",
+      "region_id": "14",
+      "cplt_code": "MU162",
+      "fuente": "Diario Oficial / BCN",
+      "tipo_norma": "Ordenanza Municipal",
+      "numero": "1",
+      "fecha": "1997-09-10",
+      "titulo": "Dicta Ordenanza de Servicio Domiciliario de Aseo",
+      "materia": "Aseo, Ornato y Medio Ambiente",
+      "materia_id": "aseo_medioambiente",
+      "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-1_10-SEP-1997&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=75621.1997-09-10.0.0%23",
+      "source_listing_url": "https://www.bcn.cl/leychile/navegar?idNorma=75621",
+      "verification": {
+        "status": "verified",
+        "http_status": 200,
+        "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-1_10-SEP-1997&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=75621.1997-09-10.0.0%23",
+        "content_type": "application/pdf",
+        "sha256": "a6bae4702304f75daecd4199192a470d36abf95b45d2560dd2072e14749f44ca",
+        "bytes": 52548,
+        "verified_at": "2026-09-17T19:07:02.047704Z",
+        "local_file": "m_fil_1_1997-09-10.pdf"
+      }
+    },
+    {
+      "comuna": "Camiña",
+      "region_id": "01",
+      "cplt_code": "MU025",
+      "fuente": "Diario Oficial / BCN",
+      "tipo_norma": "Ordenanza Municipal",
+      "numero": "20",
+      "fecha": "1987-09-07",
+      "titulo": "Deroga Ordenanza que Indica y Dicta Nueva Ordenanza sobre Derechos por Concesiones, Permisos y Servicios",
+      "materia": "Derechos Municipales y Tarifas",
+      "materia_id": "derechos_tarifas",
+      "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-20_07-SEP-1987&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=175249.1987-09-07.0.0%23",
+      "source_listing_url": "https://www.bcn.cl/leychile/navegar?idNorma=175249",
+      "verification": {
+        "status": "verified",
+        "http_status": 200,
+        "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-20_07-SEP-1987&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=175249.1987-09-07.0.0%23",
+        "content_type": "application/pdf",
+        "sha256": "71a3d14b96ad774fc21d3884a79d0b541cdfbdf96d093c9609be7b9e44c38cb6",
+        "bytes": 24033,
+        "verified_at": "2026-09-17T19:14:35.955191Z",
+        "local_file": "cami_a_20_1987-09-07.pdf"
+      }
+    },
+    {
+      "comuna": "Paiguano",
+      "region_id": "04",
+      "cplt_code": "MU195",
+      "fuente": "Diario Oficial / BCN",
+      "tipo_norma": "Ordenanza Municipal",
+      "numero": "177",
+      "fecha": "2005-02-11",
+      "titulo": "Aprueba Ordenanza de Registro de Personas Jurídicas Receptoras de Fondos Públicos",
+      "materia": "Organización y Régimen Interno",
+      "materia_id": "organizacion_interna",
+      "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-177_11-FEB-2005&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=237731.2005-02-11.0.0%23",
+      "source_listing_url": "https://www.bcn.cl/leychile/navegar?idNorma=237731",
+      "verification": {
+        "status": "verified",
+        "http_status": 200,
+        "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-177_11-FEB-2005&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=237731.2005-02-11.0.0%23",
+        "content_type": "application/pdf",
+        "sha256": "546aa57a9e1c082471bab0041e71e3bb6bb7a9aaca2750dedb2dcae0145bfab2",
+        "bytes": 24094,
+        "verified_at": "2026-09-17T19:14:38.059218Z",
+        "local_file": "paiguano_177_2005-02-11.pdf"
+      }
+    },
+    {
+      "comuna": "Pumanque",
+      "region_id": "06",
+      "cplt_code": "MU237",
+      "fuente": "Diario Oficial / BCN",
+      "tipo_norma": "Ordenanza Municipal",
+      "numero": "105",
+      "fecha": "1991-01-04",
+      "titulo": "Aprueba Ordenanza Comunal sobre Derechos Municipales",
+      "materia": "Derechos Municipales y Tarifas",
+      "materia_id": "derechos_tarifas",
+      "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-105_04-ENE-1991&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=175653.1991-01-04.0.0%23",
+      "source_listing_url": "https://www.bcn.cl/leychile/navegar?idNorma=175653",
+      "verification": {
+        "status": "verified",
+        "http_status": 200,
+        "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-105_04-ENE-1991&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=175653.1991-01-04.0.0%23",
+        "content_type": "application/pdf",
+        "sha256": "ae00f3b03c12f860bde714065a103aa13516339d4cb101ac9a5eba22620e5623",
+        "bytes": 23996,
+        "verified_at": "2026-09-17T19:14:40.069325Z",
+        "local_file": "pumanque_105_1991-01-04.pdf"
+      }
+    },
+    {
+      "comuna": "Cabo de Hornos",
+      "region_id": "12",
+      "cplt_code": "MU017",
+      "fuente": "Diario Oficial / BCN",
+      "tipo_norma": "Ordenanza Municipal",
+      "numero": "110",
+      "fecha": "2017-05-02",
+      "titulo": "Ordenanza sobre Derechos Municipales Comuna Cabo de Hornos y Antártica",
+      "materia": "Derechos Municipales y Tarifas",
+      "materia_id": "derechos_tarifas",
+      "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-110_02-MAY-2017&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1104100.2017-05-02.0.0%23",
+      "source_listing_url": "https://www.bcn.cl/leychile/navegar?idNorma=1104100",
+      "verification": {
+        "status": "verified",
+        "http_status": 200,
+        "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-110_02-MAY-2017&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1104100.2017-05-02.0.0%23",
+        "content_type": "application/pdf",
+        "sha256": "cf92111ebc180c5bbee65445496f76b9b6e2c5798faf2f880d5a91e0ade2d29d",
+        "bytes": 24059,
+        "verified_at": "2026-09-17T19:14:48.917210Z",
+        "local_file": "cabo_de_hornos_110_2017-05-02.pdf"
+      }
     }
   ]
 }

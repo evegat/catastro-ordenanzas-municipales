@@ -1,9 +1,9 @@
 {
   "corpus_name": "Chilean Municipal Ordinances Markdown Corpus (P090)",
   "version": "1.0.0",
-  "generated_at": "2026-09-17T18:51:11.917150Z",
-  "total_documents": 7312,
-  "documents_with_full_text": 25,
+  "generated_at": "2026-09-17T20:07:54.429515Z",
+  "total_documents": 7321,
+  "documents_with_full_text": 359,
   "documents": [
     {
       "id": "p090_arica_02_2026-01-01",
@@ -1706,7 +1706,7 @@
       "materia": "Aseo, Ornato y Medio Ambiente",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/01_tarapaca/alto_hospicio/2026-01-01_doc_fc0c29.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "fc0c292a438a4adc38fc62947eb58f01bb848f19689420e7f0e4f6af19645910"
     },
     {
@@ -1718,7 +1718,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/01_tarapaca/alto_hospicio/2026-01-01_20.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "97aebdb7b8f8d1ac9774787553eb9e0a77b4554adef37dee96e36548095937ba"
     },
     {
@@ -2140,6 +2140,18 @@
       "path": "data/markdown_corpus/01_tarapaca/camina/1987-09-07_20.md",
       "has_full_text": false,
       "sha256": ""
+    },
+    {
+      "id": "p090_camina_20_1987-09-07",
+      "comuna": "Camiña",
+      "region": "Tarapacá",
+      "numero": "20",
+      "fecha": "1987-09-07",
+      "materia": "Derechos Municipales y Tarifas",
+      "fuente": "Diario Oficial / BCN",
+      "path": "data/markdown_corpus/01_tarapaca/camina/1987-09-07_20.md",
+      "has_full_text": true,
+      "sha256": "71a3d14b96ad774fc21d3884a79d0b541cdfbdf96d093c9609be7b9e44c38cb6"
     },
     {
       "id": "p090_colchane_2_2011-03-01",
@@ -4070,7 +4082,7 @@
       "materia": "Derechos Municipales y Tarifas",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/02_antofagasta/ollague/2026-01-01_443.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "2bcd9c9f9d3f19bc137106b84f2d387dc7dbf637c7bc511eec1d0547b82b027f"
     },
     {
@@ -4082,7 +4094,7 @@
       "materia": "Patentes, Comercio y Alcoholes",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/02_antofagasta/ollague/2026-01-01_s_n_52c2.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "52c2997998757549b51aa44192b722eb87acef4f53d182ff79c4af76eed7f653"
     },
     {
@@ -4094,7 +4106,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/02_antofagasta/ollague/2026-01-01_s_n_6206.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "620698bfd2a432802b1727a028575e3926e762feaefd3a92bc577182ff075dc8"
     },
     {
@@ -4106,7 +4118,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/02_antofagasta/ollague/2026-01-01_s_n_1e12.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "1e120251da0cc08201410f7f4e777f2af622a93b5d8a48f3a45296d9525420cd"
     },
     {
@@ -4118,7 +4130,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/02_antofagasta/ollague/2026-01-01_s_n_42af.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "42afb4ae9743a7a6ef4781aa5a4a4852617d92fd262b7a84ba8dae7481d50690"
     },
     {
@@ -4130,7 +4142,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/02_antofagasta/ollague/2026-01-01_s_n_b0f8.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "b0f80a064fdc4cf7a41ddb78dd13c46550809d2ebe7927a36152e51ac9f5bd4b"
     },
     {
@@ -4142,7 +4154,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/02_antofagasta/ollague/2026-01-01_s_n_25c7.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "25c7ce526ca6f89d3b7904f9131ee03ea111c969cec21e4f4dcafc4d9ea1ffab"
     },
     {
@@ -4154,7 +4166,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/02_antofagasta/ollague/2023-01-01_172.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "bb93b2bb3230af5121f86b015fd07876572397595d8913e8d5164d4a82e3d87b"
     },
     {
@@ -4166,7 +4178,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/02_antofagasta/ollague/2023-01-01_173.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "16bc58c7e6eeb3d7d41117c3b763ede49e06cd3179b8942afbf09cbc785f1bd3"
     },
     {
@@ -4250,7 +4262,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/02_antofagasta/ollague/2018-01-01_1122.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "59d4c07988cefa03196fac7a1e478dddba2672367910974fa74a9f8128305f16"
     },
     {
@@ -4934,7 +4946,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/02_antofagasta/maria_elena/2026-01-01_s_n_c15d.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "c15d450cf6fb799593d4eb2a0de748f88e0fa6d95afc9611072f8989123a9e24"
     },
     {
@@ -4946,7 +4958,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/02_antofagasta/maria_elena/2026-01-01_s_n_adbf.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "adbf38d8459fc88dfb68fdb1a3e793372253e022f18a2ddc1b0bf542f6ba11dc"
     },
     {
@@ -4958,7 +4970,7 @@
       "materia": "Patentes, Comercio y Alcoholes",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/02_antofagasta/maria_elena/2026-01-01_s_n_59cc.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "59cc75de774c7ab4673fe596194548e8ba1844ac6ddd306aef7373982b5a1c89"
     },
     {
@@ -5630,7 +5642,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/03_atacama/chanaral/2026-01-01_19.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "4c5e5a966c5633c3c198afc03add39088bc80fa235e0d660134a5eee7c975945"
     },
     {
@@ -6710,7 +6722,7 @@
       "materia": "Tenencia Responsable de Mascotas",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/03_atacama/huasco/2026-01-01_s_n_0c0f.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "0c0f66daea91bc293dbff7c149e7a2234101b15be63326bba94bb556f69c609d"
     },
     {
@@ -8006,7 +8018,7 @@
       "materia": "Aseo, Ornato y Medio Ambiente",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/04_coquimbo/la_higuera/2026-01-01_s_n_a90c.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "a90c21f9b3d24620f8c56377c90102a80c68c84c9d829de26547305cc50c9e08"
     },
     {
@@ -8090,8 +8102,20 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "BCN",
       "path": "data/markdown_corpus/04_coquimbo/paiguano/2005-02-11_177.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": ""
+    },
+    {
+      "id": "p090_paiguano_177_2005-02-11",
+      "comuna": "Paiguano",
+      "region": "Coquimbo",
+      "numero": "177",
+      "fecha": "2005-02-11",
+      "materia": "Organización y Régimen Interno",
+      "fuente": "Diario Oficial / BCN",
+      "path": "data/markdown_corpus/04_coquimbo/paiguano/2005-02-11_177.md",
+      "has_full_text": true,
+      "sha256": "546aa57a9e1c082471bab0041e71e3bb6bb7a9aaca2750dedb2dcae0145bfab2"
     },
     {
       "id": "p090_vicuna_807_2012-07-19",
@@ -8270,7 +8294,7 @@
       "materia": "Patentes, Comercio y Alcoholes",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/04_coquimbo/illapel/2026-01-01_doc_030a81.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "030a81f7b55b75330b2e903fc24da90f2a4366a13da76706eaa02e4907cd1cac"
     },
     {
@@ -8282,7 +8306,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/04_coquimbo/illapel/2026-01-01_s_n_c69c.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "c69cdc5ee74ef0f2bb5a704e11f34cbb8d4e8291dd9df30fd8b8a22da503823a"
     },
     {
@@ -10142,7 +10166,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/04_coquimbo/rio_hurtado/2011-01-01_doc_0b8beb.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "0b8beb7d37f2326b83221352ca0320d1adddb88649ce3f8d2f3dafe6b6735526"
     },
     {
@@ -10706,7 +10730,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/concon/2026-01-01_doc_c020d7.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "c020d74e1029353d44064c4763513d52898e5e78a7ef8304566f9e78eb0b7855"
     },
     {
@@ -10886,7 +10910,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/puchuncavi/2026-01-01_doc_5ee571.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "5ee571f59595ffd73b1766c2c25bca2ad8f4c6bda2b3774bbc72391e31f4431a"
     },
     {
@@ -10898,7 +10922,7 @@
       "materia": "Aseo, Ornato y Medio Ambiente",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/puchuncavi/2026-01-01_10.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "451bbd8ebf70b73fd7daf42c4175c921c10e8b919a9942ce85df728ce0a5cdc0"
     },
     {
@@ -10910,7 +10934,7 @@
       "materia": "Aseo, Ornato y Medio Ambiente",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/puchuncavi/2026-01-01_11.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "1d2973e043506d393514ee701ed1919ebe1da671e10695a798e37e8075e65903"
     },
     {
@@ -10922,7 +10946,7 @@
       "materia": "Aseo, Ornato y Medio Ambiente",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/puchuncavi/2026-01-01_15.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "f42648967c38656a3179218bafdd985fab522baeaa31028ba2f967be89620050"
     },
     {
@@ -10934,7 +10958,7 @@
       "materia": "Aseo, Ornato y Medio Ambiente",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/puchuncavi/2026-01-01_17.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "f37e0d2473de355e0274b662cb8bd3c1b8068f3890faf8ed576fae3b605480a9"
     },
     {
@@ -10946,7 +10970,7 @@
       "materia": "Aseo, Ornato y Medio Ambiente",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/puchuncavi/2026-01-01_18.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "80592fa51c975f4d8c9eff2035beede12a2222f560e46f1ddae080b9a57f12c5"
     },
     {
@@ -10958,7 +10982,7 @@
       "materia": "Aseo, Ornato y Medio Ambiente",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/puchuncavi/2026-01-01_19.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "e1454741c34c813ce2ef9c5ee7baa8ad95fc6c1531b83969f60e56a1daf89ca0"
     },
     {
@@ -10970,7 +10994,7 @@
       "materia": "Aseo, Ornato y Medio Ambiente",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/puchuncavi/2026-01-01_2.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "f807129f75df5e3d07bec5722d7be1a3b2aa277e763cb542ab8c37889271d36c"
     },
     {
@@ -10982,7 +11006,7 @@
       "materia": "Aseo, Ornato y Medio Ambiente",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/puchuncavi/2026-01-01_21.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "3087e63501181911ef1e4bd781950faaf78be86720f52550b2582d13614f6b64"
     },
     {
@@ -10994,7 +11018,7 @@
       "materia": "Aseo, Ornato y Medio Ambiente",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/puchuncavi/2026-01-01_22.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "cb08863deda63e5f3f26a7af10374700ffca2bfcf9f4a48686da8c48f958fc40"
     },
     {
@@ -11006,7 +11030,7 @@
       "materia": "Aseo, Ornato y Medio Ambiente",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/puchuncavi/2026-01-01_24.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "8a6ba73b9fd5bab209c5eadedaba8bd1ff3139e7cb0e12c08c491a6ae3eaaf5d"
     },
     {
@@ -11018,7 +11042,7 @@
       "materia": "Aseo, Ornato y Medio Ambiente",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/puchuncavi/2026-01-01_25.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "ac782ad4cbdf832ab76061577ad3da6e5684d1062499387f1a4911a77bd07c23"
     },
     {
@@ -11030,7 +11054,7 @@
       "materia": "Aseo, Ornato y Medio Ambiente",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/puchuncavi/2026-01-01_4.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "7fbcad7d6e109a393304dfa249101ae90626c82523573e875e002662ed73f58c"
     },
     {
@@ -11042,7 +11066,7 @@
       "materia": "Aseo, Ornato y Medio Ambiente",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/puchuncavi/2026-01-01_5.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "5c1c99a305de5942c254d1d747faa67840050a45100aec63449ad3392447f305"
     },
     {
@@ -11054,7 +11078,7 @@
       "materia": "Aseo, Ornato y Medio Ambiente",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/puchuncavi/2026-01-01_6.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "ab10e49f88628f6717e066e6c528d40ccc08f51b176667b2166e09dd65131063"
     },
     {
@@ -11066,7 +11090,7 @@
       "materia": "Aseo, Ornato y Medio Ambiente",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/puchuncavi/2026-01-01_7.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "8c58e734d485e61247b294c5bd3bce8ea80825506ab7c2743c6fe3cb27568ddd"
     },
     {
@@ -11078,7 +11102,7 @@
       "materia": "Aseo, Ornato y Medio Ambiente",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/puchuncavi/2026-01-01_9.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "ab494654dd6034894fbe14fb26ce2aeaef9d3afce0987bd489412edb71e25513"
     },
     {
@@ -12986,7 +13010,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/cabildo/2026-01-01_1.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "0d33bc74f9675ed611d90efd689d9e55d1adcac5034aa815c334846f97acbdf6"
     },
     {
@@ -12998,7 +13022,7 @@
       "materia": "Aseo, Ornato y Medio Ambiente",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/cabildo/2026-01-01_doc_2cb307.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "2cb307b035996c920676d661d0fcecdb4d5bc0af696ee37978c1400550b7d565"
     },
     {
@@ -13022,7 +13046,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/cabildo/2026-01-01_s_n_bfe0.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "bfe0717b2eefe7bac1618360ec7192c22c09799f58c9784ad58a99240afea988"
     },
     {
@@ -13058,7 +13082,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/cabildo/2026-01-01_s_n_9d4f.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "9d4f2d89d6762e05a655630990b91183a9284aabe7d644e7d70ca2b85d41974f"
     },
     {
@@ -13082,7 +13106,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/cabildo/2026-01-01_s_n_e00c.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "e00c0de5310d3a722f93342d480d214cca1167a586f0330c017761a12c81c89f"
     },
     {
@@ -13106,7 +13130,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/cabildo/2026-01-01_324.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "868be39f5fb16b14dfa384bd0212d589fb7bb20715338974c4b17605b68c897d"
     },
     {
@@ -13154,7 +13178,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/cabildo/2020-01-01_01.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "15c824f281963facaac475e73ff75d1a88a9124e06ad4162faef0d18606c8aa4"
     },
     {
@@ -15086,7 +15110,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/hijuelas/2026-01-01_doc_b406f8.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "b406f81d7da0d08dfe0d1f34a4a5664335ce074e6aadaf1b1f5a9f530188d158"
     },
     {
@@ -15158,7 +15182,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/hijuelas/2026-01-01_s_n_256e.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "256e2baef6d3a4079266efe09e4ecf73ea25a0dc7b6a849829ecb321beda9666"
     },
     {
@@ -15170,7 +15194,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/hijuelas/2026-01-01_s_n_2747.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "274749733762ef4368a6a5aa21967abd0db01d805f28badf35bef7d1733e6e81"
     },
     {
@@ -15194,7 +15218,7 @@
       "materia": "Patentes, Comercio y Alcoholes",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/hijuelas/2026-01-01_s_n_d6d3.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "d6d3cc837ae232e9e7c833bf195d1d412b5d41155f1e116839fd6c525c4c3585"
     },
     {
@@ -15206,7 +15230,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/hijuelas/2026-01-01_s_n_267c.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "267cc17e416301b4301f2d7128ef75350515a0211be0eeef12092c17da9b7797"
     },
     {
@@ -15338,7 +15362,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/la_cruz/2026-01-01_20551.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "7c0abd387629d46f3cba8926232372aeed309524a3c4d0d6ff1b2cebf2c893ca"
     },
     {
@@ -15362,7 +15386,7 @@
       "materia": "Tenencia Responsable de Mascotas",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/la_cruz/2026-01-01_s_n_5d2e.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "5d2ec6245c1e5979c9c1244c5ee2294876cdfce79f6344beac2fa231d0e25296"
     },
     {
@@ -15374,7 +15398,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/la_cruz/2025-01-01_2029.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "6fc57fad39871a72dbd4f6ca27a7660a1c935540c027f1773c6ad5bea8431ce8"
     },
     {
@@ -15434,7 +15458,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/la_cruz/2021-01-01_359.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "90867b7bf749ade97d825977db92ebc9d42c268251bf61e37c56ee5476e1179d"
     },
     {
@@ -15866,7 +15890,7 @@
       "materia": "Derechos Municipales y Tarifas",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/san_antonio/2025-01-01_1.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "51a901c7c9af233eb332f569d1526c5c060874194a356555868674a56e2f8663"
     },
     {
@@ -16742,7 +16766,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/el_quisco/2019-01-01_1712.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "2cd5177c3dca2c6f4301e22f2cffd97b51e7048c46b9ef797825b7008afd0032"
     },
     {
@@ -16754,7 +16778,7 @@
       "materia": "Patentes, Comercio y Alcoholes",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/el_quisco/2019-01-01_2329.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "26527ff5021d47e5d73050d388acd2767640b666700aaa00cd0c56f8ce7213f5"
     },
     {
@@ -16766,7 +16790,7 @@
       "materia": "Tenencia Responsable de Mascotas",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/el_quisco/2019-01-01_3636.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "9f72867b12f3be3bab3d47e5adfa1c8a4ecd40b8e2cf046720d99b4f968598ca"
     },
     {
@@ -16778,7 +16802,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/el_quisco/2019-01-01_2359.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "22d30e03a635707b8e5975b9d87d3eb26195e37f8cda4ca6d95bf4d8ec125ca6"
     },
     {
@@ -16790,7 +16814,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/el_quisco/2019-01-01_4611.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "a845f2d8e33027201a2c6aed90c17ea2b62566a95f7f55c39ac818922e9352a8"
     },
     {
@@ -16802,7 +16826,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/el_quisco/2019-01-01_006.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "7ae47aaaa5c72f8dc1405a729b0c468bdeba481cfcfc769f60902b2cfe5bc22f"
     },
     {
@@ -16814,7 +16838,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/el_quisco/2019-01-01_007.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "511decc9d6ffaa584bfb4ae0eb6c34c49f2697baf8f7ae53e71a77fb1ef16365"
     },
     {
@@ -16826,7 +16850,7 @@
       "materia": "Patentes, Comercio y Alcoholes",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/el_quisco/2019-01-01_008.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "94b4e1cfb5f52d66fc95aec6be18121b575bc24d06a6249d9c7a29b7a626ba0d"
     },
     {
@@ -16838,7 +16862,7 @@
       "materia": "Patentes, Comercio y Alcoholes",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/el_quisco/2019-01-01_009.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "354068051967e9f794c2f1266b65cce8a74782ecbbd03b99de874e720c49ada3"
     },
     {
@@ -16850,7 +16874,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/el_quisco/2019-01-01_010.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "220034ca1c9af227a9e8433a36ec9b129ad8bee89fd20744b75ccd74eb5d9050"
     },
     {
@@ -16862,7 +16886,7 @@
       "materia": "Aseo, Ornato y Medio Ambiente",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/el_quisco/2019-01-01_011.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "ac65b4a2fb16ae32a6eaccd4d1899f2eda3ca1767c65e36190e37173acb4b14f"
     },
     {
@@ -17138,7 +17162,7 @@
       "materia": "Urbanismo, Obras y Edificación",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/santo_domingo/2026-01-01_12.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "0195268f3d3f48ac605fd043630cb24efc7078d9fd76b040ff79b3512544a843"
     },
     {
@@ -17150,7 +17174,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/santo_domingo/2026-01-01_doc_445e59.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "445e5978f5d8abb01b694c61b7812e566100df109d825073a7eb942312b01621"
     },
     {
@@ -17162,7 +17186,7 @@
       "materia": "Aseo, Ornato y Medio Ambiente",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/santo_domingo/2026-01-01_s_n_ff01.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "ff014c6dbd72ef881f3cf312d8a2d86e27572b87110d866924139b4dc506ab02"
     },
     {
@@ -17174,7 +17198,7 @@
       "materia": "Tránsito y Transporte",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/santo_domingo/2026-01-01_s_n_4e6a.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "4e6a4f187b872fd9202aea257a03f032ccfdfa04dfa8e8f13f882708a469d49d"
     },
     {
@@ -17186,7 +17210,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/santo_domingo/2026-01-01_s_n_bdd8.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "bdd8a26c65015d02f17e442326e499168d020dac0ce5ed9d01f43fb0f33c9088"
     },
     {
@@ -17198,7 +17222,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/santo_domingo/2026-01-01_s_n_c9c7.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "c9c759d7d1fbe1a34874299c0e5191f145719ab8a28db720a79318b81a651bb6"
     },
     {
@@ -17210,7 +17234,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/santo_domingo/2026-01-01_s_n_2839.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "2839cf50c66f4f46c7230bc4508bdb097eb69c2405126fe847c937376d143594"
     },
     {
@@ -17222,7 +17246,7 @@
       "materia": "Aseo, Ornato y Medio Ambiente",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/santo_domingo/2026-01-01_s_n_3ea2.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "3ea2ce9e0007774c39c370d56ebc55667b24db050ab15f829f6485cfbcf6f27b"
     },
     {
@@ -17234,7 +17258,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/santo_domingo/2026-01-01_s_n_f4a5.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "f4a5a056d0047e6819555e922ae93804d27f46e6116771d6c94b677af43a0c09"
     },
     {
@@ -17282,7 +17306,7 @@
       "materia": "Derechos Municipales y Tarifas",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/santo_domingo/2025-01-06_003.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "8668c96f886d5c84ef0f972a05e184dc4a1378e9ede6a03f05dfe8114e32c701"
     },
     {
@@ -17294,7 +17318,7 @@
       "materia": "Patentes, Comercio y Alcoholes",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/santo_domingo/2025-01-01_2025.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "ab76bf399f9267b061c25ae258248339892b0d9b58e4e4f15c625c0c9413cb49"
     },
     {
@@ -17438,7 +17462,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/san_felipe/2026-01-01_5.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "5d7bc20c5328f083ea6fec0fd6bdc5b1b16f50b7305b2c08eaaa20ac3c3111a6"
     },
     {
@@ -18698,7 +18722,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/putaendo/2026-01-01_2944.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "af3f58c6f46e46f18e0ca454cd0f5d428adb92e32f0112d4cde857e1f2b76a90"
     },
     {
@@ -18710,7 +18734,7 @@
       "materia": "Seguridad Ciudadana y Convivencia",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/05_valparaiso/putaendo/2026-01-01_12.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "56fa6f9cdf9709e6a2f532e68d40d3a4604404ce2c6e0d09b9cc7f825d0214d7"
     },
     {
@@ -20558,7 +20582,7 @@
       "materia": "Urbanismo, Obras y Edificación",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/santiago/2026-05-13_130.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "086f83102419829b0638b9f1260f53f9de02d7c115d22544fea97d1fcbdac188"
     },
     {
@@ -20570,7 +20594,7 @@
       "materia": "Derechos Municipales y Tarifas",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/santiago/2025-10-29_94.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "a2c18846791ff3435781a024bb23b33eca02bfc646a4b537032994a9120de706"
     },
     {
@@ -22862,7 +22886,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/cerro_navia/2026-01-01_2.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "c3b075122bce52249b843a5dba29414c4353295d0ffa3b7f966a7ecbc354b8c3"
     },
     {
@@ -24278,7 +24302,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/independencia/2026-01-01_doc_d00c52.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "d00c524161dacec19b28af3d6cbbb39e35fe7bfccfdbdf18110288a98cddf37d"
     },
     {
@@ -25766,7 +25790,7 @@
       "materia": "Tenencia Responsable de Mascotas",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/la_granja/2026-01-01_doc_8d5140.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "8d5140b2b02a24ffee4b5d02c45255d2cdfcc3dc625790f7c484f8f95bde5778"
     },
     {
@@ -25778,7 +25802,7 @@
       "materia": "Patentes, Comercio y Alcoholes",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/la_granja/2026-01-01_s_n_a4d1.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "a4d18596c20ccbc1e3b9f09884fdb140421992871e38d954f8808877273a18b5"
     },
     {
@@ -25790,7 +25814,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/la_granja/2026-01-01_1.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "55b6d832d05117dd1335456df8fb229d6ae4d53a96646adc7fafe7e3a4d55c34"
     },
     {
@@ -25802,7 +25826,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/la_granja/2026-01-01_s_n_105c.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "105c38d5daed6407b355c7f51d4d4e6520201736998c62127dc912e4b63d27b4"
     },
     {
@@ -25814,7 +25838,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/la_granja/2026-01-01_s_n_f7b0.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "f7b0ac440f5ba0cf384bde9e7a164599a6f8075f5390a31648184573f2ef4df8"
     },
     {
@@ -25826,7 +25850,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/la_granja/2026-01-01_s_n_27da.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "27da8d7fe074ad285d48da6bb48948c6877b94a9504640ab6a208b4f7bcb0ed4"
     },
     {
@@ -25838,7 +25862,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/la_granja/2026-01-01_24.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "9e87cae41579478b3f06f228e4c068a5aeb883e42d44aa7190b45331199db554"
     },
     {
@@ -25850,7 +25874,7 @@
       "materia": "Derechos Municipales y Tarifas",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/la_granja/2026-01-01_s_n_618f.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "618fdbb0747f640ab5f002876638c4f43d7c65f06144016883400fbcb0e70f53"
     },
     {
@@ -25862,7 +25886,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/la_granja/2026-01-01_1578.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "ba968109551f5b208f61db2eff1e95fdae70aa474394e068c131d1a1b58a35a7"
     },
     {
@@ -25874,7 +25898,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/la_granja/2026-01-01_s_n_ab68.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "ab6877205cbeb76e83f1801e06c7b01bea2c20c6ac05bed8a0c72268f0ab3113"
     },
     {
@@ -25886,7 +25910,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/la_granja/2026-01-01_s_n_0565.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "05652eefe0fa2ebbaed3d1e2c26c978fc0cfd68a76ac206e24ab8ddc466aaa33"
     },
     {
@@ -25898,7 +25922,7 @@
       "materia": "Urbanismo, Obras y Edificación",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/la_granja/2026-01-01_s_n_666e.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "666e48806ac5737d0a89804580f7bf984bfb43cb4fe08ab3600197d0ccd38771"
     },
     {
@@ -25910,7 +25934,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/la_granja/2026-01-01_s_n_e9e0.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "e9e00a0ae4ab123a6bbc697ead86e9352e9c3a0457b8d22bcefd2957e0d0c269"
     },
     {
@@ -25922,7 +25946,7 @@
       "materia": "Aseo, Ornato y Medio Ambiente",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/la_granja/2026-01-01_s_n_70de.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "70de54d9392fc6b50649cd791c455a8032f5449ebf7bf842197d493a36f80590"
     },
     {
@@ -25934,7 +25958,7 @@
       "materia": "Patentes, Comercio y Alcoholes",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/la_granja/2026-01-01_1_6ba6.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "6ba6d2209d77de1e9934edd9100829483156a629adcbb452c1aa8a53bc0ffc7a"
     },
     {
@@ -25946,7 +25970,7 @@
       "materia": "Patentes, Comercio y Alcoholes",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/la_granja/2023-01-01_1037.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "452a92030bcf8f4874b13cc3fe11551ccad0ed62f505dc69f527fbe944113680"
     },
     {
@@ -25982,7 +26006,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/la_granja/2022-01-01_572.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "f3183a67ba9a09de136af947666f1f717247c2c5e12fd76b69946618585d1e2f"
     },
     {
@@ -25994,7 +26018,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/la_granja/2022-01-01_2137.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "ac49879280f89dcdb5e58821304ec39206fdb5c0549c0323ca46568342f229e8"
     },
     {
@@ -26030,7 +26054,7 @@
       "materia": "Patentes, Comercio y Alcoholes",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/la_granja/2021-01-01_1164.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "9c7da45f426ca556447ae3be090a5be079f7ddaf709ec92f8756ca1064a75581"
     },
     {
@@ -27854,7 +27878,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/las_condes/2026-01-01_1948.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "65efc9a99feb3fc32fcd5fe27bd17ecfcd10616564315e8f86bfb1963cb6b3bb"
     },
     {
@@ -27866,7 +27890,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/las_condes/2026-01-01_2023.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "c5bcc19b8595a5df7bbb595ff9bc4c0ef1195b06a4657f23c3bdebed8925e790"
     },
     {
@@ -27878,7 +27902,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/las_condes/2026-01-01_2463.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "decf2a160b98468a506766a6740cd38ed26dd9a4d5a1dfa2a370e36e7bb11dc5"
     },
     {
@@ -27890,7 +27914,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/las_condes/2026-01-01_3200.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "d7a69fff33744fb9bf3d52946b0d7ccfb287977bec7284598ae8fe769320be34"
     },
     {
@@ -27902,7 +27926,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/las_condes/2026-01-01_3412.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "2bce2d866eb31463fb429e421f779310dcad88a6de1b45fcb0c17a339b697907"
     },
     {
@@ -27914,7 +27938,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/las_condes/2026-01-01_2787.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "6dc97e86b0df2a1ae829ca7ef1e6b392f6ddfc3e369cbd5983c5684440263df9"
     },
     {
@@ -27926,7 +27950,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/las_condes/2026-01-01_2879.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "2cd9bcb3d06d002d65571edb5cb43cafe56256cbc3deafedfd4045134ca9fefa"
     },
     {
@@ -27938,7 +27962,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/las_condes/2026-01-01_928.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "e1a0ad4d792fde8ade3d50a8ae1ba0db6041e11452a3babafbb9e1760dc26fb3"
     },
     {
@@ -27962,7 +27986,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/las_condes/2024-09-14_3535.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "583e06100141a8f803be5f9360b720cf6b7833f1c5b74debca29d5a5247bcba5"
     },
     {
@@ -27974,7 +27998,7 @@
       "materia": "Derechos Municipales y Tarifas",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/las_condes/2024-06-10_2271.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "01631b8db315d422e37aed1607a89c5562c8dc717deb84ca6b9351a5a79fa238"
     },
     {
@@ -27986,7 +28010,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/las_condes/2024-04-16_1620.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "51447e6e03f848db2cc5e0b77a3fee88dfa7b8235196073e5593b621e113fb0b"
     },
     {
@@ -27998,7 +28022,7 @@
       "materia": "Derechos Municipales y Tarifas",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/las_condes/2024-04-05_1338.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "0d9281e74acc37bbbcc9a599ff1a99b992803c50367bb6f7810b8264951df3f3"
     },
     {
@@ -28010,7 +28034,7 @@
       "materia": "Derechos Municipales y Tarifas",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/las_condes/2023-10-26_3727.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "330ce3f9e616a52d0811708f9da76e98328a5671bd62cba7632f629a0b6e2d23"
     },
     {
@@ -28022,7 +28046,7 @@
       "materia": "Derechos Municipales y Tarifas",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/las_condes/2022-09-29_3409.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "1505cca02d29ee468f1d1a89569e7c65625faacb6a46c716118650439bf9d2a7"
     },
     {
@@ -28034,7 +28058,7 @@
       "materia": "Derechos Municipales y Tarifas",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/las_condes/2022-05-05_1699.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "f7d939c08fa56bad5b4d0924cd1856280d87ef0529330169c5f36cff0de3b2ce"
     },
     {
@@ -30818,7 +30842,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/macul/2026-01-01_s_n_3e27.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "3e27c63e4961a097b992f895a86ed4e635c3e69f0da1869e3b8a1d1a11d052e6"
     },
     {
@@ -32246,7 +32270,7 @@
       "materia": "Aseo, Ornato y Medio Ambiente",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/nunoa/2026-06-08_45.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "718c7eed4ee45f1fbf153ae2abab104b90e165a3c1e4820303a6f4e30e0a1001"
     },
     {
@@ -32258,7 +32282,7 @@
       "materia": "Tránsito y Transporte",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/nunoa/2026-06-04_42.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "3a49f9a6bd1f101c6dec2feada371daa4c4e3b77b6572fbe9dd6d6553182c75e"
     },
     {
@@ -32270,7 +32294,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/nunoa/2026-05-04_51.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "b289dc6a8b3e4580d2eeb460a6e1519774050b3e6d1a97c78165963ba91b033d"
     },
     {
@@ -34022,7 +34046,7 @@
       "materia": "Derechos Municipales y Tarifas",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/providencia/2025-12-16_1803.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "ef9862faf97d517bb4fc40d876104d9ed9d75bc02840d404e616f12b2fdc0641"
     },
     {
@@ -38942,7 +38966,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/renca/2018-01-01_01.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "ea14efba24a11baa4d235aae30555f7b854359543b0b7cc9800b4035e712c61d"
     },
     {
@@ -41954,7 +41978,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/colina/2026-01-01_07.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "105012d16ca2ef4dc8997ec1c6c33f26dcc821ec0ca31d90233245215570af7c"
     },
     {
@@ -41966,7 +41990,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/colina/2026-01-01_doc_f1d367.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "f1d367f461c97c911d3a85141440dcc0c0dbd25b52e3da40c82c3a6b1c70285d"
     },
     {
@@ -41978,7 +42002,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/colina/2024-01-01_06.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "07c19e48f73c5ad6a8b398405a6f45127d301673fb6cee7aa47184053ac1cc5d"
     },
     {
@@ -41990,7 +42014,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/colina/2023-01-01_02.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "65bb6be8cc653225a9d330eee4e8b222e0471dbb6e7638882d1535f2fb646a98"
     },
     {
@@ -42002,7 +42026,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/colina/2016-01-01_2016.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "f4054e434960ffb30234cb9bb6d3f8a8a8528ab4ef1f30b4255cd4a1129ebdc2"
     },
     {
@@ -43118,7 +43142,7 @@
       "materia": "Patentes, Comercio y Alcoholes",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/san_bernardo/2026-01-01_54.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "cafaa1d502758220aee662dc851275777340af7d12938012ede8609d09b2688b"
     },
     {
@@ -44438,7 +44462,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/buin/2026-01-01_s_n_c9d5.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "c9d5ee53ffd4ee96265439de494bbeb731467d622992ff8e57090a4aea31862b"
     },
     {
@@ -44450,7 +44474,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/buin/2026-01-01_s_n_17de.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "17dea495b509da18f55f02ed696fba0adaea76cc85d99a5279011dbbe1fc19b8"
     },
     {
@@ -44462,7 +44486,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/buin/2026-01-01_s_n_e24d.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "e24d665516bf159e983732b0e8b0acccc655239407faceb060aa42a42204e795"
     },
     {
@@ -44522,7 +44546,7 @@
       "materia": "Urbanismo, Obras y Edificación",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/buin/2026-01-01_s_n_eb1b.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "eb1b1b9f3967362352b0b6503ae1ff2b0eefa20c7b50b33ad6cf564eb64b17d0"
     },
     {
@@ -44534,7 +44558,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/buin/2026-01-01_s_n_f1a5.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "f1a59e3f16a29007183d30943a44b4be7f7db9679933a2ccd121fb07806c43be"
     },
     {
@@ -44546,7 +44570,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/buin/2026-01-01_s_n_52c4.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "52c4a12b1dff123d7e3035cb044f568aa7eade56be8a97ee3b400e5f6f186e04"
     },
     {
@@ -44642,7 +44666,7 @@
       "materia": "Aseo, Ornato y Medio Ambiente",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/buin/2026-01-01_239.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "7fb5b8b2c95e7a0d6df11ce85b3e365a34a32f9d73631761d9fb656688fe9828"
     },
     {
@@ -44678,7 +44702,7 @@
       "materia": "Aseo, Ornato y Medio Ambiente",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/buin/2026-01-01_239_f3c8.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "f3c8d057242f7bb04c62837d154ae765ff7f1a5257b6327a4680ce3eaa49d78d"
     },
     {
@@ -44834,7 +44858,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/buin/2012-01-01_doc_891b46.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "891b468c22ed8f81f9787ab418e8ba6b627ca0199a399adaaa36b4c5a58e98ed"
     },
     {
@@ -44846,7 +44870,7 @@
       "materia": "Patentes, Comercio y Alcoholes",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/buin/2012-01-01_s_n_12ce.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "12ce911f35fefd5bb313f42838a899678a38e578cee677f8ce4cb89413458ede"
     },
     {
@@ -44882,7 +44906,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/buin/2011-01-01_2011.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "7cb02e0134a61db0fb453562d3f66e67e5d788133e3da07e459034df663d7ce1"
     },
     {
@@ -44894,7 +44918,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/buin/2011-01-01_doc_582fc8.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "582fc8280139b6896030595d2a342ad3e8e07d0060d282fe268de9cd48930e40"
     },
     {
@@ -44906,7 +44930,7 @@
       "materia": "Aseo, Ornato y Medio Ambiente",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/buin/2011-01-01_s_n_22a9.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "22a9ca8cc39ea858e4d9be43f39723c0076ea233ba7ed8ac66c42221221b4893"
     },
     {
@@ -44954,7 +44978,7 @@
       "materia": "Patentes, Comercio y Alcoholes",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/buin/2009-01-01_doc_177eb6.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "177eb6547945aa5de9986bf35eda295e32ab51d8b5786a8041ac5fbb4496510c"
     },
     {
@@ -44966,7 +44990,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/buin/2009-01-01_s_n_60da.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "60da4f586b69cac57134012bda1d5b45efbcc839b9aee6b95760054975245e85"
     },
     {
@@ -44978,7 +45002,7 @@
       "materia": "Aseo, Ornato y Medio Ambiente",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/buin/2009-01-01_20.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "a4db3d738fa16af043428299bf4fea270dcc2cd7fef10f29a4ebbf26d2f0c6d6"
     },
     {
@@ -44990,7 +45014,7 @@
       "materia": "Derechos Municipales y Tarifas",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/buin/2007-01-01_doc_b1c96c.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "b1c96c8b1574313f69e78796df910413fbf1d69c79831775e5df0de78aa03c48"
     },
     {
@@ -45038,7 +45062,7 @@
       "materia": "Aseo, Ornato y Medio Ambiente",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/buin/2003-01-01_1725.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "af4154893dc822f6b3320464bf0a69d660d39bbf4c20dc189167a6577f2d7f45"
     },
     {
@@ -45494,7 +45518,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/paine/2025-01-01_08.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "034f286d14fe22d66b115fba8cce0a1d2f19a9ae6c8af689423d912fe2de997f"
     },
     {
@@ -45506,7 +45530,7 @@
       "materia": "Derechos Municipales y Tarifas",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/paine/2025-01-01_10.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "71c8b22d93025c8f87c01bedd5e6636c3c580e6ff902815104d3dfb79ec02bf6"
     },
     {
@@ -45518,7 +45542,7 @@
       "materia": "Derechos Municipales y Tarifas",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/paine/2024-01-01_07.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "a9de7f4a90fa05604e2eafd537000ca4340925941cf9c29f4857d8db6b62a796"
     },
     {
@@ -45530,7 +45554,7 @@
       "materia": "Tenencia Responsable de Mascotas",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/paine/2023-01-01_05.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "ecc715444a1d5d7c0009237fc10d503b535d01dc0e46d8887b3be8e0ce1c5a99"
     },
     {
@@ -45542,7 +45566,7 @@
       "materia": "Derechos Municipales y Tarifas",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/paine/2022-01-01_03.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "7a2e694052d3d3f926f327a3219876da84d5b8e8660aae5de4c0df0b7b9b36be"
     },
     {
@@ -45554,7 +45578,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/paine/2022-01-01_04.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "e65036a22d9c5605421e008045e8b9dc7c4a51cc40473d3181523307563f8d41"
     },
     {
@@ -46130,7 +46154,7 @@
       "materia": "Aseo, Ornato y Medio Ambiente",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/alhue/2026-01-01_doc_dc91b4.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "dc91b4eb06cfa321b697a2119e571271b78d6a0082d58b05e028ed1ba8a69386"
     },
     {
@@ -46190,7 +46214,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/curacavi/2026-01-01_doc_9c1b8a.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "9c1b8a416e1316b1ae55c870c32597120d63e9702d4f6f64a38f300558978afc"
     },
     {
@@ -48434,7 +48458,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/13_metropolitana_de_santiago/penaflor/2024-12-27_1640.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "499ce9b0ad7337058f1536da9a84bb74dab84e4a35ecb2c16fadd49b3a955e18"
     },
     {
@@ -50174,7 +50198,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/06_o_higgins/coltauco/2024-01-01_1942.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "c162710ef391723400da0641e62ad19c80c3c12e39975a166eaded2b1b821681"
     },
     {
@@ -51602,7 +51626,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/06_o_higgins/malloa/2026-01-01_s_n_4064.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "406465561d285fd010ee47dc8adfa50c076bc24aa4fc31fe6a8dca7277375458"
     },
     {
@@ -53690,7 +53714,7 @@
       "materia": "Derechos Municipales y Tarifas",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/06_o_higgins/litueche/2026-01-01_s_n_8a83.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "8a8354879bcdf6cd626450b7d71df96e7c59fa839f4389ac097b528f0847fae0"
     },
     {
@@ -54230,7 +54254,7 @@
       "materia": "Aseo, Ornato y Medio Ambiente",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/06_o_higgins/navidad/2026-01-01_31.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "74e4b3ec47d9c5e42b6e3c2987b6cc90aafc71388f3ec0ebd892a73c77da3174"
     },
     {
@@ -54242,7 +54266,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/06_o_higgins/navidad/2026-01-01_2026.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "6fddd192171d6004e7a8c5b17e3177cf78681e64b821614655b50eb5b426cc3d"
     },
     {
@@ -54254,7 +54278,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/06_o_higgins/navidad/2026-01-01_2026_672f.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "672fe948346c648397ce60fe97d42bd19af4741da21deb8ab0df62f9cd2e0fd3"
     },
     {
@@ -54266,7 +54290,7 @@
       "materia": "Derechos Municipales y Tarifas",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/06_o_higgins/navidad/2026-01-01_2025.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "555d610ade41691397fa7911a904421de6fde9686e0a97f95a13a98b64c24ea8"
     },
     {
@@ -54278,7 +54302,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/06_o_higgins/navidad/2026-01-01_2026_b813.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "b813b1b6470d55fcac462dbfa2e27f15aa5ecf02647a281eaf43fc0c5ec79b93"
     },
     {
@@ -54290,7 +54314,7 @@
       "materia": "Derechos Municipales y Tarifas",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/06_o_higgins/navidad/2026-01-01_2025_07f5.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "07f5d9581ad45bf2b4faf79aa559d205a8f3f4d0d5497830f6b5eb9c62a221e3"
     },
     {
@@ -54302,7 +54326,7 @@
       "materia": "Patentes, Comercio y Alcoholes",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/06_o_higgins/navidad/2025-01-01_874.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "3115f2671025537bd2cbaae6631ef8a74edbb772125964bab145d049d68b0f96"
     },
     {
@@ -54314,7 +54338,7 @@
       "materia": "Aseo, Ornato y Medio Ambiente",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/06_o_higgins/navidad/2025-01-01_2025.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "c9bd691d648421aa361785aa3b7db062049641b25d3bd3260395abc3320997be"
     },
     {
@@ -54338,7 +54362,7 @@
       "materia": "Patentes, Comercio y Alcoholes",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/06_o_higgins/navidad/2023-01-01_2023.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "7cc54e0deaf067f8ca718f3c93f5acd90b5219cdcb0713c035f04c395c6d3e7f"
     },
     {
@@ -54350,7 +54374,7 @@
       "materia": "Urbanismo, Obras y Edificación",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/06_o_higgins/navidad/2023-01-01_2023_471d.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "471d21fd957a5af063c0f7d4ee126e848c8e7687343e18de7824b8c505d4e949"
     },
     {
@@ -54374,7 +54398,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/06_o_higgins/navidad/2023-01-01_2023_6c18.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "6c18902fd6b7de38a0962c6185ef2043d74682f422ace7913cc52fbb60629be1"
     },
     {
@@ -56558,7 +56582,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/06_o_higgins/peralillo/2023-01-01_26.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "320cb1dab8267bd274cf202ed4cf1e8bd710e7f695bbf29a175b516cf550ec56"
     },
     {
@@ -56766,18 +56790,6 @@
       "sha256": ""
     },
     {
-      "id": "p090_pumanque_290_2020-02-18",
-      "comuna": "Pumanque",
-      "region": "O Higgins",
-      "numero": "290",
-      "fecha": "2020-02-18",
-      "materia": "Derechos Municipales y Tarifas",
-      "fuente": "Municipalidad",
-      "path": "data/markdown_corpus/06_o_higgins/pumanque/2020-02-18_290.md",
-      "has_full_text": true,
-      "sha256": "0fec4086cb45e3f30efc8b494f19c2399ac951ec001529ae061a0724a71e4207"
-    },
-    {
       "id": "p090_pumanque_105_1991-01-04",
       "comuna": "Pumanque",
       "region": "O Higgins",
@@ -56786,8 +56798,20 @@
       "materia": "Derechos Municipales y Tarifas",
       "fuente": "BCN",
       "path": "data/markdown_corpus/06_o_higgins/pumanque/1991-01-04_105.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": ""
+    },
+    {
+      "id": "p090_pumanque_105_1991-01-04",
+      "comuna": "Pumanque",
+      "region": "O Higgins",
+      "numero": "105",
+      "fecha": "1991-01-04",
+      "materia": "Derechos Municipales y Tarifas",
+      "fuente": "Diario Oficial / BCN",
+      "path": "data/markdown_corpus/06_o_higgins/pumanque/1991-01-04_105.md",
+      "has_full_text": true,
+      "sha256": "ae00f3b03c12f860bde714065a103aa13516339d4cb101ac9a5eba22620e5623"
     },
     {
       "id": "p090_santa_cruz_1958_exento_2011-10-03",
@@ -57710,7 +57734,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/07_maule/empedrado/2026-01-01_doc_89a201.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "89a201419e25a761bb95d5f0eccb47b5940d170261e0c3a7ae362951c17651af"
     },
     {
@@ -57722,7 +57746,7 @@
       "materia": "Aseo, Ornato y Medio Ambiente",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/07_maule/empedrado/2026-01-01_s_n_8c73.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "8c738e4dcc1da7ed7dcee2903557cdefedfaba6a900e9e5b5aae31850eddff53"
     },
     {
@@ -57758,7 +57782,7 @@
       "materia": "Patentes, Comercio y Alcoholes",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/07_maule/empedrado/2026-01-01_s_n_de50.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "de5008f01ba447e67b90a4036a899af8886a7b145be034b9cd0f7169b430c965"
     },
     {
@@ -57782,7 +57806,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/07_maule/empedrado/2026-01-01_s_n_34a7.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "34a789c519a17c6f31fc9c4950ed274c85d50430e787efbfaeedb6b7be9175e2"
     },
     {
@@ -57794,7 +57818,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/07_maule/empedrado/2026-01-01_s_n_e9e9.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "e9e9eff6db38344e9d46eacc08745808c54294523d6dcd4757bfc0779e1ce1eb"
     },
     {
@@ -57806,7 +57830,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/07_maule/empedrado/2026-01-01_1.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "11d5312a870eb2ef535e84b8d1c2cc07e64e80a4f820ac051141473860dc8fd5"
     },
     {
@@ -58098,6 +58122,30 @@
       "sha256": "169f5615a10be4e95c68c5c719665ff63604c507225d70c52b9363c966dcca6a"
     },
     {
+      "id": "p090_pencahue_428_2024-04-19",
+      "comuna": "Pencahue",
+      "region": "Maule",
+      "numero": "428",
+      "fecha": "2024-04-19",
+      "materia": "Plan Regulador y Obras",
+      "fuente": "Diario Oficial / BCN",
+      "path": "data/markdown_corpus/07_maule/pencahue/2024-04-19_428.md",
+      "has_full_text": true,
+      "sha256": "eadd0297f57905d44f822fa98df80bb2e2274069b6208334140f10c01f05e161"
+    },
+    {
+      "id": "p090_pencahue_res_72_2021-12-10",
+      "comuna": "Pencahue",
+      "region": "Maule",
+      "numero": "RES-72",
+      "fecha": "2021-12-10",
+      "materia": "Plan Regulador y Obras",
+      "fuente": "Diario Oficial / BCN",
+      "path": "data/markdown_corpus/07_maule/pencahue/2021-12-10_res_72.md",
+      "has_full_text": true,
+      "sha256": "470cdebe42e75f57ad1a14c7a02fc60536ea47648cc06c3fa060b91b707e5b5d"
+    },
+    {
       "id": "p090_rio_claro_doc_bac8aa_2026-01-01",
       "comuna": "Río Claro",
       "region": "Maule",
@@ -58106,7 +58154,7 @@
       "materia": "Aseo, Ornato y Medio Ambiente",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/07_maule/rio_claro/2026-01-01_doc_bac8aa.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "bac8aa87609e7412f62dfa380a379a85dacf4727b6e127f7e91287bfc3c716e1"
     },
     {
@@ -58118,7 +58166,7 @@
       "materia": "Tenencia Responsable de Mascotas",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/07_maule/rio_claro/2026-01-01_s_n_8a7d.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "8a7d9af6428c8bf7e6de72839ee079a0b5bf4b7289425dc78f7e2007aa343004"
     },
     {
@@ -58550,7 +58598,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/07_maule/san_rafael/2026-01-01_doc_f13091.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "f1309108cd4d55154de70f2c0b401cb09de07f543ec84ce985d232d18e66c90d"
     },
     {
@@ -58566,6 +58614,18 @@
       "sha256": ""
     },
     {
+      "id": "p090_san_rafael_1737_2008-11-10",
+      "comuna": "San Rafael",
+      "region": "Maule",
+      "numero": "1737",
+      "fecha": "2008-11-10",
+      "materia": "Comercio, Alcoholes y Ferias",
+      "fuente": "Diario Oficial / BCN",
+      "path": "data/markdown_corpus/07_maule/san_rafael/2008-11-10_1737.md",
+      "has_full_text": true,
+      "sha256": "3a98fe2daf1b563711315cdfe26a2d8d8653ae402a5d9311b6bb7fd886262b60"
+    },
+    {
       "id": "p090_san_rafael_471_exento_2002-05-08",
       "comuna": "San Rafael",
       "region": "Maule",
@@ -58576,6 +58636,18 @@
       "path": "data/markdown_corpus/07_maule/san_rafael/2002-05-08_471_exento.md",
       "has_full_text": false,
       "sha256": ""
+    },
+    {
+      "id": "p090_san_rafael_471_2002-05-08",
+      "comuna": "San Rafael",
+      "region": "Maule",
+      "numero": "471",
+      "fecha": "2002-05-08",
+      "materia": "Comercio, Alcoholes y Ferias",
+      "fuente": "Diario Oficial / BCN",
+      "path": "data/markdown_corpus/07_maule/san_rafael/2002-05-08_471.md",
+      "has_full_text": true,
+      "sha256": "a96ce8297a6b2d3814ca5fbd77fd0d55cf7c8394d688569a9a1d703d02244a8c"
     },
     {
       "id": "p090_cauquenes_doc_4faf4a_2026-01-01",
@@ -59210,7 +59282,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/07_maule/hualane/2026-01-01_2636.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "537cc9a4d40b951c98480769370283dbb7a03908eaf5c76b4991e75fe4f7db75"
     },
     {
@@ -59378,7 +59450,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/07_maule/hualane/2026-01-01_2995.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "dfa9b8afe21314f4a3a126a6dab3e0173552771cbdb9f38d56fc47434f47f185"
     },
     {
@@ -59390,7 +59462,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/07_maule/hualane/2026-01-01_356.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "c5ce4d4affb8a7142a409bd795266a34d5fd5936965b8f2c17d7b0f26a8bb0db"
     },
     {
@@ -59414,7 +59486,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/07_maule/hualane/2026-01-01_1264.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "160a4c85d6664031b7a7e2550ae3eeb06de481c7b919176e9faafccb25159b4c"
     },
     {
@@ -59426,7 +59498,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/07_maule/hualane/2026-01-01_1516.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "bca5f665b9eaceb0f2c5f2bee5d36afcebbb449ff326de2bedc652c4b77139e2"
     },
     {
@@ -59438,7 +59510,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/07_maule/hualane/2026-01-01_343.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "fbf6707585f2dea95465471596ea9bd32f5b06c530c28c85c0a9e52778bdc519"
     },
     {
@@ -59450,7 +59522,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/07_maule/hualane/2026-01-01_1841.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "1bd72e4eef1271fa6cb15d6cb42cda354c9a36e84c20a2bf6b5f062785cedd74"
     },
     {
@@ -59462,7 +59534,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/07_maule/hualane/2026-01-01_1862.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "5634b739efa7063eafe61f5b307d4c80d09c7a72f9770c911e5d6c0bdbe782a1"
     },
     {
@@ -60194,7 +60266,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/07_maule/romeral/2026-08-12_doc_0eeeb9.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "0eeeb9f28889ee51de4f7cda55a92a4ec400cd07568ba574c99000f095eef84a"
     },
     {
@@ -60206,7 +60278,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/07_maule/romeral/2026-02-25_doc_47c829.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "47c8297e3033b61d2174f2d5026b9e264d25aeff6ffd4c15583cdd5282e8e63a"
     },
     {
@@ -60218,7 +60290,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/07_maule/romeral/2026-01-01_52.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "159e0d7e8b3c65d5271603e2db5bc813a2d688b23cecb9499f117e9e5f3f786a"
     },
     {
@@ -60230,7 +60302,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/07_maule/romeral/2026-01-01_doc_6892ce.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "6892ce5c6525321a184728d4e20c195c258708af2fce743ce6ba92655e8c9eea"
     },
     {
@@ -60242,7 +60314,7 @@
       "materia": "Derechos Municipales y Tarifas",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/07_maule/romeral/2025-12-22_doc_73c515.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "73c5151960146543ab046752570568a4db2629e97df2411ed4bffc039e247c75"
     },
     {
@@ -60278,7 +60350,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/07_maule/romeral/2024-02-13_doc_929896.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "9298961adec0bf5532f98f6da9ed8cfe1e3a5349afcee81891c0f2f35f798ca1"
     },
     {
@@ -60302,7 +60374,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/07_maule/romeral/2023-04-17_doc_4a031b.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "4a031b7c6682b371238c60e40345b8a0801508a69fe983bdce91f8a0a4a9ad3e"
     },
     {
@@ -60362,7 +60434,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/07_maule/romeral/2020-11-02_doc_540b4f.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "540b4f2919aadc8b48aecf8bdd33d549ed0101b46ef54e22809579a308f2afcf"
     },
     {
@@ -60374,7 +60446,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/07_maule/romeral/2020-08-18_doc_7b173e.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "7b173e7c2e632359bce397355827f69b54a8bc7845b6eaaee500154e4d1faa53"
     },
     {
@@ -60386,7 +60458,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/07_maule/romeral/2020-05-27_0422.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "05a5615011cc6ab3ed5b2524985659302ff3d4b5f0d3149e89d91b9639d41d13"
     },
     {
@@ -60410,7 +60482,7 @@
       "materia": "Aseo, Ornato y Medio Ambiente",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/07_maule/romeral/2018-06-08_doc_3337fe.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "3337fe598c1b51fe2beff778bb50d36fb33b6258c6ad975ef6140914ba254cb7"
     },
     {
@@ -61238,7 +61310,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/07_maule/colbun/2025-10-30_2025.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "c9957472ad51e2942f7414312ee8d27e93aaa358ff700843bd2c6918fddb18f5"
     },
     {
@@ -61562,7 +61634,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/07_maule/parral/2026-01-01_07.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "186f5e9a894474ecc2a1937f49bc3c7a3fd3fe1004e6d98d938172b8dc5e3678"
     },
     {
@@ -61574,7 +61646,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/07_maule/parral/2026-01-01_01.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "f24eb2c4895671db1976afb7353e7169d1cdfe7b5cb9539e465c742e3f34387a"
     },
     {
@@ -61586,7 +61658,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/07_maule/parral/2026-01-01_02.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "dd94f5756185ecd8224a370474261b793e3d7d3822a3b4733bcd024cbd47399a"
     },
     {
@@ -61598,7 +61670,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/07_maule/parral/2026-01-01_03.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "9b818129fefc9f67c0cad302fe9f34217708669ac2c979f3548fb1d49e26ae7e"
     },
     {
@@ -61610,7 +61682,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/07_maule/parral/2026-01-01_04.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "15203f760da9c890ac4dc450eb5ad37286070b516c2419823240117835f325a8"
     },
     {
@@ -61622,7 +61694,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/07_maule/parral/2026-01-01_05.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "a253bedb7c3f6bb1067a5ec9cb1b12f0c7bd16a55027cd6ec43498674c9ed191"
     },
     {
@@ -61874,7 +61946,7 @@
       "materia": "Aseo, Ornato y Medio Ambiente",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/07_maule/retiro/2026-01-01_s_n_fd7d.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "fd7d04b996284679a14f171c9de6ca623988c45abc6175dca2b8ea3e486238cf"
     },
     {
@@ -62690,7 +62762,7 @@
       "materia": "Aseo, Ornato y Medio Ambiente",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/16_nuble/cobquecura/2026-01-01_doc_e262ce.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "e262cef42c9a38ce6b632e67ed978e5f4fa8b508562bce4c1ea22533cecd740f"
     },
     {
@@ -62786,7 +62858,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/16_nuble/cobquecura/2026-01-01_395.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "5cafbfa90b60daa4530b411efd2275a950ccf1bb195a0d377a96a3f0d115bcd6"
     },
     {
@@ -63290,7 +63362,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/16_nuble/el_carmen/2026-01-01_doc_e2ce50.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "e2ce50e772020b1e1569a98f0b75f7d97ecaaaa99c4457929425028bb131a7cf"
     },
     {
@@ -63302,7 +63374,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/16_nuble/el_carmen/2026-01-01_s_n_77ee.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "77ee9aa10baec1048d8c7fbd1026d30929c6f43f8890e3486d41f5943c058758"
     },
     {
@@ -63314,7 +63386,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/16_nuble/el_carmen/2026-01-01_20_6130.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "613050808718ef50996c6fbfd4d7cefccf6a105eaac691a7d2b1e009fe6f7d8a"
     },
     {
@@ -63326,7 +63398,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/16_nuble/el_carmen/2026-01-01_2026.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "410adbe6adefdc2719c27346fb1b27890ce78ee6c4956d8cb5b6239c8f6befea"
     },
     {
@@ -63338,7 +63410,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/16_nuble/el_carmen/2026-01-01_s_n_70c6.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "70c6f5ed00ed52d60e11e6e9046dd55cf4fc4695d85491054a6e43f56d9f04a4"
     },
     {
@@ -63350,7 +63422,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/16_nuble/el_carmen/2026-01-01_s_n_d094.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "d094f300d05de9b794120e1e535919fc175bc4625b1a7e1938b44235ddd13b9e"
     },
     {
@@ -63374,7 +63446,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/16_nuble/el_carmen/2026-01-01_11.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "f8ee317aefd080d2f238bfbbf60da685b5a1209227d60f653f406e41767b0106"
     },
     {
@@ -63386,7 +63458,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/16_nuble/el_carmen/2026-01-01_s_n_7ddb.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "7ddb3c26953e4dde59e9ae97a83161a9ba5dc76ddf8f4ee6d957f6f70dedec7f"
     },
     {
@@ -63398,7 +63470,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/16_nuble/el_carmen/2026-01-01_s_n_f2c2.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "f2c24e01fee5d05ac4af9e410daca061d96dd4664eb77cda3f7ea284a513d19d"
     },
     {
@@ -63422,7 +63494,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/16_nuble/el_carmen/2026-01-01_s_n_3ebe.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "3ebee40e82ecce165173173d58f5606a80949780f06affe4a089a4b03a1352be"
     },
     {
@@ -63446,7 +63518,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/16_nuble/el_carmen/2025-01-01_doc_64a280.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "64a2801ec0214b6dfa32036a4aba685eff21b3ba760896f991c4268620cf108c"
     },
     {
@@ -63722,7 +63794,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/16_nuble/pinto/2026-01-01_s_n_0875.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "0875b0665870847d22aef0a96c87f1dd3f284586ce0c05ea34313fe59bef7ba3"
     },
     {
@@ -63962,7 +64034,7 @@
       "materia": "Tenencia Responsable de Mascotas",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/16_nuble/quillon/2026-01-01_doc_289047.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "289047ef5cc31c97a99462dc68fc9ff3cdf6e44a0931e4344ba4a485c68f280c"
     },
     {
@@ -68018,7 +68090,7 @@
       "materia": "Derechos Municipales y Tarifas",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/08_biobio/penco/2026-01-01_doc_3a6c52.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "3a6c52fb12aacc61e667ece566f2cd17c28581a4e51076b1250545c20fd8aaaf"
     },
     {
@@ -69782,7 +69854,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/08_biobio/contulmo/2026-01-01_doc_64d379.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "64d379bc81039a03dc8af21701d683b6d63de44d0876786eb8c61e88441cb343"
     },
     {
@@ -70358,7 +70430,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/08_biobio/los_angeles/2026-01-01_2786.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "9ae64734b2b299c88829992f51ec4e64c20a8d6a5c2420c64e9552160a1eb5c1"
     },
     {
@@ -71510,7 +71582,7 @@
       "materia": "Aseo, Ornato y Medio Ambiente",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/08_biobio/san_rosendo/2026-01-01_doc_b5bc1b.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "b5bc1b5986edf82f566c3ecd6ae971e89d23ebf1054cf0a68a084efbb5c0dcbe"
     },
     {
@@ -72122,7 +72194,7 @@
       "materia": "Derechos Municipales y Tarifas",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/09_la_araucania/temuco/2026-01-01_2.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "a6e0a05bc7fb4dfe831575dbc48677b19cbd8e5a95f143fe507fad3c01a74f3d"
     },
     {
@@ -72842,7 +72914,7 @@
       "materia": "Seguridad Ciudadana y Convivencia",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/09_la_araucania/temuco/2011-01-01_doc_46867a.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "46867ae275a26f898b6ad9e3eb213a97c4712c064d1cedb59884aae3b9f74c07"
     },
     {
@@ -72914,7 +72986,7 @@
       "materia": "Derechos Municipales y Tarifas",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/09_la_araucania/temuco/2010-01-01_2_250c.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "250c074be3df855f7ad1e9910d9521fcbda0b4984840d0a48342720c97d9bb86"
     },
     {
@@ -73622,7 +73694,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/09_la_araucania/curarrehue/2026-01-01_doc_347102.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "347102123609f536c0509fe5f1872292d2e70c2c2f5a9724e29d69fe5df8720b"
     },
     {
@@ -73646,7 +73718,7 @@
       "materia": "Derechos Municipales y Tarifas",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/09_la_araucania/curarrehue/2026-01-01_s_n_cb9c.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "cb9ce4c29c599ea2452294084d8d1edcb1ffae428e0504fc41ea224978329cd7"
     },
     {
@@ -73694,7 +73766,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/09_la_araucania/curarrehue/2026-01-01_1.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "13ed0aa3c63c959662445e60e7373cefff367033031fb2dd088d0c7abce5f6e3"
     },
     {
@@ -73706,7 +73778,7 @@
       "materia": "Tránsito y Transporte",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/09_la_araucania/curarrehue/2026-01-01_1578.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "c0e387bc3dba061ad80bf2339a9dcd3bf4bf0363554d665831cbf2d39e6e57fb"
     },
     {
@@ -73730,7 +73802,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/09_la_araucania/curarrehue/2026-01-01_s_n_7911.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "79117693f9e112c77bcc4e3ad52d4290d7bf21e41d0e16ed643a57dd9f3a9136"
     },
     {
@@ -73742,7 +73814,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/09_la_araucania/curarrehue/2026-01-01_1947.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "fcaccf107fabf8c3315239cecfd9af61635de6f175cd1966ab607d8dbf75982e"
     },
     {
@@ -73766,7 +73838,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/09_la_araucania/curarrehue/2025-11-03_1475.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "f769f6f65fccc515211b929bfcc4e86b6297825c74eeb5406267c9984369e1db"
     },
     {
@@ -73778,7 +73850,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/09_la_araucania/curarrehue/2025-11-03_1474.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "11311ecfba2882396ce9fa4b49128316ba543aa777c09564321b46dad1c334ef"
     },
     {
@@ -73790,7 +73862,7 @@
       "materia": "Patentes, Comercio y Alcoholes",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/09_la_araucania/curarrehue/2025-10-29_1466.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "63e0a2484f1fc6b4636d437bcadc0f48b780b3d9987b77124219d40c69908ed3"
     },
     {
@@ -73802,7 +73874,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/09_la_araucania/curarrehue/2025-10-29_1467.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "55948a95752fb3528991c401446a6fd3c601f737e6227c0e0b137d3f00d5ef3c"
     },
     {
@@ -73814,7 +73886,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/09_la_araucania/curarrehue/2024-11-19_2102.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "a88bc43741c912f6a478ad39c1fc1a7b63dae64688a3c474aacb8131dbdf90c0"
     },
     {
@@ -73826,7 +73898,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/09_la_araucania/curarrehue/2024-01-01_2024.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "ba0c6662e962114f07dff0dac0006762148039ee07a6a13b1564961c8e10968a"
     },
     {
@@ -73838,7 +73910,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/09_la_araucania/curarrehue/2023-10-19_1644.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "72d9d276b643c0119e5c7afa5e3034c727c799aa82f5bf6229a66667f46bd253"
     },
     {
@@ -73862,7 +73934,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/09_la_araucania/curarrehue/2019-01-01_doc_f39121.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "f39121729a847a19709742881ac50bebc6327492125ed5740e0068cb282fcb6e"
     },
     {
@@ -74906,7 +74978,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/09_la_araucania/loncoche/2026-01-01_doc_eb0546.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "eb05460d00a27d98ea087b45a27255230735d27a8c803cbefc6da4ff937a9069"
     },
     {
@@ -74918,7 +74990,7 @@
       "materia": "Derechos Municipales y Tarifas",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/09_la_araucania/loncoche/2026-01-01_311.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "8a12e56f3b3034457658e9aff834324afc384725eff29133495d71d0faa946da"
     },
     {
@@ -75146,7 +75218,7 @@
       "materia": "Derechos Municipales y Tarifas",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/09_la_araucania/nueva_imperial/2019-12-04_1150.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "7eddd0122fcc425234d62d8ddddbd8396b8cb1dc6011f3bf15cf41dc71309896"
     },
     {
@@ -75278,7 +75350,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/09_la_araucania/perquenco/2030-01-01_2030.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "380c38cd82112540f8288e95c8cab51e9e5e08c83739cee39786626178af37a5"
     },
     {
@@ -75326,7 +75398,7 @@
       "materia": "Derechos Municipales y Tarifas",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/09_la_araucania/perquenco/2026-01-01_219.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "a5739f4723fa5244ffe05d447acb477c9ef4f3b9777f35ecd7e6e7ddd6c7a386"
     },
     {
@@ -75338,7 +75410,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/09_la_araucania/perquenco/2026-01-01_doc_4a101c.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "4a101cd4461f292df46a82b51f1730f08958a48f8b39d4574906822fc09f9c32"
     },
     {
@@ -75374,7 +75446,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/09_la_araucania/perquenco/2026-01-01_s_n_ed94.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "ed94783a02d61873e3579f939ecd2e2e06467a03d1caa41f0e76464beabd92ae"
     },
     {
@@ -75386,7 +75458,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/09_la_araucania/perquenco/2026-01-01_s_n_5042.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "50422182002fc923fa468bdeb870cc2af5a7c8046806ab46f8b56c091555dd6c"
     },
     {
@@ -75410,7 +75482,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/09_la_araucania/perquenco/2026-01-01_s_n_2c57.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "2c575e9cb3f480330c9bf28e03f522ae7cde1a17e93aea6d4df2e0f10ca37331"
     },
     {
@@ -75422,7 +75494,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/09_la_araucania/perquenco/2026-01-01_s_n_0f47.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "0f47b233796684b161915de9a18e44d775fa2ff9f0334efafd161d5e9ebfccb7"
     },
     {
@@ -75470,7 +75542,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/09_la_araucania/perquenco/2026-01-01_s_n_7e84.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "7e8477ae572726ae6b29ae3073c8d37276464ec7901fc36aa927da6856909d9e"
     },
     {
@@ -75494,7 +75566,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/09_la_araucania/perquenco/2021-01-01_80.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "4a9f74f36374737dbe32ad94198c1c75801c189f25a9a5df06e6c1957d36149a"
     },
     {
@@ -75506,7 +75578,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/09_la_araucania/perquenco/2020-01-01_doc_df499b.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "df499bcdd285c7c79e98458c359f56ae0b0f399d3b4248acb2ff961d66dce1b7"
     },
     {
@@ -75518,7 +75590,7 @@
       "materia": "Patentes, Comercio y Alcoholes",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/09_la_araucania/perquenco/2019-01-01_doc_b1193e.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "b1193e93988a3a93b3d877966fcabbaab7708bb4405a8ccfecfc5347afd6fec6"
     },
     {
@@ -75854,7 +75926,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/09_la_araucania/saavedra/2026-01-01_s_n_6aa0.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "6aa0d8ca43810b469d4187935d4ee4752b6d2cb91d308b506dabf0425e4a4b39"
     },
     {
@@ -75878,7 +75950,7 @@
       "materia": "Aseo, Ornato y Medio Ambiente",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/09_la_araucania/saavedra/2024-01-01_2024.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "eaddcf493596da50d9c148ef9d2e49a1bc6c554253b65eb37c6dc0bfaae0f0f0"
     },
     {
@@ -76552,6 +76624,18 @@
       "path": "data/markdown_corpus/09_la_araucania/cholchol/2006-04-22_da_133.md",
       "has_full_text": true,
       "sha256": "d99df628f125e0dd6ae33092f39fadf4df0949ae5769e747886579a91cc4e71c"
+    },
+    {
+      "id": "p090_cholchol_133_2006-04-22",
+      "comuna": "Cholchol",
+      "region": "La Araucanía",
+      "numero": "133",
+      "fecha": "2006-04-22",
+      "materia": "Aseo, Ornato y Medio Ambiente",
+      "fuente": "Diario Oficial / BCN",
+      "path": "data/markdown_corpus/09_la_araucania/cholchol/2006-04-22_133.md",
+      "has_full_text": true,
+      "sha256": "e127d5dfff6a46396abf6828543929db3730e4bfa952d859b30f0911df74b16d"
     },
     {
       "id": "p090_angol_1091_2026-01-01",
@@ -78846,6 +78930,18 @@
       "sha256": ""
     },
     {
+      "id": "p090_mafil_1_1997-09-10",
+      "comuna": "Máfil",
+      "region": "Los Ríos",
+      "numero": "1",
+      "fecha": "1997-09-10",
+      "materia": "Aseo, Ornato y Medio Ambiente",
+      "fuente": "Diario Oficial / BCN",
+      "path": "data/markdown_corpus/14_los_rios/mafil/1997-09-10_1.md",
+      "has_full_text": true,
+      "sha256": "a6bae4702304f75daecd4199192a470d36abf95b45d2560dd2072e14749f44ca"
+    },
+    {
       "id": "p090_mafil_355_1994-07-28",
       "comuna": "Máfil",
       "region": "Los Ríos",
@@ -78974,7 +79070,7 @@
       "materia": "Aseo, Ornato y Medio Ambiente",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/14_los_rios/paillaco/2026-01-01_s_n_2eb4.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "2eb4447e5a2e5f32ba4f0d2ae2936dbc93779d61784a97811e8105a7294c0c9d"
     },
     {
@@ -78986,7 +79082,7 @@
       "materia": "Aseo, Ornato y Medio Ambiente",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/14_los_rios/paillaco/2026-01-01_s_n_ae34.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "ae34315d95b7753a45bb18720c1cb75def39bcea0d1ed701368f6b2f596006c5"
     },
     {
@@ -78998,7 +79094,7 @@
       "materia": "Tenencia Responsable de Mascotas",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/14_los_rios/paillaco/2026-01-01_s_n_f3d5.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "f3d597f0ea00bd45133559c950838cb3978e24a07e68d92c1f3922ba5a9bbb18"
     },
     {
@@ -79106,7 +79202,7 @@
       "materia": "Urbanismo, Obras y Edificación",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/14_los_rios/paillaco/2022-01-01_2022.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "eb58c088284e2062a6b30ccab8f1b6d8a47aec0208c1ccb35248a8c179a52ec6"
     },
     {
@@ -79850,7 +79946,7 @@
       "materia": "Aseo, Ornato y Medio Ambiente",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/puerto_montt/2026-01-01_s_n_92dc.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "92dc8fd4428ff41ff90eb27ede7261288335808643d985de2099294bad896daa"
     },
     {
@@ -80618,7 +80714,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/calbuco/2021-01-01_1744.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "2d3b280912d77cd10b8ee5aeb62f9f3cdc88932538285ddddce278115be8f16c"
     },
     {
@@ -80834,7 +80930,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/calbuco/2018-01-01_4159.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "6fa39b4866715e2e5f4db5d758884051c9c183630b6718500b8441cbcc9f6674"
     },
     {
@@ -80870,7 +80966,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/calbuco/2018-01-01_5461.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "620de8758174c37c2863d9677a24454277fb2e7b7a6534c5596695c8d2f2bf02"
     },
     {
@@ -80882,7 +80978,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/calbuco/2017-01-01_4951.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "a79963f1ceb9a8792dc5910b8cc5591c5be31bf4a261390b7927bae9edd4f89e"
     },
     {
@@ -80906,7 +81002,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/calbuco/2014-01-01_3254.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "39a6f5cc69ee7a3c7c8fb16ab2d889aa3e9096a6a20020944289b2c50327c631"
     },
     {
@@ -80918,7 +81014,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/calbuco/2013-01-01_2013.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "0d86d9a0b36852b3df1ed158a4263cbff9eb0552c2f1c536134bb488e15d45dd"
     },
     {
@@ -82190,7 +82286,7 @@
       "materia": "Aseo, Ornato y Medio Ambiente",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/chonchi/2026-01-01_doc_66af5a.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "66af5af16d6df1cc854dd52ae7ec3de7306eb2362e764881cca9e224bdb5a276"
     },
     {
@@ -82214,7 +82310,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/chonchi/2026-01-01_1.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "8216a9db75068fb2cc2904bfae192e11006a80456879b92fc7992fc3d0e6903e"
     },
     {
@@ -82226,7 +82322,7 @@
       "materia": "Tenencia Responsable de Mascotas",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/chonchi/2026-01-01_4.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "19d126856b8ecfc3e83b2bc6af25ff216a6b5e9ac338fa4c5ec80a2b7093ebe6"
     },
     {
@@ -82238,7 +82334,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/chonchi/2026-01-01_02.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "367232b2d6fbbbde4c26e0277521b830b22b7c65e0d4d89c39ec710ecdcf8081"
     },
     {
@@ -82250,7 +82346,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/chonchi/2026-01-01_2.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "715dddddb4681922dac6c12c1e40e6138a1e1a7524f5bb3d2d08bdcdba955b78"
     },
     {
@@ -82262,7 +82358,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/chonchi/2026-01-01_6.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "f92a12062671c0841f46a3cc776600805624f31ae51ea5589e3578e93cfac326"
     },
     {
@@ -82274,7 +82370,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/chonchi/2026-01-01_7.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "30982be4aa0a7f64ca7ddc365db7ed3299c9a50c8f91ae7809abff4023a37e2b"
     },
     {
@@ -82286,7 +82382,7 @@
       "materia": "Patentes, Comercio y Alcoholes",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/chonchi/2024-01-01_07.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "9143ed656f18eba3922b97e9debc7ac67258f60f1e5cea8faeeb61523c7b9c93"
     },
     {
@@ -82298,7 +82394,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/chonchi/2024-01-01_03.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "a0b418beabec3ae18c8f07d633a91d3f18c87fd925d2da9ce55da33ac1b7679b"
     },
     {
@@ -82310,7 +82406,7 @@
       "materia": "Derechos Municipales y Tarifas",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/chonchi/2024-01-01_05.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "68c1e00e7ab91e7c7a030675ae8562097dc40ced18fddb1ade2d2f5766918de7"
     },
     {
@@ -82322,7 +82418,7 @@
       "materia": "Patentes, Comercio y Alcoholes",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/chonchi/2024-01-01_06.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "8a0c3225860256c1bf093504d62760522f7434b11f9eb67d9afda2d26182ac50"
     },
     {
@@ -82634,7 +82730,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/dalcahue/2026-01-01_s_n_ac35.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "ac35e4a1ff345c148f5b91027dbdc90cf67db58505d63c1e375ab0986917f101"
     },
     {
@@ -82646,7 +82742,7 @@
       "materia": "Patentes, Comercio y Alcoholes",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/dalcahue/2026-01-01_s_n_1f9b.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "1f9bec73c4a3a0843833a0327cac91fe269adaf0207752696d9146e1de10b2d3"
     },
     {
@@ -82658,7 +82754,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/dalcahue/2026-01-01_14.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "c873b790b2161fc895733a7c9cc081fa4e774613e5a27405bc72a2d3d7cb986c"
     },
     {
@@ -82670,7 +82766,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/dalcahue/2026-01-01_1.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "ed225820946e9f067379636a19c7484a761280146da53bcb287e5b6241a95d9f"
     },
     {
@@ -82682,7 +82778,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/dalcahue/2026-01-01_12.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "a1011288e1ea06c826ef041eab25fd25ab67d7460c6aa4effa92f623d3a2bff6"
     },
     {
@@ -82706,7 +82802,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/dalcahue/2026-01-01_14_b6ca.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "b6cae2ab6b8c9b478ffa80584599a1b5c5dc326d9ee3b4667545c289e480867f"
     },
     {
@@ -82790,7 +82886,7 @@
       "materia": "Patentes, Comercio y Alcoholes",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/dalcahue/2026-01-01_05.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "7e1afca89a7cd943e48dea01d7c411b5211352aeca316f3d685081bdeac72fd7"
     },
     {
@@ -82802,7 +82898,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/dalcahue/2026-01-01_03202.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "23c2345e7d8e8a110196d5dfa0cb9157fdb2c1f4f4eb0e963c76ae6a874ed29c"
     },
     {
@@ -82814,7 +82910,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/dalcahue/2026-01-01_0.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "a8681edd2376af2bbc525027d6c24ec10d05a3853078d8b2d0897e32cffbc315"
     },
     {
@@ -82826,7 +82922,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/dalcahue/2026-01-01_s_n_f370.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "f370561ecbfc42d4bce5c3b00de097c328826411957211c59ab7b4f3268f2723"
     },
     {
@@ -82838,7 +82934,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/dalcahue/2026-01-01_s_n_13bf.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "13bf4f70a738dc66271961d6d9fdd1e367b0435dcc36a84335453eb671128f99"
     },
     {
@@ -82850,7 +82946,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/dalcahue/2026-01-01_s_n_8df8.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "8df8e06c395a8c87f3e8fdef24949bd81fc931c1bebc9e1e57d7858195a8f29e"
     },
     {
@@ -82862,7 +82958,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/dalcahue/2026-01-01_s_n_b49d.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "b49da73b3fcc86f19e25ce047f737c41afc55f94e5c78b8cf5d9fc7f9773663e"
     },
     {
@@ -82886,7 +82982,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/dalcahue/2026-01-01_2012.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "db36c88c4bdeb42b7d8d1a2c11245b5a6f8c921fd0b7d0c9ea297d0cac71d6cf"
     },
     {
@@ -82898,7 +82994,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/dalcahue/2026-01-01_10.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "3581c40d945b33fcf60281eef6231c8d9e84d8d7539336276df1e8e7b2059965"
     },
     {
@@ -82958,7 +83054,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/dalcahue/2026-01-01_s_n_c57b.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "c57b3bdd3a6a86a317d54578de69eaa99f495e794c0ad9443e611f8ee4b6c8f5"
     },
     {
@@ -82982,7 +83078,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/dalcahue/2026-01-01_s_n_646b.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "646b754ee374d68557513f658d77e6809df701b2ba044a5ac7e469ac525fff54"
     },
     {
@@ -82994,7 +83090,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/dalcahue/2026-01-01_s_n_4bbc.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "4bbcc0999ac6555c66e9ae4cf4ad7f67127335e5d298c3e882a1d2cb657cbbe2"
     },
     {
@@ -83054,7 +83150,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/dalcahue/2016-01-01_2016.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "5c1fa886bc5b0b22291eeb854f8c7f226fa0455168f716da56f642c80b9098ed"
     },
     {
@@ -83066,7 +83162,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/dalcahue/2015-01-01_2006.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "50e9334bb447995c4a941ee78958a22d2d0507c70257ae9a840776590e854531"
     },
     {
@@ -83078,7 +83174,7 @@
       "materia": "Aseo, Ornato y Medio Ambiente",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/dalcahue/2014-01-01_20.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "204e0c9833066142d19c3519e49f8e0efb72112d61a01291bae7471a6a2b9f2d"
     },
     {
@@ -83090,7 +83186,7 @@
       "materia": "Aseo, Ornato y Medio Ambiente",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/dalcahue/2014-01-01_20_1a16.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "1a1627991d258f4428ac336ea5cf95f4838e48520ad257759e98efa19e1e1ad9"
     },
     {
@@ -83102,7 +83198,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/dalcahue/2014-01-01_2014.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "ed0041845f8c02c7252982abe85a353578cead18090cf4c0679d36b4034f7adf"
     },
     {
@@ -83150,7 +83246,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/puqueldon/2026-01-01_doc_eb1e79.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "eb1e795aff83bfd34b1192f27ab379087c1a92a760e33081b8aebf4e995bb3a9"
     },
     {
@@ -83234,7 +83330,7 @@
       "materia": "Aseo, Ornato y Medio Ambiente",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/queilen/2026-01-01_s_n_2e7c.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "2e7c3abda20e19422ee06d73cef5fe66a4eb44c4016f530b32dca116676dabdf"
     },
     {
@@ -83330,7 +83426,7 @@
       "materia": "Tenencia Responsable de Mascotas",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/queilen/2026-01-01_s_n_a371.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "a37153a2fed59895eb7edd7d7e52129033ade2d5206f5f651af99cf6dcb76a67"
     },
     {
@@ -83354,7 +83450,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/queilen/2026-01-01_s_n_ebcb.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "ebcb6cd2d86d357d0c6f6e2f5f985d0555fcdcc4b71b3fe20bbe578289df5834"
     },
     {
@@ -84446,7 +84542,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/purranque/2026-01-01_s_n_ca9d.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "ca9dd52445b0f567a680413dcaf2e57f0b87423baf27e84c3c41fe185086e089"
     },
     {
@@ -84458,7 +84554,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/purranque/2026-01-01_s_n_c2ee.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "c2ee4297ae03fe5e9a3e64b877aedf932b024447456ccf527ba4418f8b9ab820"
     },
     {
@@ -84470,7 +84566,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/purranque/2026-01-01_s_n_9aa6.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "9aa6dac6d046d1cc11599129db4694b61917b6e09b1c8628a34d0809375cdb71"
     },
     {
@@ -84482,7 +84578,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/purranque/2026-01-01_s_n_08f0.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "08f08a2b413e3b08b543efa8e250955ef1888b07bcbcda1582c068212bccdca8"
     },
     {
@@ -85106,7 +85202,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/hualaihue/2026-01-01_92.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "c2ef26352a1abc70672086b200c17a1ecfa283efd7671aba10816647704c0b5d"
     },
     {
@@ -85130,7 +85226,7 @@
       "materia": "Patentes, Comercio y Alcoholes",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/hualaihue/2026-01-01_doc_861a3b.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "861a3b9085513e5280723a389eca63caca057a4de9672b5f622f063a170b89f9"
     },
     {
@@ -85142,7 +85238,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/10_los_lagos/hualaihue/2026-01-01_s_n_34fb.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "34fbcf4f2d247ed4b48b975385254ff6a4851e0440b8747e88efe1dfc12b9cca"
     },
     {
@@ -85922,7 +86018,7 @@
       "materia": "Aseo, Ornato y Medio Ambiente",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/11_aysen/aysen/2006-06-19_2006.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "8548dd214425bb23cf7b7317705686ebf5d1337fa95bb99093672ef6c91bf277"
     },
     {
@@ -87234,6 +87330,18 @@
       "sha256": "04e069021e1c5bab4cf2c7fb07214e9dcf81f0d1a88591d5886cccb487dffb9a"
     },
     {
+      "id": "p090_cabo_de_hornos_110_2017-05-02",
+      "comuna": "Cabo de Hornos",
+      "region": "Magallanes",
+      "numero": "110",
+      "fecha": "2017-05-02",
+      "materia": "Derechos Municipales y Tarifas",
+      "fuente": "Diario Oficial / BCN",
+      "path": "data/markdown_corpus/12_magallanes/cabo_de_hornos/2017-05-02_110.md",
+      "has_full_text": true,
+      "sha256": "cf92111ebc180c5bbee65445496f76b9b6e2c5798faf2f880d5a91e0ade2d29d"
+    },
+    {
       "id": "p090_cabo_de_hornos_242_1999-08-07",
       "comuna": "Cabo de Hornos",
       "region": "Magallanes",
@@ -87350,7 +87458,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/12_magallanes/porvenir/2026-01-01_20.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "109ec0b97f04d016219d5fd993c05425af94628cc63732e36be1e00485732fb4"
     },
     {
@@ -87362,7 +87470,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/12_magallanes/porvenir/2026-01-01_21.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "42a33a3fa2b3597f8fe436371ea74f688bce5c1c26eadbb22fbe077d19546995"
     },
     {
@@ -87374,7 +87482,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/12_magallanes/porvenir/2026-01-01_doc_f8bcde.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "f8bcde8992b65fb390f952a0d9de7e3c43763df39945367332e252a304992590"
     },
     {
@@ -87386,7 +87494,7 @@
       "materia": "Normativa General y Otras Materias",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/12_magallanes/porvenir/2026-01-01_22.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "24f08374a7e52ab67ed430d29b1d4b06d847cc0bd1b41c83f4a09c390951110b"
     },
     {
@@ -87506,7 +87614,7 @@
       "materia": "Derechos Municipales y Tarifas",
       "fuente": "Municipalidad",
       "path": "data/markdown_corpus/12_magallanes/timaukel/2020-01-15_78.md",
-      "has_full_text": false,
+      "has_full_text": true,
       "sha256": "47b6bc25a667b3133713cfda1dfae2c0c13f4ebb336c2413c9e2a05284c877ae"
     },
     {

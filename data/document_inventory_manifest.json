@@ -1,13 +1,13 @@
 {
   "task_id": "P090-20260908-plan-publico-02",
-  "generated_at": "2026-09-17T21:51:55.651829+00:00",
+  "generated_at": "2026-09-17T23:07:55.069166+00:00",
   "status_data": {
     "updated_at": "2026-08-25T22:49:10.579553",
     "declared_metrics": {
       "total_comunas": 346,
       "comunas_con_datos": 346,
       "total_regiones": 16,
-      "total_ordenanzas": 7312,
+      "total_ordenanzas": 7321,
       "ordenanzas_bcn": 5881,
       "ordenanzas_cplt": 0,
       "pdfs_descargados": 0,
@@ -16,52 +16,50 @@
         "bloqueos_ip": 0,
         "user_agents_rotados": 12
       },
-      "ordenanzas_municipales_verificadas": 1431,
+      "ordenanzas_municipales_verificadas": 1440,
       "cplt_en_cuarentena": 0,
       "cobertura_nacional_pct": 100.0
     },
     "total_comunas": 346,
-    "total_records_in_comunas": 7312,
+    "total_records_in_comunas": 7321,
     "fuentes_desglose": {
-      "Municipalidad": 1409,
+      "Municipalidad": 1408,
       "BCN": 5881,
-      "Diario Oficial / BCN": 21,
+      "Diario Oficial / BCN": 31,
       "BCN / LeyChile": 1
     },
-    "registros_con_sha256_remoto": 1431,
-    "comunas_1_norma_count": 3,
+    "registros_con_sha256_remoto": 1440,
+    "comunas_1_norma_count": 1,
     "comunas_1_norma": [
-      "Pencahue",
-      "Cholchol",
       "Antártica"
     ],
-    "comunas_2_normas_count": 4,
+    "comunas_2_normas_count": 3,
     "comunas_2_normas": [
-      "Camiña",
-      "Paiguano",
       "Pumanque",
+      "Cholchol",
       "Timaukel"
     ],
-    "comunas_3_normas_count": 5,
+    "comunas_3_normas_count": 6,
     "comunas_3_normas": [
-      "San Rafael",
+      "Camiña",
+      "Paiguano",
+      "Pencahue",
       "Ñiquén",
       "Nueva Imperial",
-      "Máfil",
       "Chaitén"
     ],
-    "comunas_baja_densidad_1_3_count": 12
+    "comunas_baja_densidad_1_3_count": 10
   },
   "municipal_verified": {
-    "generated_at": "2026-09-16T17:30:47.797314Z",
-    "declared_count": 1431,
-    "actual_records_count": 1431,
-    "unique_comunas_count": 219,
-    "unique_sha256_count": 1431
+    "generated_at": "2026-09-17T19:14:50.150654Z",
+    "declared_count": 1440,
+    "actual_records_count": 1440,
+    "unique_comunas_count": 222,
+    "unique_sha256_count": 1440
   },
   "physical_pdfs": {
     "path": "D:\\Proyectos\\P090 - Catastro Ordenanzas Municipales BCN\\data\\official_pdfs",
-    "count": 26,
+    "count": 1299,
     "files": [
       {
         "filename": "_iqu_n_COBROS-2021_2021-01-01.pdf",
@@ -72,8 +70,600 @@
         "bytes": 306510
       },
       {
+        "filename": "algarrobo_2104_2022-12-15.pdf",
+        "bytes": 25799
+      },
+      {
+        "filename": "alhu_doc_dc91b4_2026-01-01.pdf",
+        "bytes": 100484
+      },
+      {
+        "filename": "alhu_s_n_f245_2026-01-01.pdf",
+        "bytes": 6849197
+      },
+      {
+        "filename": "alto_biob_o_450_2016-10-18.pdf",
+        "bytes": 23968
+      },
+      {
+        "filename": "alto_biob_o_doc_212977_2026-01-01.pdf",
+        "bytes": 137223
+      },
+      {
+        "filename": "alto_biob_o_doc_2a8fc2_2021-01-01.pdf",
+        "bytes": 262475
+      },
+      {
+        "filename": "alto_biob_o_doc_3801fd_2022-01-01.pdf",
+        "bytes": 5452874
+      },
+      {
+        "filename": "alto_biob_o_doc_4ea0d6_2019-01-01.pdf",
+        "bytes": 349631
+      },
+      {
+        "filename": "alto_biob_o_doc_9bcb49_2020-01-01.pdf",
+        "bytes": 3072342
+      },
+      {
+        "filename": "alto_biob_o_doc_b80e4b_2024-01-01.pdf",
+        "bytes": 1770076
+      },
+      {
+        "filename": "alto_biob_o_doc_c3be6d_2021-01-01.pdf",
+        "bytes": 1191053
+      },
+      {
+        "filename": "alto_del_carmen_01_2020-04-23.pdf",
+        "bytes": 239000
+      },
+      {
+        "filename": "alto_del_carmen_1_2021-01-01.pdf",
+        "bytes": 770043
+      },
+      {
+        "filename": "alto_del_carmen_2_2020-01-01.pdf",
+        "bytes": 552730
+      },
+      {
+        "filename": "alto_del_carmen_3_2019-01-01.pdf",
+        "bytes": 511248
+      },
+      {
+        "filename": "alto_del_carmen_3_2020-01-01.pdf",
+        "bytes": 4047430
+      },
+      {
+        "filename": "alto_del_carmen_4_2020-01-01.pdf",
+        "bytes": 548848
+      },
+      {
+        "filename": "alto_hospicio_16_2016-01-01.pdf",
+        "bytes": 536183
+      },
+      {
+        "filename": "alto_hospicio_179_2024-01-01.pdf",
+        "bytes": 227905
+      },
+      {
+        "filename": "alto_hospicio_19_2011-01-01.pdf",
+        "bytes": 1095738
+      },
+      {
+        "filename": "alto_hospicio_1_2025-01-01.pdf",
+        "bytes": 3777541
+      },
+      {
+        "filename": "alto_hospicio_2024_2024-01-01.pdf",
+        "bytes": 12547645
+      },
+      {
+        "filename": "alto_hospicio_20_2026-01-01.pdf",
+        "bytes": 520871
+      },
+      {
+        "filename": "alto_hospicio_2115_2015-01-01.pdf",
+        "bytes": 1087181
+      },
+      {
+        "filename": "alto_hospicio_2812_2015-01-01.pdf",
+        "bytes": 7900273
+      },
+      {
+        "filename": "alto_hospicio_2994_2015-01-01.pdf",
+        "bytes": 855728
+      },
+      {
+        "filename": "alto_hospicio_3101_2015-01-01.pdf",
+        "bytes": 6624213
+      },
+      {
+        "filename": "alto_hospicio_4534_2026-01-01.pdf",
+        "bytes": 964552
+      },
+      {
+        "filename": "alto_hospicio_754_2014-01-01.pdf",
+        "bytes": 469989
+      },
+      {
+        "filename": "alto_hospicio_doc_fc0c29_2026-01-01.pdf",
+        "bytes": 465810
+      },
+      {
+        "filename": "alto_hospicio_s_n_c9f5_2026-01-01.pdf",
+        "bytes": 801657
+      },
+      {
+        "filename": "angol_1091_2026-01-01.pdf",
+        "bytes": 1780224
+      },
+      {
+        "filename": "ant_rtica_110_2017-05-02.pdf",
+        "bytes": 24059
+      },
+      {
+        "filename": "antofagasta_005_2011-01-01.pdf",
+        "bytes": 1258667
+      },
+      {
+        "filename": "antofagasta_01_2026-01-01.pdf",
+        "bytes": 1474301
+      },
+      {
+        "filename": "antofagasta_02_2026-01-01.pdf",
+        "bytes": 3579895
+      },
+      {
+        "filename": "antofagasta_03_2018-01-01.pdf",
+        "bytes": 1916842
+      },
+      {
+        "filename": "antofagasta_03_2020-01-01.pdf",
+        "bytes": 1301039
+      },
+      {
+        "filename": "antofagasta_055_2011-01-01.pdf",
+        "bytes": 4133240
+      },
+      {
+        "filename": "antofagasta_05_2026-01-01.pdf",
+        "bytes": 948946
+      },
+      {
+        "filename": "antofagasta_06_2026-01-01.pdf",
+        "bytes": 1521286
+      },
+      {
+        "filename": "antofagasta_07_2026-01-01.pdf",
+        "bytes": 1482760
+      },
+      {
+        "filename": "antofagasta_4_2026-01-01.pdf",
+        "bytes": 1953557
+      },
+      {
+        "filename": "arauco_2307_2026-01-01.pdf",
+        "bytes": 8835473
+      },
+      {
+        "filename": "arica_02_2026-01-01.pdf",
+        "bytes": 2390117
+      },
+      {
+        "filename": "arica_1_2026-01-01.pdf",
+        "bytes": 67205
+      },
+      {
+        "filename": "arica_doc_294383_2026-01-01.pdf",
+        "bytes": 177145
+      },
+      {
+        "filename": "ays_n_2006_2006-06-19.pdf",
+        "bytes": 151779
+      },
+      {
+        "filename": "ays_n_2012_2012-12-21.pdf",
+        "bytes": 1202831
+      },
+      {
+        "filename": "ays_n_2013_2013-01-01.pdf",
+        "bytes": 93841
+      },
+      {
+        "filename": "ays_n_2014_2014-01-01.pdf",
+        "bytes": 229254
+      },
+      {
+        "filename": "ays_n_2014_a743_2014-01-01.pdf",
+        "bytes": 538500
+      },
+      {
+        "filename": "ays_n_2015_2015-01-01.pdf",
+        "bytes": 2612437
+      },
+      {
+        "filename": "ays_n_2015_2015-07-29.pdf",
+        "bytes": 223693
+      },
+      {
+        "filename": "ays_n_2015_2015-12-31.pdf",
+        "bytes": 1228022
+      },
+      {
+        "filename": "ays_n_2016_1ea3_2016-01-01.pdf",
+        "bytes": 1062538
+      },
+      {
+        "filename": "ays_n_2016_2016-01-01.pdf",
+        "bytes": 118007
+      },
+      {
+        "filename": "ays_n_2016_2016-12-28.pdf",
+        "bytes": 6025117
+      },
+      {
+        "filename": "ays_n_2016_3749_2016-01-01.pdf",
+        "bytes": 361255
+      },
+      {
+        "filename": "ays_n_2016_6ed9_2016-01-01.pdf",
+        "bytes": 411440
+      },
+      {
+        "filename": "ays_n_2016_e74f_2016-01-01.pdf",
+        "bytes": 131830
+      },
+      {
+        "filename": "ays_n_2016_f1b9_2016-12-28.pdf",
+        "bytes": 2097710
+      },
+      {
+        "filename": "ays_n_2016_fab3_2016-01-01.pdf",
+        "bytes": 1215227
+      },
+      {
+        "filename": "ays_n_2017_2017-01-01.pdf",
+        "bytes": 1415512
+      },
+      {
+        "filename": "buin_07_2026-01-01.pdf",
+        "bytes": 1385495
+      },
+      {
+        "filename": "buin_1318_2003-01-01.pdf",
+        "bytes": 740424
+      },
+      {
+        "filename": "buin_1367_2026-01-01.pdf",
+        "bytes": 2082022
+      },
+      {
+        "filename": "buin_1725_2003-01-01.pdf",
+        "bytes": 50904
+      },
+      {
+        "filename": "buin_20106_2003-01-01.pdf",
+        "bytes": 228372
+      },
+      {
+        "filename": "buin_2011_2011-01-01.pdf",
+        "bytes": 1367357
+      },
+      {
+        "filename": "buin_2012_2012-01-01.pdf",
+        "bytes": 1668983
+      },
+      {
+        "filename": "buin_2015_2015-01-01.pdf",
+        "bytes": 44039
+      },
+      {
+        "filename": "buin_2015_be2d_2015-01-01.pdf",
+        "bytes": 2054456
+      },
+      {
+        "filename": "buin_2025_2025-01-01.pdf",
+        "bytes": 6876476
+      },
+      {
+        "filename": "buin_2025_baa9_2025-01-01.pdf",
+        "bytes": 6325741
+      },
+      {
+        "filename": "buin_2087_2087-01-01.pdf",
+        "bytes": 994920
+      },
+      {
+        "filename": "buin_20_2009-01-01.pdf",
+        "bytes": 63466
+      },
+      {
+        "filename": "buin_239_2026-01-01.pdf",
+        "bytes": 877812
+      },
+      {
+        "filename": "buin_239_f3c8_2026-01-01.pdf",
+        "bytes": 639802
+      },
+      {
+        "filename": "buin_3272_2012-01-01.pdf",
+        "bytes": 476514
+      },
+      {
+        "filename": "buin_344_2026-01-01.pdf",
+        "bytes": 722868
+      },
+      {
+        "filename": "buin_3488_2023-01-01.pdf",
+        "bytes": 1919222
+      },
+      {
+        "filename": "buin_3488_80e7_2023-01-01.pdf",
+        "bytes": 12614867
+      },
+      {
+        "filename": "buin_doc_177eb6_2009-01-01.pdf",
+        "bytes": 359384
+      },
+      {
+        "filename": "buin_doc_582fc8_2011-01-01.pdf",
+        "bytes": 68561
+      },
+      {
+        "filename": "buin_doc_7cd33d_2013-01-01.pdf",
+        "bytes": 1662811
+      },
+      {
+        "filename": "buin_doc_891b46_2012-01-01.pdf",
+        "bytes": 362952
+      },
+      {
+        "filename": "buin_doc_a398a5_2026-01-01.pdf",
+        "bytes": 517959
+      },
+      {
+        "filename": "buin_doc_b1c96c_2007-01-01.pdf",
+        "bytes": 66499
+      },
+      {
+        "filename": "buin_doc_c89a31_2003-01-01.pdf",
+        "bytes": 52466
+      },
+      {
+        "filename": "buin_doc_d9ab35_2014-01-01.pdf",
+        "bytes": 2547582
+      },
+      {
+        "filename": "buin_s_n_0a37_2026-01-01.pdf",
+        "bytes": 950064
+      },
+      {
+        "filename": "buin_s_n_0a56_2026-01-01.pdf",
+        "bytes": 532478
+      },
+      {
+        "filename": "buin_s_n_12ce_2012-01-01.pdf",
+        "bytes": 95724
+      },
+      {
+        "filename": "buin_s_n_17de_2026-01-01.pdf",
+        "bytes": 1562112
+      },
+      {
+        "filename": "buin_s_n_192b_2026-01-01.pdf",
+        "bytes": 247100
+      },
+      {
+        "filename": "buin_s_n_1b33_2026-01-01.pdf",
+        "bytes": 111560
+      },
+      {
+        "filename": "buin_s_n_1d82_2026-01-01.pdf",
+        "bytes": 57438
+      },
+      {
+        "filename": "buin_s_n_21ec_2013-01-01.pdf",
+        "bytes": 535714
+      },
+      {
+        "filename": "buin_s_n_22a9_2011-01-01.pdf",
+        "bytes": 68482
+      },
+      {
+        "filename": "buin_s_n_30aa_2026-01-01.pdf",
+        "bytes": 57017
+      },
+      {
+        "filename": "buin_s_n_369e_2026-01-01.pdf",
+        "bytes": 971809
+      },
+      {
+        "filename": "buin_s_n_40e5_2026-01-01.pdf",
+        "bytes": 642441
+      },
+      {
+        "filename": "buin_s_n_4bfc_2026-01-01.pdf",
+        "bytes": 39058
+      },
+      {
+        "filename": "buin_s_n_4cc8_2026-01-01.pdf",
+        "bytes": 729864
+      },
+      {
+        "filename": "buin_s_n_52c4_2026-01-01.pdf",
+        "bytes": 248129
+      },
+      {
+        "filename": "buin_s_n_60da_2009-01-01.pdf",
+        "bytes": 654719
+      },
+      {
+        "filename": "buin_s_n_8c06_2026-01-01.pdf",
+        "bytes": 492277
+      },
+      {
+        "filename": "buin_s_n_8d13_2026-01-01.pdf",
+        "bytes": 109402
+      },
+      {
+        "filename": "buin_s_n_8f0a_2026-01-01.pdf",
+        "bytes": 345440
+      },
+      {
+        "filename": "buin_s_n_9876_2026-01-01.pdf",
+        "bytes": 57169
+      },
+      {
+        "filename": "buin_s_n_9f1c_2026-01-01.pdf",
+        "bytes": 346150
+      },
+      {
+        "filename": "buin_s_n_a184_2026-01-01.pdf",
+        "bytes": 2345513
+      },
+      {
+        "filename": "buin_s_n_ad0f_2026-01-01.pdf",
+        "bytes": 592223
+      },
+      {
+        "filename": "buin_s_n_b58b_2026-01-01.pdf",
+        "bytes": 2710432
+      },
+      {
+        "filename": "buin_s_n_b751_2026-01-01.pdf",
+        "bytes": 882191
+      },
+      {
+        "filename": "buin_s_n_c68d_2026-01-01.pdf",
+        "bytes": 200455
+      },
+      {
+        "filename": "buin_s_n_c9d5_2026-01-01.pdf",
+        "bytes": 490790
+      },
+      {
+        "filename": "buin_s_n_ca1c_2026-01-01.pdf",
+        "bytes": 129925
+      },
+      {
+        "filename": "buin_s_n_e24d_2026-01-01.pdf",
+        "bytes": 72192
+      },
+      {
+        "filename": "buin_s_n_e4ae_2026-01-01.pdf",
+        "bytes": 53363
+      },
+      {
+        "filename": "buin_s_n_e8b3_2026-01-01.pdf",
+        "bytes": 55810
+      },
+      {
+        "filename": "buin_s_n_eb1b_2026-01-01.pdf",
+        "bytes": 171496
+      },
+      {
+        "filename": "buin_s_n_f1a5_2026-01-01.pdf",
+        "bytes": 135791
+      },
+      {
         "filename": "bulnes_norma_oficial.pdf",
         "bytes": 123569
+      },
+      {
+        "filename": "cabildo_01_2014-01-01.pdf",
+        "bytes": 1379194
+      },
+      {
+        "filename": "cabildo_01_2020-01-01.pdf",
+        "bytes": 1055328
+      },
+      {
+        "filename": "cabildo_01_2026-01-01.pdf",
+        "bytes": 2634330
+      },
+      {
+        "filename": "cabildo_03_2020-01-01.pdf",
+        "bytes": 2109437
+      },
+      {
+        "filename": "cabildo_04_2020-01-01.pdf",
+        "bytes": 928569
+      },
+      {
+        "filename": "cabildo_156_2021-01-01.pdf",
+        "bytes": 1743280
+      },
+      {
+        "filename": "cabildo_1_2026-01-01.pdf",
+        "bytes": 2911867
+      },
+      {
+        "filename": "cabildo_2100_2020-01-01.pdf",
+        "bytes": 1984138
+      },
+      {
+        "filename": "cabildo_2326_2020-01-01.pdf",
+        "bytes": 4554972
+      },
+      {
+        "filename": "cabildo_324_2026-01-01.pdf",
+        "bytes": 312131
+      },
+      {
+        "filename": "cabildo_3839_2021-01-01.pdf",
+        "bytes": 4967524
+      },
+      {
+        "filename": "cabildo_3900_2020-01-01.pdf",
+        "bytes": 3180439
+      },
+      {
+        "filename": "cabildo_4575_2023-01-01.pdf",
+        "bytes": 1866427
+      },
+      {
+        "filename": "cabildo_doc_2cb307_2026-01-01.pdf",
+        "bytes": 2672259
+      },
+      {
+        "filename": "cabildo_doc_f77483_2015-08-18.pdf",
+        "bytes": 1364691
+      },
+      {
+        "filename": "cabildo_s_n_0bda_2026-01-01.pdf",
+        "bytes": 460490
+      },
+      {
+        "filename": "cabildo_s_n_3426_2026-01-01.pdf",
+        "bytes": 1927321
+      },
+      {
+        "filename": "cabildo_s_n_4461_2026-01-01.pdf",
+        "bytes": 4084372
+      },
+      {
+        "filename": "cabildo_s_n_9d4f_2026-01-01.pdf",
+        "bytes": 935944
+      },
+      {
+        "filename": "cabildo_s_n_bfe0_2026-01-01.pdf",
+        "bytes": 191868
+      },
+      {
+        "filename": "cabildo_s_n_c4cb_2026-01-01.pdf",
+        "bytes": 5098562
+      },
+      {
+        "filename": "cabildo_s_n_d0e6_2026-01-01.pdf",
+        "bytes": 3051599
+      },
+      {
+        "filename": "cabildo_s_n_e00c_2026-01-01.pdf",
+        "bytes": 239842
+      },
+      {
+        "filename": "cabo_de_hornos_110_2017-05-02.pdf",
+        "bytes": 24059
       },
       {
         "filename": "cabo_de_hornos_194_1988-02-08.pdf",
@@ -84,12 +674,352 @@
         "bytes": 7227399
       },
       {
+        "filename": "cabo_de_hornos_473_2026-01-01.pdf",
+        "bytes": 3540715
+      },
+      {
+        "filename": "cabrero_doc_de2c4c_2019-01-01.pdf",
+        "bytes": 731468
+      },
+      {
+        "filename": "calama_001_2026-01-01.pdf",
+        "bytes": 777286
+      },
+      {
+        "filename": "calama_002_2026-01-01.pdf",
+        "bytes": 801544
+      },
+      {
+        "filename": "calama_003_2026-01-01.pdf",
+        "bytes": 310790
+      },
+      {
+        "filename": "calama_004_2026-01-01.pdf",
+        "bytes": 6498806
+      },
+      {
+        "filename": "calama_005_2025-01-01.pdf",
+        "bytes": 2547660
+      },
+      {
+        "filename": "calama_doc_9f4f03_2026-01-01.pdf",
+        "bytes": 6525345
+      },
+      {
+        "filename": "calbuco_01_2025-01-01.pdf",
+        "bytes": 3751336
+      },
+      {
+        "filename": "calbuco_02_2025-01-01.pdf",
+        "bytes": 2868713
+      },
+      {
+        "filename": "calbuco_04_2023-01-01.pdf",
+        "bytes": 1068893
+      },
+      {
+        "filename": "calbuco_04_2025-01-01.pdf",
+        "bytes": 3360675
+      },
+      {
+        "filename": "calbuco_10738_2026-01-01.pdf",
+        "bytes": 276986
+      },
+      {
+        "filename": "calbuco_10739_2026-01-01.pdf",
+        "bytes": 525533
+      },
+      {
+        "filename": "calbuco_10_2026-01-01.pdf",
+        "bytes": 674917
+      },
+      {
+        "filename": "calbuco_1744_2021-01-01.pdf",
+        "bytes": 244944
+      },
+      {
+        "filename": "calbuco_1_2024-01-01.pdf",
+        "bytes": 4521672
+      },
+      {
+        "filename": "calbuco_2013_2013-01-01.pdf",
+        "bytes": 1938809
+      },
+      {
+        "filename": "calbuco_2025_2025-01-01.pdf",
+        "bytes": 574125
+      },
+      {
+        "filename": "calbuco_2025_3db7_2025-01-01.pdf",
+        "bytes": 5013870
+      },
+      {
+        "filename": "calbuco_2025_40fc_2025-01-01.pdf",
+        "bytes": 218870
+      },
+      {
+        "filename": "calbuco_2025_5ba1_2025-01-01.pdf",
+        "bytes": 573978
+      },
+      {
+        "filename": "calbuco_2025_6b95_2025-01-01.pdf",
+        "bytes": 479453
+      },
+      {
+        "filename": "calbuco_2025_b06d_2025-01-01.pdf",
+        "bytes": 4902634
+      },
+      {
+        "filename": "calbuco_2748_2021-01-01.pdf",
+        "bytes": 601464
+      },
+      {
+        "filename": "calbuco_2896_2020-01-01.pdf",
+        "bytes": 820319
+      },
+      {
+        "filename": "calbuco_2_2024-01-01.pdf",
+        "bytes": 2754693
+      },
+      {
+        "filename": "calbuco_3028_2020-01-01.pdf",
+        "bytes": 80438
+      },
+      {
+        "filename": "calbuco_3029_2020-01-01.pdf",
+        "bytes": 44403
+      },
+      {
+        "filename": "calbuco_3066_2019-01-01.pdf",
+        "bytes": 335758
+      },
+      {
+        "filename": "calbuco_3254_2014-01-01.pdf",
+        "bytes": 641670
+      },
+      {
+        "filename": "calbuco_3374_2020-01-01.pdf",
+        "bytes": 1044797
+      },
+      {
+        "filename": "calbuco_3431_2020-01-01.pdf",
+        "bytes": 411079
+      },
+      {
+        "filename": "calbuco_3823_2019-01-01.pdf",
+        "bytes": 519222
+      },
+      {
+        "filename": "calbuco_4159_2018-01-01.pdf",
+        "bytes": 634744
+      },
+      {
+        "filename": "calbuco_4741_2018-01-01.pdf",
+        "bytes": 4358403
+      },
+      {
+        "filename": "calbuco_4794_2020-01-01.pdf",
+        "bytes": 731128
+      },
+      {
+        "filename": "calbuco_4951_2017-01-01.pdf",
+        "bytes": 5438294
+      },
+      {
+        "filename": "calbuco_5143_2019-01-01.pdf",
+        "bytes": 2977317
+      },
+      {
+        "filename": "calbuco_5403_2019-01-01.pdf",
+        "bytes": 4034582
+      },
+      {
+        "filename": "calbuco_5461_2018-01-01.pdf",
+        "bytes": 3880262
+      },
+      {
+        "filename": "calbuco_5822_2016-01-01.pdf",
+        "bytes": 1175678
+      },
+      {
+        "filename": "calbuco_6056_2025-01-01.pdf",
+        "bytes": 4144387
+      },
+      {
+        "filename": "calbuco_6620_2019-01-01.pdf",
+        "bytes": 1149965
+      },
+      {
+        "filename": "calbuco_7027_2020-01-01.pdf",
+        "bytes": 392138
+      },
+      {
+        "filename": "calbuco_7325_2021-01-01.pdf",
+        "bytes": 4254002
+      },
+      {
+        "filename": "calbuco_7326_2021-01-01.pdf",
+        "bytes": 3446922
+      },
+      {
+        "filename": "calbuco_7327_2021-01-01.pdf",
+        "bytes": 4369722
+      },
+      {
+        "filename": "calbuco_7429_2022-01-01.pdf",
+        "bytes": 254906
+      },
+      {
+        "filename": "calbuco_7430_2022-01-01.pdf",
+        "bytes": 474354
+      },
+      {
+        "filename": "calbuco_7431_2022-01-01.pdf",
+        "bytes": 3090700
+      },
+      {
+        "filename": "calbuco_8645_2024-01-01.pdf",
+        "bytes": 3255999
+      },
+      {
+        "filename": "calbuco_8646_2024-01-01.pdf",
+        "bytes": 3787258
+      },
+      {
+        "filename": "calbuco_8647_2024-01-01.pdf",
+        "bytes": 10660901
+      },
+      {
+        "filename": "calbuco_s_n_0faa_2026-01-01.pdf",
+        "bytes": 457264
+      },
+      {
+        "filename": "calbuco_s_n_4540_2023-01-01.pdf",
+        "bytes": 1641230
+      },
+      {
+        "filename": "calbuco_s_n_6918_2026-01-01.pdf",
+        "bytes": 862122
+      },
+      {
+        "filename": "calbuco_s_n_7c75_2026-01-01.pdf",
+        "bytes": 1762938
+      },
+      {
+        "filename": "calbuco_s_n_ac83_2026-01-01.pdf",
+        "bytes": 10004973
+      },
+      {
+        "filename": "calbuco_s_n_bc3c_2023-01-01.pdf",
+        "bytes": 2537938
+      },
+      {
+        "filename": "calbuco_s_n_ca11_2026-01-01.pdf",
+        "bytes": 122121
+      },
+      {
+        "filename": "calbuco_s_n_d126_2023-01-01.pdf",
+        "bytes": 1738102
+      },
+      {
+        "filename": "calbuco_s_n_db92_2026-01-01.pdf",
+        "bytes": 2811357
+      },
+      {
+        "filename": "camarones_2_2019-03-12.pdf",
+        "bytes": 24017
+      },
+      {
+        "filename": "cami_a_20_1987-09-07.pdf",
+        "bytes": 24033
+      },
+      {
+        "filename": "cami_a_88_2018-05-24.pdf",
+        "bytes": 24038
+      },
+      {
         "filename": "canela_norma_oficial.pdf",
         "bytes": 165227
       },
       {
+        "filename": "carahue_2023_2023-01-01.pdf",
+        "bytes": 5508243
+      },
+      {
+        "filename": "carahue_2025_2025-01-01.pdf",
+        "bytes": 554506
+      },
+      {
+        "filename": "carahue_710_2018-05-15.pdf",
+        "bytes": 24126
+      },
+      {
+        "filename": "catemu_1175_1988-01-05.pdf",
+        "bytes": 108920
+      },
+      {
+        "filename": "catemu_1176_1988-01-05.pdf",
+        "bytes": 47392
+      },
+      {
+        "filename": "cauquenes_doc_4faf4a_2026-01-01.pdf",
+        "bytes": 2378035
+      },
+      {
+        "filename": "cauquenes_s_n_3066_2026-01-01.pdf",
+        "bytes": 1258366
+      },
+      {
+        "filename": "cerrillos_14_2025-01-01.pdf",
+        "bytes": 266384
+      },
+      {
+        "filename": "cerrillos_21_2026-01-01.pdf",
+        "bytes": 633441
+      },
+      {
+        "filename": "cerrillos_29_2026-01-01.pdf",
+        "bytes": 279672
+      },
+      {
+        "filename": "cerrillos_2_2025-01-01.pdf",
+        "bytes": 269904
+      },
+      {
+        "filename": "cerrillos_6_2025-01-01.pdf",
+        "bytes": 82479
+      },
+      {
+        "filename": "cerrillos_8_2026-01-01.pdf",
+        "bytes": 688537
+      },
+      {
+        "filename": "cerro_navia_2_2026-01-01.pdf",
+        "bytes": 2568433
+      },
+      {
+        "filename": "cerro_navia_doc_967dd1_2026-01-01.pdf",
+        "bytes": 5104191
+      },
+      {
+        "filename": "cha_aral_19_2026-01-01.pdf",
+        "bytes": 790887
+      },
+      {
+        "filename": "chait_n_180_2019-10-08.pdf",
+        "bytes": 24072
+      },
+      {
         "filename": "chait_n_490_1990-10-18.pdf",
         "bytes": 23929
+      },
+      {
+        "filename": "chanco_512_2018-03-05.pdf",
+        "bytes": 24099
+      },
+      {
+        "filename": "chiguayante_1306_2016-01-01.pdf",
+        "bytes": 365385
       },
       {
         "filename": "chill_n_viejo_1838_2009-11-14.pdf",
@@ -100,8 +1030,696 @@
         "bytes": 23749
       },
       {
+        "filename": "chimbarongo_1375_2026-01-01.pdf",
+        "bytes": 13139187
+      },
+      {
+        "filename": "chimbarongo_1431_2026-01-01.pdf",
+        "bytes": 3957204
+      },
+      {
+        "filename": "chimbarongo_1545_2026-01-01.pdf",
+        "bytes": 14265392
+      },
+      {
+        "filename": "chimbarongo_180_2026-01-01.pdf",
+        "bytes": 363710
+      },
+      {
+        "filename": "chimbarongo_184_2026-01-01.pdf",
+        "bytes": 106457
+      },
+      {
+        "filename": "chimbarongo_1_2026-01-01.pdf",
+        "bytes": 16654104
+      },
+      {
+        "filename": "chimbarongo_2263_2026-01-01.pdf",
+        "bytes": 12455773
+      },
+      {
+        "filename": "chimbarongo_22_2026-01-01.pdf",
+        "bytes": 1721377
+      },
+      {
+        "filename": "chimbarongo_2474_2026-01-01.pdf",
+        "bytes": 3554092
+      },
+      {
+        "filename": "chimbarongo_2656_2023-01-01.pdf",
+        "bytes": 7705784
+      },
+      {
+        "filename": "chimbarongo_2842_2026-01-01.pdf",
+        "bytes": 3226520
+      },
+      {
+        "filename": "chimbarongo_2922_2026-01-01.pdf",
+        "bytes": 5217320
+      },
+      {
+        "filename": "chimbarongo_2_2026-01-01.pdf",
+        "bytes": 2689641
+      },
+      {
+        "filename": "chimbarongo_2_5cfb_2026-01-01.pdf",
+        "bytes": 511236
+      },
+      {
+        "filename": "chimbarongo_3690_2026-01-01.pdf",
+        "bytes": 1525003
+      },
+      {
+        "filename": "chimbarongo_3977_2026-01-01.pdf",
+        "bytes": 4840490
+      },
+      {
+        "filename": "chimbarongo_3_2026-01-01.pdf",
+        "bytes": 1622101
+      },
+      {
+        "filename": "chimbarongo_4044_2023-01-01.pdf",
+        "bytes": 2531394
+      },
+      {
+        "filename": "chimbarongo_4047_2026-01-01.pdf",
+        "bytes": 9630501
+      },
+      {
+        "filename": "chimbarongo_456_2026-01-01.pdf",
+        "bytes": 551868
+      },
+      {
+        "filename": "chimbarongo_4713_2026-01-01.pdf",
+        "bytes": 4209805
+      },
+      {
+        "filename": "chimbarongo_4_2026-01-01.pdf",
+        "bytes": 9919346
+      },
+      {
+        "filename": "chimbarongo_623_2026-01-01.pdf",
+        "bytes": 14485074
+      },
+      {
+        "filename": "chimbarongo_723_2026-01-01.pdf",
+        "bytes": 2655098
+      },
+      {
+        "filename": "cholchol_133_2006-04-22.pdf",
+        "bytes": 25039
+      },
+      {
         "filename": "cholchol_norma_oficial.pdf",
         "bytes": 122613
+      },
+      {
+        "filename": "chonchi_01_2023-01-01.pdf",
+        "bytes": 15274998
+      },
+      {
+        "filename": "chonchi_02_2026-01-01.pdf",
+        "bytes": 2632037
+      },
+      {
+        "filename": "chonchi_03_2022-01-01.pdf",
+        "bytes": 3438979
+      },
+      {
+        "filename": "chonchi_03_2024-01-01.pdf",
+        "bytes": 3346363
+      },
+      {
+        "filename": "chonchi_05_2024-01-01.pdf",
+        "bytes": 5804611
+      },
+      {
+        "filename": "chonchi_06_2024-01-01.pdf",
+        "bytes": 5244170
+      },
+      {
+        "filename": "chonchi_07_2024-01-01.pdf",
+        "bytes": 9656533
+      },
+      {
+        "filename": "chonchi_09_2026-01-01.pdf",
+        "bytes": 1375413
+      },
+      {
+        "filename": "chonchi_1_2026-01-01.pdf",
+        "bytes": 932835
+      },
+      {
+        "filename": "chonchi_2020_2020-01-01.pdf",
+        "bytes": 3682079
+      },
+      {
+        "filename": "chonchi_2_2026-01-01.pdf",
+        "bytes": 563145
+      },
+      {
+        "filename": "chonchi_4_2026-01-01.pdf",
+        "bytes": 610354
+      },
+      {
+        "filename": "chonchi_6_2026-01-01.pdf",
+        "bytes": 301570
+      },
+      {
+        "filename": "chonchi_7_2026-01-01.pdf",
+        "bytes": 623641
+      },
+      {
+        "filename": "chonchi_doc_66af5a_2026-01-01.pdf",
+        "bytes": 951260
+      },
+      {
+        "filename": "cisnes_73_1991-03-09.pdf",
+        "bytes": 25799
+      },
+      {
+        "filename": "cobquecura_2086_2086-01-01.pdf",
+        "bytes": 1645685
+      },
+      {
+        "filename": "cobquecura_2662_2026-01-01.pdf",
+        "bytes": 2522519
+      },
+      {
+        "filename": "cobquecura_395_2026-01-01.pdf",
+        "bytes": 81681
+      },
+      {
+        "filename": "cobquecura_4106_2026-01-01.pdf",
+        "bytes": 3139094
+      },
+      {
+        "filename": "cobquecura_4107_2026-01-01.pdf",
+        "bytes": 2416520
+      },
+      {
+        "filename": "cobquecura_4336_2026-01-01.pdf",
+        "bytes": 2033877
+      },
+      {
+        "filename": "cobquecura_6099_2026-01-01.pdf",
+        "bytes": 3804841
+      },
+      {
+        "filename": "cobquecura_6882_2026-01-01.pdf",
+        "bytes": 4489342
+      },
+      {
+        "filename": "cobquecura_748_2026-01-01.pdf",
+        "bytes": 3058346
+      },
+      {
+        "filename": "cobquecura_doc_e262ce_2026-01-01.pdf",
+        "bytes": 692637
+      },
+      {
+        "filename": "coihueco_1383_2026-01-01.pdf",
+        "bytes": 2281948
+      },
+      {
+        "filename": "coihueco_2025_2025-01-01.pdf",
+        "bytes": 1334898
+      },
+      {
+        "filename": "coihueco_doc_13c7cc_2025-01-01.pdf",
+        "bytes": 2029637
+      },
+      {
+        "filename": "coihueco_doc_50cdb7_2026-01-01.pdf",
+        "bytes": 893816
+      },
+      {
+        "filename": "coinco_218_2019-12-10.pdf",
+        "bytes": 54433
+      },
+      {
+        "filename": "colb_n_2019_2023-01-27.pdf",
+        "bytes": 1414377
+      },
+      {
+        "filename": "colb_n_2020_2023-01-27.pdf",
+        "bytes": 482425
+      },
+      {
+        "filename": "colb_n_2020_77df_2023-01-27.pdf",
+        "bytes": 430158
+      },
+      {
+        "filename": "colb_n_2021_2023-01-27.pdf",
+        "bytes": 522521
+      },
+      {
+        "filename": "colb_n_2021_5215_2023-01-27.pdf",
+        "bytes": 824634
+      },
+      {
+        "filename": "colb_n_2021_76c0_2023-01-27.pdf",
+        "bytes": 636989
+      },
+      {
+        "filename": "colb_n_2021_a7cb_2023-01-27.pdf",
+        "bytes": 642109
+      },
+      {
+        "filename": "colb_n_2025_2025-10-30.pdf",
+        "bytes": 192328
+      },
+      {
+        "filename": "colb_n_2_2023-01-27.pdf",
+        "bytes": 110979
+      },
+      {
+        "filename": "colb_n_doc_23aec2_2019-01-11.pdf",
+        "bytes": 2425974
+      },
+      {
+        "filename": "colb_n_doc_8e824f_2023-01-27.pdf",
+        "bytes": 103280
+      },
+      {
+        "filename": "colb_n_s_n_3753_2023-01-27.pdf",
+        "bytes": 267290
+      },
+      {
+        "filename": "colb_n_s_n_4bbc_2023-01-27.pdf",
+        "bytes": 175644
+      },
+      {
+        "filename": "colb_n_s_n_cbbb_2023-01-27.pdf",
+        "bytes": 87653
+      },
+      {
+        "filename": "colb_n_s_n_ec3a_2023-01-27.pdf",
+        "bytes": 1601324
+      },
+      {
+        "filename": "colina_02_2023-01-01.pdf",
+        "bytes": 1716117
+      },
+      {
+        "filename": "colina_06_2024-01-01.pdf",
+        "bytes": 14103135
+      },
+      {
+        "filename": "colina_07_2026-01-01.pdf",
+        "bytes": 1524041
+      },
+      {
+        "filename": "colina_2016_2016-01-01.pdf",
+        "bytes": 2017914
+      },
+      {
+        "filename": "colina_doc_f1d367_2026-01-01.pdf",
+        "bytes": 71574
+      },
+      {
+        "filename": "collipulli_1_2026-01-01.pdf",
+        "bytes": 11822211
+      },
+      {
+        "filename": "collipulli_3135_2026-01-01.pdf",
+        "bytes": 7812669
+      },
+      {
+        "filename": "collipulli_3332_2026-01-01.pdf",
+        "bytes": 604150
+      },
+      {
+        "filename": "collipulli_579_2026-01-01.pdf",
+        "bytes": 6958872
+      },
+      {
+        "filename": "collipulli_doc_d36256_2026-01-01.pdf",
+        "bytes": 6333848
+      },
+      {
+        "filename": "collipulli_s_n_a54f_2026-01-01.pdf",
+        "bytes": 5110501
+      },
+      {
+        "filename": "coltauco_1942_2024-01-01.pdf",
+        "bytes": 1034719
+      },
+      {
+        "filename": "coltauco_doc_853921_2026-01-01.pdf",
+        "bytes": 2446393
+      },
+      {
+        "filename": "conc_n_doc_53d71b_2016-01-01.pdf",
+        "bytes": 361971
+      },
+      {
+        "filename": "conc_n_doc_9b4cc6_2020-01-01.pdf",
+        "bytes": 833312
+      },
+      {
+        "filename": "conc_n_doc_b147c9_2018-01-01.pdf",
+        "bytes": 157184
+      },
+      {
+        "filename": "conc_n_doc_c020d7_2026-01-01.pdf",
+        "bytes": 6119850
+      },
+      {
+        "filename": "conc_n_doc_f46b49_2017-01-01.pdf",
+        "bytes": 240999
+      },
+      {
+        "filename": "conc_n_s_n_0cd0_2016-01-01.pdf",
+        "bytes": 970202
+      },
+      {
+        "filename": "conc_n_s_n_8b50_2018-01-01.pdf",
+        "bytes": 254945
+      },
+      {
+        "filename": "concepci_n_3_2026-01-01.pdf",
+        "bytes": 1357431
+      },
+      {
+        "filename": "constituci_n_3_2026-01-01.pdf",
+        "bytes": 4264591
+      },
+      {
+        "filename": "contulmo_doc_64d379_2026-01-01.pdf",
+        "bytes": 302291
+      },
+      {
+        "filename": "cunco_006_2016-12-28.pdf",
+        "bytes": 2045759
+      },
+      {
+        "filename": "cunco_03_2019-10-30.pdf",
+        "bytes": 1454047
+      },
+      {
+        "filename": "curacaut_n_10_2014-01-09.pdf",
+        "bytes": 40838
+      },
+      {
+        "filename": "curacav_10_2026-01-01.pdf",
+        "bytes": 4882618
+      },
+      {
+        "filename": "curacav_2010_2010-01-01.pdf",
+        "bytes": 1523773
+      },
+      {
+        "filename": "curacav_20285_2026-01-01.pdf",
+        "bytes": 4670671
+      },
+      {
+        "filename": "curacav_21_2026-01-01.pdf",
+        "bytes": 2740256
+      },
+      {
+        "filename": "curacav_24_2026-01-01.pdf",
+        "bytes": 1396736
+      },
+      {
+        "filename": "curacav_26_2026-01-01.pdf",
+        "bytes": 2279082
+      },
+      {
+        "filename": "curacav_30_2026-01-01.pdf",
+        "bytes": 8970682
+      },
+      {
+        "filename": "curacav_31_2026-01-01.pdf",
+        "bytes": 3393869
+      },
+      {
+        "filename": "curacav_doc_9c1b8a_2026-01-01.pdf",
+        "bytes": 101379
+      },
+      {
+        "filename": "curarrehue_1466_2025-10-29.pdf",
+        "bytes": 198144
+      },
+      {
+        "filename": "curarrehue_1467_2025-10-29.pdf",
+        "bytes": 206390
+      },
+      {
+        "filename": "curarrehue_1474_2025-11-03.pdf",
+        "bytes": 207663
+      },
+      {
+        "filename": "curarrehue_1475_2025-11-03.pdf",
+        "bytes": 262220
+      },
+      {
+        "filename": "curarrehue_1486_2026-01-01.pdf",
+        "bytes": 4487673
+      },
+      {
+        "filename": "curarrehue_153_2026-01-01.pdf",
+        "bytes": 717670
+      },
+      {
+        "filename": "curarrehue_1578_2026-01-01.pdf",
+        "bytes": 363483
+      },
+      {
+        "filename": "curarrehue_1644_2023-10-19.pdf",
+        "bytes": 679834
+      },
+      {
+        "filename": "curarrehue_1863_2026-01-01.pdf",
+        "bytes": 5787150
+      },
+      {
+        "filename": "curarrehue_1883_2022-01-01.pdf",
+        "bytes": 7186775
+      },
+      {
+        "filename": "curarrehue_1947_2026-01-01.pdf",
+        "bytes": 344255
+      },
+      {
+        "filename": "curarrehue_1_2026-01-01.pdf",
+        "bytes": 354393
+      },
+      {
+        "filename": "curarrehue_2024_2024-01-01.pdf",
+        "bytes": 583723
+      },
+      {
+        "filename": "curarrehue_20_2026-01-01.pdf",
+        "bytes": 3159706
+      },
+      {
+        "filename": "curarrehue_2102_2024-11-19.pdf",
+        "bytes": 634419
+      },
+      {
+        "filename": "curarrehue_doc_347102_2026-01-01.pdf",
+        "bytes": 127706
+      },
+      {
+        "filename": "curarrehue_doc_36d9e9_2041-01-01.pdf",
+        "bytes": 15337951
+      },
+      {
+        "filename": "curarrehue_doc_e41bb2_2042-01-01.pdf",
+        "bytes": 3449389
+      },
+      {
+        "filename": "curarrehue_doc_f39121_2019-01-01.pdf",
+        "bytes": 445049
+      },
+      {
+        "filename": "curarrehue_s_n_1681_2026-01-01.pdf",
+        "bytes": 4308624
+      },
+      {
+        "filename": "curarrehue_s_n_1d6a_2026-01-01.pdf",
+        "bytes": 4678659
+      },
+      {
+        "filename": "curarrehue_s_n_6eae_2019-01-01.pdf",
+        "bytes": 2480657
+      },
+      {
+        "filename": "curarrehue_s_n_7911_2026-01-01.pdf",
+        "bytes": 332751
+      },
+      {
+        "filename": "curarrehue_s_n_cb9c_2026-01-01.pdf",
+        "bytes": 659134
+      },
+      {
+        "filename": "dalcahue_01_2026-01-01.pdf",
+        "bytes": 4227218
+      },
+      {
+        "filename": "dalcahue_02_2026-01-01.pdf",
+        "bytes": 3339583
+      },
+      {
+        "filename": "dalcahue_03202_2026-01-01.pdf",
+        "bytes": 489752
+      },
+      {
+        "filename": "dalcahue_03_2026-01-01.pdf",
+        "bytes": 1948048
+      },
+      {
+        "filename": "dalcahue_04_2022-01-01.pdf",
+        "bytes": 2566875
+      },
+      {
+        "filename": "dalcahue_04_2026-01-01.pdf",
+        "bytes": 1950585
+      },
+      {
+        "filename": "dalcahue_05_2026-01-01.pdf",
+        "bytes": 362230
+      },
+      {
+        "filename": "dalcahue_0_2026-01-01.pdf",
+        "bytes": 274565
+      },
+      {
+        "filename": "dalcahue_10_2026-01-01.pdf",
+        "bytes": 163445
+      },
+      {
+        "filename": "dalcahue_12_2026-01-01.pdf",
+        "bytes": 485868
+      },
+      {
+        "filename": "dalcahue_14_2026-01-01.pdf",
+        "bytes": 139459
+      },
+      {
+        "filename": "dalcahue_14_b6ca_2026-01-01.pdf",
+        "bytes": 162075
+      },
+      {
+        "filename": "dalcahue_1_2026-01-01.pdf",
+        "bytes": 167679
+      },
+      {
+        "filename": "dalcahue_2006_2015-01-01.pdf",
+        "bytes": 464663
+      },
+      {
+        "filename": "dalcahue_2012_2026-01-01.pdf",
+        "bytes": 38132
+      },
+      {
+        "filename": "dalcahue_2014_2014-01-01.pdf",
+        "bytes": 416714
+      },
+      {
+        "filename": "dalcahue_2016_2016-01-01.pdf",
+        "bytes": 180155
+      },
+      {
+        "filename": "dalcahue_20_1a16_2014-01-01.pdf",
+        "bytes": 203166
+      },
+      {
+        "filename": "dalcahue_20_2014-01-01.pdf",
+        "bytes": 97623
+      },
+      {
+        "filename": "dalcahue_doc_44b78d_2026-01-01.pdf",
+        "bytes": 281506
+      },
+      {
+        "filename": "dalcahue_doc_742d34_2024-01-01.pdf",
+        "bytes": 4890882
+      },
+      {
+        "filename": "dalcahue_s_n_13bf_2026-01-01.pdf",
+        "bytes": 4080311
+      },
+      {
+        "filename": "dalcahue_s_n_1f9b_2026-01-01.pdf",
+        "bytes": 3872293
+      },
+      {
+        "filename": "dalcahue_s_n_281a_2026-01-01.pdf",
+        "bytes": 466949
+      },
+      {
+        "filename": "dalcahue_s_n_3299_2026-01-01.pdf",
+        "bytes": 165518
+      },
+      {
+        "filename": "dalcahue_s_n_35f5_2026-01-01.pdf",
+        "bytes": 99222
+      },
+      {
+        "filename": "dalcahue_s_n_4899_2026-01-01.pdf",
+        "bytes": 603879
+      },
+      {
+        "filename": "dalcahue_s_n_4bbc_2026-01-01.pdf",
+        "bytes": 73663
+      },
+      {
+        "filename": "dalcahue_s_n_646b_2026-01-01.pdf",
+        "bytes": 73619
+      },
+      {
+        "filename": "dalcahue_s_n_6c70_2026-01-01.pdf",
+        "bytes": 1620905
+      },
+      {
+        "filename": "dalcahue_s_n_6f5e_2026-01-01.pdf",
+        "bytes": 4737401
+      },
+      {
+        "filename": "dalcahue_s_n_86a5_2026-01-01.pdf",
+        "bytes": 806675
+      },
+      {
+        "filename": "dalcahue_s_n_8df8_2026-01-01.pdf",
+        "bytes": 360725
+      },
+      {
+        "filename": "dalcahue_s_n_9793_2026-01-01.pdf",
+        "bytes": 87385
+      },
+      {
+        "filename": "dalcahue_s_n_a2f7_2026-01-01.pdf",
+        "bytes": 172394
+      },
+      {
+        "filename": "dalcahue_s_n_ac35_2026-01-01.pdf",
+        "bytes": 76461
+      },
+      {
+        "filename": "dalcahue_s_n_b49d_2026-01-01.pdf",
+        "bytes": 13046
+      },
+      {
+        "filename": "dalcahue_s_n_bb59_2026-01-01.pdf",
+        "bytes": 641377
+      },
+      {
+        "filename": "dalcahue_s_n_c57b_2026-01-01.pdf",
+        "bytes": 121633
+      },
+      {
+        "filename": "dalcahue_s_n_e61b_2026-01-01.pdf",
+        "bytes": 1124471
+      },
+      {
+        "filename": "dalcahue_s_n_e695_2026-01-01.pdf",
+        "bytes": 3769991
+      },
+      {
+        "filename": "dalcahue_s_n_f370_2026-01-01.pdf",
+        "bytes": 116058
       },
       {
         "filename": "diego de almagro_norma_oficial.pdf",
@@ -112,6 +1730,246 @@
         "bytes": 61937
       },
       {
+        "filename": "el_carmen_11_2026-01-01.pdf",
+        "bytes": 3975444
+      },
+      {
+        "filename": "el_carmen_2026_2026-01-01.pdf",
+        "bytes": 1061227
+      },
+      {
+        "filename": "el_carmen_20_2026-01-01.pdf",
+        "bytes": 3489612
+      },
+      {
+        "filename": "el_carmen_20_6130_2026-01-01.pdf",
+        "bytes": 10073214
+      },
+      {
+        "filename": "el_carmen_434_2026-01-01.pdf",
+        "bytes": 100006
+      },
+      {
+        "filename": "el_carmen_doc_64a280_2025-01-01.pdf",
+        "bytes": 20372
+      },
+      {
+        "filename": "el_carmen_doc_e2ce50_2026-01-01.pdf",
+        "bytes": 187051
+      },
+      {
+        "filename": "el_carmen_s_n_12e9_2026-01-01.pdf",
+        "bytes": 563360
+      },
+      {
+        "filename": "el_carmen_s_n_3ebe_2026-01-01.pdf",
+        "bytes": 193686
+      },
+      {
+        "filename": "el_carmen_s_n_70c6_2026-01-01.pdf",
+        "bytes": 7373498
+      },
+      {
+        "filename": "el_carmen_s_n_77ee_2026-01-01.pdf",
+        "bytes": 1126349
+      },
+      {
+        "filename": "el_carmen_s_n_7ddb_2026-01-01.pdf",
+        "bytes": 459858
+      },
+      {
+        "filename": "el_carmen_s_n_ba09_2026-01-01.pdf",
+        "bytes": 6766328
+      },
+      {
+        "filename": "el_carmen_s_n_d094_2026-01-01.pdf",
+        "bytes": 380219
+      },
+      {
+        "filename": "el_carmen_s_n_f2c2_2026-01-01.pdf",
+        "bytes": 4716790
+      },
+      {
+        "filename": "el_quisco_006_2019-01-01.pdf",
+        "bytes": 2677353
+      },
+      {
+        "filename": "el_quisco_007_2019-01-01.pdf",
+        "bytes": 2860187
+      },
+      {
+        "filename": "el_quisco_008_2019-01-01.pdf",
+        "bytes": 7284912
+      },
+      {
+        "filename": "el_quisco_009_2019-01-01.pdf",
+        "bytes": 5452294
+      },
+      {
+        "filename": "el_quisco_010_2019-01-01.pdf",
+        "bytes": 2619397
+      },
+      {
+        "filename": "el_quisco_011_2019-01-01.pdf",
+        "bytes": 5615905
+      },
+      {
+        "filename": "el_quisco_012_2019-01-01.pdf",
+        "bytes": 9224222
+      },
+      {
+        "filename": "el_quisco_013_2007-01-01.pdf",
+        "bytes": 2055037
+      },
+      {
+        "filename": "el_quisco_015_2004-01-01.pdf",
+        "bytes": 481073
+      },
+      {
+        "filename": "el_quisco_1436_2006-01-01.pdf",
+        "bytes": 5791971
+      },
+      {
+        "filename": "el_quisco_1712_2019-01-01.pdf",
+        "bytes": 7633690
+      },
+      {
+        "filename": "el_quisco_2022_2024-01-01.pdf",
+        "bytes": 2535440
+      },
+      {
+        "filename": "el_quisco_2329_2019-01-01.pdf",
+        "bytes": 4620485
+      },
+      {
+        "filename": "el_quisco_2359_2019-01-01.pdf",
+        "bytes": 1003857
+      },
+      {
+        "filename": "el_quisco_3636_2019-01-01.pdf",
+        "bytes": 7725172
+      },
+      {
+        "filename": "el_quisco_4611_2019-01-01.pdf",
+        "bytes": 1820169
+      },
+      {
+        "filename": "el_quisco_doc_1a8f66_2024-01-01.pdf",
+        "bytes": 12447108
+      },
+      {
+        "filename": "el_quisco_doc_2b5e3a_2025-01-01.pdf",
+        "bytes": 2671778
+      },
+      {
+        "filename": "el_quisco_doc_317c27_2026-01-01.pdf",
+        "bytes": 99234625
+      },
+      {
+        "filename": "el_quisco_doc_5c9fb7_2024-01-01.pdf",
+        "bytes": 1128781
+      },
+      {
+        "filename": "el_quisco_doc_5ee688_2025-01-01.pdf",
+        "bytes": 2740327
+      },
+      {
+        "filename": "el_quisco_doc_62b96b_2026-01-01.pdf",
+        "bytes": 1706474
+      },
+      {
+        "filename": "el_quisco_doc_6e08a1_2026-01-01.pdf",
+        "bytes": 2889057
+      },
+      {
+        "filename": "el_quisco_doc_72954d_2024-01-01.pdf",
+        "bytes": 346042
+      },
+      {
+        "filename": "el_quisco_doc_7d6897_2024-01-01.pdf",
+        "bytes": 13117147
+      },
+      {
+        "filename": "el_quisco_doc_99dc0b_2024-01-01.pdf",
+        "bytes": 17660293
+      },
+      {
+        "filename": "el_quisco_doc_b8627b_2024-01-01.pdf",
+        "bytes": 2316943
+      },
+      {
+        "filename": "el_quisco_doc_ca0e25_2024-01-01.pdf",
+        "bytes": 2387933
+      },
+      {
+        "filename": "el_quisco_doc_cc72fd_2024-01-01.pdf",
+        "bytes": 2295027
+      },
+      {
+        "filename": "el_quisco_doc_dcfcf9_2024-01-01.pdf",
+        "bytes": 7784923
+      },
+      {
+        "filename": "el_quisco_doc_e99727_2024-01-01.pdf",
+        "bytes": 3790478
+      },
+      {
+        "filename": "el_quisco_doc_f337d9_2025-01-01.pdf",
+        "bytes": 23070485
+      },
+      {
+        "filename": "el_quisco_doc_f5419d_2024-01-01.pdf",
+        "bytes": 1799707
+      },
+      {
+        "filename": "el_quisco_doc_f6b7af_2024-01-01.pdf",
+        "bytes": 4968207
+      },
+      {
+        "filename": "empedrado_170_2026-01-01.pdf",
+        "bytes": 3913068
+      },
+      {
+        "filename": "empedrado_1_2026-01-01.pdf",
+        "bytes": 1783498
+      },
+      {
+        "filename": "empedrado_doc_89a201_2026-01-01.pdf",
+        "bytes": 875810
+      },
+      {
+        "filename": "empedrado_s_n_34a7_2026-01-01.pdf",
+        "bytes": 3072770
+      },
+      {
+        "filename": "empedrado_s_n_764a_2026-01-01.pdf",
+        "bytes": 2663528
+      },
+      {
+        "filename": "empedrado_s_n_8c73_2026-01-01.pdf",
+        "bytes": 4309789
+      },
+      {
+        "filename": "empedrado_s_n_de50_2026-01-01.pdf",
+        "bytes": 1500206
+      },
+      {
+        "filename": "empedrado_s_n_e9e9_2026-01-01.pdf",
+        "bytes": 4275271
+      },
+      {
+        "filename": "empedrado_s_n_fc89_2026-01-01.pdf",
+        "bytes": 263431
+      },
+      {
+        "filename": "florida_doc_e5b8f1_2026-01-01.pdf",
+        "bytes": 331629
+      },
+      {
+        "filename": "florida_s_n_1b5c_2026-01-01.pdf",
+        "bytes": 1488470
+      },
+      {
         "filename": "freirina_3095_2019-11-04.pdf",
         "bytes": 23995
       },
@@ -120,8 +1978,1280 @@
         "bytes": 23860
       },
       {
+        "filename": "frutillar_1_2026-01-01.pdf",
+        "bytes": 5057880
+      },
+      {
+        "filename": "frutillar_doc_2141cd_2026-01-01.pdf",
+        "bytes": 2479412
+      },
+      {
+        "filename": "futaleuf_1_2026-01-01.pdf",
+        "bytes": 1795662
+      },
+      {
+        "filename": "futaleuf_doc_2428da_2026-01-01.pdf",
+        "bytes": 4607426
+      },
+      {
+        "filename": "futaleuf_s_n_97d9_2026-01-01.pdf",
+        "bytes": 18305665
+      },
+      {
+        "filename": "guaitecas_1_2026-01-01.pdf",
+        "bytes": 1179921
+      },
+      {
+        "filename": "hijuelas_1_2026-01-01.pdf",
+        "bytes": 1042213
+      },
+      {
+        "filename": "hijuelas_1_55b2_2026-01-01.pdf",
+        "bytes": 561465
+      },
+      {
+        "filename": "hijuelas_4419_2026-01-01.pdf",
+        "bytes": 567977
+      },
+      {
+        "filename": "hijuelas_doc_b406f8_2026-01-01.pdf",
+        "bytes": 1103501
+      },
+      {
+        "filename": "hijuelas_s_n_10ae_2026-01-01.pdf",
+        "bytes": 693678
+      },
+      {
+        "filename": "hijuelas_s_n_256e_2026-01-01.pdf",
+        "bytes": 22488
+      },
+      {
+        "filename": "hijuelas_s_n_267c_2026-01-01.pdf",
+        "bytes": 21870
+      },
+      {
+        "filename": "hijuelas_s_n_2747_2026-01-01.pdf",
+        "bytes": 15119
+      },
+      {
+        "filename": "hijuelas_s_n_788b_2026-01-01.pdf",
+        "bytes": 2948120
+      },
+      {
+        "filename": "hijuelas_s_n_c114_2026-01-01.pdf",
+        "bytes": 367375
+      },
+      {
+        "filename": "hijuelas_s_n_d6d3_2026-01-01.pdf",
+        "bytes": 12511
+      },
+      {
+        "filename": "huala_1264_2026-01-01.pdf",
+        "bytes": 515198
+      },
+      {
+        "filename": "huala_1268_2026-01-01.pdf",
+        "bytes": 4502446
+      },
+      {
+        "filename": "huala_1516_2026-01-01.pdf",
+        "bytes": 792539
+      },
+      {
+        "filename": "huala_1660_2026-01-01.pdf",
+        "bytes": 300252
+      },
+      {
+        "filename": "huala_1841_2026-01-01.pdf",
+        "bytes": 830834
+      },
+      {
+        "filename": "huala_1862_2026-01-01.pdf",
+        "bytes": 750448
+      },
+      {
+        "filename": "huala_2124_2026-01-01.pdf",
+        "bytes": 648258
+      },
+      {
+        "filename": "huala_2320_2026-01-01.pdf",
+        "bytes": 1496411
+      },
+      {
+        "filename": "huala_2427_2026-01-01.pdf",
+        "bytes": 1408952
+      },
+      {
+        "filename": "huala_2561_2026-01-01.pdf",
+        "bytes": 649212
+      },
+      {
+        "filename": "huala_2636_2026-01-01.pdf",
+        "bytes": 3875269
+      },
+      {
+        "filename": "huala_2995_2026-01-01.pdf",
+        "bytes": 582113
+      },
+      {
+        "filename": "huala_3261_2026-01-01.pdf",
+        "bytes": 907648
+      },
+      {
+        "filename": "huala_3313_2026-01-01.pdf",
+        "bytes": 2580555
+      },
+      {
+        "filename": "huala_3405_2026-01-01.pdf",
+        "bytes": 3598682
+      },
+      {
+        "filename": "huala_343_2026-01-01.pdf",
+        "bytes": 260475
+      },
+      {
+        "filename": "huala_3463_2026-01-01.pdf",
+        "bytes": 2871366
+      },
+      {
+        "filename": "huala_356_2026-01-01.pdf",
+        "bytes": 948240
+      },
+      {
+        "filename": "huala_3754_2026-01-01.pdf",
+        "bytes": 3078029
+      },
+      {
+        "filename": "huala_3846_2026-01-01.pdf",
+        "bytes": 1254770
+      },
+      {
+        "filename": "huala_735_2026-01-01.pdf",
+        "bytes": 513518
+      },
+      {
+        "filename": "huala_964_2026-01-01.pdf",
+        "bytes": 603176
+      },
+      {
+        "filename": "hualaihu_520_2026-01-01.pdf",
+        "bytes": 947004
+      },
+      {
+        "filename": "hualaihu_92_2026-01-01.pdf",
+        "bytes": 236791
+      },
+      {
+        "filename": "hualaihu_doc_861a3b_2026-01-01.pdf",
+        "bytes": 689579
+      },
+      {
+        "filename": "hualaihu_s_n_34fb_2026-01-01.pdf",
+        "bytes": 627319
+      },
+      {
+        "filename": "hualp_n_457_2022-06-16.pdf",
+        "bytes": 43862
+      },
+      {
+        "filename": "hualqui_640_2017-06-08.pdf",
+        "bytes": 24024
+      },
+      {
+        "filename": "huara_04_2026-01-01.pdf",
+        "bytes": 868539
+      },
+      {
+        "filename": "huara_1366_2026-01-01.pdf",
+        "bytes": 3294434
+      },
+      {
+        "filename": "huara_1558_2025-01-01.pdf",
+        "bytes": 989094
+      },
+      {
+        "filename": "huara_2026_2025-01-01.pdf",
+        "bytes": 864863
+      },
+      {
+        "filename": "huara_2089_2089-01-01.pdf",
+        "bytes": 1721536
+      },
+      {
+        "filename": "huara_594_2025-01-01.pdf",
+        "bytes": 4483102
+      },
+      {
+        "filename": "huara_595_2025-01-01.pdf",
+        "bytes": 2643213
+      },
+      {
+        "filename": "huara_723_2026-01-01.pdf",
+        "bytes": 315360
+      },
+      {
+        "filename": "huara_737_2026-01-01.pdf",
+        "bytes": 421291
+      },
+      {
+        "filename": "huara_doc_87efc5_2026-01-01.pdf",
+        "bytes": 571920
+      },
+      {
+        "filename": "huasco_doc_ed47c1_2026-01-01.pdf",
+        "bytes": 829010
+      },
+      {
+        "filename": "huasco_s_n_04b7_2026-01-01.pdf",
+        "bytes": 3426466
+      },
+      {
+        "filename": "huasco_s_n_0c0f_2026-01-01.pdf",
+        "bytes": 181563
+      },
+      {
+        "filename": "illapel_doc_030a81_2026-01-01.pdf",
+        "bytes": 87334
+      },
+      {
+        "filename": "illapel_s_n_c69c_2026-01-01.pdf",
+        "bytes": 105957
+      },
+      {
+        "filename": "independencia_doc_d00c52_2026-01-01.pdf",
+        "bytes": 282886
+      },
+      {
+        "filename": "iqu_n_doc_2ea2d4_2024-01-01.pdf",
+        "bytes": 306510
+      },
+      {
+        "filename": "iqu_n_doc_86357d_2021-01-01.pdf",
+        "bytes": 1207463
+      },
+      {
+        "filename": "iquique_20604_2024-01-01.pdf",
+        "bytes": 1473350
+      },
+      {
+        "filename": "iquique_20610_2023-01-01.pdf",
+        "bytes": 716993
+      },
+      {
+        "filename": "iquique_20611_2026-01-01.pdf",
+        "bytes": 1995243
+      },
+      {
+        "filename": "iquique_20617_2026-01-01.pdf",
+        "bytes": 6102220
+      },
+      {
+        "filename": "iquique_20618_2026-01-01.pdf",
+        "bytes": 583542
+      },
+      {
+        "filename": "iquique_20621_2025-01-01.pdf",
+        "bytes": 800295
+      },
+      {
+        "filename": "iquique_20622_2025-01-01.pdf",
+        "bytes": 206307
+      },
+      {
+        "filename": "iquique_598_2024-01-01.pdf",
+        "bytes": 1632824
+      },
+      {
+        "filename": "iquique_602_2010-01-01.pdf",
+        "bytes": 1423232
+      },
+      {
+        "filename": "iquique_603_2010-01-01.pdf",
+        "bytes": 1191401
+      },
+      {
+        "filename": "iquique_612_2024-01-01.pdf",
+        "bytes": 1620608
+      },
+      {
+        "filename": "iquique_612_2026-01-01.pdf",
+        "bytes": 1676698
+      },
+      {
+        "filename": "iquique_614_2026-01-01.pdf",
+        "bytes": 1821871
+      },
+      {
+        "filename": "la_cruz_1303_2026-01-01.pdf",
+        "bytes": 6209905
+      },
+      {
+        "filename": "la_cruz_2004_2024-01-01.pdf",
+        "bytes": 2015394
+      },
+      {
+        "filename": "la_cruz_2018_2023-01-01.pdf",
+        "bytes": 6876808
+      },
+      {
+        "filename": "la_cruz_2029_2025-01-01.pdf",
+        "bytes": 4479993
+      },
+      {
+        "filename": "la_cruz_2030_2023-01-01.pdf",
+        "bytes": 947054
+      },
+      {
+        "filename": "la_cruz_20551_2026-01-01.pdf",
+        "bytes": 674742
+      },
+      {
+        "filename": "la_cruz_20614_2022-01-01.pdf",
+        "bytes": 669222
+      },
+      {
+        "filename": "la_cruz_2322_2026-01-01.pdf",
+        "bytes": 2816012
+      },
+      {
+        "filename": "la_cruz_24_2066-01-01.pdf",
+        "bytes": 2494092
+      },
+      {
+        "filename": "la_cruz_359_2021-01-01.pdf",
+        "bytes": 40724
+      },
+      {
+        "filename": "la_cruz_doc_51c471_2026-01-01.pdf",
+        "bytes": 23884295
+      },
+      {
+        "filename": "la_cruz_s_n_36bd_2026-01-01.pdf",
+        "bytes": 648858
+      },
+      {
+        "filename": "la_cruz_s_n_5d2e_2026-01-01.pdf",
+        "bytes": 192788
+      },
+      {
+        "filename": "la_estrella_064_2026-01-01.pdf",
+        "bytes": 5086185
+      },
+      {
+        "filename": "la_estrella_63_2026-01-01.pdf",
+        "bytes": 12973073
+      },
+      {
+        "filename": "la_estrella_847_2022-01-01.pdf",
+        "bytes": 6057805
+      },
+      {
+        "filename": "la_estrella_doc_349fe1_2022-01-01.pdf",
+        "bytes": 19251828
+      },
+      {
+        "filename": "la_estrella_doc_670bc8_2026-01-01.pdf",
+        "bytes": 6299824
+      },
+      {
+        "filename": "la_estrella_s_n_f506_2026-01-01.pdf",
+        "bytes": 14111998
+      },
+      {
+        "filename": "la_florida_149_2026-01-01.pdf",
+        "bytes": 594133
+      },
+      {
+        "filename": "la_florida_150_2026-01-01.pdf",
+        "bytes": 1012957
+      },
+      {
+        "filename": "la_florida_151_2026-01-01.pdf",
+        "bytes": 2389221
+      },
+      {
+        "filename": "la_florida_152_2026-01-01.pdf",
+        "bytes": 350581
+      },
+      {
+        "filename": "la_florida_153_2026-01-01.pdf",
+        "bytes": 1032280
+      },
+      {
+        "filename": "la_florida_153_3299_2026-01-01.pdf",
+        "bytes": 1211705
+      },
+      {
+        "filename": "la_florida_154_2026-01-01.pdf",
+        "bytes": 524334
+      },
+      {
+        "filename": "la_florida_155_2026-01-01.pdf",
+        "bytes": 1100786
+      },
+      {
+        "filename": "la_florida_156_2026-01-01.pdf",
+        "bytes": 2326236
+      },
+      {
+        "filename": "la_florida_157_2026-01-01.pdf",
+        "bytes": 1394391
+      },
+      {
+        "filename": "la_florida_158_2026-01-01.pdf",
+        "bytes": 542159
+      },
+      {
+        "filename": "la_florida_159_2026-01-01.pdf",
+        "bytes": 5050212
+      },
+      {
+        "filename": "la_florida_160_2026-01-01.pdf",
+        "bytes": 2045253
+      },
+      {
+        "filename": "la_florida_161_2026-01-01.pdf",
+        "bytes": 922127
+      },
+      {
+        "filename": "la_granja_1037_2023-01-01.pdf",
+        "bytes": 165417
+      },
+      {
+        "filename": "la_granja_1164_2021-01-01.pdf",
+        "bytes": 5739761
+      },
+      {
+        "filename": "la_granja_1578_2026-01-01.pdf",
+        "bytes": 3374322
+      },
+      {
+        "filename": "la_granja_1_2026-01-01.pdf",
+        "bytes": 2719590
+      },
+      {
+        "filename": "la_granja_1_6ba6_2026-01-01.pdf",
+        "bytes": 8827868
+      },
+      {
+        "filename": "la_granja_2137_2022-01-01.pdf",
+        "bytes": 185130
+      },
+      {
+        "filename": "la_granja_24_2026-01-01.pdf",
+        "bytes": 689015
+      },
+      {
+        "filename": "la_granja_572_2022-01-01.pdf",
+        "bytes": 168215
+      },
+      {
+        "filename": "la_granja_doc_8d5140_2026-01-01.pdf",
+        "bytes": 711959
+      },
+      {
+        "filename": "la_granja_s_n_0565_2026-01-01.pdf",
+        "bytes": 5776610
+      },
+      {
+        "filename": "la_granja_s_n_105c_2026-01-01.pdf",
+        "bytes": 737318
+      },
+      {
+        "filename": "la_granja_s_n_27da_2026-01-01.pdf",
+        "bytes": 1809829
+      },
+      {
+        "filename": "la_granja_s_n_618f_2026-01-01.pdf",
+        "bytes": 316190
+      },
+      {
+        "filename": "la_granja_s_n_666e_2026-01-01.pdf",
+        "bytes": 3223155
+      },
+      {
+        "filename": "la_granja_s_n_70de_2026-01-01.pdf",
+        "bytes": 1138809
+      },
+      {
+        "filename": "la_granja_s_n_a4d1_2026-01-01.pdf",
+        "bytes": 819421
+      },
+      {
+        "filename": "la_granja_s_n_ab68_2026-01-01.pdf",
+        "bytes": 1978740
+      },
+      {
+        "filename": "la_granja_s_n_e9e0_2026-01-01.pdf",
+        "bytes": 3000439
+      },
+      {
+        "filename": "la_granja_s_n_f7b0_2026-01-01.pdf",
+        "bytes": 1697132
+      },
+      {
+        "filename": "la_higuera_662_2026-01-01.pdf",
+        "bytes": 3747052
+      },
+      {
+        "filename": "la_higuera_doc_0619c9_2026-01-01.pdf",
+        "bytes": 3464364
+      },
+      {
+        "filename": "la_higuera_s_n_10a5_2026-01-01.pdf",
+        "bytes": 700838
+      },
+      {
+        "filename": "la_higuera_s_n_1252_2026-01-01.pdf",
+        "bytes": 5991176
+      },
+      {
+        "filename": "la_higuera_s_n_a90c_2026-01-01.pdf",
+        "bytes": 69674
+      },
+      {
+        "filename": "la_pintana_1_2026-01-01.pdf",
+        "bytes": 2086162
+      },
+      {
+        "filename": "la_reina_2279_2023-01-01.pdf",
+        "bytes": 4883797
+      },
+      {
+        "filename": "lago_verde_85_2018-09-04.pdf",
+        "bytes": 24050
+      },
+      {
+        "filename": "laguna_blanca_747_2026-01-01.pdf",
+        "bytes": 1339992
+      },
+      {
+        "filename": "laguna_blanca_doc_fb1e92_2026-01-01.pdf",
+        "bytes": 360308
+      },
+      {
+        "filename": "laja_doc_346d3a_2026-01-01.pdf",
+        "bytes": 19843685
+      },
+      {
+        "filename": "las_cabras_13_2016-09-13.pdf",
+        "bytes": 963436
+      },
+      {
+        "filename": "las_cabras_15_2024-08-09.pdf",
+        "bytes": 2397393
+      },
+      {
+        "filename": "las_cabras_17_2024-25-11.pdf",
+        "bytes": 2165397
+      },
+      {
+        "filename": "las_cabras_20_2025-01-01.pdf",
+        "bytes": 3379290
+      },
+      {
+        "filename": "las_cabras_2449_2024-11-04.pdf",
+        "bytes": 819677
+      },
+      {
+        "filename": "las_cabras_2454_2023-10-26.pdf",
+        "bytes": 698884
+      },
+      {
+        "filename": "las_cabras_2843_2024-12-24.pdf",
+        "bytes": 533765
+      },
+      {
+        "filename": "las_cabras_341_2025-02-12.pdf",
+        "bytes": 3995940
+      },
+      {
+        "filename": "las_cabras_3_2022-16-11.pdf",
+        "bytes": 18737572
+      },
+      {
+        "filename": "las_cabras_9_2023-07-11.pdf",
+        "bytes": 1668214
+      },
+      {
+        "filename": "las_condes_1338_2024-04-05.pdf",
+        "bytes": 6358548
+      },
+      {
+        "filename": "las_condes_1620_2024-04-16.pdf",
+        "bytes": 1873697
+      },
+      {
+        "filename": "las_condes_1699_2022-05-05.pdf",
+        "bytes": 606886
+      },
+      {
+        "filename": "las_condes_1948_2026-01-01.pdf",
+        "bytes": 1211141
+      },
+      {
+        "filename": "las_condes_2023_2026-01-01.pdf",
+        "bytes": 445798
+      },
+      {
+        "filename": "las_condes_2271_2024-06-10.pdf",
+        "bytes": 326228
+      },
+      {
+        "filename": "las_condes_2463_2026-01-01.pdf",
+        "bytes": 6412511
+      },
+      {
+        "filename": "las_condes_2787_2026-01-01.pdf",
+        "bytes": 1068955
+      },
+      {
+        "filename": "las_condes_2879_2026-01-01.pdf",
+        "bytes": 1636475
+      },
+      {
+        "filename": "las_condes_3200_2026-01-01.pdf",
+        "bytes": 1045438
+      },
+      {
+        "filename": "las_condes_3409_2022-09-29.pdf",
+        "bytes": 408295
+      },
+      {
+        "filename": "las_condes_3412_2026-01-01.pdf",
+        "bytes": 1519320
+      },
+      {
+        "filename": "las_condes_3535_2024-09-14.pdf",
+        "bytes": 164205
+      },
+      {
+        "filename": "las_condes_3727_2023-10-26.pdf",
+        "bytes": 1117269
+      },
+      {
+        "filename": "las_condes_3875_2026-01-01.pdf",
+        "bytes": 352652
+      },
+      {
+        "filename": "las_condes_4102_2024-10-30.pdf",
+        "bytes": 132142
+      },
+      {
+        "filename": "las_condes_928_2026-01-01.pdf",
+        "bytes": 1394110
+      },
+      {
+        "filename": "limache_5241_2023_2023-12-29.pdf",
+        "bytes": 169194
+      },
+      {
+        "filename": "limache_5759_2006-12-12.pdf",
+        "bytes": 47465
+      },
+      {
+        "filename": "limache_6837_2007-02-28.pdf",
+        "bytes": 72676
+      },
+      {
+        "filename": "limache_prc_2025_2025-01-01.pdf",
+        "bytes": 615710
+      },
+      {
+        "filename": "litueche_doc_128dad_2026-01-01.pdf",
+        "bytes": 901619
+      },
+      {
+        "filename": "litueche_s_n_8a83_2026-01-01.pdf",
+        "bytes": 242687
+      },
+      {
+        "filename": "llaillay_01_2025-01-01.pdf",
+        "bytes": 3375442
+      },
+      {
+        "filename": "llanquihue_3843_2021-12-03.pdf",
+        "bytes": 76703
+      },
+      {
+        "filename": "llanquihue_5871_2018-03-01.pdf",
+        "bytes": 51203
+      },
+      {
+        "filename": "lolol_95_2016-01-20.pdf",
+        "bytes": 25615
+      },
+      {
+        "filename": "loncoche_311_2026-01-01.pdf",
+        "bytes": 2509735
+      },
+      {
+        "filename": "loncoche_doc_eb0546_2026-01-01.pdf",
+        "bytes": 257965
+      },
+      {
+        "filename": "longav_87_1990-11-13.pdf",
+        "bytes": 25132
+      },
+      {
+        "filename": "los_lagos_1417_2025-01-01.pdf",
+        "bytes": 2467666
+      },
+      {
+        "filename": "los_lagos_doc_28c080_2026-01-01.pdf",
+        "bytes": 681200
+      },
+      {
+        "filename": "los_lagos_s_n_61d4_2026-01-01.pdf",
+        "bytes": 19113546
+      },
+      {
+        "filename": "los_lagos_s_n_d57c_2026-01-01.pdf",
+        "bytes": 3168766
+      },
+      {
+        "filename": "los_lagos_s_n_deb9_2026-01-01.pdf",
+        "bytes": 2091306
+      },
+      {
+        "filename": "los_lagos_s_n_e90a_2026-01-01.pdf",
+        "bytes": 4236915
+      },
+      {
+        "filename": "los_ngeles_2786_2026-01-01.pdf",
+        "bytes": 241058
+      },
+      {
+        "filename": "m_fil_1_1997-09-10.pdf",
+        "bytes": 52548
+      },
+      {
+        "filename": "macul_doc_2b5f93_2026-01-01.pdf",
+        "bytes": 410279
+      },
+      {
+        "filename": "macul_doc_37e46f_2063-01-01.pdf",
+        "bytes": 520762
+      },
+      {
+        "filename": "macul_doc_61c6d9_2007-01-01.pdf",
+        "bytes": 884919
+      },
+      {
+        "filename": "macul_s_n_0573_2026-01-01.pdf",
+        "bytes": 973333
+      },
+      {
+        "filename": "macul_s_n_3e27_2026-01-01.pdf",
+        "bytes": 4083034
+      },
+      {
+        "filename": "macul_s_n_45e3_2026-01-01.pdf",
+        "bytes": 3043516
+      },
+      {
+        "filename": "macul_s_n_7662_2026-01-01.pdf",
+        "bytes": 11637732
+      },
+      {
+        "filename": "macul_s_n_7919_2026-01-01.pdf",
+        "bytes": 508310
+      },
+      {
+        "filename": "macul_s_n_8afb_2026-01-01.pdf",
+        "bytes": 1279280
+      },
+      {
+        "filename": "macul_s_n_8c91_2026-01-01.pdf",
+        "bytes": 5627156
+      },
+      {
+        "filename": "macul_s_n_9879_2026-01-01.pdf",
+        "bytes": 695874
+      },
+      {
+        "filename": "macul_s_n_b314_2026-01-01.pdf",
+        "bytes": 1043083
+      },
+      {
+        "filename": "macul_s_n_ccc2_2026-01-01.pdf",
+        "bytes": 1487324
+      },
+      {
+        "filename": "macul_s_n_d689_2026-01-01.pdf",
+        "bytes": 1072359
+      },
+      {
+        "filename": "macul_s_n_f86c_2026-01-01.pdf",
+        "bytes": 2597806
+      },
+      {
+        "filename": "maip_1011_2002-04-10.pdf",
+        "bytes": 144557
+      },
+      {
+        "filename": "maip_1017_1977-08-01.pdf",
+        "bytes": 404745
+      },
+      {
+        "filename": "maip_1163_1990-11-19.pdf",
+        "bytes": 174819
+      },
+      {
+        "filename": "maip_1173_1976-11-23.pdf",
+        "bytes": 78714
+      },
+      {
+        "filename": "maip_1230_1997-05-02.pdf",
+        "bytes": 227392
+      },
+      {
+        "filename": "maip_1262_1989-09-22.pdf",
+        "bytes": 775890
+      },
+      {
+        "filename": "maip_1410_1994-07-04.pdf",
+        "bytes": 182141
+      },
+      {
+        "filename": "maip_1453_1994-07-05.pdf",
+        "bytes": 107502
+      },
+      {
+        "filename": "maip_1544_2002-05-29.pdf",
+        "bytes": 89683
+      },
+      {
+        "filename": "maip_1610_1997-06-19.pdf",
+        "bytes": 50459
+      },
+      {
+        "filename": "maip_1668_1991-11-27.pdf",
+        "bytes": 360376
+      },
+      {
+        "filename": "maip_2111_2004-04-15.pdf",
+        "bytes": 649212
+      },
+      {
+        "filename": "maip_2112_2004-04-15.pdf",
+        "bytes": 978808
+      },
+      {
+        "filename": "maip_222_1985-02-27.pdf",
+        "bytes": 492319
+      },
+      {
+        "filename": "maip_2296_1993-12-07.pdf",
+        "bytes": 98546
+      },
+      {
+        "filename": "maip_2366_1996-09-06.pdf",
+        "bytes": 521337
+      },
+      {
+        "filename": "maip_2378_2002-07-24.pdf",
+        "bytes": 436272
+      },
+      {
+        "filename": "maip_2993_2002-08-08.pdf",
+        "bytes": 598965
+      },
+      {
+        "filename": "maip_3299_1999-10-28.pdf",
+        "bytes": 2482310
+      },
+      {
+        "filename": "maip_3561_1999-11-24.pdf",
+        "bytes": 237520
+      },
+      {
+        "filename": "maip_362_1992-03-24.pdf",
+        "bytes": 304740
+      },
+      {
+        "filename": "maip_3913_2001-08-20.pdf",
+        "bytes": 258189
+      },
+      {
+        "filename": "maip_4293_2001-09-14.pdf",
+        "bytes": 468470
+      },
+      {
+        "filename": "maip_4616_2002-12-11.pdf",
+        "bytes": 113623
+      },
+      {
+        "filename": "maip_4847_2004-08-24.pdf",
+        "bytes": 469006
+      },
+      {
+        "filename": "maip_4871_2002-12-27.pdf",
+        "bytes": 1383554
+      },
+      {
+        "filename": "maip_4912_2002-12-31.pdf",
+        "bytes": 142541
+      },
+      {
+        "filename": "maip_5084_2004-09-03.pdf",
+        "bytes": 195257
+      },
+      {
+        "filename": "maip_5106_2002-12-31.pdf",
+        "bytes": 623936
+      },
+      {
+        "filename": "maip_5265_2004-09-10.pdf",
+        "bytes": 598134
+      },
+      {
+        "filename": "maip_608_1978-04-24.pdf",
+        "bytes": 888901
+      },
+      {
+        "filename": "maip_691_1983-08-30.pdf",
+        "bytes": 457440
+      },
+      {
+        "filename": "maip_703_1999-03-25.pdf",
+        "bytes": 623780
+      },
+      {
+        "filename": "maip_740_1987-09-14.pdf",
+        "bytes": 1805794
+      },
+      {
+        "filename": "maip_795_1985-09-05.pdf",
+        "bytes": 665325
+      },
+      {
+        "filename": "maip_92_1983-01-31.pdf",
+        "bytes": 81643
+      },
+      {
+        "filename": "malloa_04_2026-01-01.pdf",
+        "bytes": 1682713
+      },
+      {
+        "filename": "malloa_1538_2025-01-01.pdf",
+        "bytes": 13001066
+      },
+      {
+        "filename": "malloa_1558_2026-01-01.pdf",
+        "bytes": 4338129
+      },
+      {
+        "filename": "malloa_doc_bda453_2026-01-01.pdf",
+        "bytes": 683554
+      },
+      {
+        "filename": "malloa_s_n_4064_2026-01-01.pdf",
+        "bytes": 1343455
+      },
+      {
+        "filename": "malloa_s_n_7df8_2026-01-01.pdf",
+        "bytes": 627715
+      },
+      {
+        "filename": "malloa_s_n_8081_2026-01-01.pdf",
+        "bytes": 4166778
+      },
+      {
+        "filename": "malloa_s_n_ea19_2026-01-01.pdf",
+        "bytes": 640056
+      },
+      {
+        "filename": "mar_a_elena_doc_514211_2026-01-01.pdf",
+        "bytes": 2727664
+      },
+      {
+        "filename": "mar_a_elena_s_n_04ae_2026-01-01.pdf",
+        "bytes": 1919164
+      },
+      {
+        "filename": "mar_a_elena_s_n_59cc_2026-01-01.pdf",
+        "bytes": 169243
+      },
+      {
+        "filename": "mar_a_elena_s_n_adbf_2026-01-01.pdf",
+        "bytes": 170541
+      },
+      {
+        "filename": "mar_a_elena_s_n_c15d_2026-01-01.pdf",
+        "bytes": 286988
+      },
+      {
+        "filename": "mar_a_pinto_256_2026-01-01.pdf",
+        "bytes": 619961
+      },
+      {
+        "filename": "mar_a_pinto_257_2026-01-01.pdf",
+        "bytes": 662597
+      },
+      {
+        "filename": "marchihue_00_2026-01-01.pdf",
+        "bytes": 1580310
+      },
+      {
+        "filename": "marchihue_1039_2026-01-01.pdf",
+        "bytes": 854240
+      },
+      {
+        "filename": "marchihue_1079_2026-01-01.pdf",
+        "bytes": 1983847
+      },
+      {
+        "filename": "marchihue_1300_2026-01-01.pdf",
+        "bytes": 15891638
+      },
+      {
+        "filename": "marchihue_182_2026-01-01.pdf",
+        "bytes": 2356866
+      },
+      {
+        "filename": "marchihue_1880_2026-01-01.pdf",
+        "bytes": 569905
+      },
+      {
+        "filename": "marchihue_2104_2026-01-01.pdf",
+        "bytes": 344898
+      },
+      {
+        "filename": "marchihue_2105_2026-01-01.pdf",
+        "bytes": 347582
+      },
+      {
+        "filename": "marchihue_2116_2026-01-01.pdf",
+        "bytes": 1474018
+      },
+      {
+        "filename": "marchihue_2259_2026-01-01.pdf",
+        "bytes": 1384211
+      },
+      {
+        "filename": "marchihue_2333_2026-01-01.pdf",
+        "bytes": 2535713
+      },
+      {
+        "filename": "marchihue_2533_2026-01-01.pdf",
+        "bytes": 3957786
+      },
+      {
+        "filename": "marchihue_2663_2026-01-01.pdf",
+        "bytes": 1530139
+      },
+      {
+        "filename": "marchihue_2712_2026-01-01.pdf",
+        "bytes": 245447
+      },
+      {
+        "filename": "marchihue_2713_2026-01-01.pdf",
+        "bytes": 2836248
+      },
+      {
+        "filename": "marchihue_2714_2026-01-01.pdf",
+        "bytes": 1677864
+      },
+      {
+        "filename": "marchihue_2781_2026-01-01.pdf",
+        "bytes": 454321
+      },
+      {
+        "filename": "marchihue_2995_2026-01-01.pdf",
+        "bytes": 2153873
+      },
+      {
+        "filename": "marchihue_3304_2026-01-01.pdf",
+        "bytes": 500703
+      },
+      {
+        "filename": "marchihue_3714_2026-01-01.pdf",
+        "bytes": 1000609
+      },
+      {
+        "filename": "marchihue_4138_2026-01-01.pdf",
+        "bytes": 1338751
+      },
+      {
+        "filename": "marchihue_4218_2026-01-01.pdf",
+        "bytes": 320804
+      },
+      {
+        "filename": "marchihue_4219_2026-01-01.pdf",
+        "bytes": 1836168
+      },
+      {
+        "filename": "marchihue_464_2026-01-01.pdf",
+        "bytes": 2511297
+      },
+      {
+        "filename": "marchihue_507_2026-01-01.pdf",
+        "bytes": 427989
+      },
+      {
+        "filename": "marchihue_532_2026-01-01.pdf",
+        "bytes": 2437165
+      },
+      {
+        "filename": "marchihue_603_2026-01-01.pdf",
+        "bytes": 2555329
+      },
+      {
+        "filename": "marchihue_810_2026-01-01.pdf",
+        "bytes": 710284
+      },
+      {
+        "filename": "mariquina_doc_36f66c_2026-01-01.pdf",
+        "bytes": 10059779
+      },
+      {
+        "filename": "mariquina_doc_9a7ef3_2025-01-01.pdf",
+        "bytes": 2865474
+      },
+      {
+        "filename": "mariquina_doc_d80ff6_2025-01-01.pdf",
+        "bytes": 4451436
+      },
+      {
+        "filename": "mariquina_doc_eb43cf_2019-01-01.pdf",
+        "bytes": 321938
+      },
+      {
+        "filename": "maule_doc_bbe71e_2024-01-01.pdf",
+        "bytes": 784768
+      },
+      {
+        "filename": "maule_s_n_c7ee_2024-01-01.pdf",
+        "bytes": 4459469
+      },
+      {
+        "filename": "maull_n_3128_2026-01-01.pdf",
+        "bytes": 526377
+      },
+      {
+        "filename": "maull_n_3555_2026-01-01.pdf",
+        "bytes": 4014146
+      },
+      {
+        "filename": "maull_n_doc_746c41_2026-01-01.pdf",
+        "bytes": 2445272
+      },
+      {
+        "filename": "maull_n_s_n_b0f0_2026-01-01.pdf",
+        "bytes": 2153618
+      },
+      {
+        "filename": "maull_n_s_n_cc8b_2026-01-01.pdf",
+        "bytes": 5390060
+      },
+      {
+        "filename": "maull_n_s_n_ea9a_2026-01-01.pdf",
+        "bytes": 2667553
+      },
+      {
+        "filename": "maull_n_s_n_f363_2026-01-01.pdf",
+        "bytes": 4538736
+      },
+      {
+        "filename": "mejillones_2023_2023-01-01.pdf",
+        "bytes": 9824571
+      },
+      {
+        "filename": "mejillones_2024_2024-01-01.pdf",
+        "bytes": 4161903
+      },
+      {
+        "filename": "melipilla_2593_2021-01-01.pdf",
+        "bytes": 2080404
+      },
+      {
+        "filename": "mulch_n_417_2002-05-04.pdf",
+        "bytes": 25060
+      },
+      {
+        "filename": "mulch_n_doc_5bded9_2024-01-01.pdf",
+        "bytes": 224911
+      },
+      {
+        "filename": "nacimiento_doc_e5a65e_2024-01-01.pdf",
+        "bytes": 859622
+      },
+      {
+        "filename": "nancagua_2423_2026-01-01.pdf",
+        "bytes": 2512347
+      },
+      {
+        "filename": "navidad_2023_2023-01-01.pdf",
+        "bytes": 319636
+      },
+      {
+        "filename": "navidad_2023_471d_2023-01-01.pdf",
+        "bytes": 224346
+      },
+      {
+        "filename": "navidad_2023_6c18_2023-01-01.pdf",
+        "bytes": 4169114
+      },
+      {
+        "filename": "navidad_2023_7c5f_2023-01-01.pdf",
+        "bytes": 3922596
+      },
+      {
+        "filename": "navidad_2023_ac41_2023-01-01.pdf",
+        "bytes": 3661441
+      },
+      {
+        "filename": "navidad_2023_c166_2023-01-01.pdf",
+        "bytes": 2756499
+      },
+      {
+        "filename": "navidad_2024_2024-01-01.pdf",
+        "bytes": 4414332
+      },
+      {
+        "filename": "navidad_2025_07f5_2026-01-01.pdf",
+        "bytes": 356087
+      },
+      {
+        "filename": "navidad_2025_2025-01-01.pdf",
+        "bytes": 432565
+      },
+      {
+        "filename": "navidad_2025_2026-01-01.pdf",
+        "bytes": 243508
+      },
+      {
+        "filename": "navidad_2026_2026-01-01.pdf",
+        "bytes": 352204
+      },
+      {
+        "filename": "navidad_2026_672f_2026-01-01.pdf",
+        "bytes": 521462
+      },
+      {
+        "filename": "navidad_2026_b813_2026-01-01.pdf",
+        "bytes": 209717
+      },
+      {
+        "filename": "navidad_31_2026-01-01.pdf",
+        "bytes": 531375
+      },
+      {
+        "filename": "navidad_874_2025-01-01.pdf",
+        "bytes": 313710
+      },
+      {
         "filename": "negrete_norma_oficial.pdf",
         "bytes": 61648
+      },
+      {
+        "filename": "ninhue_340_2019-06-12.pdf",
+        "bytes": 24049
+      },
+      {
+        "filename": "nueva_imperial_1150_2019-12-04.pdf",
+        "bytes": 41254
       },
       {
         "filename": "nueva_imperial_401_1992-01-28.pdf",
@@ -132,6 +3262,10 @@
         "bytes": 23974
       },
       {
+        "filename": "o_higgins_45_2019-12-18.pdf",
+        "bytes": 24056
+      },
+      {
         "filename": "o_higgins_877_2024-10-30.pdf",
         "bytes": 47819
       },
@@ -140,16 +3274,524 @@
         "bytes": 46884
       },
       {
+        "filename": "olivar_doc_652d32_2026-01-01.pdf",
+        "bytes": 3647069
+      },
+      {
+        "filename": "ollag_e_1122_2018-01-01.pdf",
+        "bytes": 86226
+      },
+      {
+        "filename": "ollag_e_172_2023-01-01.pdf",
+        "bytes": 328273
+      },
+      {
+        "filename": "ollag_e_173_2023-01-01.pdf",
+        "bytes": 328653
+      },
+      {
+        "filename": "ollag_e_443_2026-01-01.pdf",
+        "bytes": 313763
+      },
+      {
+        "filename": "ollag_e_doc_a3056f_2026-01-01.pdf",
+        "bytes": 2345299
+      },
+      {
+        "filename": "ollag_e_s_n_1e12_2026-01-01.pdf",
+        "bytes": 1954150
+      },
+      {
+        "filename": "ollag_e_s_n_25c7_2026-01-01.pdf",
+        "bytes": 1989238
+      },
+      {
+        "filename": "ollag_e_s_n_42af_2026-01-01.pdf",
+        "bytes": 1942893
+      },
+      {
+        "filename": "ollag_e_s_n_52c2_2026-01-01.pdf",
+        "bytes": 2005386
+      },
+      {
+        "filename": "ollag_e_s_n_6206_2026-01-01.pdf",
+        "bytes": 2125817
+      },
+      {
+        "filename": "ollag_e_s_n_b0f8_2026-01-01.pdf",
+        "bytes": 1969084
+      },
+      {
+        "filename": "ollag_e_s_n_e2fd_2026-01-01.pdf",
+        "bytes": 910050
+      },
+      {
+        "filename": "olmu_67_1983-05-24.pdf",
+        "bytes": 52401
+      },
+      {
+        "filename": "paiguano_177_2005-02-11.pdf",
+        "bytes": 24094
+      },
+      {
+        "filename": "paiguano_49_2017-02-14.pdf",
+        "bytes": 24075
+      },
+      {
+        "filename": "paillaco_1502_2026-01-01.pdf",
+        "bytes": 1526588
+      },
+      {
+        "filename": "paillaco_1503_2026-01-01.pdf",
+        "bytes": 1110570
+      },
+      {
+        "filename": "paillaco_1504_2026-01-01.pdf",
+        "bytes": 532058
+      },
+      {
+        "filename": "paillaco_1505_2026-01-01.pdf",
+        "bytes": 788976
+      },
+      {
+        "filename": "paillaco_2022_2022-01-01.pdf",
+        "bytes": 1328546
+      },
+      {
+        "filename": "paillaco_doc_1f3ca4_2026-01-01.pdf",
+        "bytes": 2686810
+      },
+      {
+        "filename": "paillaco_s_n_0020_2026-01-01.pdf",
+        "bytes": 1058949
+      },
+      {
+        "filename": "paillaco_s_n_2eb4_2026-01-01.pdf",
+        "bytes": 329829
+      },
+      {
+        "filename": "paillaco_s_n_526a_2026-01-01.pdf",
+        "bytes": 2645786
+      },
+      {
+        "filename": "paillaco_s_n_5f51_2026-01-01.pdf",
+        "bytes": 6730368
+      },
+      {
+        "filename": "paillaco_s_n_ae34_2026-01-01.pdf",
+        "bytes": 361532
+      },
+      {
+        "filename": "paillaco_s_n_dc68_2026-01-01.pdf",
+        "bytes": 5273496
+      },
+      {
+        "filename": "paillaco_s_n_f3d5_2026-01-01.pdf",
+        "bytes": 164173
+      },
+      {
+        "filename": "paillaco_s_n_f50e_2026-01-01.pdf",
+        "bytes": 461188
+      },
+      {
+        "filename": "paine_03_2022-01-01.pdf",
+        "bytes": 1024987
+      },
+      {
+        "filename": "paine_04_2022-01-01.pdf",
+        "bytes": 1028567
+      },
+      {
+        "filename": "paine_05_2023-01-01.pdf",
+        "bytes": 477341
+      },
+      {
+        "filename": "paine_07_2024-01-01.pdf",
+        "bytes": 681549
+      },
+      {
+        "filename": "paine_08_2025-01-01.pdf",
+        "bytes": 699125
+      },
+      {
+        "filename": "paine_10_2025-01-01.pdf",
+        "bytes": 732731
+      },
+      {
         "filename": "palena_norma_oficial.pdf",
         "bytes": 153629
+      },
+      {
+        "filename": "palmilla_420_2019-11-28.pdf",
+        "bytes": 25334
+      },
+      {
+        "filename": "palmilla_doc_2f5d09_2026-01-01.pdf",
+        "bytes": 1659879
+      },
+      {
+        "filename": "palmilla_s_n_e002_2026-01-01.pdf",
+        "bytes": 564662
+      },
+      {
+        "filename": "palmilla_s_n_fafd_2026-01-01.pdf",
+        "bytes": 488763
+      },
+      {
+        "filename": "parral_01_2026-01-01.pdf",
+        "bytes": 287636
+      },
+      {
+        "filename": "parral_02_2026-01-01.pdf",
+        "bytes": 212729
+      },
+      {
+        "filename": "parral_03_2026-01-01.pdf",
+        "bytes": 183899
+      },
+      {
+        "filename": "parral_04_2026-01-01.pdf",
+        "bytes": 210876
+      },
+      {
+        "filename": "parral_05_2026-01-01.pdf",
+        "bytes": 183008
+      },
+      {
+        "filename": "parral_07_2026-01-01.pdf",
+        "bytes": 291037
+      },
+      {
+        "filename": "pe_aflor_1472_2023-01-01.pdf",
+        "bytes": 1917185
+      },
+      {
+        "filename": "pe_aflor_1640_2024-12-27.pdf",
+        "bytes": 230987
+      },
+      {
+        "filename": "pe_aflor_1787_2023-12-27.pdf",
+        "bytes": 6287683
+      },
+      {
+        "filename": "pe_aflor_1_2026-01-01.pdf",
+        "bytes": 1655925
+      },
+      {
+        "filename": "pe_aflor_1_2026_2026-01-01.pdf",
+        "bytes": 6596072
+      },
+      {
+        "filename": "pe_aflor_680_2025-06-25.pdf",
+        "bytes": 155692
+      },
+      {
+        "filename": "pe_aflor_979_2025-01-01.pdf",
+        "bytes": 1358652
+      },
+      {
+        "filename": "pe_alol_n_41_2025-10-28.pdf",
+        "bytes": 31990131
+      },
+      {
+        "filename": "pelluhue_doc_18a1db_2016-01-01.pdf",
+        "bytes": 2120433
+      },
+      {
+        "filename": "pelluhue_doc_c7ced0_2014-01-01.pdf",
+        "bytes": 1620930
+      },
+      {
+        "filename": "pemuco_doc_0ffed8_2026-01-01.pdf",
+        "bytes": 4135648
+      },
+      {
+        "filename": "pencahue_1058_2025-10-29.pdf",
+        "bytes": 12714901
+      },
+      {
+        "filename": "pencahue_2025_2025-01-01.pdf",
+        "bytes": 12714901
+      },
+      {
+        "filename": "pencahue_428_2024-04-19.pdf",
+        "bytes": 24076
+      },
+      {
+        "filename": "pencahue_RES-72_2021-12-10.pdf",
+        "bytes": 42833
+      },
+      {
+        "filename": "penco_doc_3a6c52_2026-01-01.pdf",
+        "bytes": 681586
+      },
+      {
+        "filename": "peralillo_26_2023-01-01.pdf",
+        "bytes": 1104921
+      },
+      {
+        "filename": "perquenco_201_2025-01-01.pdf",
+        "bytes": 4784059
+      },
+      {
+        "filename": "perquenco_201_2026-01-01.pdf",
+        "bytes": 4927771
+      },
+      {
+        "filename": "perquenco_201_7e29_2026-01-01.pdf",
+        "bytes": 5034918
+      },
+      {
+        "filename": "perquenco_201_fb93_2026-01-01.pdf",
+        "bytes": 5622384
+      },
+      {
+        "filename": "perquenco_2030_2030-01-01.pdf",
+        "bytes": 249005
+      },
+      {
+        "filename": "perquenco_20_2026-01-01.pdf",
+        "bytes": 1390225
+      },
+      {
+        "filename": "perquenco_219_2026-01-01.pdf",
+        "bytes": 302818
+      },
+      {
+        "filename": "perquenco_658_2026-01-01.pdf",
+        "bytes": 394346
+      },
+      {
+        "filename": "perquenco_80_2021-01-01.pdf",
+        "bytes": 318392
+      },
+      {
+        "filename": "perquenco_doc_4a101c_2026-01-01.pdf",
+        "bytes": 6052588
+      },
+      {
+        "filename": "perquenco_doc_b1193e_2019-01-01.pdf",
+        "bytes": 7472135
+      },
+      {
+        "filename": "perquenco_doc_df499b_2020-01-01.pdf",
+        "bytes": 163400
+      },
+      {
+        "filename": "perquenco_s_n_0f47_2026-01-01.pdf",
+        "bytes": 3472974
+      },
+      {
+        "filename": "perquenco_s_n_2c57_2026-01-01.pdf",
+        "bytes": 2573804
+      },
+      {
+        "filename": "perquenco_s_n_5042_2026-01-01.pdf",
+        "bytes": 6906343
+      },
+      {
+        "filename": "perquenco_s_n_5fab_2026-01-01.pdf",
+        "bytes": 1272439
+      },
+      {
+        "filename": "perquenco_s_n_7e84_2026-01-01.pdf",
+        "bytes": 3913922
+      },
+      {
+        "filename": "perquenco_s_n_94d5_2026-01-01.pdf",
+        "bytes": 2847370
+      },
+      {
+        "filename": "perquenco_s_n_b109_2026-01-01.pdf",
+        "bytes": 1005635
+      },
+      {
+        "filename": "perquenco_s_n_ed94_2026-01-01.pdf",
+        "bytes": 31514854
+      },
+      {
+        "filename": "perquenco_s_n_f590_2026-01-01.pdf",
+        "bytes": 274934
+      },
+      {
+        "filename": "petorca_670_2018-12-28.pdf",
+        "bytes": 24021
+      },
+      {
+        "filename": "peumo_1_2026-01-01.pdf",
+        "bytes": 1453961
+      },
+      {
+        "filename": "pichidegua_36_1998-01-22.pdf",
+        "bytes": 25308
+      },
+      {
+        "filename": "pichilemu_doc_c4c45a_2026-01-01.pdf",
+        "bytes": 18078459
+      },
+      {
+        "filename": "pinto_3_2013-01-01.pdf",
+        "bytes": 273083
+      },
+      {
+        "filename": "pinto_doc_7195ee_2026-01-01.pdf",
+        "bytes": 700671
+      },
+      {
+        "filename": "pinto_s_n_0875_2026-01-01.pdf",
+        "bytes": 137978
+      },
+      {
+        "filename": "pinto_s_n_473e_2026-01-01.pdf",
+        "bytes": 666062
+      },
+      {
+        "filename": "pinto_s_n_591b_2026-01-01.pdf",
+        "bytes": 320954
+      },
+      {
+        "filename": "pitrufqu_n_doc_88ca67_2024-01-01.pdf",
+        "bytes": 1072437
+      },
+      {
+        "filename": "placilla_310_2018-12-14.pdf",
+        "bytes": 25577
+      },
+      {
+        "filename": "portezuelo_2026_2025-01-01.pdf",
+        "bytes": 7526187
+      },
+      {
+        "filename": "porvenir_20_2026-01-01.pdf",
+        "bytes": 316507
+      },
+      {
+        "filename": "porvenir_21_2026-01-01.pdf",
+        "bytes": 332491
+      },
+      {
+        "filename": "porvenir_22_2026-01-01.pdf",
+        "bytes": 426172
+      },
+      {
+        "filename": "porvenir_doc_f8bcde_2026-01-01.pdf",
+        "bytes": 190046
+      },
+      {
+        "filename": "primavera_65_2018-10-10.pdf",
+        "bytes": 25941
+      },
+      {
+        "filename": "providencia_1803_2025-12-16.pdf",
+        "bytes": 25673914
+      },
+      {
+        "filename": "puchuncav_10_2026-01-01.pdf",
+        "bytes": 271621
+      },
+      {
+        "filename": "puchuncav_11_2026-01-01.pdf",
+        "bytes": 261421
+      },
+      {
+        "filename": "puchuncav_15_2026-01-01.pdf",
+        "bytes": 287234
+      },
+      {
+        "filename": "puchuncav_17_2026-01-01.pdf",
+        "bytes": 274445
+      },
+      {
+        "filename": "puchuncav_18_2026-01-01.pdf",
+        "bytes": 298184
+      },
+      {
+        "filename": "puchuncav_19_2026-01-01.pdf",
+        "bytes": 279776
+      },
+      {
+        "filename": "puchuncav_21_2026-01-01.pdf",
+        "bytes": 281048
+      },
+      {
+        "filename": "puchuncav_22_2026-01-01.pdf",
+        "bytes": 261872
+      },
+      {
+        "filename": "puchuncav_24_2026-01-01.pdf",
+        "bytes": 278661
+      },
+      {
+        "filename": "puchuncav_25_2026-01-01.pdf",
+        "bytes": 275464
+      },
+      {
+        "filename": "puchuncav_2_2026-01-01.pdf",
+        "bytes": 273784
+      },
+      {
+        "filename": "puchuncav_4_2026-01-01.pdf",
+        "bytes": 262612
+      },
+      {
+        "filename": "puchuncav_5_2026-01-01.pdf",
+        "bytes": 262860
+      },
+      {
+        "filename": "puchuncav_6_2026-01-01.pdf",
+        "bytes": 270446
+      },
+      {
+        "filename": "puchuncav_7_2026-01-01.pdf",
+        "bytes": 277841
+      },
+      {
+        "filename": "puchuncav_9_2026-01-01.pdf",
+        "bytes": 279879
+      },
+      {
+        "filename": "puchuncav_doc_5ee571_2026-01-01.pdf",
+        "bytes": 191395
+      },
+      {
+        "filename": "pudahuel_4256_1996-12-27.pdf",
+        "bytes": 54883
+      },
+      {
+        "filename": "puente_alto_doc_c1cc87_2026-01-01.pdf",
+        "bytes": 1815878
+      },
+      {
+        "filename": "puente_alto_s_n_af8a_2026-01-01.pdf",
+        "bytes": 639719
       },
       {
         "filename": "puerto octay_norma_oficial.pdf",
         "bytes": 122273
       },
       {
+        "filename": "puerto_montt_doc_b1904e_2026-01-01.pdf",
+        "bytes": 813686
+      },
+      {
+        "filename": "puerto_montt_s_n_5caf_2026-01-01.pdf",
+        "bytes": 4513833
+      },
+      {
+        "filename": "puerto_montt_s_n_92dc_2026-01-01.pdf",
+        "bytes": 61595
+      },
+      {
+        "filename": "puerto_montt_s_n_f07f_2026-01-01.pdf",
+        "bytes": 3033640
+      },
+      {
+        "filename": "pumanque_105_1991-01-04.pdf",
+        "bytes": 23996
+      },
+      {
         "filename": "pumanque_290_2020-02-18.pdf",
-        "bytes": 26176
+        "bytes": 26189
       },
       {
         "filename": "punitaqui_2369_2010-12-15.pdf",
@@ -160,12 +3802,1460 @@
         "bytes": 25403
       },
       {
+        "filename": "punta_arenas_doc_bb891b_2026-01-01.pdf",
+        "bytes": 941475
+      },
+      {
+        "filename": "puqueld_n_1_2026-01-01.pdf",
+        "bytes": 1065042
+      },
+      {
+        "filename": "puqueld_n_doc_eb1e79_2026-01-01.pdf",
+        "bytes": 400491
+      },
+      {
+        "filename": "puqueld_n_s_n_9eda_2026-01-01.pdf",
+        "bytes": 3045882
+      },
+      {
+        "filename": "pur_n_doc_624332_2026-01-01.pdf",
+        "bytes": 7045236
+      },
+      {
+        "filename": "purranque_doc_3424a7_2026-01-01.pdf",
+        "bytes": 1662949
+      },
+      {
+        "filename": "purranque_s_n_08f0_2026-01-01.pdf",
+        "bytes": 641506
+      },
+      {
+        "filename": "purranque_s_n_9037_2026-01-01.pdf",
+        "bytes": 372539
+      },
+      {
+        "filename": "purranque_s_n_9aa6_2026-01-01.pdf",
+        "bytes": 307947
+      },
+      {
+        "filename": "purranque_s_n_c2ee_2026-01-01.pdf",
+        "bytes": 3248361
+      },
+      {
+        "filename": "purranque_s_n_ca9d_2026-01-01.pdf",
+        "bytes": 621494
+      },
+      {
+        "filename": "putaendo_12_2026-01-01.pdf",
+        "bytes": 175027
+      },
+      {
+        "filename": "putaendo_2944_2026-01-01.pdf",
+        "bytes": 472901
+      },
+      {
+        "filename": "putaendo_doc_368a66_2026-01-01.pdf",
+        "bytes": 687141
+      },
+      {
+        "filename": "putre_doc_21d2e3_2026-01-01.pdf",
+        "bytes": 1735431
+      },
+      {
+        "filename": "puyehue_610_2017-08-25.pdf",
+        "bytes": 23999
+      },
+      {
+        "filename": "queil_n_1256_2026-01-01.pdf",
+        "bytes": 5291424
+      },
+      {
+        "filename": "queil_n_1_2026-01-01.pdf",
+        "bytes": 4131121
+      },
+      {
+        "filename": "queil_n_doc_356ac2_2026-01-01.pdf",
+        "bytes": 1496580
+      },
+      {
+        "filename": "queil_n_s_n_2264_2026-01-01.pdf",
+        "bytes": 6389166
+      },
+      {
+        "filename": "queil_n_s_n_2d9d_2026-01-01.pdf",
+        "bytes": 1440456
+      },
+      {
+        "filename": "queil_n_s_n_2e7c_2026-01-01.pdf",
+        "bytes": 493184
+      },
+      {
+        "filename": "queil_n_s_n_3986_2026-01-01.pdf",
+        "bytes": 5153145
+      },
+      {
+        "filename": "queil_n_s_n_71b2_2026-01-01.pdf",
+        "bytes": 4193730
+      },
+      {
+        "filename": "queil_n_s_n_7aeb_2026-01-01.pdf",
+        "bytes": 4705656
+      },
+      {
+        "filename": "queil_n_s_n_9360_2026-01-01.pdf",
+        "bytes": 2293606
+      },
+      {
+        "filename": "queil_n_s_n_a371_2026-01-01.pdf",
+        "bytes": 7159740
+      },
+      {
+        "filename": "queil_n_s_n_b0cb_2026-01-01.pdf",
+        "bytes": 2234470
+      },
+      {
+        "filename": "queil_n_s_n_bae4_2026-01-01.pdf",
+        "bytes": 3390488
+      },
+      {
+        "filename": "queil_n_s_n_cd0f_2026-01-01.pdf",
+        "bytes": 635895
+      },
+      {
+        "filename": "queil_n_s_n_ebcb_2026-01-01.pdf",
+        "bytes": 36791
+      },
+      {
+        "filename": "quell_n_2_2026-01-01.pdf",
+        "bytes": 5314906
+      },
+      {
+        "filename": "quell_n_4_2026-01-01.pdf",
+        "bytes": 2757225
+      },
+      {
+        "filename": "quell_n_doc_3b24b4_2026-01-01.pdf",
+        "bytes": 406191
+      },
+      {
+        "filename": "quell_n_s_n_32e6_2026-01-01.pdf",
+        "bytes": 1144288
+      },
+      {
+        "filename": "quell_n_s_n_4d5b_2026-01-01.pdf",
+        "bytes": 411621
+      },
+      {
+        "filename": "quell_n_s_n_5428_2026-01-01.pdf",
+        "bytes": 3086123
+      },
+      {
+        "filename": "quell_n_s_n_939b_2026-01-01.pdf",
+        "bytes": 4339952
+      },
+      {
+        "filename": "quell_n_s_n_a94b_2026-01-01.pdf",
+        "bytes": 411279
+      },
+      {
+        "filename": "quell_n_s_n_b2fa_2026-01-01.pdf",
+        "bytes": 407940
+      },
+      {
+        "filename": "quell_n_s_n_bde0_2026-01-01.pdf",
+        "bytes": 402598
+      },
+      {
+        "filename": "quell_n_s_n_ed9f_2026-01-01.pdf",
+        "bytes": 579073
+      },
+      {
+        "filename": "quill_n_doc_289047_2026-01-01.pdf",
+        "bytes": 493283
+      },
+      {
+        "filename": "quill_n_s_n_8824_2026-01-01.pdf",
+        "bytes": 923683
+      },
+      {
+        "filename": "quill_n_s_n_9618_2026-01-01.pdf",
+        "bytes": 2068006
+      },
+      {
+        "filename": "quilleco_280_2017-12-19.pdf",
+        "bytes": 24037
+      },
+      {
+        "filename": "quillota_1020_2026-01-01.pdf",
+        "bytes": 143495
+      },
+      {
+        "filename": "quillota_2008_2003-01-01.pdf",
+        "bytes": 98301
+      },
+      {
+        "filename": "quillota_5912_2050-01-01.pdf",
+        "bytes": 889774
+      },
+      {
+        "filename": "quillota_8634_2026-01-01.pdf",
+        "bytes": 556660
+      },
+      {
+        "filename": "quillota_doc_d26923_2026-01-01.pdf",
+        "bytes": 142972
+      },
+      {
+        "filename": "quillota_s_n_26b9_2026-01-01.pdf",
+        "bytes": 506874
+      },
+      {
+        "filename": "quillota_s_n_3525_2026-01-01.pdf",
+        "bytes": 4017044
+      },
+      {
+        "filename": "quillota_s_n_58dc_2026-01-01.pdf",
+        "bytes": 109742
+      },
+      {
+        "filename": "quillota_s_n_657d_2026-01-01.pdf",
+        "bytes": 137955
+      },
+      {
+        "filename": "quillota_s_n_6658_2026-01-01.pdf",
+        "bytes": 627121
+      },
+      {
+        "filename": "quillota_s_n_8275_2026-01-01.pdf",
+        "bytes": 3145982
+      },
+      {
+        "filename": "quillota_s_n_9818_2026-01-01.pdf",
+        "bytes": 94940
+      },
+      {
+        "filename": "quillota_s_n_9ef8_2026-01-01.pdf",
+        "bytes": 820084
+      },
+      {
+        "filename": "quillota_s_n_ab08_2026-01-01.pdf",
+        "bytes": 3421362
+      },
+      {
+        "filename": "quillota_s_n_b266_2026-01-01.pdf",
+        "bytes": 515908
+      },
+      {
+        "filename": "quinta_de_tilcoco_doc_c5314e_2026-01-01.pdf",
+        "bytes": 1582345
+      },
+      {
+        "filename": "quirihue_doc_2bccb5_2023-01-01.pdf",
+        "bytes": 257354
+      },
+      {
+        "filename": "quirihue_doc_c85eb7_2024-01-01.pdf",
+        "bytes": 102520
+      },
+      {
+        "filename": "r_nquil_4909_2026-01-01.pdf",
+        "bytes": 4063240
+      },
+      {
+        "filename": "r_o_bueno_2024_2024-01-01.pdf",
+        "bytes": 2894843
+      },
+      {
+        "filename": "r_o_claro_doc_bac8aa_2026-01-01.pdf",
+        "bytes": 228334
+      },
+      {
+        "filename": "r_o_claro_s_n_8a7d_2026-01-01.pdf",
+        "bytes": 200850
+      },
+      {
+        "filename": "r_o_hurtado_doc_0b8beb_2011-01-01.pdf",
+        "bytes": 171796
+      },
+      {
+        "filename": "r_o_hurtado_doc_30a035_2017-01-01.pdf",
+        "bytes": 548013
+      },
+      {
+        "filename": "r_o_hurtado_doc_597cd7_2012-01-01.pdf",
+        "bytes": 495639
+      },
+      {
+        "filename": "r_o_hurtado_doc_67a0c7_2026-01-01.pdf",
+        "bytes": 563701
+      },
+      {
+        "filename": "r_o_hurtado_doc_b55c26_2014-01-01.pdf",
+        "bytes": 392608
+      },
+      {
+        "filename": "r_o_hurtado_doc_c25f05_2015-01-01.pdf",
+        "bytes": 457405
+      },
+      {
+        "filename": "r_o_hurtado_doc_cacab0_2016-01-01.pdf",
+        "bytes": 473820
+      },
+      {
+        "filename": "r_o_hurtado_doc_def9b3_2013-01-01.pdf",
+        "bytes": 4269829
+      },
+      {
+        "filename": "r_o_hurtado_doc_e2c23d_2018-01-01.pdf",
+        "bytes": 524173
+      },
+      {
+        "filename": "r_o_hurtado_s_n_7d1e_2026-01-01.pdf",
+        "bytes": 389799
+      },
+      {
+        "filename": "r_o_hurtado_s_n_a8f8_2026-01-01.pdf",
+        "bytes": 116876
+      },
+      {
+        "filename": "r_o_hurtado_s_n_d4db_2026-01-01.pdf",
+        "bytes": 1653454
+      },
+      {
+        "filename": "r_o_hurtado_s_n_d5fb_2026-01-01.pdf",
+        "bytes": 443766
+      },
+      {
+        "filename": "r_o_hurtado_s_n_e246_2026-01-01.pdf",
+        "bytes": 591207
+      },
+      {
+        "filename": "r_o_ib_ez_566_2020-01-01.pdf",
+        "bytes": 629077
+      },
+      {
+        "filename": "r_o_verde_42_2019-03-20.pdf",
+        "bytes": 25443
+      },
+      {
+        "filename": "renca_01_2018-01-01.pdf",
+        "bytes": 1461762
+      },
+      {
+        "filename": "retiro_2026_2024-01-01.pdf",
+        "bytes": 3765695
+      },
+      {
+        "filename": "retiro_doc_6320c1_2026-01-01.pdf",
+        "bytes": 9297432
+      },
+      {
+        "filename": "retiro_s_n_08bc_2026-01-01.pdf",
+        "bytes": 1688032
+      },
+      {
+        "filename": "retiro_s_n_1377_2026-01-01.pdf",
+        "bytes": 6998239
+      },
+      {
+        "filename": "retiro_s_n_6bc2_2026-01-01.pdf",
+        "bytes": 1627612
+      },
+      {
+        "filename": "retiro_s_n_7627_2026-01-01.pdf",
+        "bytes": 9925889
+      },
+      {
+        "filename": "retiro_s_n_ad4c_2026-01-01.pdf",
+        "bytes": 5123418
+      },
+      {
+        "filename": "retiro_s_n_fd7d_2026-01-01.pdf",
+        "bytes": 394965
+      },
+      {
+        "filename": "rinconada_doc_3a679b_2022-01-01.pdf",
+        "bytes": 6109472
+      },
+      {
         "filename": "rio negro_norma_oficial.pdf",
         "bytes": 140063
       },
       {
+        "filename": "romeral_0422_2020-05-27.pdf",
+        "bytes": 232960
+      },
+      {
+        "filename": "romeral_52_2026-01-01.pdf",
+        "bytes": 298794
+      },
+      {
+        "filename": "romeral_doc_042da3_2022-04-25.pdf",
+        "bytes": 1426464
+      },
+      {
+        "filename": "romeral_doc_0eeeb9_2026-08-12.pdf",
+        "bytes": 2313526
+      },
+      {
+        "filename": "romeral_doc_3337fe_2018-06-08.pdf",
+        "bytes": 51558
+      },
+      {
+        "filename": "romeral_doc_429c93_2022-10-13.pdf",
+        "bytes": 1529437
+      },
+      {
+        "filename": "romeral_doc_450840_2023-11-20.pdf",
+        "bytes": 1881794
+      },
+      {
+        "filename": "romeral_doc_47c829_2026-02-25.pdf",
+        "bytes": 392362
+      },
+      {
+        "filename": "romeral_doc_4a031b_2023-04-17.pdf",
+        "bytes": 374684
+      },
+      {
+        "filename": "romeral_doc_540b4f_2020-11-02.pdf",
+        "bytes": 1825446
+      },
+      {
+        "filename": "romeral_doc_6892ce_2026-01-01.pdf",
+        "bytes": 548244
+      },
+      {
+        "filename": "romeral_doc_73c515_2025-12-22.pdf",
+        "bytes": 1664408
+      },
+      {
+        "filename": "romeral_doc_7b173e_2020-08-18.pdf",
+        "bytes": 273454
+      },
+      {
+        "filename": "romeral_doc_929896_2024-02-13.pdf",
+        "bytes": 2114250
+      },
+      {
+        "filename": "romeral_doc_d41ce1_2024-10-11.pdf",
+        "bytes": 2098670
+      },
+      {
+        "filename": "romeral_doc_fb93f4_2024-11-07.pdf",
+        "bytes": 1267921
+      },
+      {
+        "filename": "saavedra_02_2026-01-01.pdf",
+        "bytes": 3891519
+      },
+      {
+        "filename": "saavedra_2024_2024-01-01.pdf",
+        "bytes": 1384133
+      },
+      {
+        "filename": "saavedra_doc_1933ed_2018-01-01.pdf",
+        "bytes": 7632582
+      },
+      {
+        "filename": "saavedra_doc_37e788_2026-01-01.pdf",
+        "bytes": 3014239
+      },
+      {
+        "filename": "saavedra_s_n_6aa0_2026-01-01.pdf",
+        "bytes": 932926
+      },
+      {
+        "filename": "sagrada_familia_1489_2026-01-01.pdf",
+        "bytes": 11396519
+      },
+      {
+        "filename": "san_antonio_1_2025-01-01.pdf",
+        "bytes": 1548796
+      },
+      {
+        "filename": "san_bernardo_12_2024-01-01.pdf",
+        "bytes": 4443206
+      },
+      {
+        "filename": "san_bernardo_12_2024-05-14.pdf",
+        "bytes": 10700680
+      },
+      {
+        "filename": "san_bernardo_13_2024-10-30.pdf",
+        "bytes": 10416726
+      },
+      {
+        "filename": "san_bernardo_13_2025-10-28.pdf",
+        "bytes": 3471577
+      },
+      {
+        "filename": "san_bernardo_13_2026-01-01.pdf",
+        "bytes": 2412390
+      },
+      {
+        "filename": "san_bernardo_13_366c_2026-01-01.pdf",
+        "bytes": 11705319
+      },
+      {
+        "filename": "san_bernardo_14_2025-11-20.pdf",
+        "bytes": 2499717
+      },
+      {
+        "filename": "san_bernardo_14_2026-01-01.pdf",
+        "bytes": 466438
+      },
+      {
+        "filename": "san_bernardo_19_03d5_2026-01-01.pdf",
+        "bytes": 6224344
+      },
+      {
+        "filename": "san_bernardo_19_2026-01-01.pdf",
+        "bytes": 9472949
+      },
+      {
+        "filename": "san_bernardo_20_2024-05-24.pdf",
+        "bytes": 1235684
+      },
+      {
+        "filename": "san_bernardo_20_2026-01-01.pdf",
+        "bytes": 3572587
+      },
+      {
+        "filename": "san_bernardo_51_2026-01-01.pdf",
+        "bytes": 5392821
+      },
+      {
+        "filename": "san_bernardo_52_2026-01-01.pdf",
+        "bytes": 2656801
+      },
+      {
+        "filename": "san_bernardo_54_2026-01-01.pdf",
+        "bytes": 737270
+      },
+      {
+        "filename": "san_felipe_5_2026-01-01.pdf",
+        "bytes": 454737
+      },
+      {
+        "filename": "san_gregorio_0262_2026-01-01.pdf",
+        "bytes": 1191073
+      },
+      {
+        "filename": "san_gregorio_0497_2026-01-01.pdf",
+        "bytes": 3369337
+      },
+      {
+        "filename": "san_gregorio_0829_2017-01-01.pdf",
+        "bytes": 2993467
+      },
+      {
+        "filename": "san_gregorio_1057_2026-01-01.pdf",
+        "bytes": 1951350
+      },
+      {
+        "filename": "san_gregorio_1195_2026-01-01.pdf",
+        "bytes": 990469
+      },
+      {
+        "filename": "san_gregorio_1531_2005-01-01.pdf",
+        "bytes": 377597
+      },
+      {
+        "filename": "san_gregorio_1_2026-01-01.pdf",
+        "bytes": 1968469
+      },
+      {
+        "filename": "san_gregorio_1_5a53_2026-01-01.pdf",
+        "bytes": 2093826
+      },
+      {
+        "filename": "san_gregorio_doc_700d37_2026-01-01.pdf",
+        "bytes": 647836
+      },
+      {
+        "filename": "san_ignacio_560_2018-11-09.pdf",
+        "bytes": 25317
+      },
+      {
+        "filename": "san_javier_2_2026-01-01.pdf",
+        "bytes": 746397
+      },
+      {
+        "filename": "san_javier_3_2026-01-01.pdf",
+        "bytes": 685199
+      },
+      {
+        "filename": "san_javier_4_2026-01-01.pdf",
+        "bytes": 5706206
+      },
+      {
+        "filename": "san_juan_de_la_costa_doc_a7d803_2026-01-01.pdf",
+        "bytes": 10748975
+      },
+      {
+        "filename": "san_nicol_s_0134_2026-01-01.pdf",
+        "bytes": 9702660
+      },
+      {
+        "filename": "san_nicol_s_1040_2026-01-01.pdf",
+        "bytes": 2487449
+      },
+      {
+        "filename": "san_nicol_s_1226_2026-01-01.pdf",
+        "bytes": 322474
+      },
+      {
+        "filename": "san_nicol_s_1342_2026-01-01.pdf",
+        "bytes": 958733
+      },
+      {
+        "filename": "san_nicol_s_1537_2026-01-01.pdf",
+        "bytes": 3036588
+      },
+      {
+        "filename": "san_nicol_s_1939_2026-01-01.pdf",
+        "bytes": 147404
+      },
+      {
+        "filename": "san_nicol_s_2098_2098-01-01.pdf",
+        "bytes": 384858
+      },
+      {
+        "filename": "san_nicol_s_2114_2026-01-01.pdf",
+        "bytes": 1187312
+      },
+      {
+        "filename": "san_nicol_s_2155_2026-01-01.pdf",
+        "bytes": 1349706
+      },
+      {
+        "filename": "san_nicol_s_2168_2026-01-01.pdf",
+        "bytes": 291501
+      },
+      {
+        "filename": "san_nicol_s_2303_2026-01-01.pdf",
+        "bytes": 2353742
+      },
+      {
+        "filename": "san_nicol_s_2379_2026-01-01.pdf",
+        "bytes": 398843
+      },
+      {
+        "filename": "san_nicol_s_2663_2026-01-01.pdf",
+        "bytes": 322467
+      },
+      {
+        "filename": "san_nicol_s_2744_2026-01-01.pdf",
+        "bytes": 3189074
+      },
+      {
+        "filename": "san_nicol_s_2846_2026-01-01.pdf",
+        "bytes": 685394
+      },
+      {
+        "filename": "san_nicol_s_2979_2026-01-01.pdf",
+        "bytes": 131020
+      },
+      {
+        "filename": "san_nicol_s_3189_2026-01-01.pdf",
+        "bytes": 351506
+      },
+      {
+        "filename": "san_nicol_s_3190_2026-01-01.pdf",
+        "bytes": 339568
+      },
+      {
+        "filename": "san_nicol_s_3271_2026-01-01.pdf",
+        "bytes": 724925
+      },
+      {
+        "filename": "san_nicol_s_3273_2026-01-01.pdf",
+        "bytes": 560141
+      },
+      {
+        "filename": "san_nicol_s_3467_2026-01-01.pdf",
+        "bytes": 53103
+      },
+      {
+        "filename": "san_nicol_s_3469_2026-01-01.pdf",
+        "bytes": 1179178
+      },
+      {
+        "filename": "san_nicol_s_3470_2026-01-01.pdf",
+        "bytes": 879555
+      },
+      {
+        "filename": "san_nicol_s_3517_2026-01-01.pdf",
+        "bytes": 952344
+      },
+      {
+        "filename": "san_nicol_s_4378_2026-01-01.pdf",
+        "bytes": 6668857
+      },
+      {
+        "filename": "san_nicol_s_4913_2026-01-01.pdf",
+        "bytes": 1334969
+      },
+      {
+        "filename": "san_nicol_s_4959_2026-01-01.pdf",
+        "bytes": 8997337
+      },
+      {
+        "filename": "san_nicol_s_5474_2026-01-01.pdf",
+        "bytes": 17575558
+      },
+      {
+        "filename": "san_nicol_s_5477_2026-01-01.pdf",
+        "bytes": 28872999
+      },
+      {
+        "filename": "san_nicol_s_5484_2026-01-01.pdf",
+        "bytes": 19750130
+      },
+      {
+        "filename": "san_nicol_s_6124_2026-01-01.pdf",
+        "bytes": 4327386
+      },
+      {
+        "filename": "san_nicol_s_6330_2026-01-01.pdf",
+        "bytes": 2602424
+      },
+      {
+        "filename": "san_pablo_2022_2022-01-01.pdf",
+        "bytes": 1015345
+      },
+      {
+        "filename": "san_pablo_290_2019-11-19.pdf",
+        "bytes": 42508
+      },
+      {
+        "filename": "san_pedro_de_atacama_doc_fd3b42_2026-01-01.pdf",
+        "bytes": 6379396
+      },
+      {
+        "filename": "san_rafael_1737_2008-11-10.pdf",
+        "bytes": 24255
+      },
+      {
+        "filename": "san_rafael_471_2002-05-08.pdf",
+        "bytes": 23998
+      },
+      {
+        "filename": "san_rafael_COMPENDIO-V3_2014-01-01.pdf",
+        "bytes": 180248
+      },
+      {
+        "filename": "san_rafael_doc_f13091_2026-01-01.pdf",
+        "bytes": 180248
+      },
+      {
+        "filename": "san_ram_n_2026_2026-01-01.pdf",
+        "bytes": 484366
+      },
+      {
+        "filename": "san_ram_n_doc_3f7b3c_2026-01-01.pdf",
+        "bytes": 991101
+      },
+      {
+        "filename": "san_rosendo_doc_b5bc1b_2026-01-01.pdf",
+        "bytes": 291800
+      },
+      {
         "filename": "santa juana_norma_oficial.pdf",
         "bytes": 127693
+      },
+      {
+        "filename": "santiago_130_2026-05-13.pdf",
+        "bytes": 433191
+      },
+      {
+        "filename": "santiago_94_2025-10-29.pdf",
+        "bytes": 3156323
+      },
+      {
+        "filename": "santo_domingo_003_2025-01-06.pdf",
+        "bytes": 894627
+      },
+      {
+        "filename": "santo_domingo_11_2003-01-01.pdf",
+        "bytes": 5083998
+      },
+      {
+        "filename": "santo_domingo_12_2026-01-01.pdf",
+        "bytes": 320548
+      },
+      {
+        "filename": "santo_domingo_2025_2025-01-01.pdf",
+        "bytes": 1751733
+      },
+      {
+        "filename": "santo_domingo_2304_2026-01-01.pdf",
+        "bytes": 8212116
+      },
+      {
+        "filename": "santo_domingo_2435_2026-01-01.pdf",
+        "bytes": 6509276
+      },
+      {
+        "filename": "santo_domingo_doc_445e59_2026-01-01.pdf",
+        "bytes": 734171
+      },
+      {
+        "filename": "santo_domingo_s_n_2839_2026-01-01.pdf",
+        "bytes": 11907867
+      },
+      {
+        "filename": "santo_domingo_s_n_3ea2_2026-01-01.pdf",
+        "bytes": 5195448
+      },
+      {
+        "filename": "santo_domingo_s_n_4e6a_2026-01-01.pdf",
+        "bytes": 9921931
+      },
+      {
+        "filename": "santo_domingo_s_n_a7f2_2026-01-01.pdf",
+        "bytes": 2470909
+      },
+      {
+        "filename": "santo_domingo_s_n_bdd8_2026-01-01.pdf",
+        "bytes": 3051459
+      },
+      {
+        "filename": "santo_domingo_s_n_c9c7_2026-01-01.pdf",
+        "bytes": 7076621
+      },
+      {
+        "filename": "santo_domingo_s_n_f4a5_2026-01-01.pdf",
+        "bytes": 185280
+      },
+      {
+        "filename": "santo_domingo_s_n_ff01_2026-01-01.pdf",
+        "bytes": 13369000
+      },
+      {
+        "filename": "talagante_1_2026-01-01.pdf",
+        "bytes": 490210
+      },
+      {
+        "filename": "taltal_doc_38b9ec_2026-01-01.pdf",
+        "bytes": 15013118
+      },
+      {
+        "filename": "temuco_001_2001-01-01.pdf",
+        "bytes": 105214
+      },
+      {
+        "filename": "temuco_001_2004-01-01.pdf",
+        "bytes": 305743
+      },
+      {
+        "filename": "temuco_001_2005-01-01.pdf",
+        "bytes": 1281445
+      },
+      {
+        "filename": "temuco_001_2006-01-01.pdf",
+        "bytes": 1520983
+      },
+      {
+        "filename": "temuco_001_2007-01-01.pdf",
+        "bytes": 1774508
+      },
+      {
+        "filename": "temuco_001_2009-01-01.pdf",
+        "bytes": 146960
+      },
+      {
+        "filename": "temuco_001_2011-01-01.pdf",
+        "bytes": 589741
+      },
+      {
+        "filename": "temuco_001_2012-01-01.pdf",
+        "bytes": 201356
+      },
+      {
+        "filename": "temuco_001_2013-01-01.pdf",
+        "bytes": 305783
+      },
+      {
+        "filename": "temuco_001_2014-01-01.pdf",
+        "bytes": 517767
+      },
+      {
+        "filename": "temuco_001_2015-01-01.pdf",
+        "bytes": 558353
+      },
+      {
+        "filename": "temuco_001_2016-01-01.pdf",
+        "bytes": 2508833
+      },
+      {
+        "filename": "temuco_001_2017-01-01.pdf",
+        "bytes": 513897
+      },
+      {
+        "filename": "temuco_001_2018-01-01.pdf",
+        "bytes": 2268989
+      },
+      {
+        "filename": "temuco_001_2019-01-01.pdf",
+        "bytes": 279575
+      },
+      {
+        "filename": "temuco_002_2001-01-01.pdf",
+        "bytes": 176500
+      },
+      {
+        "filename": "temuco_002_2005-01-01.pdf",
+        "bytes": 11063082
+      },
+      {
+        "filename": "temuco_002_2006-01-01.pdf",
+        "bytes": 1058508
+      },
+      {
+        "filename": "temuco_002_2007-01-01.pdf",
+        "bytes": 1030835
+      },
+      {
+        "filename": "temuco_002_2011-01-01.pdf",
+        "bytes": 429365
+      },
+      {
+        "filename": "temuco_002_2012-01-01.pdf",
+        "bytes": 373381
+      },
+      {
+        "filename": "temuco_002_2014-01-01.pdf",
+        "bytes": 553870
+      },
+      {
+        "filename": "temuco_002_2015-01-01.pdf",
+        "bytes": 640776
+      },
+      {
+        "filename": "temuco_002_2016-01-01.pdf",
+        "bytes": 1275264
+      },
+      {
+        "filename": "temuco_002_2018-01-01.pdf",
+        "bytes": 2268271
+      },
+      {
+        "filename": "temuco_002_2019-01-01.pdf",
+        "bytes": 1422592
+      },
+      {
+        "filename": "temuco_002_2026-01-01.pdf",
+        "bytes": 268414
+      },
+      {
+        "filename": "temuco_003_2001-01-01.pdf",
+        "bytes": 312158
+      },
+      {
+        "filename": "temuco_003_2005-01-01.pdf",
+        "bytes": 4401562
+      },
+      {
+        "filename": "temuco_003_2006-01-01.pdf",
+        "bytes": 1748734
+      },
+      {
+        "filename": "temuco_003_2011-01-01.pdf",
+        "bytes": 540687
+      },
+      {
+        "filename": "temuco_003_2014-01-01.pdf",
+        "bytes": 2830592
+      },
+      {
+        "filename": "temuco_003_2015-01-01.pdf",
+        "bytes": 785575
+      },
+      {
+        "filename": "temuco_003_2016-01-01.pdf",
+        "bytes": 2835188
+      },
+      {
+        "filename": "temuco_003_2018-01-01.pdf",
+        "bytes": 4979967
+      },
+      {
+        "filename": "temuco_003_2026-01-01.pdf",
+        "bytes": 447327
+      },
+      {
+        "filename": "temuco_004_2009-01-01.pdf",
+        "bytes": 1548884
+      },
+      {
+        "filename": "temuco_004_2011-01-01.pdf",
+        "bytes": 326909
+      },
+      {
+        "filename": "temuco_004_2016-01-01.pdf",
+        "bytes": 963204
+      },
+      {
+        "filename": "temuco_004_2018-01-01.pdf",
+        "bytes": 4470653
+      },
+      {
+        "filename": "temuco_005_2016-01-01.pdf",
+        "bytes": 895026
+      },
+      {
+        "filename": "temuco_006_2016-01-01.pdf",
+        "bytes": 630273
+      },
+      {
+        "filename": "temuco_01_2026-01-01.pdf",
+        "bytes": 35107826
+      },
+      {
+        "filename": "temuco_07_2026-01-01.pdf",
+        "bytes": 707338
+      },
+      {
+        "filename": "temuco_1_2010-01-01.pdf",
+        "bytes": 228773
+      },
+      {
+        "filename": "temuco_1_2020-01-01.pdf",
+        "bytes": 1116653
+      },
+      {
+        "filename": "temuco_2021_0f2c_2021-01-01.pdf",
+        "bytes": 368237
+      },
+      {
+        "filename": "temuco_2021_2021-01-01.pdf",
+        "bytes": 1003817
+      },
+      {
+        "filename": "temuco_2021_2981_2021-01-01.pdf",
+        "bytes": 3660510
+      },
+      {
+        "filename": "temuco_2021_373c_2021-01-01.pdf",
+        "bytes": 6481346
+      },
+      {
+        "filename": "temuco_2021_5576_2021-01-01.pdf",
+        "bytes": 1868581
+      },
+      {
+        "filename": "temuco_2021_ca8b_2021-01-01.pdf",
+        "bytes": 6506057
+      },
+      {
+        "filename": "temuco_2022_2022-01-01.pdf",
+        "bytes": 7535423
+      },
+      {
+        "filename": "temuco_2023_2023-01-01.pdf",
+        "bytes": 4877536
+      },
+      {
+        "filename": "temuco_2024_2024-01-01.pdf",
+        "bytes": 1923678
+      },
+      {
+        "filename": "temuco_2025_2025-01-01.pdf",
+        "bytes": 2265199
+      },
+      {
+        "filename": "temuco_2_2010-01-01.pdf",
+        "bytes": 857445
+      },
+      {
+        "filename": "temuco_2_2020-01-01.pdf",
+        "bytes": 1252258
+      },
+      {
+        "filename": "temuco_2_2026-01-01.pdf",
+        "bytes": 674601
+      },
+      {
+        "filename": "temuco_2_250c_2010-01-01.pdf",
+        "bytes": 484652
+      },
+      {
+        "filename": "temuco_3_2010-01-01.pdf",
+        "bytes": 2832640
+      },
+      {
+        "filename": "temuco_4_2010-01-01.pdf",
+        "bytes": 633999
+      },
+      {
+        "filename": "temuco_5_2010-01-01.pdf",
+        "bytes": 458364
+      },
+      {
+        "filename": "temuco_doc_46867a_2011-01-01.pdf",
+        "bytes": 99167
+      },
+      {
+        "filename": "temuco_doc_554b5a_2009-05-12.pdf",
+        "bytes": 37482
+      },
+      {
+        "filename": "temuco_doc_5824db_2026-01-01.pdf",
+        "bytes": 154088
+      },
+      {
+        "filename": "temuco_s_n_058b_2025-01-01.pdf",
+        "bytes": 2639579
+      },
+      {
+        "filename": "temuco_s_n_076d_2023-01-01.pdf",
+        "bytes": 3844883
+      },
+      {
+        "filename": "temuco_s_n_0770_2026-01-01.pdf",
+        "bytes": 1513567
+      },
+      {
+        "filename": "temuco_s_n_0d09_2024-01-01.pdf",
+        "bytes": 1038279
+      },
+      {
+        "filename": "temuco_s_n_12d1_2022-01-01.pdf",
+        "bytes": 327508
+      },
+      {
+        "filename": "temuco_s_n_3354_2026-01-01.pdf",
+        "bytes": 80672
+      },
+      {
+        "filename": "temuco_s_n_42c9_2022-01-01.pdf",
+        "bytes": 1371882
+      },
+      {
+        "filename": "temuco_s_n_43d3_2022-01-01.pdf",
+        "bytes": 1089892
+      },
+      {
+        "filename": "temuco_s_n_88c6_2024-01-01.pdf",
+        "bytes": 860187
+      },
+      {
+        "filename": "temuco_s_n_994d_2024-01-01.pdf",
+        "bytes": 788719
+      },
+      {
+        "filename": "temuco_s_n_9d3b_2022-01-01.pdf",
+        "bytes": 1715478
+      },
+      {
+        "filename": "temuco_s_n_a601_2025-01-01.pdf",
+        "bytes": 1165227
+      },
+      {
+        "filename": "temuco_s_n_ab5b_2022-01-01.pdf",
+        "bytes": 560985
+      },
+      {
+        "filename": "temuco_s_n_d671_2026-01-01.pdf",
+        "bytes": 220523
+      },
+      {
+        "filename": "temuco_s_n_d837_2022-01-01.pdf",
+        "bytes": 1359406
+      },
+      {
+        "filename": "temuco_s_n_eb55_2023-01-01.pdf",
+        "bytes": 7501979
+      },
+      {
+        "filename": "temuco_s_n_ed4f_2026-01-01.pdf",
+        "bytes": 168854
+      },
+      {
+        "filename": "temuco_s_n_f4b9_2026-01-01.pdf",
+        "bytes": 262900
+      },
+      {
+        "filename": "tiltil_doc_175ec8_2021-01-01.pdf",
+        "bytes": 2952820
+      },
+      {
+        "filename": "tiltil_doc_39d920_2021-01-01.pdf",
+        "bytes": 2770839
+      },
+      {
+        "filename": "tiltil_doc_3cc225_2021-01-01.pdf",
+        "bytes": 2710803
+      },
+      {
+        "filename": "tiltil_doc_442a3c_2021-01-01.pdf",
+        "bytes": 5476327
+      },
+      {
+        "filename": "tiltil_doc_5df94c_2021-01-01.pdf",
+        "bytes": 3225632
+      },
+      {
+        "filename": "tiltil_doc_600466_2021-01-01.pdf",
+        "bytes": 1913990
+      },
+      {
+        "filename": "tiltil_doc_67a2c9_2021-01-01.pdf",
+        "bytes": 1107074
+      },
+      {
+        "filename": "tiltil_doc_7aac81_2021-01-01.pdf",
+        "bytes": 1852764
+      },
+      {
+        "filename": "tiltil_doc_8bd26c_2021-01-01.pdf",
+        "bytes": 3775557
+      },
+      {
+        "filename": "tiltil_doc_8e2493_2021-01-01.pdf",
+        "bytes": 2583783
+      },
+      {
+        "filename": "tiltil_doc_94c1e0_2021-01-01.pdf",
+        "bytes": 2256539
+      },
+      {
+        "filename": "tiltil_doc_a056ae_2026-01-01.pdf",
+        "bytes": 1204318
+      },
+      {
+        "filename": "tiltil_doc_a34efe_2021-01-01.pdf",
+        "bytes": 2294847
+      },
+      {
+        "filename": "tiltil_doc_c4f13f_2021-01-01.pdf",
+        "bytes": 4126572
+      },
+      {
+        "filename": "tiltil_doc_cd6cfe_2021-01-01.pdf",
+        "bytes": 1399535
+      },
+      {
+        "filename": "tiltil_doc_db3e9a_2025-01-01.pdf",
+        "bytes": 1370588
+      },
+      {
+        "filename": "tiltil_doc_f47b52_2021-01-01.pdf",
+        "bytes": 1334995
+      },
+      {
+        "filename": "tiltil_s_n_1993-01-06.pdf",
+        "bytes": 24578
+      },
+      {
+        "filename": "timaukel_78_2020-01-15.pdf",
+        "bytes": 23978
+      },
+      {
+        "filename": "tolt_n_315_2017-03-29.pdf",
+        "bytes": 24022
+      },
+      {
+        "filename": "tom_4_2026-01-01.pdf",
+        "bytes": 585548
+      },
+      {
+        "filename": "tom_doc_324253_2025-01-01.pdf",
+        "bytes": 1194770
+      },
+      {
+        "filename": "treguaco_doc_52f35f_2024-01-01.pdf",
+        "bytes": 11434438
+      },
+      {
+        "filename": "treguaco_doc_d1e162_2026-01-01.pdf",
+        "bytes": 13046056
+      },
+      {
+        "filename": "treguaco_s_n_a981_2026-01-01.pdf",
+        "bytes": 251297
+      },
+      {
+        "filename": "treguaco_s_n_bf03_2026-01-01.pdf",
+        "bytes": 1668439
+      },
+      {
+        "filename": "u_oa_42_2026-06-04.pdf",
+        "bytes": 175420
+      },
+      {
+        "filename": "u_oa_45_2026-06-08.pdf",
+        "bytes": 430542
+      },
+      {
+        "filename": "u_oa_51_2026-05-04.pdf",
+        "bytes": 225361
+      },
+      {
+        "filename": "valpara_so_44_2026-01-01.pdf",
+        "bytes": 463107
+      },
+      {
+        "filename": "valpara_so_45_2026-01-01.pdf",
+        "bytes": 3250801
+      },
+      {
+        "filename": "valpara_so_46_2026-01-01.pdf",
+        "bytes": 878776
+      },
+      {
+        "filename": "vi_a_del_mar_01_2026-01-01.pdf",
+        "bytes": 1061679
+      },
+      {
+        "filename": "vi_a_del_mar_13441_2024-01-01.pdf",
+        "bytes": 13915829
+      },
+      {
+        "filename": "vi_a_del_mar_15008_2025-01-01.pdf",
+        "bytes": 1500790
+      },
+      {
+        "filename": "vi_a_del_mar_2023_2023-01-01.pdf",
+        "bytes": 38313038
+      },
+      {
+        "filename": "vi_a_del_mar_4042_2026-01-01.pdf",
+        "bytes": 4205174
+      },
+      {
+        "filename": "vi_a_del_mar_7498_2026-01-01.pdf",
+        "bytes": 538499
+      },
+      {
+        "filename": "vi_a_del_mar_doc_aa66d7_2026-01-01.pdf",
+        "bytes": 77296
+      },
+      {
+        "filename": "vi_a_del_mar_doc_b5b213_2025-01-01.pdf",
+        "bytes": 712630
+      },
+      {
+        "filename": "vi_a_del_mar_s_n_0340_2026-01-01.pdf",
+        "bytes": 182024
+      },
+      {
+        "filename": "vi_a_del_mar_s_n_537b_2026-01-01.pdf",
+        "bytes": 5684023
+      },
+      {
+        "filename": "vi_a_del_mar_s_n_6a8d_2026-01-01.pdf",
+        "bytes": 11698840
+      },
+      {
+        "filename": "vi_a_del_mar_s_n_7883_2026-01-01.pdf",
+        "bytes": 1012456
+      },
+      {
+        "filename": "vi_a_del_mar_s_n_7bf0_2026-01-01.pdf",
+        "bytes": 978218
+      },
+      {
+        "filename": "vi_a_del_mar_s_n_8683_2026-01-01.pdf",
+        "bytes": 1968713
+      },
+      {
+        "filename": "vi_a_del_mar_s_n_9273_2026-01-01.pdf",
+        "bytes": 3104590
+      },
+      {
+        "filename": "vi_a_del_mar_s_n_a3d7_2026-01-01.pdf",
+        "bytes": 2022080
+      },
+      {
+        "filename": "vi_a_del_mar_s_n_a7c2_2026-01-01.pdf",
+        "bytes": 713441
+      },
+      {
+        "filename": "vi_a_del_mar_s_n_b4b1_2026-01-01.pdf",
+        "bytes": 8035332
+      },
+      {
+        "filename": "vi_a_del_mar_s_n_dc95_2026-01-01.pdf",
+        "bytes": 4812531
+      },
+      {
+        "filename": "vi_a_del_mar_s_n_e53d_2026-01-01.pdf",
+        "bytes": 1263840
+      },
+      {
+        "filename": "vichuqu_n_1_2026-01-01.pdf",
+        "bytes": 1220484
+      },
+      {
+        "filename": "vilc_n_doc_1113a9_2026-01-01.pdf",
+        "bytes": 6358354
+      },
+      {
+        "filename": "villa_alegre_doc_2e3889_2020-01-01.pdf",
+        "bytes": 178429
+      },
+      {
+        "filename": "villa_alegre_doc_67552d_2026-01-01.pdf",
+        "bytes": 406501
+      },
+      {
+        "filename": "villa_alegre_doc_ae0605_2023-01-01.pdf",
+        "bytes": 12470
+      },
+      {
+        "filename": "villarrica_10_2026-01-01.pdf",
+        "bytes": 1793237
+      },
+      {
+        "filename": "villarrica_11_2026-01-01.pdf",
+        "bytes": 7777841
+      },
+      {
+        "filename": "villarrica_12_2026-01-01.pdf",
+        "bytes": 1945401
+      },
+      {
+        "filename": "villarrica_14_2026-01-01.pdf",
+        "bytes": 3737211
+      },
+      {
+        "filename": "villarrica_15_2026-01-01.pdf",
+        "bytes": 4166898
+      },
+      {
+        "filename": "villarrica_16_2026-01-01.pdf",
+        "bytes": 3481742
+      },
+      {
+        "filename": "villarrica_17_2026-01-01.pdf",
+        "bytes": 6887214
+      },
+      {
+        "filename": "villarrica_18_2026-01-01.pdf",
+        "bytes": 3171240
+      },
+      {
+        "filename": "yungay_1040_2020-07-21.pdf",
+        "bytes": 23995
+      },
+      {
+        "filename": "zapallar_doc_585797_2022-01-01.pdf",
+        "bytes": 245278
+      },
+      {
+        "filename": "zapallar_doc_9c1498_2022-01-01.pdf",
+        "bytes": 422597
+      },
+      {
+        "filename": "zapallar_doc_e88a6e_2023-01-01.pdf",
+        "bytes": 595241
+      },
+      {
+        "filename": "zapallar_doc_f134b4_2023-01-01.pdf",
+        "bytes": 379786
       }
     ]
   },
@@ -193,7 +5283,7 @@
     "canonical_total_records": 7226,
     "bcn_records": 5881,
     "municipal_verified_remote_records": 1345,
-    "physical_local_pdfs_count": 26,
+    "physical_local_pdfs_count": 1299,
     "physical_local_text_files_count": 19,
     "territorial_communes_total": 346,
     "territorial_communes_represented": 346,
