@@ -131,6 +131,30 @@ def main() -> None:
                 if test_name in pdf_by_name:
                     matched_pdf = pdf_by_name[test_name]
 
+            doc_id = f"p090_{c_slug}_{num_slug}_{fecha}"
+            md_filename = f"{fecha}_{num_slug}.md"
+            md_path = target_folder / md_filename
+
+            if md_path.exists():
+                total_created += 1
+                content_sample = md_path.read_text(encoding="utf-8", errors="ignore")
+                has_text = "markitdown_pdf_extract" in content_sample or len(content_sample) > 800
+                if has_text:
+                    total_with_text += 1
+                manifest_records.append({
+                    "id": doc_id,
+                    "comuna": c_name,
+                    "region": reg_name,
+                    "numero": str(numero),
+                    "fecha": str(fecha),
+                    "materia": materia,
+                    "fuente": fuente,
+                    "path": str(md_path.relative_to(REPO_ROOT)).replace("\\", "/"),
+                    "sha256": sha256,
+                    "has_full_text": has_text
+                })
+                continue
+
             doc_text = ""
             extraction_method = "metadata_only"
             if matched_pdf and matched_pdf.exists():
@@ -139,10 +163,6 @@ def main() -> None:
                     doc_text = extracted
                     extraction_method = "markitdown_pdf_extract"
                     total_with_text += 1
-
-            doc_id = f"p090_{c_slug}_{num_slug}_{fecha}"
-            md_filename = f"{fecha}_{num_slug}.md"
-            md_path = target_folder / md_filename
 
             metadata = {
                 "id": doc_id,

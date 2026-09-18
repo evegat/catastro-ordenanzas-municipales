@@ -1,0 +1,12 @@
+.git
+.github
+.agents
+.venv
+__pycache__
+data/
+raw_sources/
+odd/
+*.py
+*.csv
+*.ps1
+*.ipynb

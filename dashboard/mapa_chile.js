@@ -25,20 +25,29 @@
     mascotas_animales: 'Tenencia Responsable de Mascotas',
   };
 
-  const TOPIC_ALIASES = {
-    alcoholes_comercio: 'comercio_alcoholes',
-    comercio_alcoholes: 'alcoholes_comercio',
-    tenencia_mascotas: 'mascotas_animales',
-    mascotas_animales: 'tenencia_mascotas',
+  const TOPIC_GROUPS = {
+    derechos_tarifas: ['derechos_tarifas'],
+    comercio_alcoholes: ['comercio_alcoholes', 'alcoholes_comercio', 'comercio_patentes', 'comercio_alcoholes_ferias'],
+    aseo_medioambiente: ['aseo_medioambiente', 'aseo_residuos', 'medio_ambiente'],
+    transito_transporte: ['transito_transporte'],
+    urbanismo_obras: ['urbanismo_obras', 'obras_urbanismo'],
+    seguridad_convivencia: ['seguridad_convivencia', 'convivencia_seguridad', 'convivencia_ruidos'],
+    tenencia_mascotas: ['tenencia_mascotas', 'mascotas_animales', 'mascotas'],
+    social_salud_deporte: ['social_salud_deporte', 'salud_higiene'],
+    participacion_ciudadana: ['participacion_ciudadana'],
+    administracion_interna: ['administracion_interna', 'organizacion_interna'],
+    general: ['general', 'normativa_general'],
   };
 
   function getTopicCount(item, topicFilter) {
     if (!item || !item.topics) return 0;
     if (topicFilter === 'ALL') return item.total || 0;
-    let count = item.topics[topicFilter] || 0;
-    const alias = TOPIC_ALIASES[topicFilter];
-    if (alias && item.topics[alias]) {
-      count += item.topics[alias];
+    const group = TOPIC_GROUPS[topicFilter] || [topicFilter];
+    let count = 0;
+    for (const key of group) {
+      if (item.topics[key]) {
+        count += item.topics[key];
+      }
     }
     return count;
   }

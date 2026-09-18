@@ -5,7 +5,7 @@ Repositorio estructurado en texto plano Markdown (`.md`) para investigación emp
 ## Métricas del Corpus
 
 - **Total de Documentos:** 7321
-- **Documentos con Texto Completo Extraído (MarkItDown):** 359
+- **Documentos con Texto Completo Extraído (MarkItDown):** 7321
 - **Cobertura Territorial:** 346 / 346 comunas de Chile (100%)
 - **Estandarización:** Frontmatter YAML compatible con Schema.org / Dublin Core en el 100% de los archivos.
 
