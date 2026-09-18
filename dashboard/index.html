@@ -3,7 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Catastro & Comparador de Ordenanzas Municipales de Chile | Vista Previa v3</title>
+  <title>Catastro & Comparador Nacional de Ordenanzas Municipales de Chile | Repositorio Oficial P090</title>
+  <!-- SEO & Social Meta Tags -->
+  <meta name="description" content="Primer catastro nacional consolidado de 7.321 ordenanzas municipales oficiales de Chile (346 comunas, 100% de cobertura territorial). Datos abiertos para administradores públicos, concejales y academia.">
+  <meta name="author" content="Eduardo Vega Toro - Universidad de Chile">
+  <meta name="robots" content="index, follow">
+  <!-- Open Graph / WhatsApp / LinkedIn -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ordenanzas.evegat.cl">
+  <meta property="og:title" content="Catastro Nacional de Ordenanzas Municipales de Chile (346 Comunas)">
+  <meta property="og:description" content="Encuentra, compara y descarga 7.321 ordenanzas oficiales de las 346 comunas de Chile. Verificación SHA-256 e integridad documental.">
+  <meta property="og:site_name" content="Catastro de Ordenanzas P090">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Catastro Nacional de Ordenanzas Municipales de Chile">
+  <meta name="twitter:description" content="7.321 ordenanzas oficiales en 346 comunas de Chile (100% de cobertura nacional).">
+  <!-- SVG Favicon Oficial -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2338bdf8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><polygon points='12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2'/></svg>">
   <!-- Umami Analytics (Instancia Privada MyWorld) -->
   <script defer src="https://analytics.evegat.cl/script.js" data-website-id="16c4adb8-d37b-468c-8805-1e1a26ea5590"></script>
   <!-- Tailwind CSS CDN -->
@@ -615,6 +631,26 @@
           El acceso a la base de datos nacional consolidada está disponible para <strong>estudiantes universitarios, investigadores de políticas públicas, autoridades locales y equipos municipales</strong> previa solicitud institucional.
         </p>
         
+        <!-- Descarga Abierta Inmediata (1 Clic) -->
+        <div class="p-4 rounded-xl bg-[#04142b] border-2 border-emerald-500/40 hover:border-emerald-400 transition-all flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+          <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-emerald-500/20 text-emerald-400 border border-emerald-500/40 flex items-center justify-center shrink-0">
+              <i data-lucide="file-check" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <div class="flex items-center gap-2">
+                <span class="text-xs font-bold text-white">Resumen Nacional Comunal 2026 (.CSV)</span>
+                <span class="px-2 py-0.5 rounded-full text-[10px] font-bold font-mono bg-emerald-500/20 text-emerald-300 border border-emerald-500/40">Descarga Abierta Inmediata</span>
+              </div>
+              <div class="text-[11px] text-zinc-300 mt-0.5">346 comunas completas: conteo total BCN, ordenanzas municipales verificadas y desglose de las 6 materias obligatorias por ley.</div>
+            </div>
+          </div>
+          <a href="descargas/resumen_comunal_chile_346_comunas.csv" download="resumen_comunal_chile_346_comunas.csv" class="px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold transition-colors flex items-center gap-2 shrink-0 shadow-lg shadow-emerald-900/30">
+            <i data-lucide="download" class="w-4 h-4"></i>
+            <span>Descargar CSV Directo (21 KB)</span>
+          </a>
+        </div>
+
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-2">
           <button onclick="openDownloadRequestModal('Planilla Excel (.xlsx)')" class="flex items-center gap-3 p-4 rounded-xl bg-[#04142b] border border-[#153b70] hover:border-sky-400 transition-all text-left">
             <i data-lucide="file-spreadsheet" class="w-8 h-8 text-emerald-400 shrink-0"></i>
@@ -962,7 +998,7 @@
     // ESTADO ACTIVO DEL MODAL COMUNAL
     let currentModalComuna = null;
 
-    function showComunaModal(comunaName) {
+    window.showComunaModal = function(comunaName) {
       if (!globalStatusData) return;
       const c = globalStatusData.comunas.find(x => x.comuna === comunaName);
       if (!c) return;

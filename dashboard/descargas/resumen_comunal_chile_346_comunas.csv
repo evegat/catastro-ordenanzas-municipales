@@ -1,0 +1,347 @@
+﻿comuna,region_id,region_nombre,total_ordenanzas,bcn_count,municipal_count,derechos_tarifas,aseo_medioambiente,tenencia_mascotas,participacion_ciudadana,comercio_alcoholes,seguridad_convivencia,cobertura
+Alto Hospicio,01,Tarapacá,29,15,14,3,5,0,0,4,1,100% Verificado
+Camiña,01,Tarapacá,3,1,2,3,0,0,0,0,0,100% Verificado
+Colchane,01,Tarapacá,4,4,0,0,2,0,0,0,0,100% Verificado
+Huara,01,Tarapacá,11,1,10,2,0,1,0,0,1,100% Verificado
+Iquique,01,Tarapacá,85,72,13,16,2,2,0,13,1,100% Verificado
+Pica,01,Tarapacá,8,8,0,6,0,0,0,0,0,100% Verificado
+Pozo Almonte,01,Tarapacá,7,7,0,3,0,0,0,0,0,100% Verificado
+Antofagasta,02,Antofagasta,55,45,10,9,4,1,0,11,1,100% Verificado
+Calama,02,Antofagasta,45,39,6,17,1,1,0,4,0,100% Verificado
+María Elena,02,Antofagasta,16,11,5,4,1,0,0,1,1,100% Verificado
+Mejillones,02,Antofagasta,16,14,2,4,1,2,0,0,1,100% Verificado
+Ollagüe,02,Antofagasta,21,9,12,2,2,0,0,2,0,100% Verificado
+San Pedro de Atacama,02,Antofagasta,37,36,1,16,1,1,0,8,0,100% Verificado
+Sierra Gorda,02,Antofagasta,12,12,0,3,0,0,0,1,0,100% Verificado
+Taltal,02,Antofagasta,7,6,1,3,0,0,0,2,1,100% Verificado
+Tocopilla,02,Antofagasta,15,15,0,7,1,0,0,2,1,100% Verificado
+Alto del Carmen,03,Atacama,13,7,6,3,1,1,0,1,0,100% Verificado
+Caldera,03,Atacama,20,20,0,5,2,0,0,1,0,100% Verificado
+Chañaral,03,Atacama,6,5,1,3,0,0,0,1,0,100% Verificado
+Copiapó,03,Atacama,16,16,0,9,0,0,0,1,0,100% Verificado
+Diego de Almagro,03,Atacama,14,13,1,6,1,0,0,4,1,100% Verificado
+Freirina,03,Atacama,5,2,3,3,0,0,0,0,0,100% Verificado
+Huasco,03,Atacama,16,13,3,3,6,2,0,1,0,100% Verificado
+Tierra Amarilla,03,Atacama,7,7,0,3,1,1,0,0,1,100% Verificado
+Vallenar,03,Atacama,51,51,0,24,3,0,0,3,0,100% Verificado
+Andacollo,04,Coquimbo,6,6,0,1,0,0,0,0,1,100% Verificado
+Canela,04,Coquimbo,9,8,1,2,0,1,0,1,0,100% Verificado
+Combarbalá,04,Coquimbo,8,8,0,4,0,0,0,0,0,100% Verificado
+Coquimbo,04,Coquimbo,14,14,0,3,1,0,0,4,0,100% Verificado
+Illapel,04,Coquimbo,25,23,2,14,0,1,0,2,0,100% Verificado
+La Higuera,04,Coquimbo,7,2,5,2,1,0,0,0,0,100% Verificado
+La Serena,04,Coquimbo,72,72,0,17,2,1,0,10,2,100% Verificado
+Los Vilos,04,Coquimbo,10,10,0,3,0,0,0,0,0,100% Verificado
+Monte Patria,04,Coquimbo,13,13,0,4,1,0,0,4,0,100% Verificado
+Ovalle,04,Coquimbo,59,59,0,23,4,2,0,3,1,100% Verificado
+Paiguano,04,Coquimbo,3,1,2,1,0,0,0,0,0,100% Verificado
+Punitaqui,04,Coquimbo,4,2,2,1,2,0,0,0,0,100% Verificado
+Río Hurtado,04,Coquimbo,25,11,14,11,1,0,0,0,0,100% Verificado
+Salamanca,04,Coquimbo,15,15,0,0,3,0,0,0,0,100% Verificado
+Vicuña,04,Coquimbo,14,14,0,0,0,0,0,2,1,100% Verificado
+Algarrobo,05,Valparaíso,18,17,1,9,1,0,0,0,3,100% Verificado
+Cabildo,05,Valparaíso,30,7,23,6,1,2,0,3,1,100% Verificado
+Calera,05,Valparaíso,33,33,0,14,2,0,0,3,1,100% Verificado
+Calle Larga,05,Valparaíso,8,8,0,5,0,1,0,0,0,100% Verificado
+Cartagena,05,Valparaíso,11,11,0,8,0,0,0,0,0,100% Verificado
+Casablanca,05,Valparaíso,6,3,3,3,1,0,0,0,0,100% Verificado
+Catemu,05,Valparaíso,18,16,2,5,1,1,0,1,1,100% Verificado
+Concón,05,Valparaíso,11,4,7,0,2,2,0,2,0,100% Verificado
+El Quisco,05,Valparaíso,52,13,39,8,1,1,0,6,0,100% Verificado
+El Tabo,05,Valparaíso,5,5,0,2,0,0,0,1,0,100% Verificado
+Hijuelas,05,Valparaíso,17,6,11,5,2,0,0,3,0,100% Verificado
+Isla de Pascua,05,Valparaíso,14,14,0,1,2,1,0,3,0,100% Verificado
+Juan Fernández,05,Valparaíso,4,4,0,1,0,0,0,0,0,100% Verificado
+La Cruz,05,Valparaíso,35,22,13,13,3,2,0,1,0,100% Verificado
+La Ligua,05,Valparaíso,10,10,0,6,0,0,0,0,1,100% Verificado
+Limache,05,Valparaíso,14,10,4,4,2,0,0,0,0,100% Verificado
+Llaillay,05,Valparaíso,16,15,1,12,0,0,0,1,0,100% Verificado
+Los Andes,05,Valparaíso,41,41,0,12,0,1,0,4,0,100% Verificado
+Nogales,05,Valparaíso,13,13,0,4,0,2,0,0,2,100% Verificado
+Olmué,05,Valparaíso,11,10,1,9,0,0,0,0,0,100% Verificado
+Panquehue,05,Valparaíso,24,24,0,9,6,0,0,2,0,100% Verificado
+Papudo,05,Valparaíso,7,7,0,3,2,0,0,0,0,100% Verificado
+Petorca,05,Valparaíso,17,16,1,11,1,0,0,3,0,100% Verificado
+Puchuncaví,05,Valparaíso,23,6,17,3,17,0,0,1,0,100% Verificado
+Putaendo,05,Valparaíso,14,11,3,7,0,0,0,1,1,100% Verificado
+Quillota,05,Valparaíso,52,37,15,16,4,2,0,4,1,100% Verificado
+Quilpué,05,Valparaíso,39,39,0,14,1,0,0,2,0,100% Verificado
+Quintero,05,Valparaíso,12,12,0,1,0,0,0,3,1,100% Verificado
+Rinconada,05,Valparaíso,7,6,1,5,0,1,0,0,0,100% Verificado
+San Antonio,05,Valparaíso,20,19,1,7,1,0,0,1,0,100% Verificado
+San Esteban,05,Valparaíso,10,10,0,6,1,0,0,0,0,100% Verificado
+San Felipe,05,Valparaíso,46,45,1,23,3,0,0,4,1,100% Verificado
+Santa María,05,Valparaíso,20,20,0,4,1,0,0,1,0,100% Verificado
+Santo Domingo,05,Valparaíso,25,10,15,4,3,1,0,2,0,100% Verificado
+Valparaíso,05,Valparaíso,29,26,3,19,1,0,0,2,0,100% Verificado
+Villa Alemana,05,Valparaíso,58,58,0,28,2,1,0,2,0,100% Verificado
+Viña del Mar,05,Valparaíso,49,29,20,16,4,1,0,10,0,100% Verificado
+Zapallar,05,Valparaíso,37,23,14,12,3,0,0,3,1,100% Verificado
+Chimbarongo,06,O Higgins,47,23,24,17,2,1,0,3,3,100% Verificado
+Chépica,06,O Higgins,9,9,0,5,0,0,0,0,0,100% Verificado
+Codegua,06,O Higgins,8,8,0,5,0,0,0,0,0,100% Verificado
+Coinco,06,O Higgins,13,12,1,8,0,1,0,2,0,100% Verificado
+Coltauco,06,O Higgins,9,7,2,4,0,0,0,0,0,100% Verificado
+Doñihue,06,O Higgins,17,16,1,5,1,0,0,1,0,100% Verificado
+Graneros,06,O Higgins,11,11,0,6,0,0,0,1,0,100% Verificado
+La Estrella,06,O Higgins,16,10,6,8,1,1,0,1,0,100% Verificado
+Las Cabras,06,O Higgins,38,27,11,20,3,0,0,0,0,100% Verificado
+Litueche,06,O Higgins,18,16,2,15,2,0,0,0,0,100% Verificado
+Lolol,06,O Higgins,12,9,3,7,3,0,0,0,0,100% Verificado
+Machalí,06,O Higgins,40,40,0,13,1,0,0,0,1,100% Verificado
+Malloa,06,O Higgins,22,14,8,12,0,2,0,1,0,100% Verificado
+Marchihue,06,O Higgins,28,0,28,0,0,0,0,0,0,100% Verificado
+Mostazal,06,O Higgins,14,14,0,4,0,0,0,0,0,100% Verificado
+Nancagua,06,O Higgins,12,11,1,6,0,0,0,1,0,100% Verificado
+Navidad,06,O Higgins,37,22,15,18,2,1,0,4,0,100% Verificado
+Olivar,06,O Higgins,11,10,1,9,0,0,0,0,0,100% Verificado
+Palmilla,06,O Higgins,12,8,4,3,1,0,0,0,1,100% Verificado
+Paredones,06,O Higgins,31,7,24,3,1,0,0,0,0,100% Verificado
+Peralillo,06,O Higgins,7,6,1,2,2,0,0,1,0,100% Verificado
+Peumo,06,O Higgins,6,5,1,4,0,0,0,0,0,100% Verificado
+Pichidegua,06,O Higgins,11,10,1,4,0,0,0,0,0,100% Verificado
+Pichilemu,06,O Higgins,16,15,1,5,0,1,0,2,0,100% Verificado
+Placilla,06,O Higgins,11,10,1,9,0,0,0,0,0,100% Verificado
+Pumanque,06,O Higgins,2,1,1,2,0,0,0,0,0,100% Verificado
+Quinta de Tilcoco,06,O Higgins,9,8,1,5,1,0,0,0,0,100% Verificado
+Rancagua,06,O Higgins,95,95,0,33,7,2,0,13,7,100% Verificado
+Rengo,06,O Higgins,29,29,0,16,3,0,0,3,1,100% Verificado
+Requínoa,06,O Higgins,26,11,15,9,0,0,0,0,0,100% Verificado
+San Fernando,06,O Higgins,34,34,0,13,3,0,0,2,1,100% Verificado
+San Vicente,06,O Higgins,18,18,0,9,1,0,0,0,1,100% Verificado
+Santa Cruz,06,O Higgins,13,13,0,6,1,0,0,1,0,100% Verificado
+Cauquenes,07,Maule,16,14,2,8,2,0,0,0,0,100% Verificado
+Chanco,07,Maule,9,8,1,8,0,0,0,0,0,100% Verificado
+Colbún,07,Maule,21,6,15,1,0,2,0,0,0,100% Verificado
+Constitución,07,Maule,15,14,1,5,0,1,0,2,1,100% Verificado
+Curepto,07,Maule,8,8,0,6,1,0,0,0,0,100% Verificado
+Curicó,07,Maule,22,22,0,15,0,0,0,0,0,100% Verificado
+Empedrado,07,Maule,12,3,9,1,1,1,0,1,0,100% Verificado
+Hualañé,07,Maule,35,13,22,7,0,0,0,1,0,100% Verificado
+Licantén,07,Maule,15,15,0,12,0,0,0,1,0,100% Verificado
+Linares,07,Maule,29,21,8,13,0,0,0,4,0,100% Verificado
+Longaví,07,Maule,6,5,1,3,0,0,0,0,1,100% Verificado
+Maule,07,Maule,6,4,2,4,0,0,0,0,0,100% Verificado
+Molina,07,Maule,16,16,0,7,0,0,0,1,1,100% Verificado
+Parral,07,Maule,24,18,6,15,0,0,0,1,0,100% Verificado
+Pelarco,07,Maule,14,14,0,6,1,1,0,1,0,100% Verificado
+Pelluhue,07,Maule,5,3,2,2,1,0,0,0,1,100% Verificado
+Pencahue,07,Maule,3,0,3,0,0,0,0,0,0,100% Verificado
+Rauco,07,Maule,16,16,0,5,2,0,0,1,0,100% Verificado
+Retiro,07,Maule,17,9,8,8,2,1,0,3,0,100% Verificado
+Romeral,07,Maule,29,13,16,5,2,0,0,0,0,100% Verificado
+Río Claro,07,Maule,17,15,2,9,1,2,0,1,0,100% Verificado
+Sagrada Familia,07,Maule,13,12,1,10,0,0,0,0,0,100% Verificado
+San Clemente,07,Maule,20,7,13,11,1,0,0,1,0,100% Verificado
+San Javier,07,Maule,10,7,3,4,1,0,0,0,0,100% Verificado
+San Rafael,07,Maule,5,2,3,0,0,0,0,1,0,100% Verificado
+Talca,07,Maule,40,40,0,17,2,0,0,2,2,100% Verificado
+Teno,07,Maule,8,8,0,5,0,0,0,0,0,100% Verificado
+Vichuquén,07,Maule,8,7,1,5,2,0,0,0,0,100% Verificado
+Villa Alegre,07,Maule,6,3,3,3,0,0,0,0,0,100% Verificado
+Yerbas Buenas,07,Maule,7,7,0,4,0,0,0,1,0,100% Verificado
+Alto Biobío,08,Biobío,8,0,8,3,2,0,0,0,0,100% Verificado
+Antuco,08,Biobío,4,4,0,4,0,0,0,0,0,100% Verificado
+Arauco,08,Biobío,34,33,1,12,3,1,0,5,3,100% Verificado
+Cabrero,08,Biobío,10,9,1,5,0,0,0,1,1,100% Verificado
+Cañete,08,Biobío,6,6,0,2,0,0,0,0,0,100% Verificado
+Chiguayante,08,Biobío,4,3,1,0,0,0,0,1,1,100% Verificado
+Concepción,08,Biobío,60,59,1,21,0,0,0,11,1,100% Verificado
+Contulmo,08,Biobío,8,7,1,4,1,0,0,0,0,100% Verificado
+Coronel,08,Biobío,29,29,0,16,0,0,0,2,0,100% Verificado
+Curanilahue,08,Biobío,23,23,0,8,1,0,0,3,0,100% Verificado
+Florida,08,Biobío,62,60,2,22,1,1,0,21,2,100% Verificado
+Hualpén,08,Biobío,45,0,45,4,5,1,0,5,1,100% Verificado
+Hualqui,08,Biobío,16,15,1,13,0,0,0,0,0,100% Verificado
+Laja,08,Biobío,14,13,1,7,0,1,0,1,0,100% Verificado
+Lebu,08,Biobío,5,5,0,5,0,0,0,0,0,100% Verificado
+Los Álamos,08,Biobío,13,13,0,3,0,0,0,3,1,100% Verificado
+Los Ángeles,08,Biobío,19,18,1,3,1,2,0,0,1,100% Verificado
+Lota,08,Biobío,38,38,0,21,1,1,0,7,0,100% Verificado
+Mulchén,08,Biobío,21,19,2,10,3,0,1,2,0,100% Verificado
+Nacimiento,08,Biobío,9,8,1,4,1,0,0,1,0,100% Verificado
+Negrete,08,Biobío,11,10,1,5,1,0,0,1,0,100% Verificado
+Penco,08,Biobío,6,5,1,5,0,1,0,0,0,100% Verificado
+Quilaco,08,Biobío,4,4,0,3,0,0,0,0,0,100% Verificado
+Quilleco,08,Biobío,4,3,1,3,0,0,0,0,0,100% Verificado
+San Pedro de la Paz,08,Biobío,5,5,0,0,0,1,0,0,1,100% Verificado
+San Rosendo,08,Biobío,4,3,1,2,1,0,0,0,0,100% Verificado
+Santa Bárbara,08,Biobío,8,8,0,6,0,0,0,1,0,100% Verificado
+Santa Juana,08,Biobío,6,5,1,2,0,0,0,0,1,100% Verificado
+Talcahuano,08,Biobío,26,26,0,11,1,0,0,4,1,100% Verificado
+Tirúa,08,Biobío,4,4,0,3,0,0,0,0,0,100% Verificado
+Tomé,08,Biobío,14,11,3,3,2,0,0,2,0,100% Verificado
+Tucapel,08,Biobío,20,20,0,5,2,0,0,0,0,100% Verificado
+Yumbel,08,Biobío,9,9,0,2,0,0,0,0,0,100% Verificado
+Angol,09,La Araucanía,12,11,1,3,0,0,0,4,0,100% Verificado
+Carahue,09,La Araucanía,13,9,4,7,0,1,0,0,1,100% Verificado
+Cholchol,09,La Araucanía,2,0,2,0,2,0,0,0,0,100% Verificado
+Collipulli,09,La Araucanía,19,13,6,6,0,1,0,1,0,100% Verificado
+Cunco,09,La Araucanía,5,3,2,5,0,0,0,0,0,100% Verificado
+Curacautín,09,La Araucanía,9,8,1,9,0,0,0,0,0,100% Verificado
+Curarrehue,09,La Araucanía,32,8,24,2,2,1,0,4,0,100% Verificado
+Ercilla,09,La Araucanía,11,11,0,10,0,0,0,0,0,100% Verificado
+Freire,09,La Araucanía,10,10,0,4,1,0,0,1,0,100% Verificado
+Galvarino,09,La Araucanía,17,17,0,15,0,0,0,0,0,100% Verificado
+Gorbea,09,La Araucanía,28,28,0,17,2,0,0,0,0,100% Verificado
+Lautaro,09,La Araucanía,22,22,0,17,1,0,0,1,0,100% Verificado
+Loncoche,09,La Araucanía,12,10,2,10,0,0,0,0,0,100% Verificado
+Lonquimay,09,La Araucanía,10,10,0,5,0,0,0,0,1,100% Verificado
+Los Sauces,09,La Araucanía,12,12,0,7,0,0,0,2,0,100% Verificado
+Lumaco,09,La Araucanía,13,13,0,10,0,0,0,0,0,100% Verificado
+Melipeuco,09,La Araucanía,8,8,0,6,0,0,0,0,0,100% Verificado
+Nueva Imperial,09,La Araucanía,3,1,2,3,0,0,0,0,0,100% Verificado
+Padre Las Casas,09,La Araucanía,8,8,0,0,1,0,0,3,0,100% Verificado
+Perquenco,09,La Araucanía,29,8,21,10,0,1,0,2,0,100% Verificado
+Pitrufquén,09,La Araucanía,9,8,1,7,0,1,0,0,0,100% Verificado
+Pucón,09,La Araucanía,9,9,0,4,1,0,0,1,0,100% Verificado
+Purén,09,La Araucanía,9,8,1,5,0,0,0,1,0,100% Verificado
+Renaico,09,La Araucanía,8,8,0,8,0,0,0,0,0,100% Verificado
+Saavedra,09,La Araucanía,10,5,5,1,2,1,0,0,0,100% Verificado
+Temuco,09,La Araucanía,107,23,84,9,1,1,0,2,2,100% Verificado
+Teodoro Schmidt,09,La Araucanía,15,15,0,8,1,0,0,0,0,100% Verificado
+Toltén,09,La Araucanía,9,8,1,4,0,0,0,0,0,100% Verificado
+Traiguén,09,La Araucanía,29,29,0,13,0,2,0,0,0,100% Verificado
+Victoria,09,La Araucanía,7,7,0,3,0,0,0,0,0,100% Verificado
+Vilcún,09,La Araucanía,9,8,1,5,1,0,0,0,0,100% Verificado
+Villarrica,09,La Araucanía,16,8,8,3,0,0,0,0,0,100% Verificado
+Ancud,10,Los Lagos,9,9,0,2,0,1,0,0,0,100% Verificado
+Calbuco,10,Los Lagos,76,16,60,4,5,0,0,2,1,100% Verificado
+Castro,10,Los Lagos,9,9,0,3,2,0,0,2,0,100% Verificado
+Chaitén,10,Los Lagos,3,1,2,1,1,0,0,0,0,100% Verificado
+Chonchi,10,Los Lagos,21,6,15,4,1,1,0,2,0,100% Verificado
+Cochamó,10,Los Lagos,7,7,0,1,2,0,0,0,0,100% Verificado
+Curaco de Vélez,10,Los Lagos,14,14,0,6,0,0,0,1,0,100% Verificado
+Dalcahue,10,Los Lagos,44,2,42,3,2,0,0,6,0,100% Verificado
+Fresia,10,Los Lagos,10,10,0,5,0,0,0,2,1,100% Verificado
+Frutillar,10,Los Lagos,7,5,2,1,1,1,0,0,0,100% Verificado
+Futaleufú,10,Los Lagos,6,3,3,2,1,0,0,1,0,100% Verificado
+Hualaihué,10,Los Lagos,12,8,4,2,1,0,0,3,0,100% Verificado
+Llanquihue,10,Los Lagos,13,11,2,10,1,1,0,0,0,100% Verificado
+Los Muermos,10,Los Lagos,7,7,0,3,0,0,0,0,0,100% Verificado
+Maullín,10,Los Lagos,21,14,7,6,2,0,0,1,0,100% Verificado
+Osorno,10,Los Lagos,43,43,0,20,1,1,0,7,0,100% Verificado
+Palena,10,Los Lagos,4,3,1,3,1,0,0,0,0,100% Verificado
+Puerto Montt,10,Los Lagos,32,28,4,11,1,1,0,3,0,100% Verificado
+Puerto Octay,10,Los Lagos,4,3,1,1,2,0,0,0,0,100% Verificado
+Puerto Varas,10,Los Lagos,6,6,0,2,0,0,0,1,0,100% Verificado
+Puqueldón,10,Los Lagos,4,1,3,1,1,0,0,0,0,100% Verificado
+Purranque,10,Los Lagos,17,11,6,5,2,0,0,1,0,100% Verificado
+Puyehue,10,Los Lagos,4,3,1,3,0,0,0,0,0,100% Verificado
+Queilén,10,Los Lagos,23,8,15,7,3,1,0,1,0,100% Verificado
+Quellón,10,Los Lagos,18,7,11,6,1,1,0,2,0,100% Verificado
+Quemchi,10,Los Lagos,5,5,0,4,0,0,0,0,0,100% Verificado
+Quinchao,10,Los Lagos,10,10,0,0,1,0,0,1,0,100% Verificado
+Río Negro,10,Los Lagos,6,5,1,5,1,0,0,0,0,100% Verificado
+San Juan de la Costa,10,Los Lagos,4,3,1,2,0,1,0,0,0,100% Verificado
+San Pablo,10,Los Lagos,17,15,2,13,0,0,0,0,1,100% Verificado
+Aysén,11,Aysén,20,3,17,3,2,0,0,1,0,100% Verificado
+Chile Chico,11,Aysén,9,9,0,4,0,1,0,1,1,100% Verificado
+Cisnes,11,Aysén,5,4,1,4,0,0,0,0,0,100% Verificado
+Cochrane,11,Aysén,4,4,0,2,0,0,0,1,0,100% Verificado
+Coyhaique,11,Aysén,31,31,0,14,2,0,0,2,0,100% Verificado
+Guaitecas,11,Aysén,7,6,1,4,0,0,0,0,0,100% Verificado
+Lago Verde,11,Aysén,5,4,1,4,0,0,0,0,0,100% Verificado
+O Higgins,11,Aysén,4,0,4,1,1,0,0,0,1,100% Verificado
+Río Ibáñez,11,Aysén,7,6,1,3,0,0,0,1,0,100% Verificado
+Tortel,11,Aysén,9,7,2,1,0,1,0,0,0,100% Verificado
+Antártica,12,Magallanes,1,0,1,1,0,0,0,0,0,100% Verificado
+Cabo de Hornos,12,Magallanes,11,7,4,6,1,1,0,0,0,100% Verificado
+Laguna Blanca,12,Magallanes,4,2,2,3,0,0,0,0,0,100% Verificado
+Natales,12,Magallanes,12,12,0,2,1,1,0,0,0,100% Verificado
+Porvenir,12,Magallanes,7,3,4,3,0,0,0,0,0,100% Verificado
+Primavera,12,Magallanes,6,5,1,2,0,0,0,0,0,100% Verificado
+Punta Arenas,12,Magallanes,40,39,1,12,0,1,0,7,2,100% Verificado
+Río Verde,12,Magallanes,5,4,1,1,0,0,0,0,0,100% Verificado
+San Gregorio,12,Magallanes,10,1,9,2,0,1,0,0,0,100% Verificado
+Timaukel,12,Magallanes,2,1,1,1,0,0,0,0,0,100% Verificado
+Torres del Paine,12,Magallanes,7,7,0,4,0,0,0,0,0,100% Verificado
+Alhué,13,Metropolitana de Santiago,5,3,2,1,1,0,0,1,0,100% Verificado
+Buin,13,Metropolitana de Santiago,83,23,60,26,5,1,0,4,0,100% Verificado
+Calera de Tango,13,Metropolitana de Santiago,17,17,0,12,3,0,0,0,0,100% Verificado
+Cerrillos,13,Metropolitana de Santiago,50,44,6,10,3,1,0,1,0,100% Verificado
+Cerro Navia,13,Metropolitana de Santiago,23,21,2,11,0,0,0,4,0,100% Verificado
+Colina,13,Metropolitana de Santiago,46,41,5,19,2,0,0,3,2,100% Verificado
+Conchalí,13,Metropolitana de Santiago,56,56,0,39,1,0,0,2,0,100% Verificado
+Curacaví,13,Metropolitana de Santiago,27,18,9,11,2,0,0,3,1,100% Verificado
+El Bosque,13,Metropolitana de Santiago,13,13,0,6,3,0,0,1,0,100% Verificado
+El Monte,13,Metropolitana de Santiago,23,23,0,19,0,0,0,2,0,100% Verificado
+Estación Central,13,Metropolitana de Santiago,18,18,0,14,0,0,0,2,0,100% Verificado
+Huechuraba,13,Metropolitana de Santiago,8,8,0,5,0,0,0,1,0,100% Verificado
+Independencia,13,Metropolitana de Santiago,28,27,1,6,10,0,0,1,1,100% Verificado
+Isla de Maipo,13,Metropolitana de Santiago,20,20,0,11,1,0,0,1,0,100% Verificado
+La Cisterna,13,Metropolitana de Santiago,8,8,0,6,0,0,0,0,0,100% Verificado
+La Florida,13,Metropolitana de Santiago,88,74,14,25,3,1,0,18,2,100% Verificado
+La Granja,13,Metropolitana de Santiago,86,67,19,38,2,2,0,11,1,100% Verificado
+La Pintana,13,Metropolitana de Santiago,23,22,1,8,1,1,0,0,1,100% Verificado
+La Reina,13,Metropolitana de Santiago,64,63,1,42,5,0,0,2,0,100% Verificado
+Lampa,13,Metropolitana de Santiago,28,28,0,12,2,0,0,4,0,100% Verificado
+Las Condes,13,Metropolitana de Santiago,124,107,17,46,1,2,0,9,6,100% Verificado
+Lo Barnechea,13,Metropolitana de Santiago,21,21,0,7,0,0,0,5,0,100% Verificado
+Lo Espejo,13,Metropolitana de Santiago,16,16,0,9,1,0,0,1,0,100% Verificado
+Lo Prado,13,Metropolitana de Santiago,78,78,0,39,1,1,0,3,1,100% Verificado
+Macul,13,Metropolitana de Santiago,62,47,15,23,2,0,0,4,1,100% Verificado
+Maipú,13,Metropolitana de Santiago,66,29,37,26,4,1,0,10,1,100% Verificado
+María Pinto,13,Metropolitana de Santiago,11,9,2,5,1,0,0,0,1,100% Verificado
+Melipilla,13,Metropolitana de Santiago,31,30,1,17,2,1,0,1,1,100% Verificado
+Padre Hurtado,13,Metropolitana de Santiago,14,14,0,8,0,0,0,1,0,100% Verificado
+Paine,13,Metropolitana de Santiago,22,16,6,12,2,1,0,1,0,100% Verificado
+Pedro Aguirre Cerda,13,Metropolitana de Santiago,15,15,0,8,1,0,0,0,0,100% Verificado
+Peñaflor,13,Metropolitana de Santiago,32,25,7,16,2,0,0,0,0,100% Verificado
+Peñalolén,13,Metropolitana de Santiago,73,72,1,21,3,2,0,16,5,100% Verificado
+Pirque,13,Metropolitana de Santiago,41,41,0,17,1,2,0,0,0,100% Verificado
+Providencia,13,Metropolitana de Santiago,286,284,2,102,13,0,0,27,5,100% Verificado
+Pudahuel,13,Metropolitana de Santiago,34,33,1,26,1,0,0,0,0,100% Verificado
+Puente Alto,13,Metropolitana de Santiago,38,36,2,17,0,0,0,5,1,100% Verificado
+Quilicura,13,Metropolitana de Santiago,19,19,0,9,1,0,0,5,0,100% Verificado
+Quinta Normal,13,Metropolitana de Santiago,25,25,0,16,1,1,0,0,0,100% Verificado
+Recoleta,13,Metropolitana de Santiago,47,47,0,21,0,0,0,15,1,100% Verificado
+Renca,13,Metropolitana de Santiago,30,29,1,17,0,0,0,0,0,100% Verificado
+San Bernardo,13,Metropolitana de Santiago,102,87,15,27,4,2,0,14,1,100% Verificado
+San Joaquín,13,Metropolitana de Santiago,15,15,0,8,1,0,0,2,1,100% Verificado
+San José de Maipo,13,Metropolitana de Santiago,18,18,0,9,1,0,0,1,0,100% Verificado
+San Miguel,13,Metropolitana de Santiago,27,27,0,14,0,0,0,2,1,100% Verificado
+San Pedro,13,Metropolitana de Santiago,50,50,0,22,2,2,0,8,1,100% Verificado
+San Ramón,13,Metropolitana de Santiago,23,21,2,16,0,0,0,2,0,100% Verificado
+Santiago,13,Metropolitana de Santiago,142,140,2,26,7,0,0,29,1,100% Verificado
+Talagante,13,Metropolitana de Santiago,38,37,1,11,3,0,0,2,2,100% Verificado
+Tiltil,13,Metropolitana de Santiago,19,0,19,2,4,0,0,2,4,100% Verificado
+Vitacura,13,Metropolitana de Santiago,59,59,0,32,5,0,0,1,3,100% Verificado
+Ñuñoa,13,Metropolitana de Santiago,59,56,3,22,2,1,0,11,1,100% Verificado
+Corral,14,Los Ríos,4,4,0,2,0,0,0,1,0,100% Verificado
+Futrono,14,Los Ríos,7,7,0,2,0,0,0,0,0,100% Verificado
+La Unión,14,Los Ríos,7,7,0,4,1,0,0,0,0,100% Verificado
+Lago Ranco,14,Los Ríos,7,7,0,4,1,0,0,0,0,100% Verificado
+Lanco,14,Los Ríos,6,0,6,1,1,0,0,1,0,100% Verificado
+Los Lagos,14,Los Ríos,17,11,6,9,2,1,0,1,0,100% Verificado
+Mariquina,14,Los Ríos,6,2,4,1,1,0,0,0,0,100% Verificado
+Máfil,14,Los Ríos,4,3,1,0,2,0,0,0,0,100% Verificado
+Paillaco,14,Los Ríos,20,6,14,4,3,1,0,3,1,100% Verificado
+Panguipulli,14,Los Ríos,15,15,0,3,0,0,0,2,0,100% Verificado
+Río Bueno,14,Los Ríos,17,16,1,5,0,1,0,3,0,100% Verificado
+Valdivia,14,Los Ríos,24,24,0,12,2,0,0,1,0,100% Verificado
+Arica,15,Arica y Parinacota,39,36,3,15,0,1,0,4,0,100% Verificado
+Camarones,15,Arica y Parinacota,8,7,1,4,0,0,0,0,0,100% Verificado
+General Lagos,15,Arica y Parinacota,4,4,0,2,0,0,0,1,0,100% Verificado
+Putre,15,Arica y Parinacota,4,3,1,2,0,0,1,0,0,100% Verificado
+Bulnes,16,Ñuble,8,7,1,6,0,0,0,0,0,100% Verificado
+Chillán,16,Ñuble,21,21,0,18,1,0,0,0,0,100% Verificado
+Chillán Viejo,16,Ñuble,4,2,2,2,0,0,0,0,1,100% Verificado
+Cobquecura,16,Ñuble,12,2,10,1,1,0,0,0,0,100% Verificado
+Coelemu,16,Ñuble,6,6,0,3,0,0,0,2,0,100% Verificado
+Coihueco,16,Ñuble,28,24,4,15,1,0,0,3,0,100% Verificado
+El Carmen,16,Ñuble,22,7,15,5,1,0,0,1,1,100% Verificado
+Ninhue,16,Ñuble,4,3,1,3,0,0,0,0,0,100% Verificado
+Pemuco,16,Ñuble,5,4,1,1,0,0,0,0,0,100% Verificado
+Pinto,16,Ñuble,14,9,5,2,2,0,0,0,0,100% Verificado
+Portezuelo,16,Ñuble,9,6,3,4,0,0,0,0,0,100% Verificado
+Quillón,16,Ñuble,22,19,3,8,1,1,0,1,0,100% Verificado
+Quirihue,16,Ñuble,9,7,2,3,1,0,1,0,0,100% Verificado
+Ránquil,16,Ñuble,7,6,1,4,1,0,0,0,0,100% Verificado
+San Carlos,16,Ñuble,15,15,0,5,1,0,0,1,0,100% Verificado
+San Fabián,16,Ñuble,4,4,0,3,0,0,0,0,0,100% Verificado
+San Ignacio,16,Ñuble,17,16,1,8,1,1,0,2,0,100% Verificado
+San Nicolás,16,Ñuble,37,5,32,3,0,0,0,0,0,100% Verificado
+Treguaco,16,Ñuble,7,3,4,0,1,0,0,0,0,100% Verificado
+Yungay,16,Ñuble,11,10,1,9,0,0,0,0,0,100% Verificado
+Ñiquén,16,Ñuble,3,1,2,1,0,0,0,0,0,100% Verificado

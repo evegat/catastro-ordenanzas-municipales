@@ -126,7 +126,12 @@
   - Convivencia / Seguridad: ${tieneSeguridad ? '✅ Detectada' : '⚠️ No registrada aún'}
 ${detalleNormas}
 
-*Puedes revisar el expediente íntegro en la pestaña "Ficha por Comuna" buscando "${comunaMatch.comuna}".*
+<div class="pt-2">
+  <button onclick="window.showComunaModal('${comunaMatch.comuna}')" class="w-full px-3 py-1.5 rounded-lg bg-sky-600 hover:bg-sky-500 text-white font-semibold text-xs transition-colors flex items-center justify-center gap-1.5 shadow-sm">
+    <span>Abrir Expediente de ${comunaMatch.comuna}</span>
+    <span>↗</span>
+  </button>
+</div>
       `;
     }
 
