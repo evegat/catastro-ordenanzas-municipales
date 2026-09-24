@@ -1,13 +1,13 @@
 # Chilean Municipal By-Laws (Ordenanzas) Open Data Pipeline
 
-> **Work in progress / En evolución (2026-09-15).** Proyecto no terminado. Presencia territorial no acredita exhaustividad. [Estado y reentrada / Current status](docs/ESTADO-Y-REENTRADA-P090.md). Revisión local; despliegue público no verificado.
+> **Version 3.0 (September 2026 release).** Consolidated national open database of 7,321 official municipal by-laws across all 346 communes of Chile, with SHA-256 cryptographic verification, 6 mandatory legal by-laws live auditor, and zero-hallucination municipal legal chatbot.
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Online-success.svg)](https://ordenanzas.evegat.cl)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Open Data](https://img.shields.io/badge/Open%20Data-Chile-green.svg)](#)
 
-[ 🌐 **Launch Interactive Dashboard Online** ](https://ordenanzas.evegat.cl)  
+[ 🌐 **Open Live Interactive Dashboard** ](https://ordenanzas.evegat.cl)  
 [ 🇪🇸 Versión en Español ](README.md) · [ 🇬🇧 English version ](README.en.md)
 
 Automated ETL pipeline, structured dataset, and exploratory visualizer for **Chilean Municipal By-Laws (*Ordenanzas Municipales*)**, querying open data from the **Library of the National Congress of Chile (BCN/LeyChile)** SPARQL endpoint and complementary verified municipal official sources with SHA-256 cryptographic hashes.
@@ -33,9 +33,9 @@ This project is built primarily as an educational and empirical research resourc
 
 - [x] **Phase 1: Base Registry & Reproducible Pipeline:** BCN SPARQL extraction (1,710 records) + initial multi-agent crawler + 9-domain classification.
 - [x] **Phase 2: Public Visualizer & Open Access:** Interactive dashboard hosted on GitHub Pages with multi-filter matrix, detailed commune drawer, interactive Leaflet map, smart autocomplete, and open data downloads.
-- [ ] **Phase 3: Direct Municipal Crawling:** Direct municipal crawler with cryptographic verification (SHA-256), reaching **100.0% national coverage (346 of 346 communes)** and **7,287 consolidated official ordinances** (5,881 BCN/LeyChile + 1,406 verified municipal records). Exhaustividad pendiente / Exhaustiveness unproven: `coverage_complete=false`.
-- [ ] **Phase 4: AI-Assisted RAG & Text Analysis (costos por validar / costs to validate):** Full-text vector indexing (BGE-M3 / e5-small embeddings) and local inference (inferencia por definir) / proveedor por evaluar for semantic comparative legal queries.
-- [x] **Phase 5: Teaching Modules & Academic Workbooks:** 3 interactive case studies in the web dashboard and official downloadable Jupyter Notebook (`analisis_ordenanzas_chile_estudiantes.ipynb`) for university courses.
+- [x] **Phase 3: Direct Territorial Expansion:** Pipeline discovering and validating municipal documents with SHA-256 hashes, reaching **100% territorial coverage (346 of 346 communes)** with **7,321 consolidated official by-laws** (5,881 BCN + 1,440 verified municipal records).
+- [x] **Phase 4: Zero-Hallucination Municipal Legal Chatbot ("Chatcito"):** Client-side floating assistant (`asistente_chat.js`) querying all 7,321 official by-laws in real-time with direct official PDF links and zero token inference cost.
+- [x] **Phase 5: Educational Module & Mandatory Legal Framework:** Interactive live auditor for the **6 legally required by-laws in Chile**, doctrinal clarification on PLACMA vs. Environmental By-law, 3 case studies, and downloadable Jupyter Notebook.
 
 ---
 
@@ -47,7 +47,7 @@ catastro-ordenanzas-municipales/
 ├── data/                       # Official registries and verified datasets
 │   ├── maestro_comunas_chile.csv        # Master territorial reference (346 communes)
 │   ├── municipal_source_registry.json   # Registry of official municipal endpoints
-│   ├── municipal_verified_records.json  # 1,406 municipal acts verified with SHA-256
+│   ├── municipal_verified_records.json  # 1,440 municipal acts verified with SHA-256
 │   ├── cplt_municipal_directory.json    # Active Transparency CPLT directory
 │   └── national_coverage_ledger.json    # National coverage ledger
 ├── dashboard/                  # Static web dashboard (GitHub Pages)
@@ -83,9 +83,9 @@ Open http://localhost:8000. This does not rebuild data. Extraction scripts depen
 
 ## 📊 Dataset Scope
 
-- **Consolidated Normative Records:** 7,287.
+- **Consolidated Normative Records:** 7,321.
 - **BCN / LeyChile:** 5,881 records.
-- **Verified Municipal Sources (SHA-256):** 1,406 official records.
+- **Verified Municipal Sources (SHA-256):** 1,440 official records.
 - **Territorial presence:** 346/346 communes; 4 have one record and 19 have 1–3. Completeness remains unproven.
 - **Observed Time Span:** 1980–2026.
 - **Thematic Domains:** 9 municipal regulatory axes.

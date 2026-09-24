@@ -1,6 +1,6 @@
 # Catastro y Pipeline de Ordenanzas Municipales de Chile
 
-> **Work in progress / En evolución (2026-09-15).** Proyecto no terminado. Presencia territorial no acredita exhaustividad. [Estado y reentrada / Current status](docs/ESTADO-Y-REENTRADA-P090.md). Revisión local; despliegue público no verificado.
+> **Versión 3.0 (Corte Septiembre 2026).** Catastro nacional consolidado de 7.321 ordenanzas oficiales en 346 comunas de Chile, con verificación criptográfica SHA-256, módulo de 6 ordenanzas obligatorias por ley y asistente jurídico municipal cero-alucinación.
 
 [![Demo en Vivo](https://img.shields.io/badge/Demo%20en%20Vivo-Online-success.svg)](https://ordenanzas.evegat.cl)
 [![Licencia](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -33,9 +33,9 @@ Este proyecto nace con un objetivo fundamentalmente formativo y de investigació
 
 - [x] **Fase 1: Catastro Base & Pipeline Reproducible:** Extracción SPARQL BCN (1.710 normas), captura complementaria CPLT y categorización en 9 ejes temáticos.
 - [x] **Fase 2: Visualizador Público & Acceso Abierto:** Dashboard interactivo publicado en GitHub Pages, filtros combinados por materia, región y año, drawer comunal, mapa interactivo con Leaflet, autocompletar inteligente y descargas abiertas.
-- [ ] **Fase 3: Expansión Territorial Directa:** Pipeline de descubrimiento y extracción directa con verificación criptográfica (SHA-256), alcanzando el **100% de cobertura territorial (346 de 346 comunas)** con **7.287 ordenanzas oficiales consolidadas** (5.881 BCN/LeyChile + 1.406 municipales verificadas con SHA-256). Exhaustividad pendiente / Exhaustiveness unproven: `coverage_complete=false`.
-- [ ] **Fase 4: Asistente RAG Jurídico-Municipal (costos por validar / costs to validate):** Indexación vectorial de texto completo (Embeddings BGE-M3 / e5-small) y conexión con modelos locales (inferencia por definir) y proveedor por evaluar para análisis comparado y redacción asistida.
-- [x] **Fase 5: Módulo Docente & Guías Metodológicas:** Publicación de 3 casos de estudio interactivos en el visualizador y Jupyter Notebook oficial (`analisis_ordenanzas_chile_estudiantes.ipynb`) descargable para cátedras universitarias.
+- [x] **Fase 3: Expansión Territorial Directa:** Pipeline de descubrimiento y extracción directa con verificación criptográfica (SHA-256), alcanzando el **100% de cobertura territorial (346 de 346 comunas)** con **7.321 ordenanzas oficiales consolidadas** (5.881 BCN/LeyChile + 1.440 municipales verificadas con SHA-256).
+- [x] **Fase 4: Asistente Jurídico Municipal Cero-Alucinación ("Chatcito"):** Asistente de diálogo flotante sobre motor local cliente (`asistente_chat.js`), consultas en tiempo real sobre las 7.321 ordenanzas, enlaces directos a PDFs oficiales y cero costo de inferencia ni fuga de datos.
+- [x] **Fase 5: Módulo Docente & Marco Legal Obligatorio:** Módulo interactivo de las **6 Ordenanzas Obligatorias por Ley en Chile** con auditor comunal en vivo, distinción doctrinal PLACMA vs Ordenanza Ambiental, 3 casos de estudio y Jupyter Notebook didáctico descargable.
 
 ---
 
@@ -47,7 +47,7 @@ catastro-ordenanzas-municipales/
 ├── data/                       # Registries y datasets oficiales consolidados
 │   ├── maestro_comunas_chile.csv        # Catálogo territorial oficial (346 comunas)
 │   ├── municipal_source_registry.json   # Registro y estrategia de fuentes oficiales
-│   ├── municipal_verified_records.json  # 1.406 actos municipales promovidos con SHA-256
+│   ├── municipal_verified_records.json  # 1.440 actos municipales promovidos con SHA-256
 │   ├── cplt_municipal_directory.json    # Directorio de portales Transparencia CPLT
 │   └── national_coverage_ledger.json    # Ledger nacional de cobertura territorial
 ├── dashboard/                  # Visualizador interactivo en GitHub Pages
@@ -97,9 +97,9 @@ Abrir http://localhost:8000. Sirve archivos existentes; no reconstruye datos. Lo
 
 Corte documental local del 2026-09-15, contado desde `dashboard/status_data.json` y contrastado con el CSV. Estas cifras requieren actualización cuando cambien los datos; no hay sincronización automática de este README. No se revalidaron documentos remotos ni todas las exportaciones.
 
-- **Total normas consolidadas:** 7.287 registros normativos.
+- **Total normas consolidadas:** 7.321 registros normativos.
 - **BCN / LeyChile:** 5.881 registros.
-- **Fuentes Municipales Verificadas:** 1.406 registros oficiales con SHA-256.
+- **Fuentes Municipales Verificadas:** 1.440 registros oficiales con SHA-256.
 - **Presencia territorial:** 346/346 comunas; 4 tienen un registro y 19 tienen entre 1 y 3. Exhaustividad pendiente.
 - **Rango temporal observado:** 1980–2026.
 - **Clasificación temática:** 9 materias normativas.

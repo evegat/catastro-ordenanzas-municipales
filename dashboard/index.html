@@ -14,10 +14,15 @@
   <meta property="og:title" content="Catastro Nacional de Ordenanzas Municipales de Chile (346 Comunas)">
   <meta property="og:description" content="Encuentra, compara y descarga 7.321 ordenanzas oficiales de las 346 comunas de Chile. Verificación SHA-256 e integridad documental.">
   <meta property="og:site_name" content="Catastro de Ordenanzas P090">
+  <meta property="og:image" content="https://ordenanzas.evegat.cl/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Catastro Nacional de Ordenanzas Municipales de Chile - 7.321 normas en 346 comunas">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Catastro Nacional de Ordenanzas Municipales de Chile">
-  <meta name="twitter:description" content="7.321 ordenanzas oficiales en 346 comunas de Chile (100% de cobertura nacional).">
+  <meta name="twitter:description" content="7.321 ordenanzas oficiales en 346 comunas de Chile. Verificador de 6 ordenanzas obligatorias y asistente jurídico.">
+  <meta name="twitter:image" content="https://ordenanzas.evegat.cl/og-image.png">
   <!-- SVG Favicon Oficial -->
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2338bdf8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><polygon points='12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2'/></svg>">
   <!-- Umami Analytics (Instancia Privada MyWorld) -->
@@ -92,12 +97,20 @@
       </div>
 
       <!-- Quick Actions Header -->
-      <div class="flex items-center gap-2.5">
+      <div class="flex items-center gap-2">
+        <a href="https://api.whatsapp.com/send?text=Catastro%20Nacional%20de%20Ordenanzas%20Municipales%20de%20Chile%20(346%20comunas)%3A%20https%3A%2F%2Fordenanzas.evegat.cl" target="_blank" rel="noopener noreferrer" title="Compartir en WhatsApp" data-umami-event="compartir_whatsapp_header" class="inline-flex items-center gap-1 px-2.5 py-1.5 rounded-lg bg-emerald-600/90 hover:bg-emerald-500 text-white text-xs font-semibold transition-all shadow-sm">
+          <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+          <span class="hidden sm:inline">WhatsApp</span>
+        </a>
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fordenanzas.evegat.cl" target="_blank" rel="noopener noreferrer" title="Compartir en LinkedIn" data-umami-event="compartir_linkedin_header" class="inline-flex items-center gap-1 px-2.5 py-1.5 rounded-lg bg-[#0077b5] hover:bg-[#0088cc] text-white text-xs font-semibold transition-all shadow-sm">
+          <i data-lucide="linkedin" class="w-3.5 h-3.5"></i>
+          <span class="hidden sm:inline">LinkedIn</span>
+        </a>
         <button onclick="openDownloadRequestModal('xlsx')" data-umami-event="solicitar_excel" data-umami-event-location="header" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-sky-600 hover:bg-sky-500 text-white text-xs font-semibold transition-all shadow-sm">
           <i data-lucide="file-spreadsheet" class="w-3.5 h-3.5"></i>
           <span>Solicitar Excel</span>
         </button>
-        <button onclick="switchTab('mapa')" data-umami-event="ver_mapa" data-umami-event-location="header" class="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-[#153b70] hover:bg-[#1f5091] border border-[#1f5091] text-zinc-200 text-xs font-medium transition-all">
+        <button onclick="switchTab('mapa')" data-umami-event="ver_mapa" data-umami-event-location="header" class="hidden md:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-[#153b70] hover:bg-[#1f5091] border border-[#1f5091] text-zinc-200 text-xs font-medium transition-all">
           <i data-lucide="map" class="w-3.5 h-3.5 text-rose-400"></i>
           <span>Ver Mapa</span>
         </button>
@@ -111,7 +124,7 @@
       
       <div class="space-y-2">
         <h2 class="text-2xl sm:text-3xl font-extrabold tracking-tight text-white">
-          Encuentra, compara y descarga ordenanzas de <span class="text-sky-400">346 comunas de Chile</span> (100% de cobertura nacional)
+          Encuentra, compara y descarga ordenanzas de <span class="text-sky-400">346 comunas de Chile</span> (presencia territorial; exhaustividad no acreditada)
         </h2>
         <p class="text-sm text-zinc-300 max-w-2xl mx-auto font-normal">
           Accede al repositorio verificado de <strong>7.321 normas oficiales catalogadas</strong> (5.881 BCN LeyChile + 1.440 municipales verificadas con hash SHA-256).
@@ -294,8 +307,8 @@
         </div>
 
         <div class="flex items-center gap-4 text-xs font-mono">
-          <span class="flex items-center gap-1.5"><span class="w-3 h-3 rounded-full bg-emerald-400 inline-block"></span> Con ordenanza vigente</span>
-          <span class="flex items-center gap-1.5"><span class="w-3 h-3 rounded-full bg-amber-400 inline-block"></span> Sin esta materia</span>
+          <span class="flex items-center gap-1.5"><span class="w-3 h-3 rounded-full bg-emerald-400 inline-block"></span> Con registros catalogados</span>
+          <span class="flex items-center gap-1.5"><span class="w-3 h-3 rounded-full bg-amber-400 inline-block"></span> Sin registros de esta materia</span>
           <span class="flex items-center gap-1.5"><span class="w-3 h-3 rounded-full bg-zinc-500 inline-block"></span> Sin datos</span>
         </div>
       </div>
@@ -321,7 +334,7 @@
         </div>
         <div class="bg-[#071f43]/60 border border-[#153b70] rounded-xl p-3.5 text-center">
           <div class="text-2xl font-bold text-emerald-400 font-mono">0</div>
-          <div class="text-xs text-zinc-400">0 comunas pendientes (100% nacional)</div>
+          <div class="text-xs text-zinc-400">Comunas sin registros en este corte</div>
         </div>
       </div>
 
@@ -760,11 +773,75 @@
 
   </main>
 
+  <!-- FOOTER INSTITUCIONAL & MARCA PERSONAL (EDUARDO VEGA) -->
+  <footer class="border-t border-[#153b70] bg-[#030e20] text-zinc-300 mt-12 py-10 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-xs">
+      
+      <!-- Columna 1: Autoría & Respaldos -->
+      <div class="space-y-3">
+        <div class="flex items-center gap-2 text-white font-bold text-sm">
+          <i data-lucide="scale" class="w-4 h-4 text-sky-400"></i>
+          <span>Catastro Nacional de Ordenanzas (P090)</span>
+        </div>
+        <p class="text-zinc-400 leading-relaxed text-[11px]">
+          Iniciativa de investigación aplicada e ingeniería pública desarrollada por 
+          <strong class="text-white">Eduardo Vega Toledo</strong>. Administrador Público, Magíster en Gobierno y Gerencia Pública (Universidad de Chile), ex Jefe de Inversión Municipal (SUBDERE) y docente en FAGOB U. de Chile.
+        </p>
+        <div class="flex items-center gap-3 pt-1">
+          <a href="https://www.linkedin.com/in/evegat/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-[#071f43] hover:bg-sky-600 border border-[#153b70] text-sky-300 hover:text-white transition-colors text-[11px]" data-umami-event="click_linkedin_footer">
+            <i data-lucide="linkedin" class="w-3.5 h-3.5"></i>
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://evegat.cl" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-[#071f43] hover:bg-sky-600 border border-[#153b70] text-sky-300 hover:text-white transition-colors text-[11px]" data-umami-event="click_web_footer">
+            <i data-lucide="globe" class="w-3.5 h-3.5"></i>
+            <span>evegat.cl</span>
+          </a>
+          <a href="https://github.com/evegat/catastro-ordenanzas-municipales" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-[#071f43] hover:bg-sky-600 border border-[#153b70] text-sky-300 hover:text-white transition-colors text-[11px]" data-umami-event="click_github_footer">
+            <i data-lucide="github" class="w-3.5 h-3.5"></i>
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Columna 2: Consultoría y Propósito Público -->
+      <div class="space-y-3">
+        <h4 class="text-white font-bold text-xs uppercase tracking-wider font-mono flex items-center gap-1.5">
+          <i data-lucide="briefcase" class="w-3.5 h-3.5 text-emerald-400"></i>
+          <span>Asesoría Municipal & GovTech</span>
+        </h4>
+        <p class="text-zinc-400 leading-relaxed text-[11px]">
+          ¿Tu municipalidad necesita auditar sus ordenanzas vigentes, subsanar brechas en las 6 materias obligatorias por ley o implementar IA local sobre normativa comunal?
+        </p>
+        <div class="pt-1">
+          <a href="mailto:evegat@uchile.cl?subject=%5BConsultor%C3%ADa%20Ordenanzas%5D%20Contacto%20desde%20Catastro%20P090" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-semibold transition-colors text-xs shadow-sm" data-umami-event="click_contacto_consultoria">
+            <i data-lucide="mail" class="w-3.5 h-3.5"></i>
+            <span>Iniciar contacto profesional</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Columna 3: Rigor & Licencia -->
+      <div class="space-y-3">
+        <h4 class="text-white font-bold text-xs uppercase tracking-wider font-mono flex items-center gap-1.5">
+          <i data-lucide="shield-check" class="w-3.5 h-3.5 text-sky-400"></i>
+          <span>Transparencia & Ética</span>
+        </h4>
+        <p class="text-zinc-400 leading-relaxed text-[11px]">
+          Metodología <em>no-sampling</em> con verificación criptográfica SHA-256 inmutable. Licencia MIT de datos abiertos. Telemetría ética privada (Umami Analytics) sin almacenamiento de cookies ni datos personales.
+        </p>
+        <div class="text-[10px] text-zinc-500 font-mono">
+          Corte oficial: Septiembre 2026 · 7.321 normas · 346 comunas
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
   <!-- SCRIPTS -->
   <script src="status_data.js"></script>
   <script src="mapa_data.js"></script>
-  <script src="mapa_chile.js"></script>
-  <script src="asistente_chat.js"></script>
+  <script src="mapa_chile.js?v=8469be31160d"></script>
+  <script src="asistente_chat.js?v=4a2a32fddb41"></script>
   <script>
     let globalStatusData = null;
 
@@ -934,7 +1011,7 @@
             <h4 class="text-xs font-bold text-white leading-snug">${o.titulo || 'Ordenanza Municipal'}</h4>
             <div class="flex items-center justify-between pt-1 text-[11px] font-mono">
               <span class="text-zinc-400">Fuente: <strong class="text-zinc-300">${o.fuente || 'Municipal'}</strong> ${o.numero ? '• N° ' + o.numero : ''}</span>
-              ${o.target_url ? `<a href="${o.target_url}" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 font-semibold flex items-center gap-1">Descargar PDF ↗</a>` : ''}
+              ${o.target_url ? `<a href="${o.target_url}" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 font-semibold flex items-center gap-1">Consultar fuente oficial ↗</a>` : ''}
             </div>
           `;
           ordenanzasList.appendChild(item);
@@ -1103,7 +1180,7 @@
             <h4 class="text-xs font-bold text-white leading-snug">${o.titulo || 'Ordenanza Municipal'}</h4>
             <div class="flex items-center justify-between pt-1 text-[11px] font-mono">
               <span class="text-zinc-400">Fuente: <strong class="text-zinc-300">${o.fuente || 'Municipalidad'}</strong> ${o.numero ? '• N° ' + o.numero : ''}</span>
-              ${o.target_url ? `<a href="${o.target_url}" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 font-semibold flex items-center gap-1">Descargar PDF ↗</a>` : ''}
+              ${o.target_url ? `<a href="${o.target_url}" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 font-semibold flex items-center gap-1">Consultar fuente oficial ↗</a>` : ''}
             </div>
           `;
           list.appendChild(item);
@@ -1659,7 +1736,7 @@
             <span>Asistente Jurídico Municipal P090</span>
           </div>
           <p class="text-[11px] leading-relaxed text-zinc-300">
-            ¡Hola! Soy tu asistente de consulta normativa sobre las <strong>7.321 ordenanzas oficiales de Chile</strong> (100% de cobertura nacional en 346 comunas).
+            ¡Hola! Soy tu asistente de consulta normativa sobre las <strong>7.321 ordenanzas oficiales de Chile</strong> (registros en 346 comunas; exhaustividad no acreditada).
           </p>
           <p class="text-[11px] text-zinc-400">
             Pregúntame por las ordenanzas obligatorias por ley, la validez del PLACMA, o escribe el nombre de cualquier comuna del país.
