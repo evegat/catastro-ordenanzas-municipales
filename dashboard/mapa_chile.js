@@ -39,6 +39,12 @@
     general: ['general', 'normativa_general'],
   };
 
+  // Derivar los alias del mismo agrupador que utiliza el filtro.
+  const TOPIC_ALIASES = Object.fromEntries(
+    Object.entries(TOPIC_GROUPS).flatMap(([canonical, aliases]) =>
+      aliases.map(alias => [alias, canonical]))
+  );
+
   function getTopicCount(item, topicFilter) {
     if (!item || !item.topics) return 0;
     if (topicFilter === 'ALL') return item.total || 0;
@@ -141,7 +147,7 @@
 
     const loading = document.getElementById('mapa-loading');
 
-    // Dark tile layer compatible con el diseño
+    // Mapa base público: conservar atribución, caché y Referer del navegador.
     mapaInstance = L.map('chile-map', {
       center: [-35.5, -71.0],
       zoom: 4,
@@ -149,8 +155,9 @@
       maxZoom: 12,
     });
 
+    // Mapa base CartoDB Dark Matter: estética oscura profesional, ultra-rápida y sin API key
     L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> | CartoDB Dark',
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
       subdomains: 'abcd',
       maxZoom: 19,
     }).addTo(mapaInstance);
