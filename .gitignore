@@ -38,5 +38,7 @@ data/missing_communes_extraction.json
 data/playwright_rescued_records.json
 data/extraction_current_seeds.json
 data/crawler_state.json
+cache/
+
 
 

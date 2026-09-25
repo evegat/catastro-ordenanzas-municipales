@@ -40975,11 +40975,452 @@ window.CATASTRO_DATA = {
       "comuna": "Maipú",
       "bcn_count": 29,
       "cplt_count": 0,
-      "total_count": 66,
+      "total_count": 87,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-09-08",
       "ordenanzas": [
+        {
+          "cplt_code": "MU_maipu",
+          "fuente": "Municipalidad",
+          "numero": "04193/2026",
+          "fecha": "2026-09-08",
+          "titulo": "Ordenanza Municipal de Tenencia Responsable de Mascota y de Protección Animal de la Comuna de Maipú",
+          "materia": "Tenencia Responsable y Mascotas",
+          "materia_id": "mascotas_animales",
+          "source_listing_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2026/09/4193-ordenanza-tenencia-responsable-mascota-26.pdf",
+          "target_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2026/09/4193-ordenanza-tenencia-responsable-mascota-26.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2026/09/4193-ordenanza-tenencia-responsable-mascota-26.pdf",
+            "content_type": "application/pdf",
+            "sha256": "cc6a6aff6dc6b415ef0b39ce52a7695bb90b5e19a881bb672728c8418f937b05",
+            "bytes": 5943386,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_maipu",
+          "fuente": "Municipalidad",
+          "numero": "02194/2026",
+          "fecha": "2026-05-13",
+          "titulo": "Ordenanza por el Buen Trato hacia las Personas Mayores, I. Municipalidad de Maipú",
+          "materia": "Salud, Deporte y Desarrollo Social",
+          "materia_id": "social_salud_deporte",
+          "source_listing_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2026/05/ordenanza-buen-trato-26.pdf",
+          "target_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2026/05/ordenanza-buen-trato-26.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2026/05/ordenanza-buen-trato-26.pdf",
+            "content_type": "application/pdf",
+            "sha256": "377e7eec2445d06e5ba5901fab40bc2a8805caaed72f784adfde4b4ce2623b59",
+            "bytes": 6166281,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_maipu",
+          "fuente": "Municipalidad",
+          "numero": "00272/2026",
+          "fecha": "2026-01-20",
+          "titulo": "Ordenanza Municipal sobre Otorgamiento de Becas Municipales 'Maipú Te Reconoce' (Texto Refundido)",
+          "materia": "Salud, Deporte y Desarrollo Social",
+          "materia_id": "social_salud_deporte",
+          "source_listing_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2026/01/ttexto-refundido-sistematizado-ordenanza-de-becas-26.pdf",
+          "target_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2026/01/ttexto-refundido-sistematizado-ordenanza-de-becas-26.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2026/01/ttexto-refundido-sistematizado-ordenanza-de-becas-26.pdf",
+            "content_type": "application/pdf",
+            "sha256": "852ae0014a785e20236ca4fd9fe6e902bc224383714992e739dcbd8b119acd16",
+            "bytes": 196412,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_maipu",
+          "fuente": "Municipalidad",
+          "numero": "00107/2026",
+          "fecha": "2026-01-09",
+          "titulo": "Ordenanza Municipal de Arbolado Urbano para la Comuna de Maipú",
+          "materia": "Aseo, Ornato y Medio Ambiente",
+          "materia_id": "aseo_medioambiente",
+          "source_listing_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2026/01/ordenanza-arbolado-urbano-2026.pdf",
+          "target_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2026/01/ordenanza-arbolado-urbano-2026.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2026/01/ordenanza-arbolado-urbano-2026.pdf",
+            "content_type": "application/pdf",
+            "sha256": "5ab4b510701b0e8815d8cca23581453c864f6eeb8ace383befaba48d74788fb5",
+            "bytes": 198390,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_maipu",
+          "fuente": "Municipalidad",
+          "numero": "05566/2025",
+          "fecha": "2025-11-05",
+          "titulo": "Ordenanza Local Sobre Derechos Municipales por Permisos, Concesiones y Servicios de la Municipalidad de Maipú (Texto Refundido 2025)",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2025/11/ordenanza-local-derechos-por-permisos-25.pdf",
+          "target_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2025/11/ordenanza-local-derechos-por-permisos-25.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2025/11/ordenanza-local-derechos-por-permisos-25.pdf",
+            "content_type": "application/pdf",
+            "sha256": "58036ac0420689d511766eed265ba9f757a9f563db3ac797244981dd9addefe6",
+            "bytes": 472229,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_maipu",
+          "fuente": "Municipalidad",
+          "numero": "05534/2025",
+          "fecha": "2025-10-30",
+          "titulo": "Ordenanza Local Sobre Condiciones Generales para Determinar Tarifas por Servicio Domiciliario de Extracción de Basura, Exenciones y Cobro",
+          "materia": "Aseo, Ornato y Medio Ambiente",
+          "materia_id": "aseo_medioambiente",
+          "source_listing_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2025/11/ordenanza-exencion-de-basura-y-otros-25.pdf",
+          "target_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2025/11/ordenanza-exencion-de-basura-y-otros-25.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2025/11/ordenanza-exencion-de-basura-y-otros-25.pdf",
+            "content_type": "application/pdf",
+            "sha256": "1446e35d4eda59fb93fba0906992f793d0f1aa750fc0c5ea0980fa98fc280fa9",
+            "bytes": 172036,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_maipu",
+          "fuente": "Municipalidad",
+          "numero": "02586/2025",
+          "fecha": "2025-05-20",
+          "titulo": "Ordenanza sobre Autorización de Comodatos y Permisos de Uso Precarios sobre Inmuebles Municipales y BNUP a Organizaciones Comunitarias",
+          "materia": "Organización y Régimen Interno",
+          "materia_id": "administracion_interna",
+          "source_listing_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2025/06/ordenanza-25.pdf",
+          "target_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2025/06/ordenanza-25.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2025/06/ordenanza-25.pdf",
+            "content_type": "application/pdf",
+            "sha256": "3c354f28ac8601c313293d747959fe21062780cb033b028ab5193bebacb1fec4",
+            "bytes": 10426795,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_maipu",
+          "fuente": "Municipalidad",
+          "numero": "07251/2024",
+          "fecha": "2024-12-05",
+          "titulo": "Ordenanza Local de Derechos por Permisos, Concesiones y Servicios Municipales de la Municipalidad de Maipú (Texto Refundido 2024)",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2024/12/Ordenanza_derechos_permiso_24.pdf",
+          "target_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2024/12/Ordenanza_derechos_permiso_24.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2024/12/Ordenanza_derechos_permiso_24.pdf",
+            "content_type": "application/pdf",
+            "sha256": "582268a4af18a7bb52985053a8b54d5c879de99196acd30dd2341375d15b7d21",
+            "bytes": 6199046,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_maipu",
+          "fuente": "Municipalidad",
+          "numero": "06558/2024",
+          "fecha": "2024-10-25",
+          "titulo": "Ordenanza Municipal para la Protección y Difusión del Patrimonio Cultural de la Comuna de Maipú",
+          "materia": "Salud, Deporte y Desarrollo Social",
+          "materia_id": "social_salud_deporte",
+          "source_listing_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2024/11/Ordenanza_Patrimonio_Cultural_24.pdf",
+          "target_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2024/11/Ordenanza_Patrimonio_Cultural_24.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2024/11/Ordenanza_Patrimonio_Cultural_24.pdf",
+            "content_type": "application/pdf",
+            "sha256": "760aa57417818049b60e630b80c0398c8381a2fd976f0ec308e3d640b71cf5a9",
+            "bytes": 152551,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_maipu",
+          "fuente": "Municipalidad",
+          "numero": "06013/2023",
+          "fecha": "2023-08-25",
+          "titulo": "Modificación a la Ordenanza Local sobre Derechos Municipales por Permisos, Concesiones y Servicios (Incorporación de Nuevos Derechos)",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2023/08/6013_nuevo_derecho_Ordenanza_local_23.pdf",
+          "target_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2023/08/6013_nuevo_derecho_Ordenanza_local_23.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2023/08/6013_nuevo_derecho_Ordenanza_local_23.pdf",
+            "content_type": "application/pdf",
+            "sha256": "a0e8638ce1456e4faca86909ea523a568273bc51eaccf09b391274411d0c83ed",
+            "bytes": 158969,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_maipu",
+          "fuente": "Municipalidad",
+          "numero": "03046/2023",
+          "fecha": "2023-05-11",
+          "titulo": "Ordenanza de Igualdad de Oportunidades e Inclusión Social de las Personas con Discapacidad de la Municipalidad de Maipú",
+          "materia": "Salud, Deporte y Desarrollo Social",
+          "materia_id": "social_salud_deporte",
+          "source_listing_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2023/05/Ordenanza_discapacidad.pdf",
+          "target_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2023/05/Ordenanza_discapacidad.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2023/05/Ordenanza_discapacidad.pdf",
+            "content_type": "application/pdf",
+            "sha256": "d9ee953e3b7b9220a7335fff75076731b8e2992d8162169819858ae320fd56c9",
+            "bytes": 162084,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_maipu",
+          "fuente": "Municipalidad",
+          "numero": "02464/2023",
+          "fecha": "2023-04-11",
+          "titulo": "Ordenanza para Prevenir, Sancionar y Erradicar el Acoso en la Vía Pública en la Comuna de Maipú",
+          "materia": "Seguridad y Convivencia",
+          "materia_id": "seguridad_convivencia",
+          "source_listing_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2023/04/2764_ordenanza_23.pdf",
+          "target_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2023/04/2764_ordenanza_23.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2023/04/2764_ordenanza_23.pdf",
+            "content_type": "application/pdf",
+            "sha256": "56da875421fb79767ec606ccf6c105441b9621f4e4ba29926035f93cee934f4a",
+            "bytes": 172991,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_maipu",
+          "fuente": "Municipalidad",
+          "numero": "01996/2023",
+          "fecha": "2023-03-28",
+          "titulo": "Ordenanza de Artesanas y Artesanos de la Comuna de Maipú",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2023/04/Ordenanza_Artezanos_23.pdf",
+          "target_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2023/04/Ordenanza_Artezanos_23.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2023/04/Ordenanza_Artezanos_23.pdf",
+            "content_type": "application/pdf",
+            "sha256": "66f2753e2c809cbbf585169668a478ee103fa22acd6b9ae20eb9f8617eaece8f",
+            "bytes": 162614,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_maipu",
+          "fuente": "Municipalidad",
+          "numero": "01404/2023",
+          "fecha": "2023-03-06",
+          "titulo": "Ordenanza Local para Beneficiarios, Expendio de Productos Farmacéuticos y Cobro de la Farmacia Municipal de Maipú",
+          "materia": "Salud, Deporte y Desarrollo Social",
+          "materia_id": "social_salud_deporte",
+          "source_listing_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2023/04/Ordenanza_Local_Productos_Farmaceuticos_23.pdf",
+          "target_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2023/04/Ordenanza_Local_Productos_Farmaceuticos_23.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2023/04/Ordenanza_Local_Productos_Farmaceuticos_23.pdf",
+            "content_type": "application/pdf",
+            "sha256": "94f2f5d3f9c2a6fe2c8eceef8c2f764effd4ea465546c3933c4f256a0ec55f85",
+            "bytes": 155470,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_maipu",
+          "fuente": "Municipalidad",
+          "numero": "00314/2023",
+          "fecha": "2023-01-24",
+          "titulo": "Ordenanza Municipal para el Cierre de Calles, Pasajes o Conjuntos Habitacionales por Motivos de Seguridad (Ley 21.411)",
+          "materia": "Seguridad y Convivencia",
+          "materia_id": "seguridad_convivencia",
+          "source_listing_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2023/01/Ordenanza_314_.pdf",
+          "target_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2023/01/Ordenanza_314_.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2023/01/Ordenanza_314_.pdf",
+            "content_type": "application/pdf",
+            "sha256": "29b6bdab4f3a2880f6197eda6353fe82588f924cc6769e826661f11c936b2368",
+            "bytes": 3718144,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_maipu",
+          "fuente": "Municipalidad",
+          "numero": "00163/2023",
+          "fecha": "2023-01-17",
+          "titulo": "Ordenanza Municipal de Gestión y Eficiencia Hídrica en el Espacio Público",
+          "materia": "Aseo, Ornato y Medio Ambiente",
+          "materia_id": "aseo_medioambiente",
+          "source_listing_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2023/01/Ordenanza_163.pdf",
+          "target_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2023/01/Ordenanza_163.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2023/01/Ordenanza_163.pdf",
+            "content_type": "application/pdf",
+            "sha256": "75b713d7b4e86533ed906338ce856c46493f5a75667a6414c306853151e99e0b",
+            "bytes": 2771121,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_maipu",
+          "fuente": "Municipalidad",
+          "numero": "07590/2022",
+          "fecha": "2022-12-12",
+          "titulo": "Modificación y Actualización de la Ordenanza Comunal de Participación Ciudadana (Participación Remota y Digital)",
+          "materia": "Organización y Régimen Interno",
+          "materia_id": "administracion_interna",
+          "source_listing_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2023/01/7590_modificacion_ordenanza_partic_ciudadana_22.pdf",
+          "target_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2023/01/7590_modificacion_ordenanza_partic_ciudadana_22.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2023/01/7590_modificacion_ordenanza_partic_ciudadana_22.pdf",
+            "content_type": "application/pdf",
+            "sha256": "025d11e7e7a1f3805b581086b2b4c1ae83c8d91579c2b29a388a778f2296d1e8",
+            "bytes": 2574371,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_maipu",
+          "fuente": "Municipalidad",
+          "numero": "03833/2022",
+          "fecha": "2022-06-30",
+          "titulo": "Ordenanza Local sobre Comercio y Actividad Comercial en Bienes Nacionales de Uso Público",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2022/07/3833_Ordenanza_local_sobre-actividad_comercial_via_publica.pdf",
+          "target_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2022/07/3833_Ordenanza_local_sobre-actividad_comercial_via_publica.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2022/07/3833_Ordenanza_local_sobre-actividad_comercial_via_publica.pdf",
+            "content_type": "application/pdf",
+            "sha256": "7e88576d51659292041d108dfb9c9524e58dc442dd0805e887da7a0b4b5e5370",
+            "bytes": 442272,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_maipu",
+          "fuente": "Municipalidad",
+          "numero": "2751/2021",
+          "fecha": "2021-10-29",
+          "titulo": "Modificación a la Ordenanza Local sobre Derechos Municipales por Permisos, Concesiones y Servicios (Escombros)",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2021/10/2751_ordenanza_modificacion_local_de_derechos_21.pdf",
+          "target_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2021/10/2751_ordenanza_modificacion_local_de_derechos_21.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2021/10/2751_ordenanza_modificacion_local_de_derechos_21.pdf",
+            "content_type": "application/pdf",
+            "sha256": "8d9af9762c18ec961b607fcdeb622cdfc21043d9568c568fbe78bd47cde54d93",
+            "bytes": 1066837,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_maipu",
+          "fuente": "Municipalidad",
+          "numero": "Ordenanza Alcaldicia COVID-19",
+          "fecha": "2020-04-23",
+          "titulo": "Ordenanza sobre Uso de Mascarilla en Lugares que Indica, en la Comuna de Maipú, en el Contexto del Brote de COVID-19",
+          "materia": "Salud, Deporte y Desarrollo Social",
+          "materia_id": "social_salud_deporte",
+          "source_listing_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2020/04/Ordenanza_uso_obligarorio_de-mascarillas_Maip%C3%BA.pdf",
+          "target_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2020/04/Ordenanza_uso_obligarorio_de-mascarillas_Maip%C3%BA.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2020/04/Ordenanza_uso_obligarorio_de-mascarillas_Maip%C3%BA.pdf",
+            "content_type": "application/pdf",
+            "sha256": "0ae1be7becea6b751d953c5449b6f2e48d7d6d0ef986baef4360adf2f60a3d74",
+            "bytes": 112301,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU_maipu",
+          "fuente": "Municipalidad",
+          "numero": "2659/2019",
+          "fecha": "2019-07-24",
+          "titulo": "Ordenanza Municipal de Protección del Medio Ambiente para la Comuna de Maipú",
+          "materia": "Aseo, Ornato y Medio Ambiente",
+          "materia_id": "aseo_medioambiente",
+          "source_listing_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2026/01/2659-ordenanza-medioambiente-19.pdf",
+          "target_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2026/01/2659-ordenanza-medioambiente-19.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2026/01/2659-ordenanza-medioambiente-19.pdf",
+            "content_type": "application/pdf",
+            "sha256": "8a7a4cc127558056643b14dada6a57f8da111a5d14b64a16bf8b19694b60be4b",
+            "bytes": 19025082,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
         {
           "fuente": "BCN",
           "numero": "7740",
@@ -42150,7 +42591,7 @@ window.CATASTRO_DATA = {
           "rdf_url": null
         }
       ],
-      "municipal_count": 37
+      "municipal_count": 58
     },
     {
       "region_id": "13",
@@ -117184,7 +117625,7 @@ window.CATASTRO_DATA = {
       "badge_bg": "bg-indigo-500/10",
       "badge_text": "text-indigo-400",
       "badge_border": "border-indigo-500/30",
-      "count": 2834
+      "count": 2838
     },
     {
       "id": "comercio_alcoholes",
@@ -117194,7 +117635,7 @@ window.CATASTRO_DATA = {
       "badge_bg": "bg-sky-500/10",
       "badge_text": "text-sky-400",
       "badge_border": "border-sky-500/30",
-      "count": 257
+      "count": 259
     },
     {
       "id": "aseo_medioambiente",
@@ -117204,7 +117645,7 @@ window.CATASTRO_DATA = {
       "badge_bg": "bg-emerald-500/10",
       "badge_text": "text-emerald-400",
       "badge_border": "border-emerald-500/30",
-      "count": 203
+      "count": 207
     },
     {
       "id": "transito_transporte",
@@ -117214,7 +117655,7 @@ window.CATASTRO_DATA = {
       "badge_bg": "bg-amber-500/10",
       "badge_text": "text-amber-400",
       "badge_border": "border-amber-500/30",
-      "count": 152
+      "count": 275
     },
     {
       "id": "urbanismo_obras",
@@ -117224,7 +117665,7 @@ window.CATASTRO_DATA = {
       "badge_bg": "bg-orange-500/10",
       "badge_text": "text-orange-400",
       "badge_border": "border-orange-500/30",
-      "count": 106
+      "count": 218
     },
     {
       "id": "seguridad_convivencia",
@@ -117234,7 +117675,7 @@ window.CATASTRO_DATA = {
       "badge_bg": "bg-rose-500/10",
       "badge_text": "text-rose-400",
       "badge_border": "border-rose-500/30",
-      "count": 19
+      "count": 39
     },
     {
       "id": "mascotas_animales",
@@ -117244,7 +117685,7 @@ window.CATASTRO_DATA = {
       "badge_bg": "bg-teal-500/10",
       "badge_text": "text-teal-400",
       "badge_border": "border-teal-500/30",
-      "count": 17
+      "count": 18
     },
     {
       "id": "social_salud_deporte",
@@ -117254,7 +117695,7 @@ window.CATASTRO_DATA = {
       "badge_bg": "bg-purple-500/10",
       "badge_text": "text-purple-400",
       "badge_border": "border-purple-500/30",
-      "count": 38
+      "count": 44
     },
     {
       "id": "administracion_interna",
@@ -117264,7 +117705,7 @@ window.CATASTRO_DATA = {
       "badge_bg": "bg-zinc-800",
       "badge_text": "text-zinc-300",
       "badge_border": "border-zinc-700",
-      "count": 34
+      "count": 35
     },
     {
       "id": "general",
@@ -117274,7 +117715,7 @@ window.CATASTRO_DATA = {
       "badge_bg": "bg-zinc-800",
       "badge_text": "text-zinc-400",
       "badge_border": "border-zinc-700",
-      "count": 2664
+      "count": 1243
     }
   ],
   "public_scope": {
@@ -117287,7 +117728,7 @@ window.CATASTRO_DATA = {
       "CPLT"
     ],
     "quarantined_records": 0,
-    "verified_municipal_records": 1440,
+    "verified_municipal_records": 1429,
     "reason": "Las referencias CPLT manuales sin evidencia se mantienen en cuarentena. Solo se publican documentos municipales con listado oficial, PDF resoluble y huella SHA-256 verificada."
   }
 };
