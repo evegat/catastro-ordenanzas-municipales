@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-30T16:19:40+00:00",
+  "generated_at": "2026-09-25T15:50:38+00:00",
   "task_id": "MW-P090-0014",
   "policy": "FAIL CLOSED; completeness requires explicit source reconciliation",
   "summary": {
     "municipalities_total": 345,
-    "municipalities_with_no_gaps": 3,
-    "municipalities_with_verified_documents": 142,
+    "municipalities_with_no_gaps": 11,
+    "municipalities_with_verified_documents": 183,
     "gap_counts": {
       "documentos_sin_resolver": 28,
       "listado_no_agotado": 50,
       "sin_clasificacion_juridica_local": 134,
-      "sin_documento_municipal_verificado": 203,
+      "sin_documento_municipal_verificado": 162,
       "sin_extraccion": 153,
       "sin_fuente_candidata": 153,
       "sitio_institucional_no_verificado": 43
@@ -47,7 +47,7 @@
       "extracted_verified_pdfs": 2,
       "lm_classified_ordinances": 2,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 2,
       "unresolved_documents": 0,
       "gaps": [],
       "coverage_complete": false
@@ -62,11 +62,9 @@
       "extracted_verified_pdfs": 0,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 6,
       "unresolved_documents": 0,
-      "gaps": [
-        "sin_documento_municipal_verificado"
-      ],
+      "gaps": [],
       "coverage_complete": false
     },
     {
@@ -79,7 +77,7 @@
       "extracted_verified_pdfs": 8,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 6,
       "unresolved_documents": 4,
       "gaps": [
         "documentos_sin_resolver",
@@ -97,7 +95,7 @@
       "extracted_verified_pdfs": 14,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 14,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -171,7 +169,7 @@
       "extracted_verified_pdfs": 10,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 10,
+      "existing_verified_records": 12,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -205,7 +203,7 @@
       "extracted_verified_pdfs": 1,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 2,
       "unresolved_documents": 1,
       "gaps": [
         "documentos_sin_resolver",
@@ -223,7 +221,7 @@
       "extracted_verified_pdfs": 3,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 3,
       "unresolved_documents": 0,
       "gaps": [
         "listado_no_agotado",
@@ -241,7 +239,7 @@
       "extracted_verified_pdfs": 17,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 17,
       "unresolved_documents": 22,
       "gaps": [
         "documentos_sin_resolver",
@@ -259,7 +257,7 @@
       "extracted_verified_pdfs": 60,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 60,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -296,7 +294,7 @@
       "extracted_verified_pdfs": 23,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 23,
       "unresolved_documents": 1,
       "gaps": [
         "documentos_sin_resolver",
@@ -314,7 +312,7 @@
       "extracted_verified_pdfs": 1,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 4,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -331,7 +329,7 @@
       "extracted_verified_pdfs": 1,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -422,12 +420,11 @@
       "extracted_verified_pdfs": 0,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 3,
       "unresolved_documents": 0,
       "gaps": [
         "sin_fuente_candidata",
-        "sin_extraccion",
-        "sin_documento_municipal_verificado"
+        "sin_extraccion"
       ],
       "coverage_complete": false
     },
@@ -460,13 +457,12 @@
       "extracted_verified_pdfs": 0,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
         "sitio_institucional_no_verificado",
         "sin_fuente_candidata",
-        "sin_extraccion",
-        "sin_documento_municipal_verificado"
+        "sin_extraccion"
       ],
       "coverage_complete": false
     },
@@ -610,7 +606,7 @@
       "extracted_verified_pdfs": 2,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 2,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -627,7 +623,7 @@
       "extracted_verified_pdfs": 6,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 6,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -644,7 +640,7 @@
       "extracted_verified_pdfs": 2,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 2,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -661,12 +657,11 @@
       "extracted_verified_pdfs": 0,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
         "sin_fuente_candidata",
-        "sin_extraccion",
-        "sin_documento_municipal_verificado"
+        "sin_extraccion"
       ],
       "coverage_complete": false
     },
@@ -699,7 +694,7 @@
       "extracted_verified_pdfs": 2,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 13,
       "gaps": [
         "listado_no_agotado",
@@ -793,13 +788,12 @@
       "extracted_verified_pdfs": 0,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 2,
       "unresolved_documents": 0,
       "gaps": [
         "sitio_institucional_no_verificado",
         "sin_fuente_candidata",
-        "sin_extraccion",
-        "sin_documento_municipal_verificado"
+        "sin_extraccion"
       ],
       "coverage_complete": false
     },
@@ -813,7 +807,7 @@
       "extracted_verified_pdfs": 0,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 24,
+      "existing_verified_records": 25,
       "unresolved_documents": 0,
       "gaps": [
         "sin_fuente_candidata",
@@ -831,12 +825,11 @@
       "extracted_verified_pdfs": 0,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
         "sin_fuente_candidata",
-        "sin_extraccion",
-        "sin_documento_municipal_verificado"
+        "sin_extraccion"
       ],
       "coverage_complete": false
     },
@@ -850,7 +843,7 @@
       "extracted_verified_pdfs": 15,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 15,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -901,11 +894,9 @@
       "extracted_verified_pdfs": 0,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
-      "gaps": [
-        "sin_documento_municipal_verificado"
-      ],
+      "gaps": [],
       "coverage_complete": false
     },
     {
@@ -918,12 +909,11 @@
       "extracted_verified_pdfs": 0,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 3,
       "unresolved_documents": 0,
       "gaps": [
         "sin_fuente_candidata",
-        "sin_extraccion",
-        "sin_documento_municipal_verificado"
+        "sin_extraccion"
       ],
       "coverage_complete": false
     },
@@ -937,11 +927,9 @@
       "extracted_verified_pdfs": 0,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
-      "gaps": [
-        "sin_documento_municipal_verificado"
-      ],
+      "gaps": [],
       "coverage_complete": false
     },
     {
@@ -973,7 +961,7 @@
       "extracted_verified_pdfs": 4,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 6,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -1045,7 +1033,7 @@
       "extracted_verified_pdfs": 5,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 6,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -1062,7 +1050,7 @@
       "extracted_verified_pdfs": 6,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 6,
       "unresolved_documents": 9,
       "gaps": [
         "listado_no_agotado",
@@ -1081,7 +1069,7 @@
       "extracted_verified_pdfs": 2,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 2,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -1117,7 +1105,7 @@
       "extracted_verified_pdfs": 1,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
         "listado_no_agotado",
@@ -1154,7 +1142,7 @@
       "extracted_verified_pdfs": 7,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 7,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -1188,7 +1176,7 @@
       "extracted_verified_pdfs": 2,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -1205,12 +1193,11 @@
       "extracted_verified_pdfs": 0,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
         "sin_fuente_candidata",
-        "sin_extraccion",
-        "sin_documento_municipal_verificado"
+        "sin_extraccion"
       ],
       "coverage_complete": false
     },
@@ -1390,7 +1377,7 @@
       "extracted_verified_pdfs": 24,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 24,
       "unresolved_documents": 1,
       "gaps": [
         "documentos_sin_resolver",
@@ -1443,7 +1430,7 @@
       "extracted_verified_pdfs": 42,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 42,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -1478,12 +1465,11 @@
       "extracted_verified_pdfs": 0,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
         "sin_fuente_candidata",
-        "sin_extraccion",
-        "sin_documento_municipal_verificado"
+        "sin_extraccion"
       ],
       "coverage_complete": false
     },
@@ -1514,7 +1500,7 @@
       "extracted_verified_pdfs": 15,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 15,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -1550,7 +1536,7 @@
       "extracted_verified_pdfs": 15,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 15,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -1586,7 +1572,7 @@
       "extracted_verified_pdfs": 9,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 9,
       "unresolved_documents": 4,
       "gaps": [
         "documentos_sin_resolver",
@@ -1643,7 +1629,7 @@
       "extracted_verified_pdfs": 2,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 2,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -1677,12 +1663,11 @@
       "extracted_verified_pdfs": 0,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 2,
       "unresolved_documents": 0,
       "gaps": [
         "sin_fuente_candidata",
-        "sin_extraccion",
-        "sin_documento_municipal_verificado"
+        "sin_extraccion"
       ],
       "coverage_complete": false
     },
@@ -1715,7 +1700,7 @@
       "extracted_verified_pdfs": 2,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 2,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -1732,7 +1717,7 @@
       "extracted_verified_pdfs": 3,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 3,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -1844,7 +1829,7 @@
       "extracted_verified_pdfs": 1,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -1861,7 +1846,7 @@
       "extracted_verified_pdfs": 11,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 12,
       "unresolved_documents": 0,
       "gaps": [
         "listado_no_agotado",
@@ -1879,7 +1864,7 @@
       "extracted_verified_pdfs": 4,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 4,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -1896,7 +1881,7 @@
       "extracted_verified_pdfs": 22,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 22,
       "unresolved_documents": 2,
       "gaps": [
         "documentos_sin_resolver",
@@ -1914,13 +1899,12 @@
       "extracted_verified_pdfs": 0,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 44,
       "unresolved_documents": 0,
       "gaps": [
         "sitio_institucional_no_verificado",
         "sin_fuente_candidata",
-        "sin_extraccion",
-        "sin_documento_municipal_verificado"
+        "sin_extraccion"
       ],
       "coverage_complete": false
     },
@@ -1953,7 +1937,7 @@
       "extracted_verified_pdfs": 10,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 10,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -1970,7 +1954,7 @@
       "extracted_verified_pdfs": 3,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 6,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -2006,7 +1990,7 @@
       "extracted_verified_pdfs": 2,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 2,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -2023,7 +2007,7 @@
       "extracted_verified_pdfs": 1,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -2040,7 +2024,7 @@
       "extracted_verified_pdfs": 13,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 13,
       "unresolved_documents": 2,
       "gaps": [
         "listado_no_agotado",
@@ -2153,7 +2137,7 @@
       "extracted_verified_pdfs": 13,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 13,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -2170,7 +2154,7 @@
       "extracted_verified_pdfs": 6,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 6,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -2187,7 +2171,7 @@
       "extracted_verified_pdfs": 15,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 14,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -2204,7 +2188,7 @@
       "extracted_verified_pdfs": 20,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 19,
       "unresolved_documents": 0,
       "gaps": [
         "listado_no_agotado",
@@ -2222,7 +2206,7 @@
       "extracted_verified_pdfs": 5,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 5,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -2239,12 +2223,11 @@
       "extracted_verified_pdfs": 0,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
         "sin_fuente_candidata",
-        "sin_extraccion",
-        "sin_documento_municipal_verificado"
+        "sin_extraccion"
       ],
       "coverage_complete": false
     },
@@ -2258,7 +2241,7 @@
       "extracted_verified_pdfs": 1,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -2293,11 +2276,9 @@
       "extracted_verified_pdfs": 0,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
-      "gaps": [
-        "sin_documento_municipal_verificado"
-      ],
+      "gaps": [],
       "coverage_complete": false
     },
     {
@@ -2328,12 +2309,11 @@
       "extracted_verified_pdfs": 0,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 4,
       "unresolved_documents": 0,
       "gaps": [
         "sin_fuente_candidata",
-        "sin_extraccion",
-        "sin_documento_municipal_verificado"
+        "sin_extraccion"
       ],
       "coverage_complete": false
     },
@@ -2366,7 +2346,7 @@
       "extracted_verified_pdfs": 3,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 3,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -2383,7 +2363,7 @@
       "extracted_verified_pdfs": 1,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -2417,7 +2397,7 @@
       "extracted_verified_pdfs": 2,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 6,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -2454,7 +2434,7 @@
       "extracted_verified_pdfs": 15,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 8,
+      "existing_verified_records": 17,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -2567,7 +2547,7 @@
       "extracted_verified_pdfs": 3,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 2,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -2603,7 +2583,7 @@
       "extracted_verified_pdfs": 1,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -2639,12 +2619,11 @@
       "extracted_verified_pdfs": 0,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
         "sin_fuente_candidata",
-        "sin_extraccion",
-        "sin_documento_municipal_verificado"
+        "sin_extraccion"
       ],
       "coverage_complete": false
     },
@@ -2658,13 +2637,12 @@
       "extracted_verified_pdfs": 0,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 3,
       "unresolved_documents": 0,
       "gaps": [
         "sitio_institucional_no_verificado",
         "sin_fuente_candidata",
-        "sin_extraccion",
-        "sin_documento_municipal_verificado"
+        "sin_extraccion"
       ],
       "coverage_complete": false
     },
@@ -2697,7 +2675,7 @@
       "extracted_verified_pdfs": 2,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 2,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -2791,7 +2769,7 @@
       "extracted_verified_pdfs": 1,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
         "listado_no_agotado",
@@ -2809,7 +2787,7 @@
       "extracted_verified_pdfs": 8,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 6,
       "unresolved_documents": 6,
       "gaps": [
         "listado_no_agotado",
@@ -2943,7 +2921,7 @@
       "extracted_verified_pdfs": 15,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 15,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -2960,12 +2938,11 @@
       "extracted_verified_pdfs": 0,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
         "sin_fuente_candidata",
-        "sin_extraccion",
-        "sin_documento_municipal_verificado"
+        "sin_extraccion"
       ],
       "coverage_complete": false
     },
@@ -2996,7 +2973,7 @@
       "extracted_verified_pdfs": 8,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 8,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -3033,7 +3010,7 @@
       "extracted_verified_pdfs": 5,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 5,
       "unresolved_documents": 0,
       "gaps": [
         "listado_no_agotado",
@@ -3051,7 +3028,7 @@
       "extracted_verified_pdfs": 2,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 2,
       "unresolved_documents": 2,
       "gaps": [
         "documentos_sin_resolver",
@@ -3069,7 +3046,7 @@
       "extracted_verified_pdfs": 1,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 4,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -3106,7 +3083,7 @@
       "extracted_verified_pdfs": 7,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 7,
       "unresolved_documents": 7,
       "gaps": [
         "listado_no_agotado",
@@ -3162,7 +3139,7 @@
       "extracted_verified_pdfs": 39,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
         "listado_no_agotado",
@@ -3198,7 +3175,7 @@
       "extracted_verified_pdfs": 2,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 2,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -3272,7 +3249,7 @@
       "extracted_verified_pdfs": 0,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 1,
+      "existing_verified_records": 2,
       "unresolved_documents": 0,
       "gaps": [
         "sin_fuente_candidata",
@@ -3290,7 +3267,7 @@
       "extracted_verified_pdfs": 15,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 15,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -3424,13 +3401,12 @@
       "extracted_verified_pdfs": 0,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 3,
       "unresolved_documents": 0,
       "gaps": [
         "sitio_institucional_no_verificado",
         "sin_fuente_candidata",
-        "sin_extraccion",
-        "sin_documento_municipal_verificado"
+        "sin_extraccion"
       ],
       "coverage_complete": false
     },
@@ -3444,7 +3420,7 @@
       "extracted_verified_pdfs": 1,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -3461,7 +3437,7 @@
       "extracted_verified_pdfs": 12,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 12,
       "unresolved_documents": 3,
       "gaps": [
         "documentos_sin_resolver",
@@ -3537,12 +3513,11 @@
       "extracted_verified_pdfs": 0,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
         "sin_fuente_candidata",
-        "sin_extraccion",
-        "sin_documento_municipal_verificado"
+        "sin_extraccion"
       ],
       "coverage_complete": false
     },
@@ -3576,13 +3551,12 @@
       "extracted_verified_pdfs": 0,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
         "sitio_institucional_no_verificado",
         "sin_fuente_candidata",
-        "sin_extraccion",
-        "sin_documento_municipal_verificado"
+        "sin_extraccion"
       ],
       "coverage_complete": false
     },
@@ -3596,7 +3570,7 @@
       "extracted_verified_pdfs": 14,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 14,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -3613,7 +3587,7 @@
       "extracted_verified_pdfs": 6,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 6,
       "unresolved_documents": 0,
       "gaps": [
         "listado_no_agotado",
@@ -3723,7 +3697,7 @@
       "extracted_verified_pdfs": 24,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 24,
       "unresolved_documents": 2,
       "gaps": [
         "documentos_sin_resolver",
@@ -3741,7 +3715,7 @@
       "extracted_verified_pdfs": 6,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 9,
       "unresolved_documents": 0,
       "gaps": [
         "listado_no_agotado",
@@ -3776,12 +3750,11 @@
       "extracted_verified_pdfs": 0,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
         "sin_fuente_candidata",
-        "sin_extraccion",
-        "sin_documento_municipal_verificado"
+        "sin_extraccion"
       ],
       "coverage_complete": false
     },
@@ -3795,11 +3768,9 @@
       "extracted_verified_pdfs": 0,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
-      "gaps": [
-        "sin_documento_municipal_verificado"
-      ],
+      "gaps": [],
       "coverage_complete": false
     },
     {
@@ -3812,7 +3783,7 @@
       "extracted_verified_pdfs": 1,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -3829,7 +3800,7 @@
       "extracted_verified_pdfs": 1,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 3,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -3846,7 +3817,7 @@
       "extracted_verified_pdfs": 1,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -3863,7 +3834,7 @@
       "extracted_verified_pdfs": 7,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 7,
       "unresolved_documents": 0,
       "gaps": [
         "listado_no_agotado",
@@ -3899,7 +3870,7 @@
       "extracted_verified_pdfs": 1,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -3916,7 +3887,7 @@
       "extracted_verified_pdfs": 21,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 21,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -3953,7 +3924,7 @@
       "extracted_verified_pdfs": 1,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -4006,7 +3977,7 @@
       "extracted_verified_pdfs": 1,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -4023,7 +3994,7 @@
       "extracted_verified_pdfs": 5,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 5,
       "unresolved_documents": 0,
       "gaps": [
         "listado_no_agotado",
@@ -4078,12 +4049,11 @@
       "extracted_verified_pdfs": 0,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
         "sin_fuente_candidata",
-        "sin_extraccion",
-        "sin_documento_municipal_verificado"
+        "sin_extraccion"
       ],
       "coverage_complete": false
     },
@@ -4116,7 +4086,7 @@
       "extracted_verified_pdfs": 4,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 4,
       "unresolved_documents": 0,
       "gaps": [
         "listado_no_agotado",
@@ -4187,7 +4157,7 @@
       "extracted_verified_pdfs": 17,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 17,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -4240,7 +4210,7 @@
       "extracted_verified_pdfs": 3,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 2,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -4257,7 +4227,7 @@
       "extracted_verified_pdfs": 4,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 4,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -4292,12 +4262,11 @@
       "extracted_verified_pdfs": 0,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
         "sin_fuente_candidata",
-        "sin_extraccion",
-        "sin_documento_municipal_verificado"
+        "sin_extraccion"
       ],
       "coverage_complete": false
     },
@@ -4311,12 +4280,11 @@
       "extracted_verified_pdfs": 0,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
         "sin_fuente_candidata",
-        "sin_extraccion",
-        "sin_documento_municipal_verificado"
+        "sin_extraccion"
       ],
       "coverage_complete": false
     },
@@ -4330,12 +4298,11 @@
       "extracted_verified_pdfs": 0,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
         "sin_fuente_candidata",
-        "sin_extraccion",
-        "sin_documento_municipal_verificado"
+        "sin_extraccion"
       ],
       "coverage_complete": false
     },
@@ -4349,12 +4316,11 @@
       "extracted_verified_pdfs": 0,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
         "sin_fuente_candidata",
-        "sin_extraccion",
-        "sin_documento_municipal_verificado"
+        "sin_extraccion"
       ],
       "coverage_complete": false
     },
@@ -4368,11 +4334,9 @@
       "extracted_verified_pdfs": 0,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 4,
       "unresolved_documents": 0,
-      "gaps": [
-        "sin_documento_municipal_verificado"
-      ],
+      "gaps": [],
       "coverage_complete": false
     },
     {
@@ -4385,7 +4349,7 @@
       "extracted_verified_pdfs": 3,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 3,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -4402,7 +4366,7 @@
       "extracted_verified_pdfs": 1,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 2,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -4419,7 +4383,7 @@
       "extracted_verified_pdfs": 6,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 6,
       "unresolved_documents": 0,
       "gaps": [
         "listado_no_agotado",
@@ -4437,7 +4401,7 @@
       "extracted_verified_pdfs": 3,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 3,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -4473,12 +4437,11 @@
       "extracted_verified_pdfs": 0,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 9,
       "unresolved_documents": 0,
       "gaps": [
         "sin_fuente_candidata",
-        "sin_extraccion",
-        "sin_documento_municipal_verificado"
+        "sin_extraccion"
       ],
       "coverage_complete": false
     },
@@ -4492,7 +4455,7 @@
       "extracted_verified_pdfs": 15,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 15,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -4509,7 +4472,7 @@
       "extracted_verified_pdfs": 11,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 11,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -4526,11 +4489,9 @@
       "extracted_verified_pdfs": 0,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 8,
       "unresolved_documents": 0,
-      "gaps": [
-        "sin_documento_municipal_verificado"
-      ],
+      "gaps": [],
       "coverage_complete": false
     },
     {
@@ -4562,13 +4523,12 @@
       "extracted_verified_pdfs": 0,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 3,
       "unresolved_documents": 0,
       "gaps": [
         "sitio_institucional_no_verificado",
         "sin_fuente_candidata",
-        "sin_extraccion",
-        "sin_documento_municipal_verificado"
+        "sin_extraccion"
       ],
       "coverage_complete": false
     },
@@ -4602,7 +4562,7 @@
       "extracted_verified_pdfs": 3,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 3,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -4619,7 +4579,7 @@
       "extracted_verified_pdfs": 15,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 15,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -4672,7 +4632,7 @@
       "extracted_verified_pdfs": 1,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -4837,7 +4797,7 @@
       "extracted_verified_pdfs": 1,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
         "listado_no_agotado",
@@ -4872,7 +4832,7 @@
       "extracted_verified_pdfs": 15,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 15,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -4889,7 +4849,7 @@
       "extracted_verified_pdfs": 8,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 12,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -4906,7 +4866,7 @@
       "extracted_verified_pdfs": 1,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -4923,7 +4883,7 @@
       "extracted_verified_pdfs": 1,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -4940,7 +4900,7 @@
       "extracted_verified_pdfs": 2,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 2,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -4957,7 +4917,7 @@
       "extracted_verified_pdfs": 15,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 14,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -4974,7 +4934,7 @@
       "extracted_verified_pdfs": 1,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -5030,7 +4990,7 @@
       "extracted_verified_pdfs": 16,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 16,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -5047,7 +5007,7 @@
       "extracted_verified_pdfs": 14,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 5,
       "unresolved_documents": 1,
       "gaps": [
         "listado_no_agotado",
@@ -5066,7 +5026,7 @@
       "extracted_verified_pdfs": 1,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -5102,7 +5062,7 @@
       "extracted_verified_pdfs": 1,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -5119,7 +5079,7 @@
       "extracted_verified_pdfs": 15,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 15,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -5155,7 +5115,7 @@
       "extracted_verified_pdfs": 13,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 13,
       "unresolved_documents": 285,
       "gaps": [
         "documentos_sin_resolver",
@@ -5192,12 +5152,11 @@
       "extracted_verified_pdfs": 0,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
         "sin_fuente_candidata",
-        "sin_extraccion",
-        "sin_documento_municipal_verificado"
+        "sin_extraccion"
       ],
       "coverage_complete": false
     },
@@ -5211,7 +5170,7 @@
       "extracted_verified_pdfs": 1,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -5247,7 +5206,7 @@
       "extracted_verified_pdfs": 9,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 10,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -5282,7 +5241,7 @@
       "extracted_verified_pdfs": 3,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 3,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -5316,11 +5275,9 @@
       "extracted_verified_pdfs": 0,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
-      "gaps": [
-        "sin_documento_municipal_verificado"
-      ],
+      "gaps": [],
       "coverage_complete": false
     },
     {
@@ -5333,7 +5290,7 @@
       "extracted_verified_pdfs": 1,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -5370,7 +5327,7 @@
       "extracted_verified_pdfs": 33,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 32,
       "unresolved_documents": 1,
       "gaps": [
         "listado_no_agotado",
@@ -5427,7 +5384,7 @@
       "extracted_verified_pdfs": 1,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -5463,7 +5420,7 @@
       "extracted_verified_pdfs": 1,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 3,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -5499,7 +5456,7 @@
       "extracted_verified_pdfs": 1,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 2,
       "gaps": [
         "listado_no_agotado",
@@ -5627,7 +5584,7 @@
       "extracted_verified_pdfs": 15,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 15,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -5663,7 +5620,7 @@
       "extracted_verified_pdfs": 1,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -5680,12 +5637,11 @@
       "extracted_verified_pdfs": 0,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
         "sin_fuente_candidata",
-        "sin_extraccion",
-        "sin_documento_municipal_verificado"
+        "sin_extraccion"
       ],
       "coverage_complete": false
     },
@@ -5699,13 +5655,12 @@
       "extracted_verified_pdfs": 0,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 2,
       "unresolved_documents": 0,
       "gaps": [
         "sitio_institucional_no_verificado",
         "sin_fuente_candidata",
-        "sin_extraccion",
-        "sin_documento_municipal_verificado"
+        "sin_extraccion"
       ],
       "coverage_complete": false
     },
@@ -5737,7 +5692,7 @@
       "extracted_verified_pdfs": 84,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 84,
       "unresolved_documents": 3,
       "gaps": [
         "listado_no_agotado",
@@ -5813,12 +5768,11 @@
       "extracted_verified_pdfs": 0,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 17,
       "unresolved_documents": 0,
       "gaps": [
         "sin_fuente_candidata",
-        "sin_extraccion",
-        "sin_documento_municipal_verificado"
+        "sin_extraccion"
       ],
       "coverage_complete": false
     },
@@ -5909,7 +5863,7 @@
       "extracted_verified_pdfs": 3,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 3,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -5944,7 +5898,7 @@
       "extracted_verified_pdfs": 2,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 2,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -6017,11 +5971,10 @@
       "extracted_verified_pdfs": 0,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
-        "listado_no_agotado",
-        "sin_documento_municipal_verificado"
+        "listado_no_agotado"
       ],
       "coverage_complete": false
     },
@@ -6054,7 +6007,7 @@
       "extracted_verified_pdfs": 3,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 3,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -6071,7 +6024,7 @@
       "extracted_verified_pdfs": 2,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -6126,7 +6079,7 @@
       "extracted_verified_pdfs": 2,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
         "listado_no_agotado",
@@ -6144,7 +6097,7 @@
       "extracted_verified_pdfs": 3,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 3,
       "unresolved_documents": 0,
       "gaps": [
         "listado_no_agotado",
@@ -6162,12 +6115,11 @@
       "extracted_verified_pdfs": 0,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 4,
       "unresolved_documents": 0,
       "gaps": [
         "sin_fuente_candidata",
-        "sin_extraccion",
-        "sin_documento_municipal_verificado"
+        "sin_extraccion"
       ],
       "coverage_complete": false
     },
@@ -6181,7 +6133,7 @@
       "extracted_verified_pdfs": 15,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 8,
       "unresolved_documents": 0,
       "gaps": [
         "sin_clasificacion_juridica_local"
@@ -6217,11 +6169,10 @@
       "extracted_verified_pdfs": 0,
       "lm_classified_ordinances": 0,
       "lm_rejected_documents": 0,
-      "existing_verified_records": 0,
+      "existing_verified_records": 1,
       "unresolved_documents": 0,
       "gaps": [
-        "listado_no_agotado",
-        "sin_documento_municipal_verificado"
+        "listado_no_agotado"
       ],
       "coverage_complete": false
     },
