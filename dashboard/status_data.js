@@ -4,7 +4,7 @@ window.CATASTRO_DATA = {
     "total_comunas": 346,
     "comunas_con_datos": 346,
     "total_regiones": 16,
-    "total_ordenanzas": 7321,
+    "total_ordenanzas": 7342,
     "ordenanzas_bcn": 5881,
     "ordenanzas_cplt": 0,
     "pdfs_descargados": 0,
@@ -13,9 +13,9 @@ window.CATASTRO_DATA = {
       "bloqueos_ip": 0,
       "user_agents_rotados": 12
     },
-    "ordenanzas_municipales_verificadas": 1440,
+    "ordenanzas_municipales_verificadas": 1461,
     "cplt_en_cuarentena": 0,
-    "cobertura_nacional_pct": 100
+    "cobertura_nacional_pct": 100.0
   },
   "regiones": [
     {
@@ -471,7 +471,7 @@ window.CATASTRO_DATA = {
       "total_count": 39,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU012",
@@ -1019,7 +1019,7 @@ window.CATASTRO_DATA = {
       "total_count": 8,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2019-03-12",
       "ordenanzas": [
         {
           "cplt_code": "MU_camarones",
@@ -1145,7 +1145,7 @@ window.CATASTRO_DATA = {
       "total_count": 4,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU_putre",
@@ -1219,7 +1219,7 @@ window.CATASTRO_DATA = {
       "total_count": 4,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "1987-01-27",
       "ordenanzas": [
         {
           "id": 337,
@@ -1294,7 +1294,7 @@ window.CATASTRO_DATA = {
       "total_count": 85,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU112",
@@ -2724,7 +2724,7 @@ window.CATASTRO_DATA = {
       "total_count": 29,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU005",
@@ -3242,7 +3242,7 @@ window.CATASTRO_DATA = {
       "total_count": 7,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "1994-06-09",
       "ordenanzas": [
         {
           "id": 794,
@@ -3368,7 +3368,7 @@ window.CATASTRO_DATA = {
       "total_count": 3,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2018-05-24",
       "ordenanzas": [
         {
           "cplt_code": "MU_camina",
@@ -3439,7 +3439,7 @@ window.CATASTRO_DATA = {
       "total_count": 4,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2011-03-01",
       "ordenanzas": [
         {
           "id": 148,
@@ -3511,13 +3511,13 @@ window.CATASTRO_DATA = {
       "total_count": 11,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2089-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU107",
           "fuente": "Municipalidad",
           "numero": "2089",
-          "fecha": "2026-08-30",
+          "fecha": "2089-01-01",
           "titulo": "Ordenanza Municipal de HUARA — D. EXENTO N° 2089 APROBACION ORDENANZA N°9 PERMISOS TEMPORALES AFECTOS DE PAGO FERIA AGROPRODUCTIVA TURISTICA Y CULTURAL EXPO HUARA 2026 1",
           "materia": "Derechos Municipales y Tarifas",
           "materia_id": "derechos_tarifas",
@@ -3748,7 +3748,7 @@ window.CATASTRO_DATA = {
       "total_count": 8,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2004-07-15",
       "ordenanzas": [
         {
           "id": 779,
@@ -3878,7 +3878,7 @@ window.CATASTRO_DATA = {
       "total_count": 55,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU009",
@@ -4810,7 +4810,7 @@ window.CATASTRO_DATA = {
       "total_count": 16,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2024-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU_AUTO",
@@ -5057,7 +5057,7 @@ window.CATASTRO_DATA = {
       "total_count": 12,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2011-10-04",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -5230,7 +5230,7 @@ window.CATASTRO_DATA = {
       "total_count": 7,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU314",
@@ -5355,7 +5355,7 @@ window.CATASTRO_DATA = {
       "total_count": 45,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU019",
@@ -6107,7 +6107,7 @@ window.CATASTRO_DATA = {
       "total_count": 21,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU189",
@@ -6493,7 +6493,7 @@ window.CATASTRO_DATA = {
       "total_count": 37,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU298",
@@ -7104,7 +7104,7 @@ window.CATASTRO_DATA = {
       "total_count": 15,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2000-12-30",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -7337,7 +7337,7 @@ window.CATASTRO_DATA = {
       "total_count": 16,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU166",
@@ -7611,7 +7611,7 @@ window.CATASTRO_DATA = {
       "total_count": 16,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2005-02-16",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -7863,7 +7863,7 @@ window.CATASTRO_DATA = {
       "total_count": 20,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2021-09-21",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -8152,7 +8152,7 @@ window.CATASTRO_DATA = {
       "total_count": 7,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2020-05-08",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -8260,7 +8260,7 @@ window.CATASTRO_DATA = {
       "total_count": 6,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU038",
@@ -8360,7 +8360,7 @@ window.CATASTRO_DATA = {
       "total_count": 14,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2020-06-06",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -8564,7 +8564,7 @@ window.CATASTRO_DATA = {
       "total_count": 51,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2020-02-20",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -9274,7 +9274,7 @@ window.CATASTRO_DATA = {
       "total_count": 13,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2021-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU004",
@@ -9511,7 +9511,7 @@ window.CATASTRO_DATA = {
       "total_count": 5,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2019-11-04",
       "ordenanzas": [
         {
           "cplt_code": "MU092",
@@ -9618,7 +9618,7 @@ window.CATASTRO_DATA = {
       "total_count": 16,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU108",
@@ -9864,7 +9864,7 @@ window.CATASTRO_DATA = {
       "total_count": 72,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2021-06-11",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -10829,7 +10829,7 @@ window.CATASTRO_DATA = {
       "total_count": 14,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2010-04-09",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -11034,7 +11034,7 @@ window.CATASTRO_DATA = {
       "total_count": 6,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2009-09-15",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -11132,7 +11132,7 @@ window.CATASTRO_DATA = {
       "total_count": 7,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU122",
@@ -11277,7 +11277,7 @@ window.CATASTRO_DATA = {
       "total_count": 3,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2017-02-14",
       "ordenanzas": [
         {
           "cplt_code": "MU_paiguano",
@@ -11348,7 +11348,7 @@ window.CATASTRO_DATA = {
       "total_count": 14,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2012-07-19",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -11547,7 +11547,7 @@ window.CATASTRO_DATA = {
       "total_count": 25,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU110",
@@ -11908,7 +11908,7 @@ window.CATASTRO_DATA = {
       "total_count": 9,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2024-06-18",
       "ordenanzas": [
         {
           "cplt_code": "MU_canela",
@@ -12047,7 +12047,7 @@ window.CATASTRO_DATA = {
       "total_count": 10,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2010-07-08",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -12194,7 +12194,7 @@ window.CATASTRO_DATA = {
       "total_count": 15,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2004-01-29",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -12430,7 +12430,7 @@ window.CATASTRO_DATA = {
       "total_count": 59,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2016-04-25",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -13220,7 +13220,7 @@ window.CATASTRO_DATA = {
       "total_count": 8,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2020-02-22",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -13344,7 +13344,7 @@ window.CATASTRO_DATA = {
       "total_count": 13,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2014-11-26",
       "ordenanzas": [
         {
           "id": 638,
@@ -13557,7 +13557,7 @@ window.CATASTRO_DATA = {
       "total_count": 4,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2011-01-05",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -13641,7 +13641,7 @@ window.CATASTRO_DATA = {
       "total_count": 25,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU272",
@@ -14095,7 +14095,7 @@ window.CATASTRO_DATA = {
       "total_count": 29,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU332",
@@ -14513,7 +14513,7 @@ window.CATASTRO_DATA = {
       "total_count": 6,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU030",
@@ -14629,7 +14629,7 @@ window.CATASTRO_DATA = {
       "total_count": 11,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU063",
@@ -14842,7 +14842,7 @@ window.CATASTRO_DATA = {
       "total_count": 4,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2003-03-21",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -14914,7 +14914,7 @@ window.CATASTRO_DATA = {
       "total_count": 23,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU229",
@@ -15363,7 +15363,7 @@ window.CATASTRO_DATA = {
       "total_count": 12,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2007-12-29",
       "ordenanzas": [
         {
           "id": 1160,
@@ -15536,7 +15536,7 @@ window.CATASTRO_DATA = {
       "total_count": 49,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU_vina del mar",
@@ -16347,7 +16347,7 @@ window.CATASTRO_DATA = {
       "total_count": 14,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2021-12-01",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -16546,7 +16546,7 @@ window.CATASTRO_DATA = {
       "total_count": 41,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2012-11-30",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -17147,7 +17147,7 @@ window.CATASTRO_DATA = {
       "total_count": 8,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2020-01-09",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -17271,7 +17271,7 @@ window.CATASTRO_DATA = {
       "total_count": 7,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2022-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU269",
@@ -17384,7 +17384,7 @@ window.CATASTRO_DATA = {
       "total_count": 10,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2003-12-29",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -17534,7 +17534,7 @@ window.CATASTRO_DATA = {
       "total_count": 10,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2021-08-12",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -17681,7 +17681,7 @@ window.CATASTRO_DATA = {
       "total_count": 30,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU016",
@@ -18269,7 +18269,7 @@ window.CATASTRO_DATA = {
       "total_count": 7,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2010-10-20",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -18377,7 +18377,7 @@ window.CATASTRO_DATA = {
       "total_count": 17,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2018-12-28",
       "ordenanzas": [
         {
           "cplt_code": "MU_petorca",
@@ -18620,7 +18620,7 @@ window.CATASTRO_DATA = {
       "total_count": 37,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2023-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU_AUTO",
@@ -19245,13 +19245,13 @@ window.CATASTRO_DATA = {
       "total_count": 52,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2050-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU253",
           "fuente": "Municipalidad",
           "numero": "5912",
-          "fecha": "2026-08-30",
+          "fecha": "2050-01-01",
           "titulo": "Ordenanza Municipal de QUILLOTA — DECRETO 5912 Ac 50 Ac 398 ORDENANZA MUNICIPAL AREAS VERDES Y ORNATO",
           "materia": "Normativa General y Otras Materias",
           "materia_id": "general",
@@ -20082,7 +20082,7 @@ window.CATASTRO_DATA = {
       "total_count": 33,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2016-05-18",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -20540,7 +20540,7 @@ window.CATASTRO_DATA = {
       "total_count": 17,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU102",
@@ -20872,13 +20872,13 @@ window.CATASTRO_DATA = {
       "total_count": 35,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2066-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU118",
           "fuente": "Municipalidad",
           "numero": "24",
-          "fecha": "2024-10-24",
+          "fecha": "2066-01-01",
           "titulo": "Ordenanza Municipal de LA CRUZ — DA 2066 24 10 24 Texto Refundido Ordenanza de Derechos Municipales",
           "materia": "Derechos Municipales y Tarifas",
           "materia_id": "derechos_tarifas",
@@ -21445,7 +21445,7 @@ window.CATASTRO_DATA = {
       "total_count": 13,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2022-05-03",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -21637,7 +21637,7 @@ window.CATASTRO_DATA = {
       "total_count": 20,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2025-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU280",
@@ -21955,7 +21955,7 @@ window.CATASTRO_DATA = {
       "total_count": 18,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2022-12-15",
       "ordenanzas": [
         {
           "cplt_code": "MU_algarrobo",
@@ -22211,7 +22211,7 @@ window.CATASTRO_DATA = {
       "total_count": 11,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2004-04-07",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -22371,7 +22371,7 @@ window.CATASTRO_DATA = {
       "total_count": 52,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU_AUTO",
@@ -23373,7 +23373,7 @@ window.CATASTRO_DATA = {
       "total_count": 5,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2008-03-15",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -23455,7 +23455,7 @@ window.CATASTRO_DATA = {
       "total_count": 25,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU309",
@@ -23914,7 +23914,7 @@ window.CATASTRO_DATA = {
       "total_count": 46,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU286",
@@ -24600,7 +24600,7 @@ window.CATASTRO_DATA = {
       "total_count": 18,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2019-03-07",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -24864,7 +24864,7 @@ window.CATASTRO_DATA = {
       "total_count": 16,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2025-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU143",
@@ -25094,7 +25094,7 @@ window.CATASTRO_DATA = {
       "total_count": 24,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2016-09-16",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -25423,7 +25423,7 @@ window.CATASTRO_DATA = {
       "total_count": 14,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU243",
@@ -25652,7 +25652,7 @@ window.CATASTRO_DATA = {
       "total_count": 20,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "1999-10-25",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -25950,7 +25950,7 @@ window.CATASTRO_DATA = {
       "total_count": 39,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2021-08-11",
       "ordenanzas": [
         {
           "id": 1156,
@@ -26585,7 +26585,7 @@ window.CATASTRO_DATA = {
       "total_count": 14,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2025-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU_limache",
@@ -26813,7 +26813,7 @@ window.CATASTRO_DATA = {
       "total_count": 11,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2017-10-26",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -26978,7 +26978,7 @@ window.CATASTRO_DATA = {
       "total_count": 58,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2019-05-20",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -27749,7 +27749,7 @@ window.CATASTRO_DATA = {
       "total_count": 142,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-05-13",
       "ordenanzas": [
         {
           "cplt_code": "MU308",
@@ -29817,7 +29817,7 @@ window.CATASTRO_DATA = {
       "total_count": 50,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU034",
@@ -30532,7 +30532,7 @@ window.CATASTRO_DATA = {
       "total_count": 23,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU035",
@@ -30873,7 +30873,7 @@ window.CATASTRO_DATA = {
       "total_count": 56,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2009-04-29",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -31618,7 +31618,7 @@ window.CATASTRO_DATA = {
       "total_count": 13,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2005-05-27",
       "ordenanzas": [
         {
           "id": 308,
@@ -31834,7 +31834,7 @@ window.CATASTRO_DATA = {
       "total_count": 18,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2019-08-07",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -32109,7 +32109,7 @@ window.CATASTRO_DATA = {
       "total_count": 8,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2011-03-31",
       "ordenanzas": [
         {
           "id": 363,
@@ -32245,7 +32245,7 @@ window.CATASTRO_DATA = {
       "total_count": 28,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU111",
@@ -32643,7 +32643,7 @@ window.CATASTRO_DATA = {
       "total_count": 8,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2004-05-31",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -32767,7 +32767,7 @@ window.CATASTRO_DATA = {
       "total_count": 88,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU120",
@@ -34187,7 +34187,7 @@ window.CATASTRO_DATA = {
       "total_count": 86,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU121",
@@ -35477,7 +35477,7 @@ window.CATASTRO_DATA = {
       "total_count": 23,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU124",
@@ -35837,7 +35837,7 @@ window.CATASTRO_DATA = {
       "total_count": 64,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2023-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU_la reina",
@@ -36691,7 +36691,7 @@ window.CATASTRO_DATA = {
       "total_count": 124,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU135",
@@ -38453,7 +38453,7 @@ window.CATASTRO_DATA = {
       "total_count": 21,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2015-05-15",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -38752,7 +38752,7 @@ window.CATASTRO_DATA = {
       "total_count": 16,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2005-09-10",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -38998,7 +38998,7 @@ window.CATASTRO_DATA = {
       "total_count": 78,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2019-11-23",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -40029,13 +40029,13 @@ window.CATASTRO_DATA = {
       "total_count": 62,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2063-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU161",
           "fuente": "Municipalidad",
           "numero": "DOC-37E46F",
-          "fecha": "2026-08-30",
+          "fecha": "2063-01-01",
           "titulo": "Ordenanza Municipal de MACUL — AO 2063",
           "materia": "Normativa General y Otras Materias",
           "materia_id": "general",
@@ -41058,7 +41058,7 @@ window.CATASTRO_DATA = {
             "http_status": 200,
             "resolved_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2026/01/ordenanza-arbolado-urbano-2026.pdf",
             "content_type": "application/pdf",
-            "sha256": "5ab4b510701b0e8815d8cca23581453c864f6eeb8ace383befaba48d74788fb5",
+            "sha256": "5ab4b510701bcf5a228f44ff5303c7ea019a28864a7541f53f938084a77e5052",
             "bytes": 198390,
             "verified_at": "2026-09-25T08:00:00.000000+00:00"
           },
@@ -41079,7 +41079,7 @@ window.CATASTRO_DATA = {
             "http_status": 200,
             "resolved_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2025/11/ordenanza-local-derechos-por-permisos-25.pdf",
             "content_type": "application/pdf",
-            "sha256": "58036ac0420689d511766eed265ba9f757a9f563db3ac797244981dd9addefe6",
+            "sha256": "58036ac04206ca6cb5b85a3a71b29a1b63004e768fba2d28f0927e57c6b50e32",
             "bytes": 472229,
             "verified_at": "2026-09-25T08:00:00.000000+00:00"
           },
@@ -41100,7 +41100,7 @@ window.CATASTRO_DATA = {
             "http_status": 200,
             "resolved_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2025/11/ordenanza-exencion-de-basura-y-otros-25.pdf",
             "content_type": "application/pdf",
-            "sha256": "1446e35d4eda59fb93fba0906992f793d0f1aa750fc0c5ea0980fa98fc280fa9",
+            "sha256": "1446e35d4edae1f35f8e56230cf820dbd4b2ee7b2c5e533c3ba7189154ae9289",
             "bytes": 172036,
             "verified_at": "2026-09-25T08:00:00.000000+00:00"
           },
@@ -41121,7 +41121,7 @@ window.CATASTRO_DATA = {
             "http_status": 200,
             "resolved_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2025/06/ordenanza-25.pdf",
             "content_type": "application/pdf",
-            "sha256": "3c354f28ac8601c313293d747959fe21062780cb033b028ab5193bebacb1fec4",
+            "sha256": "3c354f28ac86ee9ea771fe95a703d9241fc3265578eeefb5d92e59101ff8002a",
             "bytes": 10426795,
             "verified_at": "2026-09-25T08:00:00.000000+00:00"
           },
@@ -41142,7 +41142,7 @@ window.CATASTRO_DATA = {
             "http_status": 200,
             "resolved_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2024/12/Ordenanza_derechos_permiso_24.pdf",
             "content_type": "application/pdf",
-            "sha256": "582268a4af18a7bb52985053a8b54d5c879de99196acd30dd2341375d15b7d21",
+            "sha256": "582268a4af182fe8144b2049e29a996dae8a7574b6aa649852f6b86f345c225a",
             "bytes": 6199046,
             "verified_at": "2026-09-25T08:00:00.000000+00:00"
           },
@@ -41163,7 +41163,7 @@ window.CATASTRO_DATA = {
             "http_status": 200,
             "resolved_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2024/11/Ordenanza_Patrimonio_Cultural_24.pdf",
             "content_type": "application/pdf",
-            "sha256": "760aa57417818049b60e630b80c0398c8381a2fd976f0ec308e3d640b71cf5a9",
+            "sha256": "760aa5741781284ba5458023544a4968b6b2faee44040da887e5944122d64f0b",
             "bytes": 152551,
             "verified_at": "2026-09-25T08:00:00.000000+00:00"
           },
@@ -41184,7 +41184,7 @@ window.CATASTRO_DATA = {
             "http_status": 200,
             "resolved_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2023/08/6013_nuevo_derecho_Ordenanza_local_23.pdf",
             "content_type": "application/pdf",
-            "sha256": "a0e8638ce1456e4faca86909ea523a568273bc51eaccf09b391274411d0c83ed",
+            "sha256": "a0e8638ce145eb38cb8db22137682cb3cf5975bb4fbce50529d2f2f70355f308",
             "bytes": 158969,
             "verified_at": "2026-09-25T08:00:00.000000+00:00"
           },
@@ -41205,7 +41205,7 @@ window.CATASTRO_DATA = {
             "http_status": 200,
             "resolved_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2023/05/Ordenanza_discapacidad.pdf",
             "content_type": "application/pdf",
-            "sha256": "d9ee953e3b7b9220a7335fff75076731b8e2992d8162169819858ae320fd56c9",
+            "sha256": "d9ee953e3b7b28f7481cf1535492d2bba34188b49ecb2d2f3c706ef8f2fce0a7",
             "bytes": 162084,
             "verified_at": "2026-09-25T08:00:00.000000+00:00"
           },
@@ -41226,7 +41226,7 @@ window.CATASTRO_DATA = {
             "http_status": 200,
             "resolved_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2023/04/2764_ordenanza_23.pdf",
             "content_type": "application/pdf",
-            "sha256": "56da875421fb79767ec606ccf6c105441b9621f4e4ba29926035f93cee934f4a",
+            "sha256": "56da875421fb4b62db94d01b191b7e4726eecab3ef2a5436c7cf65dddd93a027",
             "bytes": 172991,
             "verified_at": "2026-09-25T08:00:00.000000+00:00"
           },
@@ -41247,7 +41247,7 @@ window.CATASTRO_DATA = {
             "http_status": 200,
             "resolved_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2023/04/Ordenanza_Artezanos_23.pdf",
             "content_type": "application/pdf",
-            "sha256": "66f2753e2c809cbbf585169668a478ee103fa22acd6b9ae20eb9f8617eaece8f",
+            "sha256": "66f2753e2c803ea40864ee05e6b797a7d4ae3bf54bc496a7dd832e542cfb0fd2",
             "bytes": 162614,
             "verified_at": "2026-09-25T08:00:00.000000+00:00"
           },
@@ -41268,7 +41268,7 @@ window.CATASTRO_DATA = {
             "http_status": 200,
             "resolved_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2023/04/Ordenanza_Local_Productos_Farmaceuticos_23.pdf",
             "content_type": "application/pdf",
-            "sha256": "94f2f5d3f9c2a6fe2c8eceef8c2f764effd4ea465546c3933c4f256a0ec55f85",
+            "sha256": "94f2f5d3f9c2d1b590e88ba92cae6a4b13a17e089d816a7e025b68285514f085",
             "bytes": 155470,
             "verified_at": "2026-09-25T08:00:00.000000+00:00"
           },
@@ -41289,7 +41289,7 @@ window.CATASTRO_DATA = {
             "http_status": 200,
             "resolved_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2023/01/Ordenanza_314_.pdf",
             "content_type": "application/pdf",
-            "sha256": "29b6bdab4f3a2880f6197eda6353fe82588f924cc6769e826661f11c936b2368",
+            "sha256": "29b6bdab4f3a7fca5664188b39414e04733fa0f4e3c3b0649df16a75f1da3a97",
             "bytes": 3718144,
             "verified_at": "2026-09-25T08:00:00.000000+00:00"
           },
@@ -41310,7 +41310,7 @@ window.CATASTRO_DATA = {
             "http_status": 200,
             "resolved_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2023/01/Ordenanza_163.pdf",
             "content_type": "application/pdf",
-            "sha256": "75b713d7b4e86533ed906338ce856c46493f5a75667a6414c306853151e99e0b",
+            "sha256": "75b713d7b4e8574619f7278ca97a3cfaf03a9f0feae78dca2a845f483d9cb6e0",
             "bytes": 2771121,
             "verified_at": "2026-09-25T08:00:00.000000+00:00"
           },
@@ -41331,7 +41331,7 @@ window.CATASTRO_DATA = {
             "http_status": 200,
             "resolved_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2023/01/7590_modificacion_ordenanza_partic_ciudadana_22.pdf",
             "content_type": "application/pdf",
-            "sha256": "025d11e7e7a1f3805b581086b2b4c1ae83c8d91579c2b29a388a778f2296d1e8",
+            "sha256": "025d11e7e7a177fe9040db3824bb883bca95dd9dd4bc6642d2a454d4ff54ba29",
             "bytes": 2574371,
             "verified_at": "2026-09-25T08:00:00.000000+00:00"
           },
@@ -41352,7 +41352,7 @@ window.CATASTRO_DATA = {
             "http_status": 200,
             "resolved_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2022/07/3833_Ordenanza_local_sobre-actividad_comercial_via_publica.pdf",
             "content_type": "application/pdf",
-            "sha256": "7e88576d51659292041d108dfb9c9524e58dc442dd0805e887da7a0b4b5e5370",
+            "sha256": "7e88576d5165bb0d32f74134be1a700da98b6a386111beab702e5a7eeb7f9506",
             "bytes": 442272,
             "verified_at": "2026-09-25T08:00:00.000000+00:00"
           },
@@ -41373,7 +41373,7 @@ window.CATASTRO_DATA = {
             "http_status": 200,
             "resolved_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2021/10/2751_ordenanza_modificacion_local_de_derechos_21.pdf",
             "content_type": "application/pdf",
-            "sha256": "8d9af9762c18ec961b607fcdeb622cdfc21043d9568c568fbe78bd47cde54d93",
+            "sha256": "8d9af9762c18001e74f1b5d63f90116e0f31e3c2394635677d242c16f2c696df",
             "bytes": 1066837,
             "verified_at": "2026-09-25T08:00:00.000000+00:00"
           },
@@ -41382,7 +41382,7 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU_maipu",
           "fuente": "Municipalidad",
-          "numero": "Ordenanza Alcaldicia COVID-19",
+          "numero": "COVID-19",
           "fecha": "2020-04-23",
           "titulo": "Ordenanza sobre Uso de Mascarilla en Lugares que Indica, en la Comuna de Maipú, en el Contexto del Brote de COVID-19",
           "materia": "Salud, Deporte y Desarrollo Social",
@@ -41415,7 +41415,7 @@ window.CATASTRO_DATA = {
             "http_status": 200,
             "resolved_url": "https://www.transparenciamaipu.cl/wp-content/uploads/2026/01/2659-ordenanza-medioambiente-19.pdf",
             "content_type": "application/pdf",
-            "sha256": "8a7a4cc127558056643b14dada6a57f8da111a5d14b64a16bf8b19694b60be4b",
+            "sha256": "8a7a4cc12755e100916fcbb2120023ee09989a3a1f1a4a4968df33ee77a285d0",
             "bytes": 19025082,
             "verified_at": "2026-09-25T08:00:00.000000+00:00"
           },
@@ -42602,7 +42602,7 @@ window.CATASTRO_DATA = {
       "total_count": 59,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-06-08",
       "ordenanzas": [
         {
           "cplt_code": "MU186",
@@ -43449,7 +43449,7 @@ window.CATASTRO_DATA = {
       "total_count": 15,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2018-11-10",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -43664,7 +43664,7 @@ window.CATASTRO_DATA = {
       "total_count": 73,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2025-10-28",
       "ordenanzas": [
         {
           "cplt_code": "MU212",
@@ -44710,7 +44710,7 @@ window.CATASTRO_DATA = {
       "total_count": 286,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-03-23",
       "ordenanzas": [
         {
           "cplt_code": "MU228",
@@ -49223,7 +49223,7 @@ window.CATASTRO_DATA = {
       "total_count": 34,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2011-08-13",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -49687,7 +49687,7 @@ window.CATASTRO_DATA = {
       "total_count": 19,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2013-11-20",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -49957,7 +49957,7 @@ window.CATASTRO_DATA = {
       "total_count": 25,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2008-05-02",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -50299,7 +50299,7 @@ window.CATASTRO_DATA = {
       "total_count": 47,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2012-02-21",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -50987,7 +50987,7 @@ window.CATASTRO_DATA = {
       "total_count": 30,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2018-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU265",
@@ -51420,7 +51420,7 @@ window.CATASTRO_DATA = {
       "total_count": 15,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2010-09-11",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -51647,7 +51647,7 @@ window.CATASTRO_DATA = {
       "total_count": 27,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2022-09-22",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -52042,7 +52042,7 @@ window.CATASTRO_DATA = {
       "total_count": 23,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU_san ramon",
@@ -52371,7 +52371,7 @@ window.CATASTRO_DATA = {
       "total_count": 59,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2010-01-04",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -53176,7 +53176,7 @@ window.CATASTRO_DATA = {
       "total_count": 38,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU232",
@@ -53754,7 +53754,7 @@ window.CATASTRO_DATA = {
       "total_count": 41,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2015-12-23",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -54313,7 +54313,7 @@ window.CATASTRO_DATA = {
       "total_count": 18,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2014-10-20",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -54570,7 +54570,7 @@ window.CATASTRO_DATA = {
       "total_count": 46,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU057",
@@ -55234,7 +55234,7 @@ window.CATASTRO_DATA = {
       "total_count": 28,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2005-06-03",
       "ordenanzas": [
         {
           "id": 541,
@@ -55651,7 +55651,7 @@ window.CATASTRO_DATA = {
       "total_count": 19,
       "pdfs_count": 0,
       "status": "Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU_tiltil",
@@ -56064,7 +56064,7 @@ window.CATASTRO_DATA = {
       "total_count": 102,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU281",
@@ -57560,13 +57560,13 @@ window.CATASTRO_DATA = {
       "total_count": 83,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2087-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU014",
           "fuente": "Municipalidad",
           "numero": "2087",
-          "fecha": "2026-08-30",
+          "fecha": "2087-01-01",
           "titulo": "Ordenanza Municipal de BUIN — 20134313747dec 87",
           "materia": "Normativa General y Otras Materias",
           "materia_id": "general",
@@ -59136,7 +59136,7 @@ window.CATASTRO_DATA = {
       "total_count": 17,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2005-06-10",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -59380,7 +59380,7 @@ window.CATASTRO_DATA = {
       "total_count": 22,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2025-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU197",
@@ -59743,7 +59743,7 @@ window.CATASTRO_DATA = {
       "total_count": 31,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2021-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU173",
@@ -60168,7 +60168,7 @@ window.CATASTRO_DATA = {
       "total_count": 5,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU002",
@@ -60266,7 +60266,7 @@ window.CATASTRO_DATA = {
       "total_count": 27,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU073",
@@ -60733,7 +60733,7 @@ window.CATASTRO_DATA = {
       "total_count": 11,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU167",
@@ -60915,7 +60915,7 @@ window.CATASTRO_DATA = {
       "total_count": 50,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2022-10-28",
       "ordenanzas": [
         {
           "id": 1326,
@@ -61693,7 +61693,7 @@ window.CATASTRO_DATA = {
       "total_count": 38,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU311",
@@ -62248,7 +62248,7 @@ window.CATASTRO_DATA = {
       "total_count": 23,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2005-04-11",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -62564,7 +62564,7 @@ window.CATASTRO_DATA = {
       "total_count": 20,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2007-10-31",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -62862,7 +62862,7 @@ window.CATASTRO_DATA = {
       "total_count": 14,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2008-10-16",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -63064,7 +63064,7 @@ window.CATASTRO_DATA = {
       "total_count": 32,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU211",
@@ -63550,7 +63550,7 @@ window.CATASTRO_DATA = {
       "total_count": 95,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2020-12-10",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -64814,7 +64814,7 @@ window.CATASTRO_DATA = {
       "total_count": 8,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2018-08-29",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -64935,7 +64935,7 @@ window.CATASTRO_DATA = {
       "total_count": 13,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2019-12-10",
       "ordenanzas": [
         {
           "cplt_code": "MU_coinco",
@@ -65126,7 +65126,7 @@ window.CATASTRO_DATA = {
       "total_count": 9,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU059",
@@ -65276,7 +65276,7 @@ window.CATASTRO_DATA = {
       "total_count": 17,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2022-11-28",
       "ordenanzas": [
         {
           "cplt_code": "MU_donihue",
@@ -65519,7 +65519,7 @@ window.CATASTRO_DATA = {
       "total_count": 11,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2018-12-11",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -65679,7 +65679,7 @@ window.CATASTRO_DATA = {
       "total_count": 38,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-07-23",
       "ordenanzas": [
         {
           "cplt_code": "MU_las cabras",
@@ -66275,7 +66275,7 @@ window.CATASTRO_DATA = {
       "total_count": 40,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2019-05-14",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -66812,7 +66812,7 @@ window.CATASTRO_DATA = {
       "total_count": 22,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU164",
@@ -67176,7 +67176,7 @@ window.CATASTRO_DATA = {
       "total_count": 14,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2018-10-26",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -67387,7 +67387,7 @@ window.CATASTRO_DATA = {
       "total_count": 11,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU188",
@@ -67552,7 +67552,7 @@ window.CATASTRO_DATA = {
       "total_count": 6,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU216",
@@ -67652,7 +67652,7 @@ window.CATASTRO_DATA = {
       "total_count": 11,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2011-06-14",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -67817,7 +67817,7 @@ window.CATASTRO_DATA = {
       "total_count": 9,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU256",
@@ -67959,7 +67959,7 @@ window.CATASTRO_DATA = {
       "total_count": 29,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2015-06-26",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -68356,7 +68356,7 @@ window.CATASTRO_DATA = {
       "total_count": 26,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU267",
@@ -68828,7 +68828,7 @@ window.CATASTRO_DATA = {
       "total_count": 18,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2004-04-07",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -69079,7 +69079,7 @@ window.CATASTRO_DATA = {
       "total_count": 16,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU219",
@@ -69324,7 +69324,7 @@ window.CATASTRO_DATA = {
       "total_count": 16,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU119",
@@ -69603,7 +69603,7 @@ window.CATASTRO_DATA = {
       "total_count": 18,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU141",
@@ -69867,7 +69867,7 @@ window.CATASTRO_DATA = {
       "total_count": 28,
       "pdfs_count": 0,
       "status": "Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU_marchihue",
@@ -70469,7 +70469,7 @@ window.CATASTRO_DATA = {
       "total_count": 37,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU180",
@@ -71108,7 +71108,7 @@ window.CATASTRO_DATA = {
       "total_count": 31,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU203",
@@ -71726,7 +71726,7 @@ window.CATASTRO_DATA = {
       "total_count": 34,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2012-11-05",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -72191,7 +72191,7 @@ window.CATASTRO_DATA = {
       "total_count": 9,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2004-07-28",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -72334,7 +72334,7 @@ window.CATASTRO_DATA = {
       "total_count": 47,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU044",
@@ -73151,7 +73151,7 @@ window.CATASTRO_DATA = {
       "total_count": 12,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU_lolol",
@@ -73345,7 +73345,7 @@ window.CATASTRO_DATA = {
       "total_count": 12,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU179",
@@ -73523,7 +73523,7 @@ window.CATASTRO_DATA = {
       "total_count": 12,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU_palmilla",
@@ -73725,7 +73725,7 @@ window.CATASTRO_DATA = {
       "total_count": 7,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2023-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU213",
@@ -73841,7 +73841,7 @@ window.CATASTRO_DATA = {
       "total_count": 11,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2018-12-14",
       "ordenanzas": [
         {
           "cplt_code": "MU_placilla",
@@ -74006,7 +74006,7 @@ window.CATASTRO_DATA = {
       "total_count": 2,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "1991-01-04",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -74056,7 +74056,7 @@ window.CATASTRO_DATA = {
       "total_count": 13,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2011-10-03",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -74242,7 +74242,7 @@ window.CATASTRO_DATA = {
       "total_count": 40,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2011-09-28",
       "ordenanzas": [
         {
           "id": 1439,
@@ -74842,7 +74842,7 @@ window.CATASTRO_DATA = {
       "total_count": 15,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU_constitucion",
@@ -75059,7 +75059,7 @@ window.CATASTRO_DATA = {
       "total_count": 8,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2004-07-21",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -75180,7 +75180,7 @@ window.CATASTRO_DATA = {
       "total_count": 12,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU087",
@@ -75422,7 +75422,7 @@ window.CATASTRO_DATA = {
       "total_count": 6,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2024-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU_maule",
@@ -75530,7 +75530,7 @@ window.CATASTRO_DATA = {
       "total_count": 14,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2021-07-07",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -75729,7 +75729,7 @@ window.CATASTRO_DATA = {
       "total_count": 3,
       "pdfs_count": 0,
       "status": "Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2025-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU209",
@@ -75810,7 +75810,7 @@ window.CATASTRO_DATA = {
       "total_count": 17,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU271",
@@ -76061,7 +76061,7 @@ window.CATASTRO_DATA = {
       "total_count": 20,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU283",
@@ -76439,7 +76439,7 @@ window.CATASTRO_DATA = {
       "total_count": 5,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU300",
@@ -76546,7 +76546,7 @@ window.CATASTRO_DATA = {
       "total_count": 16,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU033",
@@ -76790,7 +76790,7 @@ window.CATASTRO_DATA = {
       "total_count": 9,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2018-03-05",
       "ordenanzas": [
         {
           "cplt_code": "MU_chanco",
@@ -76929,7 +76929,7 @@ window.CATASTRO_DATA = {
       "total_count": 5,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2016-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU_pelluhue",
@@ -77024,7 +77024,7 @@ window.CATASTRO_DATA = {
       "total_count": 22,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2022-03-31",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -77327,7 +77327,7 @@ window.CATASTRO_DATA = {
       "total_count": 35,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU104",
@@ -77972,7 +77972,7 @@ window.CATASTRO_DATA = {
       "total_count": 15,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2006-07-18",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -78184,7 +78184,7 @@ window.CATASTRO_DATA = {
       "total_count": 16,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2019-07-23",
       "ordenanzas": [
         {
           "id": 629,
@@ -78409,7 +78409,7 @@ window.CATASTRO_DATA = {
       "total_count": 16,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2019-01-26",
       "ordenanzas": [
         {
           "id": 61,
@@ -78658,7 +78658,7 @@ window.CATASTRO_DATA = {
       "total_count": 29,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-08-12",
       "ordenanzas": [
         {
           "cplt_code": "MU276",
@@ -79177,7 +79177,7 @@ window.CATASTRO_DATA = {
       "total_count": 13,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU278",
@@ -79368,7 +79368,7 @@ window.CATASTRO_DATA = {
       "total_count": 8,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2011-09-22",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -79489,7 +79489,7 @@ window.CATASTRO_DATA = {
       "total_count": 8,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU333",
@@ -79615,7 +79615,7 @@ window.CATASTRO_DATA = {
       "total_count": 29,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU_linares",
@@ -80070,7 +80070,7 @@ window.CATASTRO_DATA = {
       "total_count": 21,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2025-10-30",
       "ordenanzas": [
         {
           "cplt_code": "MU055",
@@ -80480,7 +80480,7 @@ window.CATASTRO_DATA = {
       "total_count": 6,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2016-04-18",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -80580,7 +80580,7 @@ window.CATASTRO_DATA = {
       "total_count": 24,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU204",
@@ -80960,7 +80960,7 @@ window.CATASTRO_DATA = {
       "total_count": 17,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU268",
@@ -81259,7 +81259,7 @@ window.CATASTRO_DATA = {
       "total_count": 10,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU290",
@@ -81427,7 +81427,7 @@ window.CATASTRO_DATA = {
       "total_count": 6,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU337",
@@ -81543,7 +81543,7 @@ window.CATASTRO_DATA = {
       "total_count": 7,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2004-07-10",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -81651,7 +81651,7 @@ window.CATASTRO_DATA = {
       "total_count": 21,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2006-06-10",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -81941,7 +81941,7 @@ window.CATASTRO_DATA = {
       "total_count": 8,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2004-06-02",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -82067,13 +82067,13 @@ window.CATASTRO_DATA = {
       "total_count": 12,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2086-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU048",
           "fuente": "Municipalidad",
           "numero": "2086",
-          "fecha": "2026-08-30",
+          "fecha": "2086-01-01",
           "titulo": "Ver Bases",
           "materia": "Normativa General y Otras Materias",
           "materia_id": "general",
@@ -82317,7 +82317,7 @@ window.CATASTRO_DATA = {
       "total_count": 6,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2017-10-11",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -82415,7 +82415,7 @@ window.CATASTRO_DATA = {
       "total_count": 28,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU053",
@@ -82825,7 +82825,7 @@ window.CATASTRO_DATA = {
       "total_count": 4,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2009-11-14",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -82914,7 +82914,7 @@ window.CATASTRO_DATA = {
       "total_count": 22,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU083",
@@ -83340,7 +83340,7 @@ window.CATASTRO_DATA = {
       "total_count": 4,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2019-06-12",
       "ordenanzas": [
         {
           "cplt_code": "MU_ninhue",
@@ -83414,7 +83414,7 @@ window.CATASTRO_DATA = {
       "total_count": 3,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2024-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU_niquen",
@@ -83483,7 +83483,7 @@ window.CATASTRO_DATA = {
       "total_count": 5,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU208",
@@ -83573,7 +83573,7 @@ window.CATASTRO_DATA = {
       "total_count": 14,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU220",
@@ -83818,7 +83818,7 @@ window.CATASTRO_DATA = {
       "total_count": 9,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU_portezuelo",
@@ -83973,7 +83973,7 @@ window.CATASTRO_DATA = {
       "total_count": 22,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU252",
@@ -84300,7 +84300,7 @@ window.CATASTRO_DATA = {
       "total_count": 9,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2024-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU_quirihue",
@@ -84447,7 +84447,7 @@ window.CATASTRO_DATA = {
       "total_count": 7,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU261",
@@ -84560,7 +84560,7 @@ window.CATASTRO_DATA = {
       "total_count": 15,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2009-04-03",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -84784,7 +84784,7 @@ window.CATASTRO_DATA = {
       "total_count": 4,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2007-10-30",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -84853,7 +84853,7 @@ window.CATASTRO_DATA = {
       "total_count": 17,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2020-11-03",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -85096,13 +85096,13 @@ window.CATASTRO_DATA = {
       "total_count": 37,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2098-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU295",
           "fuente": "Municipalidad",
           "numero": "2098",
-          "fecha": "2020-01-01",
+          "fecha": "2098-01-01",
           "titulo": "Ordenanza Municipal de SAN NICOLÁS — DA2020 2098",
           "materia": "Normativa General y Otras Materias",
           "materia_id": "general",
@@ -85847,7 +85847,7 @@ window.CATASTRO_DATA = {
       "total_count": 7,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU_treguaco",
@@ -85984,7 +85984,7 @@ window.CATASTRO_DATA = {
       "total_count": 11,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2020-07-21",
       "ordenanzas": [
         {
           "cplt_code": "MU_yungay",
@@ -86149,7 +86149,7 @@ window.CATASTRO_DATA = {
       "total_count": 60,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU061",
@@ -87098,7 +87098,7 @@ window.CATASTRO_DATA = {
       "total_count": 29,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2013-04-22",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -87546,7 +87546,7 @@ window.CATASTRO_DATA = {
       "total_count": 4,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2018-02-16",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -87620,7 +87620,7 @@ window.CATASTRO_DATA = {
       "total_count": 62,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU090",
@@ -88606,7 +88606,7 @@ window.CATASTRO_DATA = {
       "total_count": 16,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2017-06-08",
       "ordenanzas": [
         {
           "cplt_code": "MU_hualqui",
@@ -88836,7 +88836,7 @@ window.CATASTRO_DATA = {
       "total_count": 38,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2008-05-17",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -89371,7 +89371,7 @@ window.CATASTRO_DATA = {
       "total_count": 6,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU210",
@@ -89471,7 +89471,7 @@ window.CATASTRO_DATA = {
       "total_count": 5,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2019-02-09",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -89556,7 +89556,7 @@ window.CATASTRO_DATA = {
       "total_count": 6,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2006-08-10",
       "ordenanzas": [
         {
           "cplt_code": "MU_santa juana",
@@ -89656,7 +89656,7 @@ window.CATASTRO_DATA = {
       "total_count": 26,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2014-06-28",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -90074,7 +90074,7 @@ window.CATASTRO_DATA = {
       "total_count": 14,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU324",
@@ -90294,7 +90294,7 @@ window.CATASTRO_DATA = {
       "total_count": 45,
       "pdfs_count": 0,
       "status": "Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU105",
@@ -91253,7 +91253,7 @@ window.CATASTRO_DATA = {
       "total_count": 5,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2017-11-04",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -91338,7 +91338,7 @@ window.CATASTRO_DATA = {
       "total_count": 34,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU011",
@@ -91829,7 +91829,7 @@ window.CATASTRO_DATA = {
       "total_count": 6,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2017-11-17",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -91924,7 +91924,7 @@ window.CATASTRO_DATA = {
       "total_count": 8,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU065",
@@ -92050,7 +92050,7 @@ window.CATASTRO_DATA = {
       "total_count": 23,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2011-12-26",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -92372,7 +92372,7 @@ window.CATASTRO_DATA = {
       "total_count": 13,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2016-01-27",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -92561,7 +92561,7 @@ window.CATASTRO_DATA = {
       "total_count": 4,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2014-10-30",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -92630,7 +92630,7 @@ window.CATASTRO_DATA = {
       "total_count": 19,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU153",
@@ -92899,7 +92899,7 @@ window.CATASTRO_DATA = {
       "total_count": 4,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2004-01-24",
       "ordenanzas": [
         {
           "id": 52,
@@ -92968,7 +92968,7 @@ window.CATASTRO_DATA = {
       "total_count": 10,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2019-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU018",
@@ -93123,7 +93123,7 @@ window.CATASTRO_DATA = {
       "total_count": 14,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU131",
@@ -93330,7 +93330,7 @@ window.CATASTRO_DATA = {
       "total_count": 21,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2024-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU_mulchen",
@@ -93633,7 +93633,7 @@ window.CATASTRO_DATA = {
       "total_count": 9,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2024-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU_nacimiento",
@@ -93772,7 +93772,7 @@ window.CATASTRO_DATA = {
       "total_count": 11,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2022-02-02",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -93937,7 +93937,7 @@ window.CATASTRO_DATA = {
       "total_count": 4,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2004-06-30",
       "ordenanzas": [
         {
           "id": 1114,
@@ -94012,7 +94012,7 @@ window.CATASTRO_DATA = {
       "total_count": 4,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2017-12-19",
       "ordenanzas": [
         {
           "cplt_code": "MU_quilleco",
@@ -94086,7 +94086,7 @@ window.CATASTRO_DATA = {
       "total_count": 4,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU302",
@@ -94160,7 +94160,7 @@ window.CATASTRO_DATA = {
       "total_count": 8,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "1998-12-18",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -94281,7 +94281,7 @@ window.CATASTRO_DATA = {
       "total_count": 20,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2007-01-27",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -94594,7 +94594,7 @@ window.CATASTRO_DATA = {
       "total_count": 9,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2008-01-17",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -94731,7 +94731,7 @@ window.CATASTRO_DATA = {
       "total_count": 8,
       "pdfs_count": 0,
       "status": "Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU_alto biobio",
@@ -94913,7 +94913,7 @@ window.CATASTRO_DATA = {
       "total_count": 107,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU315",
@@ -97044,7 +97044,7 @@ window.CATASTRO_DATA = {
       "total_count": 13,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU_carahue",
@@ -97259,7 +97259,7 @@ window.CATASTRO_DATA = {
       "total_count": 5,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2019-10-30",
       "ordenanzas": [
         {
           "cplt_code": "MU_cunco",
@@ -97354,13 +97354,13 @@ window.CATASTRO_DATA = {
       "total_count": 32,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2042-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU076",
           "fuente": "Municipalidad",
           "numero": "DOC-E41BB2",
-          "fecha": "2026-08-30",
+          "fecha": "2042-01-01",
           "titulo": "Ordenanza Municipal de CURARREHUE — DECRETO EXENTO 2042",
           "materia": "Normativa General y Otras Materias",
           "materia_id": "general",
@@ -97381,7 +97381,7 @@ window.CATASTRO_DATA = {
           "cplt_code": "MU076",
           "fuente": "Municipalidad",
           "numero": "DOC-36D9E9",
-          "fecha": "2026-08-30",
+          "fecha": "2041-01-01",
           "titulo": "Ordenanza Municipal de CURARREHUE — DECRETO EXENTO 2041 medio ambiente",
           "materia": "Aseo, Ornato y Medio Ambiente",
           "materia_id": "aseo_medioambiente",
@@ -97976,7 +97976,7 @@ window.CATASTRO_DATA = {
       "total_count": 10,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2017-11-08",
       "ordenanzas": [
         {
           "id": 327,
@@ -98126,7 +98126,7 @@ window.CATASTRO_DATA = {
       "total_count": 17,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2004-05-26",
       "ordenanzas": [
         {
           "id": 336,
@@ -98364,7 +98364,7 @@ window.CATASTRO_DATA = {
       "total_count": 28,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2011-08-27",
       "ordenanzas": [
         {
           "id": 350,
@@ -98775,7 +98775,7 @@ window.CATASTRO_DATA = {
       "total_count": 22,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "1995-02-01",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -99078,7 +99078,7 @@ window.CATASTRO_DATA = {
       "total_count": 12,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU148",
@@ -99264,7 +99264,7 @@ window.CATASTRO_DATA = {
       "total_count": 8,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2005-08-02",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -99388,7 +99388,7 @@ window.CATASTRO_DATA = {
       "total_count": 3,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2019-12-04",
       "ordenanzas": [
         {
           "cplt_code": "MU_nueva imperial",
@@ -99459,7 +99459,7 @@ window.CATASTRO_DATA = {
       "total_count": 8,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2011-08-04",
       "ordenanzas": [
         {
           "id": 723,
@@ -99598,13 +99598,13 @@ window.CATASTRO_DATA = {
       "total_count": 29,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2030-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU214",
           "fuente": "Municipalidad",
           "numero": "2030",
-          "fecha": "2026-08-30",
+          "fecha": "2030-01-01",
           "titulo": "Ordenanza Municipal de PERQUENCO — Reglamento 30 CTA",
           "materia": "Normativa General y Otras Materias",
           "materia_id": "general",
@@ -100157,7 +100157,7 @@ window.CATASTRO_DATA = {
       "total_count": 9,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2024-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU_pitrufquen",
@@ -100296,7 +100296,7 @@ window.CATASTRO_DATA = {
       "total_count": 9,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2007-01-05",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -100436,7 +100436,7 @@ window.CATASTRO_DATA = {
       "total_count": 10,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU277",
@@ -100626,7 +100626,7 @@ window.CATASTRO_DATA = {
       "total_count": 15,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2018-11-28",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -100853,7 +100853,7 @@ window.CATASTRO_DATA = {
       "total_count": 9,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2017-03-29",
       "ordenanzas": [
         {
           "cplt_code": "MU_tolten",
@@ -100992,7 +100992,7 @@ window.CATASTRO_DATA = {
       "total_count": 9,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU336",
@@ -101134,7 +101134,7 @@ window.CATASTRO_DATA = {
       "total_count": 16,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU339",
@@ -101429,7 +101429,7 @@ window.CATASTRO_DATA = {
       "total_count": 2,
       "pdfs_count": 0,
       "status": "Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2006-04-22",
       "ordenanzas": [
         {
           "cplt_code": "MU_cholchol",
@@ -101487,7 +101487,7 @@ window.CATASTRO_DATA = {
       "total_count": 12,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU_angol",
@@ -101665,7 +101665,7 @@ window.CATASTRO_DATA = {
       "total_count": 19,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU058",
@@ -102010,7 +102010,7 @@ window.CATASTRO_DATA = {
       "total_count": 9,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2014-01-09",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -102149,7 +102149,7 @@ window.CATASTRO_DATA = {
       "total_count": 11,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2000-10-30",
       "ordenanzas": [
         {
           "id": 314,
@@ -102315,7 +102315,7 @@ window.CATASTRO_DATA = {
       "total_count": 10,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2021-01-14",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -102462,7 +102462,7 @@ window.CATASTRO_DATA = {
       "total_count": 12,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2001-06-16",
       "ordenanzas": [
         {
           "id": 584,
@@ -102638,7 +102638,7 @@ window.CATASTRO_DATA = {
       "total_count": 13,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2006-03-30",
       "ordenanzas": [
         {
           "id": 602,
@@ -102845,7 +102845,7 @@ window.CATASTRO_DATA = {
       "total_count": 9,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU241",
@@ -102984,7 +102984,7 @@ window.CATASTRO_DATA = {
       "total_count": 8,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2002-03-13",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -103108,7 +103108,7 @@ window.CATASTRO_DATA = {
       "total_count": 29,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2010-11-11",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -103568,7 +103568,7 @@ window.CATASTRO_DATA = {
       "total_count": 7,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2004-04-22",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -103685,7 +103685,7 @@ window.CATASTRO_DATA = {
       "total_count": 24,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2007-12-31",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -104056,7 +104056,7 @@ window.CATASTRO_DATA = {
       "total_count": 4,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2004-07-28",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -104125,7 +104125,7 @@ window.CATASTRO_DATA = {
       "total_count": 6,
       "pdfs_count": 0,
       "status": "Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2025-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU133",
@@ -104265,7 +104265,7 @@ window.CATASTRO_DATA = {
       "total_count": 17,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU154",
@@ -104548,7 +104548,7 @@ window.CATASTRO_DATA = {
       "total_count": 4,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "1997-09-10",
       "ordenanzas": [
         {
           "id": 607,
@@ -104627,7 +104627,7 @@ window.CATASTRO_DATA = {
       "total_count": 6,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU168",
@@ -104751,7 +104751,7 @@ window.CATASTRO_DATA = {
       "total_count": 20,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU196",
@@ -105143,7 +105143,7 @@ window.CATASTRO_DATA = {
       "total_count": 15,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2009-11-11",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -105388,7 +105388,7 @@ window.CATASTRO_DATA = {
       "total_count": 7,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2004-01-31",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -105496,7 +105496,7 @@ window.CATASTRO_DATA = {
       "total_count": 7,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2001-12-06",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -105619,7 +105619,7 @@ window.CATASTRO_DATA = {
       "total_count": 7,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2015-12-07",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -105727,7 +105727,7 @@ window.CATASTRO_DATA = {
       "total_count": 17,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2024-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU270",
@@ -105979,7 +105979,7 @@ window.CATASTRO_DATA = {
       "total_count": 32,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU233",
@@ -106513,7 +106513,7 @@ window.CATASTRO_DATA = {
       "total_count": 76,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU020",
@@ -108016,7 +108016,7 @@ window.CATASTRO_DATA = {
       "total_count": 7,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2022-09-22",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -108127,7 +108127,7 @@ window.CATASTRO_DATA = {
       "total_count": 10,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2013-12-09",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -108274,7 +108274,7 @@ window.CATASTRO_DATA = {
       "total_count": 7,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU094",
@@ -108398,7 +108398,7 @@ window.CATASTRO_DATA = {
       "total_count": 7,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2009-03-09",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -108506,7 +108506,7 @@ window.CATASTRO_DATA = {
       "total_count": 13,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2021-12-03",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -108705,7 +108705,7 @@ window.CATASTRO_DATA = {
       "total_count": 21,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU170",
@@ -109051,7 +109051,7 @@ window.CATASTRO_DATA = {
       "total_count": 6,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2011-09-12",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -109149,7 +109149,7 @@ window.CATASTRO_DATA = {
       "total_count": 9,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2021-09-13",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -109295,7 +109295,7 @@ window.CATASTRO_DATA = {
       "total_count": 9,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2010-08-09",
       "ordenanzas": [
         {
           "id": 8,
@@ -109429,7 +109429,7 @@ window.CATASTRO_DATA = {
       "total_count": 21,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU046",
@@ -109836,7 +109836,7 @@ window.CATASTRO_DATA = {
       "total_count": 14,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2005-03-22",
       "ordenanzas": [
         {
           "id": 290,
@@ -110035,7 +110035,7 @@ window.CATASTRO_DATA = {
       "total_count": 44,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU079",
@@ -110963,7 +110963,7 @@ window.CATASTRO_DATA = {
       "total_count": 4,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU240",
@@ -111053,7 +111053,7 @@ window.CATASTRO_DATA = {
       "total_count": 23,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU246",
@@ -111489,7 +111489,7 @@ window.CATASTRO_DATA = {
       "total_count": 18,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU247",
@@ -111831,7 +111831,7 @@ window.CATASTRO_DATA = {
       "total_count": 5,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2014-05-31",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -111913,7 +111913,7 @@ window.CATASTRO_DATA = {
       "total_count": 10,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2017-01-17",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -112060,7 +112060,7 @@ window.CATASTRO_DATA = {
       "total_count": 43,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2011-07-06",
       "ordenanzas": [
         {
           "id": 711,
@@ -112744,7 +112744,7 @@ window.CATASTRO_DATA = {
       "total_count": 4,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2000-08-28",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -112818,7 +112818,7 @@ window.CATASTRO_DATA = {
       "total_count": 17,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU242",
@@ -113125,7 +113125,7 @@ window.CATASTRO_DATA = {
       "total_count": 4,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2017-09-26",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -113199,7 +113199,7 @@ window.CATASTRO_DATA = {
       "total_count": 6,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "1996-12-31",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -113299,7 +113299,7 @@ window.CATASTRO_DATA = {
       "total_count": 4,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU293",
@@ -113376,7 +113376,7 @@ window.CATASTRO_DATA = {
       "total_count": 17,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2022-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU_san pablo",
@@ -113627,7 +113627,7 @@ window.CATASTRO_DATA = {
       "total_count": 3,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2019-10-08",
       "ordenanzas": [
         {
           "cplt_code": "MU_chaiten",
@@ -113698,7 +113698,7 @@ window.CATASTRO_DATA = {
       "total_count": 6,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU095",
@@ -113814,7 +113814,7 @@ window.CATASTRO_DATA = {
       "total_count": 12,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU103",
@@ -114025,7 +114025,7 @@ window.CATASTRO_DATA = {
       "total_count": 4,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "1996-04-18",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -114099,7 +114099,7 @@ window.CATASTRO_DATA = {
       "total_count": 31,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2008-07-22",
       "ordenanzas": [
         {
           "id": 279,
@@ -114603,7 +114603,7 @@ window.CATASTRO_DATA = {
       "total_count": 5,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2018-09-04",
       "ordenanzas": [
         {
           "cplt_code": "MU_lago verde",
@@ -114690,7 +114690,7 @@ window.CATASTRO_DATA = {
       "total_count": 20,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2017-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU013",
@@ -115109,7 +115109,7 @@ window.CATASTRO_DATA = {
       "total_count": 5,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2010-05-20",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -115196,7 +115196,7 @@ window.CATASTRO_DATA = {
       "total_count": 7,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU101",
@@ -115309,7 +115309,7 @@ window.CATASTRO_DATA = {
       "total_count": 4,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2005-12-29",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -115378,7 +115378,7 @@ window.CATASTRO_DATA = {
       "total_count": 4,
       "pdfs_count": 0,
       "status": "Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2024-12-21",
       "ordenanzas": [
         {
           "cplt_code": "MU187",
@@ -115482,7 +115482,7 @@ window.CATASTRO_DATA = {
       "total_count": 9,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU326",
@@ -115632,7 +115632,7 @@ window.CATASTRO_DATA = {
       "total_count": 9,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2015-08-27",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -115769,7 +115769,7 @@ window.CATASTRO_DATA = {
       "total_count": 7,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2020-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU273",
@@ -115885,7 +115885,7 @@ window.CATASTRO_DATA = {
       "total_count": 40,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU_punta arenas",
@@ -116427,7 +116427,7 @@ window.CATASTRO_DATA = {
       "total_count": 4,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU130",
@@ -116509,7 +116509,7 @@ window.CATASTRO_DATA = {
       "total_count": 5,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2019-03-20",
       "ordenanzas": [
         {
           "cplt_code": "MU_rio verde",
@@ -116596,7 +116596,7 @@ window.CATASTRO_DATA = {
       "total_count": 10,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU288",
@@ -116812,7 +116812,7 @@ window.CATASTRO_DATA = {
       "total_count": 11,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU017",
@@ -117007,7 +117007,7 @@ window.CATASTRO_DATA = {
       "total_count": 1,
       "pdfs_count": 0,
       "status": "Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2017-05-02",
       "ordenanzas": [
         {
           "cplt_code": "MU_antartica",
@@ -117042,7 +117042,7 @@ window.CATASTRO_DATA = {
       "total_count": 7,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2026-01-01",
       "ordenanzas": [
         {
           "cplt_code": "MU225",
@@ -117179,7 +117179,7 @@ window.CATASTRO_DATA = {
       "total_count": 6,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2018-10-10",
       "ordenanzas": [
         {
           "cplt_code": "MU_primavera",
@@ -117279,7 +117279,7 @@ window.CATASTRO_DATA = {
       "total_count": 2,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": null,
+      "last_update": "2020-01-15",
       "ordenanzas": [
         {
           "cplt_code": "MU_timaukel",
@@ -117327,7 +117327,7 @@ window.CATASTRO_DATA = {
       "total_count": 12,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2004-10-27",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -117503,7 +117503,7 @@ window.CATASTRO_DATA = {
       "total_count": 7,
       "pdfs_count": 0,
       "status": "Cargado BCN",
-      "last_update": null,
+      "last_update": "2011-08-30",
       "ordenanzas": [
         {
           "fuente": "BCN",
@@ -117655,7 +117655,7 @@ window.CATASTRO_DATA = {
       "badge_bg": "bg-amber-500/10",
       "badge_text": "text-amber-400",
       "badge_border": "border-amber-500/30",
-      "count": 275
+      "count": 152
     },
     {
       "id": "urbanismo_obras",
@@ -117665,7 +117665,7 @@ window.CATASTRO_DATA = {
       "badge_bg": "bg-orange-500/10",
       "badge_text": "text-orange-400",
       "badge_border": "border-orange-500/30",
-      "count": 218
+      "count": 106
     },
     {
       "id": "seguridad_convivencia",
@@ -117675,7 +117675,7 @@ window.CATASTRO_DATA = {
       "badge_bg": "bg-rose-500/10",
       "badge_text": "text-rose-400",
       "badge_border": "border-rose-500/30",
-      "count": 39
+      "count": 21
     },
     {
       "id": "mascotas_animales",
@@ -117705,7 +117705,7 @@ window.CATASTRO_DATA = {
       "badge_bg": "bg-zinc-800",
       "badge_text": "text-zinc-300",
       "badge_border": "border-zinc-700",
-      "count": 35
+      "count": 36
     },
     {
       "id": "general",
@@ -117715,7 +117715,7 @@ window.CATASTRO_DATA = {
       "badge_bg": "bg-zinc-800",
       "badge_text": "text-zinc-400",
       "badge_border": "border-zinc-700",
-      "count": 1243
+      "count": 2664
     }
   ],
   "public_scope": {
@@ -117728,7 +117728,7 @@ window.CATASTRO_DATA = {
       "CPLT"
     ],
     "quarantined_records": 0,
-    "verified_municipal_records": 1429,
+    "verified_municipal_records": 1461,
     "reason": "Las referencias CPLT manuales sin evidencia se mantienen en cuarentena. Solo se publican documentos municipales con listado oficial, PDF resoluble y huella SHA-256 verificada."
   }
 };

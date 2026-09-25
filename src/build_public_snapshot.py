@@ -122,6 +122,7 @@ def recalculate_metrics(public: dict, quarantined: int) -> None:
         comuna["bcn_count"] = bcn_count
         comuna["municipal_count"] = municipal_count
         comuna["total_count"] = len(ordinances)
+        comuna["last_update"] = ordinances[0]["fecha"] if ordinances else None
 
         if ordinances:
             comunas_con_datos += 1
