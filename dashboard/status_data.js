@@ -4,7 +4,7 @@ window.CATASTRO_DATA = {
     "total_comunas": 346,
     "comunas_con_datos": 346,
     "total_regiones": 16,
-    "total_ordenanzas": 7342,
+    "total_ordenanzas": 7381,
     "ordenanzas_bcn": 5881,
     "ordenanzas_cplt": 0,
     "pdfs_descargados": 0,
@@ -13,7 +13,7 @@ window.CATASTRO_DATA = {
       "bloqueos_ip": 0,
       "user_agents_rotados": 12
     },
-    "ordenanzas_municipales_verificadas": 1461,
+    "ordenanzas_municipales_verificadas": 1500,
     "cplt_en_cuarentena": 0,
     "cobertura_nacional_pct": 100.0
   },
@@ -31831,11 +31831,32 @@ window.CATASTRO_DATA = {
       "comuna": "Estación Central",
       "bcn_count": 18,
       "cplt_count": 0,
-      "total_count": 18,
+      "total_count": 19,
       "pdfs_count": 0,
-      "status": "Cargado BCN",
-      "last_update": "2019-08-07",
+      "status": "BCN + Municipalidad verificada",
+      "last_update": "2023-02-16",
       "ordenanzas": [
+        {
+          "cplt_code": "MU081",
+          "fuente": "Municipalidad",
+          "numero": "51-119/2023",
+          "fecha": "2023-02-16",
+          "titulo": "Decreto Alcaldicio N° 119 que aprueba la Ordenanza Municipal N° 51 sobre Medidas de Control de Acceso y Cierre de Calles Ley 21.411",
+          "materia": "Tránsito, Transporte y Espacio Público",
+          "materia_id": "transito_espacio_publico",
+          "source_listing_url": "https://www.bcn.cl/leychile/navegar?idNorma=1189311",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=Decreto-119_16-FEB-2023&exportar_con_notas_bcn=True&exportar_con_notas_originales=True&exportar_con_notas_al_pie=True&hddResultadoExportar=1189311.2023-02-16.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=Decreto-119_16-FEB-2023&exportar_con_notas_bcn=True&exportar_con_notas_originales=True&exportar_con_notas_al_pie=True&hddResultadoExportar=1189311.2023-02-16.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "41dd7e86c0ef1493107dae34fce3951f1ef6b9b701425fca54835d4274b10c1d",
+            "bytes": 59918,
+            "verified_at": "2026-09-25T12:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
         {
           "fuente": "BCN",
           "numero": "41",
@@ -32098,7 +32119,7 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-estacion-central/1985-05-04/1/datos.json"
         }
       ],
-      "municipal_count": 0
+      "municipal_count": 1
     },
     {
       "region_id": "13",
@@ -38450,11 +38471,32 @@ window.CATASTRO_DATA = {
       "comuna": "Lo Barnechea",
       "bcn_count": 21,
       "cplt_count": 0,
-      "total_count": 21,
+      "total_count": 22,
       "pdfs_count": 0,
-      "status": "Cargado BCN",
-      "last_update": "2015-05-15",
+      "status": "BCN + Municipalidad verificada",
+      "last_update": "2025-10-30",
       "ordenanzas": [
+        {
+          "cplt_code": "MU126",
+          "fuente": "Municipalidad",
+          "numero": "970/2025",
+          "fecha": "2025-10-30",
+          "titulo": "Decreto Alcaldicio N° 970 que promulga la Modificación y Ordenanza Local del Plan Regulador Comunal de Lo Barnechea",
+          "materia": "Urbanismo, Obras y Plan Regulador",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://www.bcn.cl/leychile/navegar?idNorma=1218016",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=Decreto-970_30-OCT-2025&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1218016.2025-10-30.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=Decreto-970_30-OCT-2025&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1218016.2025-10-30.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "fbffdee3d5f9e669b74c881dfede0d3ff8aaadc3df5c5d1171662a944b64a39b",
+            "bytes": 55198,
+            "verified_at": "2026-09-25T12:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
         {
           "fuente": "BCN",
           "numero": "2592",
@@ -38741,7 +38783,7 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-lo-barnechea/1992-01-28/1/datos.json"
         }
       ],
-      "municipal_count": 0
+      "municipal_count": 1
     },
     {
       "region_id": "13",
@@ -49220,11 +49262,32 @@ window.CATASTRO_DATA = {
       "comuna": "Pudahuel",
       "bcn_count": 33,
       "cplt_count": 0,
-      "total_count": 34,
+      "total_count": 35,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": "2011-08-13",
+      "last_update": "2026-05-12",
       "ordenanzas": [
+        {
+          "cplt_code": "MU223",
+          "fuente": "Municipalidad",
+          "numero": "751/2026",
+          "fecha": "2026-05-12",
+          "titulo": "Decreto Alcaldicio N° 751 que promulga la Enmienda N° 1 a la Ordenanza Local del Plan Regulador Comunal de Pudahuel",
+          "materia": "Urbanismo, Obras y Plan Regulador",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://www.diariooficial.interior.gob.cl/publicaciones/2026/05/12/44447/01/2805744.pdf",
+          "target_url": "https://www.diariooficial.interior.gob.cl/publicaciones/2026/05/12/44447/01/2805744.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.diariooficial.interior.gob.cl/publicaciones/2026/05/12/44447/01/2805744.pdf",
+            "content_type": "application/pdf",
+            "sha256": "118817a6e4febe65b2fec71b77d51186c1334ebf4d82f1868ee89352f93c088d",
+            "bytes": 182188,
+            "verified_at": "2026-09-25T12:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
         {
           "fuente": "BCN",
           "numero": "s-n",
@@ -49676,7 +49739,7 @@ window.CATASTRO_DATA = {
           "estado": "Vigente / LeyChile"
         }
       ],
-      "municipal_count": 1
+      "municipal_count": 2
     },
     {
       "region_id": "13",
@@ -49684,11 +49747,32 @@ window.CATASTRO_DATA = {
       "comuna": "Quilicura",
       "bcn_count": 19,
       "cplt_count": 0,
-      "total_count": 19,
+      "total_count": 20,
       "pdfs_count": 0,
-      "status": "Cargado BCN",
-      "last_update": "2013-11-20",
+      "status": "BCN + Municipalidad verificada",
+      "last_update": "2022-03-15",
       "ordenanzas": [
+        {
+          "cplt_code": "MU235",
+          "fuente": "Municipalidad",
+          "numero": "126/2022",
+          "fecha": "2022-03-15",
+          "titulo": "Ordenanza Municipal de Protección, Conservación y Preservación de Humedales Urbanos de Quilicura",
+          "materia": "Aseo, Ornato y Medio Ambiente",
+          "materia_id": "aseo_medioambiente",
+          "source_listing_url": "https://www.ww2.muniquilicura.cl",
+          "target_url": "https://www.ww2.muniquilicura.cl/wp-content/uploads/2022/03/ACUERDO-126-Ordenanza-de-Humedales.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.ww2.muniquilicura.cl/wp-content/uploads/2022/03/ACUERDO-126-Ordenanza-de-Humedales.pdf",
+            "content_type": "application/pdf",
+            "sha256": "04b482c70ce8ac77a364e260b1a0aa01e794ca1d349a17248a69a3fb08b61a12",
+            "bytes": 605099,
+            "verified_at": "2026-09-25T12:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
         {
           "fuente": "BCN",
           "numero": "4893-exento",
@@ -49946,7 +50030,7 @@ window.CATASTRO_DATA = {
           "estado": "Vigente / LeyChile"
         }
       ],
-      "municipal_count": 0
+      "municipal_count": 1
     },
     {
       "region_id": "13",
@@ -50296,11 +50380,200 @@ window.CATASTRO_DATA = {
       "comuna": "Recoleta",
       "bcn_count": 47,
       "cplt_count": 0,
-      "total_count": 47,
+      "total_count": 56,
       "pdfs_count": 0,
-      "status": "Cargado BCN",
-      "last_update": "2012-02-21",
+      "status": "BCN + Municipalidad verificada",
+      "last_update": "2026-01-08",
       "ordenanzas": [
+        {
+          "cplt_code": "MU245",
+          "fuente": "Municipalidad",
+          "numero": "86/2026",
+          "fecha": "2026-01-08",
+          "titulo": "Ordenanza Municipal N° 86 sobre Criterios de Acceso, Uso y Administración de Inmuebles Municipales y BNUP",
+          "materia": "Organización y Régimen Interno",
+          "materia_id": "administracion_interna",
+          "source_listing_url": "https://www.recoletatransparente.cl/archivos_2026/ordenanza_2026/Ordenanza_86.pdf",
+          "target_url": "https://www.recoletatransparente.cl/archivos_2026/ordenanza_2026/Ordenanza_86.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.recoletatransparente.cl/archivos_2026/ordenanza_2026/Ordenanza_86.pdf",
+            "content_type": "application/pdf",
+            "sha256": "c8eb2bdd1808bf45f43a7fe78f2cb1e808b7bb996911a832fab4e2d6d05f3098",
+            "bytes": 70968,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU245",
+          "fuente": "Municipalidad",
+          "numero": "85/2025",
+          "fecha": "2025-10-28",
+          "titulo": "Ordenanza Municipal N° 85 sobre Derechos Municipales por Permisos, Concesiones y Servicios año 2026",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://www.recoletatransparente.cl/archivos_2025/ordenanza_2025/Ordenanza_85.pdf",
+          "target_url": "https://www.recoletatransparente.cl/archivos_2025/ordenanza_2025/Ordenanza_85.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.recoletatransparente.cl/archivos_2025/ordenanza_2025/Ordenanza_85.pdf",
+            "content_type": "application/pdf",
+            "sha256": "e0810f7c31c255d15d3eeaec90fd2395dbcb195141649c96e6b09c7a531bb410",
+            "bytes": 1091483,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU245",
+          "fuente": "Municipalidad",
+          "numero": "84/2024",
+          "fecha": "2024-10-28",
+          "titulo": "Ordenanza Municipal N° 84 sobre Derechos Municipales por Permisos, Concesiones y Servicios año 2025",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://www.recoletatransparente.cl/archivos_2024/ordenanza_2024/Ordenanza_84.pdf",
+          "target_url": "https://www.recoletatransparente.cl/archivos_2024/ordenanza_2024/Ordenanza_84.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.recoletatransparente.cl/archivos_2024/ordenanza_2024/Ordenanza_84.pdf",
+            "content_type": "application/pdf",
+            "sha256": "93f87eea6630da14243321a39f3798ac49349d4f6c4a32504736bee393334313",
+            "bytes": 964977,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU245",
+          "fuente": "Municipalidad",
+          "numero": "82/2023",
+          "fecha": "2023-05-16",
+          "titulo": "Ordenanza Municipal N° 82 sobre Otorgamiento, Renovación, Caducidad y Traslado de Patentes de Alcoholes",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://www.recoletatransparente.cl/archivos_2023/ordenanza_2023/Ordenanza%20N%2082%20%2816.05.23%29.pdf",
+          "target_url": "https://www.recoletatransparente.cl/archivos_2023/ordenanza_2023/Ordenanza%20N%2082%20%2816.05.23%29.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.recoletatransparente.cl/archivos_2023/ordenanza_2023/Ordenanza%20N%2082%20%2816.05.23%29.pdf",
+            "content_type": "application/pdf",
+            "sha256": "ce829393d62ea1af2829ea34738f198f14b74d98980fd1cb603f2e456ad119ad",
+            "bytes": 1176856,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU245",
+          "fuente": "Municipalidad",
+          "numero": "81/2022",
+          "fecha": "2022-12-30",
+          "titulo": "Ordenanza Municipal N° 81 para Cierre y Control de Acceso a Calles y Pasajes por Motivos de Seguridad (Ley 21.411)",
+          "materia": "Seguridad y Convivencia",
+          "materia_id": "seguridad_convivencia",
+          "source_listing_url": "https://www.recoletatransparente.cl/archivos_2023/ordenanza_2023/ORDENANZA_N81.pdf",
+          "target_url": "https://www.recoletatransparente.cl/archivos_2023/ordenanza_2023/ORDENANZA_N81.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.recoletatransparente.cl/archivos_2023/ordenanza_2023/ORDENANZA_N81.pdf",
+            "content_type": "application/pdf",
+            "sha256": "b5a3690f1b64875bbf8067ada3538fc0f590085cf219cee20c309bb5663cd471",
+            "bytes": 817566,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU245",
+          "fuente": "Municipalidad",
+          "numero": "80/2022",
+          "fecha": "2022-12-29",
+          "titulo": "Ordenanza Municipal N° 80 para Comercio Estacionado, Ambulante, Ferias Libres, Persa y Mercado Tirso de Molina",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://www.recoletatransparente.cl/archivos_2023/ordenanza_2023/ORDENANZA_N80.pdf",
+          "target_url": "https://www.recoletatransparente.cl/archivos_2023/ordenanza_2023/ORDENANZA_N80.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.recoletatransparente.cl/archivos_2023/ordenanza_2023/ORDENANZA_N80.pdf",
+            "content_type": "application/pdf",
+            "sha256": "a3ce662774bbbb38d1dd3b9f86c571b12c4d9fa2ce33d9e7256a1454dfbce886",
+            "bytes": 2195571,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU245",
+          "fuente": "Municipalidad",
+          "numero": "79/2022",
+          "fecha": "2022-10-28",
+          "titulo": "Ordenanza Municipal N° 79 sobre Derechos Municipales por Permisos, Concesiones y Servicios año 2023",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://www.recoletatransparente.cl/archivos_2022/ordenanza_2022/ORDENANZA79.pdf",
+          "target_url": "https://www.recoletatransparente.cl/archivos_2022/ordenanza_2022/ORDENANZA79.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.recoletatransparente.cl/archivos_2022/ordenanza_2022/ORDENANZA79.pdf",
+            "content_type": "application/pdf",
+            "sha256": "cbaaa1d51d958ae2a3abbfd0a58e76da313d494d12e2e7997c7acc54c3f6d9f4",
+            "bytes": 2447954,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU245",
+          "fuente": "Municipalidad",
+          "numero": "77/2022",
+          "fecha": "2022-02-16",
+          "titulo": "Ordenanza Municipal N° 77 sobre Permiso de Ocupación de Calzadas para Estacionamientos a Precio Justo",
+          "materia": "Tránsito y Transporte",
+          "materia_id": "transito_transporte",
+          "source_listing_url": "https://www.recoletatransparente.cl/archivos_2022/ordenanza_2022/ORDENANZA%20N%2077.pdf",
+          "target_url": "https://www.recoletatransparente.cl/archivos_2022/ordenanza_2022/ORDENANZA%20N%2077.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.recoletatransparente.cl/archivos_2022/ordenanza_2022/ORDENANZA%20N%2077.pdf",
+            "content_type": "application/pdf",
+            "sha256": "ae42d76cd2efb723ef1e34f809c372c70b4581e8a39427d87435c0d003deea33",
+            "bytes": 2533837,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU245",
+          "fuente": "Municipalidad",
+          "numero": "75/2021",
+          "fecha": "2021-02-05",
+          "titulo": "Ordenanza Municipal N° 75 sobre Derechos Municipales por Permisos, Concesiones y Servicios año 2021",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://www.recoletatransparente.cl/archivos_2021/ordenanza_2021/ORDENANZA%20N75.pdf",
+          "target_url": "https://www.recoletatransparente.cl/archivos_2021/ordenanza_2021/ORDENANZA%20N75.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.recoletatransparente.cl/archivos_2021/ordenanza_2021/ORDENANZA%20N75.pdf",
+            "content_type": "application/pdf",
+            "sha256": "ff111eda87836925657fcec54899104871bf4febcd78e8a692a80f17f1e8c94b",
+            "bytes": 9744372,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
         {
           "fuente": "BCN",
           "numero": "55",
@@ -50976,7 +51249,7 @@ window.CATASTRO_DATA = {
           "estado": "Vigente / LeyChile"
         }
       ],
-      "municipal_count": 0
+      "municipal_count": 9
     },
     {
       "region_id": "13",
@@ -50984,11 +51257,179 @@ window.CATASTRO_DATA = {
       "comuna": "Renca",
       "bcn_count": 29,
       "cplt_count": 0,
-      "total_count": 30,
+      "total_count": 38,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": "2018-01-01",
+      "last_update": "2026-08-19",
       "ordenanzas": [
+        {
+          "cplt_code": "MU248",
+          "fuente": "Municipalidad",
+          "numero": "2685/2026",
+          "fecha": "2026-08-19",
+          "titulo": "Ordenanza Municipal que Previene, Prohíbe y Sanciona el Acoso Callejero en la Comuna de Renca",
+          "materia": "Seguridad y Convivencia",
+          "materia_id": "seguridad_convivencia",
+          "source_listing_url": "https://renca.cl/wp-content/uploads/2026/08/DECRETO-2685-APRUEBA-ORDENANZA-MUNICIPAL-QUE-PREVIENE-PROHIBE-Y-SANCIONA-EL-ACOSO-CALLEJERO-1.pdf",
+          "target_url": "https://renca.cl/wp-content/uploads/2026/08/DECRETO-2685-APRUEBA-ORDENANZA-MUNICIPAL-QUE-PREVIENE-PROHIBE-Y-SANCIONA-EL-ACOSO-CALLEJERO-1.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://renca.cl/wp-content/uploads/2026/08/DECRETO-2685-APRUEBA-ORDENANZA-MUNICIPAL-QUE-PREVIENE-PROHIBE-Y-SANCIONA-EL-ACOSO-CALLEJERO-1.pdf",
+            "content_type": "application/pdf",
+            "sha256": "2fb2f4f099be217e20720c2869536ca8be69d0b294fbd87d22dc04515a013e31",
+            "bytes": 2683018,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU248",
+          "fuente": "Municipalidad",
+          "numero": "1860/2026",
+          "fecha": "2026-08-06",
+          "titulo": "Modificación de Ordenanza N° 003-1995 sobre Derechos por Permisos, Concesiones y Servicios Municipales",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://renca.cl/wp-content/uploads/2026/08/DECRETO-1860-APRUEBA-MODIFICACION-DE-ORDENANZA-N%C2%B0003-1995-SOBRE-DERECHOS-POR-PERMISO-CONCESIONES-Y-SERVICIOS-MUNICIPALES.pdf",
+          "target_url": "https://renca.cl/wp-content/uploads/2026/08/DECRETO-1860-APRUEBA-MODIFICACION-DE-ORDENANZA-N%C2%B0003-1995-SOBRE-DERECHOS-POR-PERMISO-CONCESIONES-Y-SERVICIOS-MUNICIPALES.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://renca.cl/wp-content/uploads/2026/08/DECRETO-1860-APRUEBA-MODIFICACION-DE-ORDENANZA-N%C2%B0003-1995-SOBRE-DERECHOS-POR-PERMISO-CONCESIONES-Y-SERVICIOS-MUNICIPALES.pdf",
+            "content_type": "application/pdf",
+            "sha256": "b8fdc89103d4ce44837c0d0f85f6008c1ccf83920cca7d2699188951eb3940e3",
+            "bytes": 1655118,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU248",
+          "fuente": "Municipalidad",
+          "numero": "2839/2025",
+          "fecha": "2025-10-29",
+          "titulo": "Modificación de Ordenanza N° 003-1985 sobre Permisos y Concesiones de Bienes Municipales y BNUP",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://renca.cl/wp-content/uploads/2025/10/DECRETO-2839-APRUEBA-MODIFICACION-DE-ORDENANZA-N%C2%B0-003-1985-SOBRE-PERMISOS-Y-CONCESIONES-DE-BIENES-MUNICIPALES-Y-NACIONALES-DE-USO-PIBLICO-Y-CONCESIONES-DE-SERVICIOS-MUNICIPALES.-1.pdf",
+          "target_url": "https://renca.cl/wp-content/uploads/2025/10/DECRETO-2839-APRUEBA-MODIFICACION-DE-ORDENANZA-N%C2%B0-003-1985-SOBRE-PERMISOS-Y-CONCESIONES-DE-BIENES-MUNICIPALES-Y-NACIONALES-DE-USO-PIBLICO-Y-CONCESIONES-DE-SERVICIOS-MUNICIPALES.-1.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://renca.cl/wp-content/uploads/2025/10/DECRETO-2839-APRUEBA-MODIFICACION-DE-ORDENANZA-N%C2%B0-003-1985-SOBRE-PERMISOS-Y-CONCESIONES-DE-BIENES-MUNICIPALES-Y-NACIONALES-DE-USO-PIBLICO-Y-CONCESIONES-DE-SERVICIOS-MUNICIPALES.-1.pdf",
+            "content_type": "application/pdf",
+            "sha256": "3a462701d6d0302915da714266fa7ba8c34ccf899cc331afd4d6fc39b2f1813f",
+            "bytes": 1337788,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU248",
+          "fuente": "Municipalidad",
+          "numero": "2522/2024",
+          "fecha": "2024-11-08",
+          "titulo": "Modificación a Ordenanza N° 003 de 1995 sobre Derechos por Permisos, Concesiones y Servicios Municipales",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://renca.cl/wp-content/uploads/2024/11/DECRETO-2522-MODIFICA-LA-ORDENANZA-N%C2%B0-003-DE-1995-SOBRE-DERECHOS-POR-PERMISOS-CONCESIONES-Y-SERVICIOS-MUNICIPALES.pdf",
+          "target_url": "https://renca.cl/wp-content/uploads/2024/11/DECRETO-2522-MODIFICA-LA-ORDENANZA-N%C2%B0-003-DE-1995-SOBRE-DERECHOS-POR-PERMISOS-CONCESIONES-Y-SERVICIOS-MUNICIPALES.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://renca.cl/wp-content/uploads/2024/11/DECRETO-2522-MODIFICA-LA-ORDENANZA-N%C2%B0-003-DE-1995-SOBRE-DERECHOS-POR-PERMISOS-CONCESIONES-Y-SERVICIOS-MUNICIPALES.pdf",
+            "content_type": "application/pdf",
+            "sha256": "fc1b0fceb516521d3e0459329b5ea864aabfb7907b5d31cd80ebf27ac6fedd76",
+            "bytes": 647948,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU248",
+          "fuente": "Municipalidad",
+          "numero": "125/2023",
+          "fecha": "2023-01-20",
+          "titulo": "Ordenanza Municipal para el Cierre de Calles, Pasajes o Conjuntos Habitacionales por Motivos de Seguridad (Ley 21.411)",
+          "materia": "Seguridad y Convivencia",
+          "materia_id": "seguridad_convivencia",
+          "source_listing_url": "https://renca.cl/wp-content/uploads/2023/01/DECRETO-125-APRUEBA-ORDENANZA-MUNICIPAL-PARA-EL-CIERRE-O-IMPLEMENTACION-DE-LAS-MEDIDAS-DE-CONTROL-DE-ACCESO-EN-CALLES-PASAJES-O-CONJUNTOS-HABITACIONALES-POR-MOTIVOS-DE-SEGURIDAD..pdf",
+          "target_url": "https://renca.cl/wp-content/uploads/2023/01/DECRETO-125-APRUEBA-ORDENANZA-MUNICIPAL-PARA-EL-CIERRE-O-IMPLEMENTACION-DE-LAS-MEDIDAS-DE-CONTROL-DE-ACCESO-EN-CALLES-PASAJES-O-CONJUNTOS-HABITACIONALES-POR-MOTIVOS-DE-SEGURIDAD..pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://renca.cl/wp-content/uploads/2023/01/DECRETO-125-APRUEBA-ORDENANZA-MUNICIPAL-PARA-EL-CIERRE-O-IMPLEMENTACION-DE-LAS-MEDIDAS-DE-CONTROL-DE-ACCESO-EN-CALLES-PASAJES-O-CONJUNTOS-HABITACIONALES-POR-MOTIVOS-DE-SEGURIDAD..pdf",
+            "content_type": "application/pdf",
+            "sha256": "3286458fa4330a42553f414d03ae85d9b600701cc30011b7921ce1259d5e2e4b",
+            "bytes": 328678,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU248",
+          "fuente": "Municipalidad",
+          "numero": "1788/2022",
+          "fecha": "2022-10-28",
+          "titulo": "Modificación a la Ordenanza N° 003 de 1995 sobre Derechos por Permisos, Concesiones y Servicios Municipales",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://renca.cl/wp-content/uploads/2022/10/DECRETO-1788-MODIFICA-LA-ORDENANZA-N%C2%B0-003-DE-1995-SOBRE-DERECHOS-POR-PERMISOS-CONCESIONES-Y-SERVICIOS-MUNICIPALES..pdf",
+          "target_url": "https://renca.cl/wp-content/uploads/2022/10/DECRETO-1788-MODIFICA-LA-ORDENANZA-N%C2%B0-003-DE-1995-SOBRE-DERECHOS-POR-PERMISOS-CONCESIONES-Y-SERVICIOS-MUNICIPALES..pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://renca.cl/wp-content/uploads/2022/10/DECRETO-1788-MODIFICA-LA-ORDENANZA-N%C2%B0-003-DE-1995-SOBRE-DERECHOS-POR-PERMISOS-CONCESIONES-Y-SERVICIOS-MUNICIPALES..pdf",
+            "content_type": "application/pdf",
+            "sha256": "b9700f09390390fb2934522139165197960656d42f90dc311e8b615a4a42a828",
+            "bytes": 5873992,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU248",
+          "fuente": "Municipalidad",
+          "numero": "PRCR-2022",
+          "fecha": "2022-02-21",
+          "titulo": "Ordenanza Local del Plan Regulador Comunal de Renca (PRCR Timbrado)",
+          "materia": "Urbanismo, Obras y Edificación",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://renca.cl/wp-content/uploads/2022/02/Ordenanza-Local-PRCR_Timbrado.pdf",
+          "target_url": "https://renca.cl/wp-content/uploads/2022/02/Ordenanza-Local-PRCR_Timbrado.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://renca.cl/wp-content/uploads/2022/02/Ordenanza-Local-PRCR_Timbrado.pdf",
+            "content_type": "application/pdf",
+            "sha256": "ff34937aa0fc4d5be881e08d71e549cd4cd4a17656c59bd6201459037fd40379",
+            "bytes": 1564687,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU248",
+          "fuente": "Municipalidad",
+          "numero": "994/2021",
+          "fecha": "2021-06-23",
+          "titulo": "Ordenanza Ambiental para la Comuna de Renca",
+          "materia": "Aseo, Ornato y Medio Ambiente",
+          "materia_id": "aseo_medioambiente",
+          "source_listing_url": "https://renca.cl/wp-content/uploads/2021/11/Ordenanza-Ambiental.-23.06.2021.pdf",
+          "target_url": "https://renca.cl/wp-content/uploads/2021/11/Ordenanza-Ambiental.-23.06.2021.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://renca.cl/wp-content/uploads/2021/11/Ordenanza-Ambiental.-23.06.2021.pdf",
+            "content_type": "application/pdf",
+            "sha256": "65cc4124045fac8b234bf5b6acbfb6eb253962e27471f6cc48599e26ab020da7",
+            "bytes": 722491,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
         {
           "cplt_code": "MU265",
           "fuente": "Municipalidad",
@@ -51409,7 +51850,7 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-renca/1985-01-30/1/datos.json"
         }
       ],
-      "municipal_count": 1
+      "municipal_count": 9
     },
     {
       "region_id": "13",
@@ -51417,11 +51858,95 @@ window.CATASTRO_DATA = {
       "comuna": "San Joaquín",
       "bcn_count": 15,
       "cplt_count": 0,
-      "total_count": 15,
+      "total_count": 19,
       "pdfs_count": 0,
-      "status": "Cargado BCN",
-      "last_update": "2010-09-11",
+      "status": "BCN + Municipalidad verificada",
+      "last_update": "2025-11-10",
       "ordenanzas": [
+        {
+          "cplt_code": "MU268",
+          "fuente": "Municipalidad",
+          "numero": "17/2025",
+          "fecha": "2025-11-10",
+          "titulo": "Ordenanza Municipal N° 17 sobre Retiro de Escombros Aéreos y Tapas de Cámaras en Desuso de San Joaquín",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://sanjoaquin.cl",
+          "target_url": "https://sanjoaquin.cl/wp-content/uploads/2026/06/ORDENANZA-N%C2%B0-17-10.11.25-LOCAL-SOBRE-RETIRO-DE-ESCOMBRO-AEREO-Y-TAPAS-DE-CAMARAS-DE-LA-MUNICIPALIDAD-DE-SAN-JOAQUIN.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://sanjoaquin.cl/wp-content/uploads/2026/06/ORDENANZA-N%C2%B0-17-10.11.25-LOCAL-SOBRE-RETIRO-DE-ESCOMBRO-AEREO-Y-TAPAS-DE-CAMARAS-DE-LA-MUNICIPALIDAD-DE-SAN-JOAQUIN.pdf",
+            "content_type": "application/pdf",
+            "sha256": "4c313713c232a21bb1cfda2c06e83517c091446d905601198fff39605cf426fe",
+            "bytes": 3702432,
+            "verified_at": "2026-09-25T12:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU268",
+          "fuente": "Municipalidad",
+          "numero": "04/2024",
+          "fecha": "2024-10-25",
+          "titulo": "Ordenanza Municipal N° 04 sobre Derechos Municipales por Servicio de Aseo y Ornato de San Joaquín año 2025",
+          "materia": "Aseo, Ornato y Medio Ambiente",
+          "materia_id": "aseo_medioambiente",
+          "source_listing_url": "https://sanjoaquin.cl",
+          "target_url": "https://sanjoaquin.cl/wp-content/uploads/2024/11/ORDENANZA-N%C2%B0-04-25.10.24-ORDENANZA-LOCAL-SOBRE-DERECHOS-MUNIC.-POR-SERVICIO-DEASEO-Y-ORNATO-DE-LA-MUNIC.-DE-SAN-JOAQUIN-2025.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://sanjoaquin.cl/wp-content/uploads/2024/11/ORDENANZA-N%C2%B0-04-25.10.24-ORDENANZA-LOCAL-SOBRE-DERECHOS-MUNIC.-POR-SERVICIO-DEASEO-Y-ORNATO-DE-LA-MUNIC.-DE-SAN-JOAQUIN-2025.pdf",
+            "content_type": "application/pdf",
+            "sha256": "cb8958d04cd9bbf3a547af8e77b44e861008a3364c36ffad321bb5d203347109",
+            "bytes": 5666123,
+            "verified_at": "2026-09-25T12:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU268",
+          "fuente": "Municipalidad",
+          "numero": "10/2023",
+          "fecha": "2023-10-23",
+          "titulo": "Ordenanza Municipal N° 10 sobre Derechos Municipales por Servicios Comunitarios de San Joaquín año 2024",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://sanjoaquin.cl",
+          "target_url": "https://sanjoaquin.cl/wp-content/uploads/2023/10/10-23.10.23-ORDENANZA-LOCAL-SOBRE-DERECHOS-MUNICIPALES-POR-SERVICIOS-COMUNITARIOS-MUNICIPALES-SAN-JOAQUIN-2024.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://sanjoaquin.cl/wp-content/uploads/2023/10/10-23.10.23-ORDENANZA-LOCAL-SOBRE-DERECHOS-MUNICIPALES-POR-SERVICIOS-COMUNITARIOS-MUNICIPALES-SAN-JOAQUIN-2024.pdf",
+            "content_type": "application/pdf",
+            "sha256": "81a09c30c2f26fa403756debf73f8c61871a4a2c9c9c819f81b5976b2f2ed650",
+            "bytes": 1087128,
+            "verified_at": "2026-09-25T12:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU268",
+          "fuente": "Municipalidad",
+          "numero": "02/2022",
+          "fecha": "2022-03-30",
+          "titulo": "Ordenanza Municipal N° 02 que aprueba Beca Social de Incentivo a la Educación Superior de San Joaquín",
+          "materia": "Salud, Deporte y Desarrollo Social",
+          "materia_id": "social_salud_deporte",
+          "source_listing_url": "https://sanjoaquin.cl",
+          "target_url": "https://sanjoaquin.cl/wp-content/uploads/2022/03/02-30.03.22-APRUEBA-ORDENANZA-LOCAL-DENOMINADA-BECA-SOCIAL-DE-INCENTIVO-A-LA-EDUCACION-DE-LA-MUNIC.-DE-SAN-JOAQUIN.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://sanjoaquin.cl/wp-content/uploads/2022/03/02-30.03.22-APRUEBA-ORDENANZA-LOCAL-DENOMINADA-BECA-SOCIAL-DE-INCENTIVO-A-LA-EDUCACION-DE-LA-MUNIC.-DE-SAN-JOAQUIN.pdf",
+            "content_type": "application/pdf",
+            "sha256": "5f7bf252878bbb9bd418d2a7d1d62bfd5dbde44bd1e1b2869e0a671699841f49",
+            "bytes": 2723920,
+            "verified_at": "2026-09-25T12:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
         {
           "fuente": "BCN",
           "numero": "989",
@@ -51636,7 +52161,7 @@ window.CATASTRO_DATA = {
           "estado": "Vigente / LeyChile"
         }
       ],
-      "municipal_count": 0
+      "municipal_count": 4
     },
     {
       "region_id": "13",
@@ -52368,11 +52893,32 @@ window.CATASTRO_DATA = {
       "comuna": "Vitacura",
       "bcn_count": 59,
       "cplt_count": 0,
-      "total_count": 59,
+      "total_count": 60,
       "pdfs_count": 0,
-      "status": "Cargado BCN",
-      "last_update": "2010-01-04",
+      "status": "BCN + Municipalidad verificada",
+      "last_update": "2023-02-17",
       "ordenanzas": [
+        {
+          "cplt_code": "MU341",
+          "fuente": "Municipalidad",
+          "numero": "07/2023",
+          "fecha": "2023-02-17",
+          "titulo": "Ordenanza Municipal N° 7 para el cierre o implementación de medidas de control de accesos en calles y pasajes por motivos de seguridad Ley 21.411",
+          "materia": "Tránsito, Transporte y Espacio Público",
+          "materia_id": "transito_espacio_publico",
+          "source_listing_url": "https://www.bcn.cl/leychile/navegar?idNorma=1189339",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=Ordenanza-7_17-FEB-2023&exportar_con_notas_bcn=True&exportar_con_notas_originales=True&exportar_con_notas_al_pie=True&hddResultadoExportar=1189339.2023-02-17.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=Ordenanza-7_17-FEB-2023&exportar_con_notas_bcn=True&exportar_con_notas_originales=True&exportar_con_notas_al_pie=True&hddResultadoExportar=1189339.2023-02-17.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "83c92d5354e66a1acf10f30e7946cd3b540057a0d30685b549817d75c9711d2c",
+            "bytes": 61769,
+            "verified_at": "2026-09-25T12:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
         {
           "fuente": "BCN",
           "numero": "2953",
@@ -53165,7 +53711,7 @@ window.CATASTRO_DATA = {
           "estado": "Vigente / LeyChile"
         }
       ],
-      "municipal_count": 0
+      "municipal_count": 1
     },
     {
       "region_id": "13",
@@ -67956,11 +68502,74 @@ window.CATASTRO_DATA = {
       "comuna": "Rengo",
       "bcn_count": 29,
       "cplt_count": 0,
-      "total_count": 29,
+      "total_count": 32,
       "pdfs_count": 0,
-      "status": "Cargado BCN",
-      "last_update": "2015-06-26",
+      "status": "BCN + Municipalidad verificada",
+      "last_update": "2026-07-15",
       "ordenanzas": [
+        {
+          "cplt_code": "MU250",
+          "fuente": "Municipalidad",
+          "numero": "1008/2026",
+          "fecha": "2026-07-15",
+          "titulo": "Modificación a la Ordenanza de Alcoholes de la Comuna de Rengo",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://municipalidadrengo.cl/wp-content/uploads/2026/07/Hora_58Folio_10828_2025_1008_15.07.2026_Aprubese-modificacion-a-la-Nueva-Ordenanza-de-Alcoholes-Articulo-transitorio.pdf",
+          "target_url": "https://municipalidadrengo.cl/wp-content/uploads/2026/07/Hora_58Folio_10828_2025_1008_15.07.2026_Aprubese-modificacion-a-la-Nueva-Ordenanza-de-Alcoholes-Articulo-transitorio.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://municipalidadrengo.cl/wp-content/uploads/2026/07/Hora_58Folio_10828_2025_1008_15.07.2026_Aprubese-modificacion-a-la-Nueva-Ordenanza-de-Alcoholes-Articulo-transitorio.pdf",
+            "content_type": "application/pdf",
+            "sha256": "47d5f7e5b953a5acfb4e2298e75ecbc24088a96ce01da177febc00dacc81b069",
+            "bytes": 2650600,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU250",
+          "fuente": "Municipalidad",
+          "numero": "Beca-2026",
+          "fecha": "2026-03-02",
+          "titulo": "Ordenanza de Postulación y Entrega de la Beca Municipal de Rengo",
+          "materia": "Salud, Deporte y Desarrollo Social",
+          "materia_id": "social_salud_deporte",
+          "source_listing_url": "https://municipalidadrengo.cl/wp-content/uploads/2026/03/Aprueba-ORDENANZA-DE-POSTULACION-Y-ENTREGA-DE-LA-BECA-MUNICIPAL-RENGO.pdf",
+          "target_url": "https://municipalidadrengo.cl/wp-content/uploads/2026/03/Aprueba-ORDENANZA-DE-POSTULACION-Y-ENTREGA-DE-LA-BECA-MUNICIPAL-RENGO.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://municipalidadrengo.cl/wp-content/uploads/2026/03/Aprueba-ORDENANZA-DE-POSTULACION-Y-ENTREGA-DE-LA-BECA-MUNICIPAL-RENGO.pdf",
+            "content_type": "application/pdf",
+            "sha256": "324384d76de964b860060e70b51601db547933f1ed0467ab3e3ed7db2c9cb466",
+            "bytes": 10058328,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU250",
+          "fuente": "Municipalidad",
+          "numero": "Aseo-2025",
+          "fecha": "2025-11-13",
+          "titulo": "Ordenanza de Aseo Comunal de Rengo",
+          "materia": "Aseo, Ornato y Medio Ambiente",
+          "materia_id": "aseo_medioambiente",
+          "source_listing_url": "https://municipalidadrengo.cl/wp-content/uploads/2025/11/Ordenanza-de-Aseo-comunal.pdf",
+          "target_url": "https://municipalidadrengo.cl/wp-content/uploads/2025/11/Ordenanza-de-Aseo-comunal.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://municipalidadrengo.cl/wp-content/uploads/2025/11/Ordenanza-de-Aseo-comunal.pdf",
+            "content_type": "application/pdf",
+            "sha256": "dfc7f0887d5c5506e3cddd363a0c07a7b9e02aae895e33249931d821cd5e0f9f",
+            "bytes": 1068376,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
         {
           "fuente": "BCN",
           "numero": "914",
@@ -68345,7 +68954,7 @@ window.CATASTRO_DATA = {
           "estado": "Vigente / LeyChile"
         }
       ],
-      "municipal_count": 0
+      "municipal_count": 3
     },
     {
       "region_id": "06",
@@ -81648,11 +82257,32 @@ window.CATASTRO_DATA = {
       "comuna": "Chillán",
       "bcn_count": 21,
       "cplt_count": 0,
-      "total_count": 21,
+      "total_count": 22,
       "pdfs_count": 0,
-      "status": "Cargado BCN",
-      "last_update": "2006-06-10",
+      "status": "BCN + Municipalidad verificada",
+      "last_update": "2024-10-30",
       "ordenanzas": [
+        {
+          "cplt_code": "MU049",
+          "fuente": "Municipalidad",
+          "numero": "12846/2024",
+          "fecha": "2024-10-30",
+          "titulo": "Decreto Alcaldicio N° 12846 que aprueba el Texto Refundido de la Ordenanza sobre Derechos Municipales de Chillán año 2025",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://www.municipalidadchillan.cl/sitio/banner3/documentos/2024/Decreto-ordenanza-2024.pdf",
+          "target_url": "https://www.municipalidadchillan.cl/sitio/banner3/documentos/2024/Decreto-ordenanza-2024.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.municipalidadchillan.cl/sitio/banner3/documentos/2024/Decreto-ordenanza-2024.pdf",
+            "content_type": "application/pdf",
+            "sha256": "963b0488d94aab793f91a62d1d0fd18da78f33b1b94b57e3e912da1a07e91478",
+            "bytes": 9017282,
+            "verified_at": "2026-09-25T12:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
         {
           "fuente": "BCN",
           "numero": "3394",
@@ -81930,7 +82560,7 @@ window.CATASTRO_DATA = {
           "estado": "Vigente / LeyChile"
         }
       ],
-      "municipal_count": 0
+      "municipal_count": 1
     },
     {
       "region_id": "16",
@@ -92896,11 +93526,53 @@ window.CATASTRO_DATA = {
       "comuna": "Antuco",
       "bcn_count": 4,
       "cplt_count": 0,
-      "total_count": 4,
+      "total_count": 6,
       "pdfs_count": 0,
-      "status": "Cargado BCN",
-      "last_update": "2004-01-24",
+      "status": "BCN + Municipalidad verificada",
+      "last_update": "2026-04-14",
       "ordenanzas": [
+        {
+          "cplt_code": "MU009",
+          "fuente": "Municipalidad",
+          "numero": "02/2026",
+          "fecha": "2026-04-14",
+          "titulo": "Ordenanza Municipal N° 02-2026 de la Municipalidad de Antuco",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://municipalidadantuco.cl/wp-content/uploads/2026/03/ordenanza_antuco_02_2026.pdf",
+          "target_url": "https://municipalidadantuco.cl/wp-content/uploads/2026/03/ordenanza_antuco_02_2026.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://municipalidadantuco.cl/wp-content/uploads/2026/03/ordenanza_antuco_02_2026.pdf",
+            "content_type": "application/pdf",
+            "sha256": "b0a3b90851e009ba0656fa3fe883de8c500453f3abe05ccd807ba0da2634c8dd",
+            "bytes": 402603,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU009",
+          "fuente": "Municipalidad",
+          "numero": "Mascotas-2026",
+          "fecha": "2026-03-09",
+          "titulo": "Ordenanza Municipal sobre Tenencia Responsable de Mascotas y Protección Animal (Ley 21.020)",
+          "materia": "Tenencia Responsable y Mascotas",
+          "materia_id": "mascotas_animales",
+          "source_listing_url": "https://municipalidadantuco.cl/wp-content/uploads/2026/03/Ordenanza-Tenencia-Responsable-de-Mascotas-2026.pdf",
+          "target_url": "https://municipalidadantuco.cl/wp-content/uploads/2026/03/Ordenanza-Tenencia-Responsable-de-Mascotas-2026.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://municipalidadantuco.cl/wp-content/uploads/2026/03/Ordenanza-Tenencia-Responsable-de-Mascotas-2026.pdf",
+            "content_type": "application/pdf",
+            "sha256": "4635c499833f1231865db9dbd93127defea1c4b6fb5571cac1cb1e25f510508f",
+            "bytes": 6426667,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
         {
           "id": 52,
           "fuente": "BCN",
@@ -92957,7 +93629,7 @@ window.CATASTRO_DATA = {
           "estado": "Vigente / LeyChile"
         }
       ],
-      "municipal_count": 0
+      "municipal_count": 2
     },
     {
       "region_id": "08",
@@ -94009,11 +94681,32 @@ window.CATASTRO_DATA = {
       "comuna": "Quilleco",
       "bcn_count": 3,
       "cplt_count": 0,
-      "total_count": 4,
+      "total_count": 5,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": "2017-12-19",
+      "last_update": "2025-10-29",
       "ordenanzas": [
+        {
+          "cplt_code": "MU236",
+          "fuente": "Municipalidad",
+          "numero": "17-3066/2025",
+          "fecha": "2025-10-29",
+          "titulo": "Ordenanza N° 17 (Decreto Alcaldicio N° 3066/2025) sobre Derechos Municipales de Quilleco",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://municipalidadquilleco.cl/wp-content/uploads/2025/10/Ordenanza_17_de_decreto_3066_2025.pdf",
+          "target_url": "https://municipalidadquilleco.cl/wp-content/uploads/2025/10/Ordenanza_17_de_decreto_3066_2025.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://municipalidadquilleco.cl/wp-content/uploads/2025/10/Ordenanza_17_de_decreto_3066_2025.pdf",
+            "content_type": "application/pdf",
+            "sha256": "1c07a87634f81cff24d26112dc9fe8668d2ac4454f617732c25c008ae40c2a9b",
+            "bytes": 7647452,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
         {
           "cplt_code": "MU_quilleco",
           "fuente": "Municipalidad",
@@ -94075,7 +94768,7 @@ window.CATASTRO_DATA = {
           "estado": "Vigente / LeyChile"
         }
       ],
-      "municipal_count": 1
+      "municipal_count": 2
     },
     {
       "region_id": "08",
@@ -99261,11 +99954,53 @@ window.CATASTRO_DATA = {
       "comuna": "Melipeuco",
       "bcn_count": 8,
       "cplt_count": 0,
-      "total_count": 8,
+      "total_count": 10,
       "pdfs_count": 0,
-      "status": "Cargado BCN",
-      "last_update": "2005-08-02",
+      "status": "BCN + Municipalidad verificada",
+      "last_update": "2026-08-20",
       "ordenanzas": [
+        {
+          "cplt_code": "MU175",
+          "fuente": "Municipalidad",
+          "numero": "11/2026",
+          "fecha": "2026-08-20",
+          "titulo": "Ordenanza Municipal N° 11 sobre Actividades de Turismo Aventura de Melipeuco",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://municipalidadmelipeuco.cl/wp-content/uploads/2026/08/11-ORDENANZA-TURISMO-AVENTURA.pdf",
+          "target_url": "https://municipalidadmelipeuco.cl/wp-content/uploads/2026/08/11-ORDENANZA-TURISMO-AVENTURA.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://municipalidadmelipeuco.cl/wp-content/uploads/2026/08/11-ORDENANZA-TURISMO-AVENTURA.pdf",
+            "content_type": "application/pdf",
+            "sha256": "8ff87053fe656196b4fe220bc3a725c94c6dd2526cc7e05a3f41c28b9064e01e",
+            "bytes": 794404,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU175",
+          "fuente": "Municipalidad",
+          "numero": "Beca-2026",
+          "fecha": "2026-06-24",
+          "titulo": "Decreto y Ordenanza sobre Beca Municipal de Melipeuco",
+          "materia": "Salud, Deporte y Desarrollo Social",
+          "materia_id": "social_salud_deporte",
+          "source_listing_url": "https://municipalidadmelipeuco.cl/wp-content/uploads/2026/06/DECRETO-Y-ORDENANZA-BECA-MUNICIPAL.pdf",
+          "target_url": "https://municipalidadmelipeuco.cl/wp-content/uploads/2026/06/DECRETO-Y-ORDENANZA-BECA-MUNICIPAL.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://municipalidadmelipeuco.cl/wp-content/uploads/2026/06/DECRETO-Y-ORDENANZA-BECA-MUNICIPAL.pdf",
+            "content_type": "application/pdf",
+            "sha256": "1bea791c8adbc6cf93696245ebbcc8e2fa13d44d583b3f398f93720bd57ab5f8",
+            "bytes": 324535,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
         {
           "fuente": "BCN",
           "numero": "2",
@@ -99377,7 +100112,7 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-melipeuco/1986-05-07/s-n/datos.json"
         }
       ],
-      "municipal_count": 0
+      "municipal_count": 2
     },
     {
       "region_id": "09",
@@ -103682,11 +104417,32 @@ window.CATASTRO_DATA = {
       "comuna": "Valdivia",
       "bcn_count": 24,
       "cplt_count": 0,
-      "total_count": 24,
+      "total_count": 25,
       "pdfs_count": 0,
-      "status": "Cargado BCN",
-      "last_update": "2007-12-31",
+      "status": "BCN + Municipalidad verificada",
+      "last_update": "2022-04-13",
       "ordenanzas": [
+        {
+          "cplt_code": "MU330",
+          "fuente": "Municipalidad",
+          "numero": "Humedales-2022",
+          "fecha": "2022-04-13",
+          "titulo": "Ordenanza Municipal para la Protección de Humedales de la Comuna de Valdivia",
+          "materia": "Aseo, Ornato y Medio Ambiente",
+          "materia_id": "aseo_medioambiente",
+          "source_listing_url": "https://munivaldivia.cl/repositorio-documental/",
+          "target_url": "https://www.munivaldivia.cl/doctos/transparencia/Normativa/Ord_Humedales2022.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.munivaldivia.cl/doctos/transparencia/Normativa/Ord_Humedales2022.pdf",
+            "content_type": "application/pdf",
+            "sha256": "ee6fb79c9a17e20225615534e650f17aab7bb7ac273b73398c2963704a49de9b",
+            "bytes": 11352174,
+            "verified_at": "2026-09-25T12:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
         {
           "fuente": "BCN",
           "numero": "s-n",
@@ -104045,7 +104801,7 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-valdivia/1985-01-31/s-n/datos.json"
         }
       ],
-      "municipal_count": 0
+      "municipal_count": 1
     },
     {
       "region_id": "14",
@@ -104172,27 +104928,6 @@ window.CATASTRO_DATA = {
         {
           "cplt_code": "MU133",
           "fuente": "Municipalidad",
-          "numero": "3689",
-          "fecha": "2024-01-01",
-          "titulo": "Ordenanza Municipal de LANCO — 1 home?download=30:decreto exento n3689 2024 aprueba el texto actualizado y refundido de la ordenanza sobre el funcionamiento de ferias libres",
-          "materia": "Patentes, Comercio y Alcoholes",
-          "materia_id": "alcoholes_comercio",
-          "source_listing_url": "https://munilanco.cl/index.php/documentos-home/1-home?download=30:decreto-exento-n3689-2024-aprueba-el-texto-actualizado-y-refundido-de-la-ordenanza-sobre-el-funcionamiento-de-ferias-libres",
-          "target_url": "https://munilanco.cl/index.php/documentos-home/1-home?download=30:decreto-exento-n3689-2024-aprueba-el-texto-actualizado-y-refundido-de-la-ordenanza-sobre-el-funcionamiento-de-ferias-libres",
-          "verification": {
-            "status": "verified",
-            "http_status": 200,
-            "resolved_url": "https://munilanco.cl/index.php/documentos-home/1-home?download=30:decreto-exento-n3689-2024-aprueba-el-texto-actualizado-y-refundido-de-la-ordenanza-sobre-el-funcionamiento-de-ferias-libres",
-            "content_type": "application/pdf",
-            "sha256": "e43aa162507a7d32259d30ce6d2b8b3f18388e25950224a47a9eb491c51f3c92",
-            "bytes": 312112,
-            "verified_at": "2026-08-30T17:00:12.009021+00:00"
-          },
-          "rdf_url": null
-        },
-        {
-          "cplt_code": "MU133",
-          "fuente": "Municipalidad",
           "numero": "DOC-13E376",
           "fecha": "2024-01-01",
           "titulo": "Ordenanza sobre Derechos Municipales por Permisos, Concesiones y Servicios",
@@ -104208,6 +104943,27 @@ window.CATASTRO_DATA = {
             "sha256": "13e376e83ce58504805ad72abd8769608815f93e3b53e75386e78bf511f83eb2",
             "bytes": 7638326,
             "verified_at": "2026-09-16T12:56:55Z"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU133",
+          "fuente": "Municipalidad",
+          "numero": "3689",
+          "fecha": "2024-01-01",
+          "titulo": "Ordenanza Municipal de LANCO — 1 home?download=30:decreto exento n3689 2024 aprueba el texto actualizado y refundido de la ordenanza sobre el funcionamiento de ferias libres",
+          "materia": "Patentes, Comercio y Alcoholes",
+          "materia_id": "alcoholes_comercio",
+          "source_listing_url": "https://munilanco.cl/index.php/documentos-home/1-home?download=30:decreto-exento-n3689-2024-aprueba-el-texto-actualizado-y-refundido-de-la-ordenanza-sobre-el-funcionamiento-de-ferias-libres",
+          "target_url": "https://munilanco.cl/index.php/documentos-home/1-home?download=30:decreto-exento-n3689-2024-aprueba-el-texto-actualizado-y-refundido-de-la-ordenanza-sobre-el-funcionamiento-de-ferias-libres",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://munilanco.cl/index.php/documentos-home/1-home?download=30:decreto-exento-n3689-2024-aprueba-el-texto-actualizado-y-refundido-de-la-ordenanza-sobre-el-funcionamiento-de-ferias-libres",
+            "content_type": "application/pdf",
+            "sha256": "e43aa162507a7d32259d30ce6d2b8b3f18388e25950224a47a9eb491c51f3c92",
+            "bytes": 312112,
+            "verified_at": "2026-08-30T17:00:12.009021+00:00"
           },
           "rdf_url": null
         },
@@ -105140,11 +105896,32 @@ window.CATASTRO_DATA = {
       "comuna": "Panguipulli",
       "bcn_count": 15,
       "cplt_count": 0,
-      "total_count": 15,
+      "total_count": 16,
       "pdfs_count": 0,
-      "status": "Cargado BCN",
-      "last_update": "2009-11-11",
+      "status": "BCN + Municipalidad verificada",
+      "last_update": "2026-08-25",
       "ordenanzas": [
+        {
+          "cplt_code": "MU207",
+          "fuente": "Municipalidad",
+          "numero": "002/2026",
+          "fecha": "2026-08-25",
+          "titulo": "Ordenanza Municipal N° 002-2026 de la Municipalidad de Panguipulli",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://municipalidadpanguipulli.cl",
+          "target_url": "https://municipalidadpanguipulli.cl/wp-content/uploads/2026/08/ORDENANZA-N%C2%B0-002-2026.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://municipalidadpanguipulli.cl/wp-content/uploads/2026/08/ORDENANZA-N%C2%B0-002-2026.pdf",
+            "content_type": "application/pdf",
+            "sha256": "5158d0efa0f0cf410e8d915a038e09435771d0c44a4a0e7f09e461e88b3a89c3",
+            "bytes": 18430599,
+            "verified_at": "2026-09-25T12:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
         {
           "fuente": "BCN",
           "numero": "2881",
@@ -105377,7 +106154,7 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-panguipulli/1982-07-21/3/datos.json"
         }
       ],
-      "municipal_count": 0
+      "municipal_count": 1
     },
     {
       "region_id": "14",
@@ -114022,11 +114799,53 @@ window.CATASTRO_DATA = {
       "comuna": "Palena",
       "bcn_count": 3,
       "cplt_count": 0,
-      "total_count": 4,
+      "total_count": 6,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": "1996-04-18",
+      "last_update": "2026-09-09",
       "ordenanzas": [
+        {
+          "cplt_code": "MU204",
+          "fuente": "Municipalidad",
+          "numero": "Modif-2026",
+          "fecha": "2026-09-09",
+          "titulo": "Modificación a la Ordenanza Municipal de la Comuna de Palena",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://municipalidadpalena.cl/wp-content/uploads/2026/09/ModificacionOrdenanza.pdf",
+          "target_url": "https://municipalidadpalena.cl/wp-content/uploads/2026/09/ModificacionOrdenanza.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://municipalidadpalena.cl/wp-content/uploads/2026/09/ModificacionOrdenanza.pdf",
+            "content_type": "application/pdf",
+            "sha256": "0e26d62c6378b587acbcf56d927e89a2169242d7501733b04aa1e0e7d3a0cb1d",
+            "bytes": 585976,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU204",
+          "fuente": "Municipalidad",
+          "numero": "Mascotas-2022",
+          "fecha": "2022-06-14",
+          "titulo": "Ordenanza Municipal sobre Tenencia Responsable de Mascotas de Palena",
+          "materia": "Tenencia Responsable y Mascotas",
+          "materia_id": "mascotas_animales",
+          "source_listing_url": "https://municipalidadpalena.cl/wp-content/uploads/2022/06/ordenanza-mascotas-1.pdf1_-1.pdf",
+          "target_url": "https://municipalidadpalena.cl/wp-content/uploads/2022/06/ordenanza-mascotas-1.pdf1_-1.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://municipalidadpalena.cl/wp-content/uploads/2022/06/ordenanza-mascotas-1.pdf1_-1.pdf",
+            "content_type": "application/pdf",
+            "sha256": "97cc8bb5db859409583120c43404129a020ccbb73c047aa81a6626fa1025c20a",
+            "bytes": 2239813,
+            "verified_at": "2026-09-25T08:00:00.000000+00:00"
+          },
+          "rdf_url": null
+        },
         {
           "fuente": "BCN",
           "numero": "1",
@@ -114088,7 +114907,7 @@ window.CATASTRO_DATA = {
           "estado": "Vigente / LeyChile"
         }
       ],
-      "municipal_count": 1
+      "municipal_count": 3
     },
     {
       "region_id": "11",
@@ -117625,7 +118444,7 @@ window.CATASTRO_DATA = {
       "badge_bg": "bg-indigo-500/10",
       "badge_text": "text-indigo-400",
       "badge_border": "border-indigo-500/30",
-      "count": 2838
+      "count": 2850
     },
     {
       "id": "comercio_alcoholes",
@@ -117635,7 +118454,7 @@ window.CATASTRO_DATA = {
       "badge_bg": "bg-sky-500/10",
       "badge_text": "text-sky-400",
       "badge_border": "border-sky-500/30",
-      "count": 259
+      "count": 264
     },
     {
       "id": "aseo_medioambiente",
@@ -117645,7 +118464,7 @@ window.CATASTRO_DATA = {
       "badge_bg": "bg-emerald-500/10",
       "badge_text": "text-emerald-400",
       "badge_border": "border-emerald-500/30",
-      "count": 207
+      "count": 212
     },
     {
       "id": "transito_transporte",
@@ -117655,7 +118474,7 @@ window.CATASTRO_DATA = {
       "badge_bg": "bg-amber-500/10",
       "badge_text": "text-amber-400",
       "badge_border": "border-amber-500/30",
-      "count": 152
+      "count": 153
     },
     {
       "id": "urbanismo_obras",
@@ -117665,7 +118484,7 @@ window.CATASTRO_DATA = {
       "badge_bg": "bg-orange-500/10",
       "badge_text": "text-orange-400",
       "badge_border": "border-orange-500/30",
-      "count": 106
+      "count": 107
     },
     {
       "id": "seguridad_convivencia",
@@ -117675,7 +118494,7 @@ window.CATASTRO_DATA = {
       "badge_bg": "bg-rose-500/10",
       "badge_text": "text-rose-400",
       "badge_border": "border-rose-500/30",
-      "count": 21
+      "count": 24
     },
     {
       "id": "mascotas_animales",
@@ -117685,7 +118504,7 @@ window.CATASTRO_DATA = {
       "badge_bg": "bg-teal-500/10",
       "badge_text": "text-teal-400",
       "badge_border": "border-teal-500/30",
-      "count": 18
+      "count": 20
     },
     {
       "id": "social_salud_deporte",
@@ -117695,7 +118514,7 @@ window.CATASTRO_DATA = {
       "badge_bg": "bg-purple-500/10",
       "badge_text": "text-purple-400",
       "badge_border": "border-purple-500/30",
-      "count": 44
+      "count": 47
     },
     {
       "id": "administracion_interna",
@@ -117705,7 +118524,7 @@ window.CATASTRO_DATA = {
       "badge_bg": "bg-zinc-800",
       "badge_text": "text-zinc-300",
       "badge_border": "border-zinc-700",
-      "count": 36
+      "count": 37
     },
     {
       "id": "general",
@@ -117715,7 +118534,7 @@ window.CATASTRO_DATA = {
       "badge_bg": "bg-zinc-800",
       "badge_text": "text-zinc-400",
       "badge_border": "border-zinc-700",
-      "count": 2664
+      "count": 2666
     }
   ],
   "public_scope": {
@@ -117728,7 +118547,7 @@ window.CATASTRO_DATA = {
       "CPLT"
     ],
     "quarantined_records": 0,
-    "verified_municipal_records": 1461,
+    "verified_municipal_records": 1500,
     "reason": "Las referencias CPLT manuales sin evidencia se mantienen en cuarentena. Solo se publican documentos municipales con listado oficial, PDF resoluble y huella SHA-256 verificada."
   }
 };
