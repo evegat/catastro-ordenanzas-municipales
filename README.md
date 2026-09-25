@@ -1,6 +1,6 @@
-# Catastro y Pipeline de Ordenanzas Municipales de Chile
+# Catastro Nacional de Ordenanzas Municipales de Chile
 
-> **Versión 3.0 (Corte Septiembre 2026).** Catastro nacional consolidado de 7.321 ordenanzas oficiales en 346 comunas de Chile, con verificación criptográfica SHA-256, módulo de 6 ordenanzas obligatorias por ley y asistente jurídico municipal cero-alucinación.
+> **Versión 3.0 (Corte Septiembre 2026).** Iniciativa independiente de consulta y análisis regulatorio comunal: **7.321 registros normativos catalogados** en las 346 comunas de Chile (5.881 BCN/LeyChile + 1.440 municipales verificadas con SHA-256). Módulo de análisis normativo con fundamento legal, visualizador territorial y asistente local de consulta trazable.
 
 [![Demo en Vivo](https://img.shields.io/badge/Demo%20en%20Vivo-Online-success.svg)](https://ordenanzas.evegat.cl)
 [![Licencia](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -10,22 +10,22 @@
 [ 🌐 **Abrir Dashboard Interactivo en Vivo** ](https://ordenanzas.evegat.cl)  
 [ 🇪🇸 Español ](README.md) · [ 🇬🇧 English version ](README.en.md)
 
-Herramienta de extracción, estructuración y catálogo nacional de **ordenanzas municipales de Chile**. La fuente estructurada principal es la **Biblioteca del Congreso Nacional (BCN/LeyChile)** y el corpus se complementa con documentos recuperados desde repositorios municipales oficiales y Transparencia Activa cuando existe evidencia reproducible con hash SHA-256.
+Iniciativa independiente de extracción, estructuración y catálogo nacional de **regulaciones y ordenanzas municipales de Chile**. La fuente estructurada principal es la **Biblioteca del Congreso Nacional (BCN/LeyChile)** y el corpus se complementa con documentos recuperados desde portales municipales cuando existe evidencia reproducible con hash SHA-256.
 
-> **Meta de cobertura:** exhaustiva, no muestral. El objetivo es identificar **todas las ordenanzas publicadas oficialmente por las 345 municipalidades de Chile**, que administran las 346 comunas del país, incluyendo su historia oficial disponible y sus actos modificatorios cuando corresponda.
+> **Cobertura y alcance:** Cobertura territorial nacional en las 346 comunas de Chile (100%). Exhaustividad documental no acreditada (sujeta a disponibilidad y publicación electrónica de cada municipio).
 
 ---
 
 ## 🎯 Propósito del Proyecto & Enfoque Pedagógico
 
-Las ordenanzas municipales constituyen la expresión jurídica primaria de la autonomía comunal y el marco regulatorio directo sobre la vida cotidiana en las 346 comunas de Chile (derechos municipales, medio ambiente, patentes, aseo y ornato, urbanismo y convivencia). Sin embargo, su acceso histórico ha estado profundamente fragmentado entre BCN/LeyChile, Transparencia Activa y repositorios documentales propios de cada municipio.
+Las ordenanzas municipales constituyen la expresión jurídica primaria de la potestad reglamentaria comunal y el marco normativo directo sobre la vida comunitaria en las 346 comunas de Chile (derechos municipales, medio ambiente, patentes, aseo y ornato, urbanismo y convivencia). Sin embargo, su acceso histórico ha estado profundamente fragmentado entre BCN/LeyChile, Transparencia Activa y repositorios documentales propios de cada municipio.
 
 ### Foco Docente y de Investigación del Mundo Local
 Este proyecto nace con un objetivo fundamentalmente formativo y de investigación aplicada:
 1. **Herramienta para estudiantes universitarios:** Proveer a estudiantes de Administración Pública, Ciencia Política, Derecho, Urbanismo y Políticas Públicas una base empírica estructurada para estudiar la gobernanza local y el ejercicio real de las facultades normativas de los municipios chilenos.
 2. **Investigación empírica y comparada:** Facilitar la descarga de microdatos (CSV, SQLite, XLSX) para cruzar la densidad normativa municipal con variables sociodemográficas, presupuesto comunal (SINIM) y tipologías territoriales.
 3. **Diagnóstico de transparencia local:** Visibilizar las brechas de publicidad activa y asimetrías de información entre municipios metropolitanos y comunas rurales o de menores recursos.
-4. **Trazabilidad y rigor metodológico:** Enseñar estándares de recolección de datos públicos, distinguiendo corpus verificado, cobertura exhaustiva demostrada y referencias en cuarentena.
+4. **Trazabilidad y rigor metodológico:** Enseñar estándares de recolección de datos públicos, distinguiendo corpus verificado, cobertura territorial y documentos con comprobación criptográfica.
 
 ---
 
@@ -33,9 +33,9 @@ Este proyecto nace con un objetivo fundamentalmente formativo y de investigació
 
 - [x] **Fase 1: Catastro Base & Pipeline Reproducible:** Extracción SPARQL BCN (1.710 normas), captura complementaria CPLT y categorización en 9 ejes temáticos.
 - [x] **Fase 2: Visualizador Público & Acceso Abierto:** Dashboard interactivo publicado en GitHub Pages, filtros combinados por materia, región y año, drawer comunal, mapa interactivo con Leaflet, autocompletar inteligente y descargas abiertas.
-- [x] **Fase 3: Expansión Territorial Directa:** Pipeline de descubrimiento y extracción directa con verificación criptográfica (SHA-256), alcanzando el **100% de cobertura territorial (346 de 346 comunas)** con **7.321 ordenanzas oficiales consolidadas** (5.881 BCN/LeyChile + 1.440 municipales verificadas con SHA-256).
-- [x] **Fase 4: Asistente Jurídico Municipal Cero-Alucinación ("Chatcito"):** Asistente de diálogo flotante sobre motor local cliente (`asistente_chat.js`), consultas en tiempo real sobre las 7.321 ordenanzas, enlaces directos a PDFs oficiales y cero costo de inferencia ni fuga de datos.
-- [x] **Fase 5: Módulo Docente & Marco Legal Obligatorio:** Módulo interactivo de las **6 Ordenanzas Obligatorias por Ley en Chile** con auditor comunal en vivo, distinción doctrinal PLACMA vs Ordenanza Ambiental, 3 casos de estudio y Jupyter Notebook didáctico descargable.
+- [x] **Fase 3: Expansión Territorial Directa:** Pipeline de descubrimiento y extracción directa con verificación criptográfica (SHA-256), alcanzando **cobertura en las 346 comunas** con **7.321 registros normativos consolidados** (5.881 BCN/LeyChile + 1.440 municipales verificadas con SHA-256).
+- [x] **Fase 4: Asistente Jurídico Municipal Trazable ("Chatcito"):** Asistente de diálogo sobre motor local cliente (`asistente_chat.js`), consultas en tiempo real sobre los 7.321 registros, enlaces directos a documentos fuente y cero fuga de datos.
+- [x] **Fase 5: Módulo Docente & Marco Legal:** Módulo interactivo de ordenanzas y regulaciones comunales con mandato o fundamento legal específico (Derechos, Participación, Aseo, Mascotas, Plan Regulador, Subvenciones), auditor comunal en vivo, distinción doctrinal PLACMA vs Ordenanza Ambiental, 3 casos de estudio y Jupyter Notebook didáctico.
 
 ---
 

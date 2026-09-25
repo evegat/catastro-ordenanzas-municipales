@@ -1,5 +1,5 @@
-// Asistente Jurídico Municipal P090 - Motor de Búsqueda y Diálogo Cero-Alucinación
-// Consulta en tiempo real sobre 7.321 ordenanzas oficiales de Chile (346 comunas)
+// Asistente Jurídico Municipal P090 - Motor de Búsqueda y Consulta Normativa Trazable
+// Consulta en tiempo real sobre 7.321 registros normativos catalogados de Chile (346 comunas)
 // Compatible con Umami Analytics y 100% ejecución local en el navegador del usuario.
 
 (function() {
@@ -11,14 +11,14 @@
   // BASE DOCTRINAL Y JURÍDICA NACIONAL (VERIFICADA)
   const CONOCIMIENTO_JURIDICO = {
     obligatorias: `
-**Las 6 Ordenanzas Obligatorias por Ley en Chile:**
+**Ordenanzas y regulaciones comunales con mandato o fundamento legal específico:**
 
-1. **Derechos Municipales y Tarifas** *(Art. 12 Ley 18.695 LOCM)*: Fija anualmente los cobros por permisos de edificación, terrazas, comercio y derechos varios antes del 31 de octubre para regir el 1 de enero.
-2. **Participación Ciudadana** *(Art. 93 LOCM y Ley 20.500)*: Regula consultas vecinales, audiencias públicas, cabildos y el funcionamiento del COSOC.
-3. **Cobro y Exenciones de Aseo Domiciliario** *(Arts. 7, 8 y 9 DL 3.063)*: Fija la tarifa por extracción de basura y las causales de exención social (RSH vulnerable).
-4. **Tenencia Responsable de Mascotas** *(Art. 7 Ley 21.020 "Ley Cholito")*: Regula registro con microchip, esterilización, paseo y multas de hasta 30 UTM en JPL.
-5. **Notificaciones y Resoluciones Municipales** *(Art. 12 inc. final LOCM)*: Garantiza el debido proceso para clausuras, demoliciones y multas alcaldicias.
-6. **Registro de Personas Jurídicas Receptoras de Fondos Públicos** *(Ley 19.862)*: Requisito legal habilitante indispensable para entregar subvenciones municipales a clubes u ONG.
+1. **Derechos Municipales y Tarifas** *(Art. 42 DL 3.063 y Art. 12 Ley N° 18.695 LOCM)*: Fija anualmente los cobros por permisos de edificación, ocupación de bienes nacionales de uso público, patentes y servicios municipales.
+2. **Participación Ciudadana** *(Art. 93 Ley N° 18.695 y Ley N° 20.500)*: Mandato expreso para regular consultas vecinales, audiencias públicas, cabildos comunales y el funcionamiento del COSOC.
+3. **Cobro y Exenciones de Aseo Domiciliario** *(Arts. 7, 8 y 9 DL N° 3.063)*: Periodicidad al menos trienal. Fija la tarifa por extracción de residuos y las causales de exención social según Registro Social de Hogares (RSH).
+4. **Tenencia Responsable de Mascotas** *(Art. 7 Ley N° 21.020 "Ley Cholito" y D.S. N° 1.007 Interior)*: Mandato legal expreso que regula registro con microchip, esterilización, paseo y multas de hasta 30 UTM en JPL.
+5. **Plan Regulador Comunal (Ordenanza Local)** *(Arts. 41 a 43 LGUC DFL 458 Minvu y OGUC)*: Instrumento normativo que fija zonificación, usos de suelo y condiciones de edificación comunal.
+6. **Otorgamiento de Subvenciones Municipales** *(Art. 5° letra g y Art. 65 letra g Ley N° 18.695 LOCM)*: Regula criterios de asignación y rendición de cuentas, operando la inscripción en el registro de la Ley N° 19.862 como condición habilitante para la transferencia de fondos públicos.
     `,
     placma: `
 **¿El Plan Comunal de Medio Ambiente (PLACMA) es una ordenanza?**
@@ -36,6 +36,12 @@
 • *Excepción sectorial:* La **Ley N° 21.020 (Ley Cholito)** faculta a las ordenanzas comunales para sancionar infracciones graves a la tenencia responsable con multas de **hasta 30 UTM**.
     `
   };
+
+  function escapeHtml(value) {
+    return String(value ?? '').replace(/[&<>"']/g, char => ({
+      '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+    })[char]);
+  }
 
   function normalize(str) {
     return (str || '')
@@ -107,17 +113,17 @@
       if (ordenanzas.length > 0) {
         detalleNormas = '\n\n**Últimas ordenanzas registradas con enlace oficial:**\n' +
           ordenanzas.slice(0, 4).map(o => {
-            const num = o.numero ? ` (N° ${o.numero})` : '';
-            const link = o.target_url ? ` — [Ver PDF Oficial ↗](${o.target_url})` : '';
-            return `• **${o.fecha ? o.fecha.substring(0, 4) : 'S/F'}**: ${o.titulo}${num}${link}`;
+            const num = o.numero ? ` (N° ${escapeHtml(o.numero)})` : '';
+            const link = o.target_url ? ` — [Consultar fuente ↗](${o.target_url})` : '';
+            return `• **${o.fecha ? o.fecha.substring(0, 4) : 'S/F'}**: ${escapeHtml(o.titulo)}${num}${link}`;
           }).join('\n');
       }
 
       return `
-🏛️ **Comuna de ${comunaMatch.comuna}** (${comunaMatch.region_nombre})
+🏛️ **Comuna de ${escapeHtml(comunaMatch.comuna)}** (${escapeHtml(comunaMatch.region_nombre)})
 
-• **Total de normas catalogadas:** ${total} ordenanzas oficiales (${bcn} en BCN LeyChile + ${muni} verificadas directamente en la Municipalidad con hash SHA-256).
-• **Cobertura de materias obligatorias en el catastro:**
+• **Total de normas catalogadas:** ${total} registros normativos (${bcn} en BCN LeyChile + ${muni} verificadas directamente en la Municipalidad con hash SHA-256).
+• **Cobertura de materias con fundamento legal en el catastro:**
   - Derechos Municipales: ${tieneDerechos ? '✅ Detectada' : '⚠️ No registrada aún'}
   - Aseo / Medio Ambiente: ${tieneAseo ? '✅ Detectada' : '⚠️ No registrada aún'}
   - Tenencia de Mascotas: ${tieneMascotas ? '✅ Detectada' : '⚠️ No registrada aún'}
@@ -127,8 +133,8 @@
 ${detalleNormas}
 
 <div class="pt-2">
-  <button onclick="window.showComunaModal('${comunaMatch.comuna}')" class="w-full px-3 py-1.5 rounded-lg bg-sky-600 hover:bg-sky-500 text-white font-semibold text-xs transition-colors flex items-center justify-center gap-1.5 shadow-sm">
-    <span>Abrir Expediente de ${comunaMatch.comuna}</span>
+  <button onclick="window.showComunaModal(${escapeHtml(JSON.stringify(comunaMatch.comuna))})" class="w-full px-3 py-1.5 rounded-lg bg-sky-600 hover:bg-sky-500 text-white font-semibold text-xs transition-colors flex items-center justify-center gap-1.5 shadow-sm">
+    <span>Abrir Expediente de ${escapeHtml(comunaMatch.comuna)}</span>
     <span>↗</span>
   </button>
 </div>
@@ -148,7 +154,7 @@ ${detalleNormas}
         });
       }
       if (comunasHumedales.length > 0) {
-        const ejemplos = comunasHumedales.slice(0, 5).map(h => `• **${h.comuna}**: ${h.titulo}${h.url ? ` [PDF ↗](${h.url})` : ''}`).join('\n');
+        const ejemplos = comunasHumedales.slice(0, 5).map(h => `• **${escapeHtml(h.comuna)}**: ${escapeHtml(h.titulo)}${h.url ? ` [Fuente ↗](${h.url})` : ''}`).join('\n');
         return `
 🌿 **Ordenanzas de Protección de Humedales Urbanos en Chile:**
 
@@ -188,9 +194,9 @@ El catastro consolida más de **120 normas** en la materia *Seguridad y Conviven
 
       if (resultados.length > 0) {
         return `
-🔎 Encontré normas relacionadas con **"${pregunta}"**:
+🔎 Encontré normas relacionadas con **"${escapeHtml(pregunta)}"**:
 
-${resultados.map(r => `• **${r.comuna}** (${r.fecha ? r.fecha.substring(0,4) : 'S/F'}): ${r.titulo}${r.url ? ` [PDF ↗](${r.url})` : ''}`).join('\n')}
+${resultados.map(r => `• **${escapeHtml(r.comuna)}** (${r.fecha ? r.fecha.substring(0,4) : 'S/F'}): ${escapeHtml(r.titulo)}${r.url ? ` [Fuente ↗](${r.url})` : ''}`).join('\n')}
 
 *Para ver todas las coincidencias, utiliza el Buscador Principal en la parte superior.*
         `;
@@ -215,7 +221,13 @@ Puedes:
       .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
       .replace(/\*(.*?)\*/g, '<em>$1</em>')
       .replace(/• /g, '• ')
-      .replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer" class="text-sky-400 underline font-semibold hover:text-sky-300">$1</a>');
+      .replace(/\[(.*?)\]\((.*?)\)/g, (_, label, url) => {
+        try {
+          const parsed = new URL(url);
+          if (!['https:', 'http:'].includes(parsed.protocol)) return label;
+          return `<a href="${escapeHtml(parsed.href)}" target="_blank" rel="noopener noreferrer" class="text-sky-400 underline font-semibold hover:text-sky-300">${label}</a>`;
+        } catch { return label; }
+      });
     
     // Convertir saltos de línea
     html = html.replace(/\n\n/g, '</p><p class="mt-2">').replace(/\n/g, '<br/>');
@@ -231,7 +243,7 @@ Puedes:
       msgDiv.className = 'flex justify-end';
       msgDiv.innerHTML = `
         <div class="bg-sky-600 text-white rounded-2xl rounded-tr-none px-3.5 py-2 text-xs max-w-[85%] shadow-md">
-          ${texto}
+          ${escapeHtml(texto)}
         </div>
       `;
     } else {
@@ -256,7 +268,7 @@ Puedes:
     agregarMensaje('usuario', q);
 
     if (window.umami) {
-      window.umami.track('asistente_chat_consulta', { query: q.substring(0, 50) });
+      window.umami.track('asistente_chat_consulta');
     }
 
     // Simular procesamiento rápido y responder
@@ -294,7 +306,7 @@ Puedes:
             <span>Asistente Jurídico Municipal P090</span>
           </div>
           <p class="text-[11px] leading-relaxed text-zinc-300">
-            ¡Hola! Soy tu asistente de consulta normativa sobre las <strong>7.321 ordenanzas oficiales de Chile</strong> (100% de cobertura nacional en 346 comunas).
+            ¡Hola! Soy tu asistente de consulta normativa sobre las <strong>7.321 ordenanzas oficiales de Chile</strong> (registros en 346 comunas; exhaustividad no acreditada).
           </p>
           <p class="text-[11px] text-zinc-400">
             Pregúntame por las ordenanzas obligatorias por ley, la validez del PLACMA, o escribe el nombre de cualquier comuna del país.

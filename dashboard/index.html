@@ -3,25 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Catastro & Comparador Nacional de Ordenanzas Municipales de Chile | Repositorio Oficial P090</title>
+  <title>Catastro Nacional de Ordenanzas Municipales de Chile | Iniciativa Independiente</title>
   <!-- SEO & Social Meta Tags -->
-  <meta name="description" content="Primer catastro nacional consolidado de 7.321 ordenanzas municipales oficiales de Chile (346 comunas, 100% de cobertura territorial). Datos abiertos para administradores públicos, concejales y academia.">
-  <meta name="author" content="Eduardo Vega Toro - Universidad de Chile">
+  <meta name="description" content="Iniciativa independiente de consulta y análisis regulatorio: 7.321 registros normativos de las 346 comunas de Chile. Datos abiertos para administradores públicos, concejales y academia.">
+  <meta name="author" content="Eduardo Vega Toledo - Universidad de Chile">
   <meta name="robots" content="index, follow">
   <!-- Open Graph / WhatsApp / LinkedIn -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://ordenanzas.evegat.cl">
   <meta property="og:title" content="Catastro Nacional de Ordenanzas Municipales de Chile (346 Comunas)">
-  <meta property="og:description" content="Encuentra, compara y descarga 7.321 ordenanzas oficiales de las 346 comunas de Chile. Verificación SHA-256 e integridad documental.">
+  <meta property="og:description" content="Encuentra, compara y descarga 7.321 registros normativos de las 346 comunas de Chile. Fuentes oficiales con verificación SHA-256 e integridad documental.">
   <meta property="og:site_name" content="Catastro de Ordenanzas P090">
   <meta property="og:image" content="https://ordenanzas.evegat.cl/og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Catastro Nacional de Ordenanzas Municipales de Chile - 7.321 normas en 346 comunas">
+  <meta property="og:image:alt" content="Catastro Nacional de Ordenanzas Municipales de Chile - 7.321 registros normativos en 346 comunas">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Catastro Nacional de Ordenanzas Municipales de Chile">
-  <meta name="twitter:description" content="7.321 ordenanzas oficiales en 346 comunas de Chile. Verificador de 6 ordenanzas obligatorias y asistente jurídico.">
+  <meta name="twitter:description" content="7.321 registros normativos en 346 comunas de Chile. Análisis temático y asistente de consulta normativa.">
   <meta name="twitter:image" content="https://ordenanzas.evegat.cl/og-image.png">
   <!-- SVG Favicon Oficial -->
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2338bdf8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><polygon points='12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2'/></svg>">
@@ -65,13 +65,65 @@
     }
   </script>
   <style>
-    body { font-family: 'Inter', sans-serif; }
+    body { font-family: 'Inter', sans-serif; transition: background-color 0.2s ease, color 0.2s ease; }
     .font-mono { font-family: 'JetBrains Mono', monospace; }
     ::-webkit-scrollbar { width: 6px; height: 6px; }
     ::-webkit-scrollbar-track { background: #04142b; }
     ::-webkit-scrollbar-thumb { background: #153b70; border-radius: 3px; }
     ::-webkit-scrollbar-thumb:hover { background: #1f5091; }
     .quick-card:hover { transform: translateY(-2px); }
+    
+    /* Accesibilidad: foco visible claro para teclado (WCAG 2.1 AA) */
+    a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible {
+      outline: 2px solid #38bdf8 !important;
+      outline-offset: 2px !important;
+    }
+
+    /* Soporte Modo Claro (Light Theme) */
+    html.light body {
+      background-color: #f8fafc !important;
+      color: #0f172a !important;
+    }
+    html.light header {
+      background-color: rgba(255, 255, 255, 0.95) !important;
+      border-color: #e2e8f0 !important;
+    }
+    html.light .bg-\[\#04142b\] {
+      background-color: #ffffff !important;
+      color: #0f172a !important;
+    }
+    html.light .bg-\[\#071f43\] {
+      background-color: #f1f5f9 !important;
+      color: #0f172a !important;
+    }
+    html.light .bg-\[\#071f43\]\/80, html.light .bg-\[\#071f43\]\/70, html.light .bg-\[\#071f43\]\/60 {
+      background-color: rgba(241, 245, 249, 0.9) !important;
+      color: #0f172a !important;
+    }
+    html.light .bg-\[\#04142b\]\/90, html.light .bg-\[\#04142b\]\/80, html.light .bg-\[\#04142b\]\/60 {
+      background-color: rgba(255, 255, 255, 0.95) !important;
+      color: #0f172a !important;
+    }
+    html.light .text-white {
+      color: #0f172a !important;
+    }
+    html.light .text-zinc-300, html.light .text-zinc-400 {
+      color: #475569 !important;
+    }
+    html.light .border-\[\#153b70\] {
+      border-color: #cbd5e1 !important;
+    }
+    html.light .border-\[\#153b70\]\/80, html.light .border-\[\#153b70\]\/60 {
+      border-color: #e2e8f0 !important;
+    }
+    html.light input, html.light select {
+      background-color: #ffffff !important;
+      color: #0f172a !important;
+      border-color: #cbd5e1 !important;
+    }
+    html.light .shadow-2xl {
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1) !important;
+    }
   </style>
 </head>
 <body class="bg-[#04142b] text-zinc-100 min-h-screen antialiased flex flex-col selection:bg-sky-500/30 selection:text-sky-200">
@@ -98,19 +150,24 @@
 
       <!-- Quick Actions Header -->
       <div class="flex items-center gap-2">
-        <a href="https://api.whatsapp.com/send?text=Catastro%20Nacional%20de%20Ordenanzas%20Municipales%20de%20Chile%20(346%20comunas)%3A%20https%3A%2F%2Fordenanzas.evegat.cl" target="_blank" rel="noopener noreferrer" title="Compartir en WhatsApp" data-umami-event="compartir_whatsapp_header" class="inline-flex items-center gap-1 px-2.5 py-1.5 rounded-lg bg-emerald-600/90 hover:bg-emerald-500 text-white text-xs font-semibold transition-all shadow-sm">
+        <!-- Theme Toggle (Light / Dark Mode) -->
+        <button id="theme-toggle-btn" onclick="toggleTheme()" aria-label="Alternar modo claro y oscuro" title="Cambiar tema visual" class="p-2 rounded-lg bg-[#153b70]/60 hover:bg-[#1f5091] text-zinc-300 hover:text-white transition-colors focus:ring-2 focus:ring-sky-400">
+          <i id="theme-icon-sun" data-lucide="sun" class="w-4 h-4 hidden"></i>
+          <i id="theme-icon-moon" data-lucide="moon" class="w-4 h-4"></i>
+        </button>
+        <a href="https://api.whatsapp.com/send?text=Catastro%20Nacional%20de%20Ordenanzas%20Municipales%20de%20Chile%20(346%20comunas)%3A%20https%3A%2F%2Fordenanzas.evegat.cl" target="_blank" rel="noopener noreferrer" aria-label="Compartir catastro en WhatsApp" title="Compartir en WhatsApp" data-umami-event="compartir_whatsapp_header" class="inline-flex items-center gap-1 px-2.5 py-1.5 rounded-lg bg-emerald-600/90 hover:bg-emerald-500 text-white text-xs font-semibold transition-all shadow-sm">
           <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
           <span class="hidden sm:inline">WhatsApp</span>
         </a>
-        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fordenanzas.evegat.cl" target="_blank" rel="noopener noreferrer" title="Compartir en LinkedIn" data-umami-event="compartir_linkedin_header" class="inline-flex items-center gap-1 px-2.5 py-1.5 rounded-lg bg-[#0077b5] hover:bg-[#0088cc] text-white text-xs font-semibold transition-all shadow-sm">
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fordenanzas.evegat.cl" target="_blank" rel="noopener noreferrer" aria-label="Compartir catastro en LinkedIn" title="Compartir en LinkedIn" data-umami-event="compartir_linkedin_header" class="inline-flex items-center gap-1 px-2.5 py-1.5 rounded-lg bg-[#0077b5] hover:bg-[#0088cc] text-white text-xs font-semibold transition-all shadow-sm">
           <i data-lucide="linkedin" class="w-3.5 h-3.5"></i>
           <span class="hidden sm:inline">LinkedIn</span>
         </a>
-        <button onclick="openDownloadRequestModal('xlsx')" data-umami-event="solicitar_excel" data-umami-event-location="header" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-sky-600 hover:bg-sky-500 text-white text-xs font-semibold transition-all shadow-sm">
+        <button onclick="openDownloadRequestModal('xlsx')" aria-label="Solicitar planilla Excel con datos consolidados" data-umami-event="solicitar_excel" data-umami-event-location="header" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-sky-600 hover:bg-sky-500 text-white text-xs font-semibold transition-all shadow-sm">
           <i data-lucide="file-spreadsheet" class="w-3.5 h-3.5"></i>
           <span>Solicitar Excel</span>
         </button>
-        <button onclick="switchTab('mapa')" data-umami-event="ver_mapa" data-umami-event-location="header" class="hidden md:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-[#153b70] hover:bg-[#1f5091] border border-[#1f5091] text-zinc-200 text-xs font-medium transition-all">
+        <button onclick="switchTab('mapa')" aria-label="Ver mapa territorial de Chile" data-umami-event="ver_mapa" data-umami-event-location="header" class="hidden md:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-[#153b70] hover:bg-[#1f5091] border border-[#1f5091] text-zinc-200 text-xs font-medium transition-all">
           <i data-lucide="map" class="w-3.5 h-3.5 text-rose-400"></i>
           <span>Ver Mapa</span>
         </button>
@@ -124,10 +181,14 @@
       
       <div class="space-y-2">
         <h2 class="text-2xl sm:text-3xl font-extrabold tracking-tight text-white">
-          Encuentra, compara y descarga ordenanzas de <span class="text-sky-400">346 comunas de Chile</span> (presencia territorial; exhaustividad no acreditada)
+          Catastro Nacional de Ordenanzas Municipales de Chile
         </h2>
-        <p class="text-sm text-zinc-300 max-w-2xl mx-auto font-normal">
-          Accede al repositorio verificado de <strong>7.321 normas oficiales catalogadas</strong> (5.881 BCN LeyChile + 1.440 municipales verificadas con hash SHA-256).
+        <p class="text-sm text-sky-400 font-medium max-w-2xl mx-auto">
+          Iniciativa independiente construida a partir de fuentes oficiales y documentos municipales verificables.
+        </p>
+        <p class="text-xs text-zinc-300 max-w-2xl mx-auto font-normal leading-relaxed">
+          Accede a <strong>7.321 registros normativos catalogados</strong> (5.881 BCN LeyChile + 1.440 municipales verificadas con hash SHA-256 inmutable).<br>
+          <span class="text-[11px] text-zinc-400 font-mono">Cobertura territorial: 346/346 comunas (100%) · Exhaustividad documental: no acreditada.</span>
         </p>
       </div>
 
@@ -264,7 +325,7 @@
       </button>
       <button onclick="switchTab('normas_obligatorias')" id="tab-btn-normas_obligatorias" class="pb-3 text-sm font-medium border-b-2 border-transparent text-zinc-400 hover:text-zinc-200 flex items-center gap-2 shrink-0 transition-colors">
         <i data-lucide="scale" class="w-4 h-4 text-amber-400"></i>
-        <span>Marco Legal: 6 Ordenanzas Obligatorias</span>
+        <span>Marco Jurídico: Mandatos Legales</span>
       </button>
       <button onclick="switchTab('docente')" id="tab-btn-docente" class="pb-3 text-sm font-medium border-b-2 border-transparent text-zinc-400 hover:text-zinc-200 flex items-center gap-2 shrink-0 transition-colors">
         <i data-lucide="graduation-cap" class="w-4 h-4 text-emerald-400"></i>
@@ -326,11 +387,11 @@
         </div>
         <div class="bg-[#071f43]/60 border border-[#153b70] rounded-xl p-3.5 text-center">
           <div class="text-2xl font-bold text-emerald-400 font-mono">346</div>
-          <div class="text-xs text-zinc-400">Comunas con datos (100%)</div>
+          <div class="text-xs text-zinc-400">Comunas cubiertas (100%)</div>
         </div>
         <div class="bg-[#071f43]/60 border border-[#153b70] rounded-xl p-3.5 text-center">
           <div class="text-2xl font-bold text-sky-400 font-mono">7.321</div>
-          <div class="text-xs text-zinc-400">Ordenanzas oficiales</div>
+          <div class="text-xs text-zinc-400">Registros catalogados</div>
         </div>
         <div class="bg-[#071f43]/60 border border-[#153b70] rounded-xl p-3.5 text-center">
           <div class="text-2xl font-bold text-emerald-400 font-mono">0</div>
@@ -395,9 +456,9 @@
             <i data-lucide="scale" class="w-6 h-6"></i>
           </div>
           <div>
-            <h3 class="text-base font-bold text-white">Marco Normativo: Las 6 Ordenanzas Obligatorias por Mandato Legal en Chile</h3>
+            <h3 class="text-base font-bold text-white">Marco Normativo: Ordenanzas y Regulaciones Comunales con Mandato o Fundamento Legal Específico</h3>
             <p class="text-xs text-zinc-300">
-              Conforme a la Ley Orgánica Constitucional de Municipalidades (N° 18.695) y leyes sectoriales, los 346 municipios de Chile tienen la obligación legal inexcusable de dictar y mantener actualizadas las siguientes ordenanzas.
+              Conforme a la Ley Orgánica Constitucional de Municipalidades (N° 18.695) y leyes sectoriales vigentes, las municipalidades de Chile cuentan con mandatos legales expresos o potestades normativas reglamentarias indispensables para la gestión local.
             </p>
           </div>
         </div>
@@ -411,7 +472,7 @@
               <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-400"></i>
               <span>Verificador de Cumplimiento Comunal en Vivo</span>
             </h4>
-            <p class="text-xs text-zinc-400">Selecciona cualquier comuna para auditar el estado de sus ordenanzas obligatorias en el catastro oficial.</p>
+            <p class="text-xs text-zinc-400">Selecciona cualquier comuna para auditar la presencia de estas ordenanzas en el catastro.</p>
           </div>
           <div class="flex items-center gap-2">
             <label for="compliance-comuna-select" class="text-xs font-semibold text-zinc-300">Comuna:</label>
@@ -431,21 +492,21 @@
         </div>
       </div>
 
-      <!-- LAS 6 FICHAS DIDÁCTICAS DE MANDATOS LEGALES OBLIGATORIOS -->
+      <!-- LAS 6 FICHAS DIDÁCTICAS DE MANDATOS LEGALES -->
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
 
         <!-- 1. Derechos y Tarifas -->
         <div class="bg-[#04142b] border border-[#153b70] rounded-xl p-5 space-y-3">
           <div class="flex items-start justify-between">
             <span class="px-2 py-0.5 rounded text-[10px] font-mono font-bold bg-amber-500/10 text-amber-400 border border-amber-500/30">1. Finanzas Locales</span>
-            <span class="text-[10px] font-mono text-zinc-400">Obligatoria Anual</span>
+            <span class="text-[10px] font-mono text-zinc-400">Mandato Legal Expreso</span>
           </div>
           <h4 class="text-sm font-bold text-white">Ordenanza de Derechos Municipales y Tarifas</h4>
           <p class="text-xs text-zinc-300">
-            Fija las tarifas por permisos de edificación, comercio ambulante, terrazas, derechos de propaganda y servicios municipales.
+            Fija las tarifas por permisos de edificación, ocupación de bienes nacionales de uso público, propaganda, comercio y servicios municipales.
           </p>
           <div class="space-y-1 text-[11px] text-zinc-400 border-t border-[#153b70]/60 pt-2 font-mono">
-            <div><strong>Base legal:</strong> Art. 12 y 40 Ley N° 18.695 (LOCM).</div>
+            <div><strong>Base legal:</strong> Art. 42 DL N° 3.063 y Art. 12 Ley N° 18.695 (LOCM).</div>
             <div><strong>Plazo legal:</strong> Antes del 31 de octubre para regir el 1 de enero.</div>
             <div class="text-rose-400"><strong>Riesgo omisión:</strong> Ilegalidad en cobros; reclamos ante CGR y Tribunales.</div>
           </div>
@@ -460,7 +521,7 @@
           </div>
           <h4 class="text-sm font-bold text-white">Ordenanza de Participación Ciudadana</h4>
           <p class="text-xs text-zinc-300">
-            Establece los mecanismos de cabildos, audiencias públicas, plebiscitos comunales, consultas y funcionamiento del COSOC.
+            Establece los mecanismos de cabildos, audiencias públicas, plebiscitos comunales, consultas vecinales y funcionamiento del COSOC.
           </p>
           <div class="space-y-1 text-[11px] text-zinc-400 border-t border-[#153b70]/60 pt-2 font-mono">
             <div><strong>Base legal:</strong> Art. 93 Ley N° 18.695 y Ley N° 20.500.</div>
@@ -478,11 +539,11 @@
           </div>
           <h4 class="text-sm font-bold text-white">Tarifas y Exenciones de Aseo Domiciliario</h4>
           <p class="text-xs text-zinc-300">
-            Calcula el costo del servicio de extracción de residuos y fija las condiciones de exención total o parcial según Registro Social de Hogares (RSH).
+            Calcula el costo real del servicio de extracción de residuos y fija las condiciones de exención total o parcial según Registro Social de Hogares (RSH).
           </p>
           <div class="space-y-1 text-[11px] text-zinc-400 border-t border-[#153b70]/60 pt-2 font-mono">
             <div><strong>Base legal:</strong> Arts. 7, 8 y 9 DL N° 3.063 (Rentas Municipales).</div>
-            <div><strong>Plazo legal:</strong> Fijación al menos cada 3 años; recálculo anual.</div>
+            <div><strong>Plazo legal:</strong> Fijación al menos cada 3 años; recálculo de subsidios.</div>
             <div class="text-rose-400"><strong>Riesgo omisión:</strong> Cobro indebido o imposibilidad de beneficiar a familias vulnerables.</div>
           </div>
           <button onclick="quickSearch('Aseo')" class="text-xs text-sky-400 hover:underline pt-1 block font-medium">Ver ordenanzas de aseo en el catastro ↗</button>
@@ -496,7 +557,7 @@
           </div>
           <h4 class="text-sm font-bold text-white">Tenencia Responsable de Mascotas (Ley Cholito)</h4>
           <p class="text-xs text-zinc-300">
-            Regula el registro e implantación de microchips, esterilización, paseo con correa, condiciones de refugio y fiscalización de maltrato.
+            Regula el registro con microchips, esterilización, paseo con correa, condiciones de refugio y fiscalización de maltrato animal.
           </p>
           <div class="space-y-1 text-[11px] text-zinc-400 border-t border-[#153b70]/60 pt-2 font-mono">
             <div><strong>Base legal:</strong> Art. 7 Ley N° 21.020 y D.S. N° 1.007 Interior.</div>
@@ -506,40 +567,40 @@
           <button onclick="quickSearch('Mascotas')" class="text-xs text-sky-400 hover:underline pt-1 block font-medium">Ver ordenanzas de mascotas en el catastro ↗</button>
         </div>
 
-        <!-- 5. Notificaciones y Resoluciones -->
+        <!-- 5. Plan Regulador Comunal (PRC) -->
         <div class="bg-[#04142b] border border-[#153b70] rounded-xl p-5 space-y-3">
           <div class="flex items-start justify-between">
-            <span class="px-2 py-0.5 rounded text-[10px] font-mono font-bold bg-purple-500/10 text-purple-400 border border-purple-500/30">5. Debido Proceso</span>
-            <span class="text-[10px] font-mono text-zinc-400">Mandato Art. 12</span>
+            <span class="px-2 py-0.5 rounded text-[10px] font-mono font-bold bg-purple-500/10 text-purple-400 border border-purple-500/30">5. Urbanismo & Obras</span>
+            <span class="text-[10px] font-mono text-zinc-400">Mandato LGUC / OGUC</span>
           </div>
-          <h4 class="text-sm font-bold text-white">Notificaciones de Resoluciones Municipales</h4>
+          <h4 class="text-sm font-bold text-white">Ordenanza Local del Plan Regulador Comunal</h4>
           <p class="text-xs text-zinc-300">
-            Define la forma en que el municipio notifica válidamente a los ciudadanos sus decretos, clausuras, multas y resoluciones administrativas.
+            Establece la zonificación urbana, usos de suelo permitidos y prohibidos, condiciones de edificación, cesiones y vialidad estructurante comunal.
           </p>
           <div class="space-y-1 text-[11px] text-zinc-400 border-t border-[#153b70]/60 pt-2 font-mono">
-            <div><strong>Base legal:</strong> Art. 12 inciso final Ley N° 18.695 (LOCM).</div>
-            <div><strong>Plazo legal:</strong> Permanente.</div>
-            <div class="text-rose-400"><strong>Riesgo omisión:</strong> Nulidad procesal de clausuras o sanciones en Tribunales.</div>
+            <div><strong>Base legal:</strong> Arts. 41 a 43 DFL N° 458 (LGUC Minvu) y OGUC.</div>
+            <div><strong>Plazo legal:</strong> Permanente con actualización periódica obligatoria.</div>
+            <div class="text-rose-400"><strong>Riesgo omisión:</strong> Inseguridad jurídica en permisos DOM y litigios urbanísticos.</div>
           </div>
-          <button onclick="quickSearch('Notificaciones')" class="text-xs text-sky-400 hover:underline pt-1 block font-medium">Ver ordenanzas de notificaciones ↗</button>
+          <button onclick="quickSearch('Plan Regulador')" class="text-xs text-sky-400 hover:underline pt-1 block font-medium">Ver instrumentos urbanísticos en el catastro ↗</button>
         </div>
 
-        <!-- 6. Registro de Receptores de Fondos -->
+        <!-- 6. Otorgamiento de Subvenciones Municipales -->
         <div class="bg-[#04142b] border border-[#153b70] rounded-xl p-5 space-y-3">
           <div class="flex items-start justify-between">
             <span class="px-2 py-0.5 rounded text-[10px] font-mono font-bold bg-indigo-500/10 text-indigo-400 border border-indigo-500/30">6. Probidad Pública</span>
             <span class="text-[10px] font-mono text-zinc-400">Condición Habilitante</span>
           </div>
-          <h4 class="text-sm font-bold text-white">Registro de Personas Jurídicas Receptoras de Fondos</h4>
+          <h4 class="text-sm font-bold text-white">Ordenanza sobre Otorgamiento de Subvenciones Municipales</h4>
           <p class="text-xs text-zinc-300">
-            Reglamenta el registro público de juntas de vecinos, clubes deportivos y ONG que postulan y reciben subvenciones municipales.
+            Regula los procedimientos, criterios de postulación, asignación y rendición de cuentas de recursos públicos, requiriendo inscripción en el registro de la Ley N° 19.862.
           </p>
           <div class="space-y-1 text-[11px] text-zinc-400 border-t border-[#153b70]/60 pt-2 font-mono">
-            <div><strong>Base legal:</strong> Ley N° 19.862 y D.S. N° 375 Hacienda.</div>
+            <div><strong>Base legal:</strong> Art. 5° letra g) y Art. 65 letra g) Ley N° 18.695 (LOCM) y Ley N° 19.862.</div>
             <div><strong>Plazo legal:</strong> Previo a cualquier entrega de recursos públicos.</div>
-            <div class="text-rose-400"><strong>Riesgo omisión:</strong> Ilegalidad absoluta en transferencias de subvenciones.</div>
+            <div class="text-rose-400"><strong>Riesgo omisión:</strong> Nulidad de transferencias y reparos en juicios de cuentas CGR.</div>
           </div>
-          <button onclick="quickSearch('Fondos Públicos')" class="text-xs text-sky-400 hover:underline pt-1 block font-medium">Ver ordenanzas de subvenciones y fondos ↗</button>
+          <button onclick="quickSearch('Subvenciones')" class="text-xs text-sky-400 hover:underline pt-1 block font-medium">Ver ordenanzas de subvenciones en el catastro ↗</button>
         </div>
 
       </div>
@@ -810,7 +871,7 @@
           <span>Asesoría Municipal & GovTech</span>
         </h4>
         <p class="text-zinc-400 leading-relaxed text-[11px]">
-          ¿Tu municipalidad necesita auditar sus ordenanzas vigentes, subsanar brechas en las 6 materias obligatorias por ley o implementar IA local sobre normativa comunal?
+          ¿Tu municipalidad necesita auditar sus ordenanzas vigentes, subsanar brechas normativas con base legal o implementar soluciones de inteligencia regulatoria local?
         </p>
         <div class="pt-1">
           <a href="mailto:evegat@uchile.cl?subject=%5BConsultor%C3%ADa%20Ordenanzas%5D%20Contacto%20desde%20Catastro%20P090" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-semibold transition-colors text-xs shadow-sm" data-umami-event="click_contacto_consultoria">
@@ -830,7 +891,7 @@
           Metodología <em>no-sampling</em> con verificación criptográfica SHA-256 inmutable. Licencia MIT de datos abiertos. Telemetría ética privada (Umami Analytics) sin almacenamiento de cookies ni datos personales.
         </p>
         <div class="text-[10px] text-zinc-500 font-mono">
-          Corte oficial: Septiembre 2026 · 7.321 normas · 346 comunas
+          Actualización: Septiembre 2026 · 7.321 registros normativos · 346 comunas cubiertas
         </div>
       </div>
 
@@ -967,7 +1028,7 @@
       const ordenanzasList = document.getElementById('search-results-list');
 
       summaryEl.textContent = `Resultados para "${rawVal}"`;
-      counterEl.textContent = `${ordenanzasCoincidentes.length} ordenanzas en ${comunasCoincidentes.length > 0 ? comunasCoincidentes.length : 'varias'} comunas`;
+      counterEl.textContent = `${ordenanzasCoincidentes.length} registros en ${comunasCoincidentes.length > 0 ? comunasCoincidentes.length : 'varias'} comunas`;
 
       // Comunas chips
       if (comunasCoincidentes.length > 0) {
@@ -989,13 +1050,19 @@
       if (ordenanzasCoincidentes.length === 0) {
         ordenanzasList.innerHTML = `
           <div class="p-6 text-center text-zinc-400 bg-[#04142b]/60 rounded-xl border border-[#153b70]/60 space-y-2">
-            <p class="text-xs">No se encontraron ordenanzas que coincidan exactamente con "<strong>${rawVal}</strong>".</p>
+            <p class="text-xs">No se encontraron registros que coincidan exactamente con "<strong>${rawVal}</strong>".</p>
             <p class="text-[11px] text-zinc-500">Prueba con palabras clave como <em>ruidos, derechos, aseo, comercio</em> o el nombre de una comuna.</p>
           </div>
         `;
       } else {
         ordenanzasCoincidentes.slice(0, 50).forEach(o => {
           const anio = (o.fecha || '').substring(0, 4) || 'S/F';
+          const isBcn = (o.fuente === 'BCN');
+          const hasSha = o.verification && o.verification.sha256;
+          const fuenteBadge = isBcn
+            ? `<span class="px-2 py-0.5 rounded text-[10px] font-mono bg-blue-500/10 text-blue-400 border border-blue-500/30">BCN LeyChile</span>`
+            : `<span class="px-2 py-0.5 rounded text-[10px] font-mono bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">Portal Municipal${hasSha ? ' (SHA-256)' : ''}</span>`;
+
           const item = document.createElement('div');
           item.className = 'p-3 rounded-xl bg-[#04142b]/90 border border-[#153b70] hover:border-sky-500/50 transition-all space-y-1.5';
           item.innerHTML = `
@@ -1003,6 +1070,7 @@
               <div class="flex items-center gap-2">
                 <span class="px-2 py-0.5 rounded text-[10px] font-mono font-bold bg-sky-500/20 text-sky-300 border border-sky-500/40">${anio}</span>
                 <span class="px-2 py-0.5 rounded text-[10px] font-mono bg-zinc-800 text-zinc-300">${o.materia || 'General'}</span>
+                ${fuenteBadge}
               </div>
               <button onclick="showComunaModal('${o.comuna}')" class="text-[11px] text-sky-400 hover:text-sky-300 font-medium flex items-center gap-1">
                 🏛️ ${o.comuna} (${o.region_nombre || ''}) ↗
@@ -1010,8 +1078,8 @@
             </div>
             <h4 class="text-xs font-bold text-white leading-snug">${o.titulo || 'Ordenanza Municipal'}</h4>
             <div class="flex items-center justify-between pt-1 text-[11px] font-mono">
-              <span class="text-zinc-400">Fuente: <strong class="text-zinc-300">${o.fuente || 'Municipal'}</strong> ${o.numero ? '• N° ' + o.numero : ''}</span>
-              ${o.target_url ? `<a href="${o.target_url}" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 font-semibold flex items-center gap-1">Consultar fuente oficial ↗</a>` : ''}
+              <span class="text-zinc-400">${o.numero ? 'Decreto / N° ' + o.numero : 'Documento catalogado'}</span>
+              ${o.target_url ? `<a href="${o.target_url}" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 font-semibold flex items-center gap-1">Consultar documento fuente ↗</a>` : ''}
             </div>
           `;
           ordenanzasList.appendChild(item);
@@ -1169,64 +1237,80 @@
           const anio = (o.fecha || '').substring(0, 4) || 'S/F';
           const item = document.createElement('div');
           item.className = 'p-3.5 rounded-xl bg-[#04142b] border border-[#153b70] hover:border-sky-500/50 transition-all space-y-1.5';
-          item.innerHTML = `
-            <div class="flex items-start justify-between gap-3">
-              <div class="flex items-center gap-2">
-                <span class="px-2 py-0.5 rounded text-[10px] font-mono font-bold bg-sky-500/20 text-sky-300 border border-sky-500/40">${anio}</span>
-                <span class="px-2 py-0.5 rounded text-[10px] font-mono bg-sky-500/10 text-sky-400 border border-sky-500/30">${o.materia || 'General'}</span>
+            const isBcn = (o.fuente === 'BCN');
+            const hasSha = o.verification && o.verification.sha256;
+            const fuenteBadge = isBcn
+              ? `<span class="px-2 py-0.5 rounded text-[10px] font-mono bg-blue-500/10 text-blue-400 border border-blue-500/30">BCN LeyChile</span>`
+              : `<span class="px-2 py-0.5 rounded text-[10px] font-mono bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 flex items-center gap-1"><i data-lucide="shield-check" class="w-3 h-3"></i><span>Portal Municipal${hasSha ? ' (SHA-256)' : ''}</span></span>`;
+
+            item.innerHTML = `
+              <div class="flex items-start justify-between gap-3">
+                <div class="flex items-center gap-2">
+                  <span class="px-2 py-0.5 rounded text-[10px] font-mono font-bold bg-sky-500/20 text-sky-300 border border-sky-500/40">${anio}</span>
+                  <span class="px-2 py-0.5 rounded text-[10px] font-mono bg-sky-500/10 text-sky-400 border border-sky-500/30">${o.materia || 'General'}</span>
+                  ${fuenteBadge}
+                </div>
+                <span class="text-[11px] font-mono text-zinc-400">${o.fecha || 'Sin fecha'}</span>
               </div>
-              <span class="text-[11px] font-mono text-zinc-400">${o.fecha || 'Sin fecha'}</span>
-            </div>
-            <h4 class="text-xs font-bold text-white leading-snug">${o.titulo || 'Ordenanza Municipal'}</h4>
-            <div class="flex items-center justify-between pt-1 text-[11px] font-mono">
-              <span class="text-zinc-400">Fuente: <strong class="text-zinc-300">${o.fuente || 'Municipalidad'}</strong> ${o.numero ? '• N° ' + o.numero : ''}</span>
-              ${o.target_url ? `<a href="${o.target_url}" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 font-semibold flex items-center gap-1">Consultar fuente oficial ↗</a>` : ''}
-            </div>
-          `;
-          list.appendChild(item);
-        });
-      }
+              <h4 class="text-xs font-bold text-white leading-snug">${o.titulo || 'Ordenanza Municipal'}</h4>
+              <div class="flex items-center justify-between pt-1 text-[11px] font-mono">
+                <span class="text-zinc-400">${o.numero ? 'Decreto / N° ' + o.numero : 'Documento catalogado'}</span>
+                ${o.target_url ? `<a href="${o.target_url}" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 font-semibold flex items-center gap-1">Consultar documento fuente ↗</a>` : ''}
+              </div>
+            `;
+            list.appendChild(item);
+          });
+        }
 
-      // BANNER DE BRECHAS Y BUZÓN COLABORATIVO AL PIE DEL MODAL
-      const materiasRegistradas = new Set(allOrdenanzas.map(o => o.materia).filter(Boolean));
-      const materiasFaltantes = MATERIAS_CLAVE.filter(m => !materiasRegistradas.has(m));
+        // BANNER DE BRECHAS Y BUZÓN COLABORATIVO AL PIE DEL MODAL
+        const materiasRegistradas = new Set(allOrdenanzas.map(o => o.materia).filter(Boolean));
+        const materiasFaltantes = MATERIAS_CLAVE.filter(m => !materiasRegistradas.has(m));
 
-      const footerSection = document.createElement('div');
-      footerSection.className = 'mt-4 pt-4 border-t border-[#153b70] space-y-3';
+        const footerSection = document.createElement('div');
+        footerSection.className = 'mt-4 pt-4 border-t border-[#153b70] space-y-3';
 
-      let faltantesHTML = '';
-      if (materiasFaltantes.length > 0 && materiasFaltantes.length < MATERIAS_CLAVE.length) {
-        faltantesHTML = `
-          <div class="p-3 rounded-xl bg-amber-500/10 border border-amber-500/30 space-y-1.5">
-            <div class="flex items-center gap-1.5 text-xs font-bold text-amber-300">
-              <i data-lucide="info" class="w-3.5 h-3.5"></i>
-              <span>Materias no detectadas aún en el catálogo para ${currentModalComuna.comuna}:</span>
-            </div>
-            <div class="flex flex-wrap gap-1.5">
-              ${materiasFaltantes.slice(0, 5).map(m => `<span class="px-2 py-0.5 rounded text-[10px] font-mono bg-[#04142b] text-amber-200 border border-amber-500/20">${m}</span>`).join('')}
-              ${materiasFaltantes.length > 5 ? `<span class="text-[10px] text-zinc-400 self-center">+${materiasFaltantes.length - 5} más</span>` : ''}
-            </div>
+        // Disclaimer de Vigencia Jurídica
+        const disclaimerHTML = `
+          <div class="p-3 rounded-xl bg-sky-500/10 border border-sky-500/30 text-[11px] text-zinc-300 flex items-start gap-2">
+            <i data-lucide="shield-alert" class="w-4 h-4 text-sky-400 shrink-0 mt-0.5"></i>
+            <span><strong>Aviso de Vigencia:</strong> Texto sistematizado con fines analíticos y de referencia. Para efectos jurídicos o litigiosos, verificar eventuales modificaciones o derogaciones no publicadas en la Secretaría Municipal respectiva.</span>
           </div>
         `;
-      }
 
-      footerSection.innerHTML = `
-        ${faltantesHTML}
-        <div class="p-3.5 rounded-xl bg-[#04142b]/90 border border-[#153b70] flex flex-col sm:flex-row items-center justify-between gap-3">
-          <div class="text-left space-y-0.5">
-            <div class="text-xs font-bold text-white flex items-center gap-1.5">
-              <i data-lucide="send" class="w-3.5 h-3.5 text-sky-400"></i>
-              <span>¿Falta alguna ordenanza de ${currentModalComuna.comuna}?</span>
+        let faltantesHTML = '';
+        if (materiasFaltantes.length > 0 && materiasFaltantes.length < MATERIAS_CLAVE.length) {
+          faltantesHTML = `
+            <div class="p-3 rounded-xl bg-amber-500/10 border border-amber-500/30 space-y-1.5">
+              <div class="flex items-center gap-1.5 text-xs font-bold text-amber-300">
+                <i data-lucide="info" class="w-3.5 h-3.5"></i>
+                <span>Materias no detectadas aún en el catálogo para ${currentModalComuna.comuna}:</span>
+              </div>
+              <div class="flex flex-wrap gap-1.5">
+                ${materiasFaltantes.slice(0, 5).map(m => `<span class="px-2 py-0.5 rounded text-[10px] font-mono bg-[#04142b] text-amber-200 border border-amber-500/20">${m}</span>`).join('')}
+                ${materiasFaltantes.length > 5 ? `<span class="text-[10px] text-zinc-400 self-center">+${materiasFaltantes.length - 5} más</span>` : ''}
+              </div>
             </div>
-            <p class="text-[11px] text-zinc-400">Si eres funcionario, concejal, académico o vecino y tienes el decreto o PDF, compártelo.</p>
+          `;
+        }
+
+        footerSection.innerHTML = `
+          ${disclaimerHTML}
+          ${faltantesHTML}
+          <div class="p-3.5 rounded-xl bg-[#04142b]/90 border border-[#153b70] flex flex-col sm:flex-row items-center justify-between gap-3">
+            <div class="text-left space-y-0.5">
+              <div class="text-xs font-bold text-white flex items-center gap-1.5">
+                <i data-lucide="send" class="w-3.5 h-3.5 text-sky-400"></i>
+                <span>¿Falta alguna ordenanza de ${currentModalComuna.comuna}?</span>
+              </div>
+              <p class="text-[11px] text-zinc-400">Si eres funcionario, concejal, académico o vecino y tienes el decreto o PDF, compártelo.</p>
+            </div>
+            <button onclick="openBuzonModal('${currentModalComuna.comuna}')" class="px-3.5 py-1.5 rounded-lg bg-sky-600 hover:bg-sky-500 text-white font-semibold text-xs transition-colors shrink-0 flex items-center gap-1.5">
+              <span>Aportar al Buzón</span>
+              <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+            </button>
           </div>
-          <button onclick="openBuzonModal('${currentModalComuna.comuna}')" class="px-3.5 py-1.5 rounded-lg bg-sky-600 hover:bg-sky-500 text-white font-semibold text-xs transition-colors shrink-0 flex items-center gap-1.5">
-            <span>Aportar al Buzón</span>
-            <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
-          </button>
-        </div>
-      `;
-      list.appendChild(footerSection);
+        `;
+        list.appendChild(footerSection);
 
       lucide.createIcons();
     }
@@ -1402,24 +1486,24 @@
       const items = [
         {
           titulo: '1. Derechos Municipales y Tarifas',
-          base: 'Art. 12 Ley 18.695 (LOCM)',
+          base: 'Art. 42 DL 3.063 y Art. 12 LOCM',
           tiene: matSet.has('derechos_tarifas'),
           count: ordenanzas.filter(o => o.materia_id === 'derechos_tarifas').length,
-          desc: 'Tarifas anuales por permisos, terrazas, derechos varios.'
+          desc: 'Tarifas anuales por permisos, ocupación BNUP, terrazas, derechos varios.'
         },
         {
           titulo: '2. Participación Ciudadana',
           base: 'Art. 93 LOCM / Ley 20.500',
           tiene: matSet.has('participacion_ciudadana'),
           count: ordenanzas.filter(o => o.materia_id === 'participacion_ciudadana').length,
-          desc: 'Audiencias públicas, cabildos comunales y COSOC.'
+          desc: 'Audiencias públicas, consultas vecinales, cabildos comunales y COSOC.'
         },
         {
           titulo: '3. Aseo Domiciliario y Exenciones',
-          base: 'DL 3.063 Rentas Municipales',
+          base: 'Arts. 7, 8 y 9 DL 3.063',
           tiene: matSet.has('aseo_medioambiente') || matSet.has('aseo_residuos') || matSet.has('medio_ambiente'),
           count: ordenanzas.filter(o => ['aseo_medioambiente', 'aseo_residuos', 'medio_ambiente'].includes(o.materia_id)).length,
-          desc: 'Tarifas de aseo y subsidios para familias vulnerables (RSH).'
+          desc: 'Tarifas periódicas de aseo y subsidios para familias vulnerables (RSH).'
         },
         {
           titulo: '4. Tenencia Responsable de Mascotas',
@@ -1429,18 +1513,18 @@
           desc: 'Microchips, paseos y sanciones de hasta 30 UTM en JPL.'
         },
         {
-          titulo: '5. Notificaciones Municipales',
-          base: 'Art. 12 inc. final LOCM',
-          tiene: matSet.has('administracion_interna') || matSet.has('normativa_general') || matSet.has('general'),
-          count: ordenanzas.filter(o => ['administracion_interna', 'normativa_general'].includes(o.materia_id)).length,
-          desc: 'Debido proceso y validez legal en notificaciones alcaldicias.'
+          titulo: '5. Plan Regulador Comunal (PRC)',
+          base: 'Arts. 41 a 43 LGUC / OGUC',
+          tiene: matSet.has('urbanismo_obras') || ordenanzas.some(o => (o.titulo || '').toLowerCase().includes('regulador') || (o.titulo || '').toLowerCase().includes('edificacion')),
+          count: ordenanzas.filter(o => o.materia_id === 'urbanismo_obras' || (o.titulo || '').toLowerCase().includes('regulador')).length,
+          desc: 'Zonificación urbana, usos de suelo y condiciones de edificación comunal.'
         },
         {
-          titulo: '6. Receptores de Fondos Públicos',
-          base: 'Ley 19.862 Subvenciones',
-          tiene: matSet.has('social_salud_deporte') || matSet.has('administracion_interna') || ordenanzas.some(o => (o.titulo || '').toLowerCase().includes('fondo') || (o.titulo || '').toLowerCase().includes('subvencion')),
-          count: ordenanzas.filter(o => (o.titulo || '').toLowerCase().includes('fondo') || (o.titulo || '').toLowerCase().includes('subvencion')).length,
-          desc: 'Condición legal habilitante para transferir a juntas de vecinos u ONG.'
+          titulo: '6. Subvenciones Municipales',
+          base: 'Art. 5° g) y 65 g) LOCM / Ley 19.862',
+          tiene: matSet.has('social_salud_deporte') || ordenanzas.some(o => (o.titulo || '').toLowerCase().includes('subvencion') || (o.titulo || '').toLowerCase().includes('subvenciones') || (o.titulo || '').toLowerCase().includes('fondo')),
+          count: ordenanzas.filter(o => (o.titulo || '').toLowerCase().includes('subvencion') || (o.titulo || '').toLowerCase().includes('subvenciones')).length,
+          desc: 'Asignación, rendición de cuentas e inscripción registral habilitante.'
         }
       ];
 
@@ -1467,10 +1551,41 @@
           </button>
         `;
       }
-      lucide.createIcons();
+    // GESTIÓN DE TEMA CLARO / OSCURO (ACCESIBILIDAD WCAG)
+    function initTheme() {
+      const saved = localStorage.getItem('p090_theme');
+      const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      const isDark = saved ? saved === 'dark' : prefersDark;
+      setTheme(isDark ? 'dark' : 'light');
+    }
+
+    function setTheme(theme) {
+      const html = document.documentElement;
+      const sunIcon = document.getElementById('theme-icon-sun');
+      const moonIcon = document.getElementById('theme-icon-moon');
+      if (theme === 'dark') {
+        html.classList.add('dark');
+        html.classList.remove('light');
+        localStorage.setItem('p090_theme', 'dark');
+        if (sunIcon) sunIcon.classList.remove('hidden');
+        if (moonIcon) moonIcon.classList.add('hidden');
+      } else {
+        html.classList.remove('dark');
+        html.classList.add('light');
+        localStorage.setItem('p090_theme', 'light');
+        if (sunIcon) sunIcon.classList.add('hidden');
+        if (moonIcon) moonIcon.classList.remove('hidden');
+      }
+    }
+
+    function toggleTheme() {
+      const html = document.documentElement;
+      const isDark = html.classList.contains('dark');
+      setTheme(isDark ? 'light' : 'dark');
     }
 
     document.addEventListener('DOMContentLoaded', () => {
+      initTheme();
       lucide.createIcons();
       const dataSrc = window.CATASTRO_DATA || (typeof STATUS_DATA !== 'undefined' ? STATUS_DATA : null);
       if (dataSrc && dataSrc.comunas) {
@@ -1712,17 +1827,17 @@
           <div>
             <div class="flex items-center gap-1.5">
               <h4 class="text-xs font-bold text-white">Asistente Jurídico P090</h4>
-              <span class="px-1.5 py-0.2 rounded text-[9px] font-mono bg-sky-500/20 text-sky-300">Cero-Alucinación</span>
+              <span class="px-1.5 py-0.2 rounded text-[9px] font-mono bg-sky-500/20 text-sky-300">Consulta Trazable</span>
             </div>
-            <p class="text-[10px] text-zinc-400 font-mono">Motor local • 7.321 ordenanzas oficiales</p>
+            <p class="text-[10px] text-zinc-400 font-mono">Motor local • 7.321 registros normativos</p>
           </div>
         </div>
 
         <div class="flex items-center gap-1">
-          <button onclick="limpiarChat()" title="Reiniciar chat" class="p-1.5 rounded-lg bg-[#153b70]/60 hover:bg-[#1f5091] text-zinc-400 hover:text-white transition-colors">
+          <button onclick="limpiarChat()" aria-label="Reiniciar chat" title="Reiniciar chat" class="p-1.5 rounded-lg bg-[#153b70]/60 hover:bg-[#1f5091] text-zinc-400 hover:text-white transition-colors">
             <i data-lucide="rotate-ccw" class="w-3.5 h-3.5"></i>
           </button>
-          <button onclick="toggleChatModal()" title="Minimizar" class="p-1.5 rounded-lg bg-[#153b70]/60 hover:bg-[#1f5091] text-zinc-400 hover:text-white transition-colors">
+          <button onclick="toggleChatModal()" aria-label="Minimizar ventana de chat" title="Minimizar" class="p-1.5 rounded-lg bg-[#153b70]/60 hover:bg-[#1f5091] text-zinc-400 hover:text-white transition-colors">
             <i data-lucide="minus" class="w-3.5 h-3.5"></i>
           </button>
         </div>
@@ -1736,15 +1851,15 @@
             <span>Asistente Jurídico Municipal P090</span>
           </div>
           <p class="text-[11px] leading-relaxed text-zinc-300">
-            ¡Hola! Soy tu asistente de consulta normativa sobre las <strong>7.321 ordenanzas oficiales de Chile</strong> (registros en 346 comunas; exhaustividad no acreditada).
+            ¡Hola! Soy tu asistente de consulta normativa sobre los <strong>7.321 registros normativos de Chile</strong> (cobertura en 346 comunas; exhaustividad no acreditada).
           </p>
           <p class="text-[11px] text-zinc-400">
-            Pregúntame por las ordenanzas obligatorias por ley, la validez del PLACMA, o escribe el nombre de cualquier comuna del país.
+            Pregúntame por las ordenanzas con mandato legal expreso, la validez del PLACMA, o escribe el nombre de cualquier comuna del país.
           </p>
           <div class="pt-1 flex flex-wrap gap-1.5">
-            <button onclick="enviarConsultaChat('¿Cuáles son las 6 ordenanzas obligatorias?')" class="px-2 py-1 rounded bg-[#071f43] hover:bg-sky-600 border border-[#153b70] text-[10px] text-sky-300 hover:text-white transition-colors">⚖️ 6 Ordenanzas Obligatorias</button>
+            <button onclick="enviarConsultaChat('¿Qué ordenanzas tienen mandato legal?')" class="px-2 py-1 rounded bg-[#071f43] hover:bg-sky-600 border border-[#153b70] text-[10px] text-sky-300 hover:text-white transition-colors">⚖️ Mandatos Legales</button>
             <button onclick="enviarConsultaChat('¿El PLACMA es una ordenanza?')" class="px-2 py-1 rounded bg-[#071f43] hover:bg-sky-600 border border-[#153b70] text-[10px] text-sky-300 hover:text-white transition-colors">🌳 ¿PLACMA es ordenanza?</button>
-            <button onclick="enviarConsultaChat('Ordenanzas de Maipú')" class="px-2 py-1 rounded bg-[#071f43] hover:bg-sky-600 border border-[#153b70] text-[10px] text-sky-300 hover:text-white transition-colors">🏛️ Ordenanzas de Maipú</button>
+            <button onclick="enviarConsultaChat('Ordenanzas de Maipú')" class="px-2 py-1 rounded bg-[#071f43] hover:bg-sky-600 border border-[#153b70] text-[10px] text-sky-300 hover:text-white transition-colors">🏛️ Expediente Maipú</button>
             <button onclick="enviarConsultaChat('¿Qué comunas tienen ordenanza de humedales?')" class="px-2 py-1 rounded bg-[#071f43] hover:bg-sky-600 border border-[#153b70] text-[10px] text-sky-300 hover:text-white transition-colors">🌿 Humedales Urbanos</button>
           </div>
         </div>

@@ -1,6 +1,6 @@
-# Chilean Municipal By-Laws (Ordenanzas) Open Data Pipeline
+# Chilean Municipal Regulations & By-Laws Open Data Pipeline
 
-> **Version 3.0 (September 2026 release).** Consolidated national open database of 7,321 official municipal by-laws across all 346 communes of Chile, with SHA-256 cryptographic verification, 6 mandatory legal by-laws live auditor, and zero-hallucination municipal legal chatbot.
+> **Version 3.0 (September 2026 release).** Independent open research initiative: **7,321 cataloged normative records** across all 346 communes of Chile (5,881 BCN/LeyChile + 1,440 verified municipal records with SHA-256). Includes legal framework analysis, national territorial visualizer, and local traceable assistant.
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Online-success.svg)](https://ordenanzas.evegat.cl)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -10,9 +10,9 @@
 [ 🌐 **Open Live Interactive Dashboard** ](https://ordenanzas.evegat.cl)  
 [ 🇪🇸 Versión en Español ](README.md) · [ 🇬🇧 English version ](README.en.md)
 
-Automated ETL pipeline, structured dataset, and exploratory visualizer for **Chilean Municipal By-Laws (*Ordenanzas Municipales*)**, querying open data from the **Library of the National Congress of Chile (BCN/LeyChile)** SPARQL endpoint and complementary verified municipal official sources with SHA-256 cryptographic hashes.
+Independent automated ETL pipeline, structured dataset, and exploratory visualizer for **Chilean Municipal Regulations and By-Laws (*Ordenanzas Municipales*)**, querying open data from the **Library of the National Congress of Chile (BCN/LeyChile)** SPARQL endpoint and complementary verified municipal sources with SHA-256 cryptographic hashes.
 
-> **Coverage goal:** exhaustive, not sample-based. The objective is to identify **all by-laws officially published by Chile's 345 municipalities**, governing the country's 346 communes.
+> **Coverage & Scope:** National territorial presence across all 346 communes of Chile (100%). Document exhaustiveness not certified (subject to digital publishing availability per municipality).
 
 ---
 
@@ -25,7 +25,7 @@ This project is built primarily as an educational and empirical research resourc
 1. **Undergraduate & Graduate Tool:** Enables students of Public Administration, Political Science, Law, Urban Studies, and Public Policy to explore how local governments formulate and enforce regulations.
 2. **Empirical Policy Research:** Facilitates microdata downloads (CSV, SQLite, XLSX) to cross-reference municipal regulatory activity with sociodemographic indicators, municipal budgets (SINIM), and territorial typologies.
 3. **Local Transparency Diagnostics:** Helps identify active disclosure gaps and institutional capacity asymmetries across urban, rural, and under-resourced municipalities.
-4. **Methodological Traceability:** Teaches public data collection standards, distinguishing verified corpus, demonstrated exhaustive coverage, and quarantined unverified records.
+4. **Methodological Traceability:** Teaches public data collection standards, distinguishing verified corpus, territorial presence, and documents with cryptographic verification.
 
 ---
 
@@ -33,9 +33,9 @@ This project is built primarily as an educational and empirical research resourc
 
 - [x] **Phase 1: Base Registry & Reproducible Pipeline:** BCN SPARQL extraction (1,710 records) + initial multi-agent crawler + 9-domain classification.
 - [x] **Phase 2: Public Visualizer & Open Access:** Interactive dashboard hosted on GitHub Pages with multi-filter matrix, detailed commune drawer, interactive Leaflet map, smart autocomplete, and open data downloads.
-- [x] **Phase 3: Direct Territorial Expansion:** Pipeline discovering and validating municipal documents with SHA-256 hashes, reaching **100% territorial coverage (346 of 346 communes)** with **7,321 consolidated official by-laws** (5,881 BCN + 1,440 verified municipal records).
-- [x] **Phase 4: Zero-Hallucination Municipal Legal Chatbot ("Chatcito"):** Client-side floating assistant (`asistente_chat.js`) querying all 7,321 official by-laws in real-time with direct official PDF links and zero token inference cost.
-- [x] **Phase 5: Educational Module & Mandatory Legal Framework:** Interactive live auditor for the **6 legally required by-laws in Chile**, doctrinal clarification on PLACMA vs. Environmental By-law, 3 case studies, and downloadable Jupyter Notebook.
+- [x] **Phase 3: Direct Territorial Expansion:** Pipeline discovering and validating municipal documents with SHA-256 hashes, reaching **coverage across all 346 communes** with **7,321 consolidated normative records** (5,881 BCN + 1,440 verified municipal records).
+- [x] **Phase 4: Traceable Municipal Legal Assistant ("Chatcito"):** Client-side floating assistant (`asistente_chat.js`) querying all 7,321 records in real-time with direct source links and zero token inference cost.
+- [x] **Phase 5: Educational Module & Legal Framework:** Interactive live auditor for regulations with specific legal mandate (Fees, Citizen Participation, Waste, Pet Ownership, Master Urban Plan, Municipal Subsidies), doctrinal clarification on PLACMA vs. Environmental By-law, 3 case studies, and downloadable Jupyter Notebook.
 
 ---
 
