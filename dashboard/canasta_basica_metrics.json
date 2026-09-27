@@ -1,0 +1,5536 @@
+{
+  "metadata": {
+    "generado_el": "2026-09-27T02:54:15.146234",
+    "universo_total_comunas": 346,
+    "cohorte_activa_comunas": 243,
+    "cohorte_estricta_quinquenio": 204,
+    "total_ordenanzas_auditadas": 7450
+  },
+  "distribucion_nacional_346": {
+    "score_5": {
+      "comunas": 31,
+      "porcentaje": 8.96
+    },
+    "score_4": {
+      "comunas": 54,
+      "porcentaje": 15.61
+    },
+    "score_3": {
+      "comunas": 92,
+      "porcentaje": 26.59
+    },
+    "score_2": {
+      "comunas": 102,
+      "porcentaje": 29.48
+    },
+    "score_1": {
+      "comunas": 64,
+      "porcentaje": 18.5
+    },
+    "score_0": {
+      "comunas": 3,
+      "porcentaje": 0.87
+    }
+  },
+  "distribucion_cohorte_activa_243": {
+    "score_5": {
+      "comunas": 30,
+      "porcentaje": 12.35
+    },
+    "score_4": {
+      "comunas": 49,
+      "porcentaje": 20.16
+    },
+    "score_3": {
+      "comunas": 70,
+      "porcentaje": 28.81
+    },
+    "score_2": {
+      "comunas": 67,
+      "porcentaje": 27.57
+    },
+    "score_1": {
+      "comunas": 24,
+      "porcentaje": 9.88
+    },
+    "score_0": {
+      "comunas": 3,
+      "porcentaje": 1.23
+    }
+  },
+  "distribucion_vigencia_reciente_2021_2026": {
+    "score_5": {
+      "comunas": 2,
+      "porcentaje": 0.58
+    },
+    "score_4": {
+      "comunas": 6,
+      "porcentaje": 1.73
+    },
+    "score_3": {
+      "comunas": 10,
+      "porcentaje": 2.89
+    },
+    "score_2": {
+      "comunas": 38,
+      "porcentaje": 10.98
+    },
+    "score_1": {
+      "comunas": 78,
+      "porcentaje": 22.54
+    },
+    "score_0": {
+      "comunas": 212,
+      "porcentaje": 61.27
+    }
+  },
+  "ranking_materias": [
+    {
+      "codigo": "1_derechos",
+      "nombre": "Derechos Municipales y Tarifas",
+      "base_legal": "DL 3.063 de Rentas Municipales (arts. 41 y 42)",
+      "ley": "DL 3.063",
+      "total_ordenanzas": 2893,
+      "comunas_historico": 333,
+      "cobertura_nacional_pct": 96.24,
+      "comunas_reciente": 75,
+      "cobertura_reciente_pct": 21.68
+    },
+    {
+      "codigo": "2_aseo_ambiente",
+      "nombre": "Aseo, Gestión de Residuos y Protección Ambiental",
+      "base_legal": "Ley 18.695 (art. 3f) / Ley 20.920 REP",
+      "ley": "Ley 18.695 / Ley REP",
+      "total_ordenanzas": 788,
+      "comunas_historico": 238,
+      "cobertura_nacional_pct": 68.79,
+      "comunas_reciente": 58,
+      "cobertura_reciente_pct": 16.76
+    },
+    {
+      "codigo": "5_participacion",
+      "nombre": "Participación Ciudadana",
+      "base_legal": "Ley 20.500 / Ley 18.695 (art. 93)",
+      "ley": "Ley 20.500",
+      "total_ordenanzas": 174,
+      "comunas_historico": 121,
+      "cobertura_nacional_pct": 34.97,
+      "comunas_reciente": 18,
+      "cobertura_reciente_pct": 5.2
+    },
+    {
+      "codigo": "4_mascotas",
+      "nombre": "Tenencia Responsable de Mascotas y Animales de Compañía",
+      "base_legal": "Ley 21.020 (Ley Cholito, art. 7)",
+      "ley": "Ley 21.020",
+      "total_ordenanzas": 145,
+      "comunas_historico": 112,
+      "cobertura_nacional_pct": 32.37,
+      "comunas_reciente": 38,
+      "cobertura_reciente_pct": 10.98
+    },
+    {
+      "codigo": "3_seguridad_ruidos",
+      "nombre": "Seguridad, Convivencia y Ruidos Molestos",
+      "base_legal": "DS 38 MMA / Ley 18.695 (arts. 4h y 4j)",
+      "ley": "DS 38 MMA / Ley 18.695",
+      "total_ordenanzas": 204,
+      "comunas_historico": 111,
+      "cobertura_nacional_pct": 32.08,
+      "comunas_reciente": 29,
+      "cobertura_reciente_pct": 8.38
+    }
+  ],
+  "macrozonas": {
+    "Norte Grande": {
+      "total_comunas": 20,
+      "comunas_activas": 12,
+      "promedio_score_historico": 2.75,
+      "distribucion_scores": {
+        "score_5": 2,
+        "score_4": 5,
+        "score_3": 4,
+        "score_2": 4,
+        "score_1": 5,
+        "score_0": 0
+      },
+      "cobertura_materias": {
+        "Derechos Municipales y Tarifas": 19,
+        "Aseo, Gestión de Residuos y Protección Ambiental": 13,
+        "Seguridad, Convivencia y Ruidos Molestos": 8,
+        "Tenencia Responsable de Mascotas y Animales de Compañía": 7,
+        "Participación Ciudadana": 8
+      }
+    },
+    "Norte Chico": {
+      "total_comunas": 24,
+      "comunas_activas": 14,
+      "promedio_score_historico": 2.67,
+      "distribucion_scores": {
+        "score_5": 3,
+        "score_4": 3,
+        "score_3": 6,
+        "score_2": 7,
+        "score_1": 5,
+        "score_0": 0
+      },
+      "cobertura_materias": {
+        "Derechos Municipales y Tarifas": 22,
+        "Aseo, Gestión de Residuos y Protección Ambiental": 14,
+        "Seguridad, Convivencia y Ruidos Molestos": 11,
+        "Tenencia Responsable de Mascotas y Animales de Compañía": 9,
+        "Participación Ciudadana": 8
+      }
+    },
+    "Centro": {
+      "total_comunas": 153,
+      "comunas_activas": 128,
+      "promedio_score_historico": 2.97,
+      "distribucion_scores": {
+        "score_5": 21,
+        "score_4": 32,
+        "score_3": 42,
+        "score_2": 40,
+        "score_1": 15,
+        "score_0": 3
+      },
+      "cobertura_materias": {
+        "Derechos Municipales y Tarifas": 149,
+        "Aseo, Gestión de Residuos y Protección Ambiental": 124,
+        "Seguridad, Convivencia y Ruidos Molestos": 66,
+        "Tenencia Responsable de Mascotas y Animales de Compañía": 50,
+        "Participación Ciudadana": 65
+      }
+    },
+    "Sur": {
+      "total_comunas": 128,
+      "comunas_activas": 80,
+      "promedio_score_historico": 2.34,
+      "distribucion_scores": {
+        "score_5": 4,
+        "score_4": 13,
+        "score_3": 35,
+        "score_2": 46,
+        "score_1": 30,
+        "score_0": 0
+      },
+      "cobertura_materias": {
+        "Derechos Municipales y Tarifas": 122,
+        "Aseo, Gestión de Residuos y Protección Ambiental": 79,
+        "Seguridad, Convivencia y Ruidos Molestos": 23,
+        "Tenencia Responsable de Mascotas y Animales de Compañía": 40,
+        "Participación Ciudadana": 35
+      }
+    },
+    "Austral": {
+      "total_comunas": 21,
+      "comunas_activas": 9,
+      "promedio_score_historico": 2.05,
+      "distribucion_scores": {
+        "score_5": 1,
+        "score_4": 1,
+        "score_3": 5,
+        "score_2": 5,
+        "score_1": 9,
+        "score_0": 0
+      },
+      "cobertura_materias": {
+        "Derechos Municipales y Tarifas": 21,
+        "Aseo, Gestión de Residuos y Protección Ambiental": 8,
+        "Seguridad, Convivencia y Ruidos Molestos": 3,
+        "Tenencia Responsable de Mascotas y Animales de Compañía": 6,
+        "Participación Ciudadana": 5
+      }
+    }
+  },
+  "regiones": [
+    {
+      "region_id": "13",
+      "region_nombre": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "total_comunas": 52,
+      "promedio_score": 3.65,
+      "comunas_5_de_5": 15,
+      "comunas_0_o_1_de_5": 1,
+      "cobertura_materias": {
+        "Derechos Municipales y Tarifas": 52,
+        "Aseo, Gestión de Residuos y Protección Ambiental": 50,
+        "Seguridad, Convivencia y Ruidos Molestos": 38,
+        "Tenencia Responsable de Mascotas y Animales de Compañía": 20,
+        "Participación Ciudadana": 30
+      }
+    },
+    {
+      "region_id": "02",
+      "region_nombre": "Antofagasta",
+      "macrozona": "Norte Grande",
+      "total_comunas": 9,
+      "promedio_score": 3.33,
+      "comunas_5_de_5": 1,
+      "comunas_0_o_1_de_5": 0,
+      "cobertura_materias": {
+        "Derechos Municipales y Tarifas": 9,
+        "Aseo, Gestión de Residuos y Protección Ambiental": 8,
+        "Seguridad, Convivencia y Ruidos Molestos": 5,
+        "Tenencia Responsable de Mascotas y Animales de Compañía": 4,
+        "Participación Ciudadana": 4
+      }
+    },
+    {
+      "region_id": "05",
+      "region_nombre": "Valparaíso",
+      "macrozona": "Centro",
+      "total_comunas": 38,
+      "promedio_score": 3.13,
+      "comunas_5_de_5": 5,
+      "comunas_0_o_1_de_5": 2,
+      "cobertura_materias": {
+        "Derechos Municipales y Tarifas": 37,
+        "Aseo, Gestión de Residuos y Protección Ambiental": 32,
+        "Seguridad, Convivencia y Ruidos Molestos": 15,
+        "Tenencia Responsable de Mascotas y Animales de Compañía": 16,
+        "Participación Ciudadana": 19
+      }
+    },
+    {
+      "region_id": "03",
+      "region_nombre": "Atacama",
+      "macrozona": "Norte Chico",
+      "total_comunas": 9,
+      "promedio_score": 3.0,
+      "comunas_5_de_5": 2,
+      "comunas_0_o_1_de_5": 3,
+      "cobertura_materias": {
+        "Derechos Municipales y Tarifas": 9,
+        "Aseo, Gestión de Residuos y Protección Ambiental": 6,
+        "Seguridad, Convivencia y Ruidos Molestos": 4,
+        "Tenencia Responsable de Mascotas y Animales de Compañía": 5,
+        "Participación Ciudadana": 3
+      }
+    },
+    {
+      "region_id": "08",
+      "region_nombre": "Biobío",
+      "macrozona": "Sur",
+      "total_comunas": 33,
+      "promedio_score": 2.67,
+      "comunas_5_de_5": 3,
+      "comunas_0_o_1_de_5": 5,
+      "cobertura_materias": {
+        "Derechos Municipales y Tarifas": 31,
+        "Aseo, Gestión de Residuos y Protección Ambiental": 19,
+        "Seguridad, Convivencia y Ruidos Molestos": 13,
+        "Tenencia Responsable de Mascotas y Animales de Compañía": 12,
+        "Participación Ciudadana": 13
+      }
+    },
+    {
+      "region_id": "10",
+      "region_nombre": "Los Lagos",
+      "macrozona": "Sur",
+      "total_comunas": 30,
+      "promedio_score": 2.53,
+      "comunas_5_de_5": 0,
+      "comunas_0_o_1_de_5": 4,
+      "cobertura_materias": {
+        "Derechos Municipales y Tarifas": 29,
+        "Aseo, Gestión de Residuos y Protección Ambiental": 22,
+        "Seguridad, Convivencia y Ruidos Molestos": 3,
+        "Tenencia Responsable de Mascotas y Animales de Compañía": 14,
+        "Participación Ciudadana": 8
+      }
+    },
+    {
+      "region_id": "04",
+      "region_nombre": "Coquimbo",
+      "macrozona": "Norte Chico",
+      "total_comunas": 15,
+      "promedio_score": 2.47,
+      "comunas_5_de_5": 1,
+      "comunas_0_o_1_de_5": 2,
+      "cobertura_materias": {
+        "Derechos Municipales y Tarifas": 13,
+        "Aseo, Gestión de Residuos y Protección Ambiental": 8,
+        "Seguridad, Convivencia y Ruidos Molestos": 7,
+        "Tenencia Responsable de Mascotas y Animales de Compañía": 4,
+        "Participación Ciudadana": 5
+      }
+    },
+    {
+      "region_id": "06",
+      "region_nombre": "O Higgins",
+      "macrozona": "Centro",
+      "total_comunas": 33,
+      "promedio_score": 2.33,
+      "comunas_5_de_5": 1,
+      "comunas_0_o_1_de_5": 8,
+      "cobertura_materias": {
+        "Derechos Municipales y Tarifas": 32,
+        "Aseo, Gestión de Residuos y Protección Ambiental": 22,
+        "Seguridad, Convivencia y Ruidos Molestos": 7,
+        "Tenencia Responsable de Mascotas y Animales de Compañía": 7,
+        "Participación Ciudadana": 9
+      }
+    },
+    {
+      "region_id": "01",
+      "region_nombre": "Tarapacá",
+      "macrozona": "Norte Grande",
+      "total_comunas": 7,
+      "promedio_score": 2.29,
+      "comunas_5_de_5": 0,
+      "comunas_0_o_1_de_5": 3,
+      "cobertura_materias": {
+        "Derechos Municipales y Tarifas": 6,
+        "Aseo, Gestión de Residuos y Protección Ambiental": 4,
+        "Seguridad, Convivencia y Ruidos Molestos": 2,
+        "Tenencia Responsable de Mascotas y Animales de Compañía": 2,
+        "Participación Ciudadana": 2
+      }
+    },
+    {
+      "region_id": "07",
+      "region_nombre": "Maule",
+      "macrozona": "Centro",
+      "total_comunas": 30,
+      "promedio_score": 2.27,
+      "comunas_5_de_5": 0,
+      "comunas_0_o_1_de_5": 7,
+      "cobertura_materias": {
+        "Derechos Municipales y Tarifas": 28,
+        "Aseo, Gestión de Residuos y Protección Ambiental": 20,
+        "Seguridad, Convivencia y Ruidos Molestos": 6,
+        "Tenencia Responsable de Mascotas y Animales de Compañía": 7,
+        "Participación Ciudadana": 7
+      }
+    },
+    {
+      "region_id": "15",
+      "region_nombre": "Arica y Parinacota",
+      "macrozona": "Norte Grande",
+      "total_comunas": 4,
+      "promedio_score": 2.25,
+      "comunas_5_de_5": 1,
+      "comunas_0_o_1_de_5": 2,
+      "cobertura_materias": {
+        "Derechos Municipales y Tarifas": 4,
+        "Aseo, Gestión de Residuos y Protección Ambiental": 1,
+        "Seguridad, Convivencia y Ruidos Molestos": 1,
+        "Tenencia Responsable de Mascotas y Animales de Compañía": 1,
+        "Participación Ciudadana": 2
+      }
+    },
+    {
+      "region_id": "14",
+      "region_nombre": "Los Ríos",
+      "macrozona": "Sur",
+      "total_comunas": 12,
+      "promedio_score": 2.25,
+      "comunas_5_de_5": 0,
+      "comunas_0_o_1_de_5": 2,
+      "cobertura_materias": {
+        "Derechos Municipales y Tarifas": 11,
+        "Aseo, Gestión de Residuos y Protección Ambiental": 10,
+        "Seguridad, Convivencia y Ruidos Molestos": 1,
+        "Tenencia Responsable de Mascotas y Animales de Compañía": 4,
+        "Participación Ciudadana": 1
+      }
+    },
+    {
+      "region_id": "12",
+      "region_nombre": "Magallanes",
+      "macrozona": "Austral",
+      "total_comunas": 11,
+      "promedio_score": 2.18,
+      "comunas_5_de_5": 1,
+      "comunas_0_o_1_de_5": 4,
+      "cobertura_materias": {
+        "Derechos Municipales y Tarifas": 11,
+        "Aseo, Gestión de Residuos y Protección Ambiental": 3,
+        "Seguridad, Convivencia y Ruidos Molestos": 1,
+        "Tenencia Responsable de Mascotas y Animales de Compañía": 4,
+        "Participación Ciudadana": 5
+      }
+    },
+    {
+      "region_id": "09",
+      "region_nombre": "La Araucanía",
+      "macrozona": "Sur",
+      "total_comunas": 32,
+      "promedio_score": 2.06,
+      "comunas_5_de_5": 1,
+      "comunas_0_o_1_de_5": 10,
+      "cobertura_materias": {
+        "Derechos Municipales y Tarifas": 31,
+        "Aseo, Gestión de Residuos y Protección Ambiental": 17,
+        "Seguridad, Convivencia y Ruidos Molestos": 3,
+        "Tenencia Responsable de Mascotas y Animales de Compañía": 8,
+        "Participación Ciudadana": 7
+      }
+    },
+    {
+      "region_id": "16",
+      "region_nombre": "Ñuble",
+      "macrozona": "Sur",
+      "total_comunas": 21,
+      "promedio_score": 2.0,
+      "comunas_5_de_5": 0,
+      "comunas_0_o_1_de_5": 9,
+      "cobertura_materias": {
+        "Derechos Municipales y Tarifas": 20,
+        "Aseo, Gestión de Residuos y Protección Ambiental": 11,
+        "Seguridad, Convivencia y Ruidos Molestos": 3,
+        "Tenencia Responsable de Mascotas y Animales de Compañía": 2,
+        "Participación Ciudadana": 6
+      }
+    },
+    {
+      "region_id": "11",
+      "region_nombre": "Aysén",
+      "macrozona": "Austral",
+      "total_comunas": 10,
+      "promedio_score": 1.9,
+      "comunas_5_de_5": 0,
+      "comunas_0_o_1_de_5": 5,
+      "cobertura_materias": {
+        "Derechos Municipales y Tarifas": 10,
+        "Aseo, Gestión de Residuos y Protección Ambiental": 5,
+        "Seguridad, Convivencia y Ruidos Molestos": 2,
+        "Tenencia Responsable de Mascotas y Animales de Compañía": 2,
+        "Participación Ciudadana": 0
+      }
+    }
+  ],
+  "comunas_destacadas_5_de_5": [
+    {
+      "comuna": "Maipú",
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 5,
+      "score_reciente": 5,
+      "total_ordenanzas": 87,
+      "total_ordenanzas_recientes": 19
+    },
+    {
+      "comuna": "Tiltil",
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 5,
+      "score_reciente": 5,
+      "total_ordenanzas": 19,
+      "total_ordenanzas_recientes": 18
+    },
+    {
+      "comuna": "Hualpén",
+      "region": "Biobío",
+      "macrozona": "Sur",
+      "score_historico": 5,
+      "score_reciente": 4,
+      "total_ordenanzas": 45,
+      "total_ordenanzas_recientes": 27
+    },
+    {
+      "comuna": "La Granja",
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 5,
+      "score_reciente": 4,
+      "total_ordenanzas": 86,
+      "total_ordenanzas_recientes": 22
+    },
+    {
+      "comuna": "Conchalí",
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 5,
+      "score_reciente": 4,
+      "total_ordenanzas": 59,
+      "total_ordenanzas_recientes": 3
+    },
+    {
+      "comuna": "El Quisco",
+      "region": "Valparaíso",
+      "macrozona": "Centro",
+      "score_historico": 5,
+      "score_reciente": 3,
+      "total_ordenanzas": 52,
+      "total_ordenanzas_recientes": 34
+    },
+    {
+      "comuna": "Buin",
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 5,
+      "score_reciente": 3,
+      "total_ordenanzas": 83,
+      "total_ordenanzas_recientes": 13
+    },
+    {
+      "comuna": "Lo Espejo",
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 5,
+      "score_reciente": 3,
+      "total_ordenanzas": 21,
+      "total_ordenanzas_recientes": 5
+    },
+    {
+      "comuna": "Peñalolén",
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 5,
+      "score_reciente": 2,
+      "total_ordenanzas": 73,
+      "total_ordenanzas_recientes": 7
+    },
+    {
+      "comuna": "Arauco",
+      "region": "Biobío",
+      "macrozona": "Sur",
+      "score_historico": 5,
+      "score_reciente": 2,
+      "total_ordenanzas": 34,
+      "total_ordenanzas_recientes": 4
+    },
+    {
+      "comuna": "Nogales",
+      "region": "Valparaíso",
+      "macrozona": "Centro",
+      "score_historico": 5,
+      "score_reciente": 2,
+      "total_ordenanzas": 13,
+      "total_ordenanzas_recientes": 3
+    },
+    {
+      "comuna": "Las Condes",
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 5,
+      "score_reciente": 1,
+      "total_ordenanzas": 124,
+      "total_ordenanzas_recientes": 8
+    },
+    {
+      "comuna": "San Bernardo",
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 5,
+      "score_reciente": 1,
+      "total_ordenanzas": 102,
+      "total_ordenanzas_recientes": 7
+    },
+    {
+      "comuna": "Cabildo",
+      "region": "Valparaíso",
+      "macrozona": "Centro",
+      "score_historico": 5,
+      "score_reciente": 1,
+      "total_ordenanzas": 30,
+      "total_ordenanzas_recientes": 5
+    },
+    {
+      "comuna": "Lo Prado",
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 5,
+      "score_reciente": 1,
+      "total_ordenanzas": 82,
+      "total_ordenanzas_recientes": 4
+    },
+    {
+      "comuna": "Ñuñoa",
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 5,
+      "score_reciente": 1,
+      "total_ordenanzas": 59,
+      "total_ordenanzas_recientes": 3
+    },
+    {
+      "comuna": "Arica",
+      "region": "Arica y Parinacota",
+      "macrozona": "Norte Grande",
+      "score_historico": 5,
+      "score_reciente": 1,
+      "total_ordenanzas": 39,
+      "total_ordenanzas_recientes": 3
+    },
+    {
+      "comuna": "Mejillones",
+      "region": "Antofagasta",
+      "macrozona": "Norte Grande",
+      "score_historico": 5,
+      "score_reciente": 1,
+      "total_ordenanzas": 16,
+      "total_ordenanzas_recientes": 2
+    },
+    {
+      "comuna": "Pirque",
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 5,
+      "score_reciente": 1,
+      "total_ordenanzas": 42,
+      "total_ordenanzas_recientes": 1
+    },
+    {
+      "comuna": "Melipilla",
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 5,
+      "score_reciente": 1,
+      "total_ordenanzas": 31,
+      "total_ordenanzas_recientes": 1
+    },
+    {
+      "comuna": "La Florida",
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 5,
+      "score_reciente": 0,
+      "total_ordenanzas": 88,
+      "total_ordenanzas_recientes": 14
+    },
+    {
+      "comuna": "La Serena",
+      "region": "Coquimbo",
+      "macrozona": "Norte Chico",
+      "score_historico": 5,
+      "score_reciente": 0,
+      "total_ordenanzas": 72,
+      "total_ordenanzas_recientes": 2
+    },
+    {
+      "comuna": "Florida",
+      "region": "Biobío",
+      "macrozona": "Sur",
+      "score_historico": 5,
+      "score_reciente": 0,
+      "total_ordenanzas": 62,
+      "total_ordenanzas_recientes": 2
+    },
+    {
+      "comuna": "Rancagua",
+      "region": "O Higgins",
+      "macrozona": "Centro",
+      "score_historico": 5,
+      "score_reciente": 0,
+      "total_ordenanzas": 96,
+      "total_ordenanzas_recientes": 1
+    },
+    {
+      "comuna": "Vallenar",
+      "region": "Atacama",
+      "macrozona": "Norte Chico",
+      "score_historico": 5,
+      "score_reciente": 0,
+      "total_ordenanzas": 52,
+      "total_ordenanzas_recientes": 1
+    },
+    {
+      "comuna": "Caldera",
+      "region": "Atacama",
+      "macrozona": "Norte Chico",
+      "score_historico": 5,
+      "score_reciente": 0,
+      "total_ordenanzas": 20,
+      "total_ordenanzas_recientes": 1
+    },
+    {
+      "comuna": "Temuco",
+      "region": "La Araucanía",
+      "macrozona": "Sur",
+      "score_historico": 5,
+      "score_reciente": 0,
+      "total_ordenanzas": 107,
+      "total_ordenanzas_recientes": 0
+    },
+    {
+      "comuna": "Quillota",
+      "region": "Valparaíso",
+      "macrozona": "Centro",
+      "score_historico": 5,
+      "score_reciente": 0,
+      "total_ordenanzas": 52,
+      "total_ordenanzas_recientes": 0
+    },
+    {
+      "comuna": "Cerrillos",
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 5,
+      "score_reciente": 0,
+      "total_ordenanzas": 50,
+      "total_ordenanzas_recientes": 0
+    },
+    {
+      "comuna": "Punta Arenas",
+      "region": "Magallanes",
+      "macrozona": "Austral",
+      "score_historico": 5,
+      "score_reciente": 0,
+      "total_ordenanzas": 40,
+      "total_ordenanzas_recientes": 0
+    },
+    {
+      "comuna": "Catemu",
+      "region": "Valparaíso",
+      "macrozona": "Centro",
+      "score_historico": 5,
+      "score_reciente": 0,
+      "total_ordenanzas": 18,
+      "total_ordenanzas_recientes": 0
+    }
+  ],
+  "comunas_alertas_rezago": {
+    "cero_de_cinco": [
+      "Marchihue",
+      "Pencahue",
+      "San Rafael"
+    ],
+    "uno_de_cinco_total": 64,
+    "muestra_uno_de_cinco": [
+      "Camarones",
+      "General Lagos",
+      "Pozo Almonte",
+      "Camiña",
+      "Colchane",
+      "Copiapó",
+      "Chañaral",
+      "Freirina",
+      "Paiguano",
+      "Vicuña",
+      "Cartagena",
+      "El Tabo",
+      "La Cisterna",
+      "Coltauco",
+      "Graneros"
+    ]
+  },
+  "comunas_detalle": {
+    "Arica": {
+      "region": "Arica y Parinacota",
+      "macrozona": "Norte Grande",
+      "score_historico": 5,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "1_derechos"
+      ]
+    },
+    "Camarones": {
+      "region": "Arica y Parinacota",
+      "macrozona": "Norte Grande",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Putre": {
+      "region": "Arica y Parinacota",
+      "macrozona": "Norte Grande",
+      "score_historico": 2,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "5_participacion"
+      ]
+    },
+    "General Lagos": {
+      "region": "Arica y Parinacota",
+      "macrozona": "Norte Grande",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Iquique": {
+      "region": "Tarapacá",
+      "macrozona": "Norte Grande",
+      "score_historico": 4,
+      "score_reciente": 2,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "1_derechos",
+        "4_mascotas"
+      ]
+    },
+    "Alto Hospicio": {
+      "region": "Tarapacá",
+      "macrozona": "Norte Grande",
+      "score_historico": 3,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos"
+      ],
+      "categorias_reciente": [
+        "1_derechos"
+      ]
+    },
+    "Pozo Almonte": {
+      "region": "Tarapacá",
+      "macrozona": "Norte Grande",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Camiña": {
+      "region": "Tarapacá",
+      "macrozona": "Norte Grande",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Colchane": {
+      "region": "Tarapacá",
+      "macrozona": "Norte Grande",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": []
+    },
+    "Huara": {
+      "region": "Tarapacá",
+      "macrozona": "Norte Grande",
+      "score_historico": 4,
+      "score_reciente": 4,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "3_seguridad_ruidos",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "1_derechos",
+        "3_seguridad_ruidos",
+        "4_mascotas",
+        "5_participacion"
+      ]
+    },
+    "Pica": {
+      "region": "Tarapacá",
+      "macrozona": "Norte Grande",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": []
+    },
+    "Antofagasta": {
+      "region": "Antofagasta",
+      "macrozona": "Norte Grande",
+      "score_historico": 4,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas"
+      ],
+      "categorias_reciente": []
+    },
+    "Mejillones": {
+      "region": "Antofagasta",
+      "macrozona": "Norte Grande",
+      "score_historico": 5,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "3_seguridad_ruidos"
+      ]
+    },
+    "Sierra Gorda": {
+      "region": "Antofagasta",
+      "macrozona": "Norte Grande",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Taltal": {
+      "region": "Antofagasta",
+      "macrozona": "Norte Grande",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "3_seguridad_ruidos"
+      ],
+      "categorias_reciente": []
+    },
+    "Calama": {
+      "region": "Antofagasta",
+      "macrozona": "Norte Grande",
+      "score_historico": 4,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Ollagüe": {
+      "region": "Antofagasta",
+      "macrozona": "Norte Grande",
+      "score_historico": 2,
+      "score_reciente": 2,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ]
+    },
+    "San Pedro de Atacama": {
+      "region": "Antofagasta",
+      "macrozona": "Norte Grande",
+      "score_historico": 3,
+      "score_reciente": 2,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "4_mascotas"
+      ],
+      "categorias_reciente": [
+        "1_derechos",
+        "4_mascotas"
+      ]
+    },
+    "Tocopilla": {
+      "region": "Antofagasta",
+      "macrozona": "Norte Grande",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos"
+      ],
+      "categorias_reciente": []
+    },
+    "María Elena": {
+      "region": "Antofagasta",
+      "macrozona": "Norte Grande",
+      "score_historico": 4,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Copiapó": {
+      "region": "Atacama",
+      "macrozona": "Norte Chico",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Caldera": {
+      "region": "Atacama",
+      "macrozona": "Norte Chico",
+      "score_historico": 5,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Tierra Amarilla": {
+      "region": "Atacama",
+      "macrozona": "Norte Chico",
+      "score_historico": 4,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas"
+      ],
+      "categorias_reciente": []
+    },
+    "Chañaral": {
+      "region": "Atacama",
+      "macrozona": "Norte Chico",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Diego de Almagro": {
+      "region": "Atacama",
+      "macrozona": "Norte Chico",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos"
+      ],
+      "categorias_reciente": []
+    },
+    "Vallenar": {
+      "region": "Atacama",
+      "macrozona": "Norte Chico",
+      "score_historico": 5,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Alto del Carmen": {
+      "region": "Atacama",
+      "macrozona": "Norte Chico",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "4_mascotas"
+      ],
+      "categorias_reciente": []
+    },
+    "Freirina": {
+      "region": "Atacama",
+      "macrozona": "Norte Chico",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Huasco": {
+      "region": "Atacama",
+      "macrozona": "Norte Chico",
+      "score_historico": 4,
+      "score_reciente": 2,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "2_aseo_ambiente",
+        "4_mascotas"
+      ]
+    },
+    "La Serena": {
+      "region": "Coquimbo",
+      "macrozona": "Norte Chico",
+      "score_historico": 5,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Coquimbo": {
+      "region": "Coquimbo",
+      "macrozona": "Norte Chico",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos"
+      ],
+      "categorias_reciente": []
+    },
+    "Andacollo": {
+      "region": "Coquimbo",
+      "macrozona": "Norte Chico",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "3_seguridad_ruidos"
+      ],
+      "categorias_reciente": []
+    },
+    "La Higuera": {
+      "region": "Coquimbo",
+      "macrozona": "Norte Chico",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": []
+    },
+    "Paiguano": {
+      "region": "Coquimbo",
+      "macrozona": "Norte Chico",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Vicuña": {
+      "region": "Coquimbo",
+      "macrozona": "Norte Chico",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "3_seguridad_ruidos"
+      ],
+      "categorias_reciente": []
+    },
+    "Illapel": {
+      "region": "Coquimbo",
+      "macrozona": "Norte Chico",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Canela": {
+      "region": "Coquimbo",
+      "macrozona": "Norte Chico",
+      "score_historico": 2,
+      "score_reciente": 2,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "4_mascotas"
+      ],
+      "categorias_reciente": [
+        "1_derechos",
+        "4_mascotas"
+      ]
+    },
+    "Los Vilos": {
+      "region": "Coquimbo",
+      "macrozona": "Norte Chico",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "3_seguridad_ruidos"
+      ],
+      "categorias_reciente": []
+    },
+    "Salamanca": {
+      "region": "Coquimbo",
+      "macrozona": "Norte Chico",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos"
+      ],
+      "categorias_reciente": []
+    },
+    "Ovalle": {
+      "region": "Coquimbo",
+      "macrozona": "Norte Chico",
+      "score_historico": 4,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas"
+      ],
+      "categorias_reciente": [
+        "3_seguridad_ruidos"
+      ]
+    },
+    "Combarbalá": {
+      "region": "Coquimbo",
+      "macrozona": "Norte Chico",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Monte Patria": {
+      "region": "Coquimbo",
+      "macrozona": "Norte Chico",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Punitaqui": {
+      "region": "Coquimbo",
+      "macrozona": "Norte Chico",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": []
+    },
+    "Río Hurtado": {
+      "region": "Coquimbo",
+      "macrozona": "Norte Chico",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Valparaíso": {
+      "region": "Valparaíso",
+      "macrozona": "Centro",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": []
+    },
+    "Casablanca": {
+      "region": "Valparaíso",
+      "macrozona": "Centro",
+      "score_historico": 2,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": [
+        "1_derechos"
+      ]
+    },
+    "Concón": {
+      "region": "Valparaíso",
+      "macrozona": "Centro",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas"
+      ],
+      "categorias_reciente": []
+    },
+    "Juan Fernández": {
+      "region": "Valparaíso",
+      "macrozona": "Centro",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Puchuncaví": {
+      "region": "Valparaíso",
+      "macrozona": "Centro",
+      "score_historico": 2,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": [
+        "2_aseo_ambiente"
+      ]
+    },
+    "Quintero": {
+      "region": "Valparaíso",
+      "macrozona": "Centro",
+      "score_historico": 3,
+      "score_reciente": 2,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "3_seguridad_ruidos",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "1_derechos",
+        "5_participacion"
+      ]
+    },
+    "Viña del Mar": {
+      "region": "Valparaíso",
+      "macrozona": "Centro",
+      "score_historico": 4,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas"
+      ],
+      "categorias_reciente": [
+        "1_derechos"
+      ]
+    },
+    "Isla de Pascua": {
+      "region": "Valparaíso",
+      "macrozona": "Centro",
+      "score_historico": 4,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "4_mascotas"
+      ]
+    },
+    "Los Andes": {
+      "region": "Valparaíso",
+      "macrozona": "Centro",
+      "score_historico": 3,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "4_mascotas"
+      ],
+      "categorias_reciente": [
+        "1_derechos"
+      ]
+    },
+    "Calle Larga": {
+      "region": "Valparaíso",
+      "macrozona": "Centro",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "4_mascotas"
+      ],
+      "categorias_reciente": []
+    },
+    "Rinconada": {
+      "region": "Valparaíso",
+      "macrozona": "Centro",
+      "score_historico": 2,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "4_mascotas"
+      ],
+      "categorias_reciente": [
+        "4_mascotas"
+      ]
+    },
+    "San Esteban": {
+      "region": "Valparaíso",
+      "macrozona": "Centro",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "La Ligua": {
+      "region": "Valparaíso",
+      "macrozona": "Centro",
+      "score_historico": 3,
+      "score_reciente": 2,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "3_seguridad_ruidos",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "3_seguridad_ruidos",
+        "5_participacion"
+      ]
+    },
+    "Cabildo": {
+      "region": "Valparaíso",
+      "macrozona": "Centro",
+      "score_historico": 5,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "1_derechos"
+      ]
+    },
+    "Papudo": {
+      "region": "Valparaíso",
+      "macrozona": "Centro",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": []
+    },
+    "Petorca": {
+      "region": "Valparaíso",
+      "macrozona": "Centro",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Zapallar": {
+      "region": "Valparaíso",
+      "macrozona": "Centro",
+      "score_historico": 4,
+      "score_reciente": 3,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas"
+      ],
+      "categorias_reciente": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos"
+      ]
+    },
+    "Quillota": {
+      "region": "Valparaíso",
+      "macrozona": "Centro",
+      "score_historico": 5,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Calera": {
+      "region": "Valparaíso",
+      "macrozona": "Centro",
+      "score_historico": 4,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas"
+      ],
+      "categorias_reciente": [
+        "3_seguridad_ruidos"
+      ]
+    },
+    "Hijuelas": {
+      "region": "Valparaíso",
+      "macrozona": "Centro",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "La Cruz": {
+      "region": "Valparaíso",
+      "macrozona": "Centro",
+      "score_historico": 4,
+      "score_reciente": 3,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "5_participacion"
+      ]
+    },
+    "Nogales": {
+      "region": "Valparaíso",
+      "macrozona": "Centro",
+      "score_historico": 5,
+      "score_reciente": 2,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "3_seguridad_ruidos",
+        "4_mascotas"
+      ]
+    },
+    "San Antonio": {
+      "region": "Valparaíso",
+      "macrozona": "Centro",
+      "score_historico": 3,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "1_derechos"
+      ]
+    },
+    "Algarrobo": {
+      "region": "Valparaíso",
+      "macrozona": "Centro",
+      "score_historico": 3,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos"
+      ],
+      "categorias_reciente": [
+        "1_derechos"
+      ]
+    },
+    "Cartagena": {
+      "region": "Valparaíso",
+      "macrozona": "Centro",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "El Quisco": {
+      "region": "Valparaíso",
+      "macrozona": "Centro",
+      "score_historico": 5,
+      "score_reciente": 3,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos"
+      ]
+    },
+    "El Tabo": {
+      "region": "Valparaíso",
+      "macrozona": "Centro",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Santo Domingo": {
+      "region": "Valparaíso",
+      "macrozona": "Centro",
+      "score_historico": 3,
+      "score_reciente": 2,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "4_mascotas"
+      ],
+      "categorias_reciente": [
+        "2_aseo_ambiente",
+        "4_mascotas"
+      ]
+    },
+    "San Felipe": {
+      "region": "Valparaíso",
+      "macrozona": "Centro",
+      "score_historico": 4,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Catemu": {
+      "region": "Valparaíso",
+      "macrozona": "Centro",
+      "score_historico": 5,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Llaillay": {
+      "region": "Valparaíso",
+      "macrozona": "Centro",
+      "score_historico": 2,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": [
+        "1_derechos"
+      ]
+    },
+    "Panquehue": {
+      "region": "Valparaíso",
+      "macrozona": "Centro",
+      "score_historico": 4,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Putaendo": {
+      "region": "Valparaíso",
+      "macrozona": "Centro",
+      "score_historico": 4,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "3_seguridad_ruidos"
+      ]
+    },
+    "Santa María": {
+      "region": "Valparaíso",
+      "macrozona": "Centro",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Quilpué": {
+      "region": "Valparaíso",
+      "macrozona": "Centro",
+      "score_historico": 2,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": [
+        "2_aseo_ambiente"
+      ]
+    },
+    "Limache": {
+      "region": "Valparaíso",
+      "macrozona": "Centro",
+      "score_historico": 2,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": [
+        "2_aseo_ambiente"
+      ]
+    },
+    "Olmué": {
+      "region": "Valparaíso",
+      "macrozona": "Centro",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": []
+    },
+    "Villa Alemana": {
+      "region": "Valparaíso",
+      "macrozona": "Centro",
+      "score_historico": 4,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "2_aseo_ambiente"
+      ]
+    },
+    "Santiago": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 3,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos"
+      ],
+      "categorias_reciente": [
+        "1_derechos"
+      ]
+    },
+    "Cerrillos": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 5,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Cerro Navia": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 2,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "3_seguridad_ruidos"
+      ],
+      "categorias_reciente": [
+        "1_derechos"
+      ]
+    },
+    "Conchalí": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 5,
+      "score_reciente": 4,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas"
+      ]
+    },
+    "El Bosque": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Estación Central": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 3,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos"
+      ],
+      "categorias_reciente": [
+        "3_seguridad_ruidos"
+      ]
+    },
+    "Huechuraba": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 2,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": [
+        "1_derechos"
+      ]
+    },
+    "Independencia": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 4,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "La Cisterna": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "La Florida": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 5,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "La Granja": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 5,
+      "score_reciente": 4,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas"
+      ]
+    },
+    "La Pintana": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 4,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas"
+      ],
+      "categorias_reciente": []
+    },
+    "La Reina": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 4,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "1_derechos"
+      ]
+    },
+    "Las Condes": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 5,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "1_derechos"
+      ]
+    },
+    "Lo Barnechea": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Lo Espejo": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 5,
+      "score_reciente": 3,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas"
+      ]
+    },
+    "Lo Prado": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 5,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "1_derechos"
+      ]
+    },
+    "Macul": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos"
+      ],
+      "categorias_reciente": []
+    },
+    "Maipú": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 5,
+      "score_reciente": 5,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas",
+        "5_participacion"
+      ]
+    },
+    "Ñuñoa": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 5,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "2_aseo_ambiente"
+      ]
+    },
+    "Pedro Aguirre Cerda": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": []
+    },
+    "Peñalolén": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 5,
+      "score_reciente": 2,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "1_derechos",
+        "5_participacion"
+      ]
+    },
+    "Providencia": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 4,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "1_derechos"
+      ]
+    },
+    "Pudahuel": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 4,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Quilicura": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 3,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "2_aseo_ambiente"
+      ]
+    },
+    "Quinta Normal": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 4,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas"
+      ],
+      "categorias_reciente": [
+        "3_seguridad_ruidos"
+      ]
+    },
+    "Recoleta": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 3,
+      "score_reciente": 2,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos"
+      ],
+      "categorias_reciente": [
+        "1_derechos",
+        "3_seguridad_ruidos"
+      ]
+    },
+    "Renca": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 4,
+      "score_reciente": 3,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos"
+      ]
+    },
+    "San Joaquín": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 3,
+      "score_reciente": 3,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos"
+      ],
+      "categorias_reciente": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos"
+      ]
+    },
+    "San Miguel": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos"
+      ],
+      "categorias_reciente": []
+    },
+    "San Ramón": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 2,
+      "score_reciente": 2,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ]
+    },
+    "Vitacura": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 4,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "3_seguridad_ruidos"
+      ]
+    },
+    "Puente Alto": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 4,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Pirque": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 5,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "2_aseo_ambiente"
+      ]
+    },
+    "San José de Maipo": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 3,
+      "score_reciente": 2,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ]
+    },
+    "Colina": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 4,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Lampa": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": []
+    },
+    "Tiltil": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 5,
+      "score_reciente": 5,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas",
+        "5_participacion"
+      ]
+    },
+    "San Bernardo": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 5,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "1_derechos"
+      ]
+    },
+    "Buin": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 5,
+      "score_reciente": 3,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos"
+      ]
+    },
+    "Calera de Tango": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 3,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "5_participacion"
+      ]
+    },
+    "Paine": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 4,
+      "score_reciente": 3,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas"
+      ],
+      "categorias_reciente": [
+        "1_derechos",
+        "3_seguridad_ruidos",
+        "4_mascotas"
+      ]
+    },
+    "Melipilla": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 5,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "1_derechos"
+      ]
+    },
+    "Alhué": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": []
+    },
+    "Curacaví": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos"
+      ],
+      "categorias_reciente": []
+    },
+    "María Pinto": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 3,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos"
+      ],
+      "categorias_reciente": [
+        "3_seguridad_ruidos"
+      ]
+    },
+    "San Pedro": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 4,
+      "score_reciente": 2,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas"
+      ],
+      "categorias_reciente": [
+        "1_derechos",
+        "4_mascotas"
+      ]
+    },
+    "Talagante": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 4,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "El Monte": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 2,
+      "score_reciente": 2,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ]
+    },
+    "Isla de Maipo": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 2,
+      "score_reciente": 2,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ]
+    },
+    "Padre Hurtado": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 4,
+      "score_reciente": 2,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas"
+      ],
+      "categorias_reciente": [
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos"
+      ]
+    },
+    "Peñaflor": {
+      "region": "Metropolitana de Santiago",
+      "macrozona": "Centro",
+      "score_historico": 3,
+      "score_reciente": 2,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ]
+    },
+    "Rancagua": {
+      "region": "O Higgins",
+      "macrozona": "Centro",
+      "score_historico": 5,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Codegua": {
+      "region": "O Higgins",
+      "macrozona": "Centro",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": []
+    },
+    "Coinco": {
+      "region": "O Higgins",
+      "macrozona": "Centro",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Coltauco": {
+      "region": "O Higgins",
+      "macrozona": "Centro",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Doñihue": {
+      "region": "O Higgins",
+      "macrozona": "Centro",
+      "score_historico": 3,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "1_derechos"
+      ]
+    },
+    "Graneros": {
+      "region": "O Higgins",
+      "macrozona": "Centro",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Las Cabras": {
+      "region": "O Higgins",
+      "macrozona": "Centro",
+      "score_historico": 2,
+      "score_reciente": 2,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ]
+    },
+    "Machalí": {
+      "region": "O Higgins",
+      "macrozona": "Centro",
+      "score_historico": 4,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Malloa": {
+      "region": "O Higgins",
+      "macrozona": "Centro",
+      "score_historico": 2,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "4_mascotas"
+      ],
+      "categorias_reciente": [
+        "4_mascotas"
+      ]
+    },
+    "Mostazal": {
+      "region": "O Higgins",
+      "macrozona": "Centro",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Olivar": {
+      "region": "O Higgins",
+      "macrozona": "Centro",
+      "score_historico": 2,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "1_derechos"
+      ]
+    },
+    "Peumo": {
+      "region": "O Higgins",
+      "macrozona": "Centro",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Pichidegua": {
+      "region": "O Higgins",
+      "macrozona": "Centro",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Quinta de Tilcoco": {
+      "region": "O Higgins",
+      "macrozona": "Centro",
+      "score_historico": 2,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": [
+        "2_aseo_ambiente"
+      ]
+    },
+    "Rengo": {
+      "region": "O Higgins",
+      "macrozona": "Centro",
+      "score_historico": 4,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "2_aseo_ambiente"
+      ]
+    },
+    "Requínoa": {
+      "region": "O Higgins",
+      "macrozona": "Centro",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": []
+    },
+    "San Vicente": {
+      "region": "O Higgins",
+      "macrozona": "Centro",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos"
+      ],
+      "categorias_reciente": []
+    },
+    "Pichilemu": {
+      "region": "O Higgins",
+      "macrozona": "Centro",
+      "score_historico": 3,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "4_mascotas"
+      ],
+      "categorias_reciente": [
+        "4_mascotas"
+      ]
+    },
+    "La Estrella": {
+      "region": "O Higgins",
+      "macrozona": "Centro",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "4_mascotas"
+      ],
+      "categorias_reciente": []
+    },
+    "Litueche": {
+      "region": "O Higgins",
+      "macrozona": "Centro",
+      "score_historico": 2,
+      "score_reciente": 2,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ]
+    },
+    "Marchihue": {
+      "region": "O Higgins",
+      "macrozona": "Centro",
+      "score_historico": 0,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [],
+      "categorias_reciente": []
+    },
+    "Navidad": {
+      "region": "O Higgins",
+      "macrozona": "Centro",
+      "score_historico": 4,
+      "score_reciente": 4,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "4_mascotas",
+        "5_participacion"
+      ]
+    },
+    "Paredones": {
+      "region": "O Higgins",
+      "macrozona": "Centro",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "San Fernando": {
+      "region": "O Higgins",
+      "macrozona": "Centro",
+      "score_historico": 4,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Chépica": {
+      "region": "O Higgins",
+      "macrozona": "Centro",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": []
+    },
+    "Chimbarongo": {
+      "region": "O Higgins",
+      "macrozona": "Centro",
+      "score_historico": 4,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas"
+      ],
+      "categorias_reciente": []
+    },
+    "Lolol": {
+      "region": "O Higgins",
+      "macrozona": "Centro",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": []
+    },
+    "Nancagua": {
+      "region": "O Higgins",
+      "macrozona": "Centro",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": []
+    },
+    "Palmilla": {
+      "region": "O Higgins",
+      "macrozona": "Centro",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos"
+      ],
+      "categorias_reciente": []
+    },
+    "Peralillo": {
+      "region": "O Higgins",
+      "macrozona": "Centro",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": []
+    },
+    "Placilla": {
+      "region": "O Higgins",
+      "macrozona": "Centro",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Pumanque": {
+      "region": "O Higgins",
+      "macrozona": "Centro",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Santa Cruz": {
+      "region": "O Higgins",
+      "macrozona": "Centro",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": []
+    },
+    "Talca": {
+      "region": "Maule",
+      "macrozona": "Centro",
+      "score_historico": 4,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas"
+      ],
+      "categorias_reciente": []
+    },
+    "Constitución": {
+      "region": "Maule",
+      "macrozona": "Centro",
+      "score_historico": 4,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas"
+      ],
+      "categorias_reciente": []
+    },
+    "Curepto": {
+      "region": "Maule",
+      "macrozona": "Centro",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": []
+    },
+    "Empedrado": {
+      "region": "Maule",
+      "macrozona": "Centro",
+      "score_historico": 4,
+      "score_reciente": 2,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "4_mascotas",
+        "5_participacion"
+      ]
+    },
+    "Maule": {
+      "region": "Maule",
+      "macrozona": "Centro",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": []
+    },
+    "Pelarco": {
+      "region": "Maule",
+      "macrozona": "Centro",
+      "score_historico": 4,
+      "score_reciente": 2,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "4_mascotas",
+        "5_participacion"
+      ]
+    },
+    "Pencahue": {
+      "region": "Maule",
+      "macrozona": "Centro",
+      "score_historico": 0,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [],
+      "categorias_reciente": []
+    },
+    "Río Claro": {
+      "region": "Maule",
+      "macrozona": "Centro",
+      "score_historico": 3,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "4_mascotas"
+      ],
+      "categorias_reciente": [
+        "2_aseo_ambiente"
+      ]
+    },
+    "San Clemente": {
+      "region": "Maule",
+      "macrozona": "Centro",
+      "score_historico": 2,
+      "score_reciente": 2,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ]
+    },
+    "San Rafael": {
+      "region": "Maule",
+      "macrozona": "Centro",
+      "score_historico": 0,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [],
+      "categorias_reciente": []
+    },
+    "Cauquenes": {
+      "region": "Maule",
+      "macrozona": "Centro",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": []
+    },
+    "Chanco": {
+      "region": "Maule",
+      "macrozona": "Centro",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Pelluhue": {
+      "region": "Maule",
+      "macrozona": "Centro",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos"
+      ],
+      "categorias_reciente": []
+    },
+    "Curicó": {
+      "region": "Maule",
+      "macrozona": "Centro",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Hualañé": {
+      "region": "Maule",
+      "macrozona": "Centro",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Licantén": {
+      "region": "Maule",
+      "macrozona": "Centro",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": []
+    },
+    "Molina": {
+      "region": "Maule",
+      "macrozona": "Centro",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "3_seguridad_ruidos"
+      ],
+      "categorias_reciente": []
+    },
+    "Rauco": {
+      "region": "Maule",
+      "macrozona": "Centro",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos"
+      ],
+      "categorias_reciente": []
+    },
+    "Romeral": {
+      "region": "Maule",
+      "macrozona": "Centro",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Sagrada Familia": {
+      "region": "Maule",
+      "macrozona": "Centro",
+      "score_historico": 2,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "1_derechos"
+      ]
+    },
+    "Teno": {
+      "region": "Maule",
+      "macrozona": "Centro",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Vichuquén": {
+      "region": "Maule",
+      "macrozona": "Centro",
+      "score_historico": 2,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": [
+        "2_aseo_ambiente"
+      ]
+    },
+    "Linares": {
+      "region": "Maule",
+      "macrozona": "Centro",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Colbún": {
+      "region": "Maule",
+      "macrozona": "Centro",
+      "score_historico": 3,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "4_mascotas"
+      ],
+      "categorias_reciente": [
+        "4_mascotas"
+      ]
+    },
+    "Longaví": {
+      "region": "Maule",
+      "macrozona": "Centro",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "3_seguridad_ruidos"
+      ],
+      "categorias_reciente": []
+    },
+    "Parral": {
+      "region": "Maule",
+      "macrozona": "Centro",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Retiro": {
+      "region": "Maule",
+      "macrozona": "Centro",
+      "score_historico": 3,
+      "score_reciente": 2,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "4_mascotas"
+      ],
+      "categorias_reciente": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ]
+    },
+    "San Javier": {
+      "region": "Maule",
+      "macrozona": "Centro",
+      "score_historico": 3,
+      "score_reciente": 2,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ]
+    },
+    "Villa Alegre": {
+      "region": "Maule",
+      "macrozona": "Centro",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": []
+    },
+    "Yerbas Buenas": {
+      "region": "Maule",
+      "macrozona": "Centro",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Chillán": {
+      "region": "Ñuble",
+      "macrozona": "Sur",
+      "score_historico": 2,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": [
+        "1_derechos"
+      ]
+    },
+    "Bulnes": {
+      "region": "Ñuble",
+      "macrozona": "Sur",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Cobquecura": {
+      "region": "Ñuble",
+      "macrozona": "Sur",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": []
+    },
+    "Coelemu": {
+      "region": "Ñuble",
+      "macrozona": "Sur",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Coihueco": {
+      "region": "Ñuble",
+      "macrozona": "Sur",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Chillán Viejo": {
+      "region": "Ñuble",
+      "macrozona": "Sur",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "3_seguridad_ruidos"
+      ],
+      "categorias_reciente": []
+    },
+    "El Carmen": {
+      "region": "Ñuble",
+      "macrozona": "Sur",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos"
+      ],
+      "categorias_reciente": []
+    },
+    "Ninhue": {
+      "region": "Ñuble",
+      "macrozona": "Sur",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Ñiquén": {
+      "region": "Ñuble",
+      "macrozona": "Sur",
+      "score_historico": 1,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": [
+        "1_derechos"
+      ]
+    },
+    "Pemuco": {
+      "region": "Ñuble",
+      "macrozona": "Sur",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Pinto": {
+      "region": "Ñuble",
+      "macrozona": "Sur",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Portezuelo": {
+      "region": "Ñuble",
+      "macrozona": "Sur",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Quillón": {
+      "region": "Ñuble",
+      "macrozona": "Sur",
+      "score_historico": 4,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "4_mascotas"
+      ]
+    },
+    "Quirihue": {
+      "region": "Ñuble",
+      "macrozona": "Sur",
+      "score_historico": 3,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "5_participacion"
+      ]
+    },
+    "Ránquil": {
+      "region": "Ñuble",
+      "macrozona": "Sur",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "San Carlos": {
+      "region": "Ñuble",
+      "macrozona": "Sur",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos"
+      ],
+      "categorias_reciente": []
+    },
+    "San Fabián": {
+      "region": "Ñuble",
+      "macrozona": "Sur",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "San Ignacio": {
+      "region": "Ñuble",
+      "macrozona": "Sur",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "4_mascotas"
+      ],
+      "categorias_reciente": []
+    },
+    "San Nicolás": {
+      "region": "Ñuble",
+      "macrozona": "Sur",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Treguaco": {
+      "region": "Ñuble",
+      "macrozona": "Sur",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": []
+    },
+    "Yungay": {
+      "region": "Ñuble",
+      "macrozona": "Sur",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Concepción": {
+      "region": "Biobío",
+      "macrozona": "Sur",
+      "score_historico": 4,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "1_derechos"
+      ]
+    },
+    "Coronel": {
+      "region": "Biobío",
+      "macrozona": "Sur",
+      "score_historico": 3,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "2_aseo_ambiente"
+      ]
+    },
+    "Chiguayante": {
+      "region": "Biobío",
+      "macrozona": "Sur",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "3_seguridad_ruidos"
+      ],
+      "categorias_reciente": []
+    },
+    "Florida": {
+      "region": "Biobío",
+      "macrozona": "Sur",
+      "score_historico": 5,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Hualqui": {
+      "region": "Biobío",
+      "macrozona": "Sur",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "4_mascotas"
+      ],
+      "categorias_reciente": []
+    },
+    "Lota": {
+      "region": "Biobío",
+      "macrozona": "Sur",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "4_mascotas"
+      ],
+      "categorias_reciente": []
+    },
+    "Penco": {
+      "region": "Biobío",
+      "macrozona": "Sur",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "4_mascotas"
+      ],
+      "categorias_reciente": []
+    },
+    "San Pedro de la Paz": {
+      "region": "Biobío",
+      "macrozona": "Sur",
+      "score_historico": 3,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas"
+      ],
+      "categorias_reciente": [
+        "2_aseo_ambiente"
+      ]
+    },
+    "Santa Juana": {
+      "region": "Biobío",
+      "macrozona": "Sur",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos"
+      ],
+      "categorias_reciente": []
+    },
+    "Talcahuano": {
+      "region": "Biobío",
+      "macrozona": "Sur",
+      "score_historico": 4,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas"
+      ],
+      "categorias_reciente": [
+        "1_derechos"
+      ]
+    },
+    "Tomé": {
+      "region": "Biobío",
+      "macrozona": "Sur",
+      "score_historico": 4,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Hualpén": {
+      "region": "Biobío",
+      "macrozona": "Sur",
+      "score_historico": 5,
+      "score_reciente": 4,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "5_participacion"
+      ]
+    },
+    "Lebu": {
+      "region": "Biobío",
+      "macrozona": "Sur",
+      "score_historico": 1,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": [
+        "1_derechos"
+      ]
+    },
+    "Arauco": {
+      "region": "Biobío",
+      "macrozona": "Sur",
+      "score_historico": 5,
+      "score_reciente": 2,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "1_derechos",
+        "3_seguridad_ruidos"
+      ]
+    },
+    "Cañete": {
+      "region": "Biobío",
+      "macrozona": "Sur",
+      "score_historico": 2,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "4_mascotas"
+      ],
+      "categorias_reciente": [
+        "4_mascotas"
+      ]
+    },
+    "Contulmo": {
+      "region": "Biobío",
+      "macrozona": "Sur",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": []
+    },
+    "Curanilahue": {
+      "region": "Biobío",
+      "macrozona": "Sur",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Los Álamos": {
+      "region": "Biobío",
+      "macrozona": "Sur",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "3_seguridad_ruidos",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Tirúa": {
+      "region": "Biobío",
+      "macrozona": "Sur",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Los Ángeles": {
+      "region": "Biobío",
+      "macrozona": "Sur",
+      "score_historico": 4,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas"
+      ],
+      "categorias_reciente": []
+    },
+    "Antuco": {
+      "region": "Biobío",
+      "macrozona": "Sur",
+      "score_historico": 2,
+      "score_reciente": 2,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "4_mascotas"
+      ],
+      "categorias_reciente": [
+        "1_derechos",
+        "4_mascotas"
+      ]
+    },
+    "Cabrero": {
+      "region": "Biobío",
+      "macrozona": "Sur",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "3_seguridad_ruidos",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Laja": {
+      "region": "Biobío",
+      "macrozona": "Sur",
+      "score_historico": 2,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "4_mascotas"
+      ],
+      "categorias_reciente": [
+        "4_mascotas"
+      ]
+    },
+    "Mulchén": {
+      "region": "Biobío",
+      "macrozona": "Sur",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Nacimiento": {
+      "region": "Biobío",
+      "macrozona": "Sur",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": []
+    },
+    "Negrete": {
+      "region": "Biobío",
+      "macrozona": "Sur",
+      "score_historico": 2,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": [
+        "1_derechos"
+      ]
+    },
+    "Quilaco": {
+      "region": "Biobío",
+      "macrozona": "Sur",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Quilleco": {
+      "region": "Biobío",
+      "macrozona": "Sur",
+      "score_historico": 1,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": [
+        "1_derechos"
+      ]
+    },
+    "San Rosendo": {
+      "region": "Biobío",
+      "macrozona": "Sur",
+      "score_historico": 2,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": [
+        "2_aseo_ambiente"
+      ]
+    },
+    "Santa Bárbara": {
+      "region": "Biobío",
+      "macrozona": "Sur",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Tucapel": {
+      "region": "Biobío",
+      "macrozona": "Sur",
+      "score_historico": 4,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Yumbel": {
+      "region": "Biobío",
+      "macrozona": "Sur",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Alto Biobío": {
+      "region": "Biobío",
+      "macrozona": "Sur",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": []
+    },
+    "Temuco": {
+      "region": "La Araucanía",
+      "macrozona": "Sur",
+      "score_historico": 5,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Carahue": {
+      "region": "La Araucanía",
+      "macrozona": "Sur",
+      "score_historico": 3,
+      "score_reciente": 2,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "3_seguridad_ruidos",
+        "4_mascotas"
+      ],
+      "categorias_reciente": [
+        "3_seguridad_ruidos",
+        "4_mascotas"
+      ]
+    },
+    "Cunco": {
+      "region": "La Araucanía",
+      "macrozona": "Sur",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": []
+    },
+    "Curarrehue": {
+      "region": "La Araucanía",
+      "macrozona": "Sur",
+      "score_historico": 3,
+      "score_reciente": 2,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "4_mascotas"
+      ],
+      "categorias_reciente": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ]
+    },
+    "Freire": {
+      "region": "La Araucanía",
+      "macrozona": "Sur",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": []
+    },
+    "Galvarino": {
+      "region": "La Araucanía",
+      "macrozona": "Sur",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Gorbea": {
+      "region": "La Araucanía",
+      "macrozona": "Sur",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Lautaro": {
+      "region": "La Araucanía",
+      "macrozona": "Sur",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": []
+    },
+    "Loncoche": {
+      "region": "La Araucanía",
+      "macrozona": "Sur",
+      "score_historico": 2,
+      "score_reciente": 2,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ]
+    },
+    "Melipeuco": {
+      "region": "La Araucanía",
+      "macrozona": "Sur",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Nueva Imperial": {
+      "region": "La Araucanía",
+      "macrozona": "Sur",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Padre Las Casas": {
+      "region": "La Araucanía",
+      "macrozona": "Sur",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": []
+    },
+    "Perquenco": {
+      "region": "La Araucanía",
+      "macrozona": "Sur",
+      "score_historico": 3,
+      "score_reciente": 2,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "4_mascotas"
+      ],
+      "categorias_reciente": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ]
+    },
+    "Pitrufquén": {
+      "region": "La Araucanía",
+      "macrozona": "Sur",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "4_mascotas"
+      ],
+      "categorias_reciente": []
+    },
+    "Pucón": {
+      "region": "La Araucanía",
+      "macrozona": "Sur",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": []
+    },
+    "Saavedra": {
+      "region": "La Araucanía",
+      "macrozona": "Sur",
+      "score_historico": 3,
+      "score_reciente": 2,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "4_mascotas"
+      ],
+      "categorias_reciente": [
+        "2_aseo_ambiente",
+        "4_mascotas"
+      ]
+    },
+    "Teodoro Schmidt": {
+      "region": "La Araucanía",
+      "macrozona": "Sur",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Toltén": {
+      "region": "La Araucanía",
+      "macrozona": "Sur",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Vilcún": {
+      "region": "La Araucanía",
+      "macrozona": "Sur",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Villarrica": {
+      "region": "La Araucanía",
+      "macrozona": "Sur",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Cholchol": {
+      "region": "La Araucanía",
+      "macrozona": "Sur",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": []
+    },
+    "Angol": {
+      "region": "La Araucanía",
+      "macrozona": "Sur",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Collipulli": {
+      "region": "La Araucanía",
+      "macrozona": "Sur",
+      "score_historico": 2,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "4_mascotas"
+      ],
+      "categorias_reciente": [
+        "4_mascotas"
+      ]
+    },
+    "Curacautín": {
+      "region": "La Araucanía",
+      "macrozona": "Sur",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Ercilla": {
+      "region": "La Araucanía",
+      "macrozona": "Sur",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Lonquimay": {
+      "region": "La Araucanía",
+      "macrozona": "Sur",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "3_seguridad_ruidos"
+      ],
+      "categorias_reciente": []
+    },
+    "Los Sauces": {
+      "region": "La Araucanía",
+      "macrozona": "Sur",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Lumaco": {
+      "region": "La Araucanía",
+      "macrozona": "Sur",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Purén": {
+      "region": "La Araucanía",
+      "macrozona": "Sur",
+      "score_historico": 2,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "5_participacion"
+      ]
+    },
+    "Renaico": {
+      "region": "La Araucanía",
+      "macrozona": "Sur",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": []
+    },
+    "Traiguén": {
+      "region": "La Araucanía",
+      "macrozona": "Sur",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "4_mascotas"
+      ],
+      "categorias_reciente": []
+    },
+    "Victoria": {
+      "region": "La Araucanía",
+      "macrozona": "Sur",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Valdivia": {
+      "region": "Los Ríos",
+      "macrozona": "Sur",
+      "score_historico": 3,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "4_mascotas"
+      ],
+      "categorias_reciente": [
+        "2_aseo_ambiente"
+      ]
+    },
+    "Corral": {
+      "region": "Los Ríos",
+      "macrozona": "Sur",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": []
+    },
+    "Lanco": {
+      "region": "Los Ríos",
+      "macrozona": "Sur",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": []
+    },
+    "Los Lagos": {
+      "region": "Los Ríos",
+      "macrozona": "Sur",
+      "score_historico": 4,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "2_aseo_ambiente"
+      ]
+    },
+    "Máfil": {
+      "region": "Los Ríos",
+      "macrozona": "Sur",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": []
+    },
+    "Mariquina": {
+      "region": "Los Ríos",
+      "macrozona": "Sur",
+      "score_historico": 2,
+      "score_reciente": 2,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ]
+    },
+    "Paillaco": {
+      "region": "Los Ríos",
+      "macrozona": "Sur",
+      "score_historico": 4,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas"
+      ],
+      "categorias_reciente": [
+        "1_derechos"
+      ]
+    },
+    "Panguipulli": {
+      "region": "Los Ríos",
+      "macrozona": "Sur",
+      "score_historico": 2,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": [
+        "1_derechos"
+      ]
+    },
+    "La Unión": {
+      "region": "Los Ríos",
+      "macrozona": "Sur",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": []
+    },
+    "Futrono": {
+      "region": "Los Ríos",
+      "macrozona": "Sur",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Lago Ranco": {
+      "region": "Los Ríos",
+      "macrozona": "Sur",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": []
+    },
+    "Río Bueno": {
+      "region": "Los Ríos",
+      "macrozona": "Sur",
+      "score_historico": 2,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "4_mascotas"
+      ],
+      "categorias_reciente": [
+        "4_mascotas"
+      ]
+    },
+    "Puerto Montt": {
+      "region": "Los Lagos",
+      "macrozona": "Sur",
+      "score_historico": 4,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "4_mascotas"
+      ]
+    },
+    "Calbuco": {
+      "region": "Los Lagos",
+      "macrozona": "Sur",
+      "score_historico": 4,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Cochamó": {
+      "region": "Los Lagos",
+      "macrozona": "Sur",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "4_mascotas"
+      ],
+      "categorias_reciente": []
+    },
+    "Fresia": {
+      "region": "Los Lagos",
+      "macrozona": "Sur",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "3_seguridad_ruidos"
+      ],
+      "categorias_reciente": []
+    },
+    "Frutillar": {
+      "region": "Los Lagos",
+      "macrozona": "Sur",
+      "score_historico": 3,
+      "score_reciente": 2,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "4_mascotas"
+      ],
+      "categorias_reciente": [
+        "2_aseo_ambiente",
+        "4_mascotas"
+      ]
+    },
+    "Los Muermos": {
+      "region": "Los Lagos",
+      "macrozona": "Sur",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Llanquihue": {
+      "region": "Los Lagos",
+      "macrozona": "Sur",
+      "score_historico": 3,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "4_mascotas"
+      ],
+      "categorias_reciente": [
+        "1_derechos"
+      ]
+    },
+    "Maullín": {
+      "region": "Los Lagos",
+      "macrozona": "Sur",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Puerto Varas": {
+      "region": "Los Lagos",
+      "macrozona": "Sur",
+      "score_historico": 4,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "2_aseo_ambiente"
+      ]
+    },
+    "Castro": {
+      "region": "Los Lagos",
+      "macrozona": "Sur",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": []
+    },
+    "Ancud": {
+      "region": "Los Lagos",
+      "macrozona": "Sur",
+      "score_historico": 2,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "4_mascotas"
+      ],
+      "categorias_reciente": [
+        "4_mascotas"
+      ]
+    },
+    "Chonchi": {
+      "region": "Los Lagos",
+      "macrozona": "Sur",
+      "score_historico": 3,
+      "score_reciente": 3,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "4_mascotas"
+      ],
+      "categorias_reciente": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "4_mascotas"
+      ]
+    },
+    "Curaco de Vélez": {
+      "region": "Los Lagos",
+      "macrozona": "Sur",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Dalcahue": {
+      "region": "Los Lagos",
+      "macrozona": "Sur",
+      "score_historico": 3,
+      "score_reciente": 2,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ]
+    },
+    "Puqueldón": {
+      "region": "Los Lagos",
+      "macrozona": "Sur",
+      "score_historico": 2,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": [
+        "2_aseo_ambiente"
+      ]
+    },
+    "Queilén": {
+      "region": "Los Lagos",
+      "macrozona": "Sur",
+      "score_historico": 4,
+      "score_reciente": 4,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "4_mascotas",
+        "5_participacion"
+      ]
+    },
+    "Quellón": {
+      "region": "Los Lagos",
+      "macrozona": "Sur",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "4_mascotas"
+      ],
+      "categorias_reciente": []
+    },
+    "Quemchi": {
+      "region": "Los Lagos",
+      "macrozona": "Sur",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Quinchao": {
+      "region": "Los Lagos",
+      "macrozona": "Sur",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": []
+    },
+    "Osorno": {
+      "region": "Los Lagos",
+      "macrozona": "Sur",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "4_mascotas"
+      ],
+      "categorias_reciente": []
+    },
+    "Puerto Octay": {
+      "region": "Los Lagos",
+      "macrozona": "Sur",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": []
+    },
+    "Purranque": {
+      "region": "Los Lagos",
+      "macrozona": "Sur",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": []
+    },
+    "Puyehue": {
+      "region": "Los Lagos",
+      "macrozona": "Sur",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Río Negro": {
+      "region": "Los Lagos",
+      "macrozona": "Sur",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": []
+    },
+    "San Juan de la Costa": {
+      "region": "Los Lagos",
+      "macrozona": "Sur",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "4_mascotas"
+      ],
+      "categorias_reciente": []
+    },
+    "San Pablo": {
+      "region": "Los Lagos",
+      "macrozona": "Sur",
+      "score_historico": 2,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "3_seguridad_ruidos"
+      ],
+      "categorias_reciente": [
+        "3_seguridad_ruidos"
+      ]
+    },
+    "Chaitén": {
+      "region": "Los Lagos",
+      "macrozona": "Sur",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": []
+    },
+    "Futaleufú": {
+      "region": "Los Lagos",
+      "macrozona": "Sur",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": []
+    },
+    "Hualaihué": {
+      "region": "Los Lagos",
+      "macrozona": "Sur",
+      "score_historico": 4,
+      "score_reciente": 2,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "2_aseo_ambiente",
+        "5_participacion"
+      ]
+    },
+    "Palena": {
+      "region": "Los Lagos",
+      "macrozona": "Sur",
+      "score_historico": 3,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "4_mascotas"
+      ],
+      "categorias_reciente": [
+        "4_mascotas"
+      ]
+    },
+    "Coyhaique": {
+      "region": "Aysén",
+      "macrozona": "Austral",
+      "score_historico": 2,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": [
+        "2_aseo_ambiente"
+      ]
+    },
+    "Lago Verde": {
+      "region": "Aysén",
+      "macrozona": "Austral",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Aysén": {
+      "region": "Aysén",
+      "macrozona": "Austral",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente"
+      ],
+      "categorias_reciente": []
+    },
+    "Cisnes": {
+      "region": "Aysén",
+      "macrozona": "Austral",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Guaitecas": {
+      "region": "Aysén",
+      "macrozona": "Austral",
+      "score_historico": 1,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": [
+        "1_derechos"
+      ]
+    },
+    "Cochrane": {
+      "region": "Aysén",
+      "macrozona": "Austral",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "O Higgins": {
+      "region": "Aysén",
+      "macrozona": "Austral",
+      "score_historico": 3,
+      "score_reciente": 2,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos"
+      ],
+      "categorias_reciente": [
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos"
+      ]
+    },
+    "Tortel": {
+      "region": "Aysén",
+      "macrozona": "Austral",
+      "score_historico": 3,
+      "score_reciente": 2,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "4_mascotas"
+      ],
+      "categorias_reciente": [
+        "2_aseo_ambiente",
+        "4_mascotas"
+      ]
+    },
+    "Chile Chico": {
+      "region": "Aysén",
+      "macrozona": "Austral",
+      "score_historico": 4,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas"
+      ],
+      "categorias_reciente": []
+    },
+    "Río Ibáñez": {
+      "region": "Aysén",
+      "macrozona": "Austral",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Punta Arenas": {
+      "region": "Magallanes",
+      "macrozona": "Austral",
+      "score_historico": 5,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "3_seguridad_ruidos",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Laguna Blanca": {
+      "region": "Magallanes",
+      "macrozona": "Austral",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Río Verde": {
+      "region": "Magallanes",
+      "macrozona": "Austral",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "San Gregorio": {
+      "region": "Magallanes",
+      "macrozona": "Austral",
+      "score_historico": 3,
+      "score_reciente": 3,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "4_mascotas",
+        "5_participacion"
+      ],
+      "categorias_reciente": [
+        "1_derechos",
+        "4_mascotas",
+        "5_participacion"
+      ]
+    },
+    "Cabo de Hornos": {
+      "region": "Magallanes",
+      "macrozona": "Austral",
+      "score_historico": 3,
+      "score_reciente": 1,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "4_mascotas"
+      ],
+      "categorias_reciente": [
+        "1_derechos"
+      ]
+    },
+    "Antártica": {
+      "region": "Magallanes",
+      "macrozona": "Austral",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Porvenir": {
+      "region": "Magallanes",
+      "macrozona": "Austral",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": true,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Primavera": {
+      "region": "Magallanes",
+      "macrozona": "Austral",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    },
+    "Timaukel": {
+      "region": "Magallanes",
+      "macrozona": "Austral",
+      "score_historico": 1,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos"
+      ],
+      "categorias_reciente": []
+    },
+    "Natales": {
+      "region": "Magallanes",
+      "macrozona": "Austral",
+      "score_historico": 3,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "2_aseo_ambiente",
+        "4_mascotas"
+      ],
+      "categorias_reciente": []
+    },
+    "Torres del Paine": {
+      "region": "Magallanes",
+      "macrozona": "Austral",
+      "score_historico": 2,
+      "score_reciente": 0,
+      "is_in_active_cohort": false,
+      "categorias_historico": [
+        "1_derechos",
+        "5_participacion"
+      ],
+      "categorias_reciente": []
+    }
+  }
+}
