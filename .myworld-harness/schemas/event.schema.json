@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MyWorld continuity event",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "event_id",
+    "session_id",
+    "project",
+    "work_item",
+    "type",
+    "timestamp",
+    "files",
+    "evidence",
+    "next_action"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "event_id": {
+      "type": "string",
+      "pattern": "^EVD-[A-Za-z0-9-]+$"
+    },
+    "session_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "project": {
+      "type": "string",
+      "minLength": 1
+    },
+    "work_item": {
+      "type": "string",
+      "minLength": 1
+    },
+    "type": {
+      "enum": [
+        "session_started",
+        "work_claimed",
+        "checkpoint",
+        "files_changed",
+        "verification_run",
+        "handoff_created",
+        "session_paused",
+        "session_completed",
+        "recovery_required",
+        "task_created",
+        "task_claimed",
+        "lease_heartbeat",
+        "lease_released",
+        "lease_recovered",
+        "artifact_created",
+        "approval_required",
+        "approval_resolved",
+        "telemetry_recorded",
+        "task_status_changed"
+      ]
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "files": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "next_action": {
+      "type": "string",
+      "minLength": 1
+    },
+    "trace_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "agent": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": true
+    }
+  }
+}

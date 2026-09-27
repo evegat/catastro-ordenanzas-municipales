@@ -14,7 +14,7 @@ import sys
 import tempfile
 import urllib.error
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
@@ -41,6 +41,25 @@ REQUIRED_PROFILE = {
     "commands", "critical_paths", "forbidden_paths", "multi_agent", "observability",
     "release", "evidence",
 }
+CONTINUITY_STATUSES = {"active", "paused", "completed", "cancelled", "blocked", "recovery_needed", "abandoned"}
+CONTINUITY_STATUS_ALIASES = {"complete": "completed"}
+CONTINUITY_EVENT_TYPES = {
+    "session_started", "work_claimed", "checkpoint", "files_changed",
+    "verification_run", "handoff_created", "session_paused",
+    "session_completed", "recovery_required",
+    # Coordination Plane v0.3 hardening events. These extend the shared journal
+    # rather than creating a second observability/event subsystem.
+    "task_created", "task_claimed", "task_status_changed",
+    "artifact_created", "approval_required", "approval_resolved",
+    "telemetry_recorded", "lease_heartbeat", "lease_released",
+}
+CORE_MYWORLD_SKILLS = {
+    "myworld-close-loop",
+    "myworld-operational-check",
+    "checkpoint",
+    "unified-memory",
+    "client-review-gate",
+}
 
 
 def now_iso() -> str:
@@ -52,7 +71,7 @@ def sha256_bytes(data: bytes) -> str:
 
 
 def json_load(path: Path) -> Any:
-    return json.loads(path.read_text(encoding="utf-8"))
+    return json.loads(path.read_text(encoding="utf-8-sig"))
 
 
 def json_text(value: Any) -> str:
@@ -201,7 +220,7 @@ def validate_artifact(path: Path, kind: str) -> dict[str, Any]:
         import jsonschema  # type: ignore
 
         validator = jsonschema.Draft202012Validator(json_load(schema), format_checker=jsonschema.FormatChecker())
-        if kind == "pending" and path.suffix.lower() == ".ndjson":
+        if kind in {"pending", "event"} and path.suffix.lower() == ".ndjson":
             records = [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines() if line.strip()]
             for record in records:
                 validator.validate(record)
@@ -432,6 +451,15 @@ def postflight(repo: Path) -> dict[str, Any]:
     return report("postflight", repo, checks)
 
 
+def design_gate(repo: Path) -> dict[str, Any]:
+    checks = validate_profile(repo)
+    from myworld_design_engine import MyWorldDesignEngine
+    engine = MyWorldDesignEngine(repo)
+    result_data = engine.run_full_design_gate()
+    checks.extend(result_data["checks"])
+    return report("design", repo, checks)
+
+
 def observe(repo: Path) -> dict[str, Any]:
     checks = validate_profile(repo)
     profile = load_profile(repo)
@@ -595,6 +623,265 @@ def pending_report() -> dict[str, Any]:
     return report("pending", None, checks)
 
 
+def parse_simple_frontmatter(path: Path) -> dict[str, Any]:
+    """Extrae pares clave-valor simples de frontmatter YAML o archivos YAML/JSON.
+
+    Implementación mínima sin dependencias externas; no soporta listas o tipos
+    complejos, pero devuelve cadenas escalares limpias.
+    """
+    text = path.read_text(encoding="utf-8-sig", errors="replace")
+    lines = text.splitlines()
+    if path.suffix.lower() == ".md":
+        if not lines or lines[0].strip() != "---":
+            return {}
+        try:
+            end = lines.index("---", 1)
+        except ValueError:
+            return {}
+        lines = lines[1:end]
+    data: dict[str, Any] = {}
+    for line in lines:
+        if not line or line[0].isspace() or ":" not in line or line.lstrip().startswith("#"):
+            continue
+        key, raw = line.split(":", 1)
+        key = key.strip()
+        value = raw.strip()
+        if not key:
+            continue
+        if len(value) >= 2 and value[0] == value[-1] and value[0] in {"'", '"'}:
+            value = value[1:-1]
+        if value.casefold() in {"true", "false"}:
+            data[key] = value.casefold() == "true"
+        elif value.casefold() in {"null", "none", "~"}:
+            data[key] = None
+        else:
+            data[key] = value
+    return data
+
+
+def parse_iso_datetime(value: Any) -> datetime | None:
+    if not isinstance(value, str) or not value.strip():
+        return None
+    try:
+        parsed = datetime.fromisoformat(value.strip().replace("Z", "+00:00"))
+        if parsed.tzinfo is None:
+            parsed = parsed.replace(tzinfo=timezone.utc)
+        return parsed
+    except ValueError:
+        return None
+
+
+def continuity_vault(explicit: str | None = None) -> Path:
+    if explicit:
+        return Path(explicit).resolve()
+    home = harness_home()
+    if not home:
+        raise FileNotFoundError("Continuidad requiere el Harness canónico o --vault")
+    return home.parents[1]
+
+
+def continuity_audit(vault: Path, stale_after_minutes: int = 60) -> dict[str, Any]:
+    sessions_dir = vault / ".myworld-sessions"
+    locks_dir = vault / ".myworld-locks"
+    if not sessions_dir.exists() or not locks_dir.exists():
+        return report("continuity audit", None, [], "Faltan .myworld-sessions o .myworld-locks")
+
+    session_files = sorted(path for path in sessions_dir.iterdir() if path.is_file() and path.suffix.lower() in {".md", ".yaml", ".yml", ".json"})
+    lock_files = sorted(path for path in locks_dir.iterdir() if path.is_file() and path.suffix.lower() in {".yaml", ".yml", ".json"})
+    sessions: dict[str, tuple[Path, dict[str, Any]]] = {}
+    missing_status: list[str] = []
+    invalid_status: list[str] = []
+    alias_status: list[str] = []
+    duplicate_ids: list[str] = []
+    stale_sessions: list[str] = []
+    now = datetime.now(timezone.utc).astimezone()
+    stale_before = now - timedelta(minutes=max(1, stale_after_minutes))
+
+    for path in session_files:
+        try:
+            data = json_load(path) if path.suffix.lower() == ".json" else parse_simple_frontmatter(path)
+        except (OSError, ValueError, json.JSONDecodeError):
+            data = {}
+        session_id = str(data.get("session") or data.get("session_id") or path.stem)
+        if session_id in sessions:
+            duplicate_ids.append(session_id)
+        sessions[session_id] = (path, data)
+        raw_status = str(data.get("status") or "").casefold()
+        if not raw_status:
+            missing_status.append(path.name)
+        elif raw_status in CONTINUITY_STATUS_ALIASES:
+            alias_status.append(path.name)
+        elif raw_status not in CONTINUITY_STATUSES:
+            invalid_status.append(path.name)
+        normalized = CONTINUITY_STATUS_ALIASES.get(raw_status, raw_status)
+        if normalized == "active":
+            last_seen = parse_iso_datetime(data.get("heartbeat_at") or data.get("updated_at") or data.get("started_at"))
+            if last_seen and last_seen < stale_before:
+                stale_sessions.append(session_id)
+
+    missing_records: list[str] = []
+    malformed_locks: list[str] = []
+    active_without_lease: list[str] = []
+    expired_leases: list[str] = []
+    for path in lock_files:
+        try:
+            data = json_load(path) if path.suffix.lower() == ".json" else parse_simple_frontmatter(path)
+        except (OSError, ValueError, json.JSONDecodeError):
+            data = {}
+        if not all(data.get(key) for key in ("owner", "host", "session", "scope", "target", "status")):
+            malformed_locks.append(path.name)
+            continue
+        status = str(data.get("status")).casefold()
+        if status != "active":
+            continue
+        record = data.get("record")
+        session_id = str(data.get("session"))
+        if record:
+            record_path = vault / str(record)
+            if not record_path.exists():
+                missing_records.append(path.name)
+        elif session_id not in sessions:
+            missing_records.append(path.name)
+        lease_expires = parse_iso_datetime(data.get("lease_expires_at"))
+        if lease_expires is None:
+            active_without_lease.append(path.name)
+        elif lease_expires < now:
+            expired_leases.append(path.name)
+
+    checks = [
+        result("continuity.sessions.discovered", "pass", f"{len(session_files)} registro(s)"),
+        result("continuity.sessions.missing_status", "fail" if missing_status else "pass", f"{len(missing_status)} sin status"),
+        result("continuity.sessions.legacy_status", "pending" if alias_status else "pass", f"{len(alias_status)} usan alias complete"),
+        result("continuity.sessions.invalid_status", "fail" if invalid_status else "pass", f"{len(invalid_status)} estado(s) inválido(s)"),
+        result("continuity.sessions.duplicate_id", "fail" if duplicate_ids else "pass", f"{len(duplicate_ids)} ID duplicado(s)"),
+        result("continuity.sessions.stale", "pending" if stale_sessions else "pass", f"{len(stale_sessions)} activa(s) sin pulso reciente", session_ids=stale_sessions[:20]),
+        result("continuity.locks.discovered", "pass", f"{len(lock_files)} lock(s)"),
+        result("continuity.locks.malformed", "fail" if malformed_locks else "pass", f"{len(malformed_locks)} malformado(s)"),
+        result("continuity.locks.missing_record", "fail" if missing_records else "pass", f"{len(missing_records)} sin sesión asociada"),
+        result("continuity.locks.no_lease", "pending" if active_without_lease else "pass", f"{len(active_without_lease)} activo(s) sin lease", files=active_without_lease[:20]),
+        result("continuity.locks.expired", "pending" if expired_leases else "pass", f"{len(expired_leases)} lease(s) vencida(s)", files=expired_leases[:20]),
+    ]
+    payload = report("continuity audit", None, checks)
+    payload["inventory"] = {
+        "sessions": len(session_files),
+        "locks": len(lock_files),
+        "missing_status": missing_status,
+        "legacy_status": alias_status,
+        "invalid_status": invalid_status,
+        "stale_sessions": stale_sessions,
+        "malformed_locks": malformed_locks,
+        "missing_records": missing_records,
+        "active_without_lease": active_without_lease,
+        "expired_leases": expired_leases,
+    }
+    return payload
+
+
+def continuity_event_path(vault: Path, timestamp: datetime) -> Path:
+    return vault / "3 - SistemaMyworld" / "harness" / "state" / "continuity" / "events" / f"{timestamp.date().isoformat()}.ndjson"
+
+
+def append_continuity_event(vault: Path, event: dict[str, Any]) -> tuple[Path, bool]:
+    timestamp = parse_iso_datetime(event.get("timestamp")) or datetime.now(timezone.utc).astimezone()
+    path = continuity_event_path(vault, timestamp)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    event_id = str(event["event_id"])
+    if path.exists():
+        for line in path.read_text(encoding="utf-8").splitlines():
+            if not line.strip():
+                continue
+            try:
+                if json.loads(line).get("event_id") == event_id:
+                    return path, False
+            except json.JSONDecodeError:
+                continue
+    with path.open("a", encoding="utf-8", newline="\n") as handle:
+        handle.write(json.dumps(event, ensure_ascii=False, separators=(",", ":")) + "\n")
+        handle.flush()
+        os.fsync(handle.fileno())
+    return path, True
+
+
+def continuity_checkpoint(
+    vault: Path,
+    session_id: str,
+    project: str,
+    work_item: str,
+    event_type: str,
+    next_action: str,
+    files: list[str],
+    evidence: list[str],
+    event_id: str | None = None,
+) -> dict[str, Any]:
+    if event_type not in CONTINUITY_EVENT_TYPES:
+        return report("continuity checkpoint", None, [], f"Tipo de evento inválido: {event_type}")
+    timestamp = now_iso()
+    if not event_id:
+        seed = f"{session_id}|{project}|{work_item}|{event_type}|{timestamp}".encode("utf-8")
+        event_id = f"EVD-{project}-{hashlib.sha256(seed).hexdigest()[:12]}"
+    event = {
+        "schema_version": VERSION,
+        "event_id": event_id,
+        "session_id": session_id,
+        "project": project,
+        "work_item": work_item,
+        "type": event_type,
+        "timestamp": timestamp,
+        "files": files,
+        "evidence": evidence,
+        "next_action": next_action,
+    }
+    path, appended = append_continuity_event(vault, event)
+    check = result("continuity.checkpoint", "pass", f"{'registrado' if appended else 'ya existía'}: {event_id}", path=str(path), appended=appended)
+    payload = report("continuity checkpoint", None, [check])
+    payload["event"] = event
+    return payload
+
+
+def continuity_recover(vault: Path, session_id: str) -> dict[str, Any]:
+    sessions_dir = vault / ".myworld-sessions"
+    matching_sessions: list[Path] = []
+    for path in sessions_dir.iterdir() if sessions_dir.exists() else []:
+        if not path.is_file():
+            continue
+        data = parse_simple_frontmatter(path) if path.suffix.lower() != ".json" else json_load(path)
+        if str(data.get("session") or data.get("session_id") or path.stem) == session_id:
+            matching_sessions.append(path)
+    events: list[dict[str, Any]] = []
+    events_dir = vault / "3 - SistemaMyworld" / "harness" / "state" / "continuity" / "events"
+    if events_dir.exists():
+        for path in sorted(events_dir.glob("*.ndjson")):
+            for line in path.read_text(encoding="utf-8").splitlines():
+                if not line.strip():
+                    continue
+                try:
+                    event = json.loads(line)
+                except json.JSONDecodeError:
+                    continue
+                if event.get("session_id") == session_id:
+                    events.append(event)
+    events.sort(key=lambda item: str(item.get("timestamp", "")))
+    latest = events[-1] if events else None
+    files = list(dict.fromkeys(item for event in events for item in event.get("files", [])))
+    missing_files = [item for item in files if not (vault / item).exists()]
+    checks = [
+        result("continuity.recover.session", "pass" if matching_sessions else "fail", f"{len(matching_sessions)} registro(s)"),
+        result("continuity.recover.events", "pass" if events else "pending", f"{len(events)} evento(s)"),
+        result("continuity.recover.files", "pending" if missing_files else "pass", f"{len(missing_files)} archivo(s) ausente(s)"),
+    ]
+    payload = report("continuity recover", None, checks)
+    payload["recovery"] = {
+        "session_id": session_id,
+        "session_records": [str(path.relative_to(vault)) for path in matching_sessions],
+        "latest_event": latest,
+        "files": files,
+        "missing_files": missing_files,
+        "next_action": latest.get("next_action") if latest else None,
+        "dry_run": True,
+    }
+    return payload
+
+
 def audit(full: bool) -> dict[str, Any]:
     home = harness_home()
     if not home:
@@ -614,7 +901,128 @@ def audit(full: bool) -> dict[str, Any]:
         failed = any(item["exit_code"] != 0 for item in reports)
         pending = sum(item["summary"]["pending"] for item in reports)
         checks.append(result(f"audit.{entry['profile']['product_id']}", "fail" if failed else ("pending" if pending else "pass"), f"{len(reports)} gate(s); pendientes={pending}"))
-    return report("audit", None, checks)
+    return report("audit", home, checks)
+
+def skill_vault(explicit: str | None = None) -> Path:
+    return continuity_vault(explicit)
+
+
+def skill_catalog(vault: Path, category: str | None = None) -> dict[str, Any]:
+    catalog_dir = vault / "3 - SistemaMyworld" / "Skills"
+    active_dir = vault / ".agents" / "skills"
+    if not catalog_dir.exists():
+        return report("skill catalog", None, [], "Directorio de catálogo 3 - SistemaMyworld/Skills no existe")
+
+    active_skills = {p.name for p in active_dir.iterdir() if p.is_dir()} if active_dir.exists() else set()
+    items: list[dict[str, Any]] = []
+
+    categories = [p for p in catalog_dir.iterdir() if p.is_dir()]
+    for cat_path in categories:
+        cat_name = cat_path.name
+        if category and cat_name.lower() != category.lower():
+            continue
+        for skill_path in cat_path.iterdir():
+            if not skill_path.is_dir():
+                continue
+            skill_name = skill_path.name
+            skill_md = skill_path / "SKILL.md"
+            meta = parse_simple_frontmatter(skill_md) if skill_md.exists() else {}
+            items.append({
+                "name": skill_name,
+                "category": cat_name,
+                "active": skill_name in active_skills,
+                "description": meta.get("description", ""),
+                "path": str(skill_path.relative_to(vault)),
+            })
+
+    checks = [
+        result("skill.catalog", "pass", f"Total habilidades en catálogo: {len(items)}", total=len(items))
+    ]
+    rep = report("skill catalog", None, checks)
+    rep["skills"] = items
+    return rep
+
+
+def skill_activate(vault: Path, name: str, target_repo: Path | None = None) -> dict[str, Any]:
+    catalog_dir = vault / "3 - SistemaMyworld" / "Skills"
+    dest_skills_dir = (target_repo / ".agents" / "skills") if target_repo else (vault / ".agents" / "skills")
+
+    matching: list[Path] = []
+    for cat_path in catalog_dir.iterdir() if catalog_dir.exists() else []:
+        if not cat_path.is_dir():
+            continue
+        candidate = cat_path / name
+        if candidate.is_dir():
+            matching.append(candidate)
+
+    if not matching:
+        return report("skill activate", None, [], f"Habilidad '{name}' no encontrada en el catálogo")
+
+    source_dir = matching[0]
+    dest_dir = dest_skills_dir / name
+
+    if dest_dir.exists():
+        check = result("skill.activate", "pass", f"Habilidad '{name}' ya se encuentra activa", path=str(dest_dir))
+        return report("skill activate", None, [check])
+
+    dest_skills_dir.mkdir(parents=True, exist_ok=True)
+    shutil.copytree(source_dir, dest_dir)
+    check = result("skill.activate", "pass", f"Habilidad '{name}' activada con éxito", path=str(dest_dir))
+    return report("skill activate", None, [check])
+
+
+def skill_deactivate(vault: Path, name: str, target_repo: Path | None = None) -> dict[str, Any]:
+    dest_skills_dir = (target_repo / ".agents" / "skills") if target_repo else (vault / ".agents" / "skills")
+    dest_dir = dest_skills_dir / name
+
+    if target_repo is None and name in CORE_MYWORLD_SKILLS:
+        return report("skill deactivate", None, [], f"Habilidad '{name}' es parte del Core protegido de MyWorld y no debe desactivarse")
+
+    if not dest_dir.exists():
+        check = result("skill.deactivate", "pass", f"Habilidad '{name}' no estaba activa", path=str(dest_dir))
+        return report("skill deactivate", None, [check])
+
+    def _on_err(func, path, exc_info):
+        try:
+            os.chmod(path, 0o777)
+            func(path)
+        except Exception:
+            pass
+
+    shutil.rmtree(dest_dir, onerror=_on_err)
+    check = result("skill.deactivate", "pass", f"Habilidad '{name}' desactivada con éxito", path=str(dest_dir))
+    return report("skill deactivate", None, [check])
+
+
+def skill_audit(vault: Path, target_repo: Path | None = None) -> dict[str, Any]:
+    active_skills_dir = (target_repo / ".agents" / "skills") if target_repo else (vault / ".agents" / "skills")
+    catalog_dir = vault / "3 - SistemaMyworld" / "Skills"
+
+    checks: list[dict[str, Any]] = []
+    if not active_skills_dir.exists():
+        checks.append(result("skill.audit.directory", "pass", "Directorio .agents/skills no existe (0 activas)"))
+        return report("skill audit", None, checks)
+
+    active = [p for p in active_skills_dir.iterdir() if p.is_dir()]
+    count = len(active)
+
+    if target_repo is None and count > 25:
+        checks.append(result("skill.audit.tokens", "warn", f"Exceso de skills activas en Vault ({count} > 25). Riesgo de inflación basal de tokens.", count=count))
+    else:
+        checks.append(result("skill.audit.tokens", "pass", f"Carga de skills controlada ({count} activas). Contexto basal protegido.", count=count))
+
+    all_catalog_skills: set[str] = set()
+    for cat_path in catalog_dir.iterdir() if catalog_dir.exists() else []:
+        if cat_path.is_dir():
+            all_catalog_skills.update(p.name for p in cat_path.iterdir() if p.is_dir())
+
+    unbacked = [p.name for p in active if p.name not in all_catalog_skills]
+    if unbacked:
+        checks.append(result("skill.audit.parity", "warn", f"Habilidades activas sin respaldo en catálogo: {', '.join(unbacked)}", unbacked=unbacked))
+    else:
+        checks.append(result("skill.audit.parity", "pass", "Todas las habilidades activas están respaldadas en el catálogo"))
+
+    return report("skill audit", None, checks)
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -625,7 +1033,7 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Harness MyWorld v1")
     parser.add_argument("--version", action="version", version=VERSION)
     sub = parser.add_subparsers(dest="command", required=True)
-    for name in ("preflight", "quality", "security", "release", "postflight", "observe"):
+    for name in ("preflight", "quality", "security", "design", "release", "postflight", "observe"):
         item = sub.add_parser(name)
         item.add_argument("--repo")
         item.add_argument("--json", action="store_true")
@@ -644,8 +1052,82 @@ def main(argv: list[str] | None = None) -> int:
     audit_parser.add_argument("--json", action="store_true")
     validate_parser = sub.add_parser("validate")
     validate_parser.add_argument("file")
-    validate_parser.add_argument("--kind", required=True, choices=["product", "task", "session", "lock", "handoff", "evidence", "incident", "release", "pending"])
+    validate_parser.add_argument("--kind", required=True, choices=["product", "task", "session", "lock", "handoff", "artifact", "checkpoint", "evidence", "incident", "release", "pending", "event"])
     validate_parser.add_argument("--json", action="store_true")
+    continuity_parser = sub.add_parser("continuity")
+    continuity_sub = continuity_parser.add_subparsers(dest="continuity_command", required=True)
+    continuity_audit_parser = continuity_sub.add_parser("audit")
+    continuity_audit_parser.add_argument("--vault")
+    continuity_audit_parser.add_argument("--stale-after-minutes", type=int, default=60)
+    continuity_audit_parser.add_argument("--json", action="store_true")
+    continuity_checkpoint_parser = continuity_sub.add_parser("checkpoint")
+    continuity_checkpoint_parser.add_argument("--vault")
+    continuity_checkpoint_parser.add_argument("--session", required=True)
+    continuity_checkpoint_parser.add_argument("--project", required=True)
+    continuity_checkpoint_parser.add_argument("--work-item", required=True)
+    continuity_checkpoint_parser.add_argument("--type", default="checkpoint", choices=sorted(CONTINUITY_EVENT_TYPES))
+    continuity_checkpoint_parser.add_argument("--next-action", required=True)
+    continuity_checkpoint_parser.add_argument("--file", action="append", default=[])
+    continuity_checkpoint_parser.add_argument("--evidence", action="append", default=[])
+    continuity_checkpoint_parser.add_argument("--event-id")
+    continuity_checkpoint_parser.add_argument("--json", action="store_true")
+    continuity_recover_parser = continuity_sub.add_parser("recover")
+    continuity_recover_parser.add_argument("session")
+    continuity_recover_parser.add_argument("--vault")
+    continuity_recover_parser.add_argument("--dry-run", action="store_true", required=True)
+    continuity_recover_parser.add_argument("--json", action="store_true")
+
+    coord_parser = sub.add_parser("coordination", help="Project Coordination Plane (MW-2026.09.02 Beta)")
+    coord_parser.add_argument("coord_args", nargs=argparse.REMAINDER, help="Arguments passed to coordination_plane")
+
+    skill_parser = sub.add_parser("skill", help="Catálogo y gestión quirúrgica de habilidades")
+    skill_sub = skill_parser.add_subparsers(dest="skill_command", required=True)
+    skill_cat_parser = skill_sub.add_parser("catalog")
+    skill_cat_parser.add_argument("--category")
+    skill_cat_parser.add_argument("--vault")
+    skill_cat_parser.add_argument("--json", action="store_true")
+    skill_act_parser = skill_sub.add_parser("activate")
+    skill_act_parser.add_argument("name")
+    skill_act_parser.add_argument("--repo")
+    skill_act_parser.add_argument("--vault")
+    skill_act_parser.add_argument("--json", action="store_true")
+    skill_deact_parser = skill_sub.add_parser("deactivate")
+    skill_deact_parser.add_argument("name")
+    skill_deact_parser.add_argument("--repo")
+    skill_deact_parser.add_argument("--vault")
+    skill_deact_parser.add_argument("--json", action="store_true")
+    skill_audit_parser = skill_sub.add_parser("audit")
+    skill_audit_parser.add_argument("--repo")
+    skill_audit_parser.add_argument("--vault")
+    skill_audit_parser.add_argument("--json", action="store_true")
+
+    dispatch_parser = sub.add_parser("dispatch", help="Despacho atómico inter-proyectos (inbox local)")
+    dispatch_sub = dispatch_parser.add_subparsers(dest="dispatch_command", required=True)
+    send_parser = dispatch_sub.add_parser("send", help="Enviar nota o artefacto a uno o más proyectos")
+    send_parser.add_argument("--to", required=True, help="Destinatario(s) separados por coma: ej. evegat.cl,P020,P061")
+    send_parser.add_argument("--from", dest="source", default="harness", help="Proyecto o rol de origen: ej. P050")
+    send_parser.add_argument("--title", required=True, help="Título del aviso o entrega")
+    send_parser.add_argument("--body", required=True, help="Cuerpo o instrucción para el destinatario")
+    send_parser.add_argument("--attach", action="append", default=[], help="Ruta de archivo adjunto para copiar al inbox")
+    send_parser.add_argument("--priority", default="normal", choices=["low", "normal", "high", "critical"])
+    send_parser.add_argument("--json", action="store_true")
+
+    check_parser = dispatch_sub.add_parser("check", help="Listar notas pendientes en el inbox de un proyecto")
+    check_parser.add_argument("--project", required=True, help="Código o alias del proyecto: ej. P020 o evegat.cl")
+    check_parser.add_argument("--all", action="store_true", help="Mostrar todas las notas, no solo las pendientes")
+    check_parser.add_argument("--json", action="store_true")
+
+    done_parser = dispatch_sub.add_parser("done", help="Marcar una nota del inbox como procesada")
+    done_parser.add_argument("file", help="Ruta de la nota a marcar como procesada")
+    done_parser.add_argument("--json", action="store_true")
+
+    scan_parser = dispatch_sub.add_parser("scan", help="Escaneo masivo de proyectos con TypeSafe Jev (RLCD)")
+    scan_parser.add_argument("--directive", required=True, help="Directiva o criterio de revisión")
+    scan_parser.add_argument("--projects", help="Proyectos específicos separados por coma (ej. P020,P028,P061)")
+    scan_parser.add_argument("--dispatch", action="store_true", help="Despachar automáticamente nota al inbox de proyectos afectados")
+    scan_parser.add_argument("--from", dest="source", default="Auditoria-Masiva", help="Origen del requerimiento")
+    scan_parser.add_argument("--json", action="store_true")
+
     args = parser.parse_args(argv)
 
     try:
@@ -659,6 +1141,102 @@ def main(argv: list[str] | None = None) -> int:
             payload = audit(args.full)
         elif args.command == "validate":
             payload = validate_artifact(Path(args.file).resolve(), args.kind)
+        elif args.command == "coordination":
+            from coordination_plane import main as coord_main
+            return coord_main(args.coord_args)
+        elif args.command == "skill":
+            vault = skill_vault(args.vault)
+            target_repo = Path(args.repo).resolve() if getattr(args, "repo", None) else None
+            if args.skill_command == "catalog":
+                payload = skill_catalog(vault, args.category)
+            elif args.skill_command == "activate":
+                payload = skill_activate(vault, args.name, target_repo)
+            elif args.skill_command == "deactivate":
+                payload = skill_deactivate(vault, args.name, target_repo)
+            else:
+                payload = skill_audit(vault, target_repo)
+        elif args.command == "continuity":
+            vault = continuity_vault(args.vault)
+            if args.continuity_command == "audit":
+                payload = continuity_audit(vault, args.stale_after_minutes)
+            elif args.continuity_command == "checkpoint":
+                payload = continuity_checkpoint(
+                    vault,
+                    args.session,
+                    args.project,
+                    args.work_item,
+                    args.type,
+                    args.next_action,
+                    args.file,
+                    args.evidence,
+                    args.event_id,
+                )
+            else:
+                payload = continuity_recover(vault, args.session)
+        elif args.command == "dispatch":
+            from project_dispatch import VAULT_ROOT, dispatch_message, list_inbox, mark_processed
+            if args.dispatch_command == "send":
+                targets = [t.strip() for t in args.to.split(",") if t.strip()]
+                res = dispatch_message(
+                    targets=targets,
+                    source=args.source,
+                    title=args.title,
+                    body=args.body,
+                    attachments=args.attach,
+                    priority=args.priority,
+                    vault_root=VAULT_ROOT,
+                )
+                if getattr(args, "json", False):
+                    print(json_text(res), end="")
+                else:
+                    print(f"Harness MyWorld {VERSION} | dispatch:send | OK")
+                    for r in res["results"]:
+                        print(f"[{r['status'].upper()}] {r['target']} -> {r.get('inbox_note', r.get('error'))}")
+                return 0
+            elif args.dispatch_command == "check":
+                res = list_inbox(args.project, pending_only=not args.all, vault_root=VAULT_ROOT)
+                if getattr(args, "json", False):
+                    print(json_text(res), end="")
+                else:
+                    print(f"Harness MyWorld {VERSION} | dispatch:check | {res['count']} notas en {args.project}")
+                    for m in res["messages"]:
+                        print(f"- [{m['estado'].upper()}] {m['filename']}: {m['title']} (de: {m['origen']})")
+                return 0
+            elif args.dispatch_command == "done":
+                res = mark_processed(args.file)
+                if getattr(args, "json", False):
+                    print(json_text(res), end="")
+                else:
+                    print(f"Harness MyWorld {VERSION} | dispatch:done | Nota procesada: {res['file']}")
+                return 0
+            elif args.dispatch_command == "scan":
+                from jev_bulk_scan import scan_portfolio
+                targets = [p.strip() for p in args.projects.split(",")] if args.projects else None
+                res = scan_portfolio(
+                    directive=args.directive,
+                    target_projects=targets,
+                    auto_dispatch=args.dispatch,
+                    source_label=args.source,
+                    vault_root=VAULT_ROOT,
+                )
+                if getattr(args, "json", False):
+                    print(json_text(res), end="")
+                else:
+                    print("=" * 70)
+                    print(f"ESCÁNER MASIVO MYWORLD | Motor: Jev RLCD / Fallback | Tiempo: {res['duration_seconds']}s")
+                    print(f"Directiva: {res['directive']}")
+                    print(f"Escaneados: {res['total_scanned']} | Afectados: {res['applied_count']} | Despachados: {res['dispatched_count']}")
+                    print("=" * 70)
+                    print(f"{'PROYECTO':<28} | {'APLICA':<7} | {'URGENCIA':<9} | {'PROB':<6} | {'MOTOR'}")
+                    print("-" * 70)
+                    for r in res["results"]:
+                        aplica_txt = "SÍ" if r["aplica"] else "NO"
+                        disp_txt = " [ENVIADO]" if r.get("despachado") else ""
+                        print(f"{r['name'][:28]:<28} | {aplica_txt:<7} | {r['urgencia']:<9} | {r['probabilidad']:<6} | {r['motor']}{disp_txt}")
+                    print("=" * 70)
+                return 0
+            else:
+                payload = {"error": f"Comando dispatch desconocido: {args.dispatch_command}"}
         else:
             repo = repository_root(args.repo)
             if args.command == "preflight":
@@ -667,6 +1245,8 @@ def main(argv: list[str] | None = None) -> int:
                 payload = quality(repo)
             elif args.command == "security":
                 payload = security(repo, args.staged, args.no_external)
+            elif args.command == "design":
+                payload = design_gate(repo)
             elif args.command == "release":
                 payload = release_gate(repo)
             elif args.command == "postflight":

@@ -4,12 +4,13 @@ Verifica:
 1. Resolución DNS de ordenanzas.evegat.cl
 2. Conectividad HTTP y HTTPS
 3. Integridad de activos críticos (HTML, status_data.json, mapa, descargas)
-4. Consistencia del dataset publicado (7.226 normas, 346 comunas)
+4. Consistencia del dataset publicado con el snapshot local revisado
 """
 
 from __future__ import annotations
 
 import json
+from pathlib import Path
 import urllib.request
 import ssl
 from typing import NamedTuple
@@ -38,6 +39,9 @@ def check_url(url: str, host_header: str | None = None) -> tuple[int, dict, byte
 
 def run_e2e_tests() -> list[CheckResult]:
     results = []
+    expected = json.loads((Path(__file__).resolve().parents[1] / "dashboard/status_data.json").read_text(encoding="utf-8-sig"))
+    expected_total = sum(len(c.get("ordenanzas", [])) for c in expected["comunas"])
+    expected_communes = sum(bool(c.get("ordenanzas")) for c in expected["comunas"])
 
     # 1. Edge Direct Verification
     try:
@@ -70,11 +74,15 @@ def run_e2e_tests() -> list[CheckResult]:
         metrics = data.get("metrics", {})
         total = metrics.get("total_ordenanzas")
         comunas = metrics.get("comunas_con_datos")
-        passed = (code == 200 and total == 7226 and comunas == 346)
+        actual_total = sum(len(c.get("ordenanzas", [])) for c in data.get("comunas", []))
+        actual_communes = sum(bool(c.get("ordenanzas")) for c in data.get("comunas", []))
+        passed = (code == 200 and total == actual_total == expected_total
+                  and comunas == actual_communes == expected_communes
+                  and data.get("comunas") == expected.get("comunas"))
         results.append(CheckResult(
             "Dataset JSON (status_data.json)",
             passed,
-            f"Total ordenanzas: {total} (esperado 7226), comunas: {comunas} (esperado 346)"
+            f"Total ordenanzas: {total} (esperado {expected_total}), comunas: {comunas} (esperado {expected_communes}); contenido comparado con snapshot local"
         ))
     except Exception as e:
         results.append(CheckResult("Dataset JSON (status_data.json)", False, str(e)))
@@ -83,11 +91,11 @@ def run_e2e_tests() -> list[CheckResult]:
     try:
         code, hdrs, body = check_url(f"{TARGET_URL}/descargas/README_PUBLICO.txt")
         text = body.decode("utf-8")
-        passed = (code == 200 and "Registros publicados: 7226" in text)
+        passed = (code == 200 and f"Registros publicados: {expected_total}" in text.splitlines())
         results.append(CheckResult(
             "Descargas (README_PUBLICO.txt)",
             passed,
-            f"HTTP {code}, texto verificado con 7226 registros"
+            f"HTTP {code}, esperado {expected_total} registros"
         ))
     except Exception as e:
         results.append(CheckResult("Descargas (README_PUBLICO.txt)", False, str(e)))

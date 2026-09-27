@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0.0",
+  "lock_id": "P090-20260920-cierre",
+  "owner": "Codex",
+  "host": "EVT",
+  "session": "P090-20260920-cierre",
+  "scope": "project",
+  "target": "src/generate_document_inventory.py; scripts/verify_e2e_deployment.py; docs/ESTADO-Y-REENTRADA-P090.md; docs/INVENTARIO-DOCUMENTAL-P090.md; data/document_inventory_manifest.json; README.md; README.en.md; scripts/test_document_inventory.py; dashboard/index.html; dashboard/mapa_chile.js; dashboard/asistente_chat.js; scripts/test_map.cjs; scripts/run_local_crawler.ps1; scripts/run_sinim_discovery.ps1; scripts/test_runners.py; scripts/test_chat.cjs",
+  "created_at": "2026-09-21T02:25:56.434812+00:00",
+  "status": "released",
+  "heartbeat_at": "2026-09-21T12:05:53.976107+00:00"
+}

@@ -1,4 +1,23 @@
-param([int]$ShardCount = 10)
+param([ValidateRange(1, 100)][int]$ShardCount = 10, [switch]$ValidateOnly)
+
+$ErrorActionPreference = "Stop"
+$repoPath = (Resolve-Path -LiteralPath (Split-Path -Parent $PSScriptRoot)).Path
+$requiredScripts = @(
+    "sinim_seed_enrichment.py", "merge_sinim_discovery_shards.py",
+    "build_sinim_extraction_seeds.py", "extract_sinim_validated_sources.py",
+    "merge_sinim_extraction_shards.py", "classify_sinim_evidence_lmstudio.py",
+    "build_national_coverage_ledger.py"
+)
+$missingScripts = @($requiredScripts | Where-Object {
+    -not (Test-Path -LiteralPath (Join-Path $repoPath "src\$_") -PathType Leaf)
+})
+if ($missingScripts.Count -gt 0) {
+    throw "Dependencias ausentes: $($missingScripts -join ', '). No se inició discovery ni inferencia."
+}
+$pythonPath = Join-Path $repoPath ".venv\Scripts\python.exe"
+if (-not (Test-Path -LiteralPath $pythonPath)) { $pythonPath = "python" }
+if (-not (Get-Command $pythonPath -ErrorAction SilentlyContinue)) { throw "Python no disponible." }
+if ($ValidateOnly) { Write-Output "Dependencias presentes; no se verificaron servicios ni se ejecutaron lotes."; exit 0 }
 
 $runnerMutex = [System.Threading.Mutex]::new($false, "Local\MW-P090-0014-sinim-runner")
 $hasRunnerMutex = $runnerMutex.WaitOne(0)

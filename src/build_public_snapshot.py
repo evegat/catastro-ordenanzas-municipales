@@ -41,6 +41,7 @@ def load_verified_municipal(path: Path) -> list[dict]:
         raise AssertionError("municipal_verified_records count does not match records")
 
     seen_acts: set[tuple[str, str, str]] = set()
+    seen_hashes: set[str] = set()
     for record in records:
         verification = record.get("verification") or {}
         if record.get("fuente") not in (MUNICIPAL_SOURCE, "Diario Oficial / BCN", "Diario Oficial", "BCN / LeyChile"):
@@ -49,8 +50,12 @@ def load_verified_municipal(path: Path) -> list[dict]:
             raise AssertionError("Municipal record is not verified")
         if int(verification.get("http_status") or 999) >= 400:
             raise AssertionError("Municipal record has invalid HTTP verification")
-        if len(str(verification.get("sha256") or "")) != 64:
+        sha = str(verification.get("sha256") or "")
+        if len(sha) != 64:
             raise AssertionError("Municipal record has invalid SHA-256")
+        if sha in seen_hashes:
+            raise AssertionError(f"Duplicate municipal file hash: {sha}")
+        seen_hashes.add(sha)
         if int(verification.get("bytes") or 0) <= 0:
             raise AssertionError("Municipal record has no verified bytes")
         if not str(record.get("target_url") or "").startswith("https://"):
@@ -58,14 +63,17 @@ def load_verified_municipal(path: Path) -> list[dict]:
         if not str(record.get("source_listing_url") or "").startswith("https://"):
             raise AssertionError("Municipal record lacks official listing URL")
 
-        key = (
-            normalize_key(record.get("comuna", "")),
-            normalize_key(record.get("numero", "")),
-            str(record.get("fecha") or ""),
-        )
-        if key in seen_acts:
-            raise AssertionError(f"Duplicate canonical municipal legal act: {key}")
-        seen_acts.add(key)
+        norm_num = normalize_key(record.get("numero", ""))
+        fecha_str = str(record.get("fecha") or "")
+        if norm_num and norm_num not in ("s n", "sn", "compilado", "sin numero") and len(fecha_str) == 10:
+            key = (
+                normalize_key(record.get("comuna", "")),
+                norm_num,
+                fecha_str,
+            )
+            if key in seen_acts:
+                raise AssertionError(f"Duplicate canonical municipal legal act: {key}")
+            seen_acts.add(key)
     return records
 
 

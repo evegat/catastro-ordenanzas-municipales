@@ -1,6 +1,6 @@
 {
-  "task_id": "P090-20260908-plan-publico-02",
-  "generated_at": "2026-09-17T23:07:55.069166+00:00",
+  "task_id": "P090-20260920-cierre",
+  "generated_at": "2026-09-21T11:50:57.112932+00:00",
   "status_data": {
     "updated_at": "2026-08-25T22:49:10.579553",
     "declared_metrics": {
@@ -5280,13 +5280,15 @@
     }
   },
   "conclusions": {
-    "canonical_total_records": 7226,
+    "canonical_total_records": 7321,
     "bcn_records": 5881,
-    "municipal_verified_remote_records": 1345,
+    "municipal_verified_remote_records": 1440,
     "physical_local_pdfs_count": 1299,
     "physical_local_text_files_count": 19,
+    "local_markdown_files_count": 7269,
     "territorial_communes_total": 346,
     "territorial_communes_represented": 346,
-    "critical_gap_for_rag": "El catastro público referencia 7.226 normas verificadas (1.345 con SHA-256 en origen y 5.881 BCN), pero en almacenamiento local solo existen 10 binarios PDF y 19 extracciones de texto. Para la Fase 4 (RAG) se requiere un pipeline controlado de descarga e ingesta de texto a demanda iniciando con el lote piloto de 50-100 documentos (Paquete 05)."
+    "discrepancies": [],
+    "critical_gap_for_rag": "Los recuentos físicos no prueban texto completo, calidad de extracción, citas ni funcionamiento de un asistente. Se requiere validar el corpus y el piloto documental."
   }
 }

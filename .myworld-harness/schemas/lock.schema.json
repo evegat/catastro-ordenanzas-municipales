@@ -1,1 +1,144 @@
-{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"Harness lock","type":"object","additionalProperties":false,"required":["schema_version","lock_id","owner","host","session","scope","target","created_at","status"],"properties":{"schema_version":{"const":"1.0.0"},"lock_id":{"type":"string","minLength":1},"owner":{"type":"string","minLength":1},"host":{"type":"string","minLength":1},"session":{"type":"string","minLength":1},"scope":{"enum":["project","vault"]},"target":{"type":"string","minLength":1},"created_at":{"type":"string","format":"date-time"},"heartbeat_at":{"type":["string","null"],"format":"date-time"},"status":{"enum":["active","paused","released"]}}}
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Harness lock lease",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "lock_id",
+    "owner",
+    "host",
+    "session",
+    "scope",
+    "target",
+    "created_at",
+    "status"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "lock_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "owner": {
+      "type": "string",
+      "minLength": 1
+    },
+    "host": {
+      "type": "string",
+      "minLength": 1
+    },
+    "session": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scope": {
+      "enum": [
+        "project",
+        "vault"
+      ]
+    },
+    "target": {
+      "type": "string",
+      "minLength": 1
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "updated_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "heartbeat_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "lease_expires_at": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date-time"
+    },
+    "status": {
+      "enum": [
+        "active",
+        "paused",
+        "released",
+        "stale"
+      ]
+    },
+    "project_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^P[0-9]{3}$"
+    },
+    "task_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "generation": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1
+    },
+    "fencing_token": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1
+    },
+    "record": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "project": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "agent": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "session_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "recovered_by": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "recovery_reason": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

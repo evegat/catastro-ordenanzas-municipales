@@ -42,3 +42,9 @@ cache/
 
 
 
+
+data/*.backup*
+scripts/*details.json
+scripts/*batch*.json
+data/*batch*.json
+

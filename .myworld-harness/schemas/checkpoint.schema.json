@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MyWorld checkpoint capsule",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "checkpoint_id",
+    "project_id",
+    "task_id",
+    "agent",
+    "session_id",
+    "runtime",
+    "workspace",
+    "branch",
+    "source_revision",
+    "artifact_refs",
+    "next_action",
+    "persisted_at",
+    "trace_id"
+  ],
+  "properties": {
+    "checkpoint_id": {
+      "type": "string",
+      "pattern": "^CHK-P[0-9]{3}-[A-Fa-f0-9]{12}$"
+    },
+    "project_id": {
+      "type": "string",
+      "pattern": "^P[0-9]{3}$"
+    },
+    "task_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "agent": {
+      "type": "string",
+      "minLength": 1
+    },
+    "session_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "runtime": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "workspace": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "branch": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_revision": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "artifact_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "next_action": {
+      "type": "string",
+      "minLength": 1
+    },
+    "persisted_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "trace_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

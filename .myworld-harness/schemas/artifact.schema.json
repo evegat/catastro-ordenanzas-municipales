@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MyWorld coordination artifact",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "artifact_id",
+    "project_id",
+    "task_id",
+    "path",
+    "sha256",
+    "size_bytes",
+    "exists",
+    "producer",
+    "status",
+    "source_revision",
+    "created_at"
+  ],
+  "properties": {
+    "artifact_id": {
+      "type": "string",
+      "pattern": "^ART-P[0-9]{3}-[A-Fa-f0-9]{12}$"
+    },
+    "project_id": {
+      "type": "string",
+      "pattern": "^P[0-9]{3}$"
+    },
+    "task_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "path": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sha256": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[A-Fa-f0-9]{64}$"
+    },
+    "size_bytes": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "exists": {
+      "type": "boolean"
+    },
+    "producer": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "verified",
+        "delivered"
+      ]
+    },
+    "source_revision": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}

@@ -7,11 +7,11 @@
   "required": ["schema_version", "product_id", "name", "owner", "myworld_project", "kind", "lifecycle_stage", "risk", "data_classification", "deployment", "repository", "commands", "critical_paths", "forbidden_paths", "multi_agent", "observability", "release", "evidence"],
   "properties": {
     "schema_version": {"const": "1.0.0"},
-    "product_id": {"type": "string", "pattern": "^(P|PUB|INV)[0-9]{3}([-.][A-Za-z0-9_-]+)?$"},
+    "product_id": {"type": "string", "pattern": "^(P|PUB|INV|EDI)[0-9]{3}([-.][A-Za-z0-9_-]+)?$"},
     "name": {"type": "string", "minLength": 1},
     "owner": {"type": "string", "minLength": 1},
     "myworld_project": {"type": "string", "minLength": 1},
-    "kind": {"enum": ["static_site", "web_app", "api", "data_app", "automation", "payment", "internal_tool", "research_code", "mixed"]},
+    "kind": {"enum": ["static_site", "web_app", "api", "data_app", "automation", "payment", "internal_tool", "research_code", "research_product", "mixed"]},
     "lifecycle_stage": {"enum": ["idea", "prototype", "pilot", "staging", "production", "maintenance", "retirement"]},
     "risk": {"enum": ["low", "moderate", "high", "critical"]},
     "data_classification": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"enum": ["public", "internal", "confidential", "personal", "sensitive"]}},
@@ -35,12 +35,17 @@
     "multi_agent": {
       "type": "object", "additionalProperties": false,
       "required": ["isolation", "integration_owner"],
-      "properties": {"isolation": {"enum": ["branch", "worktree", "single_writer"]}, "integration_owner": {"type": "string", "minLength": 1}}
+      "properties": {
+        "isolation": {"enum": ["branch", "worktree", "single_writer"]},
+        "integration_owner": {"type": "string", "minLength": 1},
+        "architecture": {"type": "string"},
+        "roles": {"type": "array", "items": {"type": "string"}}
+      }
     },
     "observability": {
       "type": "object", "additionalProperties": false,
       "required": ["level", "domains", "monitors"],
-      "properties": {"level": {"type": "integer", "minimum": 0, "maximum": 4}, "domains": {"type": "array", "items": {"enum": ["technical", "pipeline", "product", "business"]}}, "monitors": {"type": "array", "items": {"$ref": "#/$defs/monitor"}}}
+      "properties": {"level": {"type": "integer", "minimum": 0, "maximum": 4}, "domains": {"type": "array", "items": {"enum": ["technical", "pipeline", "product", "business", "evidence", "epistemic", "methodological"]}}, "monitors": {"type": "array", "items": {"$ref": "#/$defs/monitor"}}}
     },
     "release": {
       "type": "object", "additionalProperties": false,
@@ -57,7 +62,7 @@
     "monitor": {
       "type": "object", "additionalProperties": false,
       "required": ["name", "type", "target", "interval_seconds", "failure_threshold"],
-      "properties": {"name": {"type": "string"}, "type": {"enum": ["http", "keyword", "tls", "heartbeat"]}, "target": {"type": "string"}, "keyword": {"type": "string"}, "interval_seconds": {"type": "integer", "minimum": 60}, "failure_threshold": {"type": "integer", "minimum": 1}}
+      "properties": {"name": {"type": "string"}, "type": {"enum": ["http", "keyword", "tls", "heartbeat", "script", "ndjson_state"]}, "target": {"type": "string"}, "keyword": {"type": "string"}, "interval_seconds": {"type": "integer", "minimum": 60}, "failure_threshold": {"type": "integer", "minimum": 1}}
     }
   }
 }

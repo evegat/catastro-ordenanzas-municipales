@@ -11,23 +11,23 @@
   </script>
   <title>Catastro Nacional de Ordenanzas Municipales de Chile | Iniciativa Independiente</title>
   <!-- SEO & Social Meta Tags -->
-  <meta name="description" content="Iniciativa independiente de consulta y análisis regulatorio: 7.426 registros normativos de las 346 comunas de Chile. Datos abiertos para administradores públicos, concejales y academia.">
+  <meta name="description" content="Iniciativa independiente de consulta y análisis regulatorio: 7.450 registros normativos de las 346 comunas de Chile. Datos abiertos para administradores públicos, concejales y academia.">
   <meta name="author" content="Eduardo Vega Toledo - Universidad de Chile">
   <meta name="robots" content="index, follow">
   <!-- Open Graph / WhatsApp / LinkedIn -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://ordenanzas.evegat.cl">
   <meta property="og:title" content="Catastro Nacional de Ordenanzas Municipales de Chile (346 Comunas)">
-  <meta property="og:description" content="Encuentra, compara y descarga 7.321 registros normativos de las 346 comunas de Chile. Fuentes oficiales con verificación SHA-256 e integridad documental.">
+  <meta property="og:description" content="Encuentra, compara y descarga 7.450 registros normativos de las 346 comunas de Chile. Fuentes oficiales directas, trazabilidad documental y datos abiertos descargables.">
   <meta property="og:site_name" content="Catastro de Ordenanzas P090">
   <meta property="og:image" content="https://ordenanzas.evegat.cl/og-image.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Catastro Nacional de Ordenanzas Municipales de Chile - 7.321 registros normativos en 346 comunas">
+  <meta property="og:image:alt" content="Catastro Nacional de Ordenanzas Municipales de Chile - 7.450 registros normativos en 346 comunas">
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Catastro Nacional de Ordenanzas Municipales de Chile">
-  <meta name="twitter:description" content="7.321 registros normativos en 346 comunas de Chile. Análisis temático y asistente de consulta normativa.">
+  <meta name="twitter:description" content="7.450 registros normativos en 346 comunas de Chile. Análisis temático y asistente de consulta normativa.">
   <meta name="twitter:image" content="https://ordenanzas.evegat.cl/og-image.png">
   <!-- SVG Favicon Oficial -->
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%2338bdf8' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><polygon points='12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2'/></svg>">
@@ -91,44 +91,85 @@
       color: #0f172a !important;
     }
     html.light header {
-      background-color: rgba(255, 255, 255, 0.95) !important;
+      background-color: rgba(255, 255, 255, 0.96) !important;
       border-color: #e2e8f0 !important;
     }
-    html.light .bg-\[\#04142b\] {
+    html.light .bg-\[\#04142b\],
+    html.light .bg-\[\#04142b\]\/95,
+    html.light .bg-\[\#04142b\]\/90,
+    html.light .bg-\[\#04142b\]\/80,
+    html.light .bg-\[\#04142b\]\/60 {
       background-color: #ffffff !important;
       color: #0f172a !important;
     }
-    html.light .bg-\[\#071f43\] {
+    html.light .bg-\[\#071f43\],
+    html.light .bg-\[\#071f43\]\/95,
+    html.light .bg-\[\#071f43\]\/80,
+    html.light .bg-\[\#071f43\]\/70,
+    html.light .bg-\[\#071f43\]\/60 {
       background-color: #f1f5f9 !important;
       color: #0f172a !important;
     }
-    html.light .bg-\[\#071f43\]\/80, html.light .bg-\[\#071f43\]\/70, html.light .bg-\[\#071f43\]\/60 {
-      background-color: rgba(241, 245, 249, 0.9) !important;
-      color: #0f172a !important;
+    html.light section.bg-gradient-to-b {
+      background: linear-gradient(to bottom, #f1f5f9, #ffffff) !important;
     }
-    html.light .bg-\[\#04142b\]\/90, html.light .bg-\[\#04142b\]\/80, html.light .bg-\[\#04142b\]\/60 {
-      background-color: rgba(255, 255, 255, 0.95) !important;
+    html.light section.bg-gradient-to-r {
+      background: linear-gradient(to right, #e2e8f0, #f8fafc, #e2e8f0) !important;
+    }
+    html.light h1, html.light h2, html.light h3, html.light h4, html.light h5, html.light h6 {
       color: #0f172a !important;
     }
     html.light .text-white {
       color: #0f172a !important;
     }
-    html.light .text-zinc-300, html.light .text-zinc-400 {
+    html.light .text-zinc-100,
+    html.light .text-zinc-200 {
+      color: #1e293b !important;
+    }
+    html.light .text-zinc-300 {
+      color: #334155 !important;
+    }
+    html.light .text-zinc-400 {
       color: #475569 !important;
     }
-    html.light .border-\[\#153b70\] {
+    html.light .text-zinc-500 {
+      color: #64748b !important;
+    }
+    /* Preservar texto blanco en botones con fondo de color */
+    html.light .bg-sky-600, html.light .bg-sky-600 *,
+    html.light .bg-sky-500, html.light .bg-sky-500 *,
+    html.light .bg-emerald-600, html.light .bg-emerald-600 *,
+    html.light .bg-blue-600, html.light .bg-blue-600 *,
+    html.light .bg-indigo-600, html.light .bg-indigo-600 *,
+    html.light .bg-\[\#0077b5\], html.light .bg-\[\#0077b5\] * {
+      color: #ffffff !important;
+    }
+    html.light .border-\[\#153b70\],
+    html.light .border-\[\#153b70\]\/80,
+    html.light .border-\[\#153b70\]\/60 {
       border-color: #cbd5e1 !important;
     }
-    html.light .border-\[\#153b70\]\/80, html.light .border-\[\#153b70\]\/60 {
-      border-color: #e2e8f0 !important;
-    }
-    html.light input, html.light select {
+    html.light input, html.light select, html.light textarea {
       background-color: #ffffff !important;
       color: #0f172a !important;
       border-color: #cbd5e1 !important;
     }
+    html.light input::placeholder, html.light textarea::placeholder {
+      color: #94a3b8 !important;
+    }
+    html.light .quick-card {
+      background-color: #ffffff !important;
+      border-color: #e2e8f0 !important;
+    }
+    html.light thead {
+      background-color: #f1f5f9 !important;
+      color: #475569 !important;
+    }
+    html.light tr:hover td {
+      background-color: #f8fafc !important;
+    }
     html.light .shadow-2xl {
-      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1) !important;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.05) !important;
     }
   </style>
 </head>
@@ -161,17 +202,17 @@
           <i id="theme-icon-sun" data-lucide="sun" class="w-4 h-4 hidden"></i>
           <i id="theme-icon-moon" data-lucide="moon" class="w-4 h-4"></i>
         </button>
-        <a href="https://api.whatsapp.com/send?text=Catastro%20Nacional%20de%20Ordenanzas%20Municipales%20de%20Chile%20(346%20comunas)%3A%20https%3A%2F%2Fordenanzas.evegat.cl" target="_blank" rel="noopener noreferrer" aria-label="Compartir catastro en WhatsApp" title="Compartir en WhatsApp" data-umami-event="compartir_whatsapp_header" class="inline-flex items-center gap-1 px-2.5 py-1.5 rounded-lg bg-emerald-600/90 hover:bg-emerald-500 text-white text-xs font-semibold transition-all shadow-sm">
-          <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
-          <span class="hidden sm:inline">WhatsApp</span>
+        <a href="https://api.whatsapp.com/send?text=Catastro%20Nacional%20de%20Ordenanzas%20Municipales%20de%20Chile%20(346%20comunas)%3A%20https%3A%2F%2Fordenanzas.evegat.cl" target="_blank" rel="noopener noreferrer" aria-label="Compartir catastro por WhatsApp" title="Compartir este catastro con colegas por WhatsApp" data-umami-event="compartir_whatsapp_header" class="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-emerald-600/90 hover:bg-emerald-500 text-white text-xs font-semibold transition-all shadow-sm">
+          <i data-lucide="share-2" class="w-3.5 h-3.5"></i>
+          <span class="hidden sm:inline">Compartir</span>
         </a>
         <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fordenanzas.evegat.cl" target="_blank" rel="noopener noreferrer" aria-label="Compartir catastro en LinkedIn" title="Compartir en LinkedIn" data-umami-event="compartir_linkedin_header" class="inline-flex items-center gap-1 px-2.5 py-1.5 rounded-lg bg-[#0077b5] hover:bg-[#0088cc] text-white text-xs font-semibold transition-all shadow-sm">
           <i data-lucide="linkedin" class="w-3.5 h-3.5"></i>
           <span class="hidden sm:inline">LinkedIn</span>
         </a>
-        <button onclick="switchTab('creditos')" aria-label="Ver meta de cobertura nacional y créditos" title="Meta Nacional 100% y Créditos" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-amber-500/20 hover:bg-amber-500/30 border border-amber-500/40 text-amber-300 text-xs font-semibold transition-all shadow-sm">
+        <button onclick="switchTab('creditos')" aria-label="Ver avance de cobertura nacional y créditos" title="Avance de Cobertura 100% y Créditos" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-amber-500/20 hover:bg-amber-500/30 border border-amber-500/40 text-amber-300 text-xs font-semibold transition-all shadow-sm">
           <i data-lucide="award" class="w-3.5 h-3.5 text-amber-400"></i>
-          <span>Meta 100% & Créditos</span>
+          <span>Objetivo 100% & Créditos</span>
         </button>
         <button onclick="openDownloadRequestModal('xlsx')" aria-label="Solicitar planilla Excel con datos consolidados" data-umami-event="solicitar_excel" data-umami-event-location="header" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-sky-600 hover:bg-sky-500 text-white text-xs font-semibold transition-all shadow-sm">
           <i data-lucide="file-spreadsheet" class="w-3.5 h-3.5"></i>
@@ -197,24 +238,24 @@
           Iniciativa independiente construida a partir de fuentes oficiales y documentos municipales verificables.
         </p>
         <p class="text-xs text-zinc-300 max-w-2xl mx-auto font-normal leading-relaxed">
-          Accede a <strong>7.321 registros normativos catalogados</strong> (5.881 BCN LeyChile + 1.440 municipales verificadas con hash SHA-256 inmutable).<br>
+          Accede a <strong>7.450 documentos normativos catalogados</strong> (5.881 de BCN LeyChile y 1.569 respaldados directamente desde portales municipales oficiales).<br>
           <span class="text-[11px] text-zinc-400 font-mono">Cobertura territorial: 346/346 comunas (100%) · Exhaustividad documental: no acreditada.</span>
         </p>
       </div>
 
       <!-- MAIN SEARCH BAR ("Google Municipal") -->
       <div class="relative max-w-2xl mx-auto">
-        <div class="relative flex items-center bg-[#071f43] border-2 border-sky-500/50 hover:border-sky-400 focus-within:border-sky-400 rounded-2xl shadow-2xl transition-all overflow-hidden p-1.5">
+        <div class="relative flex items-center bg-[#071f43] border-2 border-sky-500/50 hover:border-sky-400 focus-within:border-sky-400 rounded-2xl shadow-2xl transition-all p-1.5 gap-2">
           <i data-lucide="search" class="w-5 h-5 text-sky-400 ml-3 shrink-0"></i>
           <input 
             type="text" 
             id="hero-search-input" 
-            placeholder="Escribe una comuna (ej. Maipú, Viña del Mar, Temuco) o materia (ej. Ruidos, Aseo, Terrazas)..." 
+            placeholder="Busca por comuna (ej. Maipú, Viña del Mar, Temuco) o materia (ej. Ruidos, Aseo, Permisos)..." 
             oninput="handleHeroSearch(event)"
             onkeydown="handleHeroSearchKey(event)"
-            class="w-full bg-transparent border-0 px-3 py-2.5 text-sm text-white placeholder-zinc-400 focus:outline-none"
+            class="flex-1 min-w-0 bg-transparent border-0 px-2.5 py-2.5 text-xs sm:text-sm text-white placeholder-zinc-400 focus:outline-none"
           />
-          <button onclick="executeHeroSearch()" data-umami-event="buscar_ordenanza" data-umami-event-location="hero" class="px-5 py-2.5 bg-sky-600 hover:bg-sky-500 text-white rounded-xl text-xs font-semibold transition-colors shrink-0 flex items-center gap-1.5">
+          <button onclick="executeHeroSearch()" data-umami-event="buscar_ordenanza" data-umami-event-location="hero" class="px-4 sm:px-5 py-2 sm:py-2.5 bg-sky-600 hover:bg-sky-500 text-white rounded-xl text-xs font-semibold transition-colors shrink-0 flex items-center gap-1.5 shadow-sm">
             <span>Buscar</span>
             <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
           </button>
@@ -323,7 +364,7 @@
   <!-- MAIN CONTAINER WITH TABS -->
   <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex-1 w-full space-y-6">
 
-    <!-- BANNER: META VISIBLE DE COBERTURA NACIONAL 100% -->
+    <!-- BANNER: OBJETIVO VISIBLE DE COBERTURA NACIONAL 100% -->
     <section class="bg-gradient-to-r from-[#071f43] via-[#0a2c5c] to-[#071f43] border border-amber-500/40 rounded-2xl p-5 shadow-xl relative overflow-hidden">
       <div class="absolute -right-10 -bottom-10 w-44 h-44 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
       <div class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-5 relative z-10">
@@ -332,7 +373,7 @@
           <div class="flex items-center gap-2">
             <span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[11px] font-bold tracking-wide uppercase bg-amber-500/20 border border-amber-500/40 text-amber-300">
               <i data-lucide="target" class="w-3.5 h-3.5 text-amber-400"></i>
-              Campaña Cívica: Meta 100% Chile
+              Campaña Cívica: Cobertura Nacional 100%
             </span>
             <span class="text-xs text-zinc-400 font-mono">Quinquenio 2021–2026</span>
           </div>
@@ -340,7 +381,7 @@
             Completando las Ordenanzas Municipales Recientes de todo el País
           </h3>
           <p class="text-xs text-zinc-300 leading-relaxed">
-            Hemos alcanzado <strong class="text-emerald-400 font-bold">243 de 346 comunas (70,2%)</strong> con ordenanzas vigentes formalizadas por decreto y verificadas con SHA-256. En la <strong>Región Metropolitana logramos el 100% (52/52)</strong>. ¡Faltan <strong>103 comunas</strong> para completar Chile entero!
+            Hemos alcanzado <strong class="text-emerald-400 font-bold">243 de 346 comunas (70,2%)</strong> con ordenanzas vigentes formalizadas por decreto y respaldadas desde fuentes oficiales. En la <strong>Región Metropolitana alcanzamos el 100% (52/52)</strong>. ¡Faltan <strong>103 comunas</strong> para completar Chile entero!
           </p>
         </div>
 
@@ -354,7 +395,7 @@
           </div>
           <div class="flex items-center justify-between text-[11px] text-zinc-400 font-mono">
             <span>RM: <strong class="text-emerald-400">100% (52/52)</strong></span>
-            <span>Meta País: <strong class="text-sky-300">346 comunas</strong></span>
+            <span>Objetivo Nacional: <strong class="text-sky-300">346 comunas</strong></span>
           </div>
           <button onclick="switchTab('creditos')" class="w-full mt-1 px-3 py-2 rounded-lg bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-bold text-xs transition-all shadow-md flex items-center justify-center gap-1.5">
             <i data-lucide="award" class="w-4 h-4"></i>
@@ -389,11 +430,11 @@
       </button>
       <button onclick="switchTab('creditos')" id="tab-btn-creditos" class="pb-3 text-sm font-medium border-b-2 border-transparent text-amber-400 hover:text-amber-300 flex items-center gap-2 shrink-0 transition-colors">
         <i data-lucide="award" class="w-4 h-4 text-amber-400"></i>
-        <span>Meta 100% & Créditos</span>
+        <span>Objetivo 100% & Créditos</span>
       </button>
       <button onclick="switchTab('metodologia')" id="tab-btn-metodologia" class="pb-3 text-sm font-medium border-b-2 border-transparent text-zinc-400 hover:text-zinc-200 flex items-center gap-2 shrink-0 transition-colors sm:ml-auto">
-        <i data-lucide="shield-check" class="w-4 h-4 text-zinc-400"></i>
-        <span>Metodología & SHA-256</span>
+        <i data-lucide="file-text" class="w-4 h-4 text-zinc-400"></i>
+        <span>Metodología & Cómo se Construyó</span>
       </button>
     </div>
 
@@ -826,53 +867,112 @@
       </div>
     </section>
 
-    <!-- TAB CONTENT: METODOLOGÍA & AUDITORÍA -->
+    <!-- TAB CONTENT: METODOLOGÍA & CÓMO SE CONSTRUYÓ -->
     <section id="tab-metodologia" class="hidden space-y-6">
       <div class="bg-[#071f43]/60 border border-[#153b70] rounded-2xl p-6 space-y-6">
         <div>
-          <h3 class="text-base font-bold text-white flex items-center gap-2">
-            <i data-lucide="shield-check" class="w-5 h-5 text-emerald-400"></i>
-            <span>Marco Metodológico y Protocolo de Integridad Criptográfica (SHA-256)</span>
-          </h3>
-          <p class="text-xs text-zinc-300 mt-1">
-            El Catastro Nacional de Ordenanzas Municipales de Chile consolida y audita la normativa local de 346 comunas (100% nacional) bajo un estándar verificable y reproducible.
+          <div class="flex items-center gap-2">
+            <span class="p-2 rounded-xl bg-sky-500/10 text-sky-400 border border-sky-500/30">
+              <i data-lucide="book-open-check" class="w-5 h-5"></i>
+            </span>
+            <h3 class="text-base sm:text-lg font-bold text-white tracking-tight">
+              Metodología: ¿Cómo se construyó este Catastro Nacional?
+            </h3>
+          </div>
+          <p class="text-xs text-zinc-300 mt-2 leading-relaxed max-w-3xl">
+            El Catastro Nacional de Ordenanzas Municipales nació como un proyecto independiente para resolver un problema histórico en Chile: la dispersión y falta de acceso unificado a las regulaciones comunales. A continuación se detalla el proceso técnico y metodológico con el que consolidamos los datos.
           </p>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <div class="p-4 rounded-xl bg-[#04142b] border border-[#153b70] space-y-2">
-            <div class="flex items-center gap-2 text-sky-400 text-xs font-bold font-mono">
-              <i data-lucide="database" class="w-4 h-4"></i>
-              <span>1. Ingesta Multi-Fuente</span>
+        <!-- Fases del Proceso -->
+        <div class="space-y-3">
+          <h4 class="text-xs font-bold text-sky-400 uppercase tracking-wider font-mono">1. Proceso de Levantamiento Documental (Paso a Paso)</h4>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            
+            <div class="p-4 rounded-xl bg-[#04142b] border border-[#153b70] space-y-2">
+              <div class="flex items-center gap-2 text-sky-400 text-xs font-bold font-mono">
+                <span class="w-5 h-5 rounded-full bg-sky-500/20 flex items-center justify-center text-[11px]">1</span>
+                <span>Base LeyChile (BCN)</span>
+              </div>
+              <p class="text-xs text-zinc-300 leading-relaxed">
+                Extracción masiva desde el catálogo ontológico y endpoint SPARQL de la Biblioteca del Congreso Nacional. Se incorporaron <strong>5.881 normas históricas</strong> publicadas entre 1980 y 2026.
+              </p>
             </div>
-            <p class="text-xs text-zinc-400">
-              Integración de la API de LeyChile (BCN) y crawlers focalizados en portales de Transparencia Activa municipal con registro exhaustivo de URLs de origen.
-            </p>
-          </div>
 
-          <div class="p-4 rounded-xl bg-[#04142b] border border-[#153b70] space-y-2">
-            <div class="flex items-center gap-2 text-emerald-400 text-xs font-bold font-mono">
-              <i data-lucide="fingerprint" class="w-4 h-4"></i>
-              <span>2. Verificación Binaria SHA-256</span>
+            <div class="p-4 rounded-xl bg-[#04142b] border border-[#153b70] space-y-2">
+              <div class="flex items-center gap-2 text-emerald-400 text-xs font-bold font-mono">
+                <span class="w-5 h-5 rounded-full bg-emerald-500/20 flex items-center justify-center text-[11px]">2</span>
+                <span>Exploración Municipal Directa</span>
+              </div>
+              <p class="text-xs text-zinc-300 leading-relaxed">
+                Rastreo sistemático sobre los sitios web de 346 municipalidades y portales de Transparencia Activa (Ley N° 20.285) para rescatar ordenanzas aprobadas y sancionadas por decreto en el último quinquenio.
+              </p>
             </div>
-            <p class="text-xs text-zinc-400">
-              Cada documento municipal pasa por validación de cabecera <code class="text-emerald-300 font-mono text-[10px]">%PDF-</code> y cálculo inmutable de huella digital SHA-256 de 64 caracteres.
-            </p>
-          </div>
 
-          <div class="p-4 rounded-xl bg-[#04142b] border border-[#153b70] space-y-2">
-            <div class="flex items-center gap-2 text-amber-400 text-xs font-bold font-mono">
-              <i data-lucide="shield-alert" class="w-4 h-4"></i>
-              <span>3. Aislamiento de Cuarentena</span>
+            <div class="p-4 rounded-xl bg-[#04142b] border border-[#153b70] space-y-2">
+              <div class="flex items-center gap-2 text-amber-400 text-xs font-bold font-mono">
+                <span class="w-5 h-5 rounded-full bg-amber-500/20 flex items-center justify-center text-[11px]">3</span>
+                <span>Saneamiento & Honestidad Epistémica</span>
+              </div>
+              <p class="text-xs text-zinc-300 leading-relaxed">
+                Auditoría determinística de metadatos: se separan ordenanzas individuales de compilados refundidos. Si un documento no tiene fecha explícita, se rotula formalmente como <em>Sin Fecha (S/F)</em> sin inventar datos.
+              </p>
             </div>
-            <p class="text-xs text-zinc-400">
-              Política estricta: los registros referenciales de CPLT sin comprobante PDF directo o no resolubles se excluyen del catálogo público para evitar falsos positivos.
-            </p>
+
+            <div class="p-4 rounded-xl bg-[#04142b] border border-[#153b70] space-y-2">
+              <div class="flex items-center gap-2 text-purple-400 text-xs font-bold font-mono">
+                <span class="w-5 h-5 rounded-full bg-purple-500/20 flex items-center justify-center text-[11px]">4</span>
+                <span>Estructuración Abierta</span>
+              </div>
+              <p class="text-xs text-zinc-300 leading-relaxed">
+                Clasificación de cada norma en 9 materias de la gestión local y disponibilización en formatos abiertos estándar (CSV, Excel, SQLite y Markdown) para libre uso docente y de investigación.
+              </p>
+            </div>
+
           </div>
         </div>
 
+        <!-- Reglas Técnicas de Verificación e Integridad -->
+        <div class="space-y-3">
+          <h4 class="text-xs font-bold text-emerald-400 uppercase tracking-wider font-mono">2. Reglas Técnicas de Integridad Documental</h4>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            
+            <div class="p-4 rounded-xl bg-[#04142b] border border-[#153b70] space-y-2">
+              <div class="flex items-center gap-2 text-white font-bold text-xs">
+                <i data-lucide="link-2" class="w-4 h-4 text-sky-400"></i>
+                <span>Descarga Directa desde Fuente Oficial</span>
+              </div>
+              <p class="text-xs text-zinc-400 leading-relaxed">
+                Todo documento municipal cuenta con su enlace original hacia el servidor municipal correspondiente (dominios <code>.cl</code> oficiales) o el portal LeyChile.
+              </p>
+            </div>
+
+            <div class="p-4 rounded-xl bg-[#04142b] border border-[#153b70] space-y-2">
+              <div class="flex items-center gap-2 text-white font-bold text-xs">
+                <i data-lucide="fingerprint" class="w-4 h-4 text-emerald-400"></i>
+                <span>Comprobación de Integridad Técnica (Hash SHA-256)</span>
+              </div>
+              <p class="text-xs text-zinc-400 leading-relaxed">
+                A cada archivo PDF descargado se le calcula una huella digital única (hash SHA-256 de 64 caracteres). Esto permite certificar técnicamente que el documento no ha sufrido alteraciones ni modificaciones desde su captura.
+              </p>
+            </div>
+
+            <div class="p-4 rounded-xl bg-[#04142b] border border-[#153b70] space-y-2">
+              <div class="flex items-center gap-2 text-white font-bold text-xs">
+                <i data-lucide="shield-alert" class="w-4 h-4 text-amber-400"></i>
+                <span>Aislamiento en Cuarentena</span>
+              </div>
+              <p class="text-xs text-zinc-400 leading-relaxed">
+                Enlaces caídos, referencias textuales sin documento PDF resoluble o registros dudosos son aislados en cuarentena y excluidos del catálogo público para evitar publicar información no comprobable.
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Taxonomía -->
         <div class="p-4 rounded-xl bg-[#04142b] border border-[#153b70] space-y-3">
-          <h4 class="text-xs font-bold text-white uppercase tracking-wider font-mono">Taxonomía Regulatoria (9 Ejes Temáticos)</h4>
+          <h4 class="text-xs font-bold text-white uppercase tracking-wider font-mono">Taxonomía Regulatoria (9 Ejes Temáticos Municipales)</h4>
           <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2.5 text-xs text-zinc-300">
             <div class="flex items-center gap-2 p-2 rounded-lg bg-[#071f43]/70 border border-[#153b70]/60"><span class="w-2 h-2 rounded-full bg-amber-400 shrink-0"></span><span>💰 Derechos Municipales y Tarifas</span></div>
             <div class="flex items-center gap-2 p-2 rounded-lg bg-[#071f43]/70 border border-[#153b70]/60"><span class="w-2 h-2 rounded-full bg-sky-400 shrink-0"></span><span>🛒 Comercio, Alcoholes y Ferias</span></div>
@@ -885,8 +985,18 @@
             <div class="flex items-center gap-2 p-2 rounded-lg bg-[#071f43]/70 border border-[#153b70]/60"><span class="w-2 h-2 rounded-full bg-blue-400 shrink-0"></span><span>🗳️ Participación Ciudadana</span></div>
           </div>
         </div>
+
+        <!-- Nota de Alcance Jurídico -->
+        <div class="p-3.5 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-start gap-3 text-xs text-amber-200">
+          <i data-lucide="info" class="w-4 h-4 text-amber-400 shrink-0 mt-0.5"></i>
+          <p class="leading-relaxed">
+            <strong>Aviso de alcance jurídico:</strong> Esta plataforma es una herramienta académica, de investigación y referencia analítica. Para efectos legales, administrativos o judiciales, se debe solicitar el texto oficial vigente ante la Secretaría Municipal correspondiente a cada comuna.
+          </p>
+        </div>
+
       </div>
-    <!-- TAB CONTENT: CRÉDITOS & META COMUNITARIA -->
+    </section>
+    <!-- TAB CONTENT: CRÉDITOS & OBJETIVO CÍVICO -->
     <section id="tab-creditos" class="hidden space-y-6">
       
       <!-- Header de Créditos -->
@@ -909,7 +1019,7 @@
           </button>
         </div>
 
-        <!-- Indicador de Meta 346 -->
+        <!-- Indicador de Cobertura 346 -->
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 pt-2">
           <div class="p-3.5 rounded-xl bg-[#04142b] border border-[#153b70] space-y-1">
             <div class="text-[11px] text-zinc-400 font-medium">Cobertura Territorial Histórica</div>
@@ -1010,7 +1120,7 @@
               <div class="h-9 w-9 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center font-bold text-xs">AG</div>
               <div>
                 <div class="text-xs font-bold text-white">Antigravity AI Lab</div>
-                <div class="text-[10px] text-emerald-400">Minería & Verificación SHA-256</div>
+                <div class="text-[10px] text-emerald-400">Minería Documental & Verificación Técnica</div>
               </div>
             </div>
             <div class="p-3 rounded-lg bg-[#04142b] border border-amber-500/40 border-dashed flex items-center gap-3 bg-amber-500/5">
@@ -1050,30 +1160,30 @@
             <span class="text-sky-400 font-mono font-bold text-sm">Paso 2</span>
             <div class="font-bold text-white">Adjuntar el Archivo o Enlace</div>
             <p class="text-zinc-400 leading-relaxed text-[11px]">
-              Envía el PDF oficial con firma digital o el enlace directo desde Transparencia Activa CPLT o Diario Oficial.
+              Envía el PDF oficial o el enlace directo desde el portal municipal, Transparencia Activa CPLT o Diario Oficial.
             </p>
           </div>
           <div class="p-4 rounded-xl bg-[#04142b] border border-[#153b70] space-y-2">
             <span class="text-emerald-400 font-mono font-bold text-sm">Paso 3</span>
-            <div class="font-bold text-white">Validación Criptográfica</div>
+            <div class="font-bold text-white">Validación Documental</div>
             <p class="text-zinc-400 leading-relaxed text-[11px]">
-              Calculamos el hash inmutable SHA-256, se incorpora al Catastro Nacional y se acredita tu aporte en el Muro de Créditos.
+              Comprobamos la autenticidad técnica del archivo, se incorpora al Catastro Nacional y se acredita tu aporte en el Muro de Reconocimientos.
             </p>
           </div>
         </div>
 
         <div class="flex flex-wrap items-center gap-3 pt-2">
-          <a href="https://api.whatsapp.com/send?phone=56993098522&text=Hola%20Eduardo,%20quiero%20aportar%20una%20ordenanza%20municipal%20reciente%20para%20el%20Catastro%20P090." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs transition-all shadow-md">
-            <i data-lucide="message-circle" class="w-4 h-4"></i>
-            <span>Enviar por WhatsApp</span>
-          </a>
+          <button onclick="openBuzonModal('')" class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-bold text-xs transition-all shadow-md">
+            <i data-lucide="send" class="w-4 h-4"></i>
+            <span>Aportar Ordenanza al Buzón</span>
+          </button>
           <a href="mailto:evegat@uchile.cl?subject=%5BAporte%20Ordenanza%20P090%5D%20Nueva%20Ordenanza%20Comunal&body=Hola%20Eduardo,%0A%0AQuiero%20aportar%20la%20siguiente%20ordenanza%20para%20el%20Catastro%20Nacional:%0A-%20Comuna:%20%0A-%20N%C3%BAmero%20de%20Decreto%20y%20A%C3%B1o:%20%0A-%20Materia:%20%0A-%20Enlace%20o%20adjunto%20PDF:%20%0A-%20Mi%20nombre%20e%20instituci%C3%B3n%20para%20los%20cr%C3%A9ditos:%20%0A%0ASaludos," class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-[#153b70] hover:bg-[#1f5091] border border-[#1f5091] text-white font-bold text-xs transition-all shadow-md">
             <i data-lucide="mail" class="w-4 h-4 text-sky-400"></i>
-            <span>Enviar por Correo (evegat@uchile.cl)</span>
+            <span>Enviar por Correo Institucional (evegat@uchile.cl)</span>
           </a>
           <a href="https://github.com/evegat/catastro-ordenanzas-municipales/issues/new" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-[#04142b] hover:bg-[#071f43] border border-[#153b70] text-zinc-300 hover:text-white font-semibold text-xs transition-all">
             <i data-lucide="github" class="w-4 h-4"></i>
-            <span>Abrir Issue en GitHub</span>
+            <span>Abrir Aporte en GitHub</span>
           </a>
         </div>
       </div>
@@ -1136,10 +1246,10 @@
           <span>Transparencia & Ética</span>
         </h4>
         <p class="text-zinc-400 leading-relaxed text-[11px]">
-          Metodología <em>no-sampling</em> con verificación criptográfica SHA-256 inmutable. Licencia MIT de datos abiertos. Telemetría ética privada (Umami Analytics) sin almacenamiento de cookies ni datos personales.
+          Metodología abierta <em>no-sampling</em> con trazabilidad documental directa. Licencia MIT de datos abiertos. Telemetría ética privada (Umami Analytics) sin almacenamiento de cookies ni datos personales.
         </p>
         <div class="text-[10px] text-zinc-500 font-mono">
-          Actualización: Septiembre 2026 · 7.321 registros normativos · 346 comunas cubiertas
+          Actualización: Septiembre 2026 · 7.450 registros normativos · 346 comunas cubiertas
         </div>
       </div>
 
@@ -1313,7 +1423,7 @@
           const hasSha = o.verification && o.verification.sha256;
           const fuenteBadge = isBcn
             ? `<span class="px-2 py-0.5 rounded text-[10px] font-mono bg-blue-500/10 text-blue-400 border border-blue-500/30">BCN LeyChile</span>`
-            : `<span class="px-2 py-0.5 rounded text-[10px] font-mono bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">Portal Municipal${hasSha ? ' (SHA-256)' : ''}</span>`;
+            : `<span class="px-2 py-0.5 rounded text-[10px] font-mono bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">Portal Municipal Oficial</span>`;
 
           const item = document.createElement('div');
           item.className = 'p-3 rounded-xl bg-[#04142b]/90 border border-[#153b70] hover:border-sky-500/50 transition-all space-y-1.5';
@@ -1330,7 +1440,7 @@
             </div>
             <h4 class="text-xs font-bold text-white leading-snug">${o.titulo || 'Ordenanza Municipal'}</h4>
             <div class="flex items-center justify-between pt-1 text-[11px] font-mono">
-              <span class="text-zinc-400">${o.numero ? 'Decreto / N° ' + o.numero : 'Documento catalogado'}</span>
+              <span class="text-zinc-400">${o.numero === 'Compilado' ? 'Compilado Normativo' : (!o.numero || o.numero === 'S/N' ? 'Documento catalogado (S/N)' : 'Decreto / N° ' + o.numero)}</span>
               ${o.target_url ? `<a href="${o.target_url}" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 font-semibold flex items-center gap-1">Consultar documento fuente ↗</a>` : ''}
             </div>
           `;
@@ -1493,7 +1603,7 @@
             const hasSha = o.verification && o.verification.sha256;
             const fuenteBadge = isBcn
               ? `<span class="px-2 py-0.5 rounded text-[10px] font-mono bg-blue-500/10 text-blue-400 border border-blue-500/30">BCN LeyChile</span>`
-              : `<span class="px-2 py-0.5 rounded text-[10px] font-mono bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 flex items-center gap-1"><i data-lucide="shield-check" class="w-3 h-3"></i><span>Portal Municipal${hasSha ? ' (SHA-256)' : ''}</span></span>`;
+              : `<span class="px-2 py-0.5 rounded text-[10px] font-mono bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 flex items-center gap-1"><i data-lucide="shield-check" class="w-3 h-3"></i><span>Portal Municipal Oficial</span></span>`;
 
             item.innerHTML = `
               <div class="flex items-start justify-between gap-3">
@@ -1506,7 +1616,7 @@
               </div>
               <h4 class="text-xs font-bold text-white leading-snug">${o.titulo || 'Ordenanza Municipal'}</h4>
               <div class="flex items-center justify-between pt-1 text-[11px] font-mono">
-                <span class="text-zinc-400">${o.numero ? 'Decreto / N° ' + o.numero : 'Documento catalogado'}</span>
+                <span class="text-zinc-400">${o.numero === 'Compilado' ? 'Compilado Normativo' : (!o.numero || o.numero === 'S/N' ? 'Documento catalogado (S/N)' : 'Decreto / N° ' + o.numero)}</span>
                 ${o.target_url ? `<a href="${o.target_url}" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 font-semibold flex items-center gap-1">Consultar documento fuente ↗</a>` : ''}
               </div>
             `;

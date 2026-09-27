@@ -1,11 +1,11 @@
 import json
 import sqlite3
-import os
+import argparse
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 
-REPO_ROOT = Path(r"D:\Proyectos\P090 - Catastro Ordenanzas Municipales BCN")
+REPO_ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = REPO_ROOT / "data"
 DASHBOARD_DIR = REPO_ROOT / "dashboard"
 DOCS_DIR = REPO_ROOT / "docs"
@@ -35,7 +35,7 @@ def inspect_status_data(path: Path) -> dict:
             if isinstance(v, dict) and v.get("sha256"):
                 sha256_records += 1
 
-    low_density = [item for item in densidad_comunas if item[1] <= 3]
+    low_density = [item for item in densidad_comunas if 1 <= item[1] <= 3]
     one_norm = [item for item in densidad_comunas if item[1] == 1]
     two_norms = [item for item in densidad_comunas if item[1] == 2]
     three_norms = [item for item in densidad_comunas if item[1] == 3]
@@ -62,7 +62,7 @@ def inspect_municipal_verified(path: Path) -> dict:
     payload = json.loads(path.read_text(encoding="utf-8"))
     records = payload.get("records", [])
     comunas = set(r.get("comuna") for r in records)
-    shas = set(r.get("verification", {}).get("sha256") for r in records if r.get("verification"))
+    shas = {r["verification"]["sha256"] for r in records if r.get("verification", {}).get("sha256")}
     return {
         "generated_at": payload.get("generated_at"),
         "declared_count": payload.get("count"),
@@ -74,12 +74,16 @@ def inspect_municipal_verified(path: Path) -> dict:
 def inspect_physical_pdfs(path: Path) -> dict:
     if not path.exists():
         return {"count": 0, "files": []}
-    files = list(path.glob("*"))
+    files = sorted(path.rglob("*.pdf"))
     items = []
     for f in files:
-        if f.is_file():
+        if not f.is_file():
+            continue
+        with f.open("rb") as stream:
+            valid_pdf = stream.read(5) == b"%PDF-"
+        if valid_pdf:
             items.append({
-                "filename": f.name,
+                "filename": f.relative_to(path).as_posix(),
                 "bytes": f.stat().st_size,
             })
     return {
@@ -100,7 +104,7 @@ def inspect_datasets(path: Path) -> dict:
 
     db_file = path / "catastro_ordenanzas.db"
     if db_file.exists():
-        conn = sqlite3.connect(db_file)
+        conn = sqlite3.connect(db_file.resolve().as_uri() + "?mode=ro", uri=True)
         cur = conn.cursor()
         cur.execute("SELECT name FROM sqlite_master WHERE type='table'")
         tables = [t[0] for t in cur.fetchall()]
@@ -117,113 +121,73 @@ def inspect_datasets(path: Path) -> dict:
     return result
 
 def run():
+    parser = argparse.ArgumentParser(description="Inventario local; no acredita publicación ni vigencia jurídica.")
+    parser.add_argument("--datasets-dir", type=Path, default=DATASETS_DIR)
+    parser.add_argument("--output-dir", type=Path, default=REPO_ROOT)
+    args = parser.parse_args()
     sd = inspect_status_data(DASHBOARD_DIR / "status_data.json")
     mv = inspect_municipal_verified(DATA_DIR / "municipal_verified_records.json")
+    if "error" in sd or "error" in mv:
+        raise ValueError(f"Fuentes requeridas ausentes: {sd.get('error')}, {mv.get('error')}")
     pdfs = inspect_physical_pdfs(DATA_DIR / "official_pdfs")
-    ds = inspect_datasets(DATASETS_DIR)
-
-    manifest = {
-        "task_id": "P090-20260908-plan-publico-02",
-        "generated_at": datetime.now(timezone.utc).isoformat(),
-        "status_data": sd,
-        "municipal_verified": mv,
-        "physical_pdfs": pdfs,
-        "datasets_external": ds,
-        "conclusions": {
-            "canonical_total_records": 7226,
-            "bcn_records": 5881,
-            "municipal_verified_remote_records": 1345,
-            "physical_local_pdfs_count": pdfs["count"],
-            "physical_local_text_files_count": ds.get("bcn_textos_count", 0),
-            "territorial_communes_total": 346,
-            "territorial_communes_represented": 346,
-            "critical_gap_for_rag": (
-                "El catastro público referencia 7.226 normas verificadas (1.345 con SHA-256 en origen y 5.881 BCN), "
-                "pero en almacenamiento local solo existen 10 binarios PDF y 19 extracciones de texto. "
-                "Para la Fase 4 (RAG) se requiere un pipeline controlado de descarga e ingesta de texto a demanda "
-                "iniciando con el lote piloto de 50-100 documentos (Paquete 05)."
-            ),
-        },
+    ds = inspect_datasets(args.datasets_dir)
+    snapshot = json.loads((DASHBOARD_DIR / "status_data.json").read_text(encoding="utf-8-sig"))
+    represented = sum(bool(c.get("ordenanzas")) for c in snapshot["comunas"])
+    total = sd["total_records_in_comunas"]
+    municipal = sum(sd["fuentes_desglose"].get(source, 0) for source in
+                    ("Municipalidad", "Diario Oficial / BCN", "Diario Oficial", "BCN / LeyChile"))
+    bcn = sd["fuentes_desglose"].get("BCN", 0)
+    discrepancies = []
+    if total != bcn + municipal:
+        discrepancies.append("Hay fuentes sin clasificación en el contrato del pipeline")
+    expected = {"total_ordenanzas": total, "comunas_con_datos": represented,
+                "total_comunas": sd["total_comunas"], "ordenanzas_bcn": bcn,
+                "ordenanzas_municipales_verificadas": municipal}
+    for key, actual in expected.items():
+        if sd["declared_metrics"].get(key) != actual:
+            discrepancies.append(f"{key}: declarado {sd['declared_metrics'].get(key)}, contado {actual}")
+    if municipal != mv["actual_records_count"]:
+        discrepancies.append("El total municipal del snapshot difiere del registro municipal")
+    markdown_count = sum(1 for p in (DATA_DIR / "markdown_corpus").rglob("*.md") if p.is_file())
+    conclusions = {
+        "canonical_total_records": total, "bcn_records": bcn,
+        "municipal_verified_remote_records": municipal,
+        "physical_local_pdfs_count": pdfs["count"],
+        "physical_local_text_files_count": ds.get("bcn_textos_count", 0),
+        "local_markdown_files_count": markdown_count,
+        "territorial_communes_total": sd["total_comunas"],
+        "territorial_communes_represented": represented,
+        "discrepancies": discrepancies,
+        "critical_gap_for_rag": "Los recuentos físicos no prueban texto completo, calidad de extracción, citas ni funcionamiento de un asistente. Se requiere validar el corpus y el piloto documental.",
     }
+    manifest = {"task_id": "P090-20260920-cierre", "generated_at": datetime.now(timezone.utc).isoformat(),
+                "status_data": sd, "municipal_verified": mv, "physical_pdfs": pdfs,
+                "datasets_external": ds, "conclusions": conclusions}
+    for folder in ("data", "docs"):
+        (args.output_dir / folder).mkdir(parents=True, exist_ok=True)
+    (args.output_dir / "data/document_inventory_manifest.json").write_text(
+        json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    lines = ["# Inventario documental y conciliación de cifras — P090", "",
+             "Task ID: `P090-20260920-cierre`. Corte UTC: " + manifest["generated_at"], "",
+             "Inspección local. No verifica disponibilidad pública, URLs remotas, vigencia, exhaustividad ni igualdad de exportaciones.", "",
+             "| Medida | Recuento |", "| --- | ---: |",
+             f"| Registros del snapshot | {total} |", f"| BCN (fuente BCN del pipeline) | {bcn} |",
+             f"| Municipales con verificación registrada | {municipal} |",
+             f"| Comunas representadas / incluidas | {represented} / {sd['total_comunas']} |",
+             f"| PDF con cabecera válida en data/official_pdfs | {pdfs['count']} |",
+             f"| Archivos Markdown locales (calidad no validada) | {markdown_count} |",
+             f"| Textos externos declarados por inspección | {ds.get('bcn_textos_count', 0)} |", "",
+             "## Conciliación", "", "La categoría municipal conserva el contrato del pipeline: Municipalidad, Diario Oficial / BCN, Diario Oficial y BCN / LeyChile. El desglose literal de fuentes está en el manifiesto.", "", *(discrepancies or ["Sin diferencias en los recuentos contrastados."]), "",
+             "## Comunas con pocos registros", ""]
+    for n in (1, 2, 3):
+        lines.append(f"- {n} registros ({sd[f'comunas_{n}_norma_count' if n == 1 else f'comunas_{n}_normas_count']} comunas): " + ", ".join(sd[f"comunas_{n}_norma" if n == 1 else f"comunas_{n}_normas"]))
+    lines += ["", "## Límites documentales", "", conclusions["critical_gap_for_rag"], "",
+              "Directorio externo inspeccionado: `" + str(args.datasets_dir) + "`.",
+              "Presencia territorial no equivale a exhaustividad. Los originales se conservan."]
+    (args.output_dir / "docs/INVENTARIO-DOCUMENTAL-P090.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    print(json.dumps(conclusions, ensure_ascii=False))
+    return 1 if discrepancies else 0
 
-    # Escribir manifiesto JSON en data/
-    out_json = DATA_DIR / "document_inventory_manifest.json"
-    out_json.write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"[OK] Manifiesto guardado en: {out_json}")
-
-    # Generar script reproducible en src/
-    src_script = SRC_DIR / "generate_document_inventory.py"
-    # Copiar contenido de este script hacia src
-    this_code = Path(__file__).read_text(encoding="utf-8")
-    src_script.write_text(this_code, encoding="utf-8")
-    print(f"[OK] Script reproducible guardado en: {src_script}")
-
-    # Generar reporte Markdown en docs/
-    out_md = DOCS_DIR / "INVENTARIO-DOCUMENTAL-P090.md"
-    file_list_str = "\n".join(f"- `{f['filename']}` ({f['bytes']:,} bytes)".replace(",", ".") for f in pdfs["files"])
-    low_density_summary = f"- **1 norma (5 comunas):** {', '.join(sd['comunas_1_norma'])}\n- **2 normas (10 comunas):** {', '.join(sd['comunas_2_normas'])}\n- **3 normas (6 comunas):** {', '.join(sd['comunas_3_normas'])}"
-
-    md_content = f"""# Inventario Documental y Conciliación de Cifras — P090
-
-- **Task ID:** `P090-20260908-plan-publico-02`
-- **Fecha de corte:** {manifest["generated_at"][:10]}
-- **Estado:** Completado sin LLM mediante inspección física y sintáctica determinista.
-
----
-
-## 1. Resumen Ejecutivo de Cifras Canónicas
-
-| Dimensión | Cifra Canónica Observada | Estado de Evidencia |
-| :--- | :--- | :--- |
-| **Total registros normativos públicos** | **7.226** | Publicados en `dashboard/status_data.json` y descargas CSV/XLSX/ZIP. |
-| **Registros BCN / LeyChile** | **5.881** | Extracción SPARQL / LeyChile disponible en catálogo. |
-| **Registros Municipales Verificados** | **1.345** | Validados con SHA-256, HTTP 200 y HTTPS oficial. |
-| **Cobertura territorial comunal** | **346 de 346 (100%)** | Todas las comunas tienen $\\ge 1$ registro normativo. |
-| **Comunas con 1 sola norma** | **5 comunas** | Pencahue, Hualpén, Cholchol, O'Higgins y Antártica. |
-| **Comunas de baja densidad (1 a 3 normas)**| **21 comunas** | 5 con 1 norma, 10 con 2 normas y 6 con 3 normas. |
-| **Comunas con acervo denso (> 3 normas)** | **325 comunas (93,9%)** | Densidad normativa promedio de ~21 ordenanzas por comuna. |
-
-> [!NOTE]
-> **Nota de conciliación con el README y Bitácora:**
-> En versiones previas de la documentación figuraba la cifra de **7.186** registros (5.881 BCN + 1.305 municipales). Tras la incorporación final de 40 ordenanzas municipales adicionales validadas en `municipal_verified_records.json`, la cifra canónica real y efectiva del snapshot público es **7.226 registros** (5.881 BCN + 1.345 municipales).
-
----
-
-## 2. Inventario de Binarios y Almacenamiento Local vs Remoto
-
-| Activo | Ubicación | Cantidad | Tipo de Contenido |
-| :--- | :--- | :--- | :--- |
-| **PDFs Físicos en Repositorio** | `data/official_pdfs/` | **10 archivos** | Binarios PDF descargados localmente. |
-| **Textos JSON de BCN** | `D:\\Datasets\\P090 - BCN Ordenanzas municipales\\bcn_textos\\` | **19 archivos** | Extracciones de texto estructurado de normas BCN históricas. |
-| **Base SQLite Histórica** | `D:\\Datasets\\P090 - BCN Ordenanzas municipales\\catastro_ordenanzas.db` | **1.632 filas** | Base relacional histórica de la Fase 1 (ordenanzas BCN iniciales). |
-| **Referencias con Hash Remoto** | `data/municipal_verified_records.json` | **1.345 registros** | 1.345 URLs HTTPS oficiales con SHA-256 en origen (215 comunas). |
-| **Referencias BCN Remotas** | `dashboard/status_data.json` | **5.881 registros** | Enlaces canónicos a LeyChile / BCN. |
-
----
-
-## 3. Detalle Territorial de Comunas con Brecha Normativa (1–3 normas)
-
-{low_density_summary}
-
----
-
-## 4. Diagnóstico de Brecha para la Fase 4 (Asistente RAG)
-
-1. **Distinción entre Catastro y Corpus Textual RAG:**
-   El catastro actual es un **catálogo referencial validado** (sabe dónde está cada ordenanza, su fecha, materia, número, URL y huella digital SHA-256). No es un almacén de texto completo descargado localmente.
-2. **Requisito para RAG:**
-   No se deben descargar las 7.226 normas masivamente de forma indiscriminada. El plan estipula iniciar con el **Paquete 05 (Lote piloto de 50 a 100 documentos)** para validar el pipeline de extracción por página, OCR selectivo, chunking y evaluación de respuestas antes de cualquier escalamiento.
-
----
-
-## 5. Manifiesto de Archivos Físicos Locales en `data/official_pdfs/`
-
-```text
-{file_list_str}
-```
-"""
-    out_md.write_text(md_content.strip() + "\n", encoding="utf-8")
-    print(f"[OK] Reporte Markdown guardado en: {out_md}")
 
 if __name__ == "__main__":
-    run()
+    raise SystemExit(run())
