@@ -85,6 +85,15 @@
       outline-offset: 2px !important;
     }
 
+    /* Buscadores integrados en cápsula: el foco lo maneja el contenedor con focus-within */
+    #hero-search-input,
+    #hero-search-input:focus,
+    #hero-search-input:focus-visible {
+      outline: none !important;
+      outline-offset: 0 !important;
+      box-shadow: none !important;
+    }
+
     /* Soporte Modo Claro (Light Theme) */
     html.light body {
       background-color: #f8fafc !important;
@@ -210,9 +219,9 @@
           <i data-lucide="linkedin" class="w-3.5 h-3.5"></i>
           <span class="hidden sm:inline">LinkedIn</span>
         </a>
-        <button onclick="switchTab('creditos')" aria-label="Ver avance de cobertura nacional y créditos" title="Avance de Cobertura 100% y Créditos" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-amber-500/20 hover:bg-amber-500/30 border border-amber-500/40 text-amber-300 text-xs font-semibold transition-all shadow-sm">
-          <i data-lucide="award" class="w-3.5 h-3.5 text-amber-400"></i>
-          <span>Objetivo 100% & Créditos</span>
+        <button onclick="switchTab('creditos')" aria-label="Ver alcance del catastro, fuentes y proyección" title="Alcance del Catastro: Lo que llevamos vs. lo que proyectamos" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-sky-500/20 hover:bg-sky-500/30 border border-sky-400/40 text-sky-200 text-xs font-semibold transition-all shadow-sm">
+          <i data-lucide="compass" class="w-3.5 h-3.5 text-sky-400"></i>
+          <span>Alcance & Fuentes</span>
         </button>
         <button onclick="openDownloadRequestModal('xlsx')" aria-label="Solicitar planilla Excel con datos consolidados" data-umami-event="solicitar_excel" data-umami-event-location="header" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-sky-600 hover:bg-sky-500 text-white text-xs font-semibold transition-all shadow-sm">
           <i data-lucide="file-spreadsheet" class="w-3.5 h-3.5"></i>
@@ -245,7 +254,7 @@
 
       <!-- MAIN SEARCH BAR ("Google Municipal") -->
       <div class="relative max-w-2xl mx-auto">
-        <div class="relative flex items-center bg-[#071f43] border-2 border-sky-500/50 hover:border-sky-400 focus-within:border-sky-400 rounded-2xl shadow-2xl transition-all p-1.5 gap-2">
+        <div class="relative flex items-center bg-[#071f43] border-2 border-sky-500/50 hover:border-sky-400 focus-within:border-sky-400 focus-within:ring-2 focus-within:ring-sky-400/40 rounded-2xl shadow-2xl transition-all p-1.5 gap-2">
           <i data-lucide="search" class="w-5 h-5 text-sky-400 ml-3 shrink-0"></i>
           <input 
             type="text" 
@@ -253,7 +262,7 @@
             placeholder="Busca por comuna (ej. Maipú, Viña del Mar, Temuco) o materia (ej. Ruidos, Aseo, Permisos)..." 
             oninput="handleHeroSearch(event)"
             onkeydown="handleHeroSearchKey(event)"
-            class="flex-1 min-w-0 bg-transparent border-0 px-2.5 py-2.5 text-xs sm:text-sm text-white placeholder-zinc-400 focus:outline-none"
+            class="flex-1 min-w-0 bg-transparent border-0 px-2.5 py-2.5 text-xs sm:text-sm text-white placeholder-zinc-400 focus:outline-none focus:ring-0"
           />
           <button onclick="executeHeroSearch()" data-umami-event="buscar_ordenanza" data-umami-event-location="hero" class="px-4 sm:px-5 py-2 sm:py-2.5 bg-sky-600 hover:bg-sky-500 text-white rounded-xl text-xs font-semibold transition-colors shrink-0 flex items-center gap-1.5 shadow-sm">
             <span>Buscar</span>
@@ -364,42 +373,42 @@
   <!-- MAIN CONTAINER WITH TABS -->
   <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex-1 w-full space-y-6">
 
-    <!-- BANNER: OBJETIVO VISIBLE DE COBERTURA NACIONAL 100% -->
-    <section class="bg-gradient-to-r from-[#071f43] via-[#0a2c5c] to-[#071f43] border border-amber-500/40 rounded-2xl p-5 shadow-xl relative overflow-hidden">
-      <div class="absolute -right-10 -bottom-10 w-44 h-44 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
+    <!-- BANNER: ALCANCE DE COBERTURA Y PROYECCIÓN -->
+    <section class="bg-gradient-to-r from-[#071f43] via-[#0a2c5c] to-[#071f43] border border-sky-500/30 rounded-2xl p-5 shadow-xl relative overflow-hidden">
+      <div class="absolute -right-10 -bottom-10 w-44 h-44 bg-sky-500/10 rounded-full blur-3xl pointer-events-none"></div>
       <div class="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-5 relative z-10">
         
         <div class="space-y-2 max-w-2xl">
           <div class="flex items-center gap-2">
-            <span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[11px] font-bold tracking-wide uppercase bg-amber-500/20 border border-amber-500/40 text-amber-300">
-              <i data-lucide="target" class="w-3.5 h-3.5 text-amber-400"></i>
-              Campaña Cívica: Cobertura Nacional 100%
+            <span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[11px] font-bold tracking-wide uppercase bg-sky-500/20 border border-sky-400/40 text-sky-300">
+              <i data-lucide="compass" class="w-3.5 h-3.5 text-sky-400"></i>
+              Alcance del Catastro · Quinquenio 2021–2026
             </span>
-            <span class="text-xs text-zinc-400 font-mono">Quinquenio 2021–2026</span>
+            <span class="text-xs text-zinc-400 font-mono">Estado Actual y Proyección</span>
           </div>
           <h3 class="text-lg sm:text-xl font-extrabold text-white tracking-tight">
-            Completando las Ordenanzas Municipales Recientes de todo el País
+            Alcance del Catastro: Lo que llevamos y hacia dónde vamos
           </h3>
           <p class="text-xs text-zinc-300 leading-relaxed">
-            Hemos alcanzado <strong class="text-emerald-400 font-bold">243 de 346 comunas (70,2%)</strong> con ordenanzas vigentes formalizadas por decreto y respaldadas desde fuentes oficiales. En la <strong>Región Metropolitana alcanzamos el 100% (52/52)</strong>. ¡Faltan <strong>103 comunas</strong> para completar Chile entero!
+            Hemos consolidado <strong class="text-emerald-400 font-bold">243 de 346 comunas (70,2%)</strong> con ordenanzas vigentes formalizadas por decreto y respaldadas desde fuentes oficiales (con la <strong>Región Metropolitana al 100%</strong>). Nuestra proyección es completar las <strong>103 comunas restantes</strong> y las 5 ordenanzas obligatorias de todo Chile.
           </p>
         </div>
 
         <div class="w-full lg:w-72 bg-[#04142b]/80 border border-[#153b70] rounded-xl p-3.5 space-y-2.5 shrink-0">
           <div class="flex justify-between items-center text-xs">
-            <span class="text-zinc-400 font-medium">Progreso Quinquenal:</span>
-            <span class="font-bold text-amber-300 font-mono">243 / 346 (70,2%)</span>
+            <span class="text-zinc-400 font-medium">Alcance Quinquenal:</span>
+            <span class="font-bold text-sky-300 font-mono">243 / 346 (70,2%)</span>
           </div>
           <div class="w-full bg-[#071f43] rounded-full h-3 overflow-hidden p-0.5 border border-[#153b70]">
             <div class="bg-gradient-to-r from-emerald-500 via-sky-400 to-amber-400 h-full rounded-full transition-all duration-1000 shadow-sm" style="width: 70.2%;"></div>
           </div>
           <div class="flex items-center justify-between text-[11px] text-zinc-400 font-mono">
             <span>RM: <strong class="text-emerald-400">100% (52/52)</strong></span>
-            <span>Objetivo Nacional: <strong class="text-sky-300">346 comunas</strong></span>
+            <span>Meta País: <strong class="text-sky-300">346 comunas</strong></span>
           </div>
-          <button onclick="switchTab('creditos')" class="w-full mt-1 px-3 py-2 rounded-lg bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-bold text-xs transition-all shadow-md flex items-center justify-center gap-1.5">
-            <i data-lucide="award" class="w-4 h-4"></i>
-            <span>Ver Créditos & Aportar Comuna</span>
+          <button onclick="switchTab('creditos')" class="w-full mt-1 px-3 py-2 rounded-lg bg-gradient-to-r from-sky-600 to-sky-500 hover:from-sky-500 hover:to-sky-400 text-white font-bold text-xs transition-all shadow-md flex items-center justify-center gap-1.5">
+            <i data-lucide="compass" class="w-4 h-4"></i>
+            <span>Ver Alcance & Cómo Aportar</span>
           </button>
         </div>
 
@@ -428,9 +437,9 @@
         <i data-lucide="download" class="w-4 h-4 text-amber-400"></i>
         <span>Descargas (Excel / CSV / ZIP)</span>
       </button>
-      <button onclick="switchTab('creditos')" id="tab-btn-creditos" class="pb-3 text-sm font-medium border-b-2 border-transparent text-amber-400 hover:text-amber-300 flex items-center gap-2 shrink-0 transition-colors">
-        <i data-lucide="award" class="w-4 h-4 text-amber-400"></i>
-        <span>Objetivo 100% & Créditos</span>
+      <button onclick="switchTab('creditos')" id="tab-btn-creditos" class="pb-3 text-sm font-medium border-b-2 border-transparent text-sky-400 hover:text-sky-300 flex items-center gap-2 shrink-0 transition-colors">
+        <i data-lucide="compass" class="w-4 h-4 text-sky-400"></i>
+        <span>Alcance & Fuentes</span>
       </button>
       <button onclick="switchTab('metodologia')" id="tab-btn-metodologia" class="pb-3 text-sm font-medium border-b-2 border-transparent text-zinc-400 hover:text-zinc-200 flex items-center gap-2 shrink-0 transition-colors sm:ml-auto">
         <i data-lucide="file-text" class="w-4 h-4 text-zinc-400"></i>
@@ -996,24 +1005,24 @@
 
       </div>
     </section>
-    <!-- TAB CONTENT: CRÉDITOS & OBJETIVO CÍVICO -->
+    <!-- TAB CONTENT: ALCANCE, FUENTES & CRÉDITOS -->
     <section id="tab-creditos" class="hidden space-y-6">
       
-      <!-- Header de Créditos -->
-      <div class="bg-[#071f43]/80 p-6 border border-amber-500/30 rounded-2xl space-y-4">
+      <!-- Header de Alcance -->
+      <div class="bg-[#071f43]/80 p-6 border border-sky-500/30 rounded-2xl space-y-4">
         <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
           <div class="space-y-1">
             <div class="flex items-center gap-2">
-              <span class="p-2 rounded-xl bg-amber-500/10 text-amber-400 border border-amber-500/30">
-                <i data-lucide="award" class="w-5 h-5"></i>
+              <span class="p-2 rounded-xl bg-sky-500/10 text-sky-400 border border-sky-400/30">
+                <i data-lucide="compass" class="w-5 h-5"></i>
               </span>
-              <h3 class="text-xl font-bold text-white tracking-tight">Créditos, Fuentes Oficiales & Campaña 100% Nacional</h3>
+              <h3 class="text-xl font-bold text-white tracking-tight">Alcance del Catastro, Fuentes Oficiales & Reconocimientos</h3>
             </div>
             <p class="text-xs text-zinc-300">
-              Iniciativa de interés público para transparentar, estructurar y disponibilizar la regulación local de Chile.
+              Iniciativa de interés público y datos abiertos para transparentar, estructurar y democratizar la regulación municipal en Chile.
             </p>
           </div>
-          <button onclick="openBuzonModal()" class="px-4 py-2.5 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-bold text-xs flex items-center justify-center gap-2 transition-all shadow-lg shrink-0">
+          <button onclick="openBuzonModal()" class="px-4 py-2.5 rounded-xl bg-gradient-to-r from-sky-500 to-sky-600 hover:from-sky-400 hover:to-sky-500 text-white font-bold text-xs flex items-center justify-center gap-2 transition-all shadow-lg shrink-0">
             <i data-lucide="send" class="w-4 h-4"></i>
             <span>Aportar Ordenanza de mi Comuna</span>
           </button>
@@ -1028,8 +1037,8 @@
           </div>
           <div class="p-3.5 rounded-xl bg-[#04142b] border border-[#153b70] space-y-1">
             <div class="text-[11px] text-zinc-400 font-medium">Cobertura Quinquenal (2021–2026)</div>
-            <div class="text-xl font-extrabold text-amber-300 font-mono">243 / 346</div>
-            <div class="text-[10px] text-amber-400 font-semibold">70,2% del territorio nacional</div>
+            <div class="text-xl font-extrabold text-sky-300 font-mono">243 / 346</div>
+            <div class="text-[10px] text-sky-400 font-semibold">70,2% del territorio nacional</div>
           </div>
           <div class="p-3.5 rounded-xl bg-[#04142b] border border-[#153b70] space-y-1">
             <div class="text-[11px] text-zinc-400 font-medium">Región Metropolitana Quinquenal</div>
@@ -1038,12 +1047,83 @@
           </div>
           <div class="p-3.5 rounded-xl bg-[#04142b] border border-[#153b70] space-y-1">
             <div class="text-[11px] text-zinc-400 font-medium">Brecha por Concluir</div>
-            <div class="text-xl font-extrabold text-rose-400 font-mono">103 Comunas</div>
+            <div class="text-xl font-extrabold text-amber-400 font-mono">103 Comunas</div>
             <div class="text-[10px] text-zinc-400 font-semibold">
-              <a href="descargas/AUDITORIA_128_COMUNAS.md" target="_blank" class="text-sky-400 hover:underline">Ver informe de auditoría</a>
+              <a href="descargas/AUDITORIA_128_COMUNAS.md" target="_blank" class="text-sky-400 hover:underline">Ver auditoría de brecha</a>
             </div>
           </div>
         </div>
+      </div>
+
+      <!-- SECCIÓN COMPARATIVA: LO QUE LLEVAMOS VS LO QUE NOS GUSTARÍA LLEVAR -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        
+        <!-- Tarjeta 1: Lo que llevamos hoy -->
+        <div class="p-5 rounded-2xl bg-[#071f43]/70 border border-emerald-500/30 space-y-3">
+          <div class="flex items-center gap-2">
+            <span class="p-2 rounded-xl bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+              <i data-lucide="check-circle-2" class="w-5 h-5"></i>
+            </span>
+            <div>
+              <h4 class="text-sm font-bold text-white">Lo que llevamos hoy (Alcance Actual)</h4>
+              <p class="text-[11px] text-emerald-400/90 font-mono">Datos auditados y consolidados</p>
+            </div>
+          </div>
+          <ul class="text-xs text-zinc-300 space-y-2.5 pt-1">
+            <li class="flex items-start gap-2">
+              <i data-lucide="check" class="w-4 h-4 text-emerald-400 shrink-0 mt-0.5"></i>
+              <span><strong>7.450 documentos oficiales catalogados:</strong> 5.881 de BCN LeyChile + 1.569 normativas respaldadas desde portales municipales oficiales.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i data-lucide="check" class="w-4 h-4 text-emerald-400 shrink-0 mt-0.5"></i>
+              <span><strong>346 de 346 comunas (100%):</strong> Cobertura territorial histórica asegurada en todo Chile.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i data-lucide="check" class="w-4 h-4 text-emerald-400 shrink-0 mt-0.5"></i>
+              <span><strong>243 comunas con normas recientes (70,2%):</strong> Normativa vigente del quinquenio 2021–2026 formalizada mediante decreto alcaldicio.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i data-lucide="check" class="w-4 h-4 text-emerald-400 shrink-0 mt-0.5"></i>
+              <span><strong>Región Metropolitana al 100%:</strong> Las 52 comunas de la capital cuentan con ordenanza en el último quinquenio.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i data-lucide="check" class="w-4 h-4 text-emerald-400 shrink-0 mt-0.5"></i>
+              <span><strong>Integridad criptográfica SHA-256:</strong> Cada PDF descargado tiene hash inmutable y trazabilidad origen.</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Tarjeta 2: Lo que nos gustaría llevar -->
+        <div class="p-5 rounded-2xl bg-[#071f43]/70 border border-sky-500/30 space-y-3">
+          <div class="flex items-center gap-2">
+            <span class="p-2 rounded-xl bg-sky-500/10 text-sky-400 border border-sky-500/20">
+              <i data-lucide="compass" class="w-5 h-5"></i>
+            </span>
+            <div>
+              <h4 class="text-sm font-bold text-white">Lo que nos gustaría llevar (Proyección y Desafío)</h4>
+              <p class="text-[11px] text-sky-400/90 font-mono">Hoja de ruta colaborativa</p>
+            </div>
+          </div>
+          <ul class="text-xs text-zinc-300 space-y-2.5 pt-1">
+            <li class="flex items-start gap-2">
+              <i data-lucide="target" class="w-4 h-4 text-sky-400 shrink-0 mt-0.5"></i>
+              <span><strong>Completar las 103 comunas restantes (100% quinquenal):</strong> Rescatar la normativa reciente de municipios rurales o con brecha digital mediante solicitudes de información y colaboración local.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i data-lucide="target" class="w-4 h-4 text-sky-400 shrink-0 mt-0.5"></i>
+              <span><strong>Canasta básica de 5 ordenanzas por comuna:</strong> Garantizar que cada municipio cuente con sus normas obligatorias: Derechos, Aseo/Medio Ambiente, Convivencia/Ruidos, Mascotas y Participación.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i data-lucide="target" class="w-4 h-4 text-sky-400 shrink-0 mt-0.5"></i>
+              <span><strong>Articulado normativo íntegro 100% digitalizado:</strong> Procesamiento OCR y parseo Markdown para buscar artículo por artículo sin abrir PDFs pesados.</span>
+            </li>
+            <li class="flex items-start gap-2">
+              <i data-lucide="target" class="w-4 h-4 text-sky-400 shrink-0 mt-0.5"></i>
+              <span><strong>Red cívica con secretarios municipales y academia:</strong> Un flujo permanente de actualización colaborativa para que ninguna ordenanza nueva quede oculta.</span>
+            </li>
+          </ul>
+        </div>
+
       </div>
 
       <!-- Fuentes Institucionales -->
