@@ -156,12 +156,12 @@ def sanitize_record(r: dict, pdf_by_sha: dict[str, Path]) -> dict:
     # -------------------------------------------------------------
     fecha = orig_fecha
 
-    # Caso Cerro Navia Compilado-Ordenanzas-2.pdf
+    # Caso Cerro Navia Compilado-Ordenanzas-2.pdf (Publicación Diciembre 2024 sin día exacto en carátula)
     if "Compilado-Ordenanzas-2" in fname or (comuna.upper() == "CERRO NAVIA" and is_compilado):
-        fecha = "2024-12-01"
-    # Caso San Nicolás DA2020-2098.pdf
+        fecha = "2024-12"
+    # Caso San Nicolás DA2020-2098.pdf (Decreto año 2020 sin día acreditado)
     elif "DA2020-2098" in fname:
-        fecha = "2020-12-31"  # Anio 2020 decreto alcaldicio
+        fecha = "2020"
     # Si tenemos fecha confirmada desde el PDF digital:
     elif pdf_info.get("fecha_pdf"):
         fecha = pdf_info["fecha_pdf"]

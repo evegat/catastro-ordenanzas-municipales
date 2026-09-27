@@ -1,5 +1,5 @@
 // Asistente Jurídico Municipal P090 - Motor de Búsqueda y Consulta Normativa Trazable
-// Consulta en tiempo real sobre 7.321 registros normativos catalogados de Chile (346 comunas)
+// Consulta en tiempo real sobre 7.450 registros normativos catalogados de Chile (346 comunas)
 // Compatible con Umami Analytics y 100% ejecución local en el navegador del usuario.
 
 (function() {
@@ -205,7 +205,7 @@ ${resultados.map(r => `• **${escapeHtml(r.comuna)}** (${r.fecha ? r.fecha.subs
 
     // Fallback sobrio y verídico
     return `
-No encontré un registro exacto para tu consulta en las 7.321 ordenanzas catalogadas.
+No encontré un registro exacto para tu consulta en las 7.450 ordenanzas catalogadas.
 
 Puedes:
 1. Preguntar por una **comuna específica** (ej: "¿Qué ordenanzas tiene Arica?").
@@ -306,7 +306,7 @@ Puedes:
             <span>Asistente Jurídico Municipal P090</span>
           </div>
           <p class="text-[11px] leading-relaxed text-zinc-300">
-            ¡Hola! Soy tu asistente de consulta normativa sobre las <strong>7.321 ordenanzas oficiales de Chile</strong> (registros en 346 comunas; exhaustividad no acreditada).
+            ¡Hola! Soy tu asistente de consulta normativa sobre las <strong>7.450 ordenanzas oficiales de Chile</strong> (registros en 346 comunas; exhaustividad no acreditada).
           </p>
           <p class="text-[11px] text-zinc-400">
             Pregúntame por las ordenanzas obligatorias por ley, la validez del PLACMA, o escribe el nombre de cualquier comuna del país.
