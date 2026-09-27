@@ -1,161 +1,353 @@
 {
-  "generated_at": "2026-09-16T16:15:44+00:00",
+  "generated_at": "2026-09-27T23:25:55+00:00",
   "results": [
     {
-      "cplt_code": "MU003",
-      "organism_name": "Municipalidad de Alto Biobío",
-      "municipality_key": "alto biobio",
+      "cplt_code": "MU015",
+      "organism_name": "Municipalidad de Bulnes",
+      "municipality_key": "bulnes",
       "ta_status": "portal",
-      "ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU003",
-      "sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=6a50eeba9e14b68320bf5214aa0db230",
+      "ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU015",
+      "sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=5a40da9b7ad7e9598df0f9d5e55980f6",
       "directory_url": "https://www.consejotransparencia.cl/transparencia_activa/datoabierto/archivos/lista_enlaces_banner_sai.html",
       "probes": [
         {
-          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU003",
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU015",
           "status_code": 403,
-          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU003",
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU015",
           "content_type": "text/html",
           "ok": false
         },
         {
-          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU003",
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU015",
           "status_code": 403,
-          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU003",
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU015",
           "content_type": "text/html",
           "ok": false
         },
         {
-          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU003/PDO/AD",
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU015/PDO/AD",
           "status_code": 403,
-          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU003/PDO/AD",
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU015/PDO/AD",
           "content_type": "text/html",
           "ok": false
         }
       ]
     },
     {
-      "cplt_code": "MU044",
-      "organism_name": "Municipalidad de Chimbarongo",
-      "municipality_key": "chimbarongo",
+      "cplt_code": "MU091",
+      "organism_name": "Municipalidad de Freire",
+      "municipality_key": "freire",
       "ta_status": "portal",
-      "ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU044",
-      "sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=3e534f12b2a9c3fcf4e3d51e9a0396fd",
+      "ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU091",
+      "sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=6c12f0f8d1b026051d19828a3d5a7068",
       "directory_url": "https://www.consejotransparencia.cl/transparencia_activa/datoabierto/archivos/lista_enlaces_banner_sai.html",
       "probes": [
         {
-          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU044",
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU091",
           "status_code": 403,
-          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU044",
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU091",
           "content_type": "text/html",
           "ok": false
         },
         {
-          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU044",
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU091",
           "status_code": 403,
-          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU044",
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU091",
           "content_type": "text/html",
           "ok": false
         },
         {
-          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU044/PDO/AD",
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU091/PDO/AD",
           "status_code": 403,
-          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU044/PDO/AD",
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU091/PDO/AD",
           "content_type": "text/html",
           "ok": false
         }
       ]
     },
     {
-      "cplt_code": "MU045",
-      "organism_name": "Municipalidad de Cholchol",
-      "municipality_key": "cholchol",
+      "cplt_code": "MU106",
+      "organism_name": "Municipalidad de Hualqui",
+      "municipality_key": "hualqui",
       "ta_status": "portal",
-      "ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU045",
-      "sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=8bc0ff13f1adc924808e9e7418cc6254",
+      "ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU106",
+      "sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=149de74e9e4c6b1b1292475d6f0e24e3",
       "directory_url": "https://www.consejotransparencia.cl/transparencia_activa/datoabierto/archivos/lista_enlaces_banner_sai.html",
       "probes": [
         {
-          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU045",
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU106",
           "status_code": 403,
-          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU045",
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU106",
           "content_type": "text/html",
           "ok": false
         },
         {
-          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU045",
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU106",
           "status_code": 403,
-          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU045",
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU106",
           "content_type": "text/html",
           "ok": false
         },
         {
-          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU045/PDO/AD",
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU106/PDO/AD",
           "status_code": 403,
-          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU045/PDO/AD",
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU106/PDO/AD",
           "content_type": "text/html",
           "ok": false
         }
       ]
     },
     {
-      "cplt_code": "MU184",
-      "organism_name": "Municipalidad de Nueva Imperial",
-      "municipality_key": "nueva imperial",
+      "cplt_code": "MU136",
+      "organism_name": "Municipalidad de Lautaro",
+      "municipality_key": "lautaro",
       "ta_status": "portal",
-      "ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU184",
-      "sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=5fcafdcb2d1746a29598fd1232f5393f",
+      "ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU136",
+      "sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=f5893bc9daa6cae7b13154a256799c87",
       "directory_url": "https://www.consejotransparencia.cl/transparencia_activa/datoabierto/archivos/lista_enlaces_banner_sai.html",
       "probes": [
         {
-          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU184",
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU136",
           "status_code": 403,
-          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU184",
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU136",
           "content_type": "text/html",
           "ok": false
         },
         {
-          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU184",
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU136",
           "status_code": 403,
-          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU184",
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU136",
           "content_type": "text/html",
           "ok": false
         },
         {
-          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU184/PDO/AD",
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU136/PDO/AD",
           "status_code": 403,
-          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU184/PDO/AD",
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU136/PDO/AD",
           "content_type": "text/html",
           "ok": false
         }
       ]
     },
     {
-      "cplt_code": "MU209",
-      "organism_name": "Municipalidad de Pencahue",
-      "municipality_key": "pencahue",
+      "cplt_code": "MU157",
+      "organism_name": "Municipalidad de Los Vilos",
+      "municipality_key": "los vilos",
       "ta_status": "portal",
-      "ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU209",
-      "sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=4aac8ffeab4be802b1ee95d0041da1ad",
+      "ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU157",
+      "sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=645fc59b1a5dee40b2023fee66b3966c",
       "directory_url": "https://www.consejotransparencia.cl/transparencia_activa/datoabierto/archivos/lista_enlaces_banner_sai.html",
       "probes": [
         {
-          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU209",
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU157",
           "status_code": 403,
-          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU209",
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU157",
           "content_type": "text/html",
           "ok": false
         },
         {
-          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU209",
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU157",
           "status_code": 403,
-          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU209",
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU157",
           "content_type": "text/html",
           "ok": false
         },
         {
-          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU209/PDO/AD",
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU157/PDO/AD",
           "status_code": 403,
-          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU209/PDO/AD",
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU157/PDO/AD",
+          "content_type": "text/html",
+          "ok": false
+        }
+      ]
+    },
+    {
+      "cplt_code": "MU175",
+      "organism_name": "Municipalidad de Monte Patria",
+      "municipality_key": "monte patria",
+      "ta_status": "portal",
+      "ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU175",
+      "sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=2c4b3d426704dfb415902cb0a2ee9098",
+      "directory_url": "https://www.consejotransparencia.cl/transparencia_activa/datoabierto/archivos/lista_enlaces_banner_sai.html",
+      "probes": [
+        {
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU175",
+          "status_code": 403,
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU175",
+          "content_type": "text/html",
+          "ok": false
+        },
+        {
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU175",
+          "status_code": 403,
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU175",
+          "content_type": "text/html",
+          "ok": false
+        },
+        {
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU175/PDO/AD",
+          "status_code": 403,
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU175/PDO/AD",
+          "content_type": "text/html",
+          "ok": false
+        }
+      ]
+    },
+    {
+      "cplt_code": "MU230",
+      "organism_name": "Municipalidad de Pucón",
+      "municipality_key": "pucon",
+      "ta_status": "portal",
+      "ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU230",
+      "sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=2cce17267a23743df839076ef54d0b2e",
+      "directory_url": "https://www.consejotransparencia.cl/transparencia_activa/datoabierto/archivos/lista_enlaces_banner_sai.html",
+      "probes": [
+        {
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU230",
+          "status_code": 403,
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU230",
+          "content_type": "text/html",
+          "ok": false
+        },
+        {
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU230",
+          "status_code": 403,
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU230",
+          "content_type": "text/html",
+          "ok": false
+        },
+        {
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU230/PDO/AD",
+          "status_code": 403,
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU230/PDO/AD",
+          "content_type": "text/html",
+          "ok": false
+        }
+      ]
+    },
+    {
+      "cplt_code": "MU234",
+      "organism_name": "Municipalidad de Puerto Natales",
+      "municipality_key": "puerto natales",
+      "ta_status": "portal",
+      "ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU234",
+      "sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=d903ba432b2a950961a69cc050bd1c55",
+      "directory_url": "https://www.consejotransparencia.cl/transparencia_activa/datoabierto/archivos/lista_enlaces_banner_sai.html",
+      "probes": [
+        {
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU234",
+          "status_code": 403,
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU234",
+          "content_type": "text/html",
+          "ok": false
+        },
+        {
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU234",
+          "status_code": 403,
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU234",
+          "content_type": "text/html",
+          "ok": false
+        },
+        {
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU234/PDO/AD",
+          "status_code": 403,
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU234/PDO/AD",
+          "content_type": "text/html",
+          "ok": false
+        }
+      ]
+    },
+    {
+      "cplt_code": "MU279",
+      "organism_name": "Municipalidad de Salamanca",
+      "municipality_key": "salamanca",
+      "ta_status": "portal",
+      "ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU279",
+      "sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=7100eb5624fba45c0764a2280bd5249e",
+      "directory_url": "https://www.consejotransparencia.cl/transparencia_activa/datoabierto/archivos/lista_enlaces_banner_sai.html",
+      "probes": [
+        {
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU279",
+          "status_code": 403,
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU279",
+          "content_type": "text/html",
+          "ok": false
+        },
+        {
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU279",
+          "status_code": 403,
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU279",
+          "content_type": "text/html",
+          "ok": false
+        },
+        {
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU279/PDO/AD",
+          "status_code": 403,
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU279/PDO/AD",
+          "content_type": "text/html",
+          "ok": false
+        }
+      ]
+    },
+    {
+      "cplt_code": "MU287",
+      "organism_name": "Municipalidad de San Fernando",
+      "municipality_key": "san fernando",
+      "ta_status": "portal",
+      "ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU287",
+      "sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=351f4dbe9a5a29acbb34d3308ee36ca9",
+      "directory_url": "https://www.consejotransparencia.cl/transparencia_activa/datoabierto/archivos/lista_enlaces_banner_sai.html",
+      "probes": [
+        {
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU287",
+          "status_code": 403,
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU287",
+          "content_type": "text/html",
+          "ok": false
+        },
+        {
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU287",
+          "status_code": 403,
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU287",
+          "content_type": "text/html",
+          "ok": false
+        },
+        {
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU287/PDO/AD",
+          "status_code": 403,
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU287/PDO/AD",
+          "content_type": "text/html",
+          "ok": false
+        }
+      ]
+    },
+    {
+      "cplt_code": "MU305",
+      "organism_name": "Municipalidad de Santa Cruz",
+      "municipality_key": "santa cruz",
+      "ta_status": "portal",
+      "ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU305",
+      "sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=f8b74ff398cbff635ec8f2008c2ef1aa",
+      "directory_url": "https://www.consejotransparencia.cl/transparencia_activa/datoabierto/archivos/lista_enlaces_banner_sai.html",
+      "probes": [
+        {
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU305",
+          "status_code": 403,
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU305",
+          "content_type": "text/html",
+          "ok": false
+        },
+        {
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU305",
+          "status_code": 403,
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU305",
+          "content_type": "text/html",
+          "ok": false
+        },
+        {
+          "requested_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU305/PDO/AD",
+          "status_code": 403,
+          "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU305/PDO/AD",
           "content_type": "text/html",
           "ok": false
         }

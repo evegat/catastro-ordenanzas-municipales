@@ -12,7 +12,13 @@
     "sai_url": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=351f4dbe9a5a29acbb34d3308ee36ca9",
     "last_year": 2012,
     "historic_count": 34,
-    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos."
+    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos.",
+    "estado_rescate": "REQUIERE_VIA_B_SAI",
+    "fecha_rescate": null,
+    "normas_recuperadas": 0,
+    "nuevo_ultimo_ano": 2012,
+    "fuente_primaria": "https://municipalidadsanfernando.cl/ordenanzas-municipales/",
+    "nota": "Sitio activo pero portal desactualizado (solo 1 decreto de grabaciones 2025). Minuta SAI Ley 20.285 lista para ingreso."
   },
   {
     "comuna": "Lautaro",
@@ -27,7 +33,13 @@
     "sai_url": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=f5893bc9daa6cae7b13154a256799c87",
     "last_year": 1995,
     "historic_count": 22,
-    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos."
+    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos.",
+    "estado_rescate": "RESCATADA_VIA_A",
+    "fecha_rescate": "2026-09-27",
+    "normas_recuperadas": 10,
+    "nuevo_ultimo_ano": 2025,
+    "fuente_primaria": "https://sitio.munilautaro.cl/ordenanzas-municipales/",
+    "nota": "Recuperadas 10 ordenanzas vigentes 2022-2025 con SHA-256 verificado. Rezago 1995 cerrado."
   },
   {
     "comuna": "Santa Cruz",
@@ -42,7 +54,13 @@
     "sai_url": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=f8b74ff398cbff635ec8f2008c2ef1aa",
     "last_year": 2011,
     "historic_count": 13,
-    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos."
+    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos.",
+    "estado_rescate": "REQUIERE_VIA_B_SAI",
+    "fecha_rescate": null,
+    "normas_recuperadas": 0,
+    "nuevo_ultimo_ano": 2011,
+    "fuente_primaria": "http://transparencia.municipalidadsantacruz.cl/index.php/home/actos-y-resolucion",
+    "nota": "Servidor local de transparencia no responde (timeout). Minuta SAI Ley 20.285 lista para ingreso."
   },
   {
     "comuna": "Monte Patria",
@@ -57,7 +75,13 @@
     "sai_url": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=2c4b3d426704dfb415902cb0a2ee9098",
     "last_year": 2014,
     "historic_count": 13,
-    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos."
+    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos.",
+    "estado_rescate": "RESCATADA_LOCAL_HTTP",
+    "fecha_rescate": "2026-09-27",
+    "normas_recuperadas": 4,
+    "nuevo_ultimo_ano": 2026,
+    "fuente_primaria": "http://200.54.71.195:8050/mpatria/Ordenanzas/",
+    "nota": "Servidor municipal HTTP directo con ordenanzas de Concesiones, Acoso, Cementerio y Áridos (actualizado sep-2026). Respaldado localmente. Rezago 2014 cerrado."
   },
   {
     "comuna": "Pucón",
@@ -72,7 +96,13 @@
     "sai_url": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=2cce17267a23743df839076ef54d0b2e",
     "last_year": 2007,
     "historic_count": 9,
-    "diag_original": "Dominio web no responde en DNS. Municipio rural sin infraestructura web propia activa."
+    "diag_original": "Dominio web no responde en DNS. Municipio rural sin infraestructura web propia activa.",
+    "estado_rescate": "RESCATADA_VIA_A",
+    "fecha_rescate": "2026-09-27",
+    "normas_recuperadas": 1,
+    "nuevo_ultimo_ano": 2023,
+    "fuente_primaria": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU230/PMN/MN",
+    "nota": "Recuperada Ordenanza General de Participación Ciudadana 2023 (PDF 3.16 MB SHA-256 verificado). Rezago 2007 cerrado."
   },
   {
     "comuna": "Salamanca",
@@ -87,7 +117,13 @@
     "sai_url": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=7100eb5624fba45c0764a2280bd5249e",
     "last_year": 2004,
     "historic_count": 15,
-    "diag_original": "Respuesta web atípica (Falla red: [SSL: CERTIFICATE_VERIFY_FAILED] ce)."
+    "diag_original": "Respuesta web atípica (Falla red: [SSL: CERTIFICATE_VERIFY_FAILED] ce).",
+    "estado_rescate": "REQUIERE_VIA_B_SAI",
+    "fecha_rescate": null,
+    "normas_recuperadas": 0,
+    "nuevo_ultimo_ano": 2004,
+    "fuente_primaria": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU279",
+    "nota": "Dominio web institucional munisalamanca.cl vencido/caído. Minuta SAI Ley 20.285 lista para ingreso."
   },
   {
     "comuna": "Hualqui",
@@ -102,7 +138,13 @@
     "sai_url": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=149de74e9e4c6b1b1292475d6f0e24e3",
     "last_year": 2017,
     "historic_count": 16,
-    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos."
+    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos.",
+    "estado_rescate": "REQUIERE_VIA_B_SAI",
+    "fecha_rescate": null,
+    "normas_recuperadas": 0,
+    "nuevo_ultimo_ano": 2017,
+    "fuente_primaria": "https://www.portaltransparencia.cl/PortalPdT/pdtta?codOrganismo=MU106",
+    "nota": "Portal CPLT activo pero sin actos publicados en numeral 8. Minuta SAI Ley 20.285 lista para ingreso."
   },
   {
     "comuna": "Freire",
@@ -117,7 +159,13 @@
     "sai_url": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=6c12f0f8d1b026051d19828a3d5a7068",
     "last_year": 2017,
     "historic_count": 10,
-    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos."
+    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos.",
+    "estado_rescate": "RESCATADA_LOCAL_HTTP",
+    "fecha_rescate": "2026-09-27",
+    "normas_recuperadas": 2,
+    "nuevo_ultimo_ano": 2025,
+    "fuente_primaria": "http://www.munifreire.cl/transparencia/script/07_actos_y_resoluciones/ordenanzas/",
+    "nota": "Recuperadas Ordenanzas N° 1 y N° 2 de octubre 2025 (PDFs 3.8 MB y 3.7 MB SHA-256 verificados). Endpoint en HTTP. Rezago 2017 cerrado."
   },
   {
     "comuna": "Natales",
@@ -132,7 +180,13 @@
     "sai_url": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=d903ba432b2a950961a69cc050bd1c55",
     "last_year": 2004,
     "historic_count": 12,
-    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos."
+    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos.",
+    "estado_rescate": "RESCATADA_VIA_A",
+    "fecha_rescate": "2026-09-27",
+    "normas_recuperadas": 3,
+    "nuevo_ultimo_ano": 2026,
+    "fuente_primaria": "https://portal.muninatales.cl/decretos/",
+    "nota": "Recuperadas 3 ordenanzas/decretos normativos 2025-2026 con SHA-256 verificado. Rezago 2004 cerrado."
   },
   {
     "comuna": "Los Vilos",
@@ -147,7 +201,13 @@
     "sai_url": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=645fc59b1a5dee40b2023fee66b3966c",
     "last_year": 2010,
     "historic_count": 10,
-    "diag_original": "Respuesta web atípica (Falla red: [SSL: DH_KEY_TOO_SMALL] dh key too )."
+    "diag_original": "Respuesta web atípica (Falla red: [SSL: DH_KEY_TOO_SMALL] dh key too ).",
+    "estado_rescate": "RESCATADA_VIA_A",
+    "fecha_rescate": "2026-09-27",
+    "normas_recuperadas": 1,
+    "nuevo_ultimo_ano": 2025,
+    "fuente_primaria": "https://www.munilosvilos.cl/webTransparente/decretosalcaldicios2025/decretos1574.pdf",
+    "nota": "Superada barrera de cifrado SSL DH débil (SECLEVEL=1). Recuperado D.A. 1574/2025 (PDF 33.6 MB SHA-256 verificado). Rezago 2010 cerrado."
   },
   {
     "comuna": "Bulnes",
@@ -162,7 +222,13 @@
     "sai_url": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=5a40da9b7ad7e9598df0f9d5e55980f6",
     "last_year": 2004,
     "historic_count": 8,
-    "diag_original": "Respuesta web atípica (Falla red: [SSL: CERTIFICATE_VERIFY_FAILED] ce)."
+    "diag_original": "Respuesta web atípica (Falla red: [SSL: CERTIFICATE_VERIFY_FAILED] ce).",
+    "estado_rescate": "RESCATADA_LOCAL_HTTP",
+    "fecha_rescate": "2026-09-27",
+    "normas_recuperadas": 5,
+    "nuevo_ultimo_ano": 2026,
+    "fuente_primaria": "http://transparencia.imb.cl/transparencia.php?str=14",
+    "nota": "Recuperadas 5 ordenanzas 2021-2026 (DA 7104 Derechos Municipales 2026, Tenencia Mascotas 2024, etc.). Endpoint en HTTP; respaldado localmente. Rezago 2004 cerrado."
   },
   {
     "comuna": "Yerbas Buenas",
