@@ -4,7 +4,7 @@
     "total_comunas": 346,
     "comunas_con_datos": 346,
     "total_regiones": 16,
-    "total_ordenanzas": 7437,
+    "total_ordenanzas": 7451,
     "ordenanzas_bcn": 5881,
     "ordenanzas_cplt": 0,
     "pdfs_descargados": 0,
@@ -13,7 +13,7 @@
       "bloqueos_ip": 0,
       "user_agents_rotados": 12
     },
-    "ordenanzas_municipales_verificadas": 1556,
+    "ordenanzas_municipales_verificadas": 1570,
     "cplt_en_cuarentena": 0,
     "cobertura_nacional_pct": 100.0
   },
@@ -16732,11 +16732,32 @@
       "comuna": "Los Andes",
       "bcn_count": 41,
       "cplt_count": 0,
-      "total_count": 41,
+      "total_count": 42,
       "pdfs_count": 0,
-      "status": "Cargado BCN",
-      "last_update": "2012-11-30",
+      "status": "BCN + Municipalidad verificada",
+      "last_update": "2021-10-29",
       "ordenanzas": [
+        {
+          "cplt_code": "MU152",
+          "fuente": "Municipalidad",
+          "numero": "1736",
+          "fecha": "2021-10-29",
+          "titulo": "Modificación e incorporación de derechos a la Ordenanza Municipal sobre Derechos Municipales de Los Andes",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://obras.losandes.cl/ordenanzas-municipales/",
+          "target_url": "https://obras.losandes.cl/download/ordenanza-de-derechos-municipales-modificacion-ano-2021/?wpdmdl=3230",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://obras.losandes.cl/download/ordenanza-de-derechos-municipales-modificacion-ano-2021/?wpdmdl=3230",
+            "content_type": "application/pdf",
+            "sha256": "a46291120de15498abe349463f8b1d6310569470bcec52dd4143c5431fae0c9c",
+            "bytes": 9769903,
+            "verified_at": "2026-09-26T23:17:10.903909"
+          },
+          "rdf_url": null
+        },
         {
           "fuente": "BCN",
           "numero": "4",
@@ -17325,7 +17346,7 @@
           "estado": "Vigente / LeyChile"
         }
       ],
-      "municipal_count": 0
+      "municipal_count": 1
     },
     {
       "region_id": "05",
@@ -17333,11 +17354,32 @@
       "comuna": "Calle Larga",
       "bcn_count": 8,
       "cplt_count": 0,
-      "total_count": 8,
+      "total_count": 9,
       "pdfs_count": 0,
-      "status": "Cargado BCN",
-      "last_update": "2020-01-09",
+      "status": "BCN + Municipalidad verificada",
+      "last_update": "2022-05-13",
       "ordenanzas": [
+        {
+          "cplt_code": "MU023",
+          "fuente": "Municipalidad",
+          "numero": "353",
+          "fecha": "2022-05-13",
+          "titulo": "Enmienda N° 1 a la Ordenanza Local del Plan Regulador Comunal de Calle Larga",
+          "materia": "Urbanismo, Obras y Edificación",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://www.bcn.cl/leychile/navegar?idNorma=1176953",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-353-EXENTO_03-JUN-2022&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1176953.2022-06-03.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-353-EXENTO_03-JUN-2022&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1176953.2022-06-03.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "56887734fd03d2b6d92ff22be57187ee643b5d3b6ea544fcee9daa44fb2e95cd",
+            "bytes": 646600,
+            "verified_at": "2026-09-26T23:17:10.903948"
+          },
+          "rdf_url": null
+        },
         {
           "fuente": "BCN",
           "numero": "899-exento",
@@ -17449,7 +17491,7 @@
           "estado": "Vigente / LeyChile"
         }
       ],
-      "municipal_count": 0
+      "municipal_count": 1
     },
     {
       "region_id": "05",
@@ -17570,11 +17612,32 @@
       "comuna": "San Esteban",
       "bcn_count": 10,
       "cplt_count": 0,
-      "total_count": 10,
+      "total_count": 11,
       "pdfs_count": 0,
-      "status": "Cargado BCN",
-      "last_update": "2003-12-29",
+      "status": "BCN + Municipalidad verificada",
+      "last_update": "2025-05-16",
       "ordenanzas": [
+        {
+          "cplt_code": "MU284",
+          "fuente": "Municipalidad",
+          "numero": "1898",
+          "fecha": "2025-05-16",
+          "titulo": "Aprueba Instrumento de Planificación denominado Plan de Inversiones en Infraestructura de Movilidad y Espacio Público (PIIMEP), Comuna San Esteban 2025-2035",
+          "materia": "Urbanismo, Obras y Edificación",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://www.munisanesteban.cl/secciones/2346",
+          "target_url": "https://drive.google.com/uc?export=download&id=1R_WnKWnyfAnrsT2fUCQUCTqjLyUutbtF",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://drive.google.com/uc?export=download&id=1R_WnKWnyfAnrsT2fUCQUCTqjLyUutbtF",
+            "content_type": "application/pdf",
+            "sha256": "c75e05cbe9659653a6083994edbc48d39defa06a2a6e63c57f3be9f886f77657",
+            "bytes": 212400,
+            "verified_at": "2026-09-26T23:17:10.903950"
+          },
+          "rdf_url": null
+        },
         {
           "fuente": "BCN",
           "numero": "1922",
@@ -17712,7 +17775,7 @@
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-san-esteban/1987-01-28/1/datos.json"
         }
       ],
-      "municipal_count": 0
+      "municipal_count": 1
     },
     {
       "region_id": "05",
@@ -18455,11 +18518,32 @@
       "comuna": "Papudo",
       "bcn_count": 7,
       "cplt_count": 0,
-      "total_count": 7,
+      "total_count": 8,
       "pdfs_count": 0,
-      "status": "Cargado BCN",
-      "last_update": "2010-10-20",
+      "status": "BCN + Municipalidad verificada",
+      "last_update": "2023-12-20",
       "ordenanzas": [
+        {
+          "cplt_code": "MU202",
+          "fuente": "Municipalidad",
+          "numero": "2197",
+          "fecha": "2023-12-20",
+          "titulo": "Ordenanza Municipal sobre Horarios de Funcionamiento de Locales con Expendio y Consumo de Bebidas Alcohólicas en la comuna de Papudo",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://munipapudo.cl/secciones/",
+          "target_url": "https://munipapudo.cl/images/Ordenanzas/Ordenanza%20Municipal%20sobre%20horarios%20de%20funcionamiento%20de%20locales%20con%20expendio%20y%20consumo%20de%20bebidas%20alcoholicas%20en%20la%20comuna%20de%20Papudo.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://munipapudo.cl/images/Ordenanzas/Ordenanza%20Municipal%20sobre%20horarios%20de%20funcionamiento%20de%20locales%20con%20expendio%20y%20consumo%20de%20bebidas%20alcoholicas%20en%20la%20comuna%20de%20Papudo.pdf",
+            "content_type": "application/pdf",
+            "sha256": "467a9ae54e9c126d98b7070ef69fa19ddec535ea5fd5d366c2c9eb265e260f47",
+            "bytes": 2354152,
+            "verified_at": "2026-09-26T23:17:10.903952"
+          },
+          "rdf_url": null
+        },
         {
           "fuente": "BCN",
           "numero": "596",
@@ -18555,7 +18639,7 @@
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-papudo/1989-03-03/179/datos.json"
         }
       ],
-      "municipal_count": 0
+      "municipal_count": 1
     },
     {
       "region_id": "05",
@@ -32014,11 +32098,32 @@
       "comuna": "El Bosque",
       "bcn_count": 13,
       "cplt_count": 0,
-      "total_count": 13,
+      "total_count": 14,
       "pdfs_count": 0,
-      "status": "Cargado BCN",
-      "last_update": "2005-05-27",
+      "status": "BCN + Municipalidad verificada",
+      "last_update": "2026-01-09",
       "ordenanzas": [
+        {
+          "cplt_code": "MU082",
+          "fuente": "Municipalidad",
+          "numero": "126",
+          "fecha": "2026-01-09",
+          "titulo": "Refunde el texto de la Enmienda de la Ordenanza del Plan Regulador de la Comuna de El Bosque 2025 (EPRC2025)",
+          "materia": "Urbanismo, Obras y Edificación",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://www.diariooficial.interior.gob.cl/edicionelectronica/index.php?date=27-01-2026",
+          "target_url": "https://www.diariooficial.interior.gob.cl/publicaciones/2026/01/27/44360/01/2755442.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.diariooficial.interior.gob.cl/publicaciones/2026/01/27/44360/01/2755442.pdf",
+            "content_type": "application/pdf",
+            "sha256": "fff83f3e22fc429cd68d485ebb8f8d24303b36ce878884659a0aa6f64b6d01e0",
+            "bytes": 478218,
+            "verified_at": "2026-09-26T23:17:10.903958"
+          },
+          "rdf_url": null
+        },
         {
           "id": 308,
           "fuente": "BCN",
@@ -32222,7 +32327,7 @@
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-el-bosque/1992-01-21/6/datos.json"
         }
       ],
-      "municipal_count": 0
+      "municipal_count": 1
     },
     {
       "region_id": "13",
@@ -33081,11 +33186,32 @@
       "comuna": "La Cisterna",
       "bcn_count": 8,
       "cplt_count": 0,
-      "total_count": 8,
+      "total_count": 9,
       "pdfs_count": 0,
-      "status": "Cargado BCN",
-      "last_update": "2004-05-31",
+      "status": "BCN + Municipalidad verificada",
+      "last_update": "2022-08-25",
       "ordenanzas": [
+        {
+          "cplt_code": "MU117",
+          "fuente": "Municipalidad",
+          "numero": "4517",
+          "fecha": "2022-08-25",
+          "titulo": "Promulga Enmienda N° 2 a la Ordenanza del Plan Regulador Comunal de La Cisterna (Modificación de Altura Máxima en Zonas ZU-1 y ZU-2, Artículo 19)",
+          "materia": "Urbanismo, Obras y Edificación",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://www.cisterna.cl/paginas/plan-regulador-comunal",
+          "target_url": "https://ligup-v2.s3.amazonaws.com/lacisterna/files/67099_decreto_4517_enmienda_n2.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://ligup-v2.s3.amazonaws.com/lacisterna/files/67099_decreto_4517_enmienda_n2.pdf",
+            "content_type": "application/pdf",
+            "sha256": "aa1f3a1dfa2ff9882e2c0b69ae441907a8be0f2d255dff86a05d31711f096022",
+            "bytes": 4476186,
+            "verified_at": "2026-09-26T23:17:10.903963"
+          },
+          "rdf_url": null
+        },
         {
           "fuente": "BCN",
           "numero": "1921",
@@ -33197,7 +33323,7 @@
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-la-cisterna/1985-10-17/12/datos.json"
         }
       ],
-      "municipal_count": 0
+      "municipal_count": 1
     },
     {
       "region_id": "13",
@@ -44097,11 +44223,32 @@
       "comuna": "Pedro Aguirre Cerda",
       "bcn_count": 15,
       "cplt_count": 0,
-      "total_count": 15,
+      "total_count": 16,
       "pdfs_count": 0,
-      "status": "Cargado BCN",
-      "last_update": "2018-11-10",
+      "status": "BCN + Municipalidad verificada",
+      "last_update": "2025-08-22",
       "ordenanzas": [
+        {
+          "cplt_code": "MU205",
+          "fuente": "Municipalidad",
+          "numero": "4751",
+          "fecha": "2025-08-22",
+          "titulo": "Actualización al Plan Regulador Comunal de Pedro Aguirre Cerda y su Ordenanza Local",
+          "materia": "Urbanismo, Obras y Edificación",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://www.diariooficial.interior.gob.cl/edicionelectronica/index.php?date=29-08-2025",
+          "target_url": "https://www.diariooficial.interior.gob.cl/publicaciones/2025/08/29/44237/01/2692113.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.diariooficial.interior.gob.cl/publicaciones/2025/08/29/44237/01/2692113.pdf",
+            "content_type": "application/pdf",
+            "sha256": "52d6f2a585c378a77643d90e2401e68f75773d87ebf4e708c6d0a190cfb9a7a9",
+            "bytes": 165864,
+            "verified_at": "2026-09-26T23:17:10.903956"
+          },
+          "rdf_url": null
+        },
         {
           "fuente": "BCN",
           "numero": "14530",
@@ -44304,7 +44451,7 @@
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-pedro-aguirre-cerda/1992-01-17/1/datos.json"
         }
       ],
-      "municipal_count": 0
+      "municipal_count": 1
     },
     {
       "region_id": "13",
@@ -50647,11 +50794,32 @@
       "comuna": "Quinta Normal",
       "bcn_count": 25,
       "cplt_count": 0,
-      "total_count": 25,
+      "total_count": 26,
       "pdfs_count": 0,
-      "status": "Cargado BCN",
-      "last_update": "2008-05-02",
+      "status": "BCN + Municipalidad verificada",
+      "last_update": "2026-09-03",
       "ordenanzas": [
+        {
+          "cplt_code": "MU257",
+          "fuente": "Municipalidad",
+          "numero": "1708",
+          "fecha": "2026-09-03",
+          "titulo": "Ordenanza Municipal sobre Prohibición de Elaboración, Comercialización, Distribución, Venta y Uso Doméstico de Hilo Curado en la Comuna de Quinta Normal",
+          "materia": "Seguridad y Convivencia",
+          "materia_id": "seguridad_convivencia",
+          "source_listing_url": "https://www.bcn.cl/leychile/navegar?idNorma=1228087",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-1708_14-SEP-2026&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1228087.2026-09-14.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-1708_14-SEP-2026&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1228087.2026-09-14.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "84ae1ed48064da7036165e17cf3ce5c14db87fb13cd69a186c01a7f061c2e3e7",
+            "bytes": 44027,
+            "verified_at": "2026-09-26T23:17:10.903960"
+          },
+          "rdf_url": null
+        },
         {
           "fuente": "BCN",
           "numero": "309",
@@ -50981,7 +51149,7 @@
           "estado": "Vigente / LeyChile"
         }
       ],
-      "municipal_count": 0
+      "municipal_count": 1
     },
     {
       "region_id": "13",
@@ -54906,11 +55074,32 @@
       "comuna": "Pirque",
       "bcn_count": 41,
       "cplt_count": 0,
-      "total_count": 41,
+      "total_count": 42,
       "pdfs_count": 0,
-      "status": "Cargado BCN",
-      "last_update": "2015-12-23",
+      "status": "BCN + Municipalidad verificada",
+      "last_update": "2025-08-29",
       "ordenanzas": [
+        {
+          "cplt_code": "MU221",
+          "fuente": "Municipalidad",
+          "numero": "414",
+          "fecha": "2025-08-29",
+          "titulo": "Ordenanza Municipal sobre Libre Circulación de las Aguas y Mantención de Servidumbres de Paso y Acueductos",
+          "materia": "Medio Ambiente y Aseo",
+          "materia_id": "medio_ambiente",
+          "source_listing_url": "https://www.portalpirque.cl/index.php/world/19-noticias/6233-pirque-publica-ordenanza-municipal-sobre-libre-circulacion-de-las-aguas-y-mantencion-de-servidumbres-de-paso",
+          "target_url": "https://www.portalpirque.cl/images/ORDENANZA_MUNICIPAL_SERVIDUMBRE_DE_PASO.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.portalpirque.cl/images/ORDENANZA_MUNICIPAL_SERVIDUMBRE_DE_PASO.pdf",
+            "content_type": "application/pdf",
+            "sha256": "c3e229eccc3294befcb56b4c5defe14c2a8c2ae05a10244d7763fd03e7297c52",
+            "bytes": 146301,
+            "verified_at": "2026-09-26T23:17:10.903966"
+          },
+          "rdf_url": null
+        },
         {
           "fuente": "BCN",
           "numero": "1297",
@@ -55457,7 +55646,7 @@
           "estado": "Vigente / LeyChile"
         }
       ],
-      "municipal_count": 0
+      "municipal_count": 1
     },
     {
       "region_id": "13",
@@ -60351,11 +60540,32 @@
       "comuna": "Calera de Tango",
       "bcn_count": 17,
       "cplt_count": 0,
-      "total_count": 17,
+      "total_count": 18,
       "pdfs_count": 0,
-      "status": "Cargado BCN",
-      "last_update": "2005-06-10",
+      "status": "BCN + Municipalidad verificada",
+      "last_update": "2024-10-29",
       "ordenanzas": [
+        {
+          "cplt_code": "MU022",
+          "fuente": "Municipalidad",
+          "numero": "2164",
+          "fecha": "2024-10-29",
+          "titulo": "Aprueba Ordenanza Municipal sobre Participación Ciudadana de la Comuna de Calera de Tango",
+          "materia": "Participación Ciudadana y Gobernanza Local",
+          "materia_id": "participacion_ciudadana",
+          "source_listing_url": "https://www.caleradetango.cl/transito",
+          "target_url": "https://www.caleradetango.cl/_files/ugd/0c33ad_890b1f799dec42dabb413fd7eaac8515.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.caleradetango.cl/_files/ugd/0c33ad_890b1f799dec42dabb413fd7eaac8515.pdf",
+            "content_type": "application/pdf",
+            "sha256": "566ec86180b4c0f9f970ef38c9dabdc0be8e8fbe589c8f5709389d0d3872da3c",
+            "bytes": 3978606,
+            "verified_at": "2026-09-26T23:17:10.903968"
+          },
+          "rdf_url": null
+        },
         {
           "fuente": "BCN",
           "numero": "412",
@@ -60587,7 +60797,7 @@
           "estado": "Vigente / LeyChile"
         }
       ],
-      "municipal_count": 0
+      "municipal_count": 1
     },
     {
       "region_id": "13",
@@ -63463,11 +63673,32 @@
       "comuna": "El Monte",
       "bcn_count": 23,
       "cplt_count": 0,
-      "total_count": 23,
+      "total_count": 24,
       "pdfs_count": 0,
-      "status": "Cargado BCN",
-      "last_update": "2005-04-11",
+      "status": "BCN + Municipalidad verificada",
+      "last_update": "2022-10-26",
       "ordenanzas": [
+        {
+          "cplt_code": "MU084",
+          "fuente": "Municipalidad",
+          "numero": "1197",
+          "fecha": "2022-10-26",
+          "titulo": "Aprueba Modificación a la Ordenanza Local sobre Derechos Municipales de El Monte (Servicios de Aseo, Ornato y Veterinarios)",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://www.bcn.cl/leychile/navegar?idNorma=1186059",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-1197_14-DIC-2022&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1186059.2022-12-14.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-1197_14-DIC-2022&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1186059.2022-12-14.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "53c1bcb8c718111486caf9a8b125531b29cfcd68990edd6dc3c4a8be92a0e7a3",
+            "bytes": 434451,
+            "verified_at": "2026-09-26T23:17:10.903965"
+          },
+          "rdf_url": null
+        },
         {
           "fuente": "BCN",
           "numero": "169",
@@ -63771,7 +64002,7 @@
           "estado": "Vigente / LeyChile"
         }
       ],
-      "municipal_count": 0
+      "municipal_count": 1
     },
     {
       "region_id": "13",
@@ -66860,11 +67091,32 @@
       "comuna": "Graneros",
       "bcn_count": 11,
       "cplt_count": 0,
-      "total_count": 11,
+      "total_count": 12,
       "pdfs_count": 0,
-      "status": "Cargado BCN",
-      "last_update": "2018-12-11",
+      "status": "BCN + Municipalidad verificada",
+      "last_update": "2024-07-05",
       "ordenanzas": [
+        {
+          "cplt_code": "MU100",
+          "fuente": "Municipalidad",
+          "numero": "494",
+          "fecha": "2024-07-05",
+          "titulo": "Aprueba Enmienda N° 1 a la Ordenanza Local del Plan Regulador Comunal de Graneros",
+          "materia": "Urbanismo, Obras y Edificación",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://www.bcn.cl/leychile/navegar?idNorma=1217324",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-494_08-OCT-2025&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1217324.2025-10-08.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-494_08-OCT-2025&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1217324.2025-10-08.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "157d46d45ea2fd5267c7540d0f888aa516e55046242ba99892d6bc47a668a505",
+            "bytes": 239407,
+            "verified_at": "2026-09-26T23:17:10.903943"
+          },
+          "rdf_url": null
+        },
         {
           "fuente": "BCN",
           "numero": "836-exento",
@@ -67012,7 +67264,7 @@
           "estado": "Vigente / LeyChile"
         }
       ],
-      "municipal_count": 0
+      "municipal_count": 1
     },
     {
       "region_id": "06",
@@ -67616,11 +67868,32 @@
       "comuna": "Machalí",
       "bcn_count": 40,
       "cplt_count": 0,
-      "total_count": 40,
+      "total_count": 41,
       "pdfs_count": 0,
-      "status": "Cargado BCN",
-      "last_update": "2019-05-14",
+      "status": "BCN + Municipalidad verificada",
+      "last_update": "2021-12-02",
       "ordenanzas": [
+        {
+          "cplt_code": "MU160",
+          "fuente": "Municipalidad",
+          "numero": "1684",
+          "fecha": "2021-12-02",
+          "titulo": "Modificación N° 13 a la Ordenanza Local del Plan Regulador Comunal de Machalí y Coya",
+          "materia": "Urbanismo, Obras y Edificación",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://www.bcn.cl/leychile/navegar?idNorma=1169520",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-1684_09-DIC-2021&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1169520.2021-12-09.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-1684_09-DIC-2021&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1169520.2021-12-09.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "a60e4c0109aa61ebaf1822f94eee2c117dc5a09e1446c264b22fb95d2848d800",
+            "bytes": 136332,
+            "verified_at": "2026-09-26T23:17:10.903938"
+          },
+          "rdf_url": null
+        },
         {
           "fuente": "BCN",
           "numero": "885",
@@ -68145,7 +68418,7 @@
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-machali/1986-01-28/2/datos.json"
         }
       ],
-      "municipal_count": 0
+      "municipal_count": 1
     },
     {
       "region_id": "06",
@@ -68517,11 +68790,32 @@
       "comuna": "Mostazal",
       "bcn_count": 14,
       "cplt_count": 0,
-      "total_count": 14,
+      "total_count": 15,
       "pdfs_count": 0,
-      "status": "Cargado BCN",
-      "last_update": "2018-10-26",
+      "status": "BCN + Municipalidad verificada",
+      "last_update": "2022-11-14",
       "ordenanzas": [
+        {
+          "cplt_code": "MU176",
+          "fuente": "Municipalidad",
+          "numero": "3482",
+          "fecha": "2022-11-14",
+          "titulo": "Aprueba Ordenanza Municipal de Buen Trato a las Personas Mayores en la Comuna de Mostazal",
+          "materia": "Desarrollo Social y Grupos Prioritarios",
+          "materia_id": "desarrollo_social",
+          "source_listing_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU176/AR/AREST/58568205?estadoItem=Publicado",
+          "target_url": "https://drive.google.com/uc?export=download&id=1-hfrj99j7ywM39APZqwVrEP4XiP47Hza",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://drive.google.com/uc?export=download&id=1-hfrj99j7ywM39APZqwVrEP4XiP47Hza",
+            "content_type": "application/pdf",
+            "sha256": "01b6857c520fdea27efaa500b2c8cfe763fc654e146b30e75f2657caa83fdd55",
+            "bytes": 3667895,
+            "verified_at": "2026-09-26T23:17:10.903945"
+          },
+          "rdf_url": null
+        },
         {
           "fuente": "BCN",
           "numero": "3486",
@@ -68720,7 +69014,7 @@
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-mostazal/1986-01-31/1/datos.json"
         }
       ],
-      "municipal_count": 0
+      "municipal_count": 1
     },
     {
       "region_id": "06",
@@ -119620,7 +119914,7 @@
       "badge_bg": "bg-indigo-500/10",
       "badge_text": "text-indigo-400",
       "badge_border": "border-indigo-500/30",
-      "count": 2856
+      "count": 2858
     },
     {
       "id": "comercio_alcoholes",
@@ -119630,7 +119924,7 @@
       "badge_bg": "bg-sky-500/10",
       "badge_text": "text-sky-400",
       "badge_border": "border-sky-500/30",
-      "count": 273
+      "count": 274
     },
     {
       "id": "aseo_medioambiente",
@@ -119660,7 +119954,7 @@
       "badge_bg": "bg-orange-500/10",
       "badge_text": "text-orange-400",
       "badge_border": "border-orange-500/30",
-      "count": 112
+      "count": 119
     },
     {
       "id": "seguridad_convivencia",
@@ -119670,7 +119964,7 @@
       "badge_bg": "bg-rose-500/10",
       "badge_text": "text-rose-400",
       "badge_border": "border-rose-500/30",
-      "count": 26
+      "count": 27
     },
     {
       "id": "mascotas_animales",
@@ -119723,7 +120017,7 @@
       "CPLT"
     ],
     "quarantined_records": 0,
-    "verified_municipal_records": 1556,
+    "verified_municipal_records": 1570,
     "reason": "Las referencias CPLT manuales sin evidencia se mantienen en cuarentena. Solo se publican documentos municipales con listado oficial, PDF resoluble y huella SHA-256 verificada."
   }
 }
