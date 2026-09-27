@@ -1,6 +1,6 @@
 # Chilean Municipal Regulations & By-Laws Open Data Pipeline
 
-> **Version 3.0 (September 2026 release).** Independent open research initiative: **7,321 cataloged normative records** across all 346 communes of Chile (5,881 BCN/LeyChile + 1,440 verified municipal records with SHA-256). Includes legal framework analysis, national territorial visualizer, and local traceable assistant.
+> **Version 3.1 (September 2026 release).** Independent open research initiative: **7,450 cataloged normative records** across all 346 communes of Chile (5,881 BCN/LeyChile + 1,569 verified municipal records directly validated with SHA-256). Includes legal framework analysis, national territorial visualizer, and local traceable assistant.
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Online-success.svg)](https://ordenanzas.evegat.cl)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -12,7 +12,7 @@
 
 Independent automated ETL pipeline, structured dataset, and exploratory visualizer for **Chilean Municipal Regulations and By-Laws (*Ordenanzas Municipales*)**, querying open data from the **Library of the National Congress of Chile (BCN/LeyChile)** SPARQL endpoint and complementary verified municipal sources with SHA-256 cryptographic hashes.
 
-> **Coverage & Scope:** National territorial presence across all 346 communes of Chile (100%). Document exhaustiveness not certified (subject to digital publishing availability per municipality).
+> **Coverage & Scope:** National territorial presence across all 346 communes of Chile (100%). Document exhaustiveness not certified (subject to digital publishing availability per municipality). Epistemic honesty policy: documents without a verifiable formal date are cataloged as `S/F` (No Date) rather than guessing dates.
 
 ---
 
@@ -82,11 +82,12 @@ python -m http.server 8000 --directory dashboard
 Open http://localhost:8000. This does not rebuild data. Extraction scripts depend on missing local modules; consult the [restart guide](docs/ESTADO-Y-REENTRADA-P090.md). `src/build_public_snapshot.py` overwrites the selected dashboard directory; verify using a separate copy.
 
 ## 📊 Dataset Scope
+Official snapshot as of September 27, 2026.
 
-- **Consolidated Normative Records:** 7,321.
+- **Consolidated Normative Records:** 7,450.
 - **BCN / LeyChile:** 5,881 records.
-- **Verified Municipal Sources (SHA-256):** 1,440 official records.
-- **Territorial presence:** 346/346 communes; 4 have one record and 19 have 1–3. Completeness remains unproven.
+- **Verified Municipal Sources (SHA-256):** 1,569 official records.
+- **Territorial presence:** 346/346 communes with cataloged regulations.
 - **Observed Time Span:** 1980–2026.
 - **Thematic Domains:** 9 municipal regulatory axes.
 

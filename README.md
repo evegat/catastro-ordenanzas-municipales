@@ -1,6 +1,6 @@
 # Catastro Nacional de Ordenanzas Municipales de Chile
 
-> **Versión 3.0 (Corte Septiembre 2026).** Iniciativa independiente de consulta y análisis regulatorio comunal: **7.321 registros normativos catalogados** en las 346 comunas de Chile (5.881 BCN/LeyChile + 1.440 municipales verificadas con SHA-256). Módulo de análisis normativo con fundamento legal, visualizador territorial y asistente local de consulta trazable.
+> **Versión 3.1 (Corte Septiembre 2026).** Iniciativa independiente de consulta y análisis regulatorio comunal: **7.450 registros normativos catalogados** en las 346 comunas de Chile (5.881 BCN/LeyChile + 1.569 municipales verificadas directamente con hash SHA-256). Módulo de análisis normativo con fundamento legal, visualizador territorial y asistente local de consulta trazable.
 
 [![Demo en Vivo](https://img.shields.io/badge/Demo%20en%20Vivo-Online-success.svg)](https://ordenanzas.evegat.cl)
 [![Licencia](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -10,9 +10,9 @@
 [ 🌐 **Abrir Dashboard Interactivo en Vivo** ](https://ordenanzas.evegat.cl)  
 [ 🇪🇸 Español ](README.md) · [ 🇬🇧 English version ](README.en.md)
 
-Iniciativa independiente de extracción, estructuración y catálogo nacional de **regulaciones y ordenanzas municipales de Chile**. La fuente estructurada principal es la **Biblioteca del Congreso Nacional (BCN/LeyChile)** y el corpus se complementa con documentos recuperados desde portales municipales cuando existe evidencia reproducible con hash SHA-256.
+Iniciativa independiente de extracción, estructuración y catálogo nacional de **regulaciones y ordenanzas municipales de Chile**. La fuente estructurada principal es la **Biblioteca del Congreso Nacional (BCN/LeyChile)** y el corpus se complementa con documentos recuperados desde portales municipales oficiales cuando existe evidencia reproducible con huella digital SHA-256.
 
-> **Cobertura y alcance:** Cobertura territorial nacional en las 346 comunas de Chile (100%). Exhaustividad documental no acreditada (sujeta a disponibilidad y publicación electrónica de cada municipio).
+> **Cobertura y alcance:** Cobertura territorial nacional en las 346 comunas de Chile (100%). Exhaustividad documental no acreditada (sujeta a disponibilidad y publicación electrónica de cada municipio). Principio epistemológico de *honestidad documental*: documentos sin fecha formal verificable se catalogan como `S/F` sin inventar fechas de fantasía.
 
 ---
 
@@ -33,9 +33,10 @@ Este proyecto nace con un objetivo fundamentalmente formativo y de investigació
 
 - [x] **Fase 1: Catastro Base & Pipeline Reproducible:** Extracción SPARQL BCN (1.710 normas), captura complementaria CPLT y categorización en 9 ejes temáticos.
 - [x] **Fase 2: Visualizador Público & Acceso Abierto:** Dashboard interactivo publicado en GitHub Pages, filtros combinados por materia, región y año, drawer comunal, mapa interactivo con Leaflet, autocompletar inteligente y descargas abiertas.
-- [x] **Fase 3: Expansión Territorial Directa:** Pipeline de descubrimiento y extracción directa con verificación criptográfica (SHA-256), alcanzando **cobertura en las 346 comunas** con **7.321 registros normativos consolidados** (5.881 BCN/LeyChile + 1.440 municipales verificadas con SHA-256).
-- [x] **Fase 4: Asistente Jurídico Municipal Trazable ("Chatcito"):** Asistente de diálogo sobre motor local cliente (`asistente_chat.js`), consultas en tiempo real sobre los 7.321 registros, enlaces directos a documentos fuente y cero fuga de datos.
-- [x] **Fase 5: Módulo Docente & Marco Legal:** Módulo interactivo de ordenanzas y regulaciones comunales con mandato o fundamento legal específico (Derechos, Participación, Aseo, Mascotas, Plan Regulador, Subvenciones), auditor comunal en vivo, distinción doctrinal PLACMA vs Ordenanza Ambiental, 3 casos de estudio y Jupyter Notebook didáctico.
+- [x] **Fase 3: Expansión Territorial Directa:** Pipeline de descubrimiento y extracción directa con verificación documental (SHA-256), alcanzando cobertura en las 346 comunas.
+- [x] **Fase 4: Asistente Jurídico Municipal Trazable ("Chatcito"):** Asistente de diálogo sobre motor local en el cliente (`asistente_chat.js`), consultas en tiempo real sobre los 7.450 registros, enlaces directos a documentos fuente y cero fuga de datos.
+- [x] **Fase 5: Módulo Docente & Marco Legal:** Módulo interactivo de ordenanzas y regulaciones comunales con mandato legal específico (Derechos, Participación, Aseo, Mascotas, Plan Regulador, Subvenciones), auditor comunal en vivo, distinción doctrinal PLACMA vs Ordenanza Ambiental, 3 casos de estudio y Jupyter Notebook didáctico.
+- [x] **Fase 6: Auditoría Forense y Saneamiento Epistémico:** Erradicación de fechas artificiales de fallback (`2026-01-01`), saneamiento de números de decreto, tipificación de compilados normativos y verificación mediante arnés de calidad y seguridad MyWorld.
 
 ---
 
@@ -95,12 +96,12 @@ Abrir http://localhost:8000. Sirve archivos existentes; no reconstruye datos. Lo
 
 ## 📊 Alcance, cobertura y estados de evidencia
 
-Corte documental local del 2026-09-15, contado desde `dashboard/status_data.json` y contrastado con el CSV. Estas cifras requieren actualización cuando cambien los datos; no hay sincronización automática de este README. No se revalidaron documentos remotos ni todas las exportaciones.
+Corte documental local al **27 de Septiembre de 2026**, compilado desde `dashboard/status_data.json` y respaldado en descargas CSV, XLSX y ZIP.
 
-- **Total normas consolidadas:** 7.321 registros normativos.
+- **Total normas consolidadas:** 7.450 registros normativos oficiales.
 - **BCN / LeyChile:** 5.881 registros.
-- **Fuentes Municipales Verificadas:** 1.440 registros oficiales con SHA-256.
-- **Presencia territorial:** 346/346 comunas; 4 tienen un registro y 19 tienen entre 1 y 3. Exhaustividad pendiente.
+- **Fuentes Municipales Verificadas:** 1.569 registros oficiales validados directamente con hash SHA-256.
+- **Presencia territorial:** 346/346 comunas con al menos una norma catalogada.
 - **Rango temporal observado:** 1980–2026.
 - **Clasificación temática:** 9 materias normativas.
 
