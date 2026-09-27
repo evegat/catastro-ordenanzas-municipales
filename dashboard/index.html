@@ -264,7 +264,7 @@
           Inteligencia Normativa Municipal de Chile
         </h2>
         <p class="text-sm text-sky-400 font-medium max-w-2xl mx-auto">
-          Infraestructura de datos abiertos y certeza jurídica comunal para gestión local, concejales y academia.
+          Infraestructura de datos abiertos e inteligencia normativa comunal verificable para gestión local, concejales y academia.
         </p>
         <p class="text-xs text-zinc-300 max-w-2xl mx-auto font-normal leading-relaxed">
           Accede a <strong>7.450 documentos normativos catalogados</strong> (5.881 de BCN LeyChile y 1.569 respaldados directamente desde portales municipales oficiales).<br>
@@ -280,11 +280,10 @@
             type="text" 
             id="hero-search-input" 
             placeholder="Busca por comuna (ej. Maipú, Viña del Mar, Temuco) o materia (ej. Ruidos, Aseo, Permisos)..." 
-            oninput="handleHeroSearch(event)"
             onkeydown="handleHeroSearchKey(event)"
             class="flex-1 min-w-0 bg-transparent border-0 px-2.5 py-2.5 text-xs sm:text-sm text-white placeholder-zinc-400 focus:outline-none focus:ring-0"
           />
-          <button onclick="executeHeroSearch()" data-umami-event="buscar_ordenanza" data-umami-event-location="hero" class="px-4 sm:px-5 py-2 sm:py-2.5 bg-sky-700 hover:bg-sky-600 text-white rounded-xl text-xs font-semibold transition-colors shrink-0 flex items-center gap-1.5 shadow-sm">
+          <button onclick="executeHeroSearch()" data-umami-event="buscar_ordenanza" data-umami-event-location="hero" class="px-4 sm:px-5 py-2 sm:py-2.5 bg-sky-700 hover:bg-sky-800 text-white rounded-xl text-xs font-semibold transition-colors shrink-0 flex items-center gap-1.5 shadow-sm">
             <span>Buscar</span>
             <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
           </button>
@@ -516,7 +515,7 @@
           <div class="text-xs text-zinc-400">Comunas cubiertas (100%)</div>
         </div>
         <div class="bg-[#071f43]/60 border border-[#153b70] rounded-xl p-3.5 text-center">
-          <div class="text-2xl font-bold text-sky-400 font-mono">7.321</div>
+          <div class="text-2xl font-bold text-sky-400 font-mono">7.450</div>
           <div class="text-xs text-zinc-400">Registros catalogados</div>
         </div>
         <div class="bg-[#071f43]/60 border border-[#153b70] rounded-xl p-3.5 text-center">
@@ -1264,7 +1263,7 @@
           <ul class="text-xs text-zinc-300 space-y-2.5 pt-1">
             <li class="flex items-start gap-2">
               <i data-lucide="target" class="w-4 h-4 text-sky-400 shrink-0 mt-0.5"></i>
-              <span><strong>Completar las 103 comunas restantes (100% quinquenal):</strong> Rescatar la normativa reciente de municipios rurales o con brecha digital mediante solicitudes de información y colaboración local.</span>
+              <span><strong>Cerrar la brecha quinquenal (142 comunas con rezago fechado y 103 sin rastreo directo):</strong> Rescatar la normativa reciente de municipios rurales o con brecha digital mediante solicitudes de información (SAI) y colaboración comunal.</span>
             </li>
             <li class="flex items-start gap-2">
               <i data-lucide="target" class="w-4 h-4 text-sky-400 shrink-0 mt-0.5"></i>
@@ -1378,7 +1377,7 @@
         <div class="space-y-1">
           <h4 class="text-base font-bold text-white flex items-center gap-2">
             <i data-lucide="shield-check" class="w-5 h-5 text-emerald-400"></i>
-            <span>¿Cómo colaborar para completar las 103 comunas restantes?</span>
+            <span>¿Cómo colaborar para rescatar las comunas con rezago documental?</span>
           </h4>
           <p class="text-xs text-zinc-400">
             Seguimos un protocolo de estricto rigor probatorio documental. No publicamos borradores ni actos sin respaldo formal.
@@ -1499,7 +1498,7 @@
   <script src="mapa_chile.js?v=8469be31160d"></script>
   <script src="asistente_chat.js?v=4a2a32fddb41"></script>
   <script>
-    let globalStatusData = null;
+    let globalStatusData = (typeof window !== 'undefined' && window.CATASTRO_DATA) || (typeof STATUS_DATA !== 'undefined' ? STATUS_DATA : null);
 
     // SANITIZACIÓN DEFENSIVA CONTRA XSS (CWE-79)
     function escapeHtml(str) {
@@ -1605,7 +1604,15 @@
         if (resultsPanel) resultsPanel.classList.add('hidden');
         return;
       }
-      if (!globalStatusData || !globalStatusData.comunas) return;
+      if (!globalStatusData || !globalStatusData.comunas) {
+        const fallback = (typeof window !== 'undefined' && window.CATASTRO_DATA) || (typeof STATUS_DATA !== 'undefined' ? STATUS_DATA : null);
+        if (fallback && fallback.comunas) {
+          globalStatusData = fallback;
+        } else {
+          console.warn('MuniData: Datos de catastro aún no disponibles.');
+          return;
+        }
+      }
 
       const comunasCoincidentes = [];
       const ordenanzasCoincidentes = [];
@@ -2209,9 +2216,9 @@
       setTheme(isDark ? 'light' : 'dark');
     }
 
-    document.addEventListener('DOMContentLoaded', () => {
+    function initApp() {
       initTheme();
-      lucide.createIcons();
+      if (window.lucide && window.lucide.createIcons) lucide.createIcons();
       const dataSrc = window.CATASTRO_DATA || (typeof STATUS_DATA !== 'undefined' ? STATUS_DATA : null);
       if (dataSrc && dataSrc.comunas) {
         globalStatusData = dataSrc;
@@ -2226,7 +2233,7 @@
         // Llenar selector de regiones
         const regSet = new Set(globalStatusData.comunas.map(c => c.region_nombre).filter(Boolean));
         const regSelect = document.getElementById('region-filter');
-        if (regSelect) {
+        if (regSelect && regSelect.options.length <= 1) {
           regSet.forEach(r => {
             const opt = document.createElement('option');
             opt.value = r;
@@ -2238,7 +2245,7 @@
 
         // Llenar selector de auditoría de cumplimiento (346 comunas ordenadas alfabéticamente)
         const compSelect = document.getElementById('compliance-comuna-select');
-        if (compSelect) {
+        if (compSelect && compSelect.options.length === 0) {
           compSelect.innerHTML = '';
           const sortedComunas = [...globalStatusData.comunas].sort((a, b) => a.comuna.localeCompare(b.comuna));
           sortedComunas.forEach(c => {
@@ -2254,7 +2261,13 @@
       setTimeout(() => {
         switchTab('mapa');
       }, 150);
-    });
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initApp);
+    } else {
+      initApp();
+    }
   </script>
 
   <!-- MODAL DE ORDENANZAS COMUNALES (CON FILTROS INTERACTIVOS) -->
@@ -2454,7 +2467,7 @@
               <h4 class="text-xs font-bold text-white">Asistente Jurídico P090</h4>
               <span class="px-1.5 py-0.2 rounded text-[9px] font-mono bg-sky-500/20 text-sky-300">Consulta Trazable</span>
             </div>
-            <p class="text-[10px] text-zinc-400 font-mono">Motor local • 7.321 registros normativos</p>
+            <p class="text-[10px] text-zinc-400 font-mono">Motor local • 7.450 registros normativos</p>
           </div>
         </div>
 
@@ -2476,7 +2489,7 @@
             <span>Asistente Jurídico Municipal P090</span>
           </div>
           <p class="text-[11px] leading-relaxed text-zinc-300">
-            ¡Hola! Soy tu asistente de consulta normativa sobre los <strong>7.321 registros normativos de Chile</strong> (cobertura en 346 comunas; exhaustividad no acreditada).
+            ¡Hola! Soy tu asistente de consulta normativa sobre los <strong>7.450 registros normativos de Chile</strong> (cobertura en 346 comunas; exhaustividad no acreditada).
           </p>
           <p class="text-[11px] text-zinc-400">
             Pregúntame por las ordenanzas con mandato legal expreso, la validez del PLACMA, o escribe el nombre de cualquier comuna del país.
