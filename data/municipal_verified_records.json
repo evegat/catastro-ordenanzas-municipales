@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T15:44:41.586491+00:00",
+  "generated_at": "2026-09-26T21:37:08.704793",
   "policy": "official-listing + resolvable-pdf + sha256 + canonical-legal-act",
   "evidence_runs": [
     {
@@ -15,7 +15,7 @@
       "artifact_id": 9705327141
     }
   ],
-  "count": 1545,
+  "count": 1556,
   "records": [
     {
       "comuna": "Ñuñoa",
@@ -34049,6 +34049,248 @@
         "sha256": "69cc7cb83bdbef128b9edd6f23eab78a0a74422a312e3336789e889811e4415f",
         "bytes": 2009676,
         "verified_at": "2026-09-25T12:00:00+00:00"
+      }
+    },
+    {
+      "comuna": "Puerto Varas",
+      "region_id": "10",
+      "cplt_code": "MU237",
+      "fuente": "Municipalidad",
+      "numero": "S/N",
+      "fecha": "2023-08-15",
+      "titulo": "Ordenanza Municipal de Protección de Humedales Urbanos de Puerto Varas",
+      "materia": "Medio ambiente, protección de humedales urbanos y biodiversidad",
+      "materia_id": "medio_ambiente",
+      "source_listing_url": "https://ptovaras.cl/ordenanzas-municipales/",
+      "target_url": "https://ptovaras.cl/ordenanzas-municipales/ORDENANZA%20DE%20PROTECCI%C3%93N%20DE%20HUMEDALES%20URBANOS%20-%20PUERTO%20VARAS%20%281%29.pdf",
+      "verification": {
+        "status": "verified",
+        "http_status": 200,
+        "resolved_url": "https://ptovaras.cl/ordenanzas-municipales/ORDENANZA%20DE%20PROTECCI%C3%93N%20DE%20HUMEDALES%20URBANOS%20-%20PUERTO%20VARAS%20%281%29.pdf",
+        "content_type": "application/pdf",
+        "sha256": "fb79658e45b77b185eeb0dad6c6bddda857f2e31c6de3386a41cd7db7554acc7",
+        "bytes": 5163780,
+        "verified_at": "2026-09-26T21:34:31.420052"
+      }
+    },
+    {
+      "comuna": "Lebu",
+      "region_id": "08",
+      "cplt_code": "MU128",
+      "fuente": "Municipalidad",
+      "numero": "S/N",
+      "fecha": "2026-01-15",
+      "titulo": "Ordenanza Local de Derechos Municipales por Permisos, Concesiones y Servicios de Lebu",
+      "materia": "Derechos Municipales y cobro de tarifas",
+      "materia_id": "derechos_municipales",
+      "source_listing_url": "https://lebu.cl/ordenanzas/",
+      "target_url": "https://lebu.cl/wp-content/uploads/2026/01/ORDENANZA-DERECHOS-MUNIC.pdf",
+      "verification": {
+        "status": "verified",
+        "http_status": 200,
+        "resolved_url": "https://lebu.cl/wp-content/uploads/2026/01/ORDENANZA-DERECHOS-MUNIC.pdf",
+        "content_type": "application/pdf",
+        "sha256": "7ce6d47503983a71d3c13a9caa96b2ce64e0b80fd437f83d7d1911219946a95d",
+        "bytes": 9932986,
+        "verified_at": "2026-09-26T21:34:33.150169"
+      }
+    },
+    {
+      "comuna": "Molina",
+      "region_id": "07",
+      "cplt_code": "MU176",
+      "fuente": "Municipalidad",
+      "numero": "11",
+      "fecha": "2025-06-18",
+      "titulo": "Ordenanza Municipal N° 11 sobre Otorgamiento de Subvenciones Municipales de Molina",
+      "materia": "Subvenciones, aportes y fomento comunitario",
+      "materia_id": "desarrollo_social",
+      "source_listing_url": "https://web.molina.cl/subvenciones/",
+      "target_url": "https://web.molina.cl/wp-content/uploads/2025/06/ORDENANZA-N11-SUBVENCIONES-2-7-1.pdf",
+      "verification": {
+        "status": "verified",
+        "http_status": 200,
+        "resolved_url": "https://web.molina.cl/wp-content/uploads/2025/06/ORDENANZA-N11-SUBVENCIONES-2-7-1.pdf",
+        "content_type": "application/pdf",
+        "sha256": "c0820153004e412ea71b780f2c3373dc53296bec980c74c962bb856fa6d31e1b",
+        "bytes": 9157465,
+        "verified_at": "2026-09-26T21:34:40.437912"
+      }
+    },
+    {
+      "comuna": "Cañete",
+      "region_id": "08",
+      "cplt_code": "MU034",
+      "fuente": "Municipalidad",
+      "numero": "S/N",
+      "fecha": "2022-08-10",
+      "titulo": "Ordenanza Municipal sobre Tenencia Responsable de Mascotas y Animales de Compañía de Cañete",
+      "materia": "Tenencia responsable de mascotas y bienestar animal",
+      "materia_id": "tenencia_responsable_mascotas",
+      "source_listing_url": "https://www.municanete.cl/transparencia/",
+      "target_url": "https://www.municanete.cl/TRANSPARENCIA2022/Agosto2022/terceros/ordenanzas/Ordenanza_Mascotas_y_Animales_de_Compa%C3%B1ia.pdf",
+      "verification": {
+        "status": "verified",
+        "http_status": 200,
+        "resolved_url": "https://www.municanete.cl/TRANSPARENCIA2022/Agosto2022/terceros/ordenanzas/Ordenanza_Mascotas_y_Animales_de_Compa%C3%B1ia.pdf",
+        "content_type": "application/pdf",
+        "sha256": "eebf77fe1610b428d515926d84c09569d91fdc3f9b942b7d12fa59a15a3852a7",
+        "bytes": 4752640,
+        "verified_at": "2026-09-26T21:34:41.309738"
+      }
+    },
+    {
+      "comuna": "Ovalle",
+      "region_id": "04",
+      "cplt_code": "MU194",
+      "fuente": "Municipalidad",
+      "numero": "Decreto Exento 4898",
+      "fecha": "2021-06-30",
+      "titulo": "Ordenanza sobre Uso de Espacios Públicos en la Comuna de Ovalle",
+      "materia": "Seguridad y Convivencia",
+      "materia_id": "seguridad_convivencia",
+      "source_listing_url": "https://muniovalle.gob.cl/documentos/",
+      "target_url": "https://transparenciaovalle.cl/documentos/07Terceros/Decretos/2021/junio/4898.pdf",
+      "verification": {
+        "status": "verified",
+        "http_status": 200,
+        "resolved_url": "https://transparenciaovalle.cl/documentos/07Terceros/Decretos/2021/junio/4898.pdf",
+        "content_type": "application/pdf",
+        "sha256": "76c50acb54b404c772f1dc2bfc5df98f01b88adbf05dcd9ea0f9d22d6402c945",
+        "bytes": 3729697,
+        "verified_at": "2026-09-26T21:36:49.454258"
+      }
+    },
+    {
+      "comuna": "Vallenar",
+      "region_id": "03",
+      "cplt_code": "MU331",
+      "fuente": "Municipalidad",
+      "numero": "Enmienda 002 PRCV",
+      "fecha": "2026-09-25",
+      "titulo": "Ordenanza Enmienda N° 002 Plan Regulador Comunal de Vallenar - Clasificación Vialidad Estructurante",
+      "materia": "Urbanismo, Obras y Edificación",
+      "materia_id": "urbanismo_obras",
+      "source_listing_url": "https://www.imvallenar.gob.cl/enmienda-02-al-prcv/",
+      "target_url": "https://www.imvallenar.gob.cl/wp-content/uploads/2026/09/20260925-ORDENANZA-ENMIENDA-02-PRCV-VIALIDAD-ESTRUCTURANTE.pdf",
+      "verification": {
+        "status": "verified",
+        "http_status": 200,
+        "resolved_url": "https://www.imvallenar.gob.cl/wp-content/uploads/2026/09/20260925-ORDENANZA-ENMIENDA-02-PRCV-VIALIDAD-ESTRUCTURANTE.pdf",
+        "content_type": "application/pdf",
+        "sha256": "d6e7a7f2b4ad4c84ddcfa56d9eadf421fd807d4f0fb2eec18219d478c3c40633",
+        "bytes": 619367,
+        "verified_at": "2026-09-26T21:36:49.668202"
+      }
+    },
+    {
+      "comuna": "San Carlos",
+      "region_id": "16",
+      "cplt_code": "MU283",
+      "fuente": "Municipalidad",
+      "numero": "S/N",
+      "fecha": "2024-11-07",
+      "titulo": "Ordenanza Local del Plan Regulador Comunal de San Carlos",
+      "materia": "Urbanismo, Obras y Edificación",
+      "materia_id": "urbanismo_obras",
+      "source_listing_url": "https://munisancarlos.cl/normativayplanes/",
+      "target_url": "https://munisancarlos.cl/wp-content/uploads/2025/08/02-PRC-OrdenanzaDiarioOficial.pdf.pdf",
+      "verification": {
+        "status": "verified",
+        "http_status": 200,
+        "resolved_url": "https://munisancarlos.cl/wp-content/uploads/2025/08/02-PRC-OrdenanzaDiarioOficial.pdf.pdf",
+        "content_type": "application/pdf",
+        "sha256": "cba90c179a2f64a11ffa80cf1b74889f74d7d7e0a869ad5fb7e8acc4627dc9e0",
+        "bytes": 8551378,
+        "verified_at": "2026-09-26T21:36:50.904880"
+      }
+    },
+    {
+      "comuna": "Lota",
+      "region_id": "08",
+      "cplt_code": "MU149",
+      "fuente": "Municipalidad",
+      "numero": "3",
+      "fecha": "2025-11-13",
+      "titulo": "Ordenanza sobre Otorgamiento de Subvenciones, Recepción de Donaciones y su Registro de Lota",
+      "materia": "Salud, Deporte y Desarrollo Social",
+      "materia_id": "social_salud_deporte",
+      "source_listing_url": "https://www.bcn.cl/leychile/Navegar?idNorma=1218454",
+      "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=Ordenanza-3_13-NOV-2025&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1218454.2025-11-13.0.0%23",
+      "verification": {
+        "status": "verified",
+        "http_status": 200,
+        "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=Ordenanza-3_13-NOV-2025&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1218454.2025-11-13.0.0%23",
+        "content_type": "application/pdf",
+        "sha256": "5d96eb8204cef2d3d6e6fbda3651499e35dd82b41bdf67e8bb92ad8d94b9543c",
+        "bytes": 63588,
+        "verified_at": "2026-09-26T21:36:51.024351"
+      }
+    },
+    {
+      "comuna": "Ancud",
+      "region_id": "10",
+      "cplt_code": "MU006",
+      "fuente": "Municipalidad",
+      "numero": "Decreto 242",
+      "fecha": "2025-01-21",
+      "titulo": "Texto Refundido y Sistematizado de la Ordenanza Municipal N° 14 sobre Tenencia Responsable de Mascotas y Animales de Compañía",
+      "materia": "Tenencia Responsable y Mascotas",
+      "materia_id": "tenencia_mascotas",
+      "source_listing_url": "https://www.muniancud.cl/transparencia/municipalidad/inicio/index.php",
+      "target_url": "https://muniancud.cl/transparencia/municipalidad/archivo/estandares/08%20Actos%20y%20Resoluciones/8.3%20Ordenanzas/ORDENANZAS/ORDENANZA%2014.pdf",
+      "verification": {
+        "status": "verified",
+        "http_status": 200,
+        "resolved_url": "https://muniancud.cl/transparencia/municipalidad/archivo/estandares/08%20Actos%20y%20Resoluciones/8.3%20Ordenanzas/ORDENANZAS/ORDENANZA%2014.pdf",
+        "content_type": "application/pdf",
+        "sha256": "c002d94a8ce80571f7eb23b9a3d6958c83d8fc02e000f379bc9c0e5f6ce0c03a",
+        "bytes": 599872,
+        "verified_at": "2026-09-26T21:36:51.245750"
+      }
+    },
+    {
+      "comuna": "La Unión",
+      "region_id": "14",
+      "cplt_code": "MU125",
+      "fuente": "Municipalidad",
+      "numero": "5",
+      "fecha": "2022-11-04",
+      "titulo": "Ordenanza Nro. 05 Aprueba Ordenanza Local sobre Ferias Libres de la Comuna de La Unión",
+      "materia": "Comercio, Alcoholes y Patentes",
+      "materia_id": "comercio_alcoholes",
+      "source_listing_url": "https://transparencia.munilaunion.cl/",
+      "target_url": "https://transparencia.munilaunion.cl/Documentos/ActosResoluciones/928445Ordenanza%20Nro.%2005%20Aprueba%20Ordenanza%20Local%20sobre%20Ferias%20Libres.pdf",
+      "verification": {
+        "status": "verified",
+        "http_status": 200,
+        "resolved_url": "https://transparencia.munilaunion.cl/Documentos/ActosResoluciones/928445Ordenanza%20Nro.%2005%20Aprueba%20Ordenanza%20Local%20sobre%20Ferias%20Libres.pdf",
+        "content_type": "application/pdf",
+        "sha256": "2a62d7142510773c76ac22875c673e3dafcf3d94f234ccd2272c287eb2081b8b",
+        "bytes": 568207,
+        "verified_at": "2026-09-26T21:36:51.436145"
+      }
+    },
+    {
+      "comuna": "Vicuña",
+      "region_id": "04",
+      "cplt_code": "MU336",
+      "fuente": "Municipalidad",
+      "numero": "S/N",
+      "fecha": "2025-07-02",
+      "titulo": "Ordenanza Municipal sobre Otorgamiento de Subvenciones de la Municipalidad de Vicuña",
+      "materia": "Salud, Deporte y Desarrollo Social",
+      "materia_id": "social_salud_deporte",
+      "source_listing_url": "https://munivicuna.cl/download/ordenanza-subvenciones-vigente-2025/",
+      "target_url": "https://munivicuna.cl/download/ordenanza-subvenciones-vigente-2025/?wpdmdl=910",
+      "verification": {
+        "status": "verified",
+        "http_status": 200,
+        "resolved_url": "https://munivicuna.cl/download/ordenanza-subvenciones-vigente-2025/?wpdmdl=910",
+        "content_type": "application/pdf",
+        "sha256": "e957efaa475bf1fb049a0309e4f156a0ab1ee5f07666a5723efc9b6a35a3e3af",
+        "bytes": 5615731,
+        "verified_at": "2026-09-26T21:36:53.610338"
       }
     }
   ]

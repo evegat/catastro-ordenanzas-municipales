@@ -1,0 +1,898 @@
+[
+  {
+    "comuna": "Camarones",
+    "region_id": "15",
+    "region": "Arica y Parinacota",
+    "last_year": 2019,
+    "total_ords": 8
+  },
+  {
+    "comuna": "General Lagos",
+    "region_id": "15",
+    "region": "Arica y Parinacota",
+    "last_year": 1987,
+    "total_ords": 4
+  },
+  {
+    "comuna": "Pozo Almonte",
+    "region_id": "01",
+    "region": "Tarapacá",
+    "last_year": 1994,
+    "total_ords": 7
+  },
+  {
+    "comuna": "Camiña",
+    "region_id": "01",
+    "region": "Tarapacá",
+    "last_year": 2018,
+    "total_ords": 3
+  },
+  {
+    "comuna": "Colchane",
+    "region_id": "01",
+    "region": "Tarapacá",
+    "last_year": 2011,
+    "total_ords": 4
+  },
+  {
+    "comuna": "Pica",
+    "region_id": "01",
+    "region": "Tarapacá",
+    "last_year": 2004,
+    "total_ords": 8
+  },
+  {
+    "comuna": "Sierra Gorda",
+    "region_id": "02",
+    "region": "Antofagasta",
+    "last_year": 2011,
+    "total_ords": 12
+  },
+  {
+    "comuna": "Tocopilla",
+    "region_id": "02",
+    "region": "Antofagasta",
+    "last_year": 2000,
+    "total_ords": 15
+  },
+  {
+    "comuna": "Tierra Amarilla",
+    "region_id": "03",
+    "region": "Atacama",
+    "last_year": 2020,
+    "total_ords": 7
+  },
+  {
+    "comuna": "Diego de Almagro",
+    "region_id": "03",
+    "region": "Atacama",
+    "last_year": 2020,
+    "total_ords": 14
+  },
+  {
+    "comuna": "Vallenar",
+    "region_id": "03",
+    "region": "Atacama",
+    "last_year": 2020,
+    "total_ords": 51
+  },
+  {
+    "comuna": "Freirina",
+    "region_id": "03",
+    "region": "Atacama",
+    "last_year": 2019,
+    "total_ords": 5
+  },
+  {
+    "comuna": "Andacollo",
+    "region_id": "04",
+    "region": "Coquimbo",
+    "last_year": 2009,
+    "total_ords": 6
+  },
+  {
+    "comuna": "Paiguano",
+    "region_id": "04",
+    "region": "Coquimbo",
+    "last_year": 2017,
+    "total_ords": 3
+  },
+  {
+    "comuna": "Vicuña",
+    "region_id": "04",
+    "region": "Coquimbo",
+    "last_year": 2012,
+    "total_ords": 14
+  },
+  {
+    "comuna": "Los Vilos",
+    "region_id": "04",
+    "region": "Coquimbo",
+    "last_year": 2010,
+    "total_ords": 10
+  },
+  {
+    "comuna": "Salamanca",
+    "region_id": "04",
+    "region": "Coquimbo",
+    "last_year": 2004,
+    "total_ords": 15
+  },
+  {
+    "comuna": "Ovalle",
+    "region_id": "04",
+    "region": "Coquimbo",
+    "last_year": 2016,
+    "total_ords": 59
+  },
+  {
+    "comuna": "Combarbalá",
+    "region_id": "04",
+    "region": "Coquimbo",
+    "last_year": 2020,
+    "total_ords": 8
+  },
+  {
+    "comuna": "Monte Patria",
+    "region_id": "04",
+    "region": "Coquimbo",
+    "last_year": 2014,
+    "total_ords": 13
+  },
+  {
+    "comuna": "Punitaqui",
+    "region_id": "04",
+    "region": "Coquimbo",
+    "last_year": 2011,
+    "total_ords": 4
+  },
+  {
+    "comuna": "Juan Fernández",
+    "region_id": "05",
+    "region": "Valparaíso",
+    "last_year": 2003,
+    "total_ords": 4
+  },
+  {
+    "comuna": "Los Andes",
+    "region_id": "05",
+    "region": "Valparaíso",
+    "last_year": 2012,
+    "total_ords": 41
+  },
+  {
+    "comuna": "Calle Larga",
+    "region_id": "05",
+    "region": "Valparaíso",
+    "last_year": 2020,
+    "total_ords": 8
+  },
+  {
+    "comuna": "San Esteban",
+    "region_id": "05",
+    "region": "Valparaíso",
+    "last_year": 2003,
+    "total_ords": 10
+  },
+  {
+    "comuna": "Papudo",
+    "region_id": "05",
+    "region": "Valparaíso",
+    "last_year": 2010,
+    "total_ords": 7
+  },
+  {
+    "comuna": "Petorca",
+    "region_id": "05",
+    "region": "Valparaíso",
+    "last_year": 2018,
+    "total_ords": 17
+  },
+  {
+    "comuna": "Cartagena",
+    "region_id": "05",
+    "region": "Valparaíso",
+    "last_year": 2004,
+    "total_ords": 11
+  },
+  {
+    "comuna": "El Tabo",
+    "region_id": "05",
+    "region": "Valparaíso",
+    "last_year": 2008,
+    "total_ords": 5
+  },
+  {
+    "comuna": "Catemu",
+    "region_id": "05",
+    "region": "Valparaíso",
+    "last_year": 2019,
+    "total_ords": 18
+  },
+  {
+    "comuna": "Panquehue",
+    "region_id": "05",
+    "region": "Valparaíso",
+    "last_year": 2016,
+    "total_ords": 24
+  },
+  {
+    "comuna": "Santa María",
+    "region_id": "05",
+    "region": "Valparaíso",
+    "last_year": 1999,
+    "total_ords": 20
+  },
+  {
+    "comuna": "Olmué",
+    "region_id": "05",
+    "region": "Valparaíso",
+    "last_year": 2017,
+    "total_ords": 11
+  },
+  {
+    "comuna": "El Bosque",
+    "region_id": "13",
+    "region": "Metropolitana de Santiago",
+    "last_year": 2005,
+    "total_ords": 13
+  },
+  {
+    "comuna": "La Cisterna",
+    "region_id": "13",
+    "region": "Metropolitana de Santiago",
+    "last_year": 2004,
+    "total_ords": 8
+  },
+  {
+    "comuna": "Pedro Aguirre Cerda",
+    "region_id": "13",
+    "region": "Metropolitana de Santiago",
+    "last_year": 2018,
+    "total_ords": 15
+  },
+  {
+    "comuna": "Quinta Normal",
+    "region_id": "13",
+    "region": "Metropolitana de Santiago",
+    "last_year": 2008,
+    "total_ords": 25
+  },
+  {
+    "comuna": "Pirque",
+    "region_id": "13",
+    "region": "Metropolitana de Santiago",
+    "last_year": 2015,
+    "total_ords": 41
+  },
+  {
+    "comuna": "Calera de Tango",
+    "region_id": "13",
+    "region": "Metropolitana de Santiago",
+    "last_year": 2005,
+    "total_ords": 17
+  },
+  {
+    "comuna": "El Monte",
+    "region_id": "13",
+    "region": "Metropolitana de Santiago",
+    "last_year": 2005,
+    "total_ords": 23
+  },
+  {
+    "comuna": "Codegua",
+    "region_id": "06",
+    "region": "O Higgins",
+    "last_year": 2018,
+    "total_ords": 8
+  },
+  {
+    "comuna": "Coinco",
+    "region_id": "06",
+    "region": "O Higgins",
+    "last_year": 2019,
+    "total_ords": 13
+  },
+  {
+    "comuna": "Graneros",
+    "region_id": "06",
+    "region": "O Higgins",
+    "last_year": 2018,
+    "total_ords": 11
+  },
+  {
+    "comuna": "Machalí",
+    "region_id": "06",
+    "region": "O Higgins",
+    "last_year": 2019,
+    "total_ords": 40
+  },
+  {
+    "comuna": "Mostazal",
+    "region_id": "06",
+    "region": "O Higgins",
+    "last_year": 2018,
+    "total_ords": 14
+  },
+  {
+    "comuna": "Pichidegua",
+    "region_id": "06",
+    "region": "O Higgins",
+    "last_year": 2011,
+    "total_ords": 11
+  },
+  {
+    "comuna": "San Vicente",
+    "region_id": "06",
+    "region": "O Higgins",
+    "last_year": 2004,
+    "total_ords": 18
+  },
+  {
+    "comuna": "San Fernando",
+    "region_id": "06",
+    "region": "O Higgins",
+    "last_year": 2012,
+    "total_ords": 34
+  },
+  {
+    "comuna": "Chépica",
+    "region_id": "06",
+    "region": "O Higgins",
+    "last_year": 2004,
+    "total_ords": 9
+  },
+  {
+    "comuna": "Placilla",
+    "region_id": "06",
+    "region": "O Higgins",
+    "last_year": 2018,
+    "total_ords": 11
+  },
+  {
+    "comuna": "Pumanque",
+    "region_id": "06",
+    "region": "O Higgins",
+    "last_year": 1991,
+    "total_ords": 2
+  },
+  {
+    "comuna": "Santa Cruz",
+    "region_id": "06",
+    "region": "O Higgins",
+    "last_year": 2011,
+    "total_ords": 13
+  },
+  {
+    "comuna": "Curepto",
+    "region_id": "07",
+    "region": "Maule",
+    "last_year": 2004,
+    "total_ords": 8
+  },
+  {
+    "comuna": "Chanco",
+    "region_id": "07",
+    "region": "Maule",
+    "last_year": 2018,
+    "total_ords": 9
+  },
+  {
+    "comuna": "Pelluhue",
+    "region_id": "07",
+    "region": "Maule",
+    "last_year": 2016,
+    "total_ords": 5
+  },
+  {
+    "comuna": "Licantén",
+    "region_id": "07",
+    "region": "Maule",
+    "last_year": 2006,
+    "total_ords": 15
+  },
+  {
+    "comuna": "Molina",
+    "region_id": "07",
+    "region": "Maule",
+    "last_year": 2019,
+    "total_ords": 16
+  },
+  {
+    "comuna": "Rauco",
+    "region_id": "07",
+    "region": "Maule",
+    "last_year": 2019,
+    "total_ords": 16
+  },
+  {
+    "comuna": "Teno",
+    "region_id": "07",
+    "region": "Maule",
+    "last_year": 2011,
+    "total_ords": 8
+  },
+  {
+    "comuna": "Longaví",
+    "region_id": "07",
+    "region": "Maule",
+    "last_year": 2016,
+    "total_ords": 6
+  },
+  {
+    "comuna": "Yerbas Buenas",
+    "region_id": "07",
+    "region": "Maule",
+    "last_year": 2004,
+    "total_ords": 7
+  },
+  {
+    "comuna": "Bulnes",
+    "region_id": "16",
+    "region": "Ñuble",
+    "last_year": 2004,
+    "total_ords": 8
+  },
+  {
+    "comuna": "Coelemu",
+    "region_id": "16",
+    "region": "Ñuble",
+    "last_year": 2017,
+    "total_ords": 6
+  },
+  {
+    "comuna": "Chillán Viejo",
+    "region_id": "16",
+    "region": "Ñuble",
+    "last_year": 2009,
+    "total_ords": 4
+  },
+  {
+    "comuna": "Ninhue",
+    "region_id": "16",
+    "region": "Ñuble",
+    "last_year": 2019,
+    "total_ords": 4
+  },
+  {
+    "comuna": "San Carlos",
+    "region_id": "16",
+    "region": "Ñuble",
+    "last_year": 2009,
+    "total_ords": 15
+  },
+  {
+    "comuna": "San Fabián",
+    "region_id": "16",
+    "region": "Ñuble",
+    "last_year": 2007,
+    "total_ords": 4
+  },
+  {
+    "comuna": "San Ignacio",
+    "region_id": "16",
+    "region": "Ñuble",
+    "last_year": 2020,
+    "total_ords": 17
+  },
+  {
+    "comuna": "Yungay",
+    "region_id": "16",
+    "region": "Ñuble",
+    "last_year": 2020,
+    "total_ords": 11
+  },
+  {
+    "comuna": "Hualqui",
+    "region_id": "08",
+    "region": "Biobío",
+    "last_year": 2017,
+    "total_ords": 16
+  },
+  {
+    "comuna": "Lota",
+    "region_id": "08",
+    "region": "Biobío",
+    "last_year": 2008,
+    "total_ords": 38
+  },
+  {
+    "comuna": "Santa Juana",
+    "region_id": "08",
+    "region": "Biobío",
+    "last_year": 2006,
+    "total_ords": 6
+  },
+  {
+    "comuna": "Lebu",
+    "region_id": "08",
+    "region": "Biobío",
+    "last_year": 2017,
+    "total_ords": 5
+  },
+  {
+    "comuna": "Cañete",
+    "region_id": "08",
+    "region": "Biobío",
+    "last_year": 2017,
+    "total_ords": 6
+  },
+  {
+    "comuna": "Curanilahue",
+    "region_id": "08",
+    "region": "Biobío",
+    "last_year": 2011,
+    "total_ords": 23
+  },
+  {
+    "comuna": "Los Álamos",
+    "region_id": "08",
+    "region": "Biobío",
+    "last_year": 2016,
+    "total_ords": 13
+  },
+  {
+    "comuna": "Tirúa",
+    "region_id": "08",
+    "region": "Biobío",
+    "last_year": 2014,
+    "total_ords": 4
+  },
+  {
+    "comuna": "Cabrero",
+    "region_id": "08",
+    "region": "Biobío",
+    "last_year": 2019,
+    "total_ords": 10
+  },
+  {
+    "comuna": "Quilaco",
+    "region_id": "08",
+    "region": "Biobío",
+    "last_year": 2004,
+    "total_ords": 4
+  },
+  {
+    "comuna": "Santa Bárbara",
+    "region_id": "08",
+    "region": "Biobío",
+    "last_year": 1998,
+    "total_ords": 8
+  },
+  {
+    "comuna": "Tucapel",
+    "region_id": "08",
+    "region": "Biobío",
+    "last_year": 2007,
+    "total_ords": 20
+  },
+  {
+    "comuna": "Yumbel",
+    "region_id": "08",
+    "region": "Biobío",
+    "last_year": 2008,
+    "total_ords": 9
+  },
+  {
+    "comuna": "Cunco",
+    "region_id": "09",
+    "region": "La Araucanía",
+    "last_year": 2019,
+    "total_ords": 5
+  },
+  {
+    "comuna": "Freire",
+    "region_id": "09",
+    "region": "La Araucanía",
+    "last_year": 2017,
+    "total_ords": 10
+  },
+  {
+    "comuna": "Galvarino",
+    "region_id": "09",
+    "region": "La Araucanía",
+    "last_year": 2004,
+    "total_ords": 17
+  },
+  {
+    "comuna": "Gorbea",
+    "region_id": "09",
+    "region": "La Araucanía",
+    "last_year": 2011,
+    "total_ords": 28
+  },
+  {
+    "comuna": "Lautaro",
+    "region_id": "09",
+    "region": "La Araucanía",
+    "last_year": 1995,
+    "total_ords": 22
+  },
+  {
+    "comuna": "Nueva Imperial",
+    "region_id": "09",
+    "region": "La Araucanía",
+    "last_year": 2019,
+    "total_ords": 3
+  },
+  {
+    "comuna": "Padre Las Casas",
+    "region_id": "09",
+    "region": "La Araucanía",
+    "last_year": 2011,
+    "total_ords": 8
+  },
+  {
+    "comuna": "Pucón",
+    "region_id": "09",
+    "region": "La Araucanía",
+    "last_year": 2007,
+    "total_ords": 9
+  },
+  {
+    "comuna": "Teodoro Schmidt",
+    "region_id": "09",
+    "region": "La Araucanía",
+    "last_year": 2018,
+    "total_ords": 15
+  },
+  {
+    "comuna": "Toltén",
+    "region_id": "09",
+    "region": "La Araucanía",
+    "last_year": 2017,
+    "total_ords": 9
+  },
+  {
+    "comuna": "Cholchol",
+    "region_id": "09",
+    "region": "La Araucanía",
+    "last_year": 2006,
+    "total_ords": 2
+  },
+  {
+    "comuna": "Curacautín",
+    "region_id": "09",
+    "region": "La Araucanía",
+    "last_year": 2014,
+    "total_ords": 9
+  },
+  {
+    "comuna": "Ercilla",
+    "region_id": "09",
+    "region": "La Araucanía",
+    "last_year": 2000,
+    "total_ords": 11
+  },
+  {
+    "comuna": "Los Sauces",
+    "region_id": "09",
+    "region": "La Araucanía",
+    "last_year": 2001,
+    "total_ords": 12
+  },
+  {
+    "comuna": "Lumaco",
+    "region_id": "09",
+    "region": "La Araucanía",
+    "last_year": 2006,
+    "total_ords": 13
+  },
+  {
+    "comuna": "Renaico",
+    "region_id": "09",
+    "region": "La Araucanía",
+    "last_year": 2002,
+    "total_ords": 8
+  },
+  {
+    "comuna": "Traiguén",
+    "region_id": "09",
+    "region": "La Araucanía",
+    "last_year": 2010,
+    "total_ords": 29
+  },
+  {
+    "comuna": "Victoria",
+    "region_id": "09",
+    "region": "La Araucanía",
+    "last_year": 2004,
+    "total_ords": 7
+  },
+  {
+    "comuna": "Corral",
+    "region_id": "14",
+    "region": "Los Ríos",
+    "last_year": 2004,
+    "total_ords": 4
+  },
+  {
+    "comuna": "Máfil",
+    "region_id": "14",
+    "region": "Los Ríos",
+    "last_year": 1997,
+    "total_ords": 4
+  },
+  {
+    "comuna": "La Unión",
+    "region_id": "14",
+    "region": "Los Ríos",
+    "last_year": 2004,
+    "total_ords": 7
+  },
+  {
+    "comuna": "Futrono",
+    "region_id": "14",
+    "region": "Los Ríos",
+    "last_year": 2001,
+    "total_ords": 7
+  },
+  {
+    "comuna": "Lago Ranco",
+    "region_id": "14",
+    "region": "Los Ríos",
+    "last_year": 2015,
+    "total_ords": 7
+  },
+  {
+    "comuna": "Fresia",
+    "region_id": "10",
+    "region": "Los Lagos",
+    "last_year": 2013,
+    "total_ords": 10
+  },
+  {
+    "comuna": "Los Muermos",
+    "region_id": "10",
+    "region": "Los Lagos",
+    "last_year": 2009,
+    "total_ords": 7
+  },
+  {
+    "comuna": "Puerto Varas",
+    "region_id": "10",
+    "region": "Los Lagos",
+    "last_year": 2011,
+    "total_ords": 6
+  },
+  {
+    "comuna": "Ancud",
+    "region_id": "10",
+    "region": "Los Lagos",
+    "last_year": 2010,
+    "total_ords": 9
+  },
+  {
+    "comuna": "Curaco de Vélez",
+    "region_id": "10",
+    "region": "Los Lagos",
+    "last_year": 2005,
+    "total_ords": 14
+  },
+  {
+    "comuna": "Quemchi",
+    "region_id": "10",
+    "region": "Los Lagos",
+    "last_year": 2014,
+    "total_ords": 5
+  },
+  {
+    "comuna": "Quinchao",
+    "region_id": "10",
+    "region": "Los Lagos",
+    "last_year": 2017,
+    "total_ords": 10
+  },
+  {
+    "comuna": "Puerto Octay",
+    "region_id": "10",
+    "region": "Los Lagos",
+    "last_year": 2000,
+    "total_ords": 4
+  },
+  {
+    "comuna": "Puyehue",
+    "region_id": "10",
+    "region": "Los Lagos",
+    "last_year": 2017,
+    "total_ords": 4
+  },
+  {
+    "comuna": "Río Negro",
+    "region_id": "10",
+    "region": "Los Lagos",
+    "last_year": 1996,
+    "total_ords": 6
+  },
+  {
+    "comuna": "Chaitén",
+    "region_id": "10",
+    "region": "Los Lagos",
+    "last_year": 2019,
+    "total_ords": 3
+  },
+  {
+    "comuna": "Lago Verde",
+    "region_id": "11",
+    "region": "Aysén",
+    "last_year": 2018,
+    "total_ords": 5
+  },
+  {
+    "comuna": "Aysén",
+    "region_id": "11",
+    "region": "Aysén",
+    "last_year": 2017,
+    "total_ords": 20
+  },
+  {
+    "comuna": "Cisnes",
+    "region_id": "11",
+    "region": "Aysén",
+    "last_year": 2010,
+    "total_ords": 5
+  },
+  {
+    "comuna": "Cochrane",
+    "region_id": "11",
+    "region": "Aysén",
+    "last_year": 2005,
+    "total_ords": 4
+  },
+  {
+    "comuna": "Chile Chico",
+    "region_id": "11",
+    "region": "Aysén",
+    "last_year": 2015,
+    "total_ords": 9
+  },
+  {
+    "comuna": "Río Ibáñez",
+    "region_id": "11",
+    "region": "Aysén",
+    "last_year": 2020,
+    "total_ords": 7
+  },
+  {
+    "comuna": "Río Verde",
+    "region_id": "12",
+    "region": "Magallanes",
+    "last_year": 2019,
+    "total_ords": 5
+  },
+  {
+    "comuna": "Antártica",
+    "region_id": "12",
+    "region": "Magallanes",
+    "last_year": 2017,
+    "total_ords": 1
+  },
+  {
+    "comuna": "Primavera",
+    "region_id": "12",
+    "region": "Magallanes",
+    "last_year": 2018,
+    "total_ords": 6
+  },
+  {
+    "comuna": "Timaukel",
+    "region_id": "12",
+    "region": "Magallanes",
+    "last_year": 2020,
+    "total_ords": 2
+  },
+  {
+    "comuna": "Natales",
+    "region_id": "12",
+    "region": "Magallanes",
+    "last_year": 2004,
+    "total_ords": 12
+  },
+  {
+    "comuna": "Torres del Paine",
+    "region_id": "12",
+    "region": "Magallanes",
+    "last_year": 2011,
+    "total_ords": 7
+  }
+]

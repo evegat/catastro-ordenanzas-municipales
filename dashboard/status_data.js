@@ -4,7 +4,7 @@ window.CATASTRO_DATA = {
     "total_comunas": 346,
     "comunas_con_datos": 346,
     "total_regiones": 16,
-    "total_ordenanzas": 7426,
+    "total_ordenanzas": 7437,
     "ordenanzas_bcn": 5881,
     "ordenanzas_cplt": 0,
     "pdfs_descargados": 0,
@@ -13,7 +13,7 @@ window.CATASTRO_DATA = {
       "bloqueos_ip": 0,
       "user_agents_rotados": 12
     },
-    "ordenanzas_municipales_verificadas": 1545,
+    "ordenanzas_municipales_verificadas": 1556,
     "cplt_en_cuarentena": 0,
     "cobertura_nacional_pct": 100.0
   },
@@ -8582,11 +8582,32 @@ window.CATASTRO_DATA = {
       "comuna": "Vallenar",
       "bcn_count": 51,
       "cplt_count": 0,
-      "total_count": 51,
+      "total_count": 52,
       "pdfs_count": 0,
-      "status": "Cargado BCN",
-      "last_update": "2020-02-20",
+      "status": "BCN + Municipalidad verificada",
+      "last_update": "2026-09-25",
       "ordenanzas": [
+        {
+          "cplt_code": "MU331",
+          "fuente": "Municipalidad",
+          "numero": "Enmienda 002 PRCV",
+          "fecha": "2026-09-25",
+          "titulo": "Ordenanza Enmienda N° 002 Plan Regulador Comunal de Vallenar - Clasificación Vialidad Estructurante",
+          "materia": "Urbanismo, Obras y Edificación",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://www.imvallenar.gob.cl/enmienda-02-al-prcv/",
+          "target_url": "https://www.imvallenar.gob.cl/wp-content/uploads/2026/09/20260925-ORDENANZA-ENMIENDA-02-PRCV-VIALIDAD-ESTRUCTURANTE.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.imvallenar.gob.cl/wp-content/uploads/2026/09/20260925-ORDENANZA-ENMIENDA-02-PRCV-VIALIDAD-ESTRUCTURANTE.pdf",
+            "content_type": "application/pdf",
+            "sha256": "d6e7a7f2b4ad4c84ddcfa56d9eadf421fd807d4f0fb2eec18219d478c3c40633",
+            "bytes": 619367,
+            "verified_at": "2026-09-26T21:36:49.668202"
+          },
+          "rdf_url": null
+        },
         {
           "fuente": "BCN",
           "numero": "356-exento",
@@ -9284,7 +9305,7 @@ window.CATASTRO_DATA = {
           "estado": "Vigente / LeyChile"
         }
       ],
-      "municipal_count": 0
+      "municipal_count": 1
     },
     {
       "region_id": "03",
@@ -11387,11 +11408,32 @@ window.CATASTRO_DATA = {
       "comuna": "Vicuña",
       "bcn_count": 14,
       "cplt_count": 0,
-      "total_count": 14,
+      "total_count": 15,
       "pdfs_count": 0,
-      "status": "Cargado BCN",
-      "last_update": "2012-07-19",
+      "status": "BCN + Municipalidad verificada",
+      "last_update": "2025-07-02",
       "ordenanzas": [
+        {
+          "cplt_code": "MU336",
+          "fuente": "Municipalidad",
+          "numero": "S/N",
+          "fecha": "2025-07-02",
+          "titulo": "Ordenanza Municipal sobre Otorgamiento de Subvenciones de la Municipalidad de Vicuña",
+          "materia": "Salud, Deporte y Desarrollo Social",
+          "materia_id": "social_salud_deporte",
+          "source_listing_url": "https://munivicuna.cl/download/ordenanza-subvenciones-vigente-2025/",
+          "target_url": "https://munivicuna.cl/download/ordenanza-subvenciones-vigente-2025/?wpdmdl=910",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://munivicuna.cl/download/ordenanza-subvenciones-vigente-2025/?wpdmdl=910",
+            "content_type": "application/pdf",
+            "sha256": "e957efaa475bf1fb049a0309e4f156a0ab1ee5f07666a5723efc9b6a35a3e3af",
+            "bytes": 5615731,
+            "verified_at": "2026-09-26T21:36:53.610338"
+          },
+          "rdf_url": null
+        },
         {
           "fuente": "BCN",
           "numero": "807",
@@ -11578,7 +11620,7 @@ window.CATASTRO_DATA = {
           "estado": "Vigente / LeyChile"
         }
       ],
-      "municipal_count": 0
+      "municipal_count": 1
     },
     {
       "region_id": "04",
@@ -12469,11 +12511,32 @@ window.CATASTRO_DATA = {
       "comuna": "Ovalle",
       "bcn_count": 59,
       "cplt_count": 0,
-      "total_count": 59,
+      "total_count": 60,
       "pdfs_count": 0,
-      "status": "Cargado BCN",
-      "last_update": "2016-04-25",
+      "status": "BCN + Municipalidad verificada",
+      "last_update": "2021-06-30",
       "ordenanzas": [
+        {
+          "cplt_code": "MU194",
+          "fuente": "Municipalidad",
+          "numero": "Decreto Exento 4898",
+          "fecha": "2021-06-30",
+          "titulo": "Ordenanza sobre Uso de Espacios Públicos en la Comuna de Ovalle",
+          "materia": "Seguridad y Convivencia",
+          "materia_id": "seguridad_convivencia",
+          "source_listing_url": "https://muniovalle.gob.cl/documentos/",
+          "target_url": "https://transparenciaovalle.cl/documentos/07Terceros/Decretos/2021/junio/4898.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://transparenciaovalle.cl/documentos/07Terceros/Decretos/2021/junio/4898.pdf",
+            "content_type": "application/pdf",
+            "sha256": "76c50acb54b404c772f1dc2bfc5df98f01b88adbf05dcd9ea0f9d22d6402c945",
+            "bytes": 3729697,
+            "verified_at": "2026-09-26T21:36:49.454258"
+          },
+          "rdf_url": null
+        },
         {
           "fuente": "BCN",
           "numero": "3045-exento",
@@ -13251,7 +13314,7 @@ window.CATASTRO_DATA = {
           "estado": "Vigente / LeyChile"
         }
       ],
-      "municipal_count": 0
+      "municipal_count": 1
     },
     {
       "region_id": "04",
@@ -79546,11 +79609,32 @@ window.CATASTRO_DATA = {
       "comuna": "Molina",
       "bcn_count": 16,
       "cplt_count": 0,
-      "total_count": 16,
+      "total_count": 17,
       "pdfs_count": 0,
-      "status": "Cargado BCN",
-      "last_update": "2019-07-23",
+      "status": "BCN + Municipalidad verificada",
+      "last_update": "2025-06-18",
       "ordenanzas": [
+        {
+          "cplt_code": "MU176",
+          "fuente": "Municipalidad",
+          "numero": "11",
+          "fecha": "2025-06-18",
+          "titulo": "Ordenanza Municipal N° 11 sobre Otorgamiento de Subvenciones Municipales de Molina",
+          "materia": "Subvenciones, aportes y fomento comunitario",
+          "materia_id": "desarrollo_social",
+          "source_listing_url": "https://web.molina.cl/subvenciones/",
+          "target_url": "https://web.molina.cl/wp-content/uploads/2025/06/ORDENANZA-N11-SUBVENCIONES-2-7-1.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://web.molina.cl/wp-content/uploads/2025/06/ORDENANZA-N11-SUBVENCIONES-2-7-1.pdf",
+            "content_type": "application/pdf",
+            "sha256": "c0820153004e412ea71b780f2c3373dc53296bec980c74c962bb856fa6d31e1b",
+            "bytes": 9157465,
+            "verified_at": "2026-09-26T21:34:40.437912"
+          },
+          "rdf_url": null
+        },
         {
           "id": 629,
           "fuente": "BCN",
@@ -79763,7 +79847,7 @@ window.CATASTRO_DATA = {
           "estado": "Vigente / LeyChile"
         }
       ],
-      "municipal_count": 0
+      "municipal_count": 1
     },
     {
       "region_id": "07",
@@ -85943,11 +86027,32 @@ window.CATASTRO_DATA = {
       "comuna": "San Carlos",
       "bcn_count": 15,
       "cplt_count": 0,
-      "total_count": 15,
+      "total_count": 16,
       "pdfs_count": 0,
-      "status": "Cargado BCN",
-      "last_update": "2009-04-03",
+      "status": "BCN + Municipalidad verificada",
+      "last_update": "2024-11-07",
       "ordenanzas": [
+        {
+          "cplt_code": "MU283",
+          "fuente": "Municipalidad",
+          "numero": "S/N",
+          "fecha": "2024-11-07",
+          "titulo": "Ordenanza Local del Plan Regulador Comunal de San Carlos",
+          "materia": "Urbanismo, Obras y Edificación",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://munisancarlos.cl/normativayplanes/",
+          "target_url": "https://munisancarlos.cl/wp-content/uploads/2025/08/02-PRC-OrdenanzaDiarioOficial.pdf.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://munisancarlos.cl/wp-content/uploads/2025/08/02-PRC-OrdenanzaDiarioOficial.pdf.pdf",
+            "content_type": "application/pdf",
+            "sha256": "cba90c179a2f64a11ffa80cf1b74889f74d7d7e0a869ad5fb7e8acc4627dc9e0",
+            "bytes": 8551378,
+            "verified_at": "2026-09-26T21:36:50.904880"
+          },
+          "rdf_url": null
+        },
         {
           "fuente": "BCN",
           "numero": "110-exento",
@@ -86159,7 +86264,7 @@ window.CATASTRO_DATA = {
           "estado": "Vigente / LeyChile"
         }
       ],
-      "municipal_count": 0
+      "municipal_count": 1
     },
     {
       "region_id": "16",
@@ -90282,11 +90387,32 @@ window.CATASTRO_DATA = {
       "comuna": "Lota",
       "bcn_count": 38,
       "cplt_count": 0,
-      "total_count": 38,
+      "total_count": 39,
       "pdfs_count": 0,
-      "status": "Cargado BCN",
-      "last_update": "2008-05-17",
+      "status": "BCN + Municipalidad verificada",
+      "last_update": "2025-11-13",
       "ordenanzas": [
+        {
+          "cplt_code": "MU149",
+          "fuente": "Municipalidad",
+          "numero": "3",
+          "fecha": "2025-11-13",
+          "titulo": "Ordenanza sobre Otorgamiento de Subvenciones, Recepción de Donaciones y su Registro de Lota",
+          "materia": "Salud, Deporte y Desarrollo Social",
+          "materia_id": "social_salud_deporte",
+          "source_listing_url": "https://www.bcn.cl/leychile/Navegar?idNorma=1218454",
+          "target_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=Ordenanza-3_13-NOV-2025&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1218454.2025-11-13.0.0%23",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=Ordenanza-3_13-NOV-2025&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1218454.2025-11-13.0.0%23",
+            "content_type": "application/pdf",
+            "sha256": "5d96eb8204cef2d3d6e6fbda3651499e35dd82b41bdf67e8bb92ad8d94b9543c",
+            "bytes": 63588,
+            "verified_at": "2026-09-26T21:36:51.024351"
+          },
+          "rdf_url": null
+        },
         {
           "fuente": "BCN",
           "numero": "3",
@@ -90809,7 +90935,7 @@ window.CATASTRO_DATA = {
           "estado": "Vigente / LeyChile"
         }
       ],
-      "municipal_count": 0
+      "municipal_count": 1
     },
     {
       "region_id": "08",
@@ -92762,11 +92888,32 @@ window.CATASTRO_DATA = {
       "comuna": "Lebu",
       "bcn_count": 5,
       "cplt_count": 0,
-      "total_count": 5,
+      "total_count": 6,
       "pdfs_count": 0,
-      "status": "Cargado BCN",
-      "last_update": "2017-11-04",
+      "status": "BCN + Municipalidad verificada",
+      "last_update": "2026-01-15",
       "ordenanzas": [
+        {
+          "cplt_code": "MU128",
+          "fuente": "Municipalidad",
+          "numero": "S/N",
+          "fecha": "2026-01-15",
+          "titulo": "Ordenanza Local de Derechos Municipales por Permisos, Concesiones y Servicios de Lebu",
+          "materia": "Derechos Municipales y cobro de tarifas",
+          "materia_id": "derechos_municipales",
+          "source_listing_url": "https://lebu.cl/ordenanzas/",
+          "target_url": "https://lebu.cl/wp-content/uploads/2026/01/ORDENANZA-DERECHOS-MUNIC.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://lebu.cl/wp-content/uploads/2026/01/ORDENANZA-DERECHOS-MUNIC.pdf",
+            "content_type": "application/pdf",
+            "sha256": "7ce6d47503983a71d3c13a9caa96b2ce64e0b80fd437f83d7d1911219946a95d",
+            "bytes": 9932986,
+            "verified_at": "2026-09-26T21:34:33.150169"
+          },
+          "rdf_url": null
+        },
         {
           "fuente": "BCN",
           "numero": "6551",
@@ -92839,7 +92986,7 @@ window.CATASTRO_DATA = {
           "estado": "Vigente / LeyChile"
         }
       ],
-      "municipal_count": 0
+      "municipal_count": 1
     },
     {
       "region_id": "08",
@@ -93359,11 +93506,32 @@ window.CATASTRO_DATA = {
       "comuna": "Cañete",
       "bcn_count": 6,
       "cplt_count": 0,
-      "total_count": 6,
+      "total_count": 7,
       "pdfs_count": 0,
-      "status": "Cargado BCN",
-      "last_update": "2017-11-17",
+      "status": "BCN + Municipalidad verificada",
+      "last_update": "2022-08-10",
       "ordenanzas": [
+        {
+          "cplt_code": "MU034",
+          "fuente": "Municipalidad",
+          "numero": "S/N",
+          "fecha": "2022-08-10",
+          "titulo": "Ordenanza Municipal sobre Tenencia Responsable de Mascotas y Animales de Compañía de Cañete",
+          "materia": "Tenencia responsable de mascotas y bienestar animal",
+          "materia_id": "tenencia_responsable_mascotas",
+          "source_listing_url": "https://www.municanete.cl/transparencia/",
+          "target_url": "https://www.municanete.cl/TRANSPARENCIA2022/Agosto2022/terceros/ordenanzas/Ordenanza_Mascotas_y_Animales_de_Compa%C3%B1ia.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.municanete.cl/TRANSPARENCIA2022/Agosto2022/terceros/ordenanzas/Ordenanza_Mascotas_y_Animales_de_Compa%C3%B1ia.pdf",
+            "content_type": "application/pdf",
+            "sha256": "eebf77fe1610b428d515926d84c09569d91fdc3f9b942b7d12fa59a15a3852a7",
+            "bytes": 4752640,
+            "verified_at": "2026-09-26T21:34:41.309738"
+          },
+          "rdf_url": null
+        },
         {
           "fuente": "BCN",
           "numero": "8724",
@@ -93446,7 +93614,7 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-canete/1992-01-31/43/datos.json"
         }
       ],
-      "municipal_count": 0
+      "municipal_count": 1
     },
     {
       "region_id": "08",
@@ -107065,11 +107233,32 @@ window.CATASTRO_DATA = {
       "comuna": "La Unión",
       "bcn_count": 7,
       "cplt_count": 0,
-      "total_count": 7,
+      "total_count": 8,
       "pdfs_count": 0,
-      "status": "Cargado BCN",
-      "last_update": "2004-01-31",
+      "status": "BCN + Municipalidad verificada",
+      "last_update": "2022-11-04",
       "ordenanzas": [
+        {
+          "cplt_code": "MU125",
+          "fuente": "Municipalidad",
+          "numero": "5",
+          "fecha": "2022-11-04",
+          "titulo": "Ordenanza Nro. 05 Aprueba Ordenanza Local sobre Ferias Libres de la Comuna de La Unión",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.munilaunion.cl/",
+          "target_url": "https://transparencia.munilaunion.cl/Documentos/ActosResoluciones/928445Ordenanza%20Nro.%2005%20Aprueba%20Ordenanza%20Local%20sobre%20Ferias%20Libres.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://transparencia.munilaunion.cl/Documentos/ActosResoluciones/928445Ordenanza%20Nro.%2005%20Aprueba%20Ordenanza%20Local%20sobre%20Ferias%20Libres.pdf",
+            "content_type": "application/pdf",
+            "sha256": "2a62d7142510773c76ac22875c673e3dafcf3d94f234ccd2272c287eb2081b8b",
+            "bytes": 568207,
+            "verified_at": "2026-09-26T21:36:51.436145"
+          },
+          "rdf_url": null
+        },
         {
           "fuente": "BCN",
           "numero": "394-exento",
@@ -107165,7 +107354,7 @@ window.CATASTRO_DATA = {
           "estado": "Vigente / LeyChile"
         }
       ],
-      "municipal_count": 0
+      "municipal_count": 1
     },
     {
       "region_id": "14",
@@ -110728,11 +110917,32 @@ window.CATASTRO_DATA = {
       "comuna": "Puerto Varas",
       "bcn_count": 6,
       "cplt_count": 0,
-      "total_count": 6,
+      "total_count": 7,
       "pdfs_count": 0,
-      "status": "Cargado BCN",
-      "last_update": "2011-09-12",
+      "status": "BCN + Municipalidad verificada",
+      "last_update": "2023-08-15",
       "ordenanzas": [
+        {
+          "cplt_code": "MU237",
+          "fuente": "Municipalidad",
+          "numero": "S/N",
+          "fecha": "2023-08-15",
+          "titulo": "Ordenanza Municipal de Protección de Humedales Urbanos de Puerto Varas",
+          "materia": "Medio ambiente, protección de humedales urbanos y biodiversidad",
+          "materia_id": "medio_ambiente",
+          "source_listing_url": "https://ptovaras.cl/ordenanzas-municipales/",
+          "target_url": "https://ptovaras.cl/ordenanzas-municipales/ORDENANZA%20DE%20PROTECCI%C3%93N%20DE%20HUMEDALES%20URBANOS%20-%20PUERTO%20VARAS%20%281%29.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://ptovaras.cl/ordenanzas-municipales/ORDENANZA%20DE%20PROTECCI%C3%93N%20DE%20HUMEDALES%20URBANOS%20-%20PUERTO%20VARAS%20%281%29.pdf",
+            "content_type": "application/pdf",
+            "sha256": "fb79658e45b77b185eeb0dad6c6bddda857f2e31c6de3386a41cd7db7554acc7",
+            "bytes": 5163780,
+            "verified_at": "2026-09-26T21:34:31.420052"
+          },
+          "rdf_url": null
+        },
         {
           "fuente": "BCN",
           "numero": "3999-exento",
@@ -110818,7 +111028,7 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-puerto-varas/1988-01-15/1/datos.json"
         }
       ],
-      "municipal_count": 0
+      "municipal_count": 1
     },
     {
       "region_id": "10",
@@ -110972,11 +111182,32 @@ window.CATASTRO_DATA = {
       "comuna": "Ancud",
       "bcn_count": 9,
       "cplt_count": 0,
-      "total_count": 9,
+      "total_count": 10,
       "pdfs_count": 0,
-      "status": "Cargado BCN",
-      "last_update": "2010-08-09",
+      "status": "BCN + Municipalidad verificada",
+      "last_update": "2025-01-21",
       "ordenanzas": [
+        {
+          "cplt_code": "MU006",
+          "fuente": "Municipalidad",
+          "numero": "Decreto 242",
+          "fecha": "2025-01-21",
+          "titulo": "Texto Refundido y Sistematizado de la Ordenanza Municipal N° 14 sobre Tenencia Responsable de Mascotas y Animales de Compañía",
+          "materia": "Tenencia Responsable y Mascotas",
+          "materia_id": "tenencia_mascotas",
+          "source_listing_url": "https://www.muniancud.cl/transparencia/municipalidad/inicio/index.php",
+          "target_url": "https://muniancud.cl/transparencia/municipalidad/archivo/estandares/08%20Actos%20y%20Resoluciones/8.3%20Ordenanzas/ORDENANZAS/ORDENANZA%2014.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://muniancud.cl/transparencia/municipalidad/archivo/estandares/08%20Actos%20y%20Resoluciones/8.3%20Ordenanzas/ORDENANZAS/ORDENANZA%2014.pdf",
+            "content_type": "application/pdf",
+            "sha256": "c002d94a8ce80571f7eb23b9a3d6958c83d8fc02e000f379bc9c0e5f6ce0c03a",
+            "bytes": 599872,
+            "verified_at": "2026-09-26T21:36:51.245750"
+          },
+          "rdf_url": null
+        },
         {
           "id": 8,
           "fuente": "BCN",
@@ -111098,7 +111329,7 @@ window.CATASTRO_DATA = {
           "estado": "Vigente / LeyChile"
         }
       ],
-      "municipal_count": 0
+      "municipal_count": 1
     },
     {
       "region_id": "10",
@@ -119399,7 +119630,7 @@ window.CATASTRO_DATA = {
       "badge_bg": "bg-sky-500/10",
       "badge_text": "text-sky-400",
       "badge_border": "border-sky-500/30",
-      "count": 272
+      "count": 273
     },
     {
       "id": "aseo_medioambiente",
@@ -119429,7 +119660,7 @@ window.CATASTRO_DATA = {
       "badge_bg": "bg-orange-500/10",
       "badge_text": "text-orange-400",
       "badge_border": "border-orange-500/30",
-      "count": 110
+      "count": 112
     },
     {
       "id": "seguridad_convivencia",
@@ -119439,7 +119670,7 @@ window.CATASTRO_DATA = {
       "badge_bg": "bg-rose-500/10",
       "badge_text": "text-rose-400",
       "badge_border": "border-rose-500/30",
-      "count": 25
+      "count": 26
     },
     {
       "id": "mascotas_animales",
@@ -119449,7 +119680,7 @@ window.CATASTRO_DATA = {
       "badge_bg": "bg-teal-500/10",
       "badge_text": "text-teal-400",
       "badge_border": "border-teal-500/30",
-      "count": 22
+      "count": 23
     },
     {
       "id": "social_salud_deporte",
@@ -119459,7 +119690,7 @@ window.CATASTRO_DATA = {
       "badge_bg": "bg-purple-500/10",
       "badge_text": "text-purple-400",
       "badge_border": "border-purple-500/30",
-      "count": 51
+      "count": 53
     },
     {
       "id": "administracion_interna",
@@ -119492,7 +119723,7 @@ window.CATASTRO_DATA = {
       "CPLT"
     ],
     "quarantined_records": 0,
-    "verified_municipal_records": 1545,
+    "verified_municipal_records": 1556,
     "reason": "Las referencias CPLT manuales sin evidencia se mantienen en cuarentena. Solo se publican documentos municipales con listado oficial, PDF resoluble y huella SHA-256 verificada."
   }
 };

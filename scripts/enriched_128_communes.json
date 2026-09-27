@@ -1,0 +1,2178 @@
+[
+  {
+    "comuna": "Camarones",
+    "region_id": "15",
+    "region": "Arica y Parinacota",
+    "last_year_in_catastro": 2019,
+    "total_historic_records": 8,
+    "cplt_code": "MU024",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU024",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=faa3c0be02a4002a40e8c4d754809b77",
+    "probable_sites": [
+      "https://www.municipalidadcamarones.cl",
+      "https://www.municamarones.cl",
+      "https://www.camarones.cl",
+      "https://www.imcamarones.cl",
+      "https://www.munidecamarones.cl"
+    ]
+  },
+  {
+    "comuna": "General Lagos",
+    "region_id": "15",
+    "region": "Arica y Parinacota",
+    "last_year_in_catastro": 1987,
+    "total_historic_records": 4,
+    "cplt_code": "MU098",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU098",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=92bb2ae9e4126855d0adde21f79b049d",
+    "probable_sites": [
+      "https://www.municipalidadgenerallagos.cl",
+      "https://www.munigenerallagos.cl",
+      "https://www.generallagos.cl",
+      "https://www.imgenerallagos.cl",
+      "https://www.munidegenerallagos.cl"
+    ]
+  },
+  {
+    "comuna": "Pozo Almonte",
+    "region_id": "01",
+    "region": "Tarapacá",
+    "last_year_in_catastro": 1994,
+    "total_historic_records": 7,
+    "cplt_code": "MU226",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU226",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=c9bc7c2314faa2eb0923d19943553f6f",
+    "probable_sites": [
+      "https://www.municipalidadpozoalmonte.cl",
+      "https://www.munipozoalmonte.cl",
+      "https://www.pozoalmonte.cl",
+      "https://www.impozoalmonte.cl",
+      "https://www.munidepozoalmonte.cl"
+    ]
+  },
+  {
+    "comuna": "Camiña",
+    "region_id": "01",
+    "region": "Tarapacá",
+    "last_year_in_catastro": 2018,
+    "total_historic_records": 3,
+    "cplt_code": "MU025",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU025",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=24dfb7647128440fd5ff0a787b548bd4",
+    "probable_sites": [
+      "https://www.municipalidadcamina.cl",
+      "https://www.municamina.cl",
+      "https://www.camina.cl",
+      "https://www.imcamina.cl",
+      "https://www.munidecamina.cl"
+    ]
+  },
+  {
+    "comuna": "Colchane",
+    "region_id": "01",
+    "region": "Tarapacá",
+    "last_year_in_catastro": 2011,
+    "total_historic_records": 4,
+    "cplt_code": "MU056",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU056",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=f46618c92fa36605ade6372741faefea",
+    "probable_sites": [
+      "https://www.municipalidadcolchane.cl",
+      "https://www.municolchane.cl",
+      "https://www.colchane.cl",
+      "https://www.imcolchane.cl",
+      "https://www.munidecolchane.cl"
+    ]
+  },
+  {
+    "comuna": "Pica",
+    "region_id": "01",
+    "region": "Tarapacá",
+    "last_year_in_catastro": 2004,
+    "total_historic_records": 8,
+    "cplt_code": "MU217",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU217",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=9320668308a9622476e298e24d8431a9",
+    "probable_sites": [
+      "https://www.municipalidadpica.cl",
+      "https://www.munipica.cl",
+      "https://www.pica.cl",
+      "https://www.impica.cl",
+      "https://www.munidepica.cl"
+    ]
+  },
+  {
+    "comuna": "Sierra Gorda",
+    "region_id": "02",
+    "region": "Antofagasta",
+    "last_year_in_catastro": 2011,
+    "total_historic_records": 12,
+    "cplt_code": "MU310",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU310",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=0c0a4d19697f434c294823150985a3b0",
+    "probable_sites": [
+      "https://www.municipalidadsierragorda.cl",
+      "https://www.munisierragorda.cl",
+      "https://www.sierragorda.cl",
+      "https://www.imsierragorda.cl",
+      "https://www.munidesierragorda.cl"
+    ]
+  },
+  {
+    "comuna": "Tocopilla",
+    "region_id": "02",
+    "region": "Antofagasta",
+    "last_year_in_catastro": 2000,
+    "total_historic_records": 15,
+    "cplt_code": "MU322",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU322",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=e9c748e9cad381191756759c9160835c",
+    "probable_sites": [
+      "https://www.municipalidadtocopilla.cl",
+      "https://www.munitocopilla.cl",
+      "https://www.tocopilla.cl",
+      "https://www.imtocopilla.cl",
+      "https://www.munidetocopilla.cl"
+    ]
+  },
+  {
+    "comuna": "Tierra Amarilla",
+    "region_id": "03",
+    "region": "Atacama",
+    "last_year_in_catastro": 2020,
+    "total_historic_records": 7,
+    "cplt_code": "MU318",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU318",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=98a661b98cf8f541c28214a5e3ffd2af",
+    "probable_sites": [
+      "https://www.municipalidadtierraamarilla.cl",
+      "https://www.munitierraamarilla.cl",
+      "https://www.tierraamarilla.cl",
+      "https://www.imtierraamarilla.cl",
+      "https://www.munidetierraamarilla.cl"
+    ]
+  },
+  {
+    "comuna": "Diego de Almagro",
+    "region_id": "03",
+    "region": "Atacama",
+    "last_year_in_catastro": 2020,
+    "total_historic_records": 14,
+    "cplt_code": "MU080",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU080",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=fbd8025b61dd1a1498505a9c26da50e6",
+    "probable_sites": [
+      "https://www.municipalidaddiegodealmagro.cl",
+      "https://www.munidiegodealmagro.cl",
+      "https://www.diegodealmagro.cl",
+      "https://www.imdiegodealmagro.cl",
+      "https://www.munidediegodealmagro.cl"
+    ]
+  },
+  {
+    "comuna": "Vallenar",
+    "region_id": "03",
+    "region": "Atacama",
+    "last_year_in_catastro": 2020,
+    "total_historic_records": 51,
+    "cplt_code": "MU331",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU331",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=67fd43d853b1a8a502f4ad8dd3d52ef5",
+    "probable_sites": [
+      "https://www.municipalidadvallenar.cl",
+      "https://www.munivallenar.cl",
+      "https://www.vallenar.cl",
+      "https://www.imvallenar.cl",
+      "https://www.munidevallenar.cl"
+    ]
+  },
+  {
+    "comuna": "Freirina",
+    "region_id": "03",
+    "region": "Atacama",
+    "last_year_in_catastro": 2019,
+    "total_historic_records": 5,
+    "cplt_code": "MU092",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU092",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=7fdbb16828f47188e7fc62380fd525c9",
+    "probable_sites": [
+      "https://www.municipalidadfreirina.cl",
+      "https://www.munifreirina.cl",
+      "https://www.freirina.cl",
+      "https://www.imfreirina.cl",
+      "https://www.munidefreirina.cl"
+    ]
+  },
+  {
+    "comuna": "Andacollo",
+    "region_id": "04",
+    "region": "Coquimbo",
+    "last_year_in_catastro": 2009,
+    "total_historic_records": 6,
+    "cplt_code": "MU007",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU007",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=488e9ee7b7e4ad15a101276ec3121515",
+    "probable_sites": [
+      "https://www.municipalidadandacollo.cl",
+      "https://www.muniandacollo.cl",
+      "https://www.andacollo.cl",
+      "https://www.imandacollo.cl",
+      "https://www.munideandacollo.cl"
+    ]
+  },
+  {
+    "comuna": "Paiguano",
+    "region_id": "04",
+    "region": "Coquimbo",
+    "last_year_in_catastro": 2017,
+    "total_historic_records": 3,
+    "cplt_code": "",
+    "cplt_ta_link": "",
+    "cplt_sai_link": "",
+    "probable_sites": [
+      "https://www.municipalidadpaiguano.cl",
+      "https://www.munipaiguano.cl",
+      "https://www.paiguano.cl",
+      "https://www.impaiguano.cl",
+      "https://www.munidepaiguano.cl"
+    ]
+  },
+  {
+    "comuna": "Vicuña",
+    "region_id": "04",
+    "region": "Coquimbo",
+    "last_year_in_catastro": 2012,
+    "total_historic_records": 14,
+    "cplt_code": "MU335",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU335",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=5e5f95121be47e7bc1255d88bf29a007",
+    "probable_sites": [
+      "https://www.municipalidadvicuna.cl",
+      "https://www.munivicuna.cl",
+      "https://www.vicuna.cl",
+      "https://www.imvicuna.cl",
+      "https://www.munidevicuna.cl"
+    ]
+  },
+  {
+    "comuna": "Los Vilos",
+    "region_id": "04",
+    "region": "Coquimbo",
+    "last_year_in_catastro": 2010,
+    "total_historic_records": 10,
+    "cplt_code": "MU157",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU157",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=645fc59b1a5dee40b2023fee66b3966c",
+    "probable_sites": [
+      "https://www.municipalidadlosvilos.cl",
+      "https://www.munilosvilos.cl",
+      "https://www.losvilos.cl",
+      "https://www.imlosvilos.cl",
+      "https://www.munidelosvilos.cl"
+    ]
+  },
+  {
+    "comuna": "Salamanca",
+    "region_id": "04",
+    "region": "Coquimbo",
+    "last_year_in_catastro": 2004,
+    "total_historic_records": 15,
+    "cplt_code": "MU279",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU279",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=7100eb5624fba45c0764a2280bd5249e",
+    "probable_sites": [
+      "https://www.municipalidadsalamanca.cl",
+      "https://www.munisalamanca.cl",
+      "https://www.salamanca.cl",
+      "https://www.imsalamanca.cl",
+      "https://www.munidesalamanca.cl"
+    ]
+  },
+  {
+    "comuna": "Ovalle",
+    "region_id": "04",
+    "region": "Coquimbo",
+    "last_year_in_catastro": 2016,
+    "total_historic_records": 59,
+    "cplt_code": "MU192",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU192",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=a55fc5c1dd96b26cec75cb9c0c0d2cac",
+    "probable_sites": [
+      "https://www.municipalidadovalle.cl",
+      "https://www.muniovalle.cl",
+      "https://www.ovalle.cl",
+      "https://www.imovalle.cl",
+      "https://www.munideovalle.cl"
+    ]
+  },
+  {
+    "comuna": "Combarbalá",
+    "region_id": "04",
+    "region": "Coquimbo",
+    "last_year_in_catastro": 2020,
+    "total_historic_records": 8,
+    "cplt_code": "MU060",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU060",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=391717a02a8efedf15402db13ec3a8ba",
+    "probable_sites": [
+      "https://www.municipalidadcombarbala.cl",
+      "https://www.municombarbala.cl",
+      "https://www.combarbala.cl",
+      "https://www.imcombarbala.cl",
+      "https://www.munidecombarbala.cl"
+    ]
+  },
+  {
+    "comuna": "Monte Patria",
+    "region_id": "04",
+    "region": "Coquimbo",
+    "last_year_in_catastro": 2014,
+    "total_historic_records": 13,
+    "cplt_code": "MU175",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU175",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=2c4b3d426704dfb415902cb0a2ee9098",
+    "probable_sites": [
+      "https://www.municipalidadmontepatria.cl",
+      "https://www.munimontepatria.cl",
+      "https://www.montepatria.cl",
+      "https://www.immontepatria.cl",
+      "https://www.munidemontepatria.cl"
+    ]
+  },
+  {
+    "comuna": "Punitaqui",
+    "region_id": "04",
+    "region": "Coquimbo",
+    "last_year_in_catastro": 2011,
+    "total_historic_records": 4,
+    "cplt_code": "MU238",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU238",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=8f8fdf466f4aa44410108cde009cfe84",
+    "probable_sites": [
+      "https://www.municipalidadpunitaqui.cl",
+      "https://www.munipunitaqui.cl",
+      "https://www.punitaqui.cl",
+      "https://www.impunitaqui.cl",
+      "https://www.munidepunitaqui.cl"
+    ]
+  },
+  {
+    "comuna": "Juan Fernández",
+    "region_id": "05",
+    "region": "Valparaíso",
+    "last_year_in_catastro": 2003,
+    "total_historic_records": 4,
+    "cplt_code": "MU115",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU115",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=8ed0561011986dcb3d53b38295e47f5f",
+    "probable_sites": [
+      "https://www.municipalidadjuanfernandez.cl",
+      "https://www.munijuanfernandez.cl",
+      "https://www.juanfernandez.cl",
+      "https://www.imjuanfernandez.cl",
+      "https://www.munidejuanfernandez.cl"
+    ]
+  },
+  {
+    "comuna": "Los Andes",
+    "region_id": "05",
+    "region": "Valparaíso",
+    "last_year_in_catastro": 2012,
+    "total_historic_records": 41,
+    "cplt_code": "MU152",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU152",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=58913d658739c94f42c94608a394d269",
+    "probable_sites": [
+      "https://www.municipalidadlosandes.cl",
+      "https://www.munilosandes.cl",
+      "https://www.losandes.cl",
+      "https://www.imlosandes.cl",
+      "https://www.munidelosandes.cl"
+    ]
+  },
+  {
+    "comuna": "Calle Larga",
+    "region_id": "05",
+    "region": "Valparaíso",
+    "last_year_in_catastro": 2020,
+    "total_historic_records": 8,
+    "cplt_code": "MU023",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU023",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=597c68a51ffcbca84d22c69470172d17",
+    "probable_sites": [
+      "https://www.municipalidadcallelarga.cl",
+      "https://www.municallelarga.cl",
+      "https://www.callelarga.cl",
+      "https://www.imcallelarga.cl",
+      "https://www.munidecallelarga.cl"
+    ]
+  },
+  {
+    "comuna": "San Esteban",
+    "region_id": "05",
+    "region": "Valparaíso",
+    "last_year_in_catastro": 2003,
+    "total_historic_records": 10,
+    "cplt_code": "MU284",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU284",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=43f99c452b0f4800d94216be6a906e4e",
+    "probable_sites": [
+      "https://www.municipalidadsanesteban.cl",
+      "https://www.munisanesteban.cl",
+      "https://www.sanesteban.cl",
+      "https://www.imsanesteban.cl",
+      "https://www.munidesanesteban.cl"
+    ]
+  },
+  {
+    "comuna": "Papudo",
+    "region_id": "05",
+    "region": "Valparaíso",
+    "last_year_in_catastro": 2010,
+    "total_historic_records": 7,
+    "cplt_code": "MU202",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU202",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=ac2ce9e3cd59d6d3f7f5cd185e9baadc",
+    "probable_sites": [
+      "https://www.municipalidadpapudo.cl",
+      "https://www.munipapudo.cl",
+      "https://www.papudo.cl",
+      "https://www.impapudo.cl",
+      "https://www.munidepapudo.cl"
+    ]
+  },
+  {
+    "comuna": "Petorca",
+    "region_id": "05",
+    "region": "Valparaíso",
+    "last_year_in_catastro": 2018,
+    "total_historic_records": 17,
+    "cplt_code": "MU215",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU215",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=d61940800f80626c802eea1c3a69fa13",
+    "probable_sites": [
+      "https://www.municipalidadpetorca.cl",
+      "https://www.munipetorca.cl",
+      "https://www.petorca.cl",
+      "https://www.impetorca.cl",
+      "https://www.munidepetorca.cl"
+    ]
+  },
+  {
+    "comuna": "Cartagena",
+    "region_id": "05",
+    "region": "Valparaíso",
+    "last_year_in_catastro": 2004,
+    "total_historic_records": 11,
+    "cplt_code": "MU029",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU029",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=c2db0d91c4ab2b4c346403d0bba3c159",
+    "probable_sites": [
+      "https://www.municipalidadcartagena.cl",
+      "https://www.municartagena.cl",
+      "https://www.cartagena.cl",
+      "https://www.imcartagena.cl",
+      "https://www.munidecartagena.cl"
+    ]
+  },
+  {
+    "comuna": "El Tabo",
+    "region_id": "05",
+    "region": "Valparaíso",
+    "last_year_in_catastro": 2008,
+    "total_historic_records": 5,
+    "cplt_code": "MU086",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU086",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=dd4a4856fe4376f915d1ab0c61131f7b",
+    "probable_sites": [
+      "https://www.municipalidadeltabo.cl",
+      "https://www.munieltabo.cl",
+      "https://www.eltabo.cl",
+      "https://www.imeltabo.cl",
+      "https://www.munideeltabo.cl"
+    ]
+  },
+  {
+    "comuna": "Catemu",
+    "region_id": "05",
+    "region": "Valparaíso",
+    "last_year_in_catastro": 2019,
+    "total_historic_records": 18,
+    "cplt_code": "MU032",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU032",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=73e717818ea5478648c7194e7406a6b2",
+    "probable_sites": [
+      "https://www.municipalidadcatemu.cl",
+      "https://www.municatemu.cl",
+      "https://www.catemu.cl",
+      "https://www.imcatemu.cl",
+      "https://www.munidecatemu.cl"
+    ]
+  },
+  {
+    "comuna": "Panquehue",
+    "region_id": "05",
+    "region": "Valparaíso",
+    "last_year_in_catastro": 2016,
+    "total_historic_records": 24,
+    "cplt_code": "MU201",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU201",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=dc4454e6df410e43eb4cca9841cddae4",
+    "probable_sites": [
+      "https://www.municipalidadpanquehue.cl",
+      "https://www.munipanquehue.cl",
+      "https://www.panquehue.cl",
+      "https://www.impanquehue.cl",
+      "https://www.munidepanquehue.cl"
+    ]
+  },
+  {
+    "comuna": "Santa María",
+    "region_id": "05",
+    "region": "Valparaíso",
+    "last_year_in_catastro": 1999,
+    "total_historic_records": 20,
+    "cplt_code": "MU307",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU307",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=3f73b025ed56e5a544c84fb788ec96a5",
+    "probable_sites": [
+      "https://www.municipalidadsantamaria.cl",
+      "https://www.munisantamaria.cl",
+      "https://www.santamaria.cl",
+      "https://www.imsantamaria.cl",
+      "https://www.munidesantamaria.cl"
+    ]
+  },
+  {
+    "comuna": "Olmué",
+    "region_id": "05",
+    "region": "Valparaíso",
+    "last_year_in_catastro": 2017,
+    "total_historic_records": 11,
+    "cplt_code": "MU190",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU190",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=88d841e60282890047c6cacd46b52ebf",
+    "probable_sites": [
+      "https://www.municipalidadolmue.cl",
+      "https://www.muniolmue.cl",
+      "https://www.olmue.cl",
+      "https://www.imolmue.cl",
+      "https://www.munideolmue.cl"
+    ]
+  },
+  {
+    "comuna": "El Bosque",
+    "region_id": "13",
+    "region": "Metropolitana de Santiago",
+    "last_year_in_catastro": 2005,
+    "total_historic_records": 13,
+    "cplt_code": "MU082",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU082",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=a0d84fbe630e3acb54fa78e832cb0c81",
+    "probable_sites": [
+      "https://www.municipalidadelbosque.cl",
+      "https://www.munielbosque.cl",
+      "https://www.elbosque.cl",
+      "https://www.imelbosque.cl",
+      "https://www.munideelbosque.cl"
+    ]
+  },
+  {
+    "comuna": "La Cisterna",
+    "region_id": "13",
+    "region": "Metropolitana de Santiago",
+    "last_year_in_catastro": 2004,
+    "total_historic_records": 8,
+    "cplt_code": "MU117",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU117",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=169b1b6fa5947ffb8126b5ae2c364f43",
+    "probable_sites": [
+      "https://www.municipalidadlacisterna.cl",
+      "https://www.munilacisterna.cl",
+      "https://www.lacisterna.cl",
+      "https://www.imlacisterna.cl",
+      "https://www.munidelacisterna.cl"
+    ]
+  },
+  {
+    "comuna": "Pedro Aguirre Cerda",
+    "region_id": "13",
+    "region": "Metropolitana de Santiago",
+    "last_year_in_catastro": 2018,
+    "total_historic_records": 15,
+    "cplt_code": "MU205",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU205",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=7972da5801798b2ce04e4b8bb662d0a7",
+    "probable_sites": [
+      "https://www.municipalidadpedroaguirrecerda.cl",
+      "https://www.munipedroaguirrecerda.cl",
+      "https://www.pedroaguirrecerda.cl",
+      "https://www.impedroaguirrecerda.cl",
+      "https://www.munidepedroaguirrecerda.cl"
+    ]
+  },
+  {
+    "comuna": "Quinta Normal",
+    "region_id": "13",
+    "region": "Metropolitana de Santiago",
+    "last_year_in_catastro": 2008,
+    "total_historic_records": 25,
+    "cplt_code": "MU257",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU257",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=cda33547a07cc443645c3739e41704b2",
+    "probable_sites": [
+      "https://www.municipalidadquintanormal.cl",
+      "https://www.muniquintanormal.cl",
+      "https://www.quintanormal.cl",
+      "https://www.imquintanormal.cl",
+      "https://www.munidequintanormal.cl"
+    ]
+  },
+  {
+    "comuna": "Pirque",
+    "region_id": "13",
+    "region": "Metropolitana de Santiago",
+    "last_year_in_catastro": 2015,
+    "total_historic_records": 41,
+    "cplt_code": "MU221",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU221",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=ac0152f847691e942b5a6d50f9fe9903",
+    "probable_sites": [
+      "https://www.municipalidadpirque.cl",
+      "https://www.munipirque.cl",
+      "https://www.pirque.cl",
+      "https://www.impirque.cl",
+      "https://www.munidepirque.cl"
+    ]
+  },
+  {
+    "comuna": "Calera de Tango",
+    "region_id": "13",
+    "region": "Metropolitana de Santiago",
+    "last_year_in_catastro": 2005,
+    "total_historic_records": 17,
+    "cplt_code": "MU022",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU022",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=96af70c9554384ff31d2a5e9ec3fb18d",
+    "probable_sites": [
+      "https://www.municipalidadcaleradetango.cl",
+      "https://www.municaleradetango.cl",
+      "https://www.caleradetango.cl",
+      "https://www.imcaleradetango.cl",
+      "https://www.munidecaleradetango.cl"
+    ]
+  },
+  {
+    "comuna": "El Monte",
+    "region_id": "13",
+    "region": "Metropolitana de Santiago",
+    "last_year_in_catastro": 2005,
+    "total_historic_records": 23,
+    "cplt_code": "MU084",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU084",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=f3c0e3bf2ba13ee6ce7f537f50f5d09c",
+    "probable_sites": [
+      "https://www.municipalidadelmonte.cl",
+      "https://www.munielmonte.cl",
+      "https://www.elmonte.cl",
+      "https://www.imelmonte.cl",
+      "https://www.munideelmonte.cl"
+    ]
+  },
+  {
+    "comuna": "Codegua",
+    "region_id": "06",
+    "region": "O Higgins",
+    "last_year_in_catastro": 2018,
+    "total_historic_records": 8,
+    "cplt_code": "MU051",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU051",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=d7a54de43165e71bba7869c5df966223",
+    "probable_sites": [
+      "https://www.municipalidadcodegua.cl",
+      "https://www.municodegua.cl",
+      "https://www.codegua.cl",
+      "https://www.imcodegua.cl",
+      "https://www.munidecodegua.cl"
+    ]
+  },
+  {
+    "comuna": "Coinco",
+    "region_id": "06",
+    "region": "O Higgins",
+    "last_year_in_catastro": 2019,
+    "total_historic_records": 13,
+    "cplt_code": "MU054",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU054",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=a867dfb479f323018c18e2e986a73bad",
+    "probable_sites": [
+      "https://www.municipalidadcoinco.cl",
+      "https://www.municoinco.cl",
+      "https://www.coinco.cl",
+      "https://www.imcoinco.cl",
+      "https://www.munidecoinco.cl"
+    ]
+  },
+  {
+    "comuna": "Graneros",
+    "region_id": "06",
+    "region": "O Higgins",
+    "last_year_in_catastro": 2018,
+    "total_historic_records": 11,
+    "cplt_code": "MU100",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU100",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=f43f1d17f72036384669ba45ec911086",
+    "probable_sites": [
+      "https://www.municipalidadgraneros.cl",
+      "https://www.munigraneros.cl",
+      "https://www.graneros.cl",
+      "https://www.imgraneros.cl",
+      "https://www.munidegraneros.cl"
+    ]
+  },
+  {
+    "comuna": "Machalí",
+    "region_id": "06",
+    "region": "O Higgins",
+    "last_year_in_catastro": 2019,
+    "total_historic_records": 40,
+    "cplt_code": "MU160",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU160",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=40f898464f4bfa27d13e593a925e3cdd",
+    "probable_sites": [
+      "https://www.municipalidadmachali.cl",
+      "https://www.munimachali.cl",
+      "https://www.machali.cl",
+      "https://www.immachali.cl",
+      "https://www.munidemachali.cl"
+    ]
+  },
+  {
+    "comuna": "Mostazal",
+    "region_id": "06",
+    "region": "O Higgins",
+    "last_year_in_catastro": 2018,
+    "total_historic_records": 14,
+    "cplt_code": "MU176",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU176",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=d432b52b38a270b8a101fcb4f20e4588",
+    "probable_sites": [
+      "https://www.municipalidadmostazal.cl",
+      "https://www.munimostazal.cl",
+      "https://www.mostazal.cl",
+      "https://www.immostazal.cl",
+      "https://www.munidemostazal.cl"
+    ]
+  },
+  {
+    "comuna": "Pichidegua",
+    "region_id": "06",
+    "region": "O Higgins",
+    "last_year_in_catastro": 2011,
+    "total_historic_records": 11,
+    "cplt_code": "MU218",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU218",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=027c0219a18dfe5040266902bd70dc33",
+    "probable_sites": [
+      "https://www.municipalidadpichidegua.cl",
+      "https://www.munipichidegua.cl",
+      "https://www.pichidegua.cl",
+      "https://www.impichidegua.cl",
+      "https://www.munidepichidegua.cl"
+    ]
+  },
+  {
+    "comuna": "San Vicente",
+    "region_id": "06",
+    "region": "O Higgins",
+    "last_year_in_catastro": 2004,
+    "total_historic_records": 18,
+    "cplt_code": "",
+    "cplt_ta_link": "",
+    "cplt_sai_link": "",
+    "probable_sites": [
+      "https://www.municipalidadsanvicente.cl",
+      "https://www.munisanvicente.cl",
+      "https://www.sanvicente.cl",
+      "https://www.imsanvicente.cl",
+      "https://www.munidesanvicente.cl"
+    ]
+  },
+  {
+    "comuna": "San Fernando",
+    "region_id": "06",
+    "region": "O Higgins",
+    "last_year_in_catastro": 2012,
+    "total_historic_records": 34,
+    "cplt_code": "MU287",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU287",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=351f4dbe9a5a29acbb34d3308ee36ca9",
+    "probable_sites": [
+      "https://www.municipalidadsanfernando.cl",
+      "https://www.munisanfernando.cl",
+      "https://www.sanfernando.cl",
+      "https://www.imsanfernando.cl",
+      "https://www.munidesanfernando.cl"
+    ]
+  },
+  {
+    "comuna": "Chépica",
+    "region_id": "06",
+    "region": "O Higgins",
+    "last_year_in_catastro": 2004,
+    "total_historic_records": 9,
+    "cplt_code": "MU039",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU039",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=e0e972dc32e952c8dd7c6cfa6ba8c9bd",
+    "probable_sites": [
+      "https://www.municipalidadchepica.cl",
+      "https://www.munichepica.cl",
+      "https://www.chepica.cl",
+      "https://www.imchepica.cl",
+      "https://www.munidechepica.cl"
+    ]
+  },
+  {
+    "comuna": "Placilla",
+    "region_id": "06",
+    "region": "O Higgins",
+    "last_year_in_catastro": 2018,
+    "total_historic_records": 11,
+    "cplt_code": "MU223",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU223",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=fbb9c201c6c7d8740fcf5d995a675fee",
+    "probable_sites": [
+      "https://www.municipalidadplacilla.cl",
+      "https://www.muniplacilla.cl",
+      "https://www.placilla.cl",
+      "https://www.implacilla.cl",
+      "https://www.munideplacilla.cl"
+    ]
+  },
+  {
+    "comuna": "Pumanque",
+    "region_id": "06",
+    "region": "O Higgins",
+    "last_year_in_catastro": 1991,
+    "total_historic_records": 2,
+    "cplt_code": "MU237",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU237",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=634a397e8786187865169e26f9aa6e11",
+    "probable_sites": [
+      "https://www.municipalidadpumanque.cl",
+      "https://www.munipumanque.cl",
+      "https://www.pumanque.cl",
+      "https://www.impumanque.cl",
+      "https://www.munidepumanque.cl"
+    ]
+  },
+  {
+    "comuna": "Santa Cruz",
+    "region_id": "06",
+    "region": "O Higgins",
+    "last_year_in_catastro": 2011,
+    "total_historic_records": 13,
+    "cplt_code": "MU305",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU305",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=f8b74ff398cbff635ec8f2008c2ef1aa",
+    "probable_sites": [
+      "https://www.municipalidadsantacruz.cl",
+      "https://www.munisantacruz.cl",
+      "https://www.santacruz.cl",
+      "https://www.imsantacruz.cl",
+      "https://www.munidesantacruz.cl"
+    ]
+  },
+  {
+    "comuna": "Curepto",
+    "region_id": "07",
+    "region": "Maule",
+    "last_year_in_catastro": 2004,
+    "total_historic_records": 8,
+    "cplt_code": "MU077",
+    "cplt_ta_link": null,
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=8b1965c4d65876c46d9a035bab89ce50",
+    "probable_sites": [
+      "https://www.municipalidadcurepto.cl",
+      "https://www.municurepto.cl",
+      "https://www.curepto.cl",
+      "https://www.imcurepto.cl",
+      "https://www.munidecurepto.cl"
+    ]
+  },
+  {
+    "comuna": "Chanco",
+    "region_id": "07",
+    "region": "Maule",
+    "last_year_in_catastro": 2018,
+    "total_historic_records": 9,
+    "cplt_code": "MU037",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU037",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=75b85b2e3c2c61a0347a4ebf3f7cd850",
+    "probable_sites": [
+      "https://www.municipalidadchanco.cl",
+      "https://www.munichanco.cl",
+      "https://www.chanco.cl",
+      "https://www.imchanco.cl",
+      "https://www.munidechanco.cl"
+    ]
+  },
+  {
+    "comuna": "Pelluhue",
+    "region_id": "07",
+    "region": "Maule",
+    "last_year_in_catastro": 2016,
+    "total_historic_records": 5,
+    "cplt_code": "MU207",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU207",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=72afb04cf790d9c88adb54fd43a9c56c",
+    "probable_sites": [
+      "https://www.municipalidadpelluhue.cl",
+      "https://www.munipelluhue.cl",
+      "https://www.pelluhue.cl",
+      "https://www.impelluhue.cl",
+      "https://www.munidepelluhue.cl"
+    ]
+  },
+  {
+    "comuna": "Licantén",
+    "region_id": "07",
+    "region": "Maule",
+    "last_year_in_catastro": 2006,
+    "total_historic_records": 15,
+    "cplt_code": "MU138",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU138",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=829a385feb238072646ee6c6317a30d5",
+    "probable_sites": [
+      "https://www.municipalidadlicanten.cl",
+      "https://www.munilicanten.cl",
+      "https://www.licanten.cl",
+      "https://www.imlicanten.cl",
+      "https://www.munidelicanten.cl"
+    ]
+  },
+  {
+    "comuna": "Molina",
+    "region_id": "07",
+    "region": "Maule",
+    "last_year_in_catastro": 2019,
+    "total_historic_records": 16,
+    "cplt_code": "MU174",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU174",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=0fcf3bd10e42198bd6fadc472e6927dd",
+    "probable_sites": [
+      "https://www.municipalidadmolina.cl",
+      "https://www.munimolina.cl",
+      "https://www.molina.cl",
+      "https://www.immolina.cl",
+      "https://www.munidemolina.cl"
+    ]
+  },
+  {
+    "comuna": "Rauco",
+    "region_id": "07",
+    "region": "Maule",
+    "last_year_in_catastro": 2019,
+    "total_historic_records": 16,
+    "cplt_code": "MU262",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU262",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=00ca93e18d628f2c2209dec4a3494cad",
+    "probable_sites": [
+      "https://www.municipalidadrauco.cl",
+      "https://www.munirauco.cl",
+      "https://www.rauco.cl",
+      "https://www.imrauco.cl",
+      "https://www.muniderauco.cl"
+    ]
+  },
+  {
+    "comuna": "Teno",
+    "region_id": "07",
+    "region": "Maule",
+    "last_year_in_catastro": 2011,
+    "total_historic_records": 8,
+    "cplt_code": "MU316",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU316",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=a25b07f6e04ecb55de3af24c8a0c33dd",
+    "probable_sites": [
+      "https://www.municipalidadteno.cl",
+      "https://www.muniteno.cl",
+      "https://www.teno.cl",
+      "https://www.imteno.cl",
+      "https://www.munideteno.cl"
+    ]
+  },
+  {
+    "comuna": "Longaví",
+    "region_id": "07",
+    "region": "Maule",
+    "last_year_in_catastro": 2016,
+    "total_historic_records": 6,
+    "cplt_code": "MU149",
+    "cplt_ta_link": null,
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=5f045dd279bf9060ec4f438075b5a8ea",
+    "probable_sites": [
+      "https://www.municipalidadlongavi.cl",
+      "https://www.munilongavi.cl",
+      "https://www.longavi.cl",
+      "https://www.imlongavi.cl",
+      "https://www.munidelongavi.cl"
+    ]
+  },
+  {
+    "comuna": "Yerbas Buenas",
+    "region_id": "07",
+    "region": "Maule",
+    "last_year_in_catastro": 2004,
+    "total_historic_records": 7,
+    "cplt_code": "MU342",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU342",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=4fd7686ce5de3e916e08faf813db7ca9",
+    "probable_sites": [
+      "https://www.municipalidadyerbasbuenas.cl",
+      "https://www.muniyerbasbuenas.cl",
+      "https://www.yerbasbuenas.cl",
+      "https://www.imyerbasbuenas.cl",
+      "https://www.munideyerbasbuenas.cl"
+    ]
+  },
+  {
+    "comuna": "Bulnes",
+    "region_id": "16",
+    "region": "Ñuble",
+    "last_year_in_catastro": 2004,
+    "total_historic_records": 8,
+    "cplt_code": "MU015",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU015",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=5a40da9b7ad7e9598df0f9d5e55980f6",
+    "probable_sites": [
+      "https://www.municipalidadbulnes.cl",
+      "https://www.munibulnes.cl",
+      "https://www.bulnes.cl",
+      "https://www.imbulnes.cl",
+      "https://www.munidebulnes.cl"
+    ]
+  },
+  {
+    "comuna": "Coelemu",
+    "region_id": "16",
+    "region": "Ñuble",
+    "last_year_in_catastro": 2017,
+    "total_historic_records": 6,
+    "cplt_code": "MU052",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU052",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=5416e19fb047273cd4b5facc9a150458",
+    "probable_sites": [
+      "https://www.municipalidadcoelemu.cl",
+      "https://www.municoelemu.cl",
+      "https://www.coelemu.cl",
+      "https://www.imcoelemu.cl",
+      "https://www.munidecoelemu.cl"
+    ]
+  },
+  {
+    "comuna": "Chillán Viejo",
+    "region_id": "16",
+    "region": "Ñuble",
+    "last_year_in_catastro": 2009,
+    "total_historic_records": 4,
+    "cplt_code": "MU043",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU043",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=873724d70087992d8d45dbf6d0de462a",
+    "probable_sites": [
+      "https://www.municipalidadchillanviejo.cl",
+      "https://www.munichillanviejo.cl",
+      "https://www.chillanviejo.cl",
+      "https://www.imchillanviejo.cl",
+      "https://www.munidechillanviejo.cl"
+    ]
+  },
+  {
+    "comuna": "Ninhue",
+    "region_id": "16",
+    "region": "Ñuble",
+    "last_year_in_catastro": 2019,
+    "total_historic_records": 4,
+    "cplt_code": "MU182",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU182",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=bec2f249ee6cff2fbb1ee879cd8c2266",
+    "probable_sites": [
+      "https://www.municipalidadninhue.cl",
+      "https://www.munininhue.cl",
+      "https://www.ninhue.cl",
+      "https://www.imninhue.cl",
+      "https://www.munideninhue.cl"
+    ]
+  },
+  {
+    "comuna": "San Carlos",
+    "region_id": "16",
+    "region": "Ñuble",
+    "last_year_in_catastro": 2009,
+    "total_historic_records": 15,
+    "cplt_code": "MU282",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU282",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=de403401c384e50575c3ae9ab5ef81cf",
+    "probable_sites": [
+      "https://www.municipalidadsancarlos.cl",
+      "https://www.munisancarlos.cl",
+      "https://www.sancarlos.cl",
+      "https://www.imsancarlos.cl",
+      "https://www.munidesancarlos.cl"
+    ]
+  },
+  {
+    "comuna": "San Fabián",
+    "region_id": "16",
+    "region": "Ñuble",
+    "last_year_in_catastro": 2007,
+    "total_historic_records": 4,
+    "cplt_code": "MU285",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU285",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=949d55616e5d92701b5f1946ff6d6fcf",
+    "probable_sites": [
+      "https://www.municipalidadsanfabian.cl",
+      "https://www.munisanfabian.cl",
+      "https://www.sanfabian.cl",
+      "https://www.imsanfabian.cl",
+      "https://www.munidesanfabian.cl"
+    ]
+  },
+  {
+    "comuna": "San Ignacio",
+    "region_id": "16",
+    "region": "Ñuble",
+    "last_year_in_catastro": 2020,
+    "total_historic_records": 17,
+    "cplt_code": "MU289",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU289",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=23a79300d9b370cfc5f74e63054c87b9",
+    "probable_sites": [
+      "https://www.municipalidadsanignacio.cl",
+      "https://www.munisanignacio.cl",
+      "https://www.sanignacio.cl",
+      "https://www.imsanignacio.cl",
+      "https://www.munidesanignacio.cl"
+    ]
+  },
+  {
+    "comuna": "Yungay",
+    "region_id": "16",
+    "region": "Ñuble",
+    "last_year_in_catastro": 2020,
+    "total_historic_records": 11,
+    "cplt_code": "MU344",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU344",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=a009181c4830fa272be15c8a7d1b331c",
+    "probable_sites": [
+      "https://www.municipalidadyungay.cl",
+      "https://www.muniyungay.cl",
+      "https://www.yungay.cl",
+      "https://www.imyungay.cl",
+      "https://www.munideyungay.cl"
+    ]
+  },
+  {
+    "comuna": "Hualqui",
+    "region_id": "08",
+    "region": "Biobío",
+    "last_year_in_catastro": 2017,
+    "total_historic_records": 16,
+    "cplt_code": "MU106",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU106",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=149de74e9e4c6b1b1292475d6f0e24e3",
+    "probable_sites": [
+      "https://www.municipalidadhualqui.cl",
+      "https://www.munihualqui.cl",
+      "https://www.hualqui.cl",
+      "https://www.imhualqui.cl",
+      "https://www.munidehualqui.cl"
+    ]
+  },
+  {
+    "comuna": "Lota",
+    "region_id": "08",
+    "region": "Biobío",
+    "last_year_in_catastro": 2008,
+    "total_historic_records": 38,
+    "cplt_code": "MU158",
+    "cplt_ta_link": null,
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=7cf80f6ba3e684c51ad0110e8157ad1b",
+    "probable_sites": [
+      "https://www.municipalidadlota.cl",
+      "https://www.munilota.cl",
+      "https://www.lota.cl",
+      "https://www.imlota.cl",
+      "https://www.munidelota.cl"
+    ]
+  },
+  {
+    "comuna": "Santa Juana",
+    "region_id": "08",
+    "region": "Biobío",
+    "last_year_in_catastro": 2006,
+    "total_historic_records": 6,
+    "cplt_code": "MU306",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU306",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=40126fc649c4f8b8cb04d253f790d441",
+    "probable_sites": [
+      "https://www.municipalidadsantajuana.cl",
+      "https://www.munisantajuana.cl",
+      "https://www.santajuana.cl",
+      "https://www.imsantajuana.cl",
+      "https://www.munidesantajuana.cl"
+    ]
+  },
+  {
+    "comuna": "Lebu",
+    "region_id": "08",
+    "region": "Biobío",
+    "last_year_in_catastro": 2017,
+    "total_historic_records": 5,
+    "cplt_code": "MU137",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU137",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=023b9874b01bf94d464eb4a2964fa3b7",
+    "probable_sites": [
+      "https://www.municipalidadlebu.cl",
+      "https://www.munilebu.cl",
+      "https://www.lebu.cl",
+      "https://www.imlebu.cl",
+      "https://www.munidelebu.cl"
+    ]
+  },
+  {
+    "comuna": "Cañete",
+    "region_id": "08",
+    "region": "Biobío",
+    "last_year_in_catastro": 2017,
+    "total_historic_records": 6,
+    "cplt_code": "MU027",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU027",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=1a58e9e6e0b2bb5104e9cd3568d14994",
+    "probable_sites": [
+      "https://www.municipalidadcanete.cl",
+      "https://www.municanete.cl",
+      "https://www.canete.cl",
+      "https://www.imcanete.cl",
+      "https://www.munidecanete.cl"
+    ]
+  },
+  {
+    "comuna": "Curanilahue",
+    "region_id": "08",
+    "region": "Biobío",
+    "last_year_in_catastro": 2011,
+    "total_historic_records": 23,
+    "cplt_code": "MU075",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU075",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=57c31e72448efc851fe8de31dac31f25",
+    "probable_sites": [
+      "https://www.municipalidadcuranilahue.cl",
+      "https://www.municuranilahue.cl",
+      "https://www.curanilahue.cl",
+      "https://www.imcuranilahue.cl",
+      "https://www.munidecuranilahue.cl"
+    ]
+  },
+  {
+    "comuna": "Los Álamos",
+    "region_id": "08",
+    "region": "Biobío",
+    "last_year_in_catastro": 2016,
+    "total_historic_records": 13,
+    "cplt_code": "MU151",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU151",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=88b5d98797d86697ae6a323ec1b3689f",
+    "probable_sites": [
+      "https://www.municipalidadlosalamos.cl",
+      "https://www.munilosalamos.cl",
+      "https://www.losalamos.cl",
+      "https://www.imlosalamos.cl",
+      "https://www.munidelosalamos.cl"
+    ]
+  },
+  {
+    "comuna": "Tirúa",
+    "region_id": "08",
+    "region": "Biobío",
+    "last_year_in_catastro": 2014,
+    "total_historic_records": 4,
+    "cplt_code": "MU321",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU321",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=f230c99fdd65d1b09b4a45cb10ebc1aa",
+    "probable_sites": [
+      "https://www.municipalidadtirua.cl",
+      "https://www.munitirua.cl",
+      "https://www.tirua.cl",
+      "https://www.imtirua.cl",
+      "https://www.munidetirua.cl"
+    ]
+  },
+  {
+    "comuna": "Cabrero",
+    "region_id": "08",
+    "region": "Biobío",
+    "last_year_in_catastro": 2019,
+    "total_historic_records": 10,
+    "cplt_code": "MU018",
+    "cplt_ta_link": null,
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=49de98ade0b5485d0ff5d570e61df31d",
+    "probable_sites": [
+      "https://www.municipalidadcabrero.cl",
+      "https://www.municabrero.cl",
+      "https://www.cabrero.cl",
+      "https://www.imcabrero.cl",
+      "https://www.munidecabrero.cl"
+    ]
+  },
+  {
+    "comuna": "Quilaco",
+    "region_id": "08",
+    "region": "Biobío",
+    "last_year_in_catastro": 2004,
+    "total_historic_records": 4,
+    "cplt_code": "MU249",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU249",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=51bf10c7fa61217b72fe21afb6e39027",
+    "probable_sites": [
+      "https://www.municipalidadquilaco.cl",
+      "https://www.muniquilaco.cl",
+      "https://www.quilaco.cl",
+      "https://www.imquilaco.cl",
+      "https://www.munidequilaco.cl"
+    ]
+  },
+  {
+    "comuna": "Santa Bárbara",
+    "region_id": "08",
+    "region": "Biobío",
+    "last_year_in_catastro": 1998,
+    "total_historic_records": 8,
+    "cplt_code": "MU304",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU304",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=4c5a0189cee8af04ff7b8d979ef9183d",
+    "probable_sites": [
+      "https://www.municipalidadsantabarbara.cl",
+      "https://www.munisantabarbara.cl",
+      "https://www.santabarbara.cl",
+      "https://www.imsantabarbara.cl",
+      "https://www.munidesantabarbara.cl"
+    ]
+  },
+  {
+    "comuna": "Tucapel",
+    "region_id": "08",
+    "region": "Biobío",
+    "last_year_in_catastro": 2007,
+    "total_historic_records": 20,
+    "cplt_code": "MU329",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU329",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=37e02c0b76c2c65c06a5285d38603c3e",
+    "probable_sites": [
+      "https://www.municipalidadtucapel.cl",
+      "https://www.munitucapel.cl",
+      "https://www.tucapel.cl",
+      "https://www.imtucapel.cl",
+      "https://www.munidetucapel.cl"
+    ]
+  },
+  {
+    "comuna": "Yumbel",
+    "region_id": "08",
+    "region": "Biobío",
+    "last_year_in_catastro": 2008,
+    "total_historic_records": 9,
+    "cplt_code": "MU343",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU343",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=f489bd67bcf4269cf3789ecf9829e881",
+    "probable_sites": [
+      "https://www.municipalidadyumbel.cl",
+      "https://www.muniyumbel.cl",
+      "https://www.yumbel.cl",
+      "https://www.imyumbel.cl",
+      "https://www.munideyumbel.cl"
+    ]
+  },
+  {
+    "comuna": "Cunco",
+    "region_id": "09",
+    "region": "La Araucanía",
+    "last_year_in_catastro": 2019,
+    "total_historic_records": 5,
+    "cplt_code": "MU071",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU071",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=214dbdea064fcfdba4f94810573c07b4",
+    "probable_sites": [
+      "https://www.municipalidadcunco.cl",
+      "https://www.municunco.cl",
+      "https://www.cunco.cl",
+      "https://www.imcunco.cl",
+      "https://www.munidecunco.cl"
+    ]
+  },
+  {
+    "comuna": "Freire",
+    "region_id": "09",
+    "region": "La Araucanía",
+    "last_year_in_catastro": 2017,
+    "total_historic_records": 10,
+    "cplt_code": "MU091",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU091",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=6c12f0f8d1b026051d19828a3d5a7068",
+    "probable_sites": [
+      "https://www.municipalidadfreire.cl",
+      "https://www.munifreire.cl",
+      "https://www.freire.cl",
+      "https://www.imfreire.cl",
+      "https://www.munidefreire.cl"
+    ]
+  },
+  {
+    "comuna": "Galvarino",
+    "region_id": "09",
+    "region": "La Araucanía",
+    "last_year_in_catastro": 2004,
+    "total_historic_records": 17,
+    "cplt_code": "MU097",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU097",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=b3d8da3bd6e2958a12eaacb554429fb3",
+    "probable_sites": [
+      "https://www.municipalidadgalvarino.cl",
+      "https://www.munigalvarino.cl",
+      "https://www.galvarino.cl",
+      "https://www.imgalvarino.cl",
+      "https://www.munidegalvarino.cl"
+    ]
+  },
+  {
+    "comuna": "Gorbea",
+    "region_id": "09",
+    "region": "La Araucanía",
+    "last_year_in_catastro": 2011,
+    "total_historic_records": 28,
+    "cplt_code": "MU099",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU099",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=e1c4b38162d39fdd56106802be0d54a5",
+    "probable_sites": [
+      "https://www.municipalidadgorbea.cl",
+      "https://www.munigorbea.cl",
+      "https://www.gorbea.cl",
+      "https://www.imgorbea.cl",
+      "https://www.munidegorbea.cl"
+    ]
+  },
+  {
+    "comuna": "Lautaro",
+    "region_id": "09",
+    "region": "La Araucanía",
+    "last_year_in_catastro": 1995,
+    "total_historic_records": 22,
+    "cplt_code": "MU136",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU136",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=f5893bc9daa6cae7b13154a256799c87",
+    "probable_sites": [
+      "https://www.municipalidadlautaro.cl",
+      "https://www.munilautaro.cl",
+      "https://www.lautaro.cl",
+      "https://www.imlautaro.cl",
+      "https://www.munidelautaro.cl"
+    ]
+  },
+  {
+    "comuna": "Nueva Imperial",
+    "region_id": "09",
+    "region": "La Araucanía",
+    "last_year_in_catastro": 2019,
+    "total_historic_records": 3,
+    "cplt_code": "MU184",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU184",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=5fcafdcb2d1746a29598fd1232f5393f",
+    "probable_sites": [
+      "https://www.municipalidadnuevaimperial.cl",
+      "https://www.muninuevaimperial.cl",
+      "https://www.nuevaimperial.cl",
+      "https://www.imnuevaimperial.cl",
+      "https://www.munidenuevaimperial.cl"
+    ]
+  },
+  {
+    "comuna": "Padre Las Casas",
+    "region_id": "09",
+    "region": "La Araucanía",
+    "last_year_in_catastro": 2011,
+    "total_historic_records": 8,
+    "cplt_code": "MU194",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU194",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=ce400c80adfdb1d772a20155d28893b9",
+    "probable_sites": [
+      "https://www.municipalidadpadrelascasas.cl",
+      "https://www.munipadrelascasas.cl",
+      "https://www.padrelascasas.cl",
+      "https://www.impadrelascasas.cl",
+      "https://www.munidepadrelascasas.cl"
+    ]
+  },
+  {
+    "comuna": "Pucón",
+    "region_id": "09",
+    "region": "La Araucanía",
+    "last_year_in_catastro": 2007,
+    "total_historic_records": 9,
+    "cplt_code": "MU230",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU230",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=2cce17267a23743df839076ef54d0b2e",
+    "probable_sites": [
+      "https://www.municipalidadpucon.cl",
+      "https://www.munipucon.cl",
+      "https://www.pucon.cl",
+      "https://www.impucon.cl",
+      "https://www.munidepucon.cl"
+    ]
+  },
+  {
+    "comuna": "Teodoro Schmidt",
+    "region_id": "09",
+    "region": "La Araucanía",
+    "last_year_in_catastro": 2018,
+    "total_historic_records": 15,
+    "cplt_code": "MU317",
+    "cplt_ta_link": null,
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU317",
+    "probable_sites": [
+      "https://www.municipalidadteodoroschmidt.cl",
+      "https://www.muniteodoroschmidt.cl",
+      "https://www.teodoroschmidt.cl",
+      "https://www.imteodoroschmidt.cl",
+      "https://www.munideteodoroschmidt.cl"
+    ]
+  },
+  {
+    "comuna": "Toltén",
+    "region_id": "09",
+    "region": "La Araucanía",
+    "last_year_in_catastro": 2017,
+    "total_historic_records": 9,
+    "cplt_code": "MU323",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU323",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=3dbcdff61874346be396d9704dd95f43",
+    "probable_sites": [
+      "https://www.municipalidadtolten.cl",
+      "https://www.munitolten.cl",
+      "https://www.tolten.cl",
+      "https://www.imtolten.cl",
+      "https://www.munidetolten.cl"
+    ]
+  },
+  {
+    "comuna": "Cholchol",
+    "region_id": "09",
+    "region": "La Araucanía",
+    "last_year_in_catastro": 2006,
+    "total_historic_records": 2,
+    "cplt_code": "MU045",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU045",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=8bc0ff13f1adc924808e9e7418cc6254",
+    "probable_sites": [
+      "https://www.municipalidadcholchol.cl",
+      "https://www.municholchol.cl",
+      "https://www.cholchol.cl",
+      "https://www.imcholchol.cl",
+      "https://www.munidecholchol.cl"
+    ]
+  },
+  {
+    "comuna": "Curacautín",
+    "region_id": "09",
+    "region": "La Araucanía",
+    "last_year_in_catastro": 2014,
+    "total_historic_records": 9,
+    "cplt_code": "MU072",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU072",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=9dce84f50b6486baa08dc61b903b2112",
+    "probable_sites": [
+      "https://www.municipalidadcuracautin.cl",
+      "https://www.municuracautin.cl",
+      "https://www.curacautin.cl",
+      "https://www.imcuracautin.cl",
+      "https://www.munidecuracautin.cl"
+    ]
+  },
+  {
+    "comuna": "Ercilla",
+    "region_id": "09",
+    "region": "La Araucanía",
+    "last_year_in_catastro": 2000,
+    "total_historic_records": 11,
+    "cplt_code": "MU088",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU088",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=53d98c2f0ac520749b8690f36dd0df42",
+    "probable_sites": [
+      "https://www.municipalidadercilla.cl",
+      "https://www.muniercilla.cl",
+      "https://www.ercilla.cl",
+      "https://www.imercilla.cl",
+      "https://www.munideercilla.cl"
+    ]
+  },
+  {
+    "comuna": "Los Sauces",
+    "region_id": "09",
+    "region": "La Araucanía",
+    "last_year_in_catastro": 2001,
+    "total_historic_records": 12,
+    "cplt_code": "MU156",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU156",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=0947d35f28a2149782480d46df2e74c2",
+    "probable_sites": [
+      "https://www.municipalidadlossauces.cl",
+      "https://www.munilossauces.cl",
+      "https://www.lossauces.cl",
+      "https://www.imlossauces.cl",
+      "https://www.munidelossauces.cl"
+    ]
+  },
+  {
+    "comuna": "Lumaco",
+    "region_id": "09",
+    "region": "La Araucanía",
+    "last_year_in_catastro": 2006,
+    "total_historic_records": 13,
+    "cplt_code": "MU159",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU159",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=2b2feb38a20b1daa135ef21cafd88f4c",
+    "probable_sites": [
+      "https://www.municipalidadlumaco.cl",
+      "https://www.munilumaco.cl",
+      "https://www.lumaco.cl",
+      "https://www.imlumaco.cl",
+      "https://www.munidelumaco.cl"
+    ]
+  },
+  {
+    "comuna": "Renaico",
+    "region_id": "09",
+    "region": "La Araucanía",
+    "last_year_in_catastro": 2002,
+    "total_historic_records": 8,
+    "cplt_code": "MU264",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU264",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=ec0f4a41d0d4a46fd5022edff17652f0",
+    "probable_sites": [
+      "https://www.municipalidadrenaico.cl",
+      "https://www.munirenaico.cl",
+      "https://www.renaico.cl",
+      "https://www.imrenaico.cl",
+      "https://www.muniderenaico.cl"
+    ]
+  },
+  {
+    "comuna": "Traiguén",
+    "region_id": "09",
+    "region": "La Araucanía",
+    "last_year_in_catastro": 2010,
+    "total_historic_records": 29,
+    "cplt_code": "MU327",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU327",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=2d84010b0d2e47cf820cb82bfa74df1b",
+    "probable_sites": [
+      "https://www.municipalidadtraiguen.cl",
+      "https://www.munitraiguen.cl",
+      "https://www.traiguen.cl",
+      "https://www.imtraiguen.cl",
+      "https://www.munidetraiguen.cl"
+    ]
+  },
+  {
+    "comuna": "Victoria",
+    "region_id": "09",
+    "region": "La Araucanía",
+    "last_year_in_catastro": 2004,
+    "total_historic_records": 7,
+    "cplt_code": "MU334",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU334",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=3d2e750511548bb524592e1ead104ab8",
+    "probable_sites": [
+      "https://www.municipalidadvictoria.cl",
+      "https://www.munivictoria.cl",
+      "https://www.victoria.cl",
+      "https://www.imvictoria.cl",
+      "https://www.munidevictoria.cl"
+    ]
+  },
+  {
+    "comuna": "Corral",
+    "region_id": "14",
+    "region": "Los Ríos",
+    "last_year_in_catastro": 2004,
+    "total_historic_records": 4,
+    "cplt_code": "MU069",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU069",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=d86ffd2a2a93fe62735eb1ee7f0bda6b",
+    "probable_sites": [
+      "https://www.municipalidadcorral.cl",
+      "https://www.municorral.cl",
+      "https://www.corral.cl",
+      "https://www.imcorral.cl",
+      "https://www.munidecorral.cl"
+    ]
+  },
+  {
+    "comuna": "Máfil",
+    "region_id": "14",
+    "region": "Los Ríos",
+    "last_year_in_catastro": 1997,
+    "total_historic_records": 4,
+    "cplt_code": "MU162",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU162",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=054bbda8dfb20913c274da42b015b871",
+    "probable_sites": [
+      "https://www.municipalidadmafil.cl",
+      "https://www.munimafil.cl",
+      "https://www.mafil.cl",
+      "https://www.immafil.cl",
+      "https://www.munidemafil.cl"
+    ]
+  },
+  {
+    "comuna": "La Unión",
+    "region_id": "14",
+    "region": "Los Ríos",
+    "last_year_in_catastro": 2004,
+    "total_historic_records": 7,
+    "cplt_code": "MU127",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU127",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=4dd24e146adacb255c153655863b5629",
+    "probable_sites": [
+      "https://www.municipalidadlaunion.cl",
+      "https://www.munilaunion.cl",
+      "https://www.launion.cl",
+      "https://www.imlaunion.cl",
+      "https://www.munidelaunion.cl"
+    ]
+  },
+  {
+    "comuna": "Futrono",
+    "region_id": "14",
+    "region": "Los Ríos",
+    "last_year_in_catastro": 2001,
+    "total_historic_records": 7,
+    "cplt_code": "MU096",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU096",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=d309d9ad807ae5a3da9384d7c307d171",
+    "probable_sites": [
+      "https://www.municipalidadfutrono.cl",
+      "https://www.munifutrono.cl",
+      "https://www.futrono.cl",
+      "https://www.imfutrono.cl",
+      "https://www.munidefutrono.cl"
+    ]
+  },
+  {
+    "comuna": "Lago Ranco",
+    "region_id": "14",
+    "region": "Los Ríos",
+    "last_year_in_catastro": 2015,
+    "total_historic_records": 7,
+    "cplt_code": "MU128",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU128",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=728efa68a2fa0ccc60e55ab7823eaf0a",
+    "probable_sites": [
+      "https://www.municipalidadlagoranco.cl",
+      "https://www.munilagoranco.cl",
+      "https://www.lagoranco.cl",
+      "https://www.imlagoranco.cl",
+      "https://www.munidelagoranco.cl"
+    ]
+  },
+  {
+    "comuna": "Fresia",
+    "region_id": "10",
+    "region": "Los Lagos",
+    "last_year_in_catastro": 2013,
+    "total_historic_records": 10,
+    "cplt_code": "MU093",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU093",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=4d413c70b46f41347a8cb04ea1e859b7",
+    "probable_sites": [
+      "https://www.municipalidadfresia.cl",
+      "https://www.munifresia.cl",
+      "https://www.fresia.cl",
+      "https://www.imfresia.cl",
+      "https://www.munidefresia.cl"
+    ]
+  },
+  {
+    "comuna": "Los Muermos",
+    "region_id": "10",
+    "region": "Los Lagos",
+    "last_year_in_catastro": 2009,
+    "total_historic_records": 7,
+    "cplt_code": "MU155",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU155",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=84225fa77c3cf2ed459ee3a75ee769f6",
+    "probable_sites": [
+      "https://www.municipalidadlosmuermos.cl",
+      "https://www.munilosmuermos.cl",
+      "https://www.losmuermos.cl",
+      "https://www.imlosmuermos.cl",
+      "https://www.munidelosmuermos.cl"
+    ]
+  },
+  {
+    "comuna": "Puerto Varas",
+    "region_id": "10",
+    "region": "Los Lagos",
+    "last_year_in_catastro": 2011,
+    "total_historic_records": 6,
+    "cplt_code": "MU236",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU236",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=fa06b2462f5e70201e6c903a7a34aa35",
+    "probable_sites": [
+      "https://www.municipalidadpuertovaras.cl",
+      "https://www.munipuertovaras.cl",
+      "https://www.puertovaras.cl",
+      "https://www.impuertovaras.cl",
+      "https://www.munidepuertovaras.cl"
+    ]
+  },
+  {
+    "comuna": "Ancud",
+    "region_id": "10",
+    "region": "Los Lagos",
+    "last_year_in_catastro": 2010,
+    "total_historic_records": 9,
+    "cplt_code": "MU006",
+    "cplt_ta_link": null,
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=1416b74ccb0b60f4b186c1dca4906704",
+    "probable_sites": [
+      "https://www.municipalidadancud.cl",
+      "https://www.muniancud.cl",
+      "https://www.ancud.cl",
+      "https://www.imancud.cl",
+      "https://www.munideancud.cl"
+    ]
+  },
+  {
+    "comuna": "Curaco de Vélez",
+    "region_id": "10",
+    "region": "Los Lagos",
+    "last_year_in_catastro": 2005,
+    "total_historic_records": 14,
+    "cplt_code": "MU074",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU074",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=026c8b3dd6d6713c81820ead71fc49c6",
+    "probable_sites": [
+      "https://www.municipalidadcuracodevelez.cl",
+      "https://www.municuracodevelez.cl",
+      "https://www.curacodevelez.cl",
+      "https://www.imcuracodevelez.cl",
+      "https://www.munidecuracodevelez.cl"
+    ]
+  },
+  {
+    "comuna": "Quemchi",
+    "region_id": "10",
+    "region": "Los Lagos",
+    "last_year_in_catastro": 2014,
+    "total_historic_records": 5,
+    "cplt_code": "MU248",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU248",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=6d3d7410a633713fbbec72e6e316afcd",
+    "probable_sites": [
+      "https://www.municipalidadquemchi.cl",
+      "https://www.muniquemchi.cl",
+      "https://www.quemchi.cl",
+      "https://www.imquemchi.cl",
+      "https://www.munidequemchi.cl"
+    ]
+  },
+  {
+    "comuna": "Quinchao",
+    "region_id": "10",
+    "region": "Los Lagos",
+    "last_year_in_catastro": 2017,
+    "total_historic_records": 10,
+    "cplt_code": "MU255",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU255",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=aefed05d587da7019ad3dd5977741ded",
+    "probable_sites": [
+      "https://www.municipalidadquinchao.cl",
+      "https://www.muniquinchao.cl",
+      "https://www.quinchao.cl",
+      "https://www.imquinchao.cl",
+      "https://www.munidequinchao.cl"
+    ]
+  },
+  {
+    "comuna": "Puerto Octay",
+    "region_id": "10",
+    "region": "Los Lagos",
+    "last_year_in_catastro": 2000,
+    "total_historic_records": 4,
+    "cplt_code": "MU235",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU235",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=b8523978abefb7a09980234774218453",
+    "probable_sites": [
+      "https://www.municipalidadpuertooctay.cl",
+      "https://www.munipuertooctay.cl",
+      "https://www.puertooctay.cl",
+      "https://www.impuertooctay.cl",
+      "https://www.munidepuertooctay.cl"
+    ]
+  },
+  {
+    "comuna": "Puyehue",
+    "region_id": "10",
+    "region": "Los Lagos",
+    "last_year_in_catastro": 2017,
+    "total_historic_records": 4,
+    "cplt_code": "MU245",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU245",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=c294f2b5956cc0da2ad1d3cc47c8c9ad",
+    "probable_sites": [
+      "https://www.municipalidadpuyehue.cl",
+      "https://www.munipuyehue.cl",
+      "https://www.puyehue.cl",
+      "https://www.impuyehue.cl",
+      "https://www.munidepuyehue.cl"
+    ]
+  },
+  {
+    "comuna": "Río Negro",
+    "region_id": "10",
+    "region": "Los Lagos",
+    "last_year_in_catastro": 1996,
+    "total_historic_records": 6,
+    "cplt_code": "MU274",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU274",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=bc7da9d29e0a9b6c3ea01d3ded21b281",
+    "probable_sites": [
+      "https://www.municipalidadrionegro.cl",
+      "https://www.munirionegro.cl",
+      "https://www.rionegro.cl",
+      "https://www.imrionegro.cl",
+      "https://www.muniderionegro.cl"
+    ]
+  },
+  {
+    "comuna": "Chaitén",
+    "region_id": "10",
+    "region": "Los Lagos",
+    "last_year_in_catastro": 2019,
+    "total_historic_records": 3,
+    "cplt_code": "MU036",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU036",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=f36bbd048a2cfdb34f030edadf4fa0c7",
+    "probable_sites": [
+      "https://www.municipalidadchaiten.cl",
+      "https://www.munichaiten.cl",
+      "https://www.chaiten.cl",
+      "https://www.imchaiten.cl",
+      "https://www.munidechaiten.cl"
+    ]
+  },
+  {
+    "comuna": "Lago Verde",
+    "region_id": "11",
+    "region": "Aysén",
+    "last_year_in_catastro": 2018,
+    "total_historic_records": 5,
+    "cplt_code": "MU129",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU129",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=1cecd584eb0bc29073ea5d8712346ae3",
+    "probable_sites": [
+      "https://www.municipalidadlagoverde.cl",
+      "https://www.munilagoverde.cl",
+      "https://www.lagoverde.cl",
+      "https://www.imlagoverde.cl",
+      "https://www.munidelagoverde.cl"
+    ]
+  },
+  {
+    "comuna": "Aysén",
+    "region_id": "11",
+    "region": "Aysén",
+    "last_year_in_catastro": 2017,
+    "total_historic_records": 20,
+    "cplt_code": "MU013",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU013",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=fc3bbb04433845dbb9b3ef8c69f2a74b",
+    "probable_sites": [
+      "https://www.municipalidadaysen.cl",
+      "https://www.muniaysen.cl",
+      "https://www.aysen.cl",
+      "https://www.imaysen.cl",
+      "https://www.munideaysen.cl"
+    ]
+  },
+  {
+    "comuna": "Cisnes",
+    "region_id": "11",
+    "region": "Aysén",
+    "last_year_in_catastro": 2010,
+    "total_historic_records": 5,
+    "cplt_code": "MU047",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU047",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=7500a0f8a4f8efdcb5a4240f2097c480",
+    "probable_sites": [
+      "https://www.municipalidadcisnes.cl",
+      "https://www.municisnes.cl",
+      "https://www.cisnes.cl",
+      "https://www.imcisnes.cl",
+      "https://www.munidecisnes.cl"
+    ]
+  },
+  {
+    "comuna": "Cochrane",
+    "region_id": "11",
+    "region": "Aysén",
+    "last_year_in_catastro": 2005,
+    "total_historic_records": 4,
+    "cplt_code": "MU050",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU050",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=68e601855d64b74cd6c0a3f2d2c9913f",
+    "probable_sites": [
+      "https://www.municipalidadcochrane.cl",
+      "https://www.municochrane.cl",
+      "https://www.cochrane.cl",
+      "https://www.imcochrane.cl",
+      "https://www.munidecochrane.cl"
+    ]
+  },
+  {
+    "comuna": "Chile Chico",
+    "region_id": "11",
+    "region": "Aysén",
+    "last_year_in_catastro": 2015,
+    "total_historic_records": 9,
+    "cplt_code": "MU041",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU041",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=8c6f1a928d0c84e492cdc0e653ea6a33",
+    "probable_sites": [
+      "https://www.municipalidadchilechico.cl",
+      "https://www.munichilechico.cl",
+      "https://www.chilechico.cl",
+      "https://www.imchilechico.cl",
+      "https://www.munidechilechico.cl"
+    ]
+  },
+  {
+    "comuna": "Río Ibáñez",
+    "region_id": "11",
+    "region": "Aysén",
+    "last_year_in_catastro": 2020,
+    "total_historic_records": 7,
+    "cplt_code": "MU273",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU273",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=209e0f45be0ace2d5c7f08c00069deaa",
+    "probable_sites": [
+      "https://www.municipalidadrioibanez.cl",
+      "https://www.munirioibanez.cl",
+      "https://www.rioibanez.cl",
+      "https://www.imrioibanez.cl",
+      "https://www.muniderioibanez.cl"
+    ]
+  },
+  {
+    "comuna": "Río Verde",
+    "region_id": "12",
+    "region": "Magallanes",
+    "last_year_in_catastro": 2019,
+    "total_historic_records": 5,
+    "cplt_code": "MU275",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU275",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=afa4821e501bf32be2a2c85ce3075abd",
+    "probable_sites": [
+      "https://www.municipalidadrioverde.cl",
+      "https://www.munirioverde.cl",
+      "https://www.rioverde.cl",
+      "https://www.imrioverde.cl",
+      "https://www.muniderioverde.cl"
+    ]
+  },
+  {
+    "comuna": "Antártica",
+    "region_id": "12",
+    "region": "Magallanes",
+    "last_year_in_catastro": 2017,
+    "total_historic_records": 1,
+    "cplt_code": "",
+    "cplt_ta_link": "",
+    "cplt_sai_link": "",
+    "probable_sites": [
+      "https://www.municipalidadantartica.cl",
+      "https://www.muniantartica.cl",
+      "https://www.antartica.cl",
+      "https://www.imantartica.cl",
+      "https://www.munideantartica.cl"
+    ]
+  },
+  {
+    "comuna": "Primavera",
+    "region_id": "12",
+    "region": "Magallanes",
+    "last_year_in_catastro": 2018,
+    "total_historic_records": 6,
+    "cplt_code": "MU227",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU227",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=04fc23c6c2e4d0e0e3787e951e3da4a2",
+    "probable_sites": [
+      "https://www.municipalidadprimavera.cl",
+      "https://www.muniprimavera.cl",
+      "https://www.primavera.cl",
+      "https://www.imprimavera.cl",
+      "https://www.munideprimavera.cl"
+    ]
+  },
+  {
+    "comuna": "Timaukel",
+    "region_id": "12",
+    "region": "Magallanes",
+    "last_year_in_catastro": 2020,
+    "total_historic_records": 2,
+    "cplt_code": "MU320",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU320",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=33fa928839f43eaae60c9f709447959e",
+    "probable_sites": [
+      "https://www.municipalidadtimaukel.cl",
+      "https://www.munitimaukel.cl",
+      "https://www.timaukel.cl",
+      "https://www.imtimaukel.cl",
+      "https://www.munidetimaukel.cl"
+    ]
+  },
+  {
+    "comuna": "Natales",
+    "region_id": "12",
+    "region": "Magallanes",
+    "last_year_in_catastro": 2004,
+    "total_historic_records": 12,
+    "cplt_code": "",
+    "cplt_ta_link": "",
+    "cplt_sai_link": "",
+    "probable_sites": [
+      "https://www.municipalidadnatales.cl",
+      "https://www.muninatales.cl",
+      "https://www.natales.cl",
+      "https://www.imnatales.cl",
+      "https://www.munidenatales.cl"
+    ]
+  },
+  {
+    "comuna": "Torres del Paine",
+    "region_id": "12",
+    "region": "Magallanes",
+    "last_year_in_catastro": 2011,
+    "total_historic_records": 7,
+    "cplt_code": "MU325",
+    "cplt_ta_link": "https://www.portaltransparencia.cl/PortalPdT/directorio-de-organismos-regulados/?org=MU325",
+    "cplt_sai_link": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=fffa72727bab8e4f6cbd6847e5c0dca0",
+    "probable_sites": [
+      "https://www.municipalidadtorresdelpaine.cl",
+      "https://www.munitorresdelpaine.cl",
+      "https://www.torresdelpaine.cl",
+      "https://www.imtorresdelpaine.cl",
+      "https://www.munidetorresdelpaine.cl"
+    ]
+  }
+]
