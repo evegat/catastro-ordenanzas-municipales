@@ -47,4 +47,5 @@ data/*.backup*
 scripts/*details.json
 scripts/*batch*.json
 data/*batch*.json
+data/*probe*.json
 

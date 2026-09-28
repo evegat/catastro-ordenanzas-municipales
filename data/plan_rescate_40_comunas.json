@@ -243,7 +243,13 @@
     "sai_url": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=4fd7686ce5de3e916e08faf813db7ca9",
     "last_year": 2004,
     "historic_count": 7,
-    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos."
+    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos.",
+    "estado_rescate": "REQUIERE_VIA_B_SAI",
+    "fecha_rescate": null,
+    "normas_recuperadas": 0,
+    "nuevo_ultimo_ano": 2004,
+    "fuente_primaria": "https://www.muniyerbasbuenas.cl",
+    "nota": "Sitio web activo (200), pero sin ordenanzas publicadas en Transparencia Activa. Minuta SAI Ley 20.285 lista para ingreso."
   },
   {
     "comuna": "Olmué",
@@ -258,7 +264,13 @@
     "sai_url": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=88d841e60282890047c6cacd46b52ebf",
     "last_year": 2017,
     "historic_count": 11,
-    "diag_original": "Dominio web no responde en DNS. Municipio rural sin infraestructura web propia activa."
+    "diag_original": "Dominio web no responde en DNS. Municipio rural sin infraestructura web propia activa.",
+    "estado_rescate": "REQUIERE_VIA_B_SAI",
+    "fecha_rescate": null,
+    "normas_recuperadas": 0,
+    "nuevo_ultimo_ano": 2017,
+    "fuente_primaria": "https://www.muniolmue.cl",
+    "nota": "Marco normativo contiene solo reglamentos internos pre-2020. Minuta SAI Ley 20.285 lista para ingreso."
   },
   {
     "comuna": "Cunco",
@@ -273,7 +285,13 @@
     "sai_url": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=214dbdea064fcfdba4f94810573c07b4",
     "last_year": 2019,
     "historic_count": 5,
-    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos."
+    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos.",
+    "estado_rescate": "REQUIERE_VIA_B_SAI",
+    "fecha_rescate": null,
+    "normas_recuperadas": 0,
+    "nuevo_ultimo_ano": 2019,
+    "fuente_primaria": "https://www.municunco.cl",
+    "nota": "Ordenanza de participación ciudadana disponible es de 2014 (catastro ya cuenta con normas hasta 2019). Minuta SAI Ley 20.285 lista para ingreso."
   },
   {
     "comuna": "Coelemu",
@@ -288,7 +306,13 @@
     "sai_url": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=5416e19fb047273cd4b5facc9a150458",
     "last_year": 2017,
     "historic_count": 6,
-    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos."
+    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos.",
+    "estado_rescate": "RESCATADA_VIA_A",
+    "fecha_rescate": "2026-09-27",
+    "normas_recuperadas": 1,
+    "nuevo_ultimo_ano": 2024,
+    "fuente_primaria": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU052/PMN/MN",
+    "nota": "Recuperado D.A.E. N° 1912/2024 (Modificación Derechos Municipales, PDF 3.5 MB SHA-256 verificado). Rezago 2017 cerrado."
   },
   {
     "comuna": "San Ignacio",
@@ -303,7 +327,13 @@
     "sai_url": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=23a79300d9b370cfc5f74e63054c87b9",
     "last_year": 2020,
     "historic_count": 17,
-    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos."
+    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos.",
+    "estado_rescate": "RESCATADA_VIA_A",
+    "fecha_rescate": "2026-09-27",
+    "normas_recuperadas": 4,
+    "nuevo_ultimo_ano": 2024,
+    "fuente_primaria": "https://munisanignacio.cl/ordenanzas/",
+    "nota": "Recuperadas 4 ordenanzas vigentes 2022-2024 con SHA-256 verificado (Ordenanza General 2024, Derechos 2022, PRC 2022, Ramaderos 2023). Rezago 2020 cerrado."
   },
   {
     "comuna": "Futrono",
@@ -318,7 +348,13 @@
     "sai_url": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=d309d9ad807ae5a3da9384d7c307d171",
     "last_year": 2001,
     "historic_count": 7,
-    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos."
+    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos.",
+    "estado_rescate": "REQUIERE_VIA_B_SAI",
+    "fecha_rescate": null,
+    "normas_recuperadas": 0,
+    "nuevo_ultimo_ano": 2001,
+    "fuente_primaria": "https://www.munifutrono.cl/municipio/alcaldia-administracion/ordenanzas-municipales/",
+    "nota": "Descarga de ordenanzas municipales vigentes 2022-2024 bloqueada tras login administrativo municipal. Minuta SAI Ley 20.285 lista para exigir apertura pública."
   },
   {
     "comuna": "Tucapel",
@@ -333,7 +369,13 @@
     "sai_url": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=37e02c0b76c2c65c06a5285d38603c3e",
     "last_year": 2007,
     "historic_count": 20,
-    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos."
+    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos.",
+    "estado_rescate": "RESCATADA_VIA_A",
+    "fecha_rescate": "2026-09-27",
+    "normas_recuperadas": 1,
+    "nuevo_ultimo_ano": 2024,
+    "fuente_primaria": "https://www.municipalidadtucapel.cl/filesglob/1722525142.pdf",
+    "nota": "Recuperado Decreto Normativo 2024 (PDF 934 KB SHA-256 verificado). Rezago 2007 cerrado (17 años)."
   },
   {
     "comuna": "Catemu",
@@ -348,7 +390,13 @@
     "sai_url": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=73e717818ea5478648c7194e7406a6b2",
     "last_year": 2019,
     "historic_count": 18,
-    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos."
+    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos.",
+    "estado_rescate": "RESCATADA_VIA_A",
+    "fecha_rescate": "2026-09-27",
+    "normas_recuperadas": 1,
+    "nuevo_ultimo_ano": 2021,
+    "fuente_primaria": "https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/DECRETOS+EXENTOS-5261+Pol%C3%ADtica+RR+HH+2021.pdf/53e111b7-7edf-4333-8d5c-c66d253abedb",
+    "nota": "Recuperado Decreto Exento N° 5261/2021 (PDF 1.68 MB SHA-256 verificado). Rezago 2019 cerrado."
   },
   {
     "comuna": "Fresia",
@@ -363,7 +411,13 @@
     "sai_url": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=4d413c70b46f41347a8cb04ea1e859b7",
     "last_year": 2013,
     "historic_count": 10,
-    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos."
+    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos.",
+    "estado_rescate": "RESCATADA_VIA_A",
+    "fecha_rescate": "2026-09-27",
+    "normas_recuperadas": 1,
+    "nuevo_ultimo_ano": 2022,
+    "fuente_primaria": "https://www.munifresia.cl/transparencia/descargas/MarcoNormativo/OtrasNormas/Decreto87-2022.pdf",
+    "nota": "Recuperado Decreto N° 87/2022 (PDF 2.83 MB SHA-256 verificado). Rezago 2013 cerrado."
   },
   {
     "comuna": "Punitaqui",
@@ -378,7 +432,13 @@
     "sai_url": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=8f8fdf466f4aa44410108cde009cfe84",
     "last_year": 2011,
     "historic_count": 4,
-    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos."
+    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos.",
+    "estado_rescate": "REQUIERE_VIA_B_SAI",
+    "fecha_rescate": null,
+    "normas_recuperadas": 0,
+    "nuevo_ultimo_ano": 2011,
+    "fuente_primaria": "https://www.munipunitaqui.cl",
+    "nota": "Sitio web activo sin documentos normativos recientes en numeral 8. Minuta SAI Ley 20.285 lista para ingreso."
   },
   {
     "comuna": "Cholchol",
@@ -393,7 +453,13 @@
     "sai_url": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=8bc0ff13f1adc924808e9e7418cc6254",
     "last_year": 2006,
     "historic_count": 2,
-    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos."
+    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos.",
+    "estado_rescate": "REQUIERE_VIA_B_SAI",
+    "fecha_rescate": null,
+    "normas_recuperadas": 0,
+    "nuevo_ultimo_ano": 2006,
+    "fuente_primaria": "https://www.municholchol.cl",
+    "nota": "Ordenanza enlazada a Google Drive externo sin persistencia oficial garantizada. Minuta SAI Ley 20.285 lista para ingreso."
   },
   {
     "comuna": "Rauco",
@@ -408,7 +474,13 @@
     "sai_url": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=00ca93e18d628f2c2209dec4a3494cad",
     "last_year": 2019,
     "historic_count": 16,
-    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos."
+    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos.",
+    "estado_rescate": "REQUIERE_VIA_B_SAI",
+    "fecha_rescate": null,
+    "normas_recuperadas": 0,
+    "nuevo_ultimo_ano": 2019,
+    "fuente_primaria": "https://www.munirauco.cl/pages/ordenanzas.html",
+    "nota": "Decretos 2021-2022 alojados en Google Drive personal sin descarga directa persistente. Minuta SAI Ley 20.285 lista para ingreso."
   },
   {
     "comuna": "Petorca",
@@ -423,7 +495,13 @@
     "sai_url": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=d61940800f80626c802eea1c3a69fa13",
     "last_year": 2018,
     "historic_count": 17,
-    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos."
+    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos.",
+    "estado_rescate": "RESCATADA_VIA_A",
+    "fecha_rescate": "2026-09-27",
+    "normas_recuperadas": 1,
+    "nuevo_ultimo_ano": 2025,
+    "fuente_primaria": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU215/PMN/MN",
+    "nota": "Recuperado D.E.X. N° 1489/2025 (PDF 1.09 MB SHA-256 verificado). Rezago 2018 cerrado."
   },
   {
     "comuna": "Lumaco",

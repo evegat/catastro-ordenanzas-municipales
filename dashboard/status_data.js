@@ -4,7 +4,7 @@ window.CATASTRO_DATA = {
     "total_comunas": 346,
     "comunas_con_datos": 346,
     "total_regiones": 16,
-    "total_ordenanzas": 7465,
+    "total_ordenanzas": 7474,
     "ordenanzas_bcn": 5881,
     "ordenanzas_cplt": 0,
     "pdfs_descargados": 0,
@@ -13,7 +13,7 @@ window.CATASTRO_DATA = {
       "bloqueos_ip": 0,
       "user_agents_rotados": 12
     },
-    "ordenanzas_municipales_verificadas": 1584,
+    "ordenanzas_municipales_verificadas": 1593,
     "cplt_en_cuarentena": 0,
     "cobertura_nacional_pct": 100.0
   },
@@ -18668,11 +18668,32 @@ window.CATASTRO_DATA = {
       "comuna": "Petorca",
       "bcn_count": 16,
       "cplt_count": 0,
-      "total_count": 17,
+      "total_count": 18,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": "2018-12-28",
+      "last_update": "2025-05-12",
       "ordenanzas": [
+        {
+          "cplt_code": "MU215",
+          "fuente": "Municipalidad",
+          "numero": "DEX-1489-2025",
+          "fecha": "2025-05-12",
+          "titulo": "Decreto Exento N° 1489/2025 Aprueba Ordenanza Municipal sobre Funcionamiento y Servicios Locales de Petorca",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU215/PMN/MN",
+          "target_url": "https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/DEX2025-1489ordenanza.pdf/a29c07dd-42ae-4bf9-8fdd-45c1d011c22a",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/DEX2025-1489ordenanza.pdf/a29c07dd-42ae-4bf9-8fdd-45c1d011c22a",
+            "content_type": "application/pdf",
+            "sha256": "c1af8ad01869c2a5abcb3ffc307c58482ae4aefd13efb161d31d76df211ea065",
+            "bytes": 1098956,
+            "verified_at": "2026-09-28T00:16:09.262282+00:00"
+          },
+          "rdf_url": null
+        },
         {
           "cplt_code": "MU_petorca",
           "fuente": "Municipalidad",
@@ -18903,7 +18924,7 @@ window.CATASTRO_DATA = {
           "estado": "Vigente / LeyChile"
         }
       ],
-      "municipal_count": 1
+      "municipal_count": 2
     },
     {
       "region_id": "05",
@@ -24954,11 +24975,32 @@ window.CATASTRO_DATA = {
       "comuna": "Catemu",
       "bcn_count": 16,
       "cplt_count": 0,
-      "total_count": 18,
+      "total_count": 19,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": "2019-03-07",
+      "last_update": "2021-12-10",
       "ordenanzas": [
+        {
+          "cplt_code": "MU032",
+          "fuente": "Municipalidad",
+          "numero": "5261-2021",
+          "fecha": "2021-12-10",
+          "titulo": "Decreto Exento N° 5261/2021 Aprueba Normativa Municipal y Política de Gestión Interna de Catemu",
+          "materia": "Organización Interna y Personal",
+          "materia_id": "organizacion_interna",
+          "source_listing_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU032/PMN/MN",
+          "target_url": "https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/DECRETOS+EXENTOS-5261+Pol%C3%ADtica+RR+HH+2021.pdf/53e111b7-7edf-4333-8d5c-c66d253abedb",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/DECRETOS+EXENTOS-5261+Pol%C3%ADtica+RR+HH+2021.pdf/53e111b7-7edf-4333-8d5c-c66d253abedb",
+            "content_type": "application/pdf",
+            "sha256": "f3304ef0c25ef703969a828b4598a3d28fc0e52565a50f17f07a850e0a610638",
+            "bytes": 1687753,
+            "verified_at": "2026-09-28T00:16:09.262282+00:00"
+          },
+          "rdf_url": null
+        },
         {
           "fuente": "BCN",
           "numero": "644-exento",
@@ -25210,7 +25252,7 @@ window.CATASTRO_DATA = {
           "estado": "Vigente / LeyChile"
         }
       ],
-      "municipal_count": 2
+      "municipal_count": 3
     },
     {
       "region_id": "05",
@@ -84101,11 +84143,32 @@ window.CATASTRO_DATA = {
       "comuna": "Coelemu",
       "bcn_count": 6,
       "cplt_count": 0,
-      "total_count": 6,
+      "total_count": 7,
       "pdfs_count": 0,
-      "status": "Cargado BCN",
-      "last_update": "2017-10-11",
+      "status": "BCN + Municipalidad verificada",
+      "last_update": "2024-11-20",
       "ordenanzas": [
+        {
+          "cplt_code": "MU052",
+          "fuente": "Municipalidad",
+          "numero": "DAE-1912-2024",
+          "fecha": "2024-11-20",
+          "titulo": "Decreto Alcaldicio Exento N° 1912/2024 Modifica Ordenanza sobre Derechos Municipales por Concesiones, Permisos y Servicios",
+          "materia": "Comercio, Rentas y Patentes",
+          "materia_id": "rentas_patentes",
+          "source_listing_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU052/PMN/MN",
+          "target_url": "https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/DAE+1912+2024+modif+Ordenanza+de+Derechos+Municipales20250218.pdf/c56af6be-f561-4a1c-8cee-a2f7b3c3ddbf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/DAE+1912+2024+modif+Ordenanza+de+Derechos+Municipales20250218.pdf/c56af6be-f561-4a1c-8cee-a2f7b3c3ddbf",
+            "content_type": "application/pdf",
+            "sha256": "a4d10fb20caaae3eabf993f2c6afafc79aa1706670e4bdf1f8f874e64b049e1e",
+            "bytes": 3506034,
+            "verified_at": "2026-09-28T00:16:09.262282+00:00"
+          },
+          "rdf_url": null
+        },
         {
           "fuente": "BCN",
           "numero": "1976-exento",
@@ -84191,7 +84254,7 @@ window.CATASTRO_DATA = {
           "estado": "Vigente / LeyChile"
         }
       ],
-      "municipal_count": 0
+      "municipal_count": 1
     },
     {
       "region_id": "16",
@@ -86658,11 +86721,95 @@ window.CATASTRO_DATA = {
       "comuna": "San Ignacio",
       "bcn_count": 16,
       "cplt_count": 0,
-      "total_count": 17,
+      "total_count": 21,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": "2020-11-03",
+      "last_update": "2024-05-10",
       "ordenanzas": [
+        {
+          "cplt_code": "MU289",
+          "fuente": "Municipalidad",
+          "numero": "s/n-2024",
+          "fecha": "2024-05-10",
+          "titulo": "Ordenanza Municipal General de la Comuna de San Ignacio",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://munisanignacio.cl/ordenanzas/",
+          "target_url": "https://munisanignacio.cl/wp-content/uploads/2024/05/ordenanza-municipal.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://munisanignacio.cl/wp-content/uploads/2024/05/ordenanza-municipal.pdf",
+            "content_type": "application/pdf",
+            "sha256": "abbcabc7d1361ddb3a95879119e01f8b1cd078060d5ccba95390100551430536",
+            "bytes": 1443210,
+            "verified_at": "2026-09-28T00:16:09.262282+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU289",
+          "fuente": "Municipalidad",
+          "numero": "s/n-ramaderos-2023",
+          "fecha": "2023-09-01",
+          "titulo": "Modificación de la Ordenanza sobre Derechos Ramaderos y Fondas",
+          "materia": "Comercio, Rentas y Patentes",
+          "materia_id": "rentas_patentes",
+          "source_listing_url": "https://munisanignacio.cl/ordenanzas/",
+          "target_url": "https://munisanignacio.cl/wp-content/uploads/2023/09/Modificacion-ordenanza-Derechos-Ramaderos.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://munisanignacio.cl/wp-content/uploads/2023/09/Modificacion-ordenanza-Derechos-Ramaderos.pdf",
+            "content_type": "application/pdf",
+            "sha256": "fc31b6d863859bd9b531d5bb5380ee34a1102d8b3f1002e376658b003ad9f3c8",
+            "bytes": 2611208,
+            "verified_at": "2026-09-28T00:16:09.262282+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU289",
+          "fuente": "Municipalidad",
+          "numero": "s/n-derechos-2022",
+          "fecha": "2022-08-15",
+          "titulo": "Ordenanza Municipal sobre Derechos Municipales por Concesiones, Permisos, Servicios y Prohibiciones",
+          "materia": "Comercio, Rentas y Patentes",
+          "materia_id": "rentas_patentes",
+          "source_listing_url": "https://munisanignacio.cl/ordenanzas/",
+          "target_url": "https://munisanignacio.cl/wp-content/uploads/2022/08/ORDENANZA-MUNICIPAL-SOBRE-DERECHOS-MUNICIPALES-POR-CONCESIONES-PERMISOS-SERVICIOS-Y-PROHIBICIONES..pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://munisanignacio.cl/wp-content/uploads/2022/08/ORDENANZA-MUNICIPAL-SOBRE-DERECHOS-MUNICIPALES-POR-CONCESIONES-PERMISOS-SERVICIOS-Y-PROHIBICIONES..pdf",
+            "content_type": "application/pdf",
+            "sha256": "c5b9351409b146ac40030b0dbf199b3f2a8fe60dd922859ab072578bf4072f40",
+            "bytes": 1630805,
+            "verified_at": "2026-09-28T00:16:09.262282+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU289",
+          "fuente": "Municipalidad",
+          "numero": "s/n-prc-2022",
+          "fecha": "2022-06-20",
+          "titulo": "Ordenanza Local del Plan Regulador Comunal de San Ignacio",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://munisanignacio.cl/ordenanzas/",
+          "target_url": "https://munisanignacio.cl/wp-content/uploads/2022/06/ORDENANZA-LOCAL_PRC-SAN-IGNACIO.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://munisanignacio.cl/wp-content/uploads/2022/06/ORDENANZA-LOCAL_PRC-SAN-IGNACIO.pdf",
+            "content_type": "application/pdf",
+            "sha256": "5b555771624415e3d06a40e8f0501f3042aa7a40cb09e285006acdd521d7b69c",
+            "bytes": 217385,
+            "verified_at": "2026-09-28T00:16:09.262282+00:00"
+          },
+          "rdf_url": null
+        },
         {
           "fuente": "BCN",
           "numero": "3698",
@@ -86893,7 +87040,7 @@ window.CATASTRO_DATA = {
           "estado": "Vigente / LeyChile"
         }
       ],
-      "municipal_count": 1
+      "municipal_count": 5
     },
     {
       "region_id": "16",
@@ -96338,11 +96485,32 @@ window.CATASTRO_DATA = {
       "comuna": "Tucapel",
       "bcn_count": 20,
       "cplt_count": 0,
-      "total_count": 20,
+      "total_count": 21,
       "pdfs_count": 0,
-      "status": "Cargado BCN",
-      "last_update": "2007-01-27",
+      "status": "BCN + Municipalidad verificada",
+      "last_update": "2024-08-01",
       "ordenanzas": [
+        {
+          "cplt_code": "MU329",
+          "fuente": "Municipalidad",
+          "numero": "DA-2024-01",
+          "fecha": "2024-08-01",
+          "titulo": "Decreto Normativo Municipal de Actualización Regulatoria de la Comuna de Tucapel",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU329/PMN/MN",
+          "target_url": "https://www.municipalidadtucapel.cl/filesglob/1722525142.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.municipalidadtucapel.cl/filesglob/1722525142.pdf",
+            "content_type": "application/pdf",
+            "sha256": "4000cf3c35174a3ee1c517fcd121783550f9058ddf0e568154aee6c8e0bb9eb6",
+            "bytes": 934088,
+            "verified_at": "2026-09-28T00:16:09.262282+00:00"
+          },
+          "rdf_url": null
+        },
         {
           "fuente": "BCN",
           "numero": "1714",
@@ -96643,7 +96811,7 @@ window.CATASTRO_DATA = {
           "estado": "Vigente / LeyChile"
         }
       ],
-      "municipal_count": 0
+      "municipal_count": 1
     },
     {
       "region_id": "08",
@@ -110520,11 +110688,32 @@ window.CATASTRO_DATA = {
       "comuna": "Fresia",
       "bcn_count": 10,
       "cplt_count": 0,
-      "total_count": 10,
+      "total_count": 11,
       "pdfs_count": 0,
-      "status": "Cargado BCN",
-      "last_update": "2013-12-09",
+      "status": "BCN + Municipalidad verificada",
+      "last_update": "2022-01-20",
       "ordenanzas": [
+        {
+          "cplt_code": "MU093",
+          "fuente": "Municipalidad",
+          "numero": "87-2022",
+          "fecha": "2022-01-20",
+          "titulo": "Decreto Alcaldicio N° 87/2022 Aprueba Normativa Municipal y Procedimientos de Gestión Comunal",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU093/PMN/MN",
+          "target_url": "https://www.munifresia.cl/transparencia/descargas/MarcoNormativo/OtrasNormas/Decreto87-2022.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.munifresia.cl/transparencia/descargas/MarcoNormativo/OtrasNormas/Decreto87-2022.pdf",
+            "content_type": "application/pdf",
+            "sha256": "b24d3ed027bfda7fb0a8f336bcd50e918eb92c9e1c6b6fe0b31f3f3001466563",
+            "bytes": 2831031,
+            "verified_at": "2026-09-28T00:16:09.262282+00:00"
+          },
+          "rdf_url": null
+        },
         {
           "fuente": "BCN",
           "numero": "3932-exento",
@@ -110659,7 +110848,7 @@ window.CATASTRO_DATA = {
           "estado": "Vigente / LeyChile"
         }
       ],
-      "municipal_count": 0
+      "municipal_count": 1
     },
     {
       "region_id": "10",
@@ -120300,7 +120489,7 @@ window.CATASTRO_DATA = {
       "badge_bg": "bg-zinc-800",
       "badge_text": "text-zinc-400",
       "badge_border": "border-zinc-700",
-      "count": 2667
+      "count": 2671
     }
   ],
   "public_scope": {
@@ -120313,7 +120502,7 @@ window.CATASTRO_DATA = {
       "CPLT"
     ],
     "quarantined_records": 0,
-    "verified_municipal_records": 1584,
+    "verified_municipal_records": 1593,
     "reason": "Las referencias CPLT manuales sin evidencia se mantienen en cuarentena. Solo se publican documentos municipales con listado oficial, PDF resoluble y huella SHA-256 verificada."
   }
 };
