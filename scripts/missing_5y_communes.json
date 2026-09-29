@@ -42,11 +42,25 @@
     "total_ords": 8
   },
   {
+    "comuna": "Antofagasta",
+    "region_id": "02",
+    "region": "Antofagasta",
+    "last_year": 2020,
+    "total_ords": 55
+  },
+  {
     "comuna": "Sierra Gorda",
     "region_id": "02",
     "region": "Antofagasta",
     "last_year": 2011,
     "total_ords": 12
+  },
+  {
+    "comuna": "Calama",
+    "region_id": "02",
+    "region": "Antofagasta",
+    "last_year": 2020,
+    "total_ords": 45
   },
   {
     "comuna": "Tocopilla",
@@ -56,6 +70,13 @@
     "total_ords": 15
   },
   {
+    "comuna": "María Elena",
+    "region_id": "02",
+    "region": "Antofagasta",
+    "last_year": 2020,
+    "total_ords": 16
+  },
+  {
     "comuna": "Tierra Amarilla",
     "region_id": "03",
     "region": "Atacama",
@@ -63,18 +84,18 @@
     "total_ords": 7
   },
   {
+    "comuna": "Chañaral",
+    "region_id": "03",
+    "region": "Atacama",
+    "last_year": 1999,
+    "total_ords": 6
+  },
+  {
     "comuna": "Diego de Almagro",
     "region_id": "03",
     "region": "Atacama",
     "last_year": 2020,
     "total_ords": 14
-  },
-  {
-    "comuna": "Vallenar",
-    "region_id": "03",
-    "region": "Atacama",
-    "last_year": 2020,
-    "total_ords": 51
   },
   {
     "comuna": "Freirina",
@@ -91,6 +112,13 @@
     "total_ords": 6
   },
   {
+    "comuna": "La Higuera",
+    "region_id": "04",
+    "region": "Coquimbo",
+    "last_year": 2018,
+    "total_ords": 7
+  },
+  {
     "comuna": "Paiguano",
     "region_id": "04",
     "region": "Coquimbo",
@@ -98,32 +126,11 @@
     "total_ords": 3
   },
   {
-    "comuna": "Vicuña",
-    "region_id": "04",
-    "region": "Coquimbo",
-    "last_year": 2012,
-    "total_ords": 14
-  },
-  {
-    "comuna": "Los Vilos",
-    "region_id": "04",
-    "region": "Coquimbo",
-    "last_year": 2010,
-    "total_ords": 10
-  },
-  {
     "comuna": "Salamanca",
     "region_id": "04",
     "region": "Coquimbo",
     "last_year": 2004,
     "total_ords": 15
-  },
-  {
-    "comuna": "Ovalle",
-    "region_id": "04",
-    "region": "Coquimbo",
-    "last_year": 2016,
-    "total_ords": 59
   },
   {
     "comuna": "Combarbalá",
@@ -147,6 +154,13 @@
     "total_ords": 4
   },
   {
+    "comuna": "Río Hurtado",
+    "region_id": "04",
+    "region": "Coquimbo",
+    "last_year": 2018,
+    "total_ords": 25
+  },
+  {
     "comuna": "Juan Fernández",
     "region_id": "05",
     "region": "Valparaíso",
@@ -154,39 +168,11 @@
     "total_ords": 4
   },
   {
-    "comuna": "Los Andes",
+    "comuna": "Quillota",
     "region_id": "05",
     "region": "Valparaíso",
     "last_year": 2012,
-    "total_ords": 41
-  },
-  {
-    "comuna": "Calle Larga",
-    "region_id": "05",
-    "region": "Valparaíso",
-    "last_year": 2020,
-    "total_ords": 8
-  },
-  {
-    "comuna": "San Esteban",
-    "region_id": "05",
-    "region": "Valparaíso",
-    "last_year": 2003,
-    "total_ords": 10
-  },
-  {
-    "comuna": "Papudo",
-    "region_id": "05",
-    "region": "Valparaíso",
-    "last_year": 2010,
-    "total_ords": 7
-  },
-  {
-    "comuna": "Petorca",
-    "region_id": "05",
-    "region": "Valparaíso",
-    "last_year": 2018,
-    "total_ords": 17
+    "total_ords": 52
   },
   {
     "comuna": "Cartagena",
@@ -201,13 +187,6 @@
     "region": "Valparaíso",
     "last_year": 2008,
     "total_ords": 5
-  },
-  {
-    "comuna": "Catemu",
-    "region_id": "05",
-    "region": "Valparaíso",
-    "last_year": 2019,
-    "total_ords": 18
   },
   {
     "comuna": "Panquehue",
@@ -231,53 +210,46 @@
     "total_ords": 11
   },
   {
-    "comuna": "El Bosque",
-    "region_id": "13",
-    "region": "Metropolitana de Santiago",
-    "last_year": 2005,
-    "total_ords": 13
-  },
-  {
-    "comuna": "La Cisterna",
-    "region_id": "13",
-    "region": "Metropolitana de Santiago",
-    "last_year": 2004,
-    "total_ords": 8
-  },
-  {
-    "comuna": "Pedro Aguirre Cerda",
+    "comuna": "Cerrillos",
     "region_id": "13",
     "region": "Metropolitana de Santiago",
     "last_year": 2018,
-    "total_ords": 15
+    "total_ords": 50
   },
   {
-    "comuna": "Quinta Normal",
-    "region_id": "13",
-    "region": "Metropolitana de Santiago",
-    "last_year": 2008,
-    "total_ords": 25
-  },
-  {
-    "comuna": "Pirque",
+    "comuna": "Independencia",
     "region_id": "13",
     "region": "Metropolitana de Santiago",
     "last_year": 2015,
-    "total_ords": 41
+    "total_ords": 28
   },
   {
-    "comuna": "Calera de Tango",
+    "comuna": "Macul",
     "region_id": "13",
     "region": "Metropolitana de Santiago",
-    "last_year": 2005,
-    "total_ords": 17
+    "last_year": 2011,
+    "total_ords": 62
   },
   {
-    "comuna": "El Monte",
+    "comuna": "Puente Alto",
     "region_id": "13",
     "region": "Metropolitana de Santiago",
-    "last_year": 2005,
-    "total_ords": 23
+    "last_year": 2017,
+    "total_ords": 38
+  },
+  {
+    "comuna": "Curacaví",
+    "region_id": "13",
+    "region": "Metropolitana de Santiago",
+    "last_year": 2010,
+    "total_ords": 27
+  },
+  {
+    "comuna": "Talagante",
+    "region_id": "13",
+    "region": "Metropolitana de Santiago",
+    "last_year": 2019,
+    "total_ords": 38
   },
   {
     "comuna": "Codegua",
@@ -294,27 +266,6 @@
     "total_ords": 13
   },
   {
-    "comuna": "Graneros",
-    "region_id": "06",
-    "region": "O Higgins",
-    "last_year": 2018,
-    "total_ords": 11
-  },
-  {
-    "comuna": "Machalí",
-    "region_id": "06",
-    "region": "O Higgins",
-    "last_year": 2019,
-    "total_ords": 40
-  },
-  {
-    "comuna": "Mostazal",
-    "region_id": "06",
-    "region": "O Higgins",
-    "last_year": 2018,
-    "total_ords": 14
-  },
-  {
     "comuna": "Pichidegua",
     "region_id": "06",
     "region": "O Higgins",
@@ -322,11 +273,39 @@
     "total_ords": 11
   },
   {
+    "comuna": "Requínoa",
+    "region_id": "06",
+    "region": "O Higgins",
+    "last_year": 2004,
+    "total_ords": 26
+  },
+  {
     "comuna": "San Vicente",
     "region_id": "06",
     "region": "O Higgins",
     "last_year": 2004,
     "total_ords": 18
+  },
+  {
+    "comuna": "La Estrella",
+    "region_id": "06",
+    "region": "O Higgins",
+    "last_year": 2017,
+    "total_ords": 16
+  },
+  {
+    "comuna": "Marchihue",
+    "region_id": "06",
+    "region": "O Higgins",
+    "last_year": 2020,
+    "total_ords": 28
+  },
+  {
+    "comuna": "Paredones",
+    "region_id": "06",
+    "region": "O Higgins",
+    "last_year": 2014,
+    "total_ords": 31
   },
   {
     "comuna": "San Fernando",
@@ -343,11 +322,11 @@
     "total_ords": 9
   },
   {
-    "comuna": "Placilla",
+    "comuna": "Palmilla",
     "region_id": "06",
     "region": "O Higgins",
-    "last_year": 2018,
-    "total_ords": 11
+    "last_year": 2019,
+    "total_ords": 12
   },
   {
     "comuna": "Pumanque",
@@ -364,11 +343,39 @@
     "total_ords": 13
   },
   {
+    "comuna": "Constitución",
+    "region_id": "07",
+    "region": "Maule",
+    "last_year": 2014,
+    "total_ords": 15
+  },
+  {
     "comuna": "Curepto",
     "region_id": "07",
     "region": "Maule",
     "last_year": 2004,
     "total_ords": 8
+  },
+  {
+    "comuna": "Maule",
+    "region_id": "07",
+    "region": "Maule",
+    "last_year": 2000,
+    "total_ords": 6
+  },
+  {
+    "comuna": "San Rafael",
+    "region_id": "07",
+    "region": "Maule",
+    "last_year": 2008,
+    "total_ords": 5
+  },
+  {
+    "comuna": "Cauquenes",
+    "region_id": "07",
+    "region": "Maule",
+    "last_year": 2009,
+    "total_ords": 16
   },
   {
     "comuna": "Chanco",
@@ -381,7 +388,7 @@
     "comuna": "Pelluhue",
     "region_id": "07",
     "region": "Maule",
-    "last_year": 2016,
+    "last_year": 2012,
     "total_ords": 5
   },
   {
@@ -390,13 +397,6 @@
     "region": "Maule",
     "last_year": 2006,
     "total_ords": 15
-  },
-  {
-    "comuna": "Molina",
-    "region_id": "07",
-    "region": "Maule",
-    "last_year": 2019,
-    "total_ords": 16
   },
   {
     "comuna": "Rauco",
@@ -411,6 +411,13 @@
     "region": "Maule",
     "last_year": 2011,
     "total_ords": 8
+  },
+  {
+    "comuna": "Linares",
+    "region_id": "07",
+    "region": "Maule",
+    "last_year": 2003,
+    "total_ords": 29
   },
   {
     "comuna": "Longaví",
@@ -434,13 +441,6 @@
     "total_ords": 8
   },
   {
-    "comuna": "Coelemu",
-    "region_id": "16",
-    "region": "Ñuble",
-    "last_year": 2017,
-    "total_ords": 6
-  },
-  {
     "comuna": "Chillán Viejo",
     "region_id": "16",
     "region": "Ñuble",
@@ -455,11 +455,25 @@
     "total_ords": 4
   },
   {
-    "comuna": "San Carlos",
+    "comuna": "Pemuco",
     "region_id": "16",
     "region": "Ñuble",
-    "last_year": 2009,
-    "total_ords": 15
+    "last_year": 2004,
+    "total_ords": 5
+  },
+  {
+    "comuna": "Pinto",
+    "region_id": "16",
+    "region": "Ñuble",
+    "last_year": 2018,
+    "total_ords": 14
+  },
+  {
+    "comuna": "Ránquil",
+    "region_id": "16",
+    "region": "Ñuble",
+    "last_year": 1999,
+    "total_ords": 7
   },
   {
     "comuna": "San Fabián",
@@ -469,11 +483,11 @@
     "total_ords": 4
   },
   {
-    "comuna": "San Ignacio",
+    "comuna": "San Nicolás",
     "region_id": "16",
     "region": "Ñuble",
     "last_year": 2020,
-    "total_ords": 17
+    "total_ords": 37
   },
   {
     "comuna": "Yungay",
@@ -490,11 +504,11 @@
     "total_ords": 16
   },
   {
-    "comuna": "Lota",
+    "comuna": "Penco",
     "region_id": "08",
     "region": "Biobío",
-    "last_year": 2008,
-    "total_ords": 38
+    "last_year": 2007,
+    "total_ords": 6
   },
   {
     "comuna": "Santa Juana",
@@ -504,18 +518,11 @@
     "total_ords": 6
   },
   {
-    "comuna": "Lebu",
+    "comuna": "Contulmo",
     "region_id": "08",
     "region": "Biobío",
-    "last_year": 2017,
-    "total_ords": 5
-  },
-  {
-    "comuna": "Cañete",
-    "region_id": "08",
-    "region": "Biobío",
-    "last_year": 2017,
-    "total_ords": 6
+    "last_year": 2010,
+    "total_ords": 8
   },
   {
     "comuna": "Curanilahue",
@@ -546,6 +553,20 @@
     "total_ords": 10
   },
   {
+    "comuna": "Mulchén",
+    "region_id": "08",
+    "region": "Biobío",
+    "last_year": 2019,
+    "total_ords": 21
+  },
+  {
+    "comuna": "Nacimiento",
+    "region_id": "08",
+    "region": "Biobío",
+    "last_year": 1999,
+    "total_ords": 9
+  },
+  {
     "comuna": "Quilaco",
     "region_id": "08",
     "region": "Biobío",
@@ -560,18 +581,18 @@
     "total_ords": 8
   },
   {
-    "comuna": "Tucapel",
-    "region_id": "08",
-    "region": "Biobío",
-    "last_year": 2007,
-    "total_ords": 20
-  },
-  {
     "comuna": "Yumbel",
     "region_id": "08",
     "region": "Biobío",
     "last_year": 2008,
     "total_ords": 9
+  },
+  {
+    "comuna": "Temuco",
+    "region_id": "09",
+    "region": "La Araucanía",
+    "last_year": 2020,
+    "total_ords": 107
   },
   {
     "comuna": "Cunco",
@@ -602,13 +623,6 @@
     "total_ords": 28
   },
   {
-    "comuna": "Lautaro",
-    "region_id": "09",
-    "region": "La Araucanía",
-    "last_year": 1995,
-    "total_ords": 22
-  },
-  {
     "comuna": "Nueva Imperial",
     "region_id": "09",
     "region": "La Araucanía",
@@ -623,10 +637,10 @@
     "total_ords": 8
   },
   {
-    "comuna": "Pucón",
+    "comuna": "Pitrufquén",
     "region_id": "09",
     "region": "La Araucanía",
-    "last_year": 2007,
+    "last_year": 2004,
     "total_ords": 9
   },
   {
@@ -644,11 +658,32 @@
     "total_ords": 9
   },
   {
+    "comuna": "Vilcún",
+    "region_id": "09",
+    "region": "La Araucanía",
+    "last_year": 1995,
+    "total_ords": 9
+  },
+  {
+    "comuna": "Villarrica",
+    "region_id": "09",
+    "region": "La Araucanía",
+    "last_year": 2019,
+    "total_ords": 16
+  },
+  {
     "comuna": "Cholchol",
     "region_id": "09",
     "region": "La Araucanía",
-    "last_year": 2006,
+    "last_year": 2004,
     "total_ords": 2
+  },
+  {
+    "comuna": "Angol",
+    "region_id": "09",
+    "region": "La Araucanía",
+    "last_year": 2006,
+    "total_ords": 12
   },
   {
     "comuna": "Curacautín",
@@ -656,20 +691,6 @@
     "region": "La Araucanía",
     "last_year": 2014,
     "total_ords": 9
-  },
-  {
-    "comuna": "Ercilla",
-    "region_id": "09",
-    "region": "La Araucanía",
-    "last_year": 2000,
-    "total_ords": 11
-  },
-  {
-    "comuna": "Los Sauces",
-    "region_id": "09",
-    "region": "La Araucanía",
-    "last_year": 2001,
-    "total_ords": 12
   },
   {
     "comuna": "Lumaco",
@@ -714,13 +735,6 @@
     "total_ords": 4
   },
   {
-    "comuna": "La Unión",
-    "region_id": "14",
-    "region": "Los Ríos",
-    "last_year": 2004,
-    "total_ords": 7
-  },
-  {
     "comuna": "Futrono",
     "region_id": "14",
     "region": "Los Ríos",
@@ -735,32 +749,11 @@
     "total_ords": 7
   },
   {
-    "comuna": "Fresia",
-    "region_id": "10",
-    "region": "Los Lagos",
-    "last_year": 2013,
-    "total_ords": 10
-  },
-  {
     "comuna": "Los Muermos",
     "region_id": "10",
     "region": "Los Lagos",
     "last_year": 2009,
     "total_ords": 7
-  },
-  {
-    "comuna": "Puerto Varas",
-    "region_id": "10",
-    "region": "Los Lagos",
-    "last_year": 2011,
-    "total_ords": 6
-  },
-  {
-    "comuna": "Ancud",
-    "region_id": "10",
-    "region": "Los Lagos",
-    "last_year": 2010,
-    "total_ords": 9
   },
   {
     "comuna": "Curaco de Vélez",
@@ -770,18 +763,18 @@
     "total_ords": 14
   },
   {
+    "comuna": "Quellón",
+    "region_id": "10",
+    "region": "Los Lagos",
+    "last_year": 1999,
+    "total_ords": 18
+  },
+  {
     "comuna": "Quemchi",
     "region_id": "10",
     "region": "Los Lagos",
     "last_year": 2014,
     "total_ords": 5
-  },
-  {
-    "comuna": "Quinchao",
-    "region_id": "10",
-    "region": "Los Lagos",
-    "last_year": 2017,
-    "total_ords": 10
   },
   {
     "comuna": "Puerto Octay",
@@ -803,6 +796,13 @@
     "region": "Los Lagos",
     "last_year": 1996,
     "total_ords": 6
+  },
+  {
+    "comuna": "San Juan de la Costa",
+    "region_id": "10",
+    "region": "Los Lagos",
+    "last_year": 1994,
+    "total_ords": 4
   },
   {
     "comuna": "Chaitén",
@@ -847,11 +847,18 @@
     "total_ords": 9
   },
   {
-    "comuna": "Río Ibáñez",
-    "region_id": "11",
-    "region": "Aysén",
-    "last_year": 2020,
-    "total_ords": 7
+    "comuna": "Punta Arenas",
+    "region_id": "12",
+    "region": "Magallanes",
+    "last_year": 2011,
+    "total_ords": 40
+  },
+  {
+    "comuna": "Laguna Blanca",
+    "region_id": "12",
+    "region": "Magallanes",
+    "last_year": 1993,
+    "total_ords": 4
   },
   {
     "comuna": "Río Verde",
@@ -880,19 +887,5 @@
     "region": "Magallanes",
     "last_year": 2020,
     "total_ords": 2
-  },
-  {
-    "comuna": "Natales",
-    "region_id": "12",
-    "region": "Magallanes",
-    "last_year": 2004,
-    "total_ords": 12
-  },
-  {
-    "comuna": "Torres del Paine",
-    "region_id": "12",
-    "region": "Magallanes",
-    "last_year": 2011,
-    "total_ords": 7
   }
 ]

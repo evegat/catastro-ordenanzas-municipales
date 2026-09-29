@@ -516,7 +516,13 @@
     "sai_url": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=2b2feb38a20b1daa135ef21cafd88f4c",
     "last_year": 2006,
     "historic_count": 13,
-    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos."
+    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos.",
+    "estado_rescate": "REQUIERE_VIA_B_SAI",
+    "fecha_rescate": null,
+    "normas_recuperadas": 0,
+    "nuevo_ultimo_ano": 2006,
+    "fuente_primaria": "https://www.munilumaco.cl",
+    "nota": "Enlace en CPLT corresponde a ley nacional de plantas (Ley 20.922). Derivada a Vía B (SAI Ley 20.285)."
   },
   {
     "comuna": "Placilla",
@@ -531,7 +537,13 @@
     "sai_url": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=fbb9c201c6c7d8740fcf5d995a675fee",
     "last_year": 2018,
     "historic_count": 11,
-    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos."
+    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos.",
+    "estado_rescate": "RESCATADA_VIA_A",
+    "fecha_rescate": "2026-09-29",
+    "normas_recuperadas": 1,
+    "nuevo_ultimo_ano": 2023,
+    "fuente_primaria": "https://municipalidadplacilla.cl",
+    "nota": "Recuperado Decreto Alcaldicio N° 413/2023 (PDF 8.02 MB SHA-256 verificado). Rezago de 2018 cerrado."
   },
   {
     "comuna": "Quemchi",
@@ -546,7 +558,13 @@
     "sai_url": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=6d3d7410a633713fbbec72e6e316afcd",
     "last_year": 2014,
     "historic_count": 5,
-    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos."
+    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos.",
+    "estado_rescate": "REQUIERE_VIA_B_SAI",
+    "fecha_rescate": null,
+    "normas_recuperadas": 0,
+    "nuevo_ultimo_ano": 2014,
+    "fuente_primaria": "https://www.muniquemchi.cl/decretos-alcaldicios/",
+    "nota": "Decretos alojados en Google Drive externo sin persistencia oficial garantizada. Derivada a Vía B (SAI Ley 20.285)."
   },
   {
     "comuna": "Quinchao",
@@ -561,7 +579,13 @@
     "sai_url": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=aefed05d587da7019ad3dd5977741ded",
     "last_year": 2017,
     "historic_count": 10,
-    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos."
+    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos.",
+    "estado_rescate": "RESCATADA_VIA_A",
+    "fecha_rescate": "2026-09-29",
+    "normas_recuperadas": 2,
+    "nuevo_ultimo_ano": 2026,
+    "fuente_primaria": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU255/PMN/MN",
+    "nota": "Recuperadas Ordenanza Beca Educación 2026 y Modificación Derechos Municipales con SHA-256 verificado. Rezago de 2017 cerrado."
   },
   {
     "comuna": "Pelluhue",
@@ -576,7 +600,13 @@
     "sai_url": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=72afb04cf790d9c88adb54fd43a9c56c",
     "last_year": 2016,
     "historic_count": 5,
-    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos."
+    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos.",
+    "estado_rescate": "REQUIERE_VIA_B_SAI",
+    "fecha_rescate": null,
+    "normas_recuperadas": 0,
+    "nuevo_ultimo_ano": 2016,
+    "fuente_primaria": "https://www.munipelluhue.cl",
+    "nota": "Portal web activo sin ordenanzas en Transparencia Activa. Derivada a Vía B (SAI Ley 20.285)."
   },
   {
     "comuna": "Ercilla",
@@ -591,7 +621,13 @@
     "sai_url": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=53d98c2f0ac520749b8690f36dd0df42",
     "last_year": 2000,
     "historic_count": 11,
-    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos."
+    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos.",
+    "estado_rescate": "RESCATADA_VIA_A",
+    "fecha_rescate": "2026-09-29",
+    "normas_recuperadas": 2,
+    "nuevo_ultimo_ano": 2024,
+    "fuente_primaria": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU088/PMN/MN",
+    "nota": "Recuperados D.E.X. N° 3234/2022 (Modificación Ordenanza) y D.E.X. N° 3328/2024 (Reglamento Cementerio). Rezago histórico del año 2000 cerrado (24 años)."
   },
   {
     "comuna": "Coinco",
@@ -606,7 +642,13 @@
     "sai_url": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=a867dfb479f323018c18e2e986a73bad",
     "last_year": 2019,
     "historic_count": 13,
-    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos."
+    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos.",
+    "estado_rescate": "REQUIERE_VIA_B_SAI",
+    "fecha_rescate": null,
+    "normas_recuperadas": 0,
+    "nuevo_ultimo_ano": 2019,
+    "fuente_primaria": "https://www.municoinco.cl",
+    "nota": "Solo reglamento interno en CPLT. Derivada a Vía B (SAI Ley 20.285)."
   },
   {
     "comuna": "Los Sauces",
@@ -621,7 +663,13 @@
     "sai_url": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=0947d35f28a2149782480d46df2e74c2",
     "last_year": 2001,
     "historic_count": 12,
-    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos."
+    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos.",
+    "estado_rescate": "RESCATADA_VIA_A",
+    "fecha_rescate": "2026-09-29",
+    "normas_recuperadas": 1,
+    "nuevo_ultimo_ano": 2025,
+    "fuente_primaria": "https://www.munilossauces.cl",
+    "nota": "Recuperado D.E.X. N° 294/2025 con SHA-256 verificado. Rezago de 2001 cerrado (24 años)."
   },
   {
     "comuna": "Panquehue",
@@ -636,7 +684,13 @@
     "sai_url": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=dc4454e6df410e43eb4cca9841cddae4",
     "last_year": 2016,
     "historic_count": 24,
-    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos."
+    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos.",
+    "estado_rescate": "REQUIERE_VIA_B_SAI",
+    "fecha_rescate": null,
+    "normas_recuperadas": 0,
+    "nuevo_ultimo_ano": 2016,
+    "fuente_primaria": "https://www.munipanquehue.cl",
+    "nota": "Sin publicaciones normativas en CPLT. Derivada a Vía B (SAI Ley 20.285)."
   },
   {
     "comuna": "Ninhue",
@@ -651,7 +705,13 @@
     "sai_url": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=bec2f249ee6cff2fbb1ee879cd8c2266",
     "last_year": 2019,
     "historic_count": 4,
-    "diag_original": "Respuesta web atípica (HTTP 401)."
+    "diag_original": "Respuesta web atípica (HTTP 401).",
+    "estado_rescate": "REQUIERE_VIA_B_SAI",
+    "fecha_rescate": null,
+    "normas_recuperadas": 0,
+    "nuevo_ultimo_ano": 2019,
+    "fuente_primaria": "https://www.munininhue.cl",
+    "nota": "Portal web con autenticación HTTP 401 que aísla publicaciones. Derivada a Vía B (SAI Ley 20.285)."
   },
   {
     "comuna": "Pumanque",
@@ -666,7 +726,13 @@
     "sai_url": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=634a397e8786187865169e26f9aa6e11",
     "last_year": 1991,
     "historic_count": 2,
-    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos."
+    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos.",
+    "estado_rescate": "REQUIERE_VIA_B_SAI",
+    "fecha_rescate": null,
+    "normas_recuperadas": 0,
+    "nuevo_ultimo_ano": 1991,
+    "fuente_primaria": "https://www.munipumanque.cl",
+    "nota": "Sin ordenanzas en Transparencia Activa CPLT. Derivada a Vía B (SAI Ley 20.285)."
   },
   {
     "comuna": "Cochrane",
@@ -681,7 +747,13 @@
     "sai_url": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=68e601855d64b74cd6c0a3f2d2c9913f",
     "last_year": 2005,
     "historic_count": 4,
-    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos."
+    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos.",
+    "estado_rescate": "REQUIERE_VIA_B_SAI",
+    "fecha_rescate": null,
+    "normas_recuperadas": 0,
+    "nuevo_ultimo_ano": 2005,
+    "fuente_primaria": "https://www.municochrane.cl",
+    "nota": "Marco normativo contiene solo reglamentos de organización interna. Derivada a Vía B (SAI Ley 20.285)."
   },
   {
     "comuna": "Camarones",
@@ -696,7 +768,13 @@
     "sai_url": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=faa3c0be02a4002a40e8c4d754809b77",
     "last_year": 2019,
     "historic_count": 8,
-    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos."
+    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos.",
+    "estado_rescate": "REQUIERE_VIA_B_SAI",
+    "fecha_rescate": null,
+    "normas_recuperadas": 0,
+    "nuevo_ultimo_ano": 2019,
+    "fuente_primaria": "https://www.municamarones.cl",
+    "nota": "Sin ordenanzas en Transparencia Activa CPLT. Derivada a Vía B (SAI Ley 20.285)."
   },
   {
     "comuna": "Torres del Paine",
@@ -711,7 +789,13 @@
     "sai_url": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=fffa72727bab8e4f6cbd6847e5c0dca0",
     "last_year": 2011,
     "historic_count": 7,
-    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos."
+    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos.",
+    "estado_rescate": "RESCATADA_VIA_A",
+    "fecha_rescate": "2026-09-29",
+    "normas_recuperadas": 2,
+    "nuevo_ultimo_ano": 2025,
+    "fuente_primaria": "https://www.munitorresdelpaine.cl",
+    "nota": "Recuperadas Ordenanza N° 02/2023 y D.A. N° 129/2025 con SHA-256 verificado. Rezago de 2011 cerrado (14 años)."
   },
   {
     "comuna": "Primavera",
@@ -726,7 +810,13 @@
     "sai_url": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=04fc23c6c2e4d0e0e3787e951e3da4a2",
     "last_year": 2018,
     "historic_count": 6,
-    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos."
+    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos.",
+    "estado_rescate": "REQUIERE_VIA_B_SAI",
+    "fecha_rescate": null,
+    "normas_recuperadas": 0,
+    "nuevo_ultimo_ano": 2018,
+    "fuente_primaria": "https://www.muniprimavera.cl/normativa/",
+    "nota": "Enlace a ordenanza municipal vacío (#) en web institucional. Derivada a Vía B (SAI Ley 20.285)."
   },
   {
     "comuna": "Timaukel",
@@ -741,6 +831,12 @@
     "sai_url": "https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=33fa928839f43eaae60c9f709447959e",
     "last_year": 2020,
     "historic_count": 2,
-    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos."
+    "diag_original": "Sitio institucional activo (HTTP 200). No presenta ordenanzas 2021-2026 publicadas en canales abiertos.",
+    "estado_rescate": "REQUIERE_VIA_B_SAI",
+    "fecha_rescate": null,
+    "normas_recuperadas": 0,
+    "nuevo_ultimo_ano": 2020,
+    "fuente_primaria": "https://www.munitimaukel.cl",
+    "nota": "Solo reglamento interno en CPLT. Derivada a Vía B (SAI Ley 20.285)."
   }
 ]

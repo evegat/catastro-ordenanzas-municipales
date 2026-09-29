@@ -1,6 +1,6 @@
 # Dossier de Solicitudes de Acceso a la Información (Ley N° 20.285)
 **Catastro Nacional de Ordenanzas Municipales — Proyecto P090 (MuniData GovTech)**  
-*Fecha de corte: 27 de septiembre de 2026 | Responsable: Eduardo Vega | Vía B de Rescate Normativo*
+*Fecha de corte: 29 de septiembre de 2026 | Responsable: Eduardo Vega | Vía B de Rescate Normativo (22 Comunas)*
 
 ---
 
@@ -63,3 +63,20 @@ Se solicita que la respuesta y los documentos adjuntos sean remitidos única y e
 | **Punitaqui** | Coquimbo | `MU238` | 12.000 | 2011 | Sin documentos normativos en numeral 8 | [Formulario SAI Punitaqui](https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=8f8fdf466f4aa44410108cde009cfe84) |
 | **Cholchol** | La Araucanía | `MU045` | 12.000 | 2006 | Archivo alojado en Google Drive externo | [Formulario SAI Cholchol](https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=8bc0ff13f1adc924808e9e7418cc6254) |
 | **Rauco** | Maule | `MU262` | 11.000 | 2019 | Decretos en Google Drive personal sin HTTPS directo | [Formulario SAI Rauco](https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=00ca93e18d628f2c2209dec4a3494cad) |
+
+### C. Comunas Rurales, Insulares y Extremas Tier 3 (< 10.000 hab.)
+
+| Comuna | Región | CPLT | Población | Último Año | Causa de Derivación | Enlace Directo Formulario SAI |
+| :--- | :--- | :---: | :---: | :---: | :--- | :--- |
+| **Lumaco** | La Araucanía | `MU159` | 9.500 | 2006 | Enlace CPLT redirige a ley nacional de plantas | [Formulario SAI Lumaco](https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=2b2feb38a20b1daa135ef21cafd88f4c) |
+| **Quemchi** | Los Lagos | `MU248` | 8.500 | 2014 | Decretos en Google Drive externo sin persistencia | [Formulario SAI Quemchi](https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=6d3d7410a633713fbbec72e6e316afcd) |
+| **Pelluhue** | Maule | `MU207` | 8.000 | 2016 | Portal web activo sin ordenanzas en Transparencia Activa | [Formulario SAI Pelluhue](https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=72afb04cf790d9c88adb54fd43a9c56c) |
+| **Coinco** | O Higgins | `MU054` | 7.500 | 2019 | Solo reglamento interno en CPLT | [Formulario SAI Coinco](https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=a867dfb479f323018c18e2e986a73bad) |
+| **Panquehue** | Valparaíso | `MU201` | 7.500 | 2016 | Sin publicaciones normativas en CPLT | [Formulario SAI Panquehue](https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=dc4454e6df410e43eb4cca9841cddae4) |
+| **Ninhue** | Ñuble | `MU182` | 5.500 | 2019 | Portal web exige autenticación HTTP 401 | [Formulario SAI Ninhue](https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=bec2f249ee6cff2fbb1ee879cd8c2266) |
+| **Pumanque** | O Higgins | `MU237` | 3.500 | 1991 | Sin ordenanzas en Transparencia Activa CPLT | [Formulario SAI Pumanque](https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=634a397e8786187865169e26f9aa6e11) |
+| **Cochrane** | Aysén | `MU050` | 3.500 | 2005 | Marco normativo con reglamentos de orden interno | [Formulario SAI Cochrane](https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=68e601855d64b74cd6c0a3f2d2c9913f) |
+| **Camarones** | Arica y Parinacota | `MU024` | 1.250 | 2019 | Sin ordenanzas en Transparencia Activa CPLT | [Formulario SAI Camarones](https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=faa3c0be02a4002a40e8c4d754809b77) |
+| **Primavera** | Magallanes | `MU227` | 1.100 | 2018 | Enlace a ordenanza vacío (#) en web oficial | [Formulario SAI Primavera](https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=04fc23c6c2e4d0e0e3787e951e3da4a2) |
+| **Timaukel** | Magallanes | `MU320` | 400 | 2020 | Solo reglamento interno en CPLT | [Formulario SAI Timaukel](https://www.portaltransparencia.cl/PortalPdT/web/guest/directorio-de-organismos-regulados?p_p_id=pdtorganismos_WAR_pdtorganismosportlet&orgcode=33fa928839f43eaae60c9f709447959e) |
+

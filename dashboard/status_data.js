@@ -4,7 +4,7 @@ window.CATASTRO_DATA = {
     "total_comunas": 346,
     "comunas_con_datos": 346,
     "total_regiones": 16,
-    "total_ordenanzas": 7474,
+    "total_ordenanzas": 7482,
     "ordenanzas_bcn": 5881,
     "ordenanzas_cplt": 0,
     "pdfs_descargados": 0,
@@ -13,7 +13,7 @@ window.CATASTRO_DATA = {
       "bloqueos_ip": 0,
       "user_agents_rotados": 12
     },
-    "ordenanzas_municipales_verificadas": 1593,
+    "ordenanzas_municipales_verificadas": 1601,
     "cplt_en_cuarentena": 0,
     "cobertura_nacional_pct": 100.0
   },
@@ -75604,11 +75604,32 @@ window.CATASTRO_DATA = {
       "comuna": "Placilla",
       "bcn_count": 10,
       "cplt_count": 0,
-      "total_count": 11,
+      "total_count": 12,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": "2018-12-14",
+      "last_update": "2023-08-14",
       "ordenanzas": [
+        {
+          "cplt_code": "MU223",
+          "fuente": "Municipalidad",
+          "numero": "413-2023",
+          "fecha": "2023-08-14",
+          "titulo": "Decreto Alcaldicio N° 413/2023 Aprueba Modificación y Normas de Gestión Comunal de Placilla",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU223/PMN/MN",
+          "target_url": "https://municipalidadplacilla.cl/transpa/VINCULOS/02. Potestades y marco normativo/1_Marco_Normativo/413-23.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://municipalidadplacilla.cl/transpa/VINCULOS/02. Potestades y marco normativo/1_Marco_Normativo/413-23.pdf",
+            "content_type": "application/pdf",
+            "sha256": "d04dd33484367569ddc14a333e019662f00d73e6270a2fcb4b1286c811fa26a5",
+            "bytes": 8028945,
+            "verified_at": "2026-09-29T04:27:36.026315+00:00"
+          },
+          "rdf_url": null
+        },
         {
           "cplt_code": "MU_placilla",
           "fuente": "Municipalidad",
@@ -75761,7 +75782,7 @@ window.CATASTRO_DATA = {
           "estado": "Vigente / LeyChile"
         }
       ],
-      "municipal_count": 1
+      "municipal_count": 2
     },
     {
       "region_id": "06",
@@ -104647,11 +104668,53 @@ window.CATASTRO_DATA = {
       "comuna": "Ercilla",
       "bcn_count": 11,
       "cplt_count": 0,
-      "total_count": 11,
+      "total_count": 13,
       "pdfs_count": 0,
-      "status": "Cargado BCN",
-      "last_update": "2000-10-30",
+      "status": "BCN + Municipalidad verificada",
+      "last_update": "2024-09-10",
       "ordenanzas": [
+        {
+          "cplt_code": "MU088",
+          "fuente": "Municipalidad",
+          "numero": "DEX-3328-2024",
+          "fecha": "2024-09-10",
+          "titulo": "Decreto Exento N° 3328/2024 Aprueba Reglamento Interno de los Cementerios de Ercilla y Pailahueque",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU088/PMN/MN",
+          "target_url": "https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/DEC_EXE_3328_2024_APRUEBA+REGLAMENTO+INTERNO+CEMENTERIO+ERCILLA+Y+PAILAHUEQUE.pdf/9fd84134-960e-469a-9949-ac976933e78f",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/DEC_EXE_3328_2024_APRUEBA+REGLAMENTO+INTERNO+CEMENTERIO+ERCILLA+Y+PAILAHUEQUE.pdf/9fd84134-960e-469a-9949-ac976933e78f",
+            "content_type": "application/pdf",
+            "sha256": "b907d24892d10280e840fce079bae37e43fb66756eb4e6028830304feab4533f",
+            "bytes": 3545342,
+            "verified_at": "2026-09-29T04:27:36.026315+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU088",
+          "fuente": "Municipalidad",
+          "numero": "DEX-3234-2022",
+          "fecha": "2022-07-25",
+          "titulo": "Decreto Exento N° 3234/2022 Aprueba Modificaciones a la Ordenanza Municipal de Ercilla",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU088/PMN/MN",
+          "target_url": "https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/DEC_EXE_3234_2022_APRUEBA+MODIFICACIONES+A+LA+ORDENANZA+MUNICIPAL.pdf_1690296900622.pdf/032ac90b-893f-46d0-b70a-bf269e48a15b",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/DEC_EXE_3234_2022_APRUEBA+MODIFICACIONES+A+LA+ORDENANZA+MUNICIPAL.pdf_1690296900622.pdf/032ac90b-893f-46d0-b70a-bf269e48a15b",
+            "content_type": "application/pdf",
+            "sha256": "bd6ecfbf864e908800c2af4f00506819ded615c09565796f3c0607a89c6b2bd8",
+            "bytes": 5320173,
+            "verified_at": "2026-09-29T04:27:36.026315+00:00"
+          },
+          "rdf_url": null
+        },
         {
           "id": 314,
           "fuente": "BCN",
@@ -104805,7 +104868,7 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-ercilla/1986-03-04/1/datos.json"
         }
       ],
-      "municipal_count": 0
+      "municipal_count": 2
     },
     {
       "region_id": "09",
@@ -104960,11 +105023,32 @@ window.CATASTRO_DATA = {
       "comuna": "Los Sauces",
       "bcn_count": 12,
       "cplt_count": 0,
-      "total_count": 12,
+      "total_count": 13,
       "pdfs_count": 0,
-      "status": "Cargado BCN",
-      "last_update": "2001-06-16",
+      "status": "BCN + Municipalidad verificada",
+      "last_update": "2025-04-18",
       "ordenanzas": [
+        {
+          "cplt_code": "MU156",
+          "fuente": "Municipalidad",
+          "numero": "DEX-294-2025",
+          "fecha": "2025-04-18",
+          "titulo": "Decreto Exento N° 294/2025 Aprueba Normas de Procedimiento y Convivencia Local en Los Sauces",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "general",
+          "source_listing_url": "https://www.munilossauces.cl",
+          "target_url": "https://transparencia.munilossauces.com/2025/Decretos%20y%20Oficios/Decretos/Abril/Decreto%20exento%20N%C2%B0294.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://transparencia.munilossauces.com/2025/Decretos%20y%20Oficios/Decretos/Abril/Decreto%20exento%20N%C2%B0294.pdf",
+            "content_type": "application/pdf",
+            "sha256": "df06b3ea4fd138ca2e2ae90b598b9d77780a954130653bcc7aa971ad4660e6de",
+            "bytes": 1729115,
+            "verified_at": "2026-09-29T04:27:36.026315+00:00"
+          },
+          "rdf_url": null
+        },
         {
           "id": 584,
           "fuente": "BCN",
@@ -105128,7 +105212,7 @@ window.CATASTRO_DATA = {
           "estado": "Vigente / LeyChile"
         }
       ],
-      "municipal_count": 0
+      "municipal_count": 1
     },
     {
       "region_id": "09",
@@ -114537,11 +114621,53 @@ window.CATASTRO_DATA = {
       "comuna": "Quinchao",
       "bcn_count": 10,
       "cplt_count": 0,
-      "total_count": 10,
+      "total_count": 12,
       "pdfs_count": 0,
-      "status": "Cargado BCN",
-      "last_update": "2017-01-17",
+      "status": "BCN + Municipalidad verificada",
+      "last_update": "2026-02-15",
       "ordenanzas": [
+        {
+          "cplt_code": "MU255",
+          "fuente": "Municipalidad",
+          "numero": "s/n-beca-2026",
+          "fecha": "2026-02-15",
+          "titulo": "Ordenanza Municipal sobre Beca de Educación Superior para Estudiantes de Quinchao",
+          "materia": "Participación y Organizaciones Comunitarias",
+          "materia_id": "participacion_comunitaria",
+          "source_listing_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU255/PMN/MN",
+          "target_url": "https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/ordenanza_beca_educacion_2026.pdf_1788547918375/d1f1e2a5-13fd-4053-82f5-5f5b498f8db3",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/ordenanza_beca_educacion_2026.pdf_1788547918375/d1f1e2a5-13fd-4053-82f5-5f5b498f8db3",
+            "content_type": "application/pdf",
+            "sha256": "da7ee812756ee72e866403c153e7984e935a6cf887dfbf2240b59b57a47b41e0",
+            "bytes": 645312,
+            "verified_at": "2026-09-29T04:27:36.026315+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU255",
+          "fuente": "Municipalidad",
+          "numero": "02-derechos",
+          "fecha": "2024-03-12",
+          "titulo": "Modificación de la Ordenanza sobre Derechos Municipales por Permisos, Concesiones y Servicios de Quinchao",
+          "materia": "Comercio, Rentas y Patentes",
+          "materia_id": "rentas_patentes",
+          "source_listing_url": "https://www.portaltransparencia.cl/PortalPdT/pdtta/-/ta/MU255/PMN/MN",
+          "target_url": "https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/02+Mod.+ordenanza+D+Municipales.pdf/73b41f9d-1142-4c5a-becf-6640a7092255",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.portaltransparencia.cl/PortalPdT/documents/10179/62801/02+Mod.+ordenanza+D+Municipales.pdf/73b41f9d-1142-4c5a-becf-6640a7092255",
+            "content_type": "application/pdf",
+            "sha256": "a18679680d48c76adfa47cb047cba060ccaa908e89ae0c4ac7c92beb15d06476",
+            "bytes": 718265,
+            "verified_at": "2026-09-29T04:27:36.026315+00:00"
+          },
+          "rdf_url": null
+        },
         {
           "fuente": "BCN",
           "numero": "25-exento",
@@ -114676,7 +114802,7 @@ window.CATASTRO_DATA = {
           "estado": "Vigente / LeyChile"
         }
       ],
-      "municipal_count": 0
+      "municipal_count": 2
     },
     {
       "region_id": "10",
@@ -120274,11 +120400,53 @@ window.CATASTRO_DATA = {
       "comuna": "Torres del Paine",
       "bcn_count": 7,
       "cplt_count": 0,
-      "total_count": 7,
+      "total_count": 9,
       "pdfs_count": 0,
-      "status": "Cargado BCN",
-      "last_update": "2011-08-30",
+      "status": "BCN + Municipalidad verificada",
+      "last_update": "2025-02-10",
       "ordenanzas": [
+        {
+          "cplt_code": "MU325",
+          "fuente": "Municipalidad",
+          "numero": "DA-129-2025",
+          "fecha": "2025-02-10",
+          "titulo": "Decreto Alcaldicio N° 129/2025 Aprueba Normas de Administración y Funcionamiento Municipal",
+          "materia": "Organización Interna y Personal",
+          "materia_id": "organizacion_interna",
+          "source_listing_url": "https://www.munitorresdelpaine.cl",
+          "target_url": "https://www.munitorresdelpaine.cl/Portal%20TA/Efecto%20Terceros/Reglamentos/2025/DA129.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.munitorresdelpaine.cl/Portal%20TA/Efecto%20Terceros/Reglamentos/2025/DA129.pdf",
+            "content_type": "application/pdf",
+            "sha256": "c78ab7964015b2b680d304a288ab0b102d400e06694af6c23dbb5f59089866bd",
+            "bytes": 373189,
+            "verified_at": "2026-09-29T04:27:36.026315+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU325",
+          "fuente": "Municipalidad",
+          "numero": "02-2023",
+          "fecha": "2023-05-18",
+          "titulo": "Ordenanza Municipal N° 02/2023 sobre Gestión Ambiental y Espacio Público de Torres del Paine",
+          "materia": "Aseo, Ornato y Medio Ambiente",
+          "materia_id": "aseo_medioambiente",
+          "source_listing_url": "https://www.munitorresdelpaine.cl",
+          "target_url": "https://www.munitorresdelpaine.cl/Portal%20TA/Efecto%20Terceros/Ordenanzas/2023/Ordenanza2.pdf",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://www.munitorresdelpaine.cl/Portal%20TA/Efecto%20Terceros/Ordenanzas/2023/Ordenanza2.pdf",
+            "content_type": "application/pdf",
+            "sha256": "3ad1693fbd48f124ec3aef268a02e5feb8491efb6f87fc2cf9c10bacc068a352",
+            "bytes": 448883,
+            "verified_at": "2026-09-29T04:27:36.026315+00:00"
+          },
+          "rdf_url": null
+        },
         {
           "fuente": "BCN",
           "numero": "465",
@@ -120386,7 +120554,7 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-paine/1985-02-09/3/datos.json"
         }
       ],
-      "municipal_count": 0
+      "municipal_count": 2
     }
   ],
   "author": "Eduardo Vega",
@@ -120419,7 +120587,7 @@ window.CATASTRO_DATA = {
       "badge_bg": "bg-emerald-500/10",
       "badge_text": "text-emerald-400",
       "badge_border": "border-emerald-500/30",
-      "count": 226
+      "count": 227
     },
     {
       "id": "transito_transporte",
@@ -120489,7 +120657,7 @@ window.CATASTRO_DATA = {
       "badge_bg": "bg-zinc-800",
       "badge_text": "text-zinc-400",
       "badge_border": "border-zinc-700",
-      "count": 2671
+      "count": 2675
     }
   ],
   "public_scope": {
@@ -120502,7 +120670,7 @@ window.CATASTRO_DATA = {
       "CPLT"
     ],
     "quarantined_records": 0,
-    "verified_municipal_records": 1593,
+    "verified_municipal_records": 1601,
     "reason": "Las referencias CPLT manuales sin evidencia se mantienen en cuarentena. Solo se publican documentos municipales con listado oficial, PDF resoluble y huella SHA-256 verificada."
   }
 };
