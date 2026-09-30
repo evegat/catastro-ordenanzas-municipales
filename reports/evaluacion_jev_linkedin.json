@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-09-30 15:43:13",
+  "duracion_segundos": 0.36,
+  "veredicto_final": {
+    "resultado": "publicar_inmediato_recomendado",
+    "confianza": 0.46
+  },
+  "rigor_factico": {
+    "resultado": "parcialmente_respaldado",
+    "confianza": 0.39
+  },
+  "tono_y_humildad": {
+    "resultado": "autoridad_tecnica_humilde",
+    "confianza": 1.0
+  },
+  "riesgo_ia_slop": {
+    "resultado": "producto_real_creible",
+    "confianza": 0.97
+  },
+  "probabilidad_ataque_malicioso_noul": 0.15,
+  "reaccion_comunidad": {
+    "resultado": "adopcion_y_colaboracion",
+    "confianza": 0.94
+  }
+}
