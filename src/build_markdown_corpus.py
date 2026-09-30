@@ -111,7 +111,7 @@ def main() -> None:
 
             numero = ord_.get("numero") or "s_n"
             num_slug = slugify(numero)
-            fecha = ord_.get("fecha") or "1900-01-01"
+            fecha = ord_.get("fecha") or "S/F"
             titulo = ord_.get("titulo") or f"Ordenanza Municipal N° {numero}"
             materia = ord_.get("materia") or "Normativa General y Otras Materias"
             fuente = ord_.get("fuente") or "Oficial"

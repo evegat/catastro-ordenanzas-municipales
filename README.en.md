@@ -1,6 +1,6 @@
 # Chilean Municipal Regulations & By-Laws Open Data Pipeline
 
-> **Version 3.1 (September 2026 release).** Independent open research initiative: **7,450 cataloged normative records** across all 346 communes of Chile (5,881 BCN/LeyChile + 1,569 verified municipal records directly validated with SHA-256). Includes legal framework analysis, national territorial visualizer, and local traceable assistant.
+> **Version 3.3 (September 30, 2026 release — Audit Remediation AUD-P090-DIFUSION).** Independent open research initiative: **7,462 cataloged normative records** across all 346 communes of Chile (5,881 BCN/LeyChile + 1,581 verified municipal records directly validated with SHA-256). Includes legal framework analysis, national territorial visualizer, and local traceable assistant.
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Online-success.svg)](https://ordenanzas.evegat.cl)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -33,9 +33,10 @@ This project is built primarily as an educational and empirical research resourc
 
 - [x] **Phase 1: Base Registry & Reproducible Pipeline:** BCN SPARQL extraction (1,710 records) + initial multi-agent crawler + 9-domain classification.
 - [x] **Phase 2: Public Visualizer & Open Access:** Interactive dashboard hosted on GitHub Pages with multi-filter matrix, detailed commune drawer, interactive Leaflet map, smart autocomplete, and open data downloads.
-- [x] **Phase 3: Direct Territorial Expansion:** Pipeline discovering and validating municipal documents with SHA-256 hashes, reaching **coverage across all 346 communes** with **7,321 consolidated normative records** (5,881 BCN + 1,440 verified municipal records).
-- [x] **Phase 4: Traceable Municipal Legal Assistant ("Chatcito"):** Client-side floating assistant (`asistente_chat.js`) querying all 7,321 records in real-time with direct source links and zero token inference cost.
+- [x] **Phase 3: Direct Territorial Expansion:** Pipeline discovering and validating municipal documents with SHA-256 hashes, reaching **coverage across all 346 communes** with **7,462 consolidated normative records** (5,881 BCN + 1,581 verified municipal records).
+- [x] **Phase 4: Traceable Municipal Legal Assistant ("Chatcito"):** Client-side floating assistant (`asistente_chat.js`) querying all 7,462 records in real-time with direct source links and zero token inference cost.
 - [x] **Phase 5: Educational Module & Legal Framework:** Interactive live auditor for regulations with specific legal mandate (Fees, Citizen Participation, Waste, Pet Ownership, Master Urban Plan, Municipal Subsidies), doctrinal clarification on PLACMA vs. Environmental By-law, 3 case studies, and downloadable Jupyter Notebook.
+- [x] **Phase 6: Forensic Audit & Epistemic Sanitation:** Eradication of synthetic fallback dates, decree number sanitization, and verification against MyWorld quality/security harness.
 
 ---
 
@@ -82,12 +83,15 @@ python -m http.server 8000 --directory dashboard
 Open http://localhost:8000. This does not rebuild data. Extraction scripts depend on missing local modules; consult the [restart guide](docs/ESTADO-Y-REENTRADA-P090.md). `src/build_public_snapshot.py` overwrites the selected dashboard directory; verify using a separate copy.
 
 ## 📊 Dataset Scope
-Official snapshot as of September 27, 2026.
+Official snapshot as of September 30, 2026 (Remediation AUD-P090-DIFUSION).
 
-- **Consolidated Normative Records:** 7,450.
+- **Consolidated Normative Records:** 7,462.
 - **BCN / LeyChile:** 5,881 records.
-- **Verified Municipal Sources (SHA-256):** 1,569 official records.
-- **Territorial presence:** 346/346 communes with cataloged regulations.
+- **Verified Municipal Sources (SHA-256):** 1,581 official records (1,545 municipal portals + 36 Official Gazette / BCN).
+- **Territorial Presence:** 346/346 communes with cataloged regulations (100.0% national coverage).
+- **Contemporary Coverage (2021–2026):** 217 communes with recent dated regulations (62.7% national; 46 of 52 in RM, 88.5%).
+- **Active Tracking Cohort:** 243 communes under direct monitoring and rescue.
+- **Period Backlog:** 129 communes.
 - **Observed Time Span:** 1980–2026.
 - **Thematic Domains:** 9 municipal regulatory axes.
 

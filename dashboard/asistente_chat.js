@@ -1,5 +1,5 @@
 // Asistente Jurídico Municipal P090 - Motor de Búsqueda y Consulta Normativa Trazable
-// Consulta en tiempo real sobre 7.450 registros normativos catalogados de Chile (346 comunas)
+// Consulta en tiempo real sobre el corpus canónico de ordenanzas oficiales de Chile (346 comunas)
 // Compatible con Umami Analytics y 100% ejecución local en el navegador del usuario.
 
 (function() {
@@ -51,30 +51,48 @@
       .trim();
   }
 
-  // Detectar si la consulta menciona una comuna de Chile
+  function escapeRegex(s) {
+    return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  }
+
+  // Detectar si la consulta menciona una comuna de Chile (resolución desambiguada por especificidad)
   function findComunaEnConsulta(text) {
     if (!window.CATASTRO_DATA || !window.CATASTRO_DATA.comunas) return null;
     const normText = normalize(text);
 
-    // Búsqueda exacta primero
-    for (const c of window.CATASTRO_DATA.comunas) {
+    // Casos especiales abreviados primero si son exactos
+    if (/\b(?:vina del mar|vina)\b/i.test(normText)) {
+      const vina = window.CATASTRO_DATA.comunas.find(c => normalize(c.comuna) === 'vina del mar');
+      if (vina) return vina;
+    }
+    if (/\b(?:stgo|santiago)\b/i.test(normText)) {
+      const stgo = window.CATASTRO_DATA.comunas.find(c => normalize(c.comuna) === 'santiago');
+      if (stgo) return stgo;
+    }
+
+    // Ordenar comunas por longitud descendente para que 'Talcahuano' se evalúe antes que 'Talca',
+    // 'Calera de Tango' antes que 'Calera', y 'San Pedro de la Paz' antes que 'San Pedro'.
+    const comunasOrdenadas = [...window.CATASTRO_DATA.comunas].sort((a, b) => {
+      return normalize(b.comuna).length - normalize(a.comuna).length;
+    });
+
+    for (const c of comunasOrdenadas) {
       const normC = normalize(c.comuna);
-      if (normC.length > 3 && normText.includes(normC)) {
+      if (normC.length < 3) continue;
+      const regex = new RegExp(`(?:^|[^a-z0-9])${escapeRegex(normC)}(?:$|[^a-z0-9])`, 'i');
+      if (regex.test(normText)) {
         return c;
       }
-    }
-    // Casos especiales abreviados
-    if (normText.includes('vina') || normText.includes('vina del mar')) {
-      return window.CATASTRO_DATA.comunas.find(c => c.comuna.includes('Viña'));
-    }
-    if (normText.includes('stgo') || normText.includes('santiago')) {
-      return window.CATASTRO_DATA.comunas.find(c => c.comuna === 'Santiago');
     }
     return null;
   }
 
   // Generador de respuestas inteligentes basadas en evidencia
   function responderPregunta(pregunta) {
+    if (!window.CATASTRO_DATA || !window.CATASTRO_DATA.comunas) {
+      return '⚠️ **Catálogo no disponible:** La base de datos normativos aún se está sincronizando o no se encuentra disponible en memoria. Por favor recarga la página o inténtalo en unos segundos.';
+    }
+
     const norm = normalize(pregunta);
 
     // 1. Pregunta sobre PLACMA o Planes Ambientales
@@ -82,8 +100,8 @@
       return CONOCIMIENTO_JURIDICO.placma;
     }
 
-    // 2. Pregunta sobre Ordenanzas Obligatorias por Ley
-    if (norm.includes('obligatoria') || norm.includes('obligacion') || norm.includes('por ley') || norm.includes('cuales son las 6') || norm.includes('deben tener')) {
+    // 2. Pregunta sobre Ordenanzas Obligatorias por Ley / Mandato Legal
+    if (norm.includes('obligatoria') || norm.includes('obligacion') || norm.includes('por ley') || norm.includes('cuales son las 6') || norm.includes('deben tener') || norm.includes('mandato legal') || norm.includes('mandato') || norm.includes('marco legal') || norm.includes('exigid')) {
       return CONOCIMIENTO_JURIDICO.obligatorias;
     }
 
@@ -204,8 +222,9 @@ ${resultados.map(r => `• **${escapeHtml(r.comuna)}** (${r.fecha ? r.fecha.subs
     }
 
     // Fallback sobrio y verídico
+    const totalCanonic = (window.CATASTRO_DATA && window.CATASTRO_DATA.metrics && window.CATASTRO_DATA.metrics.total_ordenanzas) || 7462;
     return `
-No encontré un registro exacto para tu consulta en las 7.450 ordenanzas catalogadas.
+No encontré un registro exacto para tu consulta en las ${totalCanonic.toLocaleString('es-CL')} ordenanzas catalogadas.
 
 Puedes:
 1. Preguntar por una **comuna específica** (ej: "¿Qué ordenanzas tiene Arica?").
@@ -298,6 +317,7 @@ Puedes:
 
   window.limpiarChat = function() {
     const log = document.getElementById('chat-messages-log');
+    const totalCanonic = (window.CATASTRO_DATA && window.CATASTRO_DATA.metrics && window.CATASTRO_DATA.metrics.total_ordenanzas) || 7462;
     if (log) {
       log.innerHTML = `
         <div class="bg-[#04142b] border border-[#153b70] rounded-2xl p-3.5 text-xs text-zinc-300 space-y-2">
@@ -306,7 +326,7 @@ Puedes:
             <span>Asistente Jurídico Municipal P090</span>
           </div>
           <p class="text-[11px] leading-relaxed text-zinc-300">
-            ¡Hola! Soy tu asistente de consulta normativa sobre las <strong>7.450 ordenanzas oficiales de Chile</strong> (registros en 346 comunas; exhaustividad no acreditada).
+            ¡Hola! Soy tu asistente de consulta normativa sobre las <strong>${totalCanonic.toLocaleString('es-CL')} ordenanzas oficiales de Chile</strong> (registros en 346 comunas; exhaustividad no acreditada; la presencia de materias registradas no certifica vigencia ni cumplimiento legal formal).
           </p>
           <p class="text-[11px] text-zinc-400">
             Pregúntame por las ordenanzas obligatorias por ley, la validez del PLACMA, o escribe el nombre de cualquier comuna del país.

@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-25T22:49:10.579553",
+  "updated_at": "2026-09-30T16:29:24.059147+00:00",
   "metrics": {
     "total_comunas": 346,
     "comunas_con_datos": 346,
     "total_regiones": 16,
-    "total_ordenanzas": 7482,
+    "total_ordenanzas": 7462,
     "ordenanzas_bcn": 5881,
     "ordenanzas_cplt": 0,
     "pdfs_descargados": 0,
@@ -13,9 +13,19 @@
       "bloqueos_ip": 0,
       "user_agents_rotados": 12
     },
-    "ordenanzas_municipales_verificadas": 1601,
+    "ordenanzas_municipales_verificadas": 1581,
     "cplt_en_cuarentena": 0,
-    "cobertura_nacional_pct": 100.0
+    "cobertura_nacional_pct": 100.0,
+    "fuentes_detalle": {
+      "Municipalidad": 1545,
+      "BCN": 5881,
+      "Diario Oficial / BCN": 31,
+      "Diario Oficial": 4,
+      "BCN / LeyChile": 1
+    },
+    "comunas_periodo_2021_2026": 217,
+    "comunas_rm_periodo_2021_2026": 46,
+    "comunas_rezago_periodo": 129
   },
   "regiones": [
     {
@@ -18479,7 +18489,7 @@
           "cplt_code": "MU016",
           "fuente": "Municipalidad",
           "numero": "S/N",
-          "fecha": "2004-01-01",
+          "fecha": "2004",
           "titulo": "Ordenanza Municipal de CABILDO — Ordenanza municipal sobre otorgamiento de subvenciones municipales en la comuna de Cabildo",
           "materia": "Normativa General y Otras Materias",
           "materia_id": "general",
@@ -53406,32 +53416,11 @@
       "comuna": "San Ramón",
       "bcn_count": 21,
       "cplt_count": 0,
-      "total_count": 23,
+      "total_count": 22,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": "2026-04",
+      "last_update": "2025-09-29",
       "ordenanzas": [
-        {
-          "cplt_code": "MU_san ramon",
-          "fuente": "Municipalidad",
-          "numero": "S/N",
-          "fecha": "2026-04",
-          "titulo": "Ordenanza Municipal San Ramón — Formulario trabajadores y sucursales",
-          "materia": "Normativa General y Otras Materias",
-          "materia_id": "general",
-          "source_listing_url": "https://municipalidadsanramon.cl/",
-          "target_url": "https://municipalidadsanramon.cl/wp-content/uploads/2026/04/Formulario-trabajadores-y-sucursales.pdf",
-          "verification": {
-            "status": "verified",
-            "http_status": 200,
-            "resolved_url": "https://municipalidadsanramon.cl/wp-content/uploads/2026/04/Formulario-trabajadores-y-sucursales.pdf",
-            "content_type": "application/pdf",
-            "sha256": "3f7b3c516b9e61e1ae03602fc81fce0b9e955030716f9c58526bda8b3e526d76",
-            "bytes": 991101,
-            "verified_at": "2026-08-30T18:20:46.927499+00:00"
-          },
-          "rdf_url": null
-        },
         {
           "cplt_code": "MU_san ramon",
           "fuente": "Municipalidad",
@@ -53727,7 +53716,7 @@
           "estado": "Vigente / LeyChile"
         }
       ],
-      "municipal_count": 2
+      "municipal_count": 1
     },
     {
       "region_id": "13",
@@ -74097,7 +74086,7 @@
       "comuna": "Chimbarongo",
       "bcn_count": 23,
       "cplt_count": 0,
-      "total_count": 47,
+      "total_count": 46,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
       "last_update": "2023",
@@ -74482,27 +74471,6 @@
             "sha256": "11184d2e056a92ebe756418bb77e4afa89ee868cfb0ec0e8b8b410548d7d3370",
             "bytes": 3554092,
             "verified_at": "2026-08-30T02:40:01.288296+00:00"
-          },
-          "rdf_url": null
-        },
-        {
-          "cplt_code": "MU044",
-          "fuente": "Municipalidad",
-          "numero": "22",
-          "fecha": "",
-          "titulo": "Decreto N°22 Aprueba Bases y Llamado Concurso SENDA",
-          "materia": "Normativa General y Otras Materias",
-          "materia_id": "general",
-          "source_listing_url": "https://www.municipalidadchimbarongo.cl/decretos-y-ordenanzas/",
-          "target_url": "https://municipalidadchimbarongo.cl/wp-content/uploads/Decreto_22-APRUEBA-BASES-Y-LLAMDO-CONCURSO-SENDA.pdf",
-          "verification": {
-            "status": "verified",
-            "http_status": 200,
-            "resolved_url": "https://municipalidadchimbarongo.cl/wp-content/uploads/Decreto_22-APRUEBA-BASES-Y-LLAMDO-CONCURSO-SENDA.pdf",
-            "content_type": "application/pdf",
-            "sha256": "c4cd52611825d578e71a1e2eab56fbb45d3489e4eaa437fc37b4b410f242dfd6",
-            "bytes": 1721377,
-            "verified_at": "2026-08-30T02:40:01.288333+00:00"
           },
           "rdf_url": null
         },
@@ -74906,7 +74874,7 @@
           "rdf_url": null
         }
       ],
-      "municipal_count": 24
+      "municipal_count": 23
     },
     {
       "region_id": "06",
@@ -74914,32 +74882,11 @@
       "comuna": "Lolol",
       "bcn_count": 9,
       "cplt_count": 0,
-      "total_count": 12,
+      "total_count": 11,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": "2026-04",
+      "last_update": "2025-10",
       "ordenanzas": [
-        {
-          "cplt_code": "MU_lolol",
-          "fuente": "Municipalidad",
-          "numero": "S/N",
-          "fecha": "2026-04",
-          "titulo": "Ordenanza Municipal Lolol — PLADECO LOLOL",
-          "materia": "Normativa General y Otras Materias",
-          "materia_id": "general",
-          "source_listing_url": "https://munilolol.cl/",
-          "target_url": "https://municipalidaddelolol.cl/wp-content/uploads/2026/04/PLADECO-LOLOL.pdf",
-          "verification": {
-            "status": "verified",
-            "http_status": 200,
-            "resolved_url": "https://municipalidaddelolol.cl/wp-content/uploads/2026/04/PLADECO-LOLOL.pdf",
-            "content_type": "application/pdf",
-            "sha256": "f5b7fb6304f41c8cd842930bb411dd378494a0b4e6a12fcc05de8195a3143a0f",
-            "bytes": 12988225,
-            "verified_at": "2026-08-30T18:20:20.483613+00:00"
-          },
-          "rdf_url": null
-        },
         {
           "cplt_code": "MU_lolol",
           "fuente": "Municipalidad",
@@ -75100,7 +75047,7 @@
           "estado": "Vigente / LeyChile"
         }
       ],
-      "municipal_count": 3
+      "municipal_count": 2
     },
     {
       "region_id": "06",
@@ -81441,7 +81388,7 @@
       "comuna": "Linares",
       "bcn_count": 21,
       "cplt_count": 0,
-      "total_count": 29,
+      "total_count": 28,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
       "last_update": "2003-01-06",
@@ -81865,30 +81812,9 @@
             "verified_at": "2026-08-30T18:20:35.303113+00:00"
           },
           "rdf_url": null
-        },
-        {
-          "cplt_code": "MU_linares",
-          "fuente": "Municipalidad",
-          "numero": "S/N",
-          "fecha": "",
-          "titulo": "Reavalúo Sitios No Edificados 2025",
-          "materia": "Normativa General y Otras Materias",
-          "materia_id": "general",
-          "source_listing_url": "https://corporacionlinares.cl/ordenanzas/",
-          "target_url": "https://www.corporacionlinares.cl/utilidades/menu_informacion/ROLREAVALUO_SNE-07301_2025.pdf",
-          "verification": {
-            "status": "verified",
-            "http_status": 200,
-            "resolved_url": "https://www.corporacionlinares.cl/utilidades/menu_informacion/ROLREAVALUO_SNE-07301_2025.pdf",
-            "content_type": "application/pdf",
-            "sha256": "e6cfe7949d0f826c27d45729562f6be270994c795af1180a7b66339c59758635",
-            "bytes": 46512,
-            "verified_at": "2026-08-30T18:20:17.586402+00:00"
-          },
-          "rdf_url": null
         }
       ],
-      "municipal_count": 8
+      "municipal_count": 7
     },
     {
       "region_id": "07",
@@ -83253,7 +83179,7 @@
       "comuna": "Villa Alegre",
       "bcn_count": 3,
       "cplt_count": 0,
-      "total_count": 6,
+      "total_count": 4,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
       "last_update": "2025-05-16",
@@ -83276,48 +83202,6 @@
             "sha256": "67552d5a2cbac2da50589e684d6c44c81b8c7dc4e6b4424a10be56624c25eb89",
             "bytes": 406501,
             "verified_at": "2026-08-30T17:00:12.030442+00:00"
-          },
-          "rdf_url": null
-        },
-        {
-          "cplt_code": "MU337",
-          "fuente": "Municipalidad",
-          "numero": "S/N",
-          "fecha": "2023-01-01",
-          "titulo": "Ordenanza Municipal de VILLA ALEGRE — ROLREAVALUO SNE 07309 2023",
-          "materia": "Normativa General y Otras Materias",
-          "materia_id": "general",
-          "source_listing_url": "https://villalegre.cl/ordenanza-que-amplia-cobertura-de-apoyo-economico-a-estudiantes-de-la-educacion-superior/",
-          "target_url": "https://villalegre.cl/wp-content/uploads/2023/04/ROLREAVALUO_SNE-07309_2023.pdf",
-          "verification": {
-            "status": "verified",
-            "http_status": 200,
-            "resolved_url": "https://villalegre.cl/wp-content/uploads/2023/04/ROLREAVALUO_SNE-07309_2023.pdf",
-            "content_type": "application/pdf",
-            "sha256": "ae0605c0932ffdac4ddaf9ebc4b4fb8e07d930c65bf6d780ee1d3d11d07dcb57",
-            "bytes": 12470,
-            "verified_at": "2026-08-30T17:00:12.030195+00:00"
-          },
-          "rdf_url": null
-        },
-        {
-          "cplt_code": "MU337",
-          "fuente": "Municipalidad",
-          "numero": "S/N",
-          "fecha": "2020-01-01",
-          "titulo": "Ordenanza Municipal de VILLA ALEGRE — ROLREAVALUO AGR 07309 2020 AGRÍCOLA",
-          "materia": "Normativa General y Otras Materias",
-          "materia_id": "general",
-          "source_listing_url": "https://villalegre.cl/ordenanza-que-amplia-cobertura-de-apoyo-economico-a-estudiantes-de-la-educacion-superior/",
-          "target_url": "https://villalegre.cl/wp-content/uploads/2020/04/ROLREAVALUO_AGR-07309_2020-AGR%C3%8DCOLA.pdf",
-          "verification": {
-            "status": "verified",
-            "http_status": 200,
-            "resolved_url": "https://villalegre.cl/wp-content/uploads/2020/04/ROLREAVALUO_AGR-07309_2020-AGR%C3%8DCOLA.pdf",
-            "content_type": "application/pdf",
-            "sha256": "2e38891c4bdd9ec7a99e8938e9beb2011a1da49381e56e2f6a4ca1b519f919b3",
-            "bytes": 178429,
-            "verified_at": "2026-08-30T17:00:12.030073+00:00"
           },
           "rdf_url": null
         },
@@ -83361,7 +83245,7 @@
           "estado": "Vigente / LeyChile"
         }
       ],
-      "municipal_count": 3
+      "municipal_count": 1
     },
     {
       "region_id": "07",
@@ -84782,32 +84666,11 @@
       "comuna": "El Carmen",
       "bcn_count": 7,
       "cplt_count": 0,
-      "total_count": 22,
+      "total_count": 19,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": "2026-08-19",
+      "last_update": "2026",
       "ordenanzas": [
-        {
-          "cplt_code": "MU083",
-          "fuente": "Municipalidad",
-          "numero": "S/N",
-          "fecha": "2026-08-19",
-          "titulo": "Ordenanza Municipal de EL CARMEN — BASES CONCURSO FOTOGRAFIA 2026",
-          "materia": "Normativa General y Otras Materias",
-          "materia_id": "general",
-          "source_listing_url": "https://portal.municipalidadelcarmen.cl/ordenanza-sobre-proteccion-y-tenencia-responsable-de-mascotas-y-animales-de-compania/",
-          "target_url": "https://drive.municipalidadelcarmen.cl/municipal/pagina%20web/BASES_CONCURSO_FOTOGRAFIA_2026.pdf",
-          "verification": {
-            "status": "verified",
-            "http_status": 200,
-            "resolved_url": "https://drive.municipalidadelcarmen.cl/municipal/pagina%20web/BASES_CONCURSO_FOTOGRAFIA_2026.pdf",
-            "content_type": "application/pdf",
-            "sha256": "e2ce50e772020b1e1569a98f0b75f7d97ecaaaa99c4457929425028bb131a7cf",
-            "bytes": 187051,
-            "verified_at": "2026-08-30T17:00:12.001443+00:00"
-          },
-          "rdf_url": null
-        },
         {
           "cplt_code": "MU083",
           "fuente": "Municipalidad",
@@ -84868,48 +84731,6 @@
             "sha256": "d094f300d05de9b794120e1e535919fc175bc4625b1a7e1938b44235ddd13b9e",
             "bytes": 380219,
             "verified_at": "2026-08-30T17:00:12.001797+00:00"
-          },
-          "rdf_url": null
-        },
-        {
-          "cplt_code": "MU083",
-          "fuente": "Municipalidad",
-          "numero": "S/N",
-          "fecha": "2026",
-          "titulo": "Ordenanza Municipal de EL CARMEN — PLADECO 2026",
-          "materia": "Normativa General y Otras Materias",
-          "materia_id": "general",
-          "source_listing_url": "https://portal.municipalidadelcarmen.cl/ordenanza-sobre-proteccion-y-tenencia-responsable-de-mascotas-y-animales-de-compania/",
-          "target_url": "https://drive.municipalidadelcarmen.cl/municipal/pagina%20web/PLADECO%202026.pdf",
-          "verification": {
-            "status": "verified",
-            "http_status": 200,
-            "resolved_url": "https://drive.municipalidadelcarmen.cl/municipal/pagina%20web/PLADECO%202026.pdf",
-            "content_type": "application/pdf",
-            "sha256": "f2c24e01fee5d05ac4af9e410daca061d96dd4664eb77cda3f7ea284a513d19d",
-            "bytes": 4716790,
-            "verified_at": "2026-08-30T17:00:12.002027+00:00"
-          },
-          "rdf_url": null
-        },
-        {
-          "cplt_code": "MU083",
-          "fuente": "Municipalidad",
-          "numero": "S/N",
-          "fecha": "2025-01-01",
-          "titulo": "Ordenanza Municipal de EL CARMEN — ROLREAVALUO SNE 08118 2025",
-          "materia": "Normativa General y Otras Materias",
-          "materia_id": "general",
-          "source_listing_url": "https://portal.municipalidadelcarmen.cl/ordenanza-sobre-proteccion-y-tenencia-responsable-de-mascotas-y-animales-de-compania/",
-          "target_url": "https://drive.municipalidadelcarmen.cl/municipal/pagina%20web/ROLREAVALUO_SNE-08118_2025.pdf",
-          "verification": {
-            "status": "verified",
-            "http_status": 200,
-            "resolved_url": "https://drive.municipalidadelcarmen.cl/municipal/pagina%20web/ROLREAVALUO_SNE-08118_2025.pdf",
-            "content_type": "application/pdf",
-            "sha256": "64a2801ec0214b6dfa32036a4aba685eff21b3ba760896f991c4268620cf108c",
-            "bytes": 20372,
-            "verified_at": "2026-08-30T17:00:12.002147+00:00"
           },
           "rdf_url": null
         },
@@ -85200,7 +85021,7 @@
           "rdf_url": null
         }
       ],
-      "municipal_count": 15
+      "municipal_count": 12
     },
     {
       "region_id": "16",
@@ -85686,74 +85507,11 @@
       "comuna": "Portezuelo",
       "bcn_count": 6,
       "cplt_count": 0,
-      "total_count": 9,
+      "total_count": 6,
       "pdfs_count": 0,
-      "status": "BCN + Municipalidad verificada",
-      "last_update": "2026-04",
+      "status": "Cargado BCN",
+      "last_update": "2002-01-18",
       "ordenanzas": [
-        {
-          "cplt_code": "MU_portezuelo",
-          "fuente": "Municipalidad",
-          "numero": "S/N",
-          "fecha": "2026-04",
-          "titulo": "Cuenta Pública 2025",
-          "materia": "Normativa General y Otras Materias",
-          "materia_id": "general",
-          "source_listing_url": "https://municipalidaddeportezuelo.cl/",
-          "target_url": "https://mportezuelo.cl/Inicio/wp-content/uploads/2026/04/Cuenta-Publica-2026-comprimida.pdf",
-          "verification": {
-            "status": "verified",
-            "http_status": 200,
-            "resolved_url": "https://mportezuelo.cl/Inicio/wp-content/uploads/2026/04/Cuenta-Publica-2026-comprimida.pdf",
-            "content_type": "application/pdf",
-            "sha256": "f65c0d9f519edcf081f200c189003f608d6694f9c36ab2457025c591d97c56b6",
-            "bytes": 7526187,
-            "verified_at": "2026-08-30T18:20:24.569552+00:00"
-          },
-          "rdf_url": null
-        },
-        {
-          "cplt_code": "MU_portezuelo",
-          "fuente": "Municipalidad",
-          "numero": "16",
-          "fecha": "2025-10",
-          "titulo": "Bases Cargo",
-          "materia": "Normativa General y Otras Materias",
-          "materia_id": "general",
-          "source_listing_url": "https://municipalidaddeportezuelo.cl/",
-          "target_url": "https://mportezuelo.cl/Inicio/wp-content/uploads/2025/10/Bases-Concurso-Publico-Tecnico-Grado-16°-I.-Municipalidad-de-Portezuelo.pdf",
-          "verification": {
-            "status": "verified",
-            "http_status": 200,
-            "resolved_url": "https://mportezuelo.cl/Inicio/wp-content/uploads/2025/10/Bases-Concurso-Publico-Tecnico-Grado-16°-I.-Municipalidad-de-Portezuelo.pdf",
-            "content_type": "application/pdf",
-            "sha256": "b36124bf4ee1e598b183f8fd3ef6afb7a3081b3e899033da161093631a857b6e",
-            "bytes": 496914,
-            "verified_at": "2026-08-30T18:20:24.881089+00:00"
-          },
-          "rdf_url": null
-        },
-        {
-          "cplt_code": "MU_portezuelo",
-          "fuente": "Municipalidad",
-          "numero": "19",
-          "fecha": "2025-10",
-          "titulo": "Bases Cargo",
-          "materia": "Normativa General y Otras Materias",
-          "materia_id": "general",
-          "source_listing_url": "https://municipalidaddeportezuelo.cl/",
-          "target_url": "https://mportezuelo.cl/Inicio/wp-content/uploads/2025/10/Bases-Concurso-Publico-Auxiliar-19°-I.-Municipalidad-de-Portezuelo.pdf",
-          "verification": {
-            "status": "verified",
-            "http_status": 200,
-            "resolved_url": "https://mportezuelo.cl/Inicio/wp-content/uploads/2025/10/Bases-Concurso-Publico-Auxiliar-19°-I.-Municipalidad-de-Portezuelo.pdf",
-            "content_type": "application/pdf",
-            "sha256": "418b676905534fbb6fdd453de8a6d4923136043686173e3b14c762d7298cf762",
-            "bytes": 495914,
-            "verified_at": "2026-08-30T18:20:25.092726+00:00"
-          },
-          "rdf_url": null
-        },
         {
           "fuente": "BCN",
           "numero": "32",
@@ -85833,7 +85591,7 @@
           "estado": "Vigente / LeyChile"
         }
       ],
-      "municipal_count": 3
+      "municipal_count": 0
     },
     {
       "region_id": "16",
@@ -87820,53 +87578,11 @@
       "comuna": "Treguaco",
       "bcn_count": 3,
       "cplt_count": 0,
-      "total_count": 7,
+      "total_count": 5,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": "2024-01-01",
+      "last_update": "2004-06-04",
       "ordenanzas": [
-        {
-          "cplt_code": "MU_treguaco",
-          "fuente": "Municipalidad",
-          "numero": "S/N",
-          "fecha": "2024-01-01",
-          "titulo": "Ordenanza Municipal Treguaco — roles2024",
-          "materia": "Normativa General y Otras Materias",
-          "materia_id": "general",
-          "source_listing_url": "https://munitrehuaco.cl/",
-          "target_url": "https://www.municipalidaddetrehuaco.cl/roles2024.pdf",
-          "verification": {
-            "status": "verified",
-            "http_status": 200,
-            "resolved_url": "https://www.municipalidaddetrehuaco.cl/roles2024.pdf",
-            "content_type": "application/pdf",
-            "sha256": "a981ad47b32342fdf23fe40919ea7c4143e5e7b7442aa274c00bb168c3c061e3",
-            "bytes": 251297,
-            "verified_at": "2026-08-30T18:20:33.501836+00:00"
-          },
-          "rdf_url": null
-        },
-        {
-          "cplt_code": "MU_treguaco",
-          "fuente": "Municipalidad",
-          "numero": "S/N",
-          "fecha": "2024",
-          "titulo": "Ordenanza Municipal Treguaco — Cuenta Publica 2024",
-          "materia": "Normativa General y Otras Materias",
-          "materia_id": "general",
-          "source_listing_url": "https://munitrehuaco.cl/",
-          "target_url": "https://www.municipalidaddetrehuaco.cl/Cuenta%20Publica/Cuenta%20Publica%202024.pdf",
-          "verification": {
-            "status": "verified",
-            "http_status": 200,
-            "resolved_url": "https://www.municipalidaddetrehuaco.cl/Cuenta%20Publica/Cuenta%20Publica%202024.pdf",
-            "content_type": "application/pdf",
-            "sha256": "52f35faa7874814ced86e3cd3974cf6591fe01a3a0a4a702cbc4070c716b5593",
-            "bytes": 11434438,
-            "verified_at": "2026-08-30T18:20:27.791155+00:00"
-          },
-          "rdf_url": null
-        },
         {
           "fuente": "BCN",
           "numero": "1124",
@@ -87949,7 +87665,7 @@
           "rdf_url": null
         }
       ],
-      "municipal_count": 4
+      "municipal_count": 2
     },
     {
       "region_id": "16",
@@ -92414,7 +92130,7 @@
       "comuna": "Hualpén",
       "bcn_count": 0,
       "cplt_count": 0,
-      "total_count": 45,
+      "total_count": 43,
       "pdfs_count": 0,
       "status": "Municipalidad verificada",
       "last_update": "2026-09",
@@ -92437,27 +92153,6 @@
             "sha256": "99d0ec4108c3d3385625a41d9b79beda32898f70029b2779d6a7b2fe84a2d876",
             "bytes": 251507,
             "verified_at": "2026-09-13T20:07:18.977998+00:00"
-          },
-          "rdf_url": null
-        },
-        {
-          "cplt_code": "MU105",
-          "fuente": "Municipalidad",
-          "numero": "S/N",
-          "fecha": "2026-05",
-          "titulo": "R08RE 342 APRUEBA CONVENIO ALBERGUE PUBLICO PPC 2026 HUALPEN",
-          "materia": "Normativa General y Otras Materias",
-          "materia_id": "general",
-          "source_listing_url": "https://hualpenciudad.cl/ordenanzas-municipales/",
-          "target_url": "https://www.hualpenciudad.cl/wp-content/uploads/2026/05/R08RE-342-APRUEBA-CONVENIO-ALBERGUE-PUBLICO-PPC-2026-HUALPEN.pdf",
-          "verification": {
-            "status": "verified",
-            "http_status": 200,
-            "resolved_url": "https://www.hualpenciudad.cl/wp-content/uploads/2026/05/R08RE-342-APRUEBA-CONVENIO-ALBERGUE-PUBLICO-PPC-2026-HUALPEN.pdf",
-            "content_type": "application/pdf",
-            "sha256": "a781dbf71df8f101f8f4958a219ecb82a4ae87dd5521c604bb75ae5b93ce499e",
-            "bytes": 4145337,
-            "verified_at": "2026-09-13T20:07:16.741180+00:00"
           },
           "rdf_url": null
         },
@@ -92542,27 +92237,6 @@
             "sha256": "11b8f3521df555657b697bd2670055f0de666b11e05c101c3c04069a760d1451",
             "bytes": 7089943,
             "verified_at": "2026-09-13T20:07:19.105794+00:00"
-          },
-          "rdf_url": null
-        },
-        {
-          "cplt_code": "MU105",
-          "fuente": "Municipalidad",
-          "numero": "S/N",
-          "fecha": "2025-12",
-          "titulo": "PLADECO 2026-2032",
-          "materia": "Normativa General y Otras Materias",
-          "materia_id": "general",
-          "source_listing_url": "https://hualpenciudad.cl/ordenanzas-municipales/",
-          "target_url": "https://www.hualpenciudad.cl/wp-content/uploads/2025/12/Pladeco-2026-2032-2-reducido.pdf",
-          "verification": {
-            "status": "verified",
-            "http_status": 200,
-            "resolved_url": "https://www.hualpenciudad.cl/wp-content/uploads/2025/12/Pladeco-2026-2032-2-reducido.pdf",
-            "content_type": "application/pdf",
-            "sha256": "1ab010b28295dc146e82c22930021d8adf61a3eee79b16707b6b5ed290f73da2",
-            "bytes": 17142855,
-            "verified_at": "2026-09-13T20:07:20.419927+00:00"
           },
           "rdf_url": null
         },
@@ -93365,7 +93039,7 @@
           "rdf_url": null
         }
       ],
-      "municipal_count": 45
+      "municipal_count": 43
     },
     {
       "region_id": "08",
@@ -102096,7 +101770,7 @@
       "comuna": "Perquenco",
       "bcn_count": 8,
       "cplt_count": 0,
-      "total_count": 29,
+      "total_count": 28,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
       "last_update": "2026",
@@ -102266,27 +101940,6 @@
             "sha256": "4a9f74f36374737dbe32ad94198c1c75801c189f25a9a5df06e6c1957d36149a",
             "bytes": 318392,
             "verified_at": "2026-08-30T17:00:12.016793+00:00"
-          },
-          "rdf_url": null
-        },
-        {
-          "cplt_code": "MU214",
-          "fuente": "Municipalidad",
-          "numero": "S/N",
-          "fecha": "2020-01-01",
-          "titulo": "Ordenanza Municipal de PERQUENCO — ROLREAVALUO AGRICOLA 09206 2020",
-          "materia": "Normativa General y Otras Materias",
-          "materia_id": "general",
-          "source_listing_url": "https://www.perquenco.cl/actualizacion-ordenanzas-municipales-2025/",
-          "target_url": "https://www.perquenco.cl/web/perquenco/files/roles%20acaluo%202020/ROLREAVALUO_AGRICOLA-09206_2020.pdf",
-          "verification": {
-            "status": "verified",
-            "http_status": 200,
-            "resolved_url": "https://www.perquenco.cl/web/perquenco/files/roles%20acaluo%202020/ROLREAVALUO_AGRICOLA-09206_2020.pdf",
-            "content_type": "application/pdf",
-            "sha256": "df499bcdd285c7c79e98458c359f56ae0b0f399d3b4248acb2ff961d66dce1b7",
-            "bytes": 163400,
-            "verified_at": "2026-08-30T17:00:12.017084+00:00"
           },
           "rdf_url": null
         },
@@ -102647,7 +102300,7 @@
           "rdf_url": null
         }
       ],
-      "municipal_count": 21
+      "municipal_count": 20
     },
     {
       "region_id": "09",
@@ -115589,7 +115242,7 @@
       "comuna": "Purranque",
       "bcn_count": 11,
       "cplt_count": 0,
-      "total_count": 17,
+      "total_count": 15,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
       "last_update": "2026-08-06",
@@ -115844,51 +115497,9 @@
             "verified_at": "2026-08-30T17:00:12.019301+00:00"
           },
           "rdf_url": null
-        },
-        {
-          "cplt_code": "MU242",
-          "fuente": "Municipalidad",
-          "numero": "S/N",
-          "fecha": "",
-          "titulo": "Ordenanza Municipal de PURRANQUE — FORMULARIO ED SUPERIOR",
-          "materia": "Normativa General y Otras Materias",
-          "materia_id": "general",
-          "source_listing_url": "https://www.purranque.cl/",
-          "target_url": "https://www.purranque.cl/descargas/FORMULARIO-ED-SUPERIOR.pdf",
-          "verification": {
-            "status": "verified",
-            "http_status": 200,
-            "resolved_url": "https://www.purranque.cl/descargas/FORMULARIO-ED-SUPERIOR.pdf",
-            "content_type": "application/pdf",
-            "sha256": "903792b2a4fb8af322a79687fd4e1597ea42bcf07337a9c88cad1391d399fbd9",
-            "bytes": 372539,
-            "verified_at": "2026-08-30T17:00:12.019343+00:00"
-          },
-          "rdf_url": null
-        },
-        {
-          "cplt_code": "MU242",
-          "fuente": "Municipalidad",
-          "numero": "S/N",
-          "fecha": "",
-          "titulo": "Ordenanza Municipal de PURRANQUE — formulario pmjh",
-          "materia": "Normativa General y Otras Materias",
-          "materia_id": "general",
-          "source_listing_url": "https://www.purranque.cl/",
-          "target_url": "https://www.purranque.cl/descargas/pmjh/formulario-pmjh.pdf",
-          "verification": {
-            "status": "verified",
-            "http_status": 200,
-            "resolved_url": "https://www.purranque.cl/descargas/pmjh/formulario-pmjh.pdf",
-            "content_type": "application/pdf",
-            "sha256": "9aa6dac6d046d1cc11599129db4694b61917b6e09b1c8628a34d0809375cdb71",
-            "bytes": 307947,
-            "verified_at": "2026-08-30T17:00:12.019461+00:00"
-          },
-          "rdf_url": null
         }
       ],
-      "municipal_count": 6
+      "municipal_count": 4
     },
     {
       "region_id": "10",
@@ -119876,7 +119487,7 @@
       "comuna": "Porvenir",
       "bcn_count": 3,
       "cplt_count": 0,
-      "total_count": 7,
+      "total_count": 6,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
       "last_update": "2026-07-07",
@@ -119920,27 +119531,6 @@
             "sha256": "24f08374a7e52ab67ed430d29b1d4b06d847cc0bd1b41c83f4a09c390951110b",
             "bytes": 426172,
             "verified_at": "2026-08-30T17:00:12.017978+00:00"
-          },
-          "rdf_url": null
-        },
-        {
-          "cplt_code": "MU225",
-          "fuente": "Municipalidad",
-          "numero": "S/N",
-          "fecha": "2026-07",
-          "titulo": "Ordenanza Municipal de PORVENIR — FORMULARIO DE POSTULACION ASIGNACION DIRECTA",
-          "materia": "Normativa General y Otras Materias",
-          "materia_id": "general",
-          "source_listing_url": "https://www.muniporvenir.cl/municipalidad-de-porvenir-aprueba-nueva-ordenanza-de-subvenciones-municipales/",
-          "target_url": "https://www.muniporvenir.cl/wpcont-wp/uploads/2026/07/FORMULARIO-DE-POSTULACION-ASIGNACION-DIRECTA.pdf",
-          "verification": {
-            "status": "verified",
-            "http_status": 200,
-            "resolved_url": "https://www.muniporvenir.cl/wpcont-wp/uploads/2026/07/FORMULARIO-DE-POSTULACION-ASIGNACION-DIRECTA.pdf",
-            "content_type": "application/pdf",
-            "sha256": "f8bcde8992b65fb390f952a0d9de7e3c43763df39945367332e252a304992590",
-            "bytes": 190046,
-            "verified_at": "2026-08-30T17:00:12.017862+00:00"
           },
           "rdf_url": null
         },
@@ -120005,7 +119595,7 @@
           "estado": "Vigente / LeyChile"
         }
       ],
-      "municipal_count": 4
+      "municipal_count": 3
     },
     {
       "region_id": "12",
@@ -120657,20 +120247,40 @@
       "badge_bg": "bg-zinc-800",
       "badge_text": "text-zinc-400",
       "badge_border": "border-zinc-700",
-      "count": 2675
+      "count": 2655
     }
   ],
   "public_scope": {
     "policy": "verified-only",
+    "corte_fecha": "Septiembre 2026 (Remediación AUD-P090-DIFUSION)",
     "included_sources": [
       "BCN",
-      "Municipalidad"
+      "Municipalidad",
+      "Diario Oficial / BCN",
+      "Diario Oficial",
+      "BCN / LeyChile"
     ],
+    "fuentes_detalle": {
+      "Municipalidad": 1545,
+      "BCN": 5881,
+      "Diario Oficial / BCN": 31,
+      "Diario Oficial": 4,
+      "BCN / LeyChile": 1
+    },
     "quarantined_sources": [
-      "CPLT"
+      "CPLT",
+      "ROL_AVALUO_SII",
+      "FORMULARIO_TRAMITE",
+      "BASES_CONCURSO_LICITACION",
+      "CUENTA_PUBLICA",
+      "PLADECO_PLAN"
     ],
     "quarantined_records": 0,
-    "verified_municipal_records": 1601,
-    "reason": "Las referencias CPLT manuales sin evidencia se mantienen en cuarentena. Solo se publican documentos municipales con listado oficial, PDF resoluble y huella SHA-256 verificada."
+    "verified_complementary_records": 1581,
+    "cobertura_historica": "346/346 comunas (100%)",
+    "cobertura_contemporanea_periodo_2021_2026": "217/346 comunas (62.7%)",
+    "cohorte_rastreo_activo": "243 comunas bajo monitoreo y rescate directo",
+    "exhaustividad": "No acreditada (sujeta a disponibilidad y publicación de portales oficiales)",
+    "reason": "Corpus canónico consolidado de 5.881 normas BCN/LeyChile más 1.581 documentos del corpus complementario de fuentes oficiales verificadas (con listado oficial, identidad digital y comprobación criptográfica SHA-256). Excluidos de plano roles de avalúo SII, formularios, bases de licitación, cuentas públicas y planes estratégicos."
   }
 }

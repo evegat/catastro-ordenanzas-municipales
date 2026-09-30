@@ -87,10 +87,17 @@ def extract_legal_date(text: str, filename: str) -> str:
         mo = int(m2.group(2))
         y = int(m2.group(3))
         return f"{y:04d}-{mo:02d}-{d:02d}"
-    m3 = re.search(r"\b(20\d{2})\b", combined)
+    m_ym = re.search(r"\b(20\d{2})[-_/](\d{2})\b", combined)
+    if m_ym:
+        mo = int(m_ym.group(2))
+        if 1 <= mo <= 12:
+            return f"{m_ym.group(1)}-{mo:02d}"
+    m3 = re.search(r"\b(19\d{2}|20\d{2})\b", combined)
     if m3:
-        return f"{m3.group(1)}-01-01"
-    return "2026-01-01"
+        y = int(m3.group(1))
+        if 1980 <= y <= 2026:
+            return f"{y:04d}"
+    return "S/F"
 
 
 def clean_title(label: str, filename: str, comuna: str) -> str:
