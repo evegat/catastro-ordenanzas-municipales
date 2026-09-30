@@ -456,8 +456,15 @@ def generate_synchronized_map_and_summary(public: dict, dashboard_dir: Path) -> 
         from src.build_accurate_map_data import COMUNAS_COORDS_BASE
     except Exception:
         import sys
-        sys.path.insert(0, str(REPO_ROOT))
-        from src.build_accurate_map_data import COMUNAS_COORDS_BASE
+        src_dir = Path(__file__).resolve().parent
+        if str(src_dir) not in sys.path:
+            sys.path.insert(0, str(src_dir))
+        if str(REPO_ROOT) not in sys.path:
+            sys.path.insert(0, str(REPO_ROOT))
+        try:
+            from build_accurate_map_data import COMUNAS_COORDS_BASE
+        except Exception:
+            from src.build_accurate_map_data import COMUNAS_COORDS_BASE
 
     norm_coords = {normalize_key(k): v for k, v in COMUNAS_COORDS_BASE.items()}
     comunas = public.get("comunas", []) or []

@@ -1,11 +1,10 @@
-﻿# -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """
 Genera el dataset consolidado de mapa con coordenadas geográficas (Lat/Lon)
 reales y precisas para las 346 comunas de Chile, vinculando los datos normativos.
 """
 import json, re, unicodedata
 from pathlib import Path
-import pandas as pd
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = REPO_ROOT / 'data'
