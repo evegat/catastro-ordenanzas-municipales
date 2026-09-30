@@ -97,6 +97,11 @@
           ${topicLine}
         </table>
         ${topicsRows ? `<div style="margin-top:8px;border-top:1px solid #153b70;padding-top:6px"><table style="width:100%">${topicsRows}</table></div>` : ''}
+        <div style="margin-top:10px;padding-top:8px;border-top:1px solid #153b70">
+          <button onclick="window.showComunaModal('${item.comuna}')" style="width:100%;padding:6px 10px;background:#0369a1;color:#ffffff;border:none;border-radius:6px;font-size:11px;font-weight:600;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:4px">
+            <span>Abrir expediente comunal ↗</span>
+          </button>
+        </div>
       </div>`;
   }
 
@@ -197,6 +202,9 @@
     const filter = document.getElementById('mapa-topic-filter');
     if (!filter || !mapaInstance) return;
     renderMarkers(filter.value);
+    if (window.umami) {
+      try { window.umami.track('filtrar_materia_mapa', { materia: filter.value }); } catch(e){}
+    }
   };
 
   // Hook into switchTab to init map when tab is activated

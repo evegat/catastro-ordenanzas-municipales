@@ -997,7 +997,7 @@
               <div class="text-[11px] text-zinc-300 mt-0.5">346 comunas completas (346 filas): conteo total BCN, fuentes municipales verificadas y materias obligatorias.</div>
             </div>
           </div>
-          <a href="descargas/resumen_comunal_chile_346_comunas.csv" download="resumen_comunal_chile_346_comunas.csv" class="px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold transition-colors flex items-center gap-2 shrink-0 shadow-lg shadow-emerald-900/30">
+          <a href="descargas/resumen_comunal_chile_346_comunas.csv" download="resumen_comunal_chile_346_comunas.csv" data-umami-event="descargar_csv_resumen" class="px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold transition-colors flex items-center gap-2 shrink-0 shadow-lg shadow-emerald-900/30">
             <i data-lucide="download" class="w-4 h-4"></i>
             <span>Descargar Resumen CSV (346 filas)</span>
           </a>
@@ -1005,7 +1005,7 @@
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-2">
           <!-- Microdatos CSV Fila a Fila Abierto Directo -->
-          <a href="descargas/catastro_ordenanzas_nacional_2026.csv" download="catastro_ordenanzas_nacional_2026.csv" class="flex items-center gap-3 p-4 rounded-xl bg-[#04142b] border border-[#153b70] hover:border-sky-400 transition-all text-left">
+          <a href="descargas/catastro_ordenanzas_nacional_2026.csv" download="catastro_ordenanzas_nacional_2026.csv" data-umami-event="descargar_csv_microdatos" class="flex items-center gap-3 p-4 rounded-xl bg-[#04142b] border border-[#153b70] hover:border-sky-400 transition-all text-left">
             <i data-lucide="file-text" class="w-8 h-8 text-sky-400 shrink-0"></i>
             <div>
               <div class="text-xs font-bold text-white flex items-center gap-1">
@@ -1017,7 +1017,7 @@
           </a>
 
           <!-- Planilla Excel con solicitud institucional opcional -->
-          <button onclick="openDownloadRequestModal('Planilla Excel (.xlsx)')" class="flex items-center gap-3 p-4 rounded-xl bg-[#04142b] border border-[#153b70] hover:border-sky-400 transition-all text-left">
+          <button onclick="openDownloadRequestModal('Planilla Excel (.xlsx)')" data-umami-event="abrir_solicitud_excel" class="flex items-center gap-3 p-4 rounded-xl bg-[#04142b] border border-[#153b70] hover:border-sky-400 transition-all text-left">
             <i data-lucide="file-spreadsheet" class="w-8 h-8 text-emerald-400 shrink-0"></i>
             <div>
               <div class="text-xs font-bold text-white flex items-center gap-1">
@@ -1028,7 +1028,7 @@
             </div>
           </button>
 
-          <a href="descargas/analisis_ordenanzas_chile_estudiantes.ipynb" download class="flex items-center gap-3 p-4 rounded-xl bg-[#04142b] border border-[#153b70] hover:border-sky-400 transition-all text-left">
+          <a href="descargas/analisis_ordenanzas_chile_estudiantes.ipynb" download data-umami-event="descargar_notebook_docente" class="flex items-center gap-3 p-4 rounded-xl bg-[#04142b] border border-[#153b70] hover:border-sky-400 transition-all text-left">
             <i data-lucide="code-2" class="w-8 h-8 text-purple-400 shrink-0"></i>
             <div>
               <div class="text-xs font-bold text-white">Notebook Jupyter (.ipynb)</div>
@@ -1036,7 +1036,7 @@
             </div>
           </a>
 
-          <button onclick="openDownloadRequestModal('Paquete ZIP Consolidado')" class="flex items-center gap-3 p-4 rounded-xl bg-[#04142b] border border-[#153b70] hover:border-sky-400 transition-all text-left">
+          <button onclick="openDownloadRequestModal('Paquete ZIP Consolidado')" data-umami-event="abrir_solicitud_zip" class="flex items-center gap-3 p-4 rounded-xl bg-[#04142b] border border-[#153b70] hover:border-sky-400 transition-all text-left">
             <i data-lucide="archive" class="w-8 h-8 text-amber-400 shrink-0"></i>
             <div>
               <div class="text-xs font-bold text-white flex items-center gap-1">
@@ -1796,6 +1796,10 @@
 
       currentModalComuna = c;
 
+      if (window.umami) {
+        try { window.umami.track('ver_expediente_comunal', { comuna: c.comuna, region: c.region_nombre }); } catch(e){}
+      }
+
       document.getElementById('modal-comuna-title').textContent = c.comuna;
       document.getElementById('modal-comuna-subtitle').textContent = `${c.region_nombre || ''} • ${c.total_count} ordenanzas consolidadas (${c.bcn_count} BCN / ${c.municipal_count} Verificadas)`;
 
@@ -2072,6 +2076,9 @@
         const inputNombre = document.getElementById('req-nombre');
         if (inputNombre) setTimeout(() => inputNombre.focus(), 50);
       }
+      if (window.umami) {
+        try { window.umami.track('abrir_modal_solicitud', { formato: currentDownloadFormat }); } catch(e){}
+      }
       lucide.createIcons();
     }
 
@@ -2126,6 +2133,10 @@
         return;
       }
 
+      if (window.umami) {
+        try { window.umami.track('solicitud_datos_enviada', { formato: currentDownloadFormat, rol: rol || 'No especificado' }); } catch(e){}
+      }
+
       const subject = encodeURIComponent(`[Catastro P090] Solicitud de Acceso: ${currentDownloadFormat} - ${institucion}`);
       const body = encodeURIComponent(
         `Estimado Eduardo Vega (Investigador Principal, Universidad de Chile):\n\n` +
@@ -2150,6 +2161,10 @@
       const institucion = (document.getElementById('req-institucion').value || '').trim();
       const rol = (document.getElementById('req-rol').value || '').trim();
       const proposito = (document.getElementById('req-proposito').value || '').trim();
+
+      if (window.umami) {
+        try { window.umami.track('solicitud_datos_copiada', { formato: currentDownloadFormat }); } catch(e){}
+      }
 
       const text = `[Solicitud de Acceso Catastro P090]\nFormato: ${currentDownloadFormat}\nNombre: ${nombre}\nCorreo: ${email}\nInstitución: ${institucion}\nRol: ${rol}\nPropósito: ${proposito}`;
       navigator.clipboard.writeText(text).then(() => {
