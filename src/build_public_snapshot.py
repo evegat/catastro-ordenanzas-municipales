@@ -200,6 +200,7 @@ def recalculate_metrics(public: dict, quarantined: int) -> None:
         "fuentes_detalle": fuentes_detalle,
         "quarantined_sources": ["CPLT", "ROL_AVALUO_SII", "FORMULARIO_TRAMITE", "BASES_CONCURSO_LICITACION", "CUENTA_PUBLICA", "PLADECO_PLAN"],
         "quarantined_records": quarantined,
+        "verified_municipal_records": total_municipal,
         "verified_complementary_records": total_municipal,
         "cobertura_historica": "346/346 comunas (100%)",
         "cobertura_contemporanea_periodo_2021_2026": f"{comunas_periodo_2021_2026}/346 comunas ({round(comunas_periodo_2021_2026/346*100, 1)}%)",

@@ -1,5 +1,5 @@
 window.CATASTRO_DATA = {
-  "updated_at": "2026-09-30T16:29:24.059147+00:00",
+  "updated_at": "2026-09-30T16:56:49.308145+00:00",
   "metrics": {
     "total_comunas": 346,
     "comunas_con_datos": 346,
@@ -120276,6 +120276,7 @@ window.CATASTRO_DATA = {
       "PLADECO_PLAN"
     ],
     "quarantined_records": 0,
+    "verified_municipal_records": 1581,
     "verified_complementary_records": 1581,
     "cobertura_historica": "346/346 comunas (100%)",
     "cobertura_contemporanea_periodo_2021_2026": "217/346 comunas (62.7%)",
