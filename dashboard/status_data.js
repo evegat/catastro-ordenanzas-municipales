@@ -1,10 +1,10 @@
 window.CATASTRO_DATA = {
-  "updated_at": "2026-09-30T16:56:49.308145+00:00",
+  "updated_at": "2026-10-01T14:57:44.460502+00:00",
   "metrics": {
     "total_comunas": 346,
     "comunas_con_datos": 346,
     "total_regiones": 16,
-    "total_ordenanzas": 7462,
+    "total_ordenanzas": 7939,
     "ordenanzas_bcn": 5881,
     "ordenanzas_cplt": 0,
     "pdfs_descargados": 0,
@@ -13,11 +13,11 @@ window.CATASTRO_DATA = {
       "bloqueos_ip": 0,
       "user_agents_rotados": 12
     },
-    "ordenanzas_municipales_verificadas": 1581,
+    "ordenanzas_municipales_verificadas": 2058,
     "cplt_en_cuarentena": 0,
     "cobertura_nacional_pct": 100.0,
     "fuentes_detalle": {
-      "Municipalidad": 1545,
+      "Municipalidad": 2022,
       "BCN": 5881,
       "Diario Oficial / BCN": 31,
       "Diario Oficial": 4,
@@ -45579,21 +45579,66 @@ window.CATASTRO_DATA = {
       "comuna": "Providencia",
       "bcn_count": 284,
       "cplt_count": 0,
-      "total_count": 286,
+      "total_count": 763,
       "pdfs_count": 0,
       "status": "BCN + Municipalidad verificada",
-      "last_update": "2026-03-23",
+      "last_update": "2026-07-08",
       "ordenanzas": [
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1120",
+          "fecha": "2026-07-08",
+          "titulo": "Decreto Exento N° 1120: Fíjase el siguiente texto refundido y sistematizado de la Ordenanza sobre \"TENENCIA RESPONSABLE DE MASCOTAS Y ANIMALES DE COMPAÑÍA DE LA COMUNA DE PROVIDENCIA\"",
+          "materia": "Tenencia Responsable de Mascotas",
+          "materia_id": "tenencia_mascotas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23256/1/2026",
+          "target_url": "https://firma.providencia.cl/dsign/temp/0002124505.PDF",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/temp/0002124505.PDF",
+            "content_type": "application/pdf",
+            "sha256": "062af9e622336b2a88ca3e36cf7c065a73182928c93ecd2159f029cbe13efe31",
+            "bytes": 5261577,
+            "verified_at": "2026-10-01T02:17:02.309011+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "242",
+          "fecha": "2026-05-15",
+          "titulo": "Ordenanza N° 242: Modifícase la Ordenanza sobre \"TENENCIA RESPONSABLE DE MASCOTAS Y ANIMALES DE COMPAÑÍA DE LA COMUNA DE PROVIDENCIA\", aprobada mediante Ordenanza N°176 de 15 de enero de 2019",
+          "materia": "Tenencia Responsable de Mascotas",
+          "materia_id": "tenencia_mascotas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23256/1/2026",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=ls2t6aZw3SC0jDczZtKFrQ%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=ls2t6aZw3SC0jDczZtKFrQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "5e576e8a0c3ccbce55a7c94091b8d30d6da11488c40400476f8e328b6eb16fc8",
+            "bytes": 719829,
+            "verified_at": "2026-10-01T02:17:02.929669+00:00"
+          },
+          "rdf_url": null
+        },
         {
           "cplt_code": "MU228",
           "fuente": "Municipalidad",
           "numero": "241",
           "fecha": "2026-03-23",
-          "titulo": "Modificación a la Ordenanza Local sobre Derechos Municipales que rige para el año 2026",
+          "titulo": "Ordenanza N° 241: Modifícase la \"ORDENANZA LOCAL SOBRE DERECHOS MUNICIPALES\" que rige para el año 2026, cuyo texto refundido y sistematizado fue fijado por Decreto Alcaldicio EX",
           "materia": "Derechos Municipales y Tarifas",
           "materia_id": "derechos_tarifas",
-          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2026",
           "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=OqxoVOOfCiI74ESLcySFQA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
           "verification": {
             "status": "verified",
             "http_status": 200,
@@ -45601,7 +45646,51 @@ window.CATASTRO_DATA = {
             "content_type": "application/pdf",
             "sha256": "d3ed01f911006c57a93cce49539c96e2b990112dd3299d2c0d9bde955b6b2f54",
             "bytes": 701322,
-            "verified_at": "2026-08-28T23:46:15+00:00"
+            "verified_at": "2026-10-01T02:16:47.757204+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1923",
+          "fecha": "2025-12-31",
+          "titulo": "Decreto Exento N° 1923: Fíjase el siguiente texto refunddo y sistematizado de la Ordenanza sobre \"CIERRE O IMPLEMENTACION DE MEDIDAS DE CONTROL DE ACCESO EN CALLES, PASAJES O CONJUNTOS HABITACIONALES, POR MOTIVOS DE SEGURIDAD, DE LA COMUNA DE PROVIDENCIA\"",
+          "materia": "Convivencia Vecinal y Seguridad",
+          "materia_id": "convivencia_seguridad",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23933/1/2025",
+          "target_url": "https://firma.providencia.cl/dsign/temp/0002022483.PDF",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/temp/0002022483.PDF",
+            "content_type": "application/pdf",
+            "sha256": "5efa79fd20c5bd479ef0da7f47a6e6a34ab93e804d95f36a0f822d8de3c5fe70",
+            "bytes": 5822898,
+            "verified_at": "2026-10-01T02:14:31.351997+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1922",
+          "fecha": "2025-12-31",
+          "titulo": "Decreto Exento N° 1922: Fíjese el ciguiente texto refundido y sistematizado de lA ORDENANZA COMUNAL N°2 de fecha 6 de marzo de 2000, \"SOBRE LA ACTIVIDAD COMERCIAL, DE ALCOHOLES, INDUSTRIAL, PROFESIONAL Y DE SERVICIOS\"",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23080/1/2025",
+          "target_url": "https://firma.providencia.cl/dsign/temp/0002022478.PDF",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/temp/0002022478.PDF",
+            "content_type": "application/pdf",
+            "sha256": "5e63a52b2f3f3da1d6497d3216ffab6c0ce9731fbbed64e1dcf806f6ad26908a",
+            "bytes": 12390156,
+            "verified_at": "2026-10-01T02:15:18.847771+00:00"
           },
           "rdf_url": null
         },
@@ -45609,20 +45698,2727 @@ window.CATASTRO_DATA = {
           "cplt_code": "MU228",
           "fuente": "Municipalidad",
           "numero": "1803",
-          "fecha": "2024-12-17",
-          "titulo": "Texto refundido y sistematizado de la Ordenanza Local sobre Derechos Municipales que regirá para el año 2026",
+          "fecha": "2025-12-16",
+          "titulo": "Publicación en Dario Oficial del 23 de diciembre de 2025, Extracto de Decreto Alcaldicio Exento N°1803 de 16.12.2025, que fija el texto refundido y sistematizado de la \"Ordenanza Local sobre Derechos Municipales\" que regirá para el año 2026. N° 1803 - Ordenanzas y Textos Refundid",
           "materia": "Derechos Municipales y Tarifas",
           "materia_id": "derechos_tarifas",
-          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112",
-          "target_url": "https://firma.providencia.cl/dsign/temp/0002015082.PDF",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2025",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=7NQmddv3y9qkgzB4S43mZg%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
           "verification": {
             "status": "verified",
             "http_status": 200,
-            "resolved_url": "https://firma.providencia.cl/dsign/temp/0002015082.PDF",
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=7NQmddv3y9qkgzB4S43mZg%3D%3D",
             "content_type": "application/pdf",
-            "sha256": "ef9862faf97d517bb4fc40d876104d9ed9d75bc02840d404e616f12b2fdc0641",
-            "bytes": 25673914,
-            "verified_at": "2026-08-28T23:46:13+00:00"
+            "sha256": "f411f21c24fe996ad9021d8675ab812ff1c00234894a0308fb0825653dac6842",
+            "bytes": 162270,
+            "verified_at": "2026-10-01T02:14:16.211839+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "240",
+          "fecha": "2025-10-30",
+          "titulo": "Ordenanza N° 240: Modifícase la \"ORDENANZA LOCAL SOBRE DERECHOS MUNICIPALES\" que rige para el año 2025, cuyo texto refundido y sistematizado fue fijado por Decreto Alcaldicio EX",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2025",
+          "target_url": "https://firma.providencia.cl/dsign/temp/0002000257.PDF",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/temp/0002000257.PDF",
+            "content_type": "application/pdf",
+            "sha256": "aeac2d6e32793fa0bd54528d181321be31719a092d161305c1c8f4fb0b240248",
+            "bytes": 17120831,
+            "verified_at": "2026-10-01T02:16:46.300094+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "239",
+          "fecha": "2025-07-31",
+          "titulo": "Ordenanza N° 239: Modifícase la \"ORDENANZA LOCAL SOBRE DERECHOS MUNICIPALES\"que rige para el año 2025, cuyo texto refundido y sistematizado fue fijado por Decreto Alcaldicio EX",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2025",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=sfIdD0DkXG9jJ31kdzVLgA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=sfIdD0DkXG9jJ31kdzVLgA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "14f647a487e65912a1a4adf3578b94838c948bea5fbc4aaa7a9d072288aa03ba",
+            "bytes": 2075139,
+            "verified_at": "2026-10-01T02:16:47.104365+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "238",
+          "fecha": "2025-05-16",
+          "titulo": "Ordenanza N° 238: Modifícase la Ordenanza sobre \"CIERRA O IMPLEMENTACIÓN DE MEDIDAS DE CONTROL DE ACCESO EN CALLES, PASAJES O CONJUNTOS HABITACIONALES , POR MOTIVOS DE SEGURIDAD, DE LA COMUNA DE PROVIDENCIA\", cuyo texto fue fijado mediante Ordenanza N°220 de 23",
+          "materia": "Convivencia Vecinal y Seguridad",
+          "materia_id": "convivencia_seguridad",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23933/1/2025",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=%2F6X0G4ZH9Kc9thy97bk%2BRA%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=%2F6X0G4ZH9Kc9thy97bk%2BRA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "838ff7d866d5f9d5924551c6b8d19a9b9cfaf23b6774fb81e6f5894ac3886633",
+            "bytes": 1660086,
+            "verified_at": "2026-10-01T02:14:32.001529+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "494",
+          "fecha": "2025-04-01",
+          "titulo": "Decreto Exento N° 494: Fíjese el siguiente texto refundido y sistematizado de la Ordenanza Locasl sobre \"NORMAS PARA LA COBRANZA  DE CONTRIBUCONES, IMPUESTOS Y DERECHOS MUNICIPALES QUE SE ENCUENTRAS MOROSOS",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23078/1/2025",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=3cOWlNjcgXEFfy28rfXSqA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=3cOWlNjcgXEFfy28rfXSqA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "7e7a09fb63e494c2bf2a4611a89c3bdcea093365694810a125a12646c14637f5",
+            "bytes": 3210559,
+            "verified_at": "2026-10-01T02:14:58.314437+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "237",
+          "fecha": "2025-03-24",
+          "titulo": "Ordenanza N° 237: Modificase la Ordenanza sobre \"NORMAS PARA LA COBRANZA DE CONTRIBUCIONES , IMPUESTOS Y DERECHOS MUNICIPALES QUE SE ENCUENTRAN MOROSOS\", cuyo texto refundido y sistematizado fue fijado mediante Decreto Alcadicio EX",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23078/1/2025",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=0gfVy2IHAUktBg6XVBLa9Q%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=0gfVy2IHAUktBg6XVBLa9Q%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "5caae47611fd2941dcdd404b2a19220979d15cdbc4eca8e007b28a332ce3b3b9",
+            "bytes": 3601623,
+            "verified_at": "2026-10-01T02:14:59.317279+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "236",
+          "fecha": "2025-03-21",
+          "titulo": "Ordenanza N° 236: Modifícase la ODENANZA Comunal N°2 de fecha 6 de marzo de 2000 , \"SOBRE LA ACTIVIDAD COMERCIAL , DE ALCOHOLES , INDUSTRIAL , PROFESIONAL Y DE SERVICIOS\" , cuyo texto refundido y sistematizado fue fijado mediante Decreto Alcaldicio EX",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23080/1/2025",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=YzaU057Gezs3h95%2F7yWDzQ%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=YzaU057Gezs3h95%2F7yWDzQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "ea2413d74bdad7dee6602b9e41682327dd37671ecea858c49db261033a97d550",
+            "bytes": 2855630,
+            "verified_at": "2026-10-01T02:15:19.715052+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1842",
+          "fecha": "2024-12-17",
+          "titulo": "Publicación Diario Oficial 24.12.2024 .- Extracto de Decreto Alcaldicio EXN°1842 de 17 de Diciembre de 2024, sobre Texto Refundido y Sistematizado de la Ordenanza Sobre Derechos Municipales que regirá para el Año 2025. N° 1842 - Ordenanzas y Textos Refundidos D.O.",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2024",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=46Xt%2BiZYqZDcl%2BriTDw3Ug%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=46Xt%2BiZYqZDcl%2BriTDw3Ug%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "94add57f6cf84ed3f6ca4184193736f59cc56cd227af77fec7e8a1ed5f7c3a4e",
+            "bytes": 342511,
+            "verified_at": "2026-10-01T02:14:15.667260+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "235",
+          "fecha": "2024-12-02",
+          "titulo": "Ordenanza N° 235: Apruébase el siguiente texto de la Ordenanza sobre \"NOTIFICACIONES Y PUBLICACIONES DE RESOLUCIONES MUNICIPALES\"",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23094/1/2024",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=VFfBNJP3%2FVaviVSB1inFsw%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=VFfBNJP3%2FVaviVSB1inFsw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "161ce7b66c5e0bb11c5a9e1e0de0986c969db9ebc8346ae456700afce9e4dae1",
+            "bytes": 157172,
+            "verified_at": "2026-10-01T02:16:51.995736+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "233",
+          "fecha": "2024-10-29",
+          "titulo": "Ordenanza N° 233: Fíjase en UTM 1,70 anual, por el trienio 2024, 2025 Y 2026 , el monto por derecho para el servicio domiciliario de aseo",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23083/1/2024",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=4SHhnygTwSpz60%2FJLG1Wkw%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=4SHhnygTwSpz60%2FJLG1Wkw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "681c31a185f2e11a9cda049eb2d6f91daf125e7b0ebca8d3531994dc19016233",
+            "bytes": 487656,
+            "verified_at": "2026-10-01T02:15:40.288066+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "234",
+          "fecha": "2024-10-29",
+          "titulo": "Ordenanza N° 234: Modifícase la ORDENANZA LOCAL SOBRE DERECHOS MUNICIPALES\" que rige para el año 2024, cuyomtexto refundido y sistematizado fue fijado por Decreto AlcaldicioEX",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2024",
+          "target_url": "https://firma.providencia.cl/dsign/temp/0001897690.PDF",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/temp/0001897690.PDF",
+            "content_type": "application/pdf",
+            "sha256": "d80f22e2814fd93646e973a392f9dba8cc9aa142f89a5fb11844aa812cce19eb",
+            "bytes": 5577879,
+            "verified_at": "2026-10-01T02:16:37.315184+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "232",
+          "fecha": "2024-06-10",
+          "titulo": "Ordenanza N° 232: Modifícase la Ordenanza sobre \"NORMAS PARA LA COBRANZA DE CONTRIBUCIONES, IMPUESTOS Y DERECHOS MUNICIPALES QUE SE ENCUENTRAN MOROSOS\", cuyo tecto refundido y sistematizado fue fijado mediante Decreto Alcaldicio EX",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23078/1/2024",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=e5oZp2Wl0ilujqfz%2FQReaQ%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=e5oZp2Wl0ilujqfz%2FQReaQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "1e9af89b8c87f847f414e27101c397b4d2d3ddcbf38ef7f75cf9ddfc02ad0d04",
+            "bytes": 1002871,
+            "verified_at": "2026-10-01T02:14:56.356074+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "231",
+          "fecha": "2024-05-02",
+          "titulo": "Ordenanza N° 231: Modifícase la \"ORDENANZA LOCAL SOBRE DERECHOS MUNICIPAL\", que rige para el año 2024, cuyo texto refundido y sistematizado fue fijado mediante Decreto Alcaldicio EX",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2024",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=3q9StuxiAl%2FEZopSYG9wlg%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=3q9StuxiAl%2FEZopSYG9wlg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "fbd4a1399ff98e113a7167b60778d6cf443c9a81bcec48bb550aadd15e3ff5e4",
+            "bytes": 371246,
+            "verified_at": "2026-10-01T02:16:38.606456+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "502",
+          "fecha": "2024-04-11",
+          "titulo": "Decreto Exento N° 502: Fijase el siguiente tecto refundido y sistematizado de la \"ORDENANZA SOBRE INSTALACION DE MESAS EN EL BIEN NACIONAL DE USO PUBLICO DE LA COMUNA DE PROVIDENCIA\"",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23070/1/2024",
+          "target_url": "https://firma.providencia.cl/dsign/temp/0001844750.PDF",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/temp/0001844750.PDF",
+            "content_type": "application/pdf",
+            "sha256": "6cf80bcd9c437a1af1b5effae141d334cd798c7ec22e99e1ee33bfd2b299ec73",
+            "bytes": 4987751,
+            "verified_at": "2026-10-01T02:14:39.426806+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "495",
+          "fecha": "2024-04-08",
+          "titulo": "Decreto Exento N° 495: Fíjase el siguiente texto refundido y sistematizado de la Ordenanza N°1 de 24 de enero de 2002 \"ORDENANZA DE ORNATO\"",
+          "materia": "Aseo, Ornato y Medio Ambiente",
+          "materia_id": "aseo_medioambiente",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23065/1/2024",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=TQO6asLVPzOXVyF97cm9mA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=TQO6asLVPzOXVyF97cm9mA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "67cd0bd2974685fd192fb1138a58d546ce38b4017e5aa65b8f5125edacbfb5a2",
+            "bytes": 1965388,
+            "verified_at": "2026-10-01T02:14:22.840238+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "494",
+          "fecha": "2024-04-08",
+          "titulo": "Decreto Exento N° 494: Fijase le siguiente tecto refundido y sistematizado de la \"ORDENANZA SOBRE MANTENIMIENTO Y FISCALIZACION DE CABLEADO AEREO EN LA COMUNA DE PROVIDENCIA\"",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23611/1/2024",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=Ysifh6JSIlId8zy%2FfhIV5Q%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=Ysifh6JSIlId8zy%2FfhIV5Q%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "e7268c2acafa63bd634305ef14a97484568061b36f37d87a136f3359fe1f63f8",
+            "bytes": 3171746,
+            "verified_at": "2026-10-01T02:14:46.206192+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "230",
+          "fecha": "2023-12-28",
+          "titulo": "Ordenanza N° 230: Modifícase la Ordenanza N°228 de 26 de octubre de 2023, sobre \"ORDENANZA LOCAL SOBRE DERECHOS MUNICIPALES\"",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2023",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=JqhaGTfe3VEIWhCkgDHjXg%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=JqhaGTfe3VEIWhCkgDHjXg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "9bb4e3b6635f8772a70fa06d84fa2f81a51974a4261f716d7cd767f295a15aa2",
+            "bytes": 444475,
+            "verified_at": "2026-10-01T02:16:23.512724+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1927",
+          "fecha": "2023-12-22",
+          "titulo": "Decreto Exento N° 1927: Fíjase el siguienté texto refundido y sistematizado de la \"ORDENANZA LOCAL SOBRE DERECHOS MUNICIPALES\" que regirá en el año 2024",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2023",
+          "target_url": "https://firma.providencia.cl/dsign/temp/0001817355.PDF",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/temp/0001817355.PDF",
+            "content_type": "application/pdf",
+            "sha256": "696472fe190305e0ed6939a9879b489d03926696b6ee0c2cb64ce22718b6841f",
+            "bytes": 27359312,
+            "verified_at": "2026-10-01T02:16:29.938790+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "229",
+          "fecha": "2023-12-13",
+          "titulo": "Ordenanza N° 229: Fijase en UTM 1,70 anual, por el trienio 2024, 2025 y 2026, el monto por derecho para el servicio domiciliario de aseo",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23083/1/2023",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=D3SeaJ9AdSzmkJuBF3JdGg%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=D3SeaJ9AdSzmkJuBF3JdGg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "ba65bd6fc1816d8bd80f0f4f44a5c647bbb6e088b1e86e83a1b3386c634cbc1c",
+            "bytes": 3874107,
+            "verified_at": "2026-10-01T02:15:39.244218+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1844",
+          "fecha": "2023-12-07",
+          "titulo": "Decreto Exento N° 1844: Fijase el siguiente texto refundido y sistematizado de la ORDENANZA COMUNAL Nº2",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23080/1/2023",
+          "target_url": "https://firma.providencia.cl/dsign/temp/0001812699.PDF",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/temp/0001812699.PDF",
+            "content_type": "application/pdf",
+            "sha256": "88915463d02cd6e5be8d8835f15f563287a0cd9bd8ff5b6f8604ee430e7ede1e",
+            "bytes": 8119101,
+            "verified_at": "2026-10-01T02:15:14.345335+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "228",
+          "fecha": "2023-10-26",
+          "titulo": "Ordenanzas N° 228: Modificase la \"ORDENANZA LOCAL SOBRE DERECHO MUNICIPALES\" que rige para el año 2023, cuyo texto refundido y sistematizado fue fijado por Decreto Alcaldicio EX",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2023",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=TQLJkQkQs07WBFrpjok7xw%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=TQLJkQkQs07WBFrpjok7xw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "7bcd2f32ef005932438c8e0e5c691a948eb22ffe0ff1d4220c57669a0c9ea743",
+            "bytes": 3396870,
+            "verified_at": "2026-10-01T02:16:30.938768+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1576",
+          "fecha": "2023-10-24",
+          "titulo": "Decreto Exento N° 1576: Fíjase el siguiente texto refundido y sistematizado de la \"ORDENANZA COMUNAL SOBRE OCUPACION TRANSITORIA DEL ESPACIO PUBLICO POR LA EJECUCCION DE FAENAS\"",
+          "materia": "Tránsito, Transporte y Espacio Público",
+          "materia_id": "transito_transporte",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23074/1/2023",
+          "target_url": "https://firma.providencia.cl/dsign/temp/0001801703.PDF",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/temp/0001801703.PDF",
+            "content_type": "application/pdf",
+            "sha256": "7065135e30b2ceaaae64a3254ecc9878c8b93b327be8be0c7563b059dd1740cd",
+            "bytes": 14736135,
+            "verified_at": "2026-10-01T02:14:51.372768+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "227",
+          "fecha": "2023-10-24",
+          "titulo": "Ordenanza N° 227: Sustitúyase en el punto 1 de la Ordenanza N°218 de 14 de febrero de 2023, el porcentaje \"80%\" por \"20%\"",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2023",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=5dEVp3ZiWpZ7rDM57xT8UA%3D%3D",
+          "tipo_norma_clasif": "modificacion",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=5dEVp3ZiWpZ7rDM57xT8UA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "ab191dd8c7799df7ca57883bdc81155b299ae16e42b75d974f7301a38155f1d8",
+            "bytes": 626324,
+            "verified_at": "2026-10-01T02:16:31.609479+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "226",
+          "fecha": "2023-10-19",
+          "titulo": "Ordenanza N° 226: Modificase la Ordenanza Comunal N°2 de fecha 6 de Marzo de 2000, \"SOBRE LA ACTIVIDAD COMERCIAL, DE ALCOHOLES, INDUSTRIAL, PROFESIONAL Y SERVICIOS\", cuyo texto refundido y sistematizado fue fijado por Decreto Alcaldicio EX",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23080/1/2023",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=ZaT0FmoK39tIlJDRKE6c%2Fg%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=ZaT0FmoK39tIlJDRKE6c%2Fg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "52c137129b9bbf83579c042f70f7838989fa024fd87f540d4eac1910f1c7f812",
+            "bytes": 543935,
+            "verified_at": "2026-10-01T02:15:15.100567+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "225",
+          "fecha": "2023-10-10",
+          "titulo": "Ordenanza N° 225: Modifícase  la \"ORDENANZA COMUNAL SOBRE OCUPACION TRANSITORIA DEL ESPACIO PUBLICO POR LA EJECCIÓN DE FAENAS\r\n Y OTRAS ACTIVIDADES\"",
+          "materia": "Tránsito, Transporte y Espacio Público",
+          "materia_id": "transito_transporte",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23074/1/2023",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=sNdmLXSCNVNlbvqtoqFBsA%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=sNdmLXSCNVNlbvqtoqFBsA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "7a1e9ef526682dc62c1dfda2077e64576c0d86f34ac87da12743384f95612fe7",
+            "bytes": 3203634,
+            "verified_at": "2026-10-01T02:14:52.439380+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "224",
+          "fecha": "2023-09-12",
+          "titulo": "Ordenanza N° 224: Apruébese el siguiente texto de la Ordenanza \"SOBRE GESTION DE RESIDUOS RECICLABLES DE LA COMUNA DE PROVIDENCIA\"",
+          "materia": "Aseo, Ornato y Gestión de Residuos",
+          "materia_id": "aseo_medioambiente",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23972/1/2023",
+          "target_url": "https://firma.providencia.cl/dsign/temp/0001792450.PDF",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/temp/0001792450.PDF",
+            "content_type": "application/pdf",
+            "sha256": "d8e78667819583944acad6d62a8381794b41fc5809ad9e1f55b801920aeff653",
+            "bytes": 4806447,
+            "verified_at": "2026-10-01T02:14:24.187132+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "223",
+          "fecha": "2023-08-11",
+          "titulo": "Ordenanza N° 223: Apruébase la ORDENANZA SOBRE KIOSKOS MUNICIPALES",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23946/1/2023",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=b3eFNghlaL79YddlSCHn8A%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=b3eFNghlaL79YddlSCHn8A%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "8357cff6babfc187d0e1072f5f2f895d134ef103e26898c35706d14447436b22",
+            "bytes": 2589635,
+            "verified_at": "2026-10-01T02:15:33.612996+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "222",
+          "fecha": "2023-08-10",
+          "titulo": "Ordenanza N° 222: Apruébase el siguiente texto de la Ordenanza \"SOBRE PUBLICIDAD Y PROPAGANDA EN LA COMUNA DE PROVIDENCIA\"",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23081/1/2023",
+          "target_url": "https://firma.providencia.cl/dsign/temp/0001784044.PDF",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/temp/0001784044.PDF",
+            "content_type": "application/pdf",
+            "sha256": "3135ff9c96eaddc907007a78500caaf4f1a99b2c567759659a071abf2dafacf3",
+            "bytes": 7758235,
+            "verified_at": "2026-10-01T02:15:31.014356+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "221",
+          "fecha": "2023-07-04",
+          "titulo": "Ordenanza N° 221: Apruébese la Ordenanza \"SOBRE MURALES ORNAMENTALES O DECORATIVOS EN LA COMUNA  DE PROVIDENCIA\"",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23938/1/2023",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=OTK2dNu0PPHCoc3aAJuOUw%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=OTK2dNu0PPHCoc3aAJuOUw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "6f3c66e9fb961ab286df5e5b86d87ec08f3669525de8343b45d0fac2cf47f4f8",
+            "bytes": 603838,
+            "verified_at": "2026-10-01T02:14:46.928697+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "220",
+          "fecha": "2023-06-23",
+          "titulo": "Ordenanza N° 220: Fíjase la siguiente ordenanza sobre \"CIERRE O IMPLEMENTACION DE MEDIDAS DE CONTROL DE ACCESO EN CALLES, PASAJES O CONJUNTOS HABITACIONALES, POR MOTIVOS DE SEGURIDAD, DE LA COMUNA DE PROVIDENCIA\"",
+          "materia": "Convivencia Vecinal y Seguridad",
+          "materia_id": "convivencia_seguridad",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23933/1/2023",
+          "target_url": "https://firma.providencia.cl/dsign/temp/0001770974.PDF",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/temp/0001770974.PDF",
+            "content_type": "application/pdf",
+            "sha256": "13c49ce5862389dadf02c4ec50aee86ca5ceddbe2f63e3de9de853e50289e2b5",
+            "bytes": 5697728,
+            "verified_at": "2026-10-01T02:14:30.046219+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "219",
+          "fecha": "2023-05-25",
+          "titulo": "Ordenanza N° 219: Modifícase la ORDENANZA LOCAL SOBRE DERECHOS MUNICIPALES que rige paera el año 2023, texto refundido EXN°1",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2023",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=Xx7aI%2BlUgWoULM3U3rsRTg%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=Xx7aI%2BlUgWoULM3U3rsRTg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "5a4aa881115216642cf7554c179fadd357e0a1845aa69d20e75c031530f65884",
+            "bytes": 241028,
+            "verified_at": "2026-10-01T02:16:32.199990+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "218",
+          "fecha": "2023-02-14",
+          "titulo": "Ordenanza N° 218: Modifícase la \"ORDENANZA LOCAL SOBRE DERECHOS MUNICIPALES\" que rige para el año 2023, cuyo texto refundido y sistematizado fue fijado por EX",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2023",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=4YjoJQqsLGS%2BfWHTW1o8WQ%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=4YjoJQqsLGS%2BfWHTW1o8WQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "5f2672b94ebf77da0a03ded78d26af0ae3eaabfa78f80fa270c81b9e5b21e977",
+            "bytes": 239882,
+            "verified_at": "2026-10-01T02:16:32.802497+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "217",
+          "fecha": "2023-02-10",
+          "titulo": "Ordenanza N° 217: Fíjase la siguiente Ordenanza sobre \"ADMINISTRACION DEL APARCADERO MUNICIPAL\"",
+          "materia": "Tránsito, Transporte y Espacio Público",
+          "materia_id": "transito_transporte",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23092/1/2023",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=uc0QKQwuAv5NAuq1%2BCunFw%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=uc0QKQwuAv5NAuq1%2BCunFw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "76119b74f8d483050c2c81677667c229b8afd81c2a07bb132ca2c5cfe6228f11",
+            "bytes": 2464900,
+            "verified_at": "2026-10-01T02:16:50.446679+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "216",
+          "fecha": "2023-01-20",
+          "titulo": "Ordenanza N° 216: Modificase la Ordenanza N°4 de 14 de Febrero de 2022, \"SOBRE PUBLICIDAD Y PROPAGANDA EN LA COMUNA DE PROVIDENCIA\", cuyo texto refundido y sistematizado fue aprobado por Decreto Alcaldicio EX",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23081/1/2023",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=PZlnE8gyR3%2FbjU9AYI6s0A%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=PZlnE8gyR3%2FbjU9AYI6s0A%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "22ceeb1cfce44641a566322f59f57ac85698ef517079af9dccda804bfc69e32f",
+            "bytes": 3407986,
+            "verified_at": "2026-10-01T02:15:32.559404+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1859",
+          "fecha": "2022-12-22",
+          "titulo": "Sobre derechos municipales N° 1859: Fíjase el siguiente texto refundido y sistematizado de la \"ORDENANZA LOCAL SOBRE DERECHOS MUNICIPALES\" que regirá en el año 2023",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2022",
+          "target_url": "https://firma.providencia.cl/dsign/temp/0001724683.PDF",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/temp/0001724683.PDF",
+            "content_type": "application/pdf",
+            "sha256": "bd732b21933fc202b6d0291557d0098839a4223556083bcfb8eb587d600e865a",
+            "bytes": 10447378,
+            "verified_at": "2026-10-01T02:16:14.490914+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "215",
+          "fecha": "2022-10-26",
+          "titulo": "Sobre derechos municipales N° 215: Modifícase la \"Ordenanza Local Sobre Derechos Municipales\" que rige para el año 2022",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2022",
+          "target_url": "https://firma.providencia.cl/dsign/temp/0001711654.PDF",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/temp/0001711654.PDF",
+            "content_type": "application/pdf",
+            "sha256": "6dfaa06ec6a4bf6d88d6f626dc688f6fce59cea4fabb5827e0312a400b524fa0",
+            "bytes": 7586840,
+            "verified_at": "2026-10-01T02:16:18.696051+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "214",
+          "fecha": "2022-10-25",
+          "titulo": "Cobro de derecho de aseo domiciliario N° 214: Fíjase en UTM 1,70 anual, el monto por derecho para el servicio domiciliario de aseo",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23083/1/2022",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=XplkkFLRghtgo52MpPz0GA%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=XplkkFLRghtgo52MpPz0GA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "01033546b01ba54458a2e0c214b6df429391156643f6004a09b874678b7823d1",
+            "bytes": 167095,
+            "verified_at": "2026-10-01T02:15:38.129823+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "213",
+          "fecha": "2022-08-31",
+          "titulo": "Sobre derechos municipales N° 213: Modifícase la Ordenanza Local sobre Derechos Municipales, que rige paera el año 2022",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2022",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=QyCQpY1DbF6fVOCm4w0TgQ%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=QyCQpY1DbF6fVOCm4w0TgQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "b59489956dd573ccb040d7e9853973d6f0b6828840f49212bf590adc47491337",
+            "bytes": 631017,
+            "verified_at": "2026-10-01T02:16:21.718854+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "212",
+          "fecha": "2022-07-26",
+          "titulo": "Ordenanza N° 212: Modifícase la Ordenanza N°1 de 24 de Enero de 2002 \"ORDENANZA DE ORNATO\", cuyo texto refundido y sistematizado, fue fijado por Decreto Alcaldicio EXN°1",
+          "materia": "Aseo, Ornato y Medio Ambiente",
+          "materia_id": "aseo_medioambiente",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23065/1/2022",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=l8Vx%2FT9B9L%2Bx5oVLkNme2Q%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=l8Vx%2FT9B9L%2Bx5oVLkNme2Q%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "e9b70d85d60def1c84d96b56fda866c20a412b2a126627f9a7cbd0df74b7e0f6",
+            "bytes": 224953,
+            "verified_at": "2026-10-01T02:14:22.006316+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "211",
+          "fecha": "2022-05-09",
+          "titulo": "Ordenanza N° 211: Modifícase la Ordenanza sobre \"INSTALACION DE MESAS EN EL BIEN NACIONAL DE USO PÚBLICO DE LA COMUNA DE PROVIDENCIA\", cuyo texto refundido y sisematizado fue fijado por EX",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23070/1/2022",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=1eSLOFacXAzVq2C8hAFxsQ%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=1eSLOFacXAzVq2C8hAFxsQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "09c73ba7e80e636eb3cf8ebe34576d107d5f2618f8eaac3ec0ed491900e4011c",
+            "bytes": 2691483,
+            "verified_at": "2026-10-01T02:14:37.957909+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1991",
+          "fecha": "2021-12-29",
+          "titulo": "Extracto de Decreto Alcaldicio EXN°1991 de 29 de Diciembre de 2021, sobre Texto Refundido y Sistematizado de la Ordenanza Sobre Derechos Municipales Año 2022.- N° 1991: Extracto de Decreto Alcaldicio EXN°1991 de 29 de Diciembre de 2021, sobre Texto Refundido y Sistematizado de la",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2022",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=JUyr0svCNJQHgrQE%2Fem4Hw%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=JUyr0svCNJQHgrQE%2Fem4Hw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "4e631a08b2019ef28f02eb4b9b727ec1bc08933d2a52df91fb344a27147ab6db",
+            "bytes": 164119,
+            "verified_at": "2026-10-01T02:14:15.033669+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1963",
+          "fecha": "2021-12-29",
+          "titulo": "Decreto Exento N° 1963: Déjase sin efecto el Decreto Alcaldicio EX",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23078/1/2021",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=naunyDYGlaj0X8g8GZskVg%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=naunyDYGlaj0X8g8GZskVg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "b9593cb3b72b29f0e47625d834d795b4a53c5bee348d6959c9ca4e01577a2df2",
+            "bytes": 370323,
+            "verified_at": "2026-10-01T02:14:54.756652+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "210",
+          "fecha": "2021-10-28",
+          "titulo": "Sobre derechos municipales N° 210: Modifícase la Ordenanza Local sobre Derechos Municipales, que rige para el año 2021, cuyo texto refundido y sistematizado fue fijado por Decreto Alcaldicio EXN°1 de 5 de Enero de 2021",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2021",
+          "target_url": "https://firma.providencia.cl/dsign/temp/0001616943.PDF",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/temp/0001616943.PDF",
+            "content_type": "application/pdf",
+            "sha256": "8bf948476b6b195a57af19c384b7b12c83fb36c82bc0424b9f1c3b0529aac457",
+            "bytes": 4899244,
+            "verified_at": "2026-10-01T02:16:10.572865+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "209",
+          "fecha": "2021-10-25",
+          "titulo": "De Ornato N° 209: Modifícase la Ordenanza N° 1 de 24 de Enero de 2002 \"Ordenanza de Ornato\", cuyo texto refundido y sistematizado fue fijado por Decreto Alcaldicio EX",
+          "materia": "Aseo, Ornato y Medio Ambiente",
+          "materia_id": "aseo_medioambiente",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23065/1/2021",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=%2FUJCIqa6yFVPa32vwjFOog%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=%2FUJCIqa6yFVPa32vwjFOog%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "1761e596fba1e4e542df667078cf935c8217cdf8d9ad6104bf3dee6bc78db93f",
+            "bytes": 628464,
+            "verified_at": "2026-10-01T02:14:20.032166+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "208",
+          "fecha": "2021-10-25",
+          "titulo": "Cobro de derecho de aseo domiciliario N° 208: Fíjase en UTM 1,70 anual, el monto por derecho para el servicio domiciliario de aseo",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23083/1/2021",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=Vw9%2Fyyam7ZuybQPkX0ybsg%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=Vw9%2Fyyam7ZuybQPkX0ybsg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "7e3151f6a4bad2ebc41fc0ece3b6b33a08c217eb3251873ca89b6866c4c2bb53",
+            "bytes": 526309,
+            "verified_at": "2026-10-01T02:15:37.564320+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1382",
+          "fecha": "2021-09-28",
+          "titulo": "De Ornato N° 1382: Fíjase el texto refundido y sistematizado de la Ordenanza N°1 de 24 de enero de 2002 \"Ordenanza de Ornato\"",
+          "materia": "Aseo, Ornato y Medio Ambiente",
+          "materia_id": "aseo_medioambiente",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23065/1/2021",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=duICj10EU4C2gBpeAfSvEA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=duICj10EU4C2gBpeAfSvEA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "955ef437e297f2527d112acc7d006316278fdda8ee4c94c82d06e0ba59f4043f",
+            "bytes": 1214026,
+            "verified_at": "2026-10-01T02:14:20.740235+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "207",
+          "fecha": "2021-09-10",
+          "titulo": "De Ornato N° 207: Modifícase la Ordenanza N°1 de 24 de Enero de 2002 \"Ordenanza de Ornato\", cuyo texto refundido y sistematizado fue fijado por Decreto Alcaldicio EX",
+          "materia": "Aseo, Ornato y Medio Ambiente",
+          "materia_id": "aseo_medioambiente",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23065/1/2021",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=Pb5UGm2miihynqXTR8zNtw%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=Pb5UGm2miihynqXTR8zNtw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "64ac030d3925442844036bfc7788752a9390da2d1c766d286577dfd1087cd6b1",
+            "bytes": 586637,
+            "verified_at": "2026-10-01T02:14:21.390571+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "206",
+          "fecha": "2021-07-08",
+          "titulo": "Ordenanza N° 206: Modifícase la \"ORDENANZA SOBRE MANTENIMIENTO Y FISCALIZACION DE CABLEADO AEREO EN LA COMUNA DE PROVIDENCIA\", cuyo tecto refundido y sistematizado fue aprobado por el Decreto Alcaldicio EX",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23611/1/2021",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=g5HGrP5Cy0GNkkU4oytNfw%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=g5HGrP5Cy0GNkkU4oytNfw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "47c9714d34c6ab2d53f9eaf8da9341ccc17f17362ce38dddf1826049ca312bde",
+            "bytes": 650987,
+            "verified_at": "2026-10-01T02:14:45.028909+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "107",
+          "fecha": "2021-02-05",
+          "titulo": "Decreto Exento N° 107: Fíjase el siguiente texto refundido y sistematizado de la \"ORDENANZA SOBRE LA INSTALACIÓN DE MESAS EN EL BIEN NACIONAL DE USO PÚBLICO DE LA COMUNA DE PROVIDENCIA\"",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23070/1/2021",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=jer7OvmUc339Wb9WwAhUxw%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=jer7OvmUc339Wb9WwAhUxw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "80c53c4b96413cd085b00bf8d83f0ff684233df3b674179d21828f421332acd9",
+            "bytes": 3923633,
+            "verified_at": "2026-10-01T02:14:37.035418+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "78",
+          "fecha": "2021-01-29",
+          "titulo": "Decreto Exento N° 78: Fíjese el siguiente texto refundido y sistematizado de la Ordenanza Local sobre \"NORMAS PARA LA COBRANZA DE  CONTRIBUCIONES, IMPUESTOS Y DERECHOS MUNICIPALES QUE SE ENCUENTRAN MOROSOS\"",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23078/1/2021",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=KCmfOcJQYXFZYbRMHm6t7Q%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=KCmfOcJQYXFZYbRMHm6t7Q%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "bf190490e3e9378b3c8916088b9aa5b61d9233dd5aaacc96929199a55f2d291a",
+            "bytes": 2464736,
+            "verified_at": "2026-10-01T02:14:55.647591+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1",
+          "fecha": "2021-01-05",
+          "titulo": "Sobre derechos municipales N° 1: Fíjase el siguiente texto refundido y sistematizado de la Ordenanza Local sobre Derechos Municipales, que regirá en el año 2021",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2021",
+          "target_url": "https://firma.providencia.cl/dsign/temp/0001556220.PDF",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/temp/0001556220.PDF",
+            "content_type": "application/pdf",
+            "sha256": "ffda23cb4f571a0c88a3ef13f7c82d2b5dd07f843d0ef3c5c0bf28716ce168a6",
+            "bytes": 10063519,
+            "verified_at": "2026-10-01T02:16:12.523341+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "205",
+          "fecha": "2020-12-22",
+          "titulo": "Sobre derechos municipales N° 205: Modifícase la Ordenanza Local sobre Derechos Municipales que rige para el año 2020, cuyo texto refundido y sistematizado fue fijado por EX N°1",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2020",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=0f0v64s3Y2lPY4zBwfcqIg%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=0f0v64s3Y2lPY4zBwfcqIg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "c33397872743179e85ed2b19f688b4d24ecd2a5c81afdb06af47f6f4d7a453e6",
+            "bytes": 465884,
+            "verified_at": "2026-10-01T02:15:51.635726+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "204",
+          "fecha": "2020-10-28",
+          "titulo": "Cobro de derecho de la aseo domiciliario N° 204: Fíjase en UTM 1,70 anual, el monto por derecho para el servicio domiciliario de aseo, la que regira a contar del 1",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23083/1/2020",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=kQEcSeq12vB%2BInKW2NCQvw%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=kQEcSeq12vB%2BInKW2NCQvw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "6c3bac86bf988e38f0bb79bef4a11913bae0213c97277f67f3f7ad9922262239",
+            "bytes": 519162,
+            "verified_at": "2026-10-01T02:15:36.637781+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "203",
+          "fecha": "2020-10-28",
+          "titulo": "Sobre derechos municipales N° 203: Modifícase la \"Ordenanza Local sobre Derechos Municipales\"que rige para el año 2020, cuyo texto refundido y sistematizado fue fijado por Decreto Alcaldicio EX",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2020",
+          "target_url": "https://firma.providencia.cl/dsign/temp/0001543546.PDF",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/temp/0001543546.PDF",
+            "content_type": "application/pdf",
+            "sha256": "5e9966da2151332483ae6a31c3623ea8b9596c7c21bd5a986cc0eaa182069143",
+            "bytes": 12414792,
+            "verified_at": "2026-10-01T02:15:53.907183+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "900",
+          "fecha": "2020-08-04",
+          "titulo": "Decreto Exento N° 900: Apruébase el siguiente texto refundido y sistematizado de la \"ORDENANZA SOBRE MANTENIMIENTO Y FISCALIZACIÓN DE CABLEADO AÉREO EN LA COMUNA DE PROVIDENCIA\"",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23611/1/2020",
+          "target_url": "https://firma.providencia.cl/dsign/temp/0001530017.PDF",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/temp/0001530017.PDF",
+            "content_type": "application/pdf",
+            "sha256": "b0a4d7a1d80628b0fd0368a80b59fe3dbdd8a6f5f10f826727d000b8f62b41b8",
+            "bytes": 6098994,
+            "verified_at": "2026-10-01T02:14:43.494729+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "901",
+          "fecha": "2020-08-04",
+          "titulo": "Sobre la actividad comercial, de alcoholes, industrial, profesional y de servicios. N° 901: Fíjase el siguiente texto refundido y sistematizado de la Ordenanza Comunal N°2 de fecha 6 de marzo de 2000, \"Sobre la actividad comercial, de alcoholes, industrial, profesional y de servi",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23080/1/2020",
+          "target_url": "https://firma.providencia.cl/dsign/temp/0001530033.PDF",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/temp/0001530033.PDF",
+            "content_type": "application/pdf",
+            "sha256": "9e9fb94b4d4681b314ecc487351d69507a952f17c530e0200ebb1a2d356fbb7a",
+            "bytes": 15331763,
+            "verified_at": "2026-10-01T02:15:09.871021+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "847",
+          "fecha": "2020-07-15",
+          "titulo": "Decreto Exento N° 847: Apruébase el siguiente texto refundido y sistematizado de la \"ORDENANZA SOBRE SUBVENCIONES MUNICIPALES\"",
+          "materia": "Subvenciones y Régimen Interno",
+          "materia_id": "organizacion_interna",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23098/1/2020",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=LFdvmtd2zwRfW%2B%2FH39f5hA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=LFdvmtd2zwRfW%2B%2FH39f5hA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "156ab145cd7f0265d8d8e7397feefe8149c2085940bd633f618e2ce3e2e0844e",
+            "bytes": 2380152,
+            "verified_at": "2026-10-01T02:16:57.967606+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "844",
+          "fecha": "2020-07-15",
+          "titulo": "Decreto Exento N° 844: Apruébase el texto refundido de la \"ORDENANA SOBRE RUIDOS MOLESTOS EN LA COMUNA DE PROVIDENCIA\"",
+          "materia": "Convivencia Vecinal y Seguridad",
+          "materia_id": "convivencia_seguridad",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23101/1/2020",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=ZOtOd9Oxa8Pk4QTKf%2F81vQ%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=ZOtOd9Oxa8Pk4QTKf%2F81vQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "b760b0c289c15c0adb47561d387837342948f9649f1ed3d4be16bfd367bf1c9c",
+            "bytes": 424059,
+            "verified_at": "2026-10-01T02:16:59.192165+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "201",
+          "fecha": "2020-07-14",
+          "titulo": "Ordenanza N° 201: Modifícase la Ordenanza sobre \"INSTALACIÓN DE MESAS EN EL BIEN NACIONAL DE USO PÚBLICO DE LA COMUNA DE PROVIDENCIA\" cuyo texto refundido fue fijado por EX",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23070/1/2020",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=MAKuU4I%2F8R1VTkBrLEuGJQ%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=MAKuU4I%2F8R1VTkBrLEuGJQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "76d24b56fb1ff40d3542382d540a01f370b490207ce919aa0736b6cb95c38f60",
+            "bytes": 342670,
+            "verified_at": "2026-10-01T02:14:35.940851+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "825",
+          "fecha": "2020-07-10",
+          "titulo": "Cobranza de patentes derechos y contribuciones que se encuentran morosas N° 825: Fíjese el texto refundido y sistematizado de la Ordenanza Local sobre \" Normas para la  Cobranza de Contribuciones , Impuestos y Derechos Municipales que se encuentran morosos \"",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23078/1/2020",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=N1kat8canCPmMMDlAgWxkA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=N1kat8canCPmMMDlAgWxkA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "d34bf00118c273ba93dd6c2301f3728c7539bbb8d1ac43d0124f5501994c71e6",
+            "bytes": 2586659,
+            "verified_at": "2026-10-01T02:14:53.343101+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "200",
+          "fecha": "2020-06-23",
+          "titulo": "Sobre derechos municipales N° 200: Incorpórase a la Ordenanza Local sobre Derechos Municipales\", que rige para el año 2020, cuyo texto refundido y sistematizado fue fijado por Decreto Alcaldicio EX",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2020",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=6gxjqboe48NpbEowKQOStg%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=6gxjqboe48NpbEowKQOStg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "572169f3e2f6140d51970b1f745b8c5f1f42e5dbd5276ff1f0a80a328dfa1f5d",
+            "bytes": 834617,
+            "verified_at": "2026-10-01T02:15:54.650538+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "199",
+          "fecha": "2020-06-12",
+          "titulo": "Ordenanza N° 199: Modifícase la Ordenanza N°185 de 25 de septiembre de 2019, \"ORDENANZA SOBRE SUBVENCIONES MUNICIPALES\"",
+          "materia": "Subvenciones y Régimen Interno",
+          "materia_id": "organizacion_interna",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23098/1/2020",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=iKXcMbnZna3S6rNgdesWlA%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=iKXcMbnZna3S6rNgdesWlA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "403d45d597eae5c889629bab8449bb578ddc3e51de0ae72f684138929f8dd679",
+            "bytes": 843299,
+            "verified_at": "2026-10-01T02:16:58.569389+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "677",
+          "fecha": "2020-06-03",
+          "titulo": "Sobre publicidad y propaganda en la Comuna de Providencia N° 677: Apruébase el siguiente texto refundido y sistematizado de la Ordenanza \"Sobre Publicidad y Propaganda en la Comuna de Providencia\"",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23081/1/2020",
+          "target_url": "https://firma.providencia.cl/dsign/temp/0001522454.PDF",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/temp/0001522454.PDF",
+            "content_type": "application/pdf",
+            "sha256": "1c5bd458e3955041afc1a62362b59178a8f3b6231057d195a0db7e0f4609d032",
+            "bytes": 14247291,
+            "verified_at": "2026-10-01T02:15:28.425470+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "198",
+          "fecha": "2020-05-25",
+          "titulo": "Cobranza de patentes derechos y contribuciones que se encuentran mososas N° 198: Modifícase la ordenanza sobre \"Normas para la cobranza de contribuciones, impuestos y derechos municipales que se encuentran morosos\", cuyos texto fue fijado por la Ordenanza N°147 de 5 de abril de 2",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23078/1/2020",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=FpeuBc2VmhBLTkq%2BKEL7Kw%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=FpeuBc2VmhBLTkq%2BKEL7Kw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "5aa5cb9867a50d733626072ef252a832ce5e0b5d009eecb94c7d018e0184b1cc",
+            "bytes": 1188226,
+            "verified_at": "2026-10-01T02:14:54.146603+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "197",
+          "fecha": "2020-05-25",
+          "titulo": "Sobre la actividad comercial, de alcoholes, industrial, profesional y de servicios N° 197: Agréguese el siguiente Artículo Transitorio a la Ordenanza Comunal N°2 de fecha 6",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23080/1/2020",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=%2FZCuRrp8h1bqG5G%2Fp8UC2w%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=%2FZCuRrp8h1bqG5G%2Fp8UC2w%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "2a62c304964aec43fcd7289064d95558a0a4fc8481355540aa74ac5e48ab8a82",
+            "bytes": 606630,
+            "verified_at": "2026-10-01T02:15:10.516944+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "196",
+          "fecha": "2020-04-21",
+          "titulo": "Ordenanza N° 196: Apruébase la siguiente \"ORDENANZA QUE REGULA LA LOCALIZACION SOPORTES DE ANTENAS Y ELEMENTOS ASOCIADOS EN BIENES NACIONALES DE USO PUBLICO DE LA COMUNA DE PROVIDENCIA\"",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23683/1/2020",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=LPk0x0j1cBKlvCAANk5IQQ%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=LPk0x0j1cBKlvCAANk5IQQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "4d6a8b0ef049fec51e128d737b2d308a29d9c1d7d30bffe15fd3cca941f4c788",
+            "bytes": 481964,
+            "verified_at": "2026-10-01T02:14:40.935851+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "195",
+          "fecha": "2020-04-21",
+          "titulo": "Sobre derechos municipales N° 195: Modifícase la Ordenanza Local sobre Derechos Municipales , que rige para el año 2020 , cuyo texto refundido y sistematizado fue fijado por EXN°1",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2020",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=ZRxq%2F%2BV12Ux6Ss52SZltvw%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=ZRxq%2F%2BV12Ux6Ss52SZltvw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "a269e8b37e0666b64919a24257954c73182a92a79ac48b5a514fd4008bf515f5",
+            "bytes": 279109,
+            "verified_at": "2026-10-01T02:15:56.075790+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "524",
+          "fecha": "2020-04-17",
+          "titulo": "Sobre la actividad comercial, de alcoholes, industrial, profesional y de servicios N° 524: Fíjase el texto refundido y sistematizado de l ordenanza Comunal N°2  de 6 de Marzo de 2020 sobre la Actividad Comercial, de Alcoholes, Industrial, Profesional y de Servicios",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23080/1/2020",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=gG5va7snk9UgcgoCMYgzKw%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=gG5va7snk9UgcgoCMYgzKw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "23b37b632c031fe3948dea25ef06e1122362e46362f6ff7c767aa9c70ed987c6",
+            "bytes": 2602381,
+            "verified_at": "2026-10-01T02:15:11.371017+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "194",
+          "fecha": "2020-04-16",
+          "titulo": "Ordenanza N° 194: Modifícase la Ordenanza N°121 de 29 de noviembre de 1996 \"ORDENANZA SOBRE RUIDOS MOLESTOS EN LA COMUNA DE PROVIDENCIA\" , texto refundido por EX",
+          "materia": "Convivencia Vecinal y Seguridad",
+          "materia_id": "convivencia_seguridad",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23101/1/2020",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=8QDBiETtpxzuC7HV0L3DoA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=8QDBiETtpxzuC7HV0L3DoA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "ec8f169486a31326e93e07bf22615e6e44f56dbb185491b45b2740934ced1e86",
+            "bytes": 217140,
+            "verified_at": "2026-10-01T02:16:59.769558+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "520",
+          "fecha": "2020-04-14",
+          "titulo": "Decreto Exento N° 520: Fíjase el siguiente texto refundido y sistematizado de la Ordenanza sobre \"CONDICONES NECESARIAS PARA LA FIJACION DE TARIFAS DEL SERVICIO DOMICILIARIO POR EXTRACCION DE BASURA Y EXENCIONES TOTAL Y PARCIAL \"",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23063/1/2020",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=bCAy6i0w6Lg9hz3yKfAKlA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=bCAy6i0w6Lg9hz3yKfAKlA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "018655aacd39b65cfc7eaf9bd7cd7f573f7c9e32a8671125971f5f212a943bfd",
+            "bytes": 2538514,
+            "verified_at": "2026-10-01T02:14:17.063279+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "519",
+          "fecha": "2020-04-14",
+          "titulo": "Decreto Exento N° 519: Fíjase el siguiente texto refundido y sistematizado de la ORDENANZA DE GESTION HIDRICA LOCAL",
+          "materia": "Aseo, Ornato y Medio Ambiente",
+          "materia_id": "aseo_medioambiente",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23665/1/2020",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=5SlpB1XOEm9wLL7M0g0IyQ%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=5SlpB1XOEm9wLL7M0g0IyQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "760e082fe9c0a71d88a10155a374b9769dff5896db882860207ecc2482c0f040",
+            "bytes": 280618,
+            "verified_at": "2026-10-01T02:14:18.225624+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "193",
+          "fecha": "2020-04-13",
+          "titulo": "Ordenanza N° 193: Modifícase la ordenanza N°184 de 8 de julio de 2019, \"ORDENANZA SOBRE MANTENIMIENTO Y FISCALIZACIÓN DE CLABLEADO AÉREO EN LA COMUNA DE PROVIDENCIA\"",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23611/1/2020",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=OsD2MZS6aoQrxjVs5JaKVg%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=OsD2MZS6aoQrxjVs5JaKVg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "5ea3e21b4a3829be03aa3153d450204bd0eb7e993f85f40609998a84ee089709",
+            "bytes": 563600,
+            "verified_at": "2026-10-01T02:14:44.333583+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "191",
+          "fecha": "2020-04-07",
+          "titulo": "Ordenanza N° 191: Modifícase la Ordenanza Nº189, de 6 de febrero de 2020, ORDENANZA DE GESTION HIDRICA LOCAL",
+          "materia": "Aseo, Ornato y Medio Ambiente",
+          "materia_id": "aseo_medioambiente",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23665/1/2020",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=cznQkyNy9cQWLClioOIB6g%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=cznQkyNy9cQWLClioOIB6g%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "3dbb77440be92a84c2d8394c14ab15f91c0387ed6609040acec1698eadf805bd",
+            "bytes": 431955,
+            "verified_at": "2026-10-01T02:14:18.860533+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "192",
+          "fecha": "2020-04-07",
+          "titulo": "Sobre publicidad y propaganda en la Comuna de Providencia N° 192: Modifícase la Ordenanza N°4 de 14 de febrero de 2002, Sobre Publicidad y Propaganda en la Comuna de Providencia, cuyo texto refundido y sistematizado fue aprobado por Decreto Alcaldicio EX",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23081/1/2020",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=D%2BGlPdaxGRdwAnfWEdtuvg%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=D%2BGlPdaxGRdwAnfWEdtuvg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "47fa7bd6048adb231d591e2c1c052e98f398bc9b9971b9c3fd45e05684893509",
+            "bytes": 1861953,
+            "verified_at": "2026-10-01T02:15:29.301993+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "190",
+          "fecha": "2020-03-17",
+          "titulo": "Sobre la actividad comercial, de alcoholes, industrial, profesional y de servicios N° 190: Agrégase el siguiente artículo Transitorio a la Ordenanza Comunal N°2 de fecha 6 de marzo de 2000, \"Sobre la Actividad Comercial, de Alcoholes, Industrial , Porfesional y de Servicios\"",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23080/1/2020",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=mPxggMkmLaIV8%2B%2F7Edndgg%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=mPxggMkmLaIV8%2B%2F7Edndgg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "710f6744ec4ce79d6e572137e7fc526acf7ae0a6100c69ed2f8812b0aa39b9d0",
+            "bytes": 556725,
+            "verified_at": "2026-10-01T02:15:11.995497+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "189",
+          "fecha": "2020-02-06",
+          "titulo": "Ordenanza N° 189: Apruébese la siguiente ORDENANZA DE GESTION HIDRICA LOCAL",
+          "materia": "Aseo, Ornato y Medio Ambiente",
+          "materia_id": "aseo_medioambiente",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23665/1/2020",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=3ZXILBHIB7x9fnrP7HVxEQ%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=3ZXILBHIB7x9fnrP7HVxEQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "34c937729e4cc4ff4f0d2377ba26aa0c6d044ab5a77f20e6a86f9d59299e8183",
+            "bytes": 73924,
+            "verified_at": "2026-10-01T02:14:19.396651+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "188",
+          "fecha": "2020-01-15",
+          "titulo": "Ordenanza N° 188: Modifícase la Ordenanza sobre \"CONDICIONES NECESARIAS PARA LA FIJACION DE TARIFAS DEL SERVICIO DOMICILIARIO POR EXTRACCION DE BASURAS Y EXENCIONES TOTAL Y PARCIAL\", cuyo texto refundido y sistematizado fue fijado por EX°809 de 8",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23063/1/2020",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=KrVgMPtOTYcQAHKuiqAG6Q%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=KrVgMPtOTYcQAHKuiqAG6Q%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "0109e9c6102b6982d858c68e0d917117a6b24bcf61d6950718797b27fa700d05",
+            "bytes": 300722,
+            "verified_at": "2026-10-01T02:14:17.673850+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1966",
+          "fecha": "2019-12-18",
+          "titulo": "Sobre derechos municipales N° 1966: Fíjase el siguiente tecto refundido y sistematizado de la \"Ordenanza Local Sobre Derechos Municipales\" que regirá en el año 2020",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2019",
+          "target_url": "https://firma.providencia.cl/dsign/temp/0001490733.PDF",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/temp/0001490733.PDF",
+            "content_type": "application/pdf",
+            "sha256": "443b6e5cb81164d4058e3ad637b55c56193d877b929a09520c2e87999e0c7806",
+            "bytes": 12122000,
+            "verified_at": "2026-10-01T02:15:47.515751+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "187",
+          "fecha": "2019-10-30",
+          "titulo": "Sobre derechos municipales N° 187: Modifícase la Ordenanza Local Sobre Derechos Municipales, que rige para el año 2019, cuyo texto refundido y sistematizado fue fijado por EXN°1",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2019",
+          "target_url": "https://firma.providencia.cl/dsign/temp/0001477770.PDF",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/temp/0001477770.PDF",
+            "content_type": "application/pdf",
+            "sha256": "5246c08c715168dc0a0a91a4c680b20f5255427b5707d1d0235e19c3a1e6cce9",
+            "bytes": 6838797,
+            "verified_at": "2026-10-01T02:15:49.086509+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "186",
+          "fecha": "2019-10-29",
+          "titulo": "Cobro de derecho de aseo domiciliario N° 186: Fíjase en UTM 2,14 anual, el monto por dercho para el servicio domiciliario de aseo",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23083/1/2019",
+          "target_url": "https://firma.providencia.cl/dsign/temp/0001477537.PDF",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/temp/0001477537.PDF",
+            "content_type": "application/pdf",
+            "sha256": "a5270bcf4d82957fc722d000732064e5ac36d10ae98db72717c0870b71120b08",
+            "bytes": 8296423,
+            "verified_at": "2026-10-01T02:15:35.987360+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "185",
+          "fecha": "2019-09-25",
+          "titulo": "Sobre subvenciones municipales N° 185: Apruébase la \"Ordenanza sobre Subvenciones Municipales\"",
+          "materia": "Subvenciones y Régimen Interno",
+          "materia_id": "organizacion_interna",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23098/1/2019",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=gPJVV9vlA5J%2B%2FxmYsCLK7Q%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=gPJVV9vlA5J%2B%2FxmYsCLK7Q%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "1fed7718280d18be95289d88c05969c94802b3b4e74891934482df4808149a66",
+            "bytes": 2422343,
+            "verified_at": "2026-10-01T02:16:57.142596+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "184",
+          "fecha": "2019-07-08",
+          "titulo": "Ordenanza N° 184: Apruébese la Ordenanza SOBRE MANTENIMIENTO Y FISCALIZACIÓN DE CABLEADO AÉREO EN LA COMUNA DE PROVIDENCIA",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23611/1/2019",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=x6jAMQeHu133DZM7L0vnuQ%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=x6jAMQeHu133DZM7L0vnuQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "f25b880e6928795243b2986ad04ed368e858eb310d8feab864f2bb3c79aae254",
+            "bytes": 783511,
+            "verified_at": "2026-10-01T02:14:41.864513+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "183",
+          "fecha": "2019-06-10",
+          "titulo": "Sobre derechos municipales N° 183: Modifícase la ORDENANZA LOCAL SOBRE DERECHOS MUNICIPALES, que rige para el año 2019",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2019",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=o0u%2B2nOgXBwAL%2BNv27fUFA%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=o0u%2B2nOgXBwAL%2BNv27fUFA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "95b7800400a2a52e9e94c6bfdfe688e77021d02a8ca0309b11adc89c359916b4",
+            "bytes": 972535,
+            "verified_at": "2026-10-01T02:15:49.753838+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "182",
+          "fecha": "2019-04-29",
+          "titulo": "Ordenanza N° 182: Apruébase la Ordenanza \"SOBRE PLASTICOS DE UN SOLO USO EN LA COMUNA DE PROVIDENCIA\"",
+          "materia": "Aseo, Ornato y Medio Ambiente",
+          "materia_id": "aseo_medioambiente",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23602/1/2019",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=m1ciWzr7bPPKYQDtolD2kw%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=m1ciWzr7bPPKYQDtolD2kw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "dd955d05500248e7d1c27856c5515b5bc3d1833cf8e91c89e38f5d93726f3a03",
+            "bytes": 1124559,
+            "verified_at": "2026-10-01T02:14:25.064144+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "579",
+          "fecha": "2019-04-17",
+          "titulo": "Sobre publicidad y propaganda en la comuna de Providencia N° 579: Apruébase el siguiente texto refundido y sistematizado de la Ordenanza \"Sobre publicidad y propaganda en la comuna de Providencia\"",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23081/1/2019",
+          "target_url": "https://firma.providencia.cl/dsign/temp/0001424921.PDF",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/temp/0001424921.PDF",
+            "content_type": "application/pdf",
+            "sha256": "bb4b663d7dc78eb3e4034d6ae78499c781981fc52d1868b18b50ecab5c5637a1",
+            "bytes": 15743699,
+            "verified_at": "2026-10-01T02:15:24.794209+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "181",
+          "fecha": "2019-04-09",
+          "titulo": "Sobre publicidad y propaganda en la Comuna de Providencia N° 181: Modifícase la Ordenanza N°4 de 14 de Febrero de 2002, Sobre Publicidad y Propaganda en la Comuna de Providencia",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23081/1/2019",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=0DdRnsvqj7E00UK0%2BoFPpQ%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=0DdRnsvqj7E00UK0%2BoFPpQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "7a8e0e52f6545893db0ec6a5eef4a68e72bfb63db3d475a57afb4f30204018c1",
+            "bytes": 3977822,
+            "verified_at": "2026-10-01T02:15:26.003463+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "180",
+          "fecha": "2019-04-08",
+          "titulo": "Sobre derechos municipales N° 180: Modifícase la \"Ordenanza Local sobre Derechos muncipales\" que rige para el año 2019",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2019",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=dRCpY1vat6ezNRTj1HxxPA%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=dRCpY1vat6ezNRTj1HxxPA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "15f3fdd95e2e53b97c6c51424681bde18645916cd4f5e1598edef344dec7be46",
+            "bytes": 569669,
+            "verified_at": "2026-10-01T02:15:50.399563+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "319",
+          "fecha": "2019-03-01",
+          "titulo": "Decreto Exento N° 319: Fíjese el siguiente texto refundido y sistematizado de la Ordenanza Local para el \"OTORGAMIENTO DE PATENTES MUNICIPALES PROVISORIAS EN LA COMUNA DE PROVIDENCIA\"",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23144/1/2019",
+          "target_url": "https://firma.providencia.cl/dsign/temp/0001411808.PDF",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/temp/0001411808.PDF",
+            "content_type": "application/pdf",
+            "sha256": "82febcfa25f4117e43af97a6661640469400bef6de6bb1d1220882ba0a977360",
+            "bytes": 4272512,
+            "verified_at": "2026-10-01T02:15:00.823678+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "179",
+          "fecha": "2019-02-08",
+          "titulo": "Ordenanza N° 179: Sustitúyanse el encabezamiento y letra a) del Artículo 1° de la Ordenanza Local para el \"OTORGAMIENTO DE PATENTES MUNICIPALES PROVISORIA EN LA COMUNA DE PROVIDENCIA\"",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23144/1/2019",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=F14ghCayUnKj3Z7N0DPr2w%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=F14ghCayUnKj3Z7N0DPr2w%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "faa9876ee03941bf9135314adc0ac2125757747bcef740946727a2d99e8d8adb",
+            "bytes": 950108,
+            "verified_at": "2026-10-01T02:15:01.658290+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "178",
+          "fecha": "2019-01-25",
+          "titulo": "Sobre derechos Municipales N° 178: Modifícase la Ordenanza Local de Derechos Municipales\" que rige para el año 2019, cuyo texto refundido y sistematizado fue fijado por Decreto Alcaldicio EX",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2019",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=4fFPrHWs7xGosSZ%2Bw471uQ%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=4fFPrHWs7xGosSZ%2Bw471uQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "2e7f17e2029054a3f154d5772a29199489bc7fcb0caf10d2f2b3ca7c7b0943e7",
+            "bytes": 594266,
+            "verified_at": "2026-10-01T02:15:51.026031+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "177",
+          "fecha": "2019-01-21",
+          "titulo": "Ordenanza N° 177: Derógase la Ordenanza N°9 de 22 de octubre 2003 sobre \"ESTACIONAMIENTOS CONTROLADOS EN LAS VIAS PUBLICAS DE LA COMUNA\", cuyo texto refundido se fijó por Decreto Alcaldicio EX",
+          "materia": "Tránsito, Transporte y Espacio Público",
+          "materia_id": "transito_transporte",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23402/1/2019",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=23PZ8VgTu5Bi2cCNmvq1vg%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=23PZ8VgTu5Bi2cCNmvq1vg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "0404394e67c7b56fe7da2bfbda02ad47b77d1edf989fb1eb97f83dafab604520",
+            "bytes": 1050543,
+            "verified_at": "2026-10-01T02:17:03.671444+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "176",
+          "fecha": "2019-01-15",
+          "titulo": "Ordenanza N° 176: Derógase la Ordenanza N°150 de 11 de junio 2016 sobre \"TENENCIA RESPONSABLE DE MASCOTAS Y BIENESTAR ANIMAL\"",
+          "materia": "Tenencia Responsable de Mascotas",
+          "materia_id": "tenencia_mascotas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23256/1/2019",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=jgLcogH17v%2Brp9NGGVJFSg%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=jgLcogH17v%2Brp9NGGVJFSg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "da4dc7b52eb019824bb7b4e0d0185cfcc7f9f402cfe59ed7c457396386140559",
+            "bytes": 1146421,
+            "verified_at": "2026-10-01T02:17:00.786901+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1920",
+          "fecha": "2018-12-26",
+          "titulo": "Sobre la actividad comercial, de alcoholes, industrial, profesional y de servicios N° 1920: Fíjase el texto refundido y sistematizado de la Ordenanza Comunal N°2 de 6",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23080/1/2018",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=7znVZhye4aK6umuZEbd8KA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=7znVZhye4aK6umuZEbd8KA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "63d472faefe2786da4bf336873a1d8f489d58a8da7773741b996f3132cf6cd45",
+            "bytes": 2648175,
+            "verified_at": "2026-10-01T02:15:02.640027+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1896",
+          "fecha": "2018-12-19",
+          "titulo": "Decreto Exento N° 1896: Fíjase el siguiente texto refundido y sistematizado de la Ordenanza sobre \"ESTACIONAMNIENTOS RESERVADOS PARA VEHICULOS\"",
+          "materia": "Tránsito, Transporte y Espacio Público",
+          "materia_id": "transito_transporte",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23105/1/2018",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=KoKMHRccyTrWe938mobfFw%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=KoKMHRccyTrWe938mobfFw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "fc152c4b157864cd3d70ef6e5843d584e2f7baa6f13e25c158d996d32c7127f1",
+            "bytes": 635644,
+            "verified_at": "2026-10-01T02:17:04.345097+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "175",
+          "fecha": "2018-12-14",
+          "titulo": "Ordenanza N° 175: Modifícase la Ordenanza sobre \"ESTACIONAMIENTO RESERVADO PARA VEHICULOS\", cuyo texto refundio se fijó por Decreto Alcaldicio EX:N°967 de 3 de Julio de 2018",
+          "materia": "Tránsito, Transporte y Espacio Público",
+          "materia_id": "transito_transporte",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23105/1/2018",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=Fzf0tefmgOAqIrVSFjgM5w%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=Fzf0tefmgOAqIrVSFjgM5w%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "14052cef491a300e5f968cf9c56f3c46731528b1637c346c65b0f6732a829598",
+            "bytes": 217380,
+            "verified_at": "2026-10-01T02:17:04.900457+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1855",
+          "fecha": "2018-12-13",
+          "titulo": "Sobre derechos municipales N° 1855: Fíjase el siguiente texto refundido y sistematizado de la \" ORDENANZA LOCAL SOBRE DERECHOS MUNICIPALES\" que regirá en el año 2019",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2018",
+          "target_url": "https://firma.providencia.cl/dsign/temp/0001388701.PDF",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/temp/0001388701.PDF",
+            "content_type": "application/pdf",
+            "sha256": "c56322df59d3b4d9bd92dbc209074e2cf85998ab555c3bc958483ac86fb5b39a",
+            "bytes": 5262869,
+            "verified_at": "2026-10-01T02:15:41.674051+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "174",
+          "fecha": "2018-11-30",
+          "titulo": "Sobre la actividad comercial, de alcoholes, industrial, profesional y de servicios N° 174: Modifícase la Ordenanza  Comunal N°2 de 6",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23080/1/2018",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=cvDvX%2Ba3kzqNrbP%2BZL0O1w%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=cvDvX%2Ba3kzqNrbP%2BZL0O1w%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "0d708a0e44b70e87b6220df14cb3db1fae2db0028d6ed54357d85cf1c98ab4b3",
+            "bytes": 225860,
+            "verified_at": "2026-10-01T02:15:03.201697+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "172",
+          "fecha": "2018-11-08",
+          "titulo": "Ordenanza N° 172: Derógase la Ordenanza N°2 de 31 de Marzo de 1998, que aprobó la Ordenanza para la \"INSTALACION DE TORRES,  ANTENAS Y PARABOLAS PARA CUALQUIER TIPO DE TELECOMUNICACIONES\"",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23072/1/2018",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=CQV57tMsil8bBT4FQKrkMQ%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=CQV57tMsil8bBT4FQKrkMQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "6fcdc54277b714b4bc8526cfe993d6d0d378092cbf1ad075cc353fde9c00d7df",
+            "bytes": 196082,
+            "verified_at": "2026-10-01T02:14:40.219687+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "173",
+          "fecha": "2018-11-08",
+          "titulo": "Ordenanza N° 173: Derógase la Ordenanza N°11 de 11 de noviembre de 2002, que aprobó la Ordenanza para la  ADMINISTRACION DEL GIMNASIO SANTA ISABEL, cuyo texto refundido fue por EXN°1",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23093/1/2018",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=DXZvvRIDdwG9CuR%2FdW5C2g%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=DXZvvRIDdwG9CuR%2FdW5C2g%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "e6d6b36e814fafada7a02e4313a93f3392fe0dc8a9cf2821aa2d6f32dd32fcad",
+            "bytes": 193403,
+            "verified_at": "2026-10-01T02:16:51.376174+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "171",
+          "fecha": "2018-10-31",
+          "titulo": "Sobre derechos municipales N° 171: Modifícase la Ordenana Local sobre Derechos Municipales que rige para el año 2018, cuyo texto refundido y sistematizado fue fijado por  Decreto Alcaldicio EXN°12 de 9",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2018",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=XwdTxmsODAbH1gDia1KXfA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=XwdTxmsODAbH1gDia1KXfA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "546cea91f87c300a37e9150a18ba9fc2824ce43f24c2246e93cebc9c89e502a7",
+            "bytes": 3458968,
+            "verified_at": "2026-10-01T02:15:42.973912+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1529",
+          "fecha": "2018-10-12",
+          "titulo": "Ocupación Comunal sobre Ocupacion Transitoria del Espacio Público por la Ejecución de Faenas N° 1529: Fijase el texto refundido y sistematizado de la \"Ordenanza Comunal sobre Ocupación Transitoria del Espacio Público por la Ejecución de Faenas y Otras Actividades \"",
+          "materia": "Tránsito, Transporte y Espacio Público",
+          "materia_id": "transito_transporte",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23074/1/2018",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=5UhgSrKxok0IlNaY5TRAwQ%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=5UhgSrKxok0IlNaY5TRAwQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "33b2aaa8e6e8c5a4c5fc042e2ee0c681fcca070d31298ae17ac2e4461025bf16",
+            "bytes": 1223406,
+            "verified_at": "2026-10-01T02:14:47.774279+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "170",
+          "fecha": "2018-10-12",
+          "titulo": "Cobro de derecho de aseo domiciliario N° 170: Fíjase en UTM 2,14 anual, el monto por derecho para el servico domiciliario de aseo",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23083/1/2018",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=Ltq4tubIW0ey0QoU0l7t%2Fg%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=Ltq4tubIW0ey0QoU0l7t%2Fg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "e0b58810371e214635b82ac8fd7416597f7c38879e4c1529248f8b38b27b3f89",
+            "bytes": 526425,
+            "verified_at": "2026-10-01T02:15:34.269381+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1504",
+          "fecha": "2018-10-12",
+          "titulo": "Decreto Exento N° 1504: Fíjase el siguiente texto refundido y sistematizado de la \"ORDENANZA DE PARTICIPACION CIUDADANA Y CONVIVENCIA\"",
+          "materia": "Convivencia Vecinal y Seguridad",
+          "materia_id": "convivencia_seguridad",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23095/1/2018",
+          "target_url": "https://firma.providencia.cl/dsign/temp/0001371168.PDF",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/temp/0001371168.PDF",
+            "content_type": "application/pdf",
+            "sha256": "207273588375636e4f4c9ed2e628940cccc88a79180bee0eaaece45e72726e12",
+            "bytes": 11951106,
+            "verified_at": "2026-10-01T02:16:54.340891+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1490",
+          "fecha": "2018-10-10",
+          "titulo": "Sobre Subvenciones Municipales N° 1490: Fíjase el siguiente texto refundido y sistemtizado de la \"Ordenanza sobre subvenciones municipales\"",
+          "materia": "Subvenciones y Régimen Interno",
+          "materia_id": "organizacion_interna",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23098/1/2018",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=zq7r5EwAnufiz35kdYzCxw%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=zq7r5EwAnufiz35kdYzCxw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "deb2099c105ef79a40a4bbbdfb2e8899372741418ceef04a3810d0ec8512c57c",
+            "bytes": 3052303,
+            "verified_at": "2026-10-01T02:16:56.284216+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "169",
+          "fecha": "2018-10-04",
+          "titulo": "Ocupación Comunal sobre Ocupacion Transitoria del Espacio Público por la Ejecución de Faenas N° 169: Modifícase la \"ORDENANZA COMUNAL SOBRE OCUPACION TRANSITORIA DEL ESPACIO PUBLICO POR LA EJECUCION DE FAENAS Y OTRAS ACTIVIDADES\"N°129 DE 14 de Abril de 2014",
+          "materia": "Tránsito, Transporte y Espacio Público",
+          "materia_id": "transito_transporte",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23074/1/2018",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=p0IdJNruFXmhv%2FADd5AVWg%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=p0IdJNruFXmhv%2FADd5AVWg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "82bab2d151fcc365e517b1b1bae23e4cc080f5d2b52b5f06e11ec0cc0777532f",
+            "bytes": 523929,
+            "verified_at": "2026-10-01T02:14:48.373627+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "168",
+          "fecha": "2018-10-04",
+          "titulo": "Ordenanza N° 168: Modifícase la \"ORDENANZA DE PARTICIPACION CIUDADANA Y CONVIVENCIA\" N°152 de 16 de Septiembre de 2016",
+          "materia": "Convivencia Vecinal y Seguridad",
+          "materia_id": "convivencia_seguridad",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23095/1/2018",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=aEhT9Mm1UyONdjOwOfpCjQ%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=aEhT9Mm1UyONdjOwOfpCjQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "ce7a6d974dff45e3767bf9b548222d3f0ee272e0e660137c1bae4f0657572dbf",
+            "bytes": 1118916,
+            "verified_at": "2026-10-01T02:16:55.406715+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1234",
+          "fecha": "2018-08-27",
+          "titulo": "Decreto Exento N° 1234: Fíjase el siguiente texto refundido y sistematizado de la Ordenanza Sobre \"INSTALACIÓN DE MESAS EN EL BIEN NACIONAL DE USO PÚBLICO DE LA COMUNA DE PROVIDENCIA\"",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23070/1/2018",
+          "target_url": "https://firma.providencia.cl/dsign/temp/0001358028.PDF",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/temp/0001358028.PDF",
+            "content_type": "application/pdf",
+            "sha256": "38e38abd081368fd85a42eeb8458e97c8c7309a13245526749896b9548bba033",
+            "bytes": 4540276,
+            "verified_at": "2026-10-01T02:14:33.248253+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1202",
+          "fecha": "2018-08-21",
+          "titulo": "Decreto Exento N° 1202: Fíjase el siguiente texto refundido y sistematizado de la ORDENANZA PARA LA\r\nADMINISTRACION Y ARRENDAMIENTO DE LOCALES Y PILASTRAS DEL MERCADO FUNCIONAL DE PROVIDENCIA",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23090/1/2018",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=x2%2FzTTRXz40zbU0iyD7Y2Q%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=x2%2FzTTRXz40zbU0iyD7Y2Q%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "3188b06ddbe4b8f84a88c5438555100f097b66c9363c04d6f6c5d28be46a2838",
+            "bytes": 1299910,
+            "verified_at": "2026-10-01T02:16:48.644639+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "167",
+          "fecha": "2018-08-07",
+          "titulo": "Ordenanza N° 167: Modifícase la \"ORDENANZA SOBRE LA INSTALACIÓN DE MESAS EN EL BIEN NACIONAL DE USO PÚBLICO DE LA COMUNA DE PROVIDENCIA\", cuyo texto refundido se fijó por Decreto Alcaldicio EX",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23070/1/2018",
+          "target_url": "https://firma.providencia.cl/dsign/temp/0001352731.PDF",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/temp/0001352731.PDF",
+            "content_type": "application/pdf",
+            "sha256": "a2100c983208e187586be4c4dc24efdae6ad6211ab92c680669fd4d25abd804b",
+            "bytes": 4111500,
+            "verified_at": "2026-10-01T02:14:35.348995+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "166",
+          "fecha": "2018-08-07",
+          "titulo": "Ordenanza N° 166: Modifícase la \"ORDENANZA PARA LA ADMINISTRACION Y ARRENDAMIENTO DE LOCALES Y PILASTRAS DEL MERCADO FUNCIONAL DE PROVIDENCIA\", cuyo texto refundido se fijó por Decreto Alcaldicio EX",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23090/1/2018",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=zfInYAxlEKJWf97MPegJ9g%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=zfInYAxlEKJWf97MPegJ9g%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "da7e679e7763042e190b3a0dd40fe14282cd45141952ffcf53c6c4f2a4c6a60f",
+            "bytes": 882861,
+            "verified_at": "2026-10-01T02:16:49.300832+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "165",
+          "fecha": "2018-07-20",
+          "titulo": "Publicación Extracto Ordenanza N°165 de 11.07.2018. N° 165 - Ordenanzas y Textos Refundidos D.O.",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2018",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=WACfwxvYAQt1zbxr8vYC5A%3D%3D",
+          "tipo_norma_clasif": "extracto_do",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=WACfwxvYAQt1zbxr8vYC5A%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "f7065eb9674ecf5d6fb14217d3379924a617e511fe45c5b2d99dadf33f2205cb",
+            "bytes": 29847,
+            "verified_at": "2026-10-01T02:14:12.798786+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1014",
+          "fecha": "2018-07-13",
+          "titulo": "Publicación Extracto Decreto EX.N°1014 de 06.07.2018, que apruéba el texto refundido y sistematizado de la Ordenanza \"SOBRE PUBLICIDAD Y PROPAGANDA EN LA COMUNA DE PROVIDENCIA\". N° 1014 - Ordenanzas y Textos Refundidos D.O.",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2018",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=286MvvIjz%2BWY86iwfqO8EA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=286MvvIjz%2BWY86iwfqO8EA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "70e627384059bae75689c93b59f39cc0b051d1ebff2f0979756a15f5e97676a3",
+            "bytes": 164232,
+            "verified_at": "2026-10-01T02:14:11.192705+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1013",
+          "fecha": "2018-07-13",
+          "titulo": "Publicación Extracto Decreto EX.N°1013 de 06.07.2018, que fija el texto refundido y sistematizado de la ORDENAZA COMUNAL°2 de fecha 6 de Marzo de 2000, \"SOBRE LA ACTIVIDAD COMERCIAL, DE ALCOHOLES, INDUSTRIAL, PROFESIONAL Y DE SERVICIOS\". N° 1013 - Ordenanzas y Textos Refundidos D",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2018",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=i9SXvpPFCyMrLZwr3dnmqw%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=i9SXvpPFCyMrLZwr3dnmqw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "25ebf12d98376842bc9f0c0c88720752f6e9d588033154b90bd201a6a53787d5",
+            "bytes": 164306,
+            "verified_at": "2026-10-01T02:14:11.738031+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "165",
+          "fecha": "2018-07-11",
+          "titulo": "Sobre derechos municipales N° 165: Rectifícase la \"OrdenanzaLocal sobre Derechos Municipales\" que rige para el año 2018, cuyo texto refundido y sistematizado fue fijado por Decreto Alcaldicio EX",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2018",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=LArPxjAoGtcR7o8rS5kp6A%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=LArPxjAoGtcR7o8rS5kp6A%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "1e84d6ef2a794fd20aec71d81d49653e314c531f09917a1707b044a73da40e54",
+            "bytes": 108066,
+            "verified_at": "2026-10-01T02:15:43.582451+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "967",
+          "fecha": "2018-07-06",
+          "titulo": "Extracto publicación el Diario Oficial, Decreto Exento N°967 de 3 de Julio, que fija el texto refundido y sistematizado de la Ordenanza Sobre Estacionamiento Reservado para Vehículos. N° 967: Extracto publicación el Diario Oficial, Decreto Exento N°967 de 3 de Julio, que fija el ",
+          "materia": "Tránsito, Transporte y Espacio Público",
+          "materia_id": "transito_transporte",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2018",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=h2x%2B4fS8MWKlELrEipXe%2Fg%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=h2x%2B4fS8MWKlELrEipXe%2Fg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "1c506e5eaf4b4e74aaaa7a519c2d5ad2af59ef09899dc3a782df8ec59183c9dc",
+            "bytes": 164207,
+            "verified_at": "2026-10-01T02:14:12.290961+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1013",
+          "fecha": "2018-07-06",
+          "titulo": "Sobre la actividad comercial, de alcoholes, industrial, profesional y de servicios N° 1013: Fíjase el siguiente texto refundido y sistematizado de la Ordenanza Comunal N°2 de fecha 6 de Marzo de 2000, \"Sobre la actividad comercial, de alcohles, industrial, profesional y de servic",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23080/1/2018",
+          "target_url": "https://firma.providencia.cl/dsign/temp/0001344401.PDF",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/temp/0001344401.PDF",
+            "content_type": "application/pdf",
+            "sha256": "318cdac70f9099b826a7bab27f85276514bcf410dbb7ac5c0085a39283c73c0b",
+            "bytes": 17616933,
+            "verified_at": "2026-10-01T02:15:06.540730+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1014",
+          "fecha": "2018-07-06",
+          "titulo": "Sobre publicidad y propaganda en la Comuna de Providencia N° 1014: Apruébase el siguiente texto refundido y sistematizado de la Ordenanza \"Sobre publicidad y propaganda en la comuna de Providencia\"",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23081/1/2018",
+          "target_url": "https://firma.providencia.cl/dsign/temp/0001344408.PDF",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/temp/0001344408.PDF",
+            "content_type": "application/pdf",
+            "sha256": "e2efcefe7748ae17c6abc041665dff1ce65ea7ceca72a31a22a94e0451d4d06f",
+            "bytes": 12745239,
+            "verified_at": "2026-10-01T02:15:22.081847+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "967",
+          "fecha": "2018-07-03",
+          "titulo": "Decreto Exento N° 967: Fíjase el siguiente texto refundido de la Ordenanza sobre \"ESTACIONAMIENTO RESERVADO PARA VEHICULOS\"",
+          "materia": "Tránsito, Transporte y Espacio Público",
+          "materia_id": "transito_transporte",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23105/1/2018",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=87ohkO98qv9r7EGLtKFG2A%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=87ohkO98qv9r7EGLtKFG2A%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "645ed5440de96246c0de7b649b63fa72b42f789535d2f369a55086df9b0db0ab",
+            "bytes": 3058987,
+            "verified_at": "2026-10-01T02:17:05.773427+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "164",
+          "fecha": "2018-06-16",
+          "titulo": "Extracto publicación del Diario Oficial de Ordenanza N°164 de 12 de Junio de 2018 N° 164: Extracto publicación del Diario Oficial de Ordenanza N°164 de 12 de Junio de 2018",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2018",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=K8%2Bors1a9Zep5BP%2B8s6hYQ%3D%3D",
+          "tipo_norma_clasif": "extracto_do",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=K8%2Bors1a9Zep5BP%2B8s6hYQ%3D%3D",
+            "content_type": "text/html",
+            "sha256": "6c3f4d14afc7968667f000e07c003cdccb1b442708b3b142144f6638da9e8ba3",
+            "bytes": 1552,
+            "verified_at": "2026-10-01T02:14:13.370821+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "162",
+          "fecha": "2018-06-14",
+          "titulo": "Extracto publicación del Diario Oficial de Ordenanza N°162 de 8 de Junio de 2018 N° 162: Extracto publicación del Diario Oficial de Ordenanza N°162 de 8 de Junio de 2018",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2018",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=jFulfE8figtPkonlNruVuA%3D%3D",
+          "tipo_norma_clasif": "extracto_do",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=jFulfE8figtPkonlNruVuA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "4e2596bff9452bdceed112d325a8351075bdb493f975c918456717643da83627",
+            "bytes": 38023,
+            "verified_at": "2026-10-01T02:14:14.452535+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "164",
+          "fecha": "2018-06-12",
+          "titulo": "Sobre derechos municipales N° 164: Modifícase la Ordenanza Local sobre Derechos Municipales que rige para el año 2018, texto refundido y sistematizado por EXN°12 de 9 de Eero de 2018 en el sentido de agregar inciso al final del art",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2018",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=dgopKQgyk86JsUgjIWqx1w%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=dgopKQgyk86JsUgjIWqx1w%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "6270544edba0617bad171390fed89c5c3fa687dbbb8a5c1e4e251ff0404a528e",
+            "bytes": 163789,
+            "verified_at": "2026-10-01T02:15:44.220351+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "163",
+          "fecha": "2018-06-11",
+          "titulo": "Extracto publicación del Diario Oficial de Ordenanza N°163 de 11 de Junio de 2018 N° 163: Extracto publicación del Diario Oficial de Ordenanza N°163 de 11 de Junio de 2018",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2018",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=0IZnZ1nbcQ7C8kPOaHU0xA%3D%3D",
+          "tipo_norma_clasif": "extracto_do",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=0IZnZ1nbcQ7C8kPOaHU0xA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "b5279e6798dffb62c88f9b9d81c576d3044ebc0613e68f62c37e04f131978866",
+            "bytes": 38199,
+            "verified_at": "2026-10-01T02:14:13.878405+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "162",
+          "fecha": "2018-06-08",
+          "titulo": "Sobre la actividad comercial, de alcoholes, industrial, profesional y de servicios N° 162: Modifícase la Ordenanza Comunal N°2 de 6",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23080/1/2018",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=iCQXixB4Bs21E1uY5zoUaA%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=iCQXixB4Bs21E1uY5zoUaA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "534c9ae8538cefe902ffa1c8aaf7510a54d72c85f835cc54068ca9f6f6da9345",
+            "bytes": 166389,
+            "verified_at": "2026-10-01T02:15:07.133085+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "12",
+          "fecha": "2018-01-09",
+          "titulo": "Sobre derechos municipales N° 12: Fíjase el siguiente texto refundido y sistematizado de la \"Ordenanza Local Sobre Derechos Municipales\" que regirá en el año 2018",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2018",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=XE%2FFUlCoVwF4BaS36atN%2BA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=XE%2FFUlCoVwF4BaS36atN%2BA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "a4408afc7b4d70568042933e1ed5246b32fcb6da5c2988e3456a1cc4a31fc8af",
+            "bytes": 2966583,
+            "verified_at": "2026-10-01T02:15:45.079647+00:00"
           },
           "rdf_url": null
         },
@@ -45641,6 +48437,50 @@ window.CATASTRO_DATA = {
           "badge_border": "border-zinc-700",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=1111091",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2017-11-21/160/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "160",
+          "fecha": "2017-11-21",
+          "titulo": "Ordenanza N° 160, de 15 de noviembre de 2017, que modifica la Ordenanza Local Sobre Derechos Municipales N° 160: Ordenanza N° 160, de 15 de noviembre de 2017, que modifica la Ordenanza Local Sobre Derechos Municipales",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2017",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=PaZVOQPBFRp%2BJMKm89eesg%3D%3D",
+          "tipo_norma_clasif": "modificacion",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=PaZVOQPBFRp%2BJMKm89eesg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "ac22b4bf12013cbe6d2fda22e28524fbf97592617a64941519b805e945352094",
+            "bytes": 37824,
+            "verified_at": "2026-10-01T14:53:07.490820+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "160",
+          "fecha": "2017-11-15",
+          "titulo": "Sobre derechos municipales N° 160: Modifícase el N°1 de la Ordenanza N°159 de 31 de Octubre de 2017, mediante la cual se modificó la \"Ordenanza Local sobre Decrechos Municipales\" que rige para el año 2017, en el siguiente sentido",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2017",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=9NSsupMBUltC3ttaPMM9Ig%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=9NSsupMBUltC3ttaPMM9Ig%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "1f712773aaece95dee3e5829ada5c5f6a5bc1b875f5034f10da2c6a99cc1b4e3",
+            "bytes": 518729,
+            "verified_at": "2026-10-01T14:55:11.849556+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 1047,
@@ -45675,6 +48515,94 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2017-11-07/159/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "159",
+          "fecha": "2017-11-07",
+          "titulo": "Ordenanza N° 159, de 31 de octubre de 2017, que modifica la Ordenanza local sobre Derechos Municipales.- N° 159: Ordenanza N° 159, de 31 de octubre de 2017, que modifica la Ordenanza local sobre Derechos Municipales",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2017",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=QgPNAjw6AtPMnCtwjYlvHw%3D%3D",
+          "tipo_norma_clasif": "modificacion",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=QgPNAjw6AtPMnCtwjYlvHw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "868b1efca481ed96f99723b9e9c4c9b45f8455ee830595e337b76725c62bf66c",
+            "bytes": 37889,
+            "verified_at": "2026-10-01T14:53:07.963461+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "158",
+          "fecha": "2017-11-07",
+          "titulo": "Ordenanza N° 158, de 30 de octubre de 2017, que modifica la Ordenanza local sobre Derechos Municipales N° 158: Ordenanza N° 158, de 30 de octubre de 2017, que modifica la Ordenanza local sobre Derechos Municipales",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2017",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=KTVQALpKdjYWq68NTRTHrA%3D%3D",
+          "tipo_norma_clasif": "modificacion",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=KTVQALpKdjYWq68NTRTHrA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "352e8880a8ca5f29e51b3096e515889db7f3752eb3da520b4c85cdb9df3e5660",
+            "bytes": 37869,
+            "verified_at": "2026-10-01T14:53:08.508991+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "159",
+          "fecha": "2017-10-31",
+          "titulo": "Sobre derechos municipales N° 159: Modifícase la \"Ordenanza local sobre derechos municipales\" que rige para el año 2017, cuyo texto refundido y sistematizado fue fijado por Decreto Alcaldicio EX",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2017",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=fdFyN1Y3pQmhSY2xwbcIvQ%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=fdFyN1Y3pQmhSY2xwbcIvQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "b3c827fe2362b4f0d07537a805d0254fa166a362b6dd6b2449eed6d24788c32e",
+            "bytes": 539710,
+            "verified_at": "2026-10-01T14:55:12.389877+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "158",
+          "fecha": "2017-10-30",
+          "titulo": "Sobre derechos municipales N° 158: Modifícase la \"Ordenanza Local sobre Derechos Municipales\" que rige para el año 2017, cuyo texto refundido y sistematizado fue fijado por Decreto Alcaldicio EX",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2017",
+          "target_url": "https://firma.providencia.cl/dsign/temp/0001218525.PDF",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/temp/0001218525.PDF",
+            "content_type": "application/pdf",
+            "sha256": "36b8e41cece0e3924029307f41dfd47f7d0a34b4938d59af61da088b6b582559",
+            "bytes": 15997457,
+            "verified_at": "2026-10-01T14:55:15.064188+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 1046,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -45689,6 +48617,402 @@ window.CATASTRO_DATA = {
           "badge_border": "border-indigo-500/30",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=1109525",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2017-10-19/157/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "157",
+          "fecha": "2017-10-19",
+          "titulo": "Ordenanza N°157  de  13 de Octubre de 2017 que fija el monto anual por derecho para el Servicio Domiciliario de Aseo N° 157: Ordenanza N°157  de  13 de Octubre de 2017 que fija el monto anual por derecho para el Servicio Domiciliario de Aseo",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2017",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=v5PX%2FrQF1TsuMlGAuqfSvQ%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=v5PX%2FrQF1TsuMlGAuqfSvQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "e9b8e0a604e85053805e04e37aa42ec4e4743111cd16019c9f7ee478f339c070",
+            "bytes": 38914,
+            "verified_at": "2026-10-01T14:53:09.001827+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "157",
+          "fecha": "2017-10-13",
+          "titulo": "Cobro de derecho de aseo domiciliario N° 157: Fíjase en UTM 2,14 anual, el monto por derecho para el servicio domiciliario de aseo",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23083/1/2017",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=5Q4na8XQCfHl0vGb4u7anQ%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=5Q4na8XQCfHl0vGb4u7anQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "bf10b51519e79fe5223045e83e704f3c807af9fb052fcd71781e8a915d4481a5",
+            "bytes": 516547,
+            "verified_at": "2026-10-01T14:54:11.846149+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "809",
+          "fecha": "2017-05-15",
+          "titulo": "Extracto de EXN°809 de 8 de Mayo de 2017- Diario Oficial 15.05.2017 sobre la Ordenanza \"Condiciones necesarias para la fijación de tarifas del servicio domiciliario por extracción de basuras y exenciones total y parcial\". N° 809: Extracto de EXN°809 de 8 de Mayo de 2017- Diario O",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2017",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=QJcEC9aIM670KVXL%2Bq43BA%3D%3D",
+          "tipo_norma_clasif": "extracto_do",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=QJcEC9aIM670KVXL%2Bq43BA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "aee93bf1589f027ce5b613aa06bfef2764faa744ad66aac9409d9567169c6d81",
+            "bytes": 164308,
+            "verified_at": "2026-10-01T14:53:06.991914+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "809",
+          "fecha": "2017-05-08",
+          "titulo": "Condiciones necesarias para la fijación de Tarifas del Servicio Domiciliario por Extracción de basuras y Exenciones Total y Parcial N° 809: Fíjase el siguiente texto refundido y sistematizado de la Ordenanza sobre \"Condiciones necesarias para la fijación de tarifas del servicio d",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23063/1/2017",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=nppNdIC7dSWD2FwaG9EgBg%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=nppNdIC7dSWD2FwaG9EgBg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "a0d4ce0f2d46e014bb3c5750bf7a49a7bbe72c710a452e77280f7d2da706ead6",
+            "bytes": 399148,
+            "verified_at": "2026-10-01T14:53:16.880528+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "156",
+          "fecha": "2017-04-28",
+          "titulo": "Modificase la Ordenanza N°65 de 19 de Noviembre de 2017, sobre Condiciones Necesarias para la Fijación de Tarifas del servicio Domiciliario por Extracción de Basuras y Exenciones total y Parcial, cuyto texto refundido y sistematizado fue fijado por EXN°2.265 de 28.12.2016, en el ",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2017",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=7%2FsLp9KGcF%2FNbleSLk7Fag%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=7%2FsLp9KGcF%2FNbleSLk7Fag%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "7d3f43777736652eb1f5b5ad14bd4df617a95d6036e8c9bd5cc13b46db444be5",
+            "bytes": 167692,
+            "verified_at": "2026-10-01T14:53:09.487818+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "156",
+          "fecha": "2017-04-18",
+          "titulo": "Condiciones necesarias para la fijación de Tarifas del Servicio Domiciliario por Extracción de Basuras y Exenciones Total y Parcial N° 156: Modifícase la Ordenanza N°65 de 19",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23063/1/2017",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=sb%2FHAkQO0h3FYsO%2B26qwRg%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=sb%2FHAkQO0h3FYsO%2B26qwRg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "60b90d1a1c66843c26d61b3e0e1a62aa36b6e4b6998babba3c4450842e2a5fe4",
+            "bytes": 730950,
+            "verified_at": "2026-10-01T14:53:17.548865+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "2265",
+          "fecha": "2016-12-28",
+          "titulo": "Condiciones necesarias para la fijación de Tarifas del Servicio Domiciliario por Extracción de basuras y Exenciones Total y Parcial N° 2265: Fíjase el siguiente texto refundido y sistematizado de la Ordenanza sobre \"Condiciones necesarias para la fijación de tarifas del Servicio ",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23063/1/2016",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=lzQqw5zt2zAEE93u6HGyzA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=lzQqw5zt2zAEE93u6HGyzA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "387c35def61c3ef71a18999987dc949af79fa0e735c69caa5f135f0ed0a5f747",
+            "bytes": 723803,
+            "verified_at": "2026-10-01T14:53:15.853131+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "2031",
+          "fecha": "2016-12-09",
+          "titulo": "Publicación EX.2031, en Diario Oficial el 09.12.2016.- N° 2031 - Ordenanzas y Textos Refundidos D.O.",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2016",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=QFqw2nGN%2FRrSEPugaamBjw%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=QFqw2nGN%2FRrSEPugaamBjw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "b714cbb487b1730a1b0e632101a7108819f136a64a76e78ac2b8a004256932e2",
+            "bytes": 164306,
+            "verified_at": "2026-10-01T14:53:01.101139+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "155",
+          "fecha": "2016-12-09",
+          "titulo": "Publicación Ordenanza N°155 de 2016, en Diario Oficial el 09.12.2016. N° 155 - Ordenanzas y Textos Refundidos D.O.",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2016",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=htQBAU4T5XzYjAldHNaw6Q%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=htQBAU4T5XzYjAldHNaw6Q%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "997e680189b4f390cb745aac358fc6a177bcda38444a5b8c23b8098eb4031180",
+            "bytes": 164319,
+            "verified_at": "2026-10-01T14:53:02.959778+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "2009",
+          "fecha": "2016-12-06",
+          "titulo": "Promúlgase la Modificación N°4 Patrimonio del Plan Regulador Comunal de Providencia 2007, aprobado por EXN°131 DE 19.1.2007. Modifica Ordenanza Local año 2007 N° 2009: Promúlgase la Modificación N°4 Patrimonio del Plan Regulador Comunal de Providencia 2007, aprobado por EXN°131 D",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2016",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=Dc0xv1MQD76TXqavLYKJLw%3D%3D",
+          "tipo_norma_clasif": "modificacion",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=Dc0xv1MQD76TXqavLYKJLw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "04dc46cc4b7862788e23637e391786976584c6b3e16ffc8aa34d930914f9dd34",
+            "bytes": 1465335,
+            "verified_at": "2026-10-01T14:53:01.870872+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "2031",
+          "fecha": "2016-11-30",
+          "titulo": "Sobre derechos municipales N° 2031: Fíjase el texto refundido y sistematizado de la Ordenanza Local sobre Derechos Municipals que regirá para el año 2017",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2016",
+          "target_url": "https://firma.providencia.cl/dsign/temp/0001131190.PDF",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/temp/0001131190.PDF",
+            "content_type": "application/pdf",
+            "sha256": "bdea9c49546939b81fb8ec297c16a7c246d8d36b5eb93fb4d7676f4337e5c1e1",
+            "bytes": 4653885,
+            "verified_at": "2026-10-01T14:55:06.196479+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "155",
+          "fecha": "2016-11-29",
+          "titulo": "Condiciones necesarias para la fijación de Tarifas del Servicio Domiciliario por Extracción de Basuras y Exenciones Total y Parcial N° 155: Modifícase la Ordenanza N°65 de 19 de Noviembre de 2007, sobre Condiciones Necesarias para la Fijación de Tarifas del S ervicio Domiciliario",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23063/1/2016",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=GdN9PwHb7CSkEOe6nEWFKw%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=GdN9PwHb7CSkEOe6nEWFKw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "f2377a10b59351ecf2a7c3847f1a13a012f4b8d528a34fde9809fc22efb358ca",
+            "bytes": 192644,
+            "verified_at": "2026-10-01T14:53:16.366893+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "154",
+          "fecha": "2016-11-15",
+          "titulo": "Publicación Diario Oficial Ordenanza N°154 N° 154 - Ordenanzas y Textos Refundidos D.O.",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2016",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=%2BTLlX06N2mQ5D%2FZSCy5voQ%3D%3D",
+          "tipo_norma_clasif": "extracto_do",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=%2BTLlX06N2mQ5D%2FZSCy5voQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "64ebc5b82a7c18dd0e8da0bff3718e73c40eedb30dc9c8ada4c88fd7d166817e",
+            "bytes": 164182,
+            "verified_at": "2026-10-01T14:53:03.598014+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "153",
+          "fecha": "2016-11-15",
+          "titulo": "Publicación Diario Oficial Ordenanza N°153 N° 153 - Ordenanzas y Textos Refundidos D.O.",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2016",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=ZQF0xrU%2BEgXV8deL1kTy5g%3D%3D",
+          "tipo_norma_clasif": "extracto_do",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=ZQF0xrU%2BEgXV8deL1kTy5g%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "e7d86b8db2acc5edad4861d216e945839b2afc9040e74c810720347bfdb1550d",
+            "bytes": 164150,
+            "verified_at": "2026-10-01T14:53:04.178142+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "154",
+          "fecha": "2016-10-27",
+          "titulo": "Cobro de derecho de aseo domiciliario N° 154: Apruébase la siguiente \"Ordenanza de Cobro de Derecho de Aseo Domiciliario para el año 2017\"",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23083/1/2016",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=0UkN5UqwfJnkAlg15WB4sQ%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=0UkN5UqwfJnkAlg15WB4sQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "5b266dd2e75b045c78064e543f048868a0351beb373581bbb5b8c9d9b1242954",
+            "bytes": 279119,
+            "verified_at": "2026-10-01T14:54:11.248821+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "153",
+          "fecha": "2016-10-27",
+          "titulo": "Sobre derechos municipales N° 153: Modifícase la \"Ordenanza Local Sobre Derechos Municipales, que rige para el año 2016, en lo que se indica",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2016",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=U0DVSm2ozEmToiD1y%2BC25w%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=U0DVSm2ozEmToiD1y%2BC25w%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "d455bd30756fb7384e711cd8d61e4e3d4f93e60e0c50129a72c271b71dcfc92d",
+            "bytes": 928986,
+            "verified_at": "2026-10-01T14:55:06.827144+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "152",
+          "fecha": "2016-09-27",
+          "titulo": "Publicación Diario Oficial, Extracto Ordenanza N°152 de 16 de Septiembre de 2016, \"Ordenanza de Participación Ciudadana\". N° 152 - Ordenanzas y Textos Refundidos D.O.",
+          "materia": "Participación Ciudadana",
+          "materia_id": "participacion_ciudadana",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2016",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=vmvb2DWxq8d9nSO2ON7nYQ%3D%3D",
+          "tipo_norma_clasif": "extracto_do",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=vmvb2DWxq8d9nSO2ON7nYQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "bf7591bcee569b4fd29361c37cfbd55c3fde7537c2e9474abd7be4af4868b492",
+            "bytes": 39695,
+            "verified_at": "2026-10-01T14:53:04.733516+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "152",
+          "fecha": "2016-09-16",
+          "titulo": "Participación Ciudadana y Convivencia N° 152: Apruébase la Ordenanza de Participación Ciudadana y Convivencia",
+          "materia": "Convivencia Vecinal y Seguridad",
+          "materia_id": "convivencia_seguridad",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23095/1/2016",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=tnIh6IQnflUSkoIljCweYA%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=tnIh6IQnflUSkoIljCweYA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "1f4a25a621ecb105839c8548724abf009230df5924fc037601de21c9bc913623",
+            "bytes": 1162129,
+            "verified_at": "2026-10-01T14:55:39.170587+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 1045,
@@ -45707,6 +49031,50 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2016-08-27/151/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "151",
+          "fecha": "2016-08-27",
+          "titulo": "Publicación Diario Oficial Ordenanza N°151 N° 151 - Ordenanzas y Textos Refundidos D.O.",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2016",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=ld2Ww989Iy6RvSYZm3in%2Fw%3D%3D",
+          "tipo_norma_clasif": "extracto_do",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=ld2Ww989Iy6RvSYZm3in%2Fw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "97d33bdce68512e0885993d8727959f66643cd22f54a2e939ab2104e58ccbd53",
+            "bytes": 164282,
+            "verified_at": "2026-10-01T14:53:05.311116+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "151",
+          "fecha": "2016-08-24",
+          "titulo": "Sobre derechos municipales N° 151: Modíficase la \"Ordenanza Local Sobre Derechos Municipales\" que rige para el año 2016, cuyo texto refundido y sistematizado fue fijado por Decreto Alcaldicio EX",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2016",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=Z2legKYT9yZsL4gNi7jfOQ%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=Z2legKYT9yZsL4gNi7jfOQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "4dd0fcc7d011facb88edaee8fc6a5574bc1b909b23b86febe0d8fb249a395ca2",
+            "bytes": 200887,
+            "verified_at": "2026-10-01T14:55:07.439883+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 1044,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -45721,6 +49089,50 @@ window.CATASTRO_DATA = {
           "badge_border": "border-zinc-700",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=1092681",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2016-07-19/150/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "150",
+          "fecha": "2016-07-19",
+          "titulo": "Publicación Diario Oficial Ordenanza N°150 de 11.07.2016.- N° 150 - Ordenanzas y Textos Refundidos D.O.",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2016",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=VoWYro6UDFktrNML3yRf%2BQ%3D%3D",
+          "tipo_norma_clasif": "extracto_do",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=VoWYro6UDFktrNML3yRf%2BQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "db905d2753863e19c7325354d149c1c9eab00b39a70deab3bd843b466a1d9dc9",
+            "bytes": 349950,
+            "verified_at": "2026-10-01T14:53:05.820436+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "150",
+          "fecha": "2016-07-11",
+          "titulo": "Tenencia Responsable de Mascotas y Bienestar Animal N° 150: Fíjase la siguiente Ordenanza sobre Tenencia Responsable de Mascotas y Bienestar Animal",
+          "materia": "Tenencia Responsable de Mascotas",
+          "materia_id": "tenencia_mascotas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23256/1/2016",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=EbVevTR1cVYdHCavN%2FHdWA%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=EbVevTR1cVYdHCavN%2FHdWA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "56c5571de56c5596e020420931eec038e7a8079f97daf88e69ea054563cd8c7f",
+            "bytes": 443580,
+            "verified_at": "2026-10-01T14:55:47.248916+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 1043,
@@ -45739,6 +49151,50 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2016-07-06/149/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "149",
+          "fecha": "2016-07-06",
+          "titulo": "Publicación Diario Oficial Extracto Ordenanza N°149 de 29.06.2016.- N° 149 - Ordenanzas y Textos Refundidos D.O.",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2016",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=ElqXKcR9qT3g8dq5HcSOkg%3D%3D",
+          "tipo_norma_clasif": "extracto_do",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=ElqXKcR9qT3g8dq5HcSOkg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "06fada0eb9fa1d51f59154b3cd6382a3dd3bea5583b72e2c3e1a230cb317a634",
+            "bytes": 217390,
+            "verified_at": "2026-10-01T14:53:06.434153+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "149",
+          "fecha": "2016-06-29",
+          "titulo": "Sobre publicidad y propaganda en la Comuna de Providencia N° 149: Modifícase la Ordenanza N°4 de 14 de Febrero de 2002, Sobre Publicidad y Propaganda en la Comuna de Providencia\", en lo que se indica",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23081/1/2016",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=A%2Fwo6saM%2Bcb8mnUOROjPAQ%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=A%2Fwo6saM%2Bcb8mnUOROjPAQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "53c2962d428a5d6ca35d5dc7abae6429461e5df47e32063559b2b9e06d157136",
+            "bytes": 395072,
+            "verified_at": "2026-10-01T14:53:57.574785+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 1042,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -45755,6 +49211,72 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2016-05-20/148/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "148",
+          "fecha": "2016-05-16",
+          "titulo": "Sobre derechos municipales N° 148: Modifícase la Ordenanza N°22 de 28 de Diciembre de 2001 \"Ordenanza local sobre Derechos Municipales\", que rige para el año 2016, cuyo texto y refundido y sistematizado fue fijado por EX",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2016",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=ymN9z4t2TO4NEmYiAtNTNQ%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=ymN9z4t2TO4NEmYiAtNTNQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "4d7d95116e6e84af9d9d097784b67bcc2ad089df82a23275b054906da8e63178",
+            "bytes": 1165145,
+            "verified_at": "2026-10-01T14:55:10.204668+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "629",
+          "fecha": "2016-04-25",
+          "titulo": "Publicación Diario Oficial 25.04.2016 Ex.N°629 N° 629 - Ordenanzas y Textos Refundidos D.O.",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2016",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=i8Vb3Mk6Fi7sqlOUGRDVGQ%3D%3D",
+          "tipo_norma_clasif": "extracto_do",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=i8Vb3Mk6Fi7sqlOUGRDVGQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "860f869fe54ef1a1e9df785039449bc8db60e7403ac5baf29620fa65555d2330",
+            "bytes": 287429,
+            "verified_at": "2026-10-01T14:53:02.439279+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "629",
+          "fecha": "2016-04-15",
+          "titulo": "Estacionamientos Reservados para vehículos N° 629: Fíjase el siguiente texto refundido de la Ordenanza Sobre Estacionamientos Reservados para Vehículos",
+          "materia": "Tránsito, Transporte y Espacio Público",
+          "materia_id": "transito_transporte",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23105/1/2016",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=hdzHjrYcJ8CVle7R0jSMfA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=hdzHjrYcJ8CVle7R0jSMfA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "f13c0eb6db079fa79e10581dd1ae0803a8c8cffe22eef3720e5e88944678cbd1",
+            "bytes": 445515,
+            "verified_at": "2026-10-01T14:55:53.572016+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 1041,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -45769,6 +49291,28 @@ window.CATASTRO_DATA = {
           "badge_border": "border-indigo-500/30",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=1089229",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2016-04-09/147/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "147",
+          "fecha": "2016-04-05",
+          "titulo": "Cobranza de patentes derechos y contribuciones que se encuentran morosas N° 147: Fijese el siguiente texto de la Ordenanza Local sobre \"Normas para la Cobranza de Contribuciones, Impuestos y Derechos Municipales que se encuentran morosos\"",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23078/1/2016",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=UOoAVL%2BjXM%2Fpwl3HVACzcg%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=UOoAVL%2BjXM%2Fpwl3HVACzcg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "c847132d91b316251db22e9c2e8533aeacdd4b97080d35dc2e1f6f54cdf12bee",
+            "bytes": 428618,
+            "verified_at": "2026-10-01T14:53:40.640893+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 1039,
@@ -45803,6 +49347,94 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2016-02-27/146/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "146",
+          "fecha": "2016-02-24",
+          "titulo": "Sobre derechos municipales N° 146: Modifícase la Ordenanza N°22 de 28",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2016",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=afPMCoGlcB8MpRL3dJqyIg%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=afPMCoGlcB8MpRL3dJqyIg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "a167c526e563c83231a179c8d4be3b23fec0c7298250892ccfa377720988ebfa",
+            "bytes": 102499,
+            "verified_at": "2026-10-01T14:55:10.845179+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "17",
+          "fecha": "2016-02-24",
+          "titulo": "Sobre derechos municipales N° 17 - Sobre derechos municipales",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2016",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=kCBZnM0C%2BquZq%2FwL%2Blbq9g%3D%3D",
+          "tipo_norma_clasif": "extracto_do",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=kCBZnM0C%2BquZq%2FwL%2Blbq9g%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "0f12180f6aa997f1243a4587fa1dbe5bb44fdafc17dd6240c61016198ed2ed1a",
+            "bytes": 151617,
+            "verified_at": "2026-10-01T14:55:11.302254+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "16",
+          "fecha": "2016-02-24",
+          "titulo": "Estacionamientos Reservados para vehículos N° 16 - Estacionamientos Reservados para vehículos",
+          "materia": "Tránsito, Transporte y Espacio Público",
+          "materia_id": "transito_transporte",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23105/1/2016",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=UlQjDOImMqTrD%2Fm8oQFtSg%3D%3D",
+          "tipo_norma_clasif": "extracto_do",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=UlQjDOImMqTrD%2Fm8oQFtSg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "991f918f6fc02939992bba1f53e9b20876ff9f3dfa74acd82e5e71f49f74a28d",
+            "bytes": 175000,
+            "verified_at": "2026-10-01T14:55:54.055631+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "145",
+          "fecha": "2016-02-23",
+          "titulo": "Estacionamientos Reservados para vehículos N° 145: ModifÍcase la Ordenanza N°1020 de 21 de septiembre de 1982, sobre Estacionamientos Reservados para Vehículos\", cuyo texto refundido se fijó por EXN°2182 de  7 de Octubre de 2013",
+          "materia": "Tránsito, Transporte y Espacio Público",
+          "materia_id": "transito_transporte",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23105/1/2016",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=v4TE80rFAyLFFvWvnQU64g%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=v4TE80rFAyLFFvWvnQU64g%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "b0689e2cd6abdb4fd5d447345feff3dd43435fe7eaf26b9aec19d0ffe0271e78",
+            "bytes": 230539,
+            "verified_at": "2026-10-01T14:55:54.658745+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "fuente": "BCN",
           "numero": "2103-exento",
           "fecha": "2016-01-16",
@@ -45814,6 +49446,94 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/dto/municipalidad-de-providencia/2016-01-16/2103-exento/datos.json",
           "tipo_norma": "Ordenanza Municipal",
           "estado": "Vigente / LeyChile"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "2103",
+          "fecha": "2015-12-22",
+          "titulo": "Sobre derechos municipales N° 2103: Fijase el siguiente texto refundido y sistematizado de la Ordenanza N°22 de 28 de Diciembre de 2001 y sus modificaciones \"Ordenanza local sobre Derechos Municipales\", que regirá para el año 2016",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2015",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=0xk%2Btju%2FEOmMvWVavhUCwA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=0xk%2Btju%2FEOmMvWVavhUCwA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "9bd73fb4165dfcba0fd6f4cd27bb4a50f6f023a39501cc36c95f3f04639902d1",
+            "bytes": 2236125,
+            "verified_at": "2026-10-01T14:55:02.979502+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1811",
+          "fecha": "2015-11-12",
+          "titulo": "Publicacion Texto Refundido EX.N°1811 en Diario Oficial el día 12.11.2015 N° 1811: Publicacion Texto Refundido EX",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2015",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=AWJx4BiAqJr47DSwDKrzNQ%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=AWJx4BiAqJr47DSwDKrzNQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "46880c7c31c4fcaa77478c9b0ed75ad524dadd934334e0cdeda261d0daf83149",
+            "bytes": 182915,
+            "verified_at": "2026-10-01T14:52:56.035083+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1809",
+          "fecha": "2015-11-06",
+          "titulo": "Decreto Exento N° 1809: Apruébase el siguiente texto refundido y sistematizado de la Ordenanza Nº5 de 26 de Agosto de 1999, sobre \"CIERRE DE CALLES O PASAJES CIEGOS DE LA COMUNA DE PROVIDENCIA\"",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23068/1/2015",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=XDXvvchrcaWK6XRruZztWg%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=XDXvvchrcaWK6XRruZztWg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "df968a25aec8a0b8f010fdc60662f1d67bb5ebd04288da6722394b09445e3268",
+            "bytes": 440545,
+            "verified_at": "2026-10-01T14:53:26.505095+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1811",
+          "fecha": "2015-11-06",
+          "titulo": "Decreto Exento N° 1811: Fíjase el siguiente texto refundido y sistematizado de la Ordenanza sobre \"NOTIFICACIONES Y PUBLICACIONES DE RESOLUCIONES MUNICIPALES\"",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23094/1/2015",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=dysMInn3peauVQtBn0uruw%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=dysMInn3peauVQtBn0uruw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "e0eeab401261ac4c4b2d5dc0a5da7622d1ee6a058552c693743bbf2f7d9f27f8",
+            "bytes": 405965,
+            "verified_at": "2026-10-01T14:55:30.420547+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 1036,
@@ -45864,6 +49584,182 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2015-11-05/144/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "144",
+          "fecha": "2015-11-05",
+          "titulo": "Publicación Ordenanza N°144 de 27.10.2015, publicada en Diario Oficial 05.11.2015 N° 144 - Ordenanzas y Textos Refundidos D.O.",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2015",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=LUdd3YRUqa8dNTIlPdl2dw%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=LUdd3YRUqa8dNTIlPdl2dw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "63dff14641faa0b15eec9207cee161e5c5802bf864f2a0e1902d96d8175e4351",
+            "bytes": 741572,
+            "verified_at": "2026-10-01T14:52:57.186075+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "143",
+          "fecha": "2015-11-05",
+          "titulo": "Publicación Ordenanza N°143 de 27.10.2015, publicada en Diario Oficial 05.11.2015 N° 143 - Ordenanzas y Textos Refundidos D.O.",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2015",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=e1IFGLxrFYztCvydKZGV4w%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=e1IFGLxrFYztCvydKZGV4w%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "8cef0caa5a41e7918cbf092ca58504e86e2f252c7e6703b6f810a9653285a928",
+            "bytes": 367205,
+            "verified_at": "2026-10-01T14:52:57.761072+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "142",
+          "fecha": "2015-11-05",
+          "titulo": "Publicación Ordenanza N°142 de 27.10.2015, publicada en Diario Oficial 05.11.2015 N° 142 - Ordenanzas y Textos Refundidos D.O.",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2015",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=C5HYvE9QrecS87qgDsCB8Q%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=C5HYvE9QrecS87qgDsCB8Q%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "a42ff8b610da05995c7bac1278b6980ef7a3548de8f235057c1aec47b95c2ab5",
+            "bytes": 513030,
+            "verified_at": "2026-10-01T14:52:58.274855+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "143",
+          "fecha": "2015-10-27",
+          "titulo": "Condiciones necesarias para la fijación de Tarifas del Servicio Domiciliario por Extracción de Basuras y Exenciones Total y Parcial N° 143: Modifícase la Ordenanza N°65 de 19 de Novioembre de 2007, sobre \"Condiciones necesarias para la fijación de trarifas del servicio domiciliar",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23063/1/2015",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=1pnIBuwpyR2dwoQGLl04xA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=1pnIBuwpyR2dwoQGLl04xA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "ab992c0a626da04ad525ac904e0f2a98246ecf61bbb9f7075094e0de1ed31df0",
+            "bytes": 457224,
+            "verified_at": "2026-10-01T14:53:15.135466+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "144",
+          "fecha": "2015-10-27",
+          "titulo": "Cobro de derecho de aseo domiciliario N° 144: Apruébase la siguiente \"Ordenanza de cobro de derechos de aseo domiciliario para el año 2016\"",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23083/1/2015",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=c4sXhs44MGc7urdv8%2BW8CA%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=c4sXhs44MGc7urdv8%2BW8CA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "12ed6ed3304714152da3efba0053281c9b81197c981f45b99c13e964f4cb6216",
+            "bytes": 275663,
+            "verified_at": "2026-10-01T14:54:10.720176+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "142",
+          "fecha": "2015-10-27",
+          "titulo": "Sobre derechos municipales N° 142: Modifícase la Ordenanza N°22 de 28 de Diciembre de 2001 \"Ordenanza Local Sobre Derechos Municipales\" que rige para el año 2015, cuyo texto refundido y sistematizado fue fijado por Decreto Alcaldicio EX",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2015",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=jc5v3F%2FOGRL%2BEG7JkoQXYg%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=jc5v3F%2FOGRL%2BEG7JkoQXYg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "c87f9392795eb7a60f30fec35396d54d88d6060c986e16b9e076c41b63b2d3b9",
+            "bytes": 838043,
+            "verified_at": "2026-10-01T14:55:03.596025+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "141",
+          "fecha": "2015-10-24",
+          "titulo": "Publicación Diario Oficial Ordenanza N°141 de 2015, publicada el 24.10.2015. N° 141 - Ordenanzas y Textos Refundidos D.O.",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2015",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=YDG0PI3XZ6Eg8i9yeWsOHg%3D%3D",
+          "tipo_norma_clasif": "extracto_do",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=YDG0PI3XZ6Eg8i9yeWsOHg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "0d2a882adb13a5e2038f85cd70c88cd38799b5ad455923e3b696c80480e41b65",
+            "bytes": 287984,
+            "verified_at": "2026-10-01T14:52:58.790045+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "141",
+          "fecha": "2015-10-20",
+          "titulo": "Ordenanza N° 141: Modifícase la Ordenanza N°6 de 23 de septiembre de 2003, sobre \"NOTIFICACIONES Y PUBLICIDACIONES DE RSOLUCIONES MUNICIPALES\"",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23094/1/2015",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=pctMDgYHiWE%2BvHvc1Gwcyg%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=pctMDgYHiWE%2BvHvc1Gwcyg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "c592d47aabdebc309e7b92facbde353350dfb126d6bc4f4011af65e54d06802c",
+            "bytes": 414708,
+            "verified_at": "2026-10-01T14:55:30.979107+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 1035,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -45878,6 +49774,28 @@ window.CATASTRO_DATA = {
           "badge_border": "border-rose-500/30",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=1082617",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2015-10-13/140/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "140",
+          "fecha": "2015-10-13",
+          "titulo": "Modifícase la Ordenanza N° de 26 de Agosto de 1999 sobre Cierre de calles o pasajes públicos ciegos de la Comuna de Providencia. Reemplázase el nombre de la Ordenanza por Cierre de  Calles o Pasajes Ciegos de la Comuna de Providencia N° 140: Modifícase la Ordenanza N° de 26 de Ag",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2015",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=gQLSvgcoGB1xotQdFGiMxQ%3D%3D",
+          "tipo_norma_clasif": "modificacion",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=gQLSvgcoGB1xotQdFGiMxQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "4fbfd2745e07df8e43c2a089f34394d98dfd43637134b371ce862addad05f772",
+            "bytes": 243512,
+            "verified_at": "2026-10-01T14:52:59.348452+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 1034,
@@ -45896,6 +49814,72 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2015-08-14/139/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "75",
+          "fecha": "2015-08-14",
+          "titulo": "Publicación en Diario Oficial de Ordenanza N°139, publicada el 14 de Agosto de 2015.- N° 75 - Ordenanzas y Textos Refundidos D.O.",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2015",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=fGC8ITFJgv9fxMjIEM5AIA%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=fGC8ITFJgv9fxMjIEM5AIA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "654ae1bccd0c1ffa78247fef3e48edd32a9fe50a66106e0dc12d32bf02e3cdd8",
+            "bytes": 575909,
+            "verified_at": "2026-10-01T14:53:00.575061+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "139",
+          "fecha": "2015-08-10",
+          "titulo": "Sobre derechos municipales N° 139: Modifícase la Ordenanza Nº22 de 28",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2015",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=iC1plLEZasXJwPQAGwtVBg%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=iC1plLEZasXJwPQAGwtVBg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "931a0053e23b2c681543b11a6238558bf92cfd3673867f336b888e8c5429833b",
+            "bytes": 636510,
+            "verified_at": "2026-10-01T14:55:04.170289+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1178",
+          "fecha": "2015-07-22",
+          "titulo": "Participación Ciudadana  y Convivencia N° 1178: Apruébase el siguiente texto refundido y sistematizado de la Ordenanza de Participación Ciudadana de la Comuna de Providencia",
+          "materia": "Convivencia Vecinal y Seguridad",
+          "materia_id": "convivencia_seguridad",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23095/1/2015",
+          "target_url": "https://firma.providencia.cl/dsign/temp/0001011322.PDF",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/temp/0001011322.PDF",
+            "content_type": "application/pdf",
+            "sha256": "349a454c1fd19b99e13e4b15da516ad76a79dc0e479408a92553d0f19c4c4cd1",
+            "bytes": 7057890,
+            "verified_at": "2026-10-01T14:55:38.529435+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 1033,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -45912,6 +49896,94 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2015-04-28/138/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "138",
+          "fecha": "2015-04-28",
+          "titulo": "Diairio Oficial día 28.4.2015. Ordenanza Nº138 de 21 d e Abril de 2015 sobre la \" Ordenanza del Area de Exclusión de Estacionamientos Pedro de valdivia Nº963 \" N° 138: Diairio Oficial día 28",
+          "materia": "Tránsito, Transporte y Espacio Público",
+          "materia_id": "transito_transporte",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2015",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=EhorAOycUM0wXGoeJ95gGw%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=EhorAOycUM0wXGoeJ95gGw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "577b87fb454a148aa1d994e6bb8f55655edbb8d70bbcc7666913bba57cb7c7b7",
+            "bytes": 420882,
+            "verified_at": "2026-10-01T14:52:59.896991+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "138",
+          "fecha": "2015-04-21",
+          "titulo": "Ordenanza N° 138: Apruébase la \"ORDENANZA DEL AREA DE EXCLUSION DE ESTACIONAMIENTO PEDRO DE VALDIVIA N°963\"",
+          "materia": "Tránsito, Transporte y Espacio Público",
+          "materia_id": "transito_transporte",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23185/1/2015",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=de8%2FiV5a7aVV1kcSyXOtWg%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=de8%2FiV5a7aVV1kcSyXOtWg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "6513579fd4ef655ad160911f28c1b6d2d3ae4cd29242fb7852cbd38e30cd9d95",
+            "bytes": 189477,
+            "verified_at": "2026-10-01T14:55:55.804418+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "2547",
+          "fecha": "2015-03-11",
+          "titulo": "Publicación Diario Oficial de Decreto EX Nº2547 de 23.12.2014.- Extracto de la Ordenanza Local sobre Derechos Municipales para el año 2015 N° 2547 - Ordenanzas y Textos Refundidos D.O.",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2015",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=qXb2DC5UgN%2B8oa1fsMjMCA%3D%3D",
+          "tipo_norma_clasif": "extracto_do",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=qXb2DC5UgN%2B8oa1fsMjMCA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "4b5478283cd3bc12e6afbb8132c5980266420505bae94da986d36e83dbab834f",
+            "bytes": 353965,
+            "verified_at": "2026-10-01T14:52:55.530277+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "2547",
+          "fecha": "2014-12-23",
+          "titulo": "Sobre derechos municipales N° 2547: Fíjase el siguiente texro refundido y sistematizado de la Ordenanza N°22 de 28",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2014",
+          "target_url": "https://firma.providencia.cl/dsign/temp/0000963226.PDF",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/temp/0000963226.PDF",
+            "content_type": "application/pdf",
+            "sha256": "8ed70a5ddd08f6b7b434b511199ba5f96be9c2f0fda2b2b3ba847999c34a0aa1",
+            "bytes": 24307110,
+            "verified_at": "2026-10-01T14:55:00.191834+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 1032,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -45926,6 +49998,50 @@ window.CATASTRO_DATA = {
           "badge_border": "border-sky-500/30",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=1072827",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2014-12-20/137/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "137",
+          "fecha": "2014-12-20",
+          "titulo": "Publicación Diario Oficial Extracto Ordenanza Nº137 de 10.12.2014 N° 137 - Ordenanzas y Textos Refundidos D.O.",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2014",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=o46kQSZSuECJsY1zkUE49g%3D%3D",
+          "tipo_norma_clasif": "extracto_do",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=o46kQSZSuECJsY1zkUE49g%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "bd1a6c7294626c137c504bf5fcbce912a58c82d93a7f3c91612a541c7bb8611a",
+            "bytes": 954152,
+            "verified_at": "2026-10-01T14:52:50.666199+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "137",
+          "fecha": "2014-12-10",
+          "titulo": "Ordenanza N° 137: Apruébase la \"ORDENANZA DE ZONIFICACION Y HORARIOS DE FUNCIONAMIENTO DE LOS ESTABLECIMIENTOS DE EXPENDIO Y CONSUMO DE BEBIDAS ALCOHOLICAS PARA LA CONVIVENCIA JUSTA EN LOS BARRIOS\"",
+          "materia": "Convivencia Vecinal y Seguridad",
+          "materia_id": "convivencia_seguridad",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23134/1/2014",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=6tOAWcCh8zwjbucDU%2F0tgw%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=6tOAWcCh8zwjbucDU%2F0tgw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "c499e4c647cd02ed51afbb9cac04cbd9c46daf6b132b0211e54dcdbebde1db46",
+            "bytes": 1609309,
+            "verified_at": "2026-10-01T14:53:58.268502+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 1028,
@@ -45992,6 +50108,182 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2014-11-07/136/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "136",
+          "fecha": "2014-11-07",
+          "titulo": "Publicación Diario Oficial Ordenanza N°136 N° 136 - Ordenanzas y Textos Refundidos D.O.",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2014",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=zCB9aaF2Tc7bisVw52zB6Q%3D%3D",
+          "tipo_norma_clasif": "extracto_do",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=zCB9aaF2Tc7bisVw52zB6Q%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "946bb7021947ad65debe352cd83a8196d7bed3d8cc3ff4cd2f223eace5b34cf0",
+            "bytes": 197332,
+            "verified_at": "2026-10-01T14:52:51.184021+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "135",
+          "fecha": "2014-11-07",
+          "titulo": "Publicación Diario Oficial Ordenanza N°135. N° 135 - Ordenanzas y Textos Refundidos D.O.",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2014",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=yk47x9lbgFQPl2zv8BEMiQ%3D%3D",
+          "tipo_norma_clasif": "extracto_do",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=yk47x9lbgFQPl2zv8BEMiQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "a737a652f72ab2dd69757f1db69ea28867b58a384b74918ae9866d7989a7f5b2",
+            "bytes": 153843,
+            "verified_at": "2026-10-01T14:52:51.687660+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "134",
+          "fecha": "2014-11-07",
+          "titulo": "Publicación Diario Oficial Extracto Ordenanza N°134 N° 134 - Ordenanzas y Textos Refundidos D.O.",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2014",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=VntFKwwaeql0rn%2Fm33DZ5w%3D%3D",
+          "tipo_norma_clasif": "extracto_do",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=VntFKwwaeql0rn%2Fm33DZ5w%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "fb8a3f6f971407af483d0baefccd2825638ec816f43602bde1696dab58e74720",
+            "bytes": 155218,
+            "verified_at": "2026-10-01T14:52:52.172932+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "133",
+          "fecha": "2014-11-07",
+          "titulo": "Publicación Diario Oficial Ordenanza N°133 N° 133 - Ordenanzas y Textos Refundidos D.O.",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2014",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=lE8YccG3QiffAgUwSA%2FoNA%3D%3D",
+          "tipo_norma_clasif": "extracto_do",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=lE8YccG3QiffAgUwSA%2FoNA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "629cc9a169590ed0ac19c41462a2d5f035b45724a6293bae6aa5fa4e0c2ae5c8",
+            "bytes": 176950,
+            "verified_at": "2026-10-01T14:52:52.690177+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "135",
+          "fecha": "2014-10-29",
+          "titulo": "Ocupación Comunal sobre Ocupacion Transitoria del Espacio Público por la Ejecución de Faenas N° 135: Modifícase la Ordenanza Nº129 de 14 de Abril de 2014 \"Ordenanzsa Comunal sobre Ocupación Transitoria del Espacio Público por la ejecución de faenas y otras actividades\"",
+          "materia": "Tránsito, Transporte y Espacio Público",
+          "materia_id": "transito_transporte",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23074/1/2014",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=yTXd3NOydL1KbDyvHCMLFw%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=yTXd3NOydL1KbDyvHCMLFw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "70a5cacf299a540511d77e644873ed347cb289c67ea3a5fd095724b3074f8ec5",
+            "bytes": 316604,
+            "verified_at": "2026-10-01T14:53:34.194279+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "136",
+          "fecha": "2014-10-29",
+          "titulo": "Otorgamiento de patentes municipales provisorias en la Comuna de Providencia N° 136: Fíjese el siguiente texto de la Ordenanza Local para el \"Otorgamiento de Patentes Municipales Provisorias en la Comuna de Providencia\"",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23144/1/2014",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=wDF0flDmc9xj2GgNhMLSxA%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=wDF0flDmc9xj2GgNhMLSxA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "ca0d09f6619ed8eafca6f314302b921e4e98c3aea535cc42ba3d3379535ccd86",
+            "bytes": 2800480,
+            "verified_at": "2026-10-01T14:53:41.558988+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "133",
+          "fecha": "2014-10-29",
+          "titulo": "Cobro de derecho de aseo domiciliario N° 133: Apruebáse la siguiente Ordenanza de Cobro de Derechi de Aseo Domiciliario para el año 2015",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23083/1/2014",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=BMhBi5Byv6PlJiFw3FyxGQ%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=BMhBi5Byv6PlJiFw3FyxGQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "93b92da8099e73dc7c5a563474e25b0113b158cf0cc76d1568caa8d3245efa77",
+            "bytes": 357983,
+            "verified_at": "2026-10-01T14:54:10.240472+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "134",
+          "fecha": "2014-10-29",
+          "titulo": "Sobre derechos municipales N° 134: Modifícase la Ordenanza Nº22 de 28 de Diciembre de 2001 \"Ordenanza Local sobre Derechos Municipales\", que rige para el año 2014, cuyo texto refundido y sistematizado fue fijado por Decreto Alcaldicio EXNº2590 de 17 de Diciembre de 2013",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2014",
+          "target_url": "https://firma.providencia.cl/dsign/temp/0000951164.PDF",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/temp/0000951164.PDF",
+            "content_type": "application/pdf",
+            "sha256": "b1f202cf95a83fd0c700defb234f4beaee321d9797727acf41bb4de1a0a77a2b",
+            "bytes": 8414216,
+            "verified_at": "2026-10-01T14:55:01.987655+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 1027,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -46006,6 +50298,72 @@ window.CATASTRO_DATA = {
           "badge_border": "border-sky-500/30",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=1068542",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2014-10-17/132/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "132",
+          "fecha": "2014-10-17",
+          "titulo": "Publicación Diario Oficial 17.10.2014. Ordenanza de Zonificación y Horarios de Funcionamiento de los Negocios de Expendio y Consumo de Bebidas Alcohólicas. N° 132 - Ordenanzas y Textos Refundidos D.O.",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2014",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=bAbTRzP9yzwiqLfYv7NnZg%3D%3D",
+          "tipo_norma_clasif": "extracto_do",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=bAbTRzP9yzwiqLfYv7NnZg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "d34c873522a63277517fa696257218073caee0aebc88a188e9fc012d4618e395",
+            "bytes": 1733520,
+            "verified_at": "2026-10-01T14:52:53.889035+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "132",
+          "fecha": "2014-10-07",
+          "titulo": "Ordenanza N° 132: Apruébase la \" ORDENANZA DE ZONIFICACION Y HORARIOS DE FUNCIONAMIENTO DE LOS NEGOCIOS DE EXPENDIO Y CONSUMO DE BEBIDAS ALCOHOLICAS\"",
+          "materia": "Convivencia Vecinal y Seguridad",
+          "materia_id": "convivencia_seguridad",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23134/1/2014",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=9daNecGLH05v%2BddaFyRV6Q%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=9daNecGLH05v%2BddaFyRV6Q%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "52c4a56a1adc973b534f1c2fb81a527e5f22d7342313e054d1cae4fc2c497965",
+            "bytes": 854210,
+            "verified_at": "2026-10-01T14:53:58.836684+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1477",
+          "fecha": "2014-07-09",
+          "titulo": "Sobre publicidad  y propaganda en la Comuna de Providencia N° 1477: Apruebase el siguiente texto refundido y sistematizado de la Ordenanza \"Sobre Publicidad y Propaganda en la comuna de Providencia\"",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23081/1/2014",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=hvrcYLr3xOlwPkCk5iVUSg%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=hvrcYLr3xOlwPkCk5iVUSg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "65e7107ff85615523ceb31bbca6bbe8e6fa146fcb217a465c88107f633097dbb",
+            "bytes": 3358454,
+            "verified_at": "2026-10-01T14:53:56.458570+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 1026,
@@ -46024,6 +50382,50 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2014-06-24/131/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "131",
+          "fecha": "2014-06-24",
+          "titulo": "Publicación Diario Oficial, 24 de Junio de 2014, Ordenanza Nº131 N° 131 - Ordenanzas y Textos Refundidos D.O.",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2014",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=jEOfQ8oegLszNjgxPJEl1A%3D%3D",
+          "tipo_norma_clasif": "extracto_do",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=jEOfQ8oegLszNjgxPJEl1A%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "9c3dc40f55410aed81bafaf65326162f05b3b91554254cedf3737647df98913a",
+            "bytes": 352763,
+            "verified_at": "2026-10-01T14:52:54.387538+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "131",
+          "fecha": "2014-06-19",
+          "titulo": "Sobre publicidad y propaganda en la Comuna de Providencia N° 131: Modifícase la Ordenanza Nº4 de 14",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23081/1/2014",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=4zSwcyH4%2BnOh0awEtKfIXA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=4zSwcyH4%2BnOh0awEtKfIXA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "8f266d92e7185188919c50e546208c041f8bbb472d306ea4a991cfea442070e6",
+            "bytes": 462091,
+            "verified_at": "2026-10-01T14:53:57.017223+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 1025,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -46038,6 +50440,50 @@ window.CATASTRO_DATA = {
           "badge_border": "border-zinc-700",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=1062446",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2014-05-22/130/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "130",
+          "fecha": "2014-05-22",
+          "titulo": "Publicación Diario Oficial 22.05.2014 Ordenanza Nº130 N° 130 - Ordenanzas y Textos Refundidos D.O.",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2014",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=p2ViIdiDBcPLHnXtTWDJFQ%3D%3D",
+          "tipo_norma_clasif": "extracto_do",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=p2ViIdiDBcPLHnXtTWDJFQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "1f4bd7f8abd46562b7ce1d47e3889a94d495f16f7f618c2d87db544f81ba1601",
+            "bytes": 163253,
+            "verified_at": "2026-10-01T14:52:54.891764+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "130",
+          "fecha": "2014-05-15",
+          "titulo": "Participación Ciudadana  y Convivencia N° 130: Modifícase la Ordenanza Nº8 de 29 de Octubre de 1999, \"Ordenanza de Participación Ciudadana de la Comuna de Providencia \", cuyo texto refundido y sistematizado fue fijado por Decreto Alcaldicio EXNº2507 de 30 de Diciembre de 2011",
+          "materia": "Convivencia Vecinal y Seguridad",
+          "materia_id": "convivencia_seguridad",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23095/1/2014",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=d6%2BOVskYRx04po3DCVNQmg%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=d6%2BOVskYRx04po3DCVNQmg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "b71893ca2747acaf294bad3209300f0ff4cb37e3c0195ff9cb8c5d31a787ee0f",
+            "bytes": 59078,
+            "verified_at": "2026-10-01T14:55:36.961448+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 1024,
@@ -46056,6 +50502,94 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2014-04-21/129/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "129",
+          "fecha": "2014-04-14",
+          "titulo": "Ocupación Comunal sobre Ocupacion Transitoria del Espacio Público por la Ejecución de Faenas N° 129: Apruébase la Ordenanza Comunal sobre Ocupación Transitoria del Espacio Público por la Ejecución de Faenas y Otras Actividades",
+          "materia": "Tránsito, Transporte y Espacio Público",
+          "materia_id": "transito_transporte",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23074/1/2014",
+          "target_url": "https://firma.providencia.cl/dsign/temp/0000904475.PDF",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/temp/0000904475.PDF",
+            "content_type": "application/pdf",
+            "sha256": "4aa9bcb533aad4cf426561671956950978d29cadea8f5946416440df0235827b",
+            "bytes": 4047182,
+            "verified_at": "2026-10-01T14:53:35.483395+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "751",
+          "fecha": "2014-04-08",
+          "titulo": "Extracto Decreto Alcaldicio EX.751 de 03.04.2014 N° 751: Extracto Decreto Alcaldicio EX",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2014",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=zwQ5JBsrzIkWucz9B9hiXQ%3D%3D",
+          "tipo_norma_clasif": "extracto_do",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=zwQ5JBsrzIkWucz9B9hiXQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "e89dac9375879392ef5be661e99061c17e4688234e50171457826e43fb0ba741",
+            "bytes": 144236,
+            "verified_at": "2026-10-01T14:52:49.421601+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "751",
+          "fecha": "2014-04-03",
+          "titulo": "De Ornato N° 751: Fíjase el siguiente texto refundido y sistematizado de la Ordenanza Nº1 de 24 de Enero de 2002 \"Ordenanza de Ornato\"",
+          "materia": "Aseo, Ornato y Medio Ambiente",
+          "materia_id": "aseo_medioambiente",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23065/1/2014",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=pa%2BHv5Vqzq1u%2BkI1JtF1Bg%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=pa%2BHv5Vqzq1u%2BkI1JtF1Bg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "1141c06b997aa2163b2f3acd8bcfe9aaf09828ef77504f13cd48e9c32e5c75a3",
+            "bytes": 117663,
+            "verified_at": "2026-10-01T14:53:23.123539+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "277",
+          "fecha": "2014-03-26",
+          "titulo": "Publicación Diario Oficial 26 de Marzo de 2014. N° 277 - Ordenanzas y Textos Refundidos D.O.",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2014",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=iAEtVld23hig%2BVLhdjbCgA%3D%3D",
+          "tipo_norma_clasif": "extracto_do",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=iAEtVld23hig%2BVLhdjbCgA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "d6f2f7759b6e227d13fe484feecd8171dd331606aa9c134815b2089b942faf5e",
+            "bytes": 152697,
+            "verified_at": "2026-10-01T14:52:49.930793+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 1023,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -46070,6 +50604,94 @@ window.CATASTRO_DATA = {
           "badge_border": "border-emerald-500/30",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=1060355",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2014-03-17/128/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "128",
+          "fecha": "2014-03-05",
+          "titulo": "De Ornato N° 128: Modifícase la Ordenanza N°1 de 24",
+          "materia": "Aseo, Ornato y Medio Ambiente",
+          "materia_id": "aseo_medioambiente",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23065/1/2014",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=no7owVG1XhuksNU97WZjNg%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=no7owVG1XhuksNU97WZjNg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "133fcdb83482ec00e789f64d0bbf3bd3418c59e7bce327ef12fc8ba4a908de90",
+            "bytes": 54031,
+            "verified_at": "2026-10-01T14:53:23.616114+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "277",
+          "fecha": "2014-02-04",
+          "titulo": "Sobre la actividad comercial, de alcoholes, industrial, profesional y de servicios N° 277: Fíjase el siguiente texto refundido y sistematizado de la Ordenanza Comunal Nº2 de fecha 06 de Marzo de 2000 \"Sobre la actividad comercial, de alcoholes, industrial, profesional y de servic",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23080/1/2014",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=QepDJVgNGrpdr74A4F7C6A%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=QepDJVgNGrpdr74A4F7C6A%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "35844aae3f85dc60807daf05467f419bbce5ad3fd967eb61f8214f7202143236",
+            "bytes": 1242866,
+            "verified_at": "2026-10-01T14:53:48.545087+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "278",
+          "fecha": "2014-02-04",
+          "titulo": "Notificaciones y publicaciones de resoluciones municipales N° 278: Fíjase el siguiente texto refundido y sistematizado de la Ordenanza sobre \"Notificaciones y publicaciones de resoluciones municipales\", que produzcan efecto fuera del Municipio",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23094/1/2014",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=IwzE2vK104HqPmNxPgti5w%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=IwzE2vK104HqPmNxPgti5w%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "c5c2754c0cfb9abd33b15751b2be665f4198f02b4425d2dfe894e382bf54b0fa",
+            "bytes": 160270,
+            "verified_at": "2026-10-01T14:55:29.880285+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "189",
+          "fecha": "2013-12-26",
+          "titulo": "D.Oficial, Extracto Decreto Alcaldicio EX.2590 de 17.12.2013. N° 189: D",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2013",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=Hs7yCmo9YGQGlJo1PQC9qg%3D%3D",
+          "tipo_norma_clasif": "extracto_do",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=Hs7yCmo9YGQGlJo1PQC9qg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "e5ddace3f22331275472b2931ac879ea9a720626e10136779c92778e097ef14d",
+            "bytes": 410870,
+            "verified_at": "2026-10-01T14:52:45.528396+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 1021,
@@ -46104,6 +50726,28 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2013-12-21/127/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "127",
+          "fecha": "2013-12-21",
+          "titulo": "D.Oficial 21.12.2013 Derechos de Aseo Domiciliario. N° 127: D",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2013",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=FFCrTDbZDkMKoHt1SWZ6nA%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=FFCrTDbZDkMKoHt1SWZ6nA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "24a1d51d92d190565c986cacc32cde115b7c629107352c625ec90666e914aa20",
+            "bytes": 147748,
+            "verified_at": "2026-10-01T14:52:46.088547+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 1020,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -46120,6 +50764,138 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2013-12-20/125/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "75",
+          "fecha": "2013-12-20",
+          "titulo": "Modifícase la Ordenanza Nº65 de 19 de Noviembre de 2007, que aprobó la Ordenanza sobre \"Condiciones necesarias para la fijación de tarifas del servicio domiciliario por extracción de basura y exención total y parcial\". N° 75: Modifícase la Ordenanza Nº65 de 19 de Noviembre de 200",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2008",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=EeMnznUUkrOzR87zddfqOQ%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=EeMnznUUkrOzR87zddfqOQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "2428124564985614134ba9691c102433ce8af0d4c334a4ca27da6d354c84cea6",
+            "bytes": 324388,
+            "verified_at": "2026-10-01T14:52:22.894518+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "125",
+          "fecha": "2013-12-20",
+          "titulo": "D.Oficial 20.12.2013, Modifica el artículo 75º de la Ordenanza Nº2 de 06.01.2000, Sobre actividad Comercial, de Alcoholes, Industrial, profesional y de Servicios. N° 125: D",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2013",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=fkEWBjAjYBP%2F6xLlZSrwRw%3D%3D",
+          "tipo_norma_clasif": "modificacion",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=fkEWBjAjYBP%2F6xLlZSrwRw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "4b02956e231fb76bf93afaaa8423686e113a0695a7a3a79cf49c5ccf4019602d",
+            "bytes": 181157,
+            "verified_at": "2026-10-01T14:52:47.070267+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "127",
+          "fecha": "2013-12-17",
+          "titulo": "Cobro de derecho de aseo domiciliario N° 127: Déjase establecido el monto para el cobro de Derechos de Aseo Domiciliario para el año 2014",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23083/1/2013",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=oRlb5VQlhvv3pr7t6hz%2FCA%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=oRlb5VQlhvv3pr7t6hz%2FCA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "b9f158040e08d79aef4bfd9a13b9ba2c40d280c0340d9363bad059030017cd5b",
+            "bytes": 59800,
+            "verified_at": "2026-10-01T14:54:09.661981+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "2590",
+          "fecha": "2013-12-17",
+          "titulo": "Sobre derechos municipales N° 2590: Texto refundido Ordenanza de Derechos Municipales",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2013",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=ZUmQFgSu9s4j2BA5Amfwmw%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=ZUmQFgSu9s4j2BA5Amfwmw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "027e5337a8e32bc24e955cd2e4a178e904d0497bda2a6505a1b37d62401cd5b1",
+            "bytes": 2721772,
+            "verified_at": "2026-10-01T14:54:55.695490+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "126",
+          "fecha": "2013-12-17",
+          "titulo": "Notificaciones y publicaciones de resoluciones municipales N° 126: Modifícase el Artículo 15º de la Ordenanza Nº6 de 23 de Septiembre de 2003, sobre \"Notificaciones y publicaciones de resoluciones municipales\"",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23094/1/2013",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=OH%2FGnhNFKC4%2B9c%2FF9r2Xbg%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=OH%2FGnhNFKC4%2B9c%2FF9r2Xbg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "2e5005d39614c4cd890a9e65b189f214b419a95700113a006ad7b991f8ba092a",
+            "bytes": 57975,
+            "verified_at": "2026-10-01T14:55:29.336064+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "125",
+          "fecha": "2013-12-16",
+          "titulo": "Sobre la actividad comercial, de alcoholes, indus rial, profesional y de servicios N° 125: Modifícase el artículo 75 de la Ordenanza Nº2 de fecha 6 de Marzo de 2000, sobre la Actividad Comercial, de Alcoholes, Industrial,Profesional y de Servicios, cuyo texto refundido y sistemat",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23080/1/2013",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=nNLs%2F4eo8Oy2MfKZFFmWjg%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=nNLs%2F4eo8Oy2MfKZFFmWjg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "29f10141f15cc9b103b597a21fc58ddab904f3aa97011472c22f04447c358d04",
+            "bytes": 21796,
+            "verified_at": "2026-10-01T14:53:47.777644+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 1019,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -46134,6 +50910,72 @@ window.CATASTRO_DATA = {
           "badge_border": "border-indigo-500/30",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=1055884",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2013-11-06/124/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "124",
+          "fecha": "2013-11-06",
+          "titulo": "Publicación Diario Oficial 06.11.2013  Extracto Ordenanza Nº124 de 29 de Octubre de 2013 que modifica Ordenanza Local Nº22 de 2001 sobre \" Ordenanza Local sobre Derechos Municipales\" que rige para el año 2013, texto refundido y sistematizado fue aprobado por decreto alcaldicio EX",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2013",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=%2B8ty%2FpS6WBWV8FI4rjIOVw%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=%2B8ty%2FpS6WBWV8FI4rjIOVw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "2a8bdbc20e4d3dc6524728ae5b8bd6d93b757b3c90f5717bea9dc7eedfef1b9e",
+            "bytes": 1311138,
+            "verified_at": "2026-10-01T14:52:47.749811+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "124",
+          "fecha": "2013-10-29",
+          "titulo": "Sobre derechos municipales N° 124: Modifícase la Ordenanza Nº22 de 28 de Diciembre de 2001 \"Ordenanza local sobre derechos municipales\", que rige para el año 2013, cuyo texto refundido y sistematizado fue aprobado por Decreto Alcaldicio EX",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2013",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=BMKfimm62zHEQZG5kp5jhA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=BMKfimm62zHEQZG5kp5jhA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "0759b0dc6cda4e8381242f2b6f22e73c9809ca06cc81686c12e04c55dd863797",
+            "bytes": 1325946,
+            "verified_at": "2026-10-01T14:54:56.390037+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "2182",
+          "fecha": "2013-10-07",
+          "titulo": "Estacionamientos Reservados para vehículos N° 2182: Fíjase el siguiente texto refundido de la Ordenanza sobre Estacionamientos Reservados para Vehículos",
+          "materia": "Tránsito, Transporte y Espacio Público",
+          "materia_id": "transito_transporte",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23105/1/2013",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=1GqUNaJCOi5KRinzpo9BSQ%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=1GqUNaJCOi5KRinzpo9BSQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "d3a504917df107cf740186a8d80634064f1b42c6c658953bd466879b0dffce0c",
+            "bytes": 105848,
+            "verified_at": "2026-10-01T14:55:52.473027+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 1017,
@@ -46168,6 +51010,160 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2013-08-20/123/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "123",
+          "fecha": "2013-08-20",
+          "titulo": "Diario Oficial 20.08.2013 . Ordenanza Nº123 de 13 de Agosto de 2013. que modifica el Art. 1 de la Ordenanza Nº1020 de 21 de Septiembre de 1982, sobre  Estacionamientos Reservados para Vehículos, en el sentido de sustituir la frase \"artículo 164 de la Ley de Tránsito Nº18.290\", po",
+          "materia": "Tránsito, Transporte y Espacio Público",
+          "materia_id": "transito_transporte",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2013",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=zgdMCN9ByLAwp5%2FTualdvw%3D%3D",
+          "tipo_norma_clasif": "modificacion",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=zgdMCN9ByLAwp5%2FTualdvw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "0b4244cfdd0181765cf91dbbaded2b0d533c297ff25a305c55258b29775ae1d7",
+            "bytes": 180294,
+            "verified_at": "2026-10-01T14:52:48.321596+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "122",
+          "fecha": "2013-08-20",
+          "titulo": "Diario Oficial 20.08.2013 . Ordenanza Nº122 de 13 de Agosto de 2013. que modifica la Ordenanza Nº2 de 10 de Junio de 2033, \"Ordenanza sobre subvenciones Municipales\", en el sentido de sustituir el Art. 21 N° 122: Diario Oficial 20",
+          "materia": "Subvenciones y Régimen Interno",
+          "materia_id": "organizacion_interna",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2013",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=N4ZT6%2B8N64Bhhkxdcy%2BifQ%3D%3D",
+          "tipo_norma_clasif": "modificacion",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=N4ZT6%2B8N64Bhhkxdcy%2BifQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "542784018bb055223ea986aa988f7fa21738f811aad3abcf3e17220a041e96df",
+            "bytes": 180296,
+            "verified_at": "2026-10-01T14:52:48.905076+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "122",
+          "fecha": "2013-08-13",
+          "titulo": "Sobre subvenciones municipales N° 122: Modifícase la Ordenanza Nº2 de 10 de Junio de 2003 \"Ordenanza sobre Subvenciones Municipales\", en el sentido de sustituir el art",
+          "materia": "Subvenciones y Régimen Interno",
+          "materia_id": "organizacion_interna",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23098/1/2013",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=lxkTkulr%2Bg0iHLAsDw3yVw%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=lxkTkulr%2Bg0iHLAsDw3yVw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "0ffa0164ae461181287e83d98e37d04b5ee5a0be66f03f55ac8de7977f487c0f",
+            "bytes": 27493,
+            "verified_at": "2026-10-01T14:55:40.668581+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "123",
+          "fecha": "2013-08-13",
+          "titulo": "Estacionamientos Reservados para vehículos N° 123: Modifícase el artículo 1 de la Ordenanza 1020 de 21 de septiembre de 1982, sobre Estacionamientos Reservados para Vehículos, en el sentido de sustituir la frase \"artículo 164 de la Ley de Tránsito Nº18",
+          "materia": "Tránsito, Transporte y Espacio Público",
+          "materia_id": "transito_transporte",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23105/1/2013",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=m0Me8Hdx8yLKWxbgPr%2FBbw%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=m0Me8Hdx8yLKWxbgPr%2FBbw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "8cf48c5db0d0868ab042aab516e4f35aae160b3e1a3c66d64af9330a3745e03a",
+            "bytes": 27808,
+            "verified_at": "2026-10-01T14:55:53.004532+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "2419",
+          "fecha": "2012-11-29",
+          "titulo": "Fíjase el siguiente texto refundido y sistematizado de la \"Ordenanza sobre normas sanitarias básicas\". N° 2419: Fíjase el siguiente texto refundido y sistematizado de la \"Ordenanza sobre normas sanitarias básicas\"",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2012",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=dBQZs1X3rrTFGi%2BOzkDeYA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=dBQZs1X3rrTFGi%2BOzkDeYA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "9976a074f65ef80f264a47df5d936a413e54e1096102b04915e29c41afcca616",
+            "bytes": 276690,
+            "verified_at": "2026-10-01T14:52:41.264970+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "2418",
+          "fecha": "2012-11-23",
+          "titulo": "Condiciones necesarias para la fijación de Tarifas del Servicio Domiciliario por Extracción de basuras y Exenciones Total y Parcial N° 2418: Fíjase el siguiente texto refundido y sistematizado de la Ordenanza sobre \"Condiciones necesarias para la fijación de tarifas del servicio ",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23063/1/2012",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=94Dkk2dLiUNFBA4Ffg0a4A%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=94Dkk2dLiUNFBA4Ffg0a4A%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "2b8be795cfc72e8926efd6281d6bffd9d0812cead679e3d3669b1ee40d66edfa",
+            "bytes": 490071,
+            "verified_at": "2026-10-01T14:53:14.562502+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "2419",
+          "fecha": "2012-11-23",
+          "titulo": "Decreto Exento N° 2419: Fíjase el siguiente texto refundido y sistematizado de la \"ORDENANZA SOBRE NORMAS SANITARIAS BASICAS \"",
+          "materia": "Normas Sanitarias y Convivencia",
+          "materia_id": "convivencia_seguridad",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23100/1/2012",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=1kWC1JjzWBwebnu1rGDwNg%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=1kWC1JjzWBwebnu1rGDwNg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "a793f13ec09b6bc5950821cd242154c6c2482dc10e70332f41e3ea348fbf7031",
+            "bytes": 340015,
+            "verified_at": "2026-10-01T14:55:44.610055+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 1016,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -46182,6 +51178,72 @@ window.CATASTRO_DATA = {
           "badge_border": "border-indigo-500/30",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=1045942",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2012-11-21/121/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "2304",
+          "fecha": "2012-11-19",
+          "titulo": "Diario Oficial Lunes  19.11.2012 -  Extracto del Texto Refundido y Sistematizado de la Ordenanza  de Derechos Municipales para el año 2013 - Decreto EXNº2304 de 09.11.2012 N° 2304: Diario Oficial Lunes  19",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2012",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=z%2B0zyIFJ7uQbmEu1H1RdxQ%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=z%2B0zyIFJ7uQbmEu1H1RdxQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "ba14f73f10d5496fe4138bdcf3e4aa4e10244ef571e8ec7c1b0c7db1bb3c1f15",
+            "bytes": 41758,
+            "verified_at": "2026-10-01T14:52:41.710775+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "2304",
+          "fecha": "2012-11-09",
+          "titulo": "Sobre derechos municipales N° 2304: Fíjase el siguiente texto refundido y sistematizado de la Ordenanza Nº22 de 28",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2012",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=%2Bte0GpssGRw%2BVIB29%2BnOTA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=%2Bte0GpssGRw%2BVIB29%2BnOTA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "b5518aaada103131482b548cdc31c0076a9b334c4b4484b572a3d2ed4fd703c4",
+            "bytes": 2664023,
+            "verified_at": "2026-10-01T14:54:52.828352+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "121",
+          "fecha": "2012-11-06",
+          "titulo": "Cobro de derecho de aseo domiciliario N° 121: Modifícase la Ordenanza Nº118 de 11",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23083/1/2012",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=C8GqUDRDrf8N5Tq1vtbo5A%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=C8GqUDRDrf8N5Tq1vtbo5A%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "35da050d6ec4574ad0c305f90fdf68d23bef77af89a818b95b34ddccd34122eb",
+            "bytes": 52139,
+            "verified_at": "2026-10-01T14:54:08.613287+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 1015,
@@ -46200,6 +51262,28 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2012-10-30/120/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "120",
+          "fecha": "2012-10-30",
+          "titulo": "Diario Oficial Martes 30.10.2012 -  Extracto de la Ordenanza Nº120 de 30 de Octubre de 2012 N° 120: Diario Oficial Martes 30",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2012",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=m1At3L0E5Ngp6215TRnUSg%3D%3D",
+          "tipo_norma_clasif": "extracto_do",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=m1At3L0E5Ngp6215TRnUSg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "1dcc49c415b69ec8c9e3915db1b5337f97b2c2916b77aea5bf020a12812fedaa",
+            "bytes": 418885,
+            "verified_at": "2026-10-01T14:52:42.858290+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 1014,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -46214,6 +51298,28 @@ window.CATASTRO_DATA = {
           "badge_border": "border-indigo-500/30",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=1045116",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2012-10-26/118/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "118",
+          "fecha": "2012-10-26",
+          "titulo": "Ordenanza 118 de 11.10.2012- Establece el monto para el cobro de Derechos de Aseo Domiciliario para el año 2013. Diario Oficial: 26 de Octubre de 2012. N° 118: Ordenanza 118 de 11",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2012",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=vPcuzjcje38Uj%2Bu61VKfvA%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=vPcuzjcje38Uj%2Bu61VKfvA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "001e1a21bd8cbad0e7ae4ae7ff7fa5f30380dd90743d1621931d6646dec7d0ac",
+            "bytes": 74104,
+            "verified_at": "2026-10-01T14:52:43.870508+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 1013,
@@ -46232,6 +51338,138 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2012-10-25/119/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "119",
+          "fecha": "2012-10-25",
+          "titulo": "Ordenanza 119 de 16.10.2012- Modifica la Ordenanza Nº22 de 2001, \"Ordenanza Local sobre Derechos Municipales que rige para el año 2012\" texto refundido y sistematizado por Decreto EX2466 de 2011. Diario Oficial: 25 de Octubre de 2012. N° 119: Ordenanza 119 de 16",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2012",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=gw4hBCCrroSw19fV2MQvZQ%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=gw4hBCCrroSw19fV2MQvZQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "cfce57f386b847bef909fa8d7df1b4a83801470969363b294ba508a636d9d74a",
+            "bytes": 56306,
+            "verified_at": "2026-10-01T14:52:43.385896+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "120",
+          "fecha": "2012-10-23",
+          "titulo": "Sobre derechos municipales N° 120: Modifícase la Ordenanza Nº22 de 28 de Diciembre de 2001 \"Ordenanza local sobre derechos municipales\", que rige para el año 2012, cuyo texto refundido y sistematizado fue aprobado por Decreto Alcaldicio EX",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2012",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=LKM2BikhM5TuWj8nUdnQgA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=LKM2BikhM5TuWj8nUdnQgA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "1ee0462a71ea60b9389ba952f03afbc027955e46fee196ee2651a7e6b2a2e82d",
+            "bytes": 1427387,
+            "verified_at": "2026-10-01T14:54:53.449884+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "119",
+          "fecha": "2012-10-16",
+          "titulo": "Sobre derechos municipales N° 119: Modifícase la Ordenanza Nº22 de 28",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2012",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=V8%2B7c%2BWhwMWw%2B4ujyL6N6w%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=V8%2B7c%2BWhwMWw%2B4ujyL6N6w%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "92cb6ec0d9a79eec0b364d193a0bcefd546f99f347e2c0163b07dabca090b3b5",
+            "bytes": 81024,
+            "verified_at": "2026-10-01T14:54:53.916738+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "118",
+          "fecha": "2012-10-11",
+          "titulo": "Cobreo de derecho de aseo domiciliario N° 118: Déjase establecido el monto para el cobro de Derechos de Aseo Domiciliario para el año 2013",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23083/1/2012",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=QLs50dSNXS%2BHddUtoQ%2BfdA%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=QLs50dSNXS%2BHddUtoQ%2BfdA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "1de00c12728d44bef66ff1bb8bab30bfdde3e574940a2608435f5ac811c7a0a2",
+            "bytes": 63099,
+            "verified_at": "2026-10-01T14:54:09.147360+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1723",
+          "fecha": "2012-08-25",
+          "titulo": "Fijase el siguiente texto refundido y sistematizado de la Ordenanza Nº9 de 22 de Octubre de 2003 sobre \"Estacionamientos Controlados en las Vías Públicas de la Comuna N° 1723: Fijase el siguiente texto refundido y sistematizado de la Ordenanza Nº9 de 22 de Octubre de 2003 sobre \"",
+          "materia": "Tránsito, Transporte y Espacio Público",
+          "materia_id": "transito_transporte",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2012",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=t%2FbbQJf3KbieA3igPTO9gw%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=t%2FbbQJf3KbieA3igPTO9gw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "752ca1c26266226257b1ae1d4105b80106c4e28977d37bc95d4cdbd742160f0c",
+            "bytes": 97850,
+            "verified_at": "2026-10-01T14:52:42.234847+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1723",
+          "fecha": "2012-08-17",
+          "titulo": "Estacionamientos controlados en las vías públicas de la Comuna N° 1723: Fijase el siguiente texto refundido y sistematizado de la Ordenanza Nº9 de 22 de octubre de 2003 sobre \"ESTACIONAMIENTOS CONTROLADOS EN LAS VIAS PUBLICAS DE LA COMUNA\"",
+          "materia": "Tránsito, Transporte y Espacio Público",
+          "materia_id": "transito_transporte",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23402/1/2012",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=16U0ocRraoKjBFdMmKTmkQ%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=16U0ocRraoKjBFdMmKTmkQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "ba7213b9881d60eb7dc2bcf974f0f4e7038cd5d15da41f0255d41bcf3638dcac",
+            "bytes": 116201,
+            "verified_at": "2026-10-01T14:55:49.440139+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 1012,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -46246,6 +51484,50 @@ window.CATASTRO_DATA = {
           "badge_border": "border-indigo-500/30",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=1041762",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2012-07-13/117/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "117",
+          "fecha": "2012-07-13",
+          "titulo": "Modificase la Ordenanza Nº22 de fecha 28.12.2001 \"Ordenanza local sobre derechos municipales\" que rige para el año 2012, cuyo texto refundido y sistematizado fue aprobado por Dto Ex.Nº2466 de 26.12.2011. N° 117: Modificase la Ordenanza Nº22 de fecha 28",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2012",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=xpdZAZFydYD4tEjXDl5QKQ%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=xpdZAZFydYD4tEjXDl5QKQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "c91b1efbe0f6c5f2f87d062cc0f26ac897dd28aaadac15188b5e13e92d9011ac",
+            "bytes": 966491,
+            "verified_at": "2026-10-01T14:52:44.475292+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "117",
+          "fecha": "2012-07-06",
+          "titulo": "Sobre derechos municipales N° 117: Modificase la Ordenanza Nº22 DE 28",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2012",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=Bnp7A4CrDsQhq4UTbpbogA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=Bnp7A4CrDsQhq4UTbpbogA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "ae24031bf064654eb78f55e87c8a95e0c101171ab155db8f4e75b87d1f5b5127",
+            "bytes": 58523,
+            "verified_at": "2026-10-01T14:54:54.383181+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 1011,
@@ -46264,6 +51546,50 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2012-04-19/116/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "116",
+          "fecha": "2012-04-19",
+          "titulo": "Modifícase la Ordenanza Nº9 de fecha 22.10.2003, sobre \"Estacionamientos Controlados en las Vías Públicas de la Comuna\". N° 116: Modifícase la Ordenanza Nº9 de fecha 22",
+          "materia": "Tránsito, Transporte y Espacio Público",
+          "materia_id": "transito_transporte",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2012",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=Awyj%2FYppbkRF2MK2wEPfsw%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=Awyj%2FYppbkRF2MK2wEPfsw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "0e2bb8996c5a44889bb5078f95d49308de930eaf5a4bf5bb8186e815062523fc",
+            "bytes": 89927,
+            "verified_at": "2026-10-01T14:52:44.978943+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "116",
+          "fecha": "2012-04-12",
+          "titulo": "Estacionamientos controlados en las vías públicas de la Comuna N° 116: Modifícase la Ordenanza Nº9 de fecha 22",
+          "materia": "Tránsito, Transporte y Espacio Público",
+          "materia_id": "transito_transporte",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23402/1/2012",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=aP6patvU%2F39BEAnseWcksA%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=aP6patvU%2F39BEAnseWcksA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "c19e3027aa7bfb65681d1b66ee3bc516d58a34e7c0ca0172070345b41625f1e7",
+            "bytes": 190405,
+            "verified_at": "2026-10-01T14:55:49.928219+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 1010,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -46278,6 +51604,204 @@ window.CATASTRO_DATA = {
           "badge_border": "border-indigo-500/30",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=1038330",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2012-03-26/115/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "115",
+          "fecha": "2012-03-19",
+          "titulo": "Sobre derechos municipales N° 115: Modifícase la Ordenanza Nº22 de 28",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2012",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=5QmL2%2Ff9QTVtTSnmZKV3Sg%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=5QmL2%2Ff9QTVtTSnmZKV3Sg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "091acfac4904e47932c14430ec8f6f48b140e7b8e06efb3a9665ce6f8adbe2c5",
+            "bytes": 145431,
+            "verified_at": "2026-10-01T14:54:54.892778+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "2508",
+          "fecha": "2012-01-11",
+          "titulo": "Apruébase El Siguiente Texto Refundido Y Sistematizado De La Ordenanza Nº 5 De 26-08-1999 Sobre, \"cierre De Calles O Pasajes Públicos Ciegos De La Comuna De Providencia\". N° 2508: Apruébase El Siguiente Texto Refundido Y Sistematizado De La Ordenanza Nº 5 De 26-08-1999 Sobre, \"ci",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2012",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=5eaCKPPKXFHy04z6olccTg%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=5eaCKPPKXFHy04z6olccTg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "602d54e9f629052cfe666276aedef4285552d9037bec7a0834af6843ae4cbb20",
+            "bytes": 119348,
+            "verified_at": "2026-10-01T14:52:40.201613+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "2507",
+          "fecha": "2012-01-10",
+          "titulo": "Apruébase El Siguiente Texto Refundido Y Sistematizado De La Ordenanza Sobre \"participación Ciudadana De La Comuna De Providencia\", Suyo Texto Será El Siguiente. N° 2507: Apruébase El Siguiente Texto Refundido Y Sistematizado De La Ordenanza Sobre \"participación Ciudadana De La C",
+          "materia": "Participación Ciudadana",
+          "materia_id": "participacion_ciudadana",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2012",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=qN%2BDYgCHVLwTVLL9vstgog%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=qN%2BDYgCHVLwTVLL9vstgog%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "b143189b34aa6a5b296d2a345dd23a94b0c58a6800dc632f70f255395c108429",
+            "bytes": 121476,
+            "verified_at": "2026-10-01T14:52:40.679092+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "2466",
+          "fecha": "2011-12-30",
+          "titulo": "Fíjase El Texto Refundido Y Sistematizado De La Ordenanza Nº22 De 28-12-2011 Y Sus Modificaciones \"ordenanza Local Sobre Derechos Municipales\" Que Regirá Para El Año 2012.- N° 2466: Fíjase El Texto Refundido Y Sistematizado De La Ordenanza Nº22 De 28-12-2011 Y Sus Modificaciones ",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2011",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=3CsdpkfrFLHMO4V9X0PVIA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=3CsdpkfrFLHMO4V9X0PVIA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "56ac40f318f51bc3e67b44952291b3a12c5f95a5a4acb4918cd99aad1f096bd4",
+            "bytes": 158141,
+            "verified_at": "2026-10-01T14:52:34.756393+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "2508",
+          "fecha": "2011-12-30",
+          "titulo": "Decreto Exento N° 2508: Apruébase el siguiente texto refundido y sistematizado de la Ordenanza Nº 5 de 26 de Agosto de 1999 sobre, \"CIERRE DE CALLES O PASAJES PÚBLICOS CIEGOS DE LA COMUNA DE PROVIDENCIA",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23068/1/2011",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=E49lxJyV8zh1cRL6NJ7Slw%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=E49lxJyV8zh1cRL6NJ7Slw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "d608dd20eb5cf533e008d3e42573e0e96a1d149f69d3a648a89203a58425b769",
+            "bytes": 219027,
+            "verified_at": "2026-10-01T14:53:25.326421+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "2507",
+          "fecha": "2011-12-30",
+          "titulo": "Participación Ciudadana  y Convivencia N° 2507: Apruébase el siguiente texto refundido y sistematizado de la Ordenanza sobre \"Participación Ciudadana de la Comuna de Providencia\", suyo texto será el siguiente",
+          "materia": "Convivencia Vecinal y Seguridad",
+          "materia_id": "convivencia_seguridad",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23095/1/2011",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=LWQw041d7LrKE7wAfhcuqA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=LWQw041d7LrKE7wAfhcuqA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "74b1af0f65ff980c62fe3137e13b0d0d829b6dd41004b567c431b75e2ba512c1",
+            "bytes": 791310,
+            "verified_at": "2026-10-01T14:55:35.741281+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "2466",
+          "fecha": "2011-12-26",
+          "titulo": "Sobre derechos municipales N° 2466: Fíjase el texto refundido y sistematizado de la Ordenanza Nº22 de 28 de Dicimebre de 2011 y sus modificaciones \"Ordenanza Local sobre Derechos Municipales\" que regirá para el año 2012",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2011",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=QZ19Qe2kha5v58rEpyztXA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=QZ19Qe2kha5v58rEpyztXA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "5acc728f55ce36841a6af2dc23a8b280fd261f6207ba3ca6053d952334dc6668",
+            "bytes": 2223637,
+            "verified_at": "2026-10-01T14:54:49.257222+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "2038",
+          "fecha": "2011-11-05",
+          "titulo": "Fíjese El Siguiente Texto Refundido Y Sistematizado De La Ordenanza Nº 1 De 24-01-2002 \"ordenanza De Ornato\". N° 2038: Fíjese El Siguiente Texto Refundido Y Sistematizado De La Ordenanza Nº 1 De 24-01-2002 \"ordenanza De Ornato\"",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2011",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=59%2BlQ65Xo14WRlZFntcA1g%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=59%2BlQ65Xo14WRlZFntcA1g%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "4a60418d1921067e64b193cd107e334119942163628c080ed59e52853408f6c0",
+            "bytes": 104081,
+            "verified_at": "2026-10-01T14:52:35.221461+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "2038",
+          "fecha": "2011-10-26",
+          "titulo": "De Ornato N° 2038: Fíjese el siguiente texto refundido y sistematizado de la Ordenanza Nº 1 de 24 de Enero de 2002 \"ORDENANZA DE ORNATO\"",
+          "materia": "Aseo, Ornato y Medio Ambiente",
+          "materia_id": "aseo_medioambiente",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23065/1/2011",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=e4CnWor7PUOAn9w%2FwOhAoQ%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=e4CnWor7PUOAn9w%2FwOhAoQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "4404321310c06d9d8a325c2b7cbc4b9473a94437b65e9e96f0be012b7d742080",
+            "bytes": 334317,
+            "verified_at": "2026-10-01T14:53:22.026384+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 1009,
@@ -46296,6 +51820,50 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2011-10-25/114/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "114",
+          "fecha": "2011-10-25",
+          "titulo": "Ordenanza Nº114 De 20.10.2011- Modifícase Ordenanzas 109, 110, 111 Y 113 Todas De 07.10.2011 Por Existir Error En Los Números De Acuerdos , Dejando Establecido Que Los Números Correctos De Acuerdos Son 716,715 Y 717 N° 114: Ordenanza Nº114 De 20",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2011",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=oT5Nsxcq93O5W%2BmX49m1fg%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=oT5Nsxcq93O5W%2BmX49m1fg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "3160024d76f2b16006d3a1a84aebd9a5de94140c49179eb7ee792659221a30e0",
+            "bytes": 171731,
+            "verified_at": "2026-10-01T14:52:38.631585+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "114",
+          "fecha": "2011-10-20",
+          "titulo": "Cobro de derecho de aseo domiciliario N° 114: Ordenanza Nº114 de 20",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23083/1/2011",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=o6LDwvqZ7BmNXETbRpPagg%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=o6LDwvqZ7BmNXETbRpPagg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "e2595524093b42d7a44402dc0861042d33f2ee8b473f33c09b00b005783914b8",
+            "bytes": 58535,
+            "verified_at": "2026-10-01T14:54:06.980881+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 1008,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -46310,6 +51878,28 @@ window.CATASTRO_DATA = {
           "badge_border": "border-zinc-700",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=1031421",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2011-10-18/113/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "113",
+          "fecha": "2011-10-18",
+          "titulo": "Modifícase La Ordenanza Nº8 De 29-10-1999, \"ordenanza De Participación Ciudadana De La Comuna De Providencia\", Cuyo Texto Refundido Y Sistematizado Fue Fijado Por Decreto Alcaldicio ExNº374 De 29-02-2008 N° 113: Modifícase La Ordenanza Nº8 De 29-10-1999, \"ordenanza De Participaci",
+          "materia": "Participación Ciudadana",
+          "materia_id": "participacion_ciudadana",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2011",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=XSoPXCYiJppu%2FeTl1Er9Ww%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=XSoPXCYiJppu%2FeTl1Er9Ww%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "b70125042a1d94c9a4ad4ee0c12ca9350035ea0cfcda29aa1c0300eed84867bd",
+            "bytes": 112544,
+            "verified_at": "2026-10-01T14:52:39.121089+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 1004,
@@ -46376,6 +51966,28 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2011-10-14/112/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "112",
+          "fecha": "2011-10-14",
+          "titulo": "Modifícase La Ordenanza Nº5 De 26-08-1999 Sobre \"cierre De Calles O Pasajes Públicos Ciegos De La Comuna De Providencia\", Cuyo Texto Refundido Y Sistematizado Fue Aprobado Por Decreto Alcaldicio ExNº360 De 27-02-2008 N° 112: Modifícase La Ordenanza Nº5 De 26-08-1999 Sobre \"cierre",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2011",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=g%2FRUqXsmSRgH46MSFjCF%2FQ%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=g%2FRUqXsmSRgH46MSFjCF%2FQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "83d8b8a40f3487404228c9332fbf9b87ec64f40b329d197a4669a45730d1f4ef",
+            "bytes": 228614,
+            "verified_at": "2026-10-01T14:52:39.691053+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 1003,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -46390,6 +52002,138 @@ window.CATASTRO_DATA = {
           "badge_border": "border-sky-500/30",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=1030897",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2011-10-13/108/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "113",
+          "fecha": "2011-10-12",
+          "titulo": "Participación Ciudadana  y Convivencia N° 113: Modifícase la Ordenanza Nº8 de 29 de Octubre de 1999, \"Ordenanza de Participación Ciudadana de la Comuna de Providencia\", cuyo texto refundido y sistematizado fue fijado por Decreto Alcaldicio EXNº374 de 29 de Febrero de 2008",
+          "materia": "Convivencia Vecinal y Seguridad",
+          "materia_id": "convivencia_seguridad",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23095/1/2011",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=E7%2B%2BTbZgt%2Blo8yZZccm2Vg%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=E7%2B%2BTbZgt%2Blo8yZZccm2Vg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "53e5fbbcc318b48f5308c57438110e0aa4889db84d737afb1187152fe4534e59",
+            "bytes": 73883,
+            "verified_at": "2026-10-01T14:55:36.330230+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "112",
+          "fecha": "2011-10-07",
+          "titulo": "Ordenanza N° 112: Modifícase la Ordenanza Nº5 de 26 de Agosto de 1999 sobre \"CIERRE DE CALLES O PASAJES CIEGOS DE LA COMUNA DE PROVIDENCIA\" cuyo texto refundido y sistematizado fue aprobado por Decreto Alcaldicio EX",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23068/1/2011",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=gV48LCBlbQQTr22m1jlyjQ%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=gV48LCBlbQQTr22m1jlyjQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "d73fae59a2ccd1ffb0ce5625ab9c070909a588466568350337ca0bf61d159bb0",
+            "bytes": 131505,
+            "verified_at": "2026-10-01T14:53:25.960265+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "111",
+          "fecha": "2011-10-07",
+          "titulo": "Cobro de derecho de aseo domiciliario N° 111: Déjase establecido el monto para el cobro de Derecho de Aseo Domiciliario para el año 2012",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23083/1/2011",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=DQwGA6Tk1ynmoW8vkdiSKQ%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=DQwGA6Tk1ynmoW8vkdiSKQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "fe999521bde8ed6ea86d487ac871c692aae976ec93dae20d1798d569c1702040",
+            "bytes": 57841,
+            "verified_at": "2026-10-01T14:54:07.476953+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "110",
+          "fecha": "2011-10-07",
+          "titulo": "Cobro de derecho de aseo domiciliario N° 110: Arpuébase la siguiente \"Ordenanza de Cobro de Derecho de Aseo Domiciliario para el año 2012",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23083/1/2011",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=p2NM5cCqsakCuhPrPbdvqg%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=p2NM5cCqsakCuhPrPbdvqg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "4f45408f30dd6241daa3cccc0198485d24668241be157f0484e71b67c34cf5bd",
+            "bytes": 61005,
+            "verified_at": "2026-10-01T14:54:08.032534+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "109",
+          "fecha": "2011-10-07",
+          "titulo": "Sobre derechos municipales N° 109: Modifícase la Ordenanza Nº22 de 28 de diciembre de 2011 \"Ordenanza Local sobre Derechos Municipales\", que rige para el año 2011, cuyo texto refundido y sistematizado fue aprobado por Decreto Alcaldicio EXNº2",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2011",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=87wRLNEi3uTiuMnNqIfEBw%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=87wRLNEi3uTiuMnNqIfEBw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "d764fc6c6aa38529641e9388bf63f898b80a0d17d683292ede6d01a94418df3e",
+            "bytes": 293439,
+            "verified_at": "2026-10-01T14:54:49.889343+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "108",
+          "fecha": "2011-10-05",
+          "titulo": "Sobre la actividad comercial, de alcoholes, industrial, profesional y de servicios N° 108: Modifícase la Ordenanza Comunal Nº2 de 6 de Marzo de 2000, sobre la \"Actividad comercial de alcoholes, industrial, profesional y de servicios\", cuyo texto refundido y sistematizado fue apro",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23080/1/2011",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=Y1tPWwuwd8yVDAujLlOJ5w%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=Y1tPWwuwd8yVDAujLlOJ5w%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "3688f3574f43962758b74953fef5a0db67fb21187bcd33ecb31201c9f1336ef4",
+            "bytes": 60967,
+            "verified_at": "2026-10-01T14:53:47.248575+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 1002,
@@ -46424,6 +52168,50 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2011-09-24/106/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "107",
+          "fecha": "2011-09-22",
+          "titulo": "Sobre publicidad y propaganda en la Comuna de Providencia N° 107: Modifícase la ordenanza Nº4 de 14",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23081/1/2011",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=1aT2HJ6OTTftrEuH8djvMA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=1aT2HJ6OTTftrEuH8djvMA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "ea18ff5cc1d45ea639c1bd79100206b5082dc73f91f55b2aed2bc3726ac24cb1",
+            "bytes": 255723,
+            "verified_at": "2026-10-01T14:53:55.518048+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "106",
+          "fecha": "2011-09-15",
+          "titulo": "Sobre derechos municipales N° 106: Modifícase la Ordenanza Nº22 de 28 de Diciembre de 2011 \"Ordenanza Local sobre Derechos Municipales que rige para el año 2011\", cuyo texto refundido y sistematizado fue aprobado por Decreto Alcaldicio EXNº2361 de 20 de Diciembre de 2010",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2011",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=Ckb%2Bb9uS7rTSH789c1K2zw%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=Ckb%2Bb9uS7rTSH789c1K2zw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "efbbd8f23736457d5d142977021073349e37f4365c5912e7fab5da51b0577596",
+            "bytes": 54576,
+            "verified_at": "2026-10-01T14:54:50.475795+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 1000,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -46438,6 +52226,28 @@ window.CATASTRO_DATA = {
           "badge_border": "border-zinc-700",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=1029530",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2011-09-10/105/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "105",
+          "fecha": "2011-09-06",
+          "titulo": "Normas sanitarias básicas N° 105: Modifícase la \"Ordenza sobre normas sanitarias básicas\", cuyo texto refundido y sistematizado fue fijado por decreto alcaldicio EX",
+          "materia": "Normas Sanitarias y Convivencia",
+          "materia_id": "convivencia_seguridad",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23100/1/2011",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=Odeo0WEOaJL%2FGVGhaLZS%2Fw%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=Odeo0WEOaJL%2FGVGhaLZS%2Fw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "a3d3495716ddb648dc1425e934c0955537406866fb9b77e950a377c7f109725f",
+            "bytes": 47808,
+            "verified_at": "2026-10-01T14:55:42.257445+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 999,
@@ -46456,6 +52266,28 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2011-08-20/104/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "104",
+          "fecha": "2011-08-16",
+          "titulo": "De Ornato N° 104: Modifícase la Ordenanza Nº1 de 24 de Enero de 2002 \"Ordenanza de Ornato\", cuyo texto refundido y sistematizado fue fijado por Decreto Alcaldicio EX:Nº1029 de 1 de Julio de 2003",
+          "materia": "Aseo, Ornato y Medio Ambiente",
+          "materia_id": "aseo_medioambiente",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23065/1/2011",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=E61EgzbYQz%2BuYMmofUfIzQ%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=E61EgzbYQz%2BuYMmofUfIzQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "3effc9712043f38f3866857c9c0ba02decec9d81337c753b13366caf2fc6165d",
+            "bytes": 186821,
+            "verified_at": "2026-10-01T14:53:22.634877+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 998,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -46470,6 +52302,50 @@ window.CATASTRO_DATA = {
           "badge_border": "border-indigo-500/30",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=1028500",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2011-08-09/103/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "103",
+          "fecha": "2011-07-28",
+          "titulo": "Sobre derechos municipales N° 103: Modifícase la Ordenanza Nº22 de 28 de Diciembre de 2011 la \"Ordenanza Local sobre Derechos Municipales que rige para el año 2011\", cuyo texto refundido y sistematizado fue aprobado pro Decreto Alcaldicio EXNº2",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2011",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=PiLNZHuMBupNFS7POBhHmQ%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=PiLNZHuMBupNFS7POBhHmQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "b1571df5e88e0e90751f21a865298a69c768a56edcb17208418ac40360e52bb1",
+            "bytes": 49948,
+            "verified_at": "2026-10-01T14:54:50.980311+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "970",
+          "fecha": "2011-06-03",
+          "titulo": "Pónese Término Al Permiso Precario Otorgado A Doña Elena Quezada Quezada, Rut.nº992.975-4 Y Marta Iturrieta Vergara, Rut.nº4.665.898-1, Por La Ocupación Del Local Nº5, Del Mercado Funcional De Providencia, Ubicado En Calle Antonio Bellet Nº58.- N° 970: Pónese Término Al Permiso P",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2011",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=fxddK7uCHME6A041WgssMw%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=fxddK7uCHME6A041WgssMw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "f75d6e9c182cd2eb92cfa9e4741b3df5c84dfd9e2fff5b164a4277e0c2794792",
+            "bytes": 1385430,
+            "verified_at": "2026-10-01T14:52:35.873334+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 997,
@@ -46488,6 +52364,28 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2011-06-02/102/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "102",
+          "fecha": "2011-05-17",
+          "titulo": "Sobre derechos municipales N° 102: Modifícase la ordenanza Nº22 de 28 de Diciembre de 2001 \"Ordenanza Local Sobre Derecho Municipales que rige para el año 2011\"",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2011",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=rm2jg94nRuSPj217QcEcMA%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=rm2jg94nRuSPj217QcEcMA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "747231af8687001acaed8dbcef11157451d17635061d81b84578958b28b72b27",
+            "bytes": 45483,
+            "verified_at": "2026-10-01T14:54:51.494958+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 996,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -46502,6 +52400,116 @@ window.CATASTRO_DATA = {
           "badge_border": "border-indigo-500/30",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=1024838",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2011-04-27/101/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "858",
+          "fecha": "2011-04-27",
+          "titulo": "Apruébase El Siguiente Texto Refundido Y Sistematizado De La Ordenanza Sobre Permisos Y Concesiones De Bienes Municipales Y Nacionales De Uso Público Y Concesiones De Servicios Municipales\" N° 858: Apruébase El Siguiente Texto Refundido Y Sistematizado De La Ordenanza Sobre Permi",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2011",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=fcdy4AHDHQBc6HYegb7GXA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=fcdy4AHDHQBc6HYegb7GXA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "bbe24eaad9f4082e89a32c477487694b88b5aac47e1e0804132e3b32ae7da6c3",
+            "bytes": 537168,
+            "verified_at": "2026-10-01T14:52:36.508296+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "858",
+          "fecha": "2011-04-19",
+          "titulo": "Decreto Exento N° 858: Apruébase el siguiente texto refundido y sistematizado de la ordenanza sobre \"PERMISOS Y CONCESIONES DE BIENES MUNICIPALES Y NACIONALES DE USO PUBLICO Y CONCESIONES DE SERVICIOS MUNCIPALES\"",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23075/1/2011",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=86Gqx8Ei5Jc%2FUEen%2Foij0A%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=86Gqx8Ei5Jc%2FUEen%2Foij0A%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "023eb6a8bbcf6b2c10f075546cba664178be5057796410885b9713975d9457ed",
+            "bytes": 496559,
+            "verified_at": "2026-10-01T14:53:37.046748+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "101",
+          "fecha": "2011-04-19",
+          "titulo": "Sobre derechos municipales N° 101: Modifícase la Ordenanza Nº22 de 28",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2011",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=D%2F7fA4AYdvhi9FcR%2BjfxAQ%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=D%2F7fA4AYdvhi9FcR%2BjfxAQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "b7502ae0840bdc68af8188786f7e795da9d19e1e151a2a7ff7999bc5970fdd1e",
+            "bytes": 56921,
+            "verified_at": "2026-10-01T14:54:52.026921+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "777",
+          "fecha": "2011-04-16",
+          "titulo": "Fíjase El Texto Refundido Y Sistematizado De La Ordenanza Sobre \"funcionamiento Del Depósito Municipal De Vehículos \".- N° 777: Fíjase El Texto Refundido Y Sistematizado De La Ordenanza Sobre \"funcionamiento Del Depósito Municipal De Vehículos \"",
+          "materia": "Tránsito, Transporte y Espacio Público",
+          "materia_id": "transito_transporte",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2011",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=HwgQWPQ%2FpqivWa7E7hXOmA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=HwgQWPQ%2FpqivWa7E7hXOmA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "7c738bed2ebfd5ed33b52364b678e1c02cded625a6fa1867637648c2d20364e4",
+            "bytes": 100485,
+            "verified_at": "2026-10-01T14:52:37.049076+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "777",
+          "fecha": "2011-04-12",
+          "titulo": "Funcionamiento del depósito municipal de vehículos N° 777: Fíjase el texto refundido y sistematizado de la Ordenanza sobre \"Funcionamiento del Depósito Municipal de Vehículos \"",
+          "materia": "Tránsito, Transporte y Espacio Público",
+          "materia_id": "transito_transporte",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23092/1/2011",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=hCKNdeqpzQNZTEBGTRIhXA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=hCKNdeqpzQNZTEBGTRIhXA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "a664e4ecd956b22b00dd25109805c01ee47c4b992ed97ea159a5cbed5fb171f8",
+            "bytes": 158522,
+            "verified_at": "2026-10-01T14:55:25.028376+00:00"
+          },
+          "rdf_url": null
         },
         {
           "fuente": "BCN",
@@ -46530,6 +52538,94 @@ window.CATASTRO_DATA = {
           "estado": "Vigente / LeyChile"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "721",
+          "fecha": "2011-04-09",
+          "titulo": "Fíjase El Siguiente Texto Refundido Y Sistematizado De La Ordenanza Sobre Normas Sanitarias Básicas.- N° 721: Fíjase El Siguiente Texto Refundido Y Sistematizado De La Ordenanza Sobre Normas Sanitarias Básicas",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2011",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=P%2FLPA8JmQZRyvu%2FqhwoN3A%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=P%2FLPA8JmQZRyvu%2FqhwoN3A%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "06026b9bcafe51e51b7050e3d8b9564b9e3b186b674681b26c154527205a60c4",
+            "bytes": 117519,
+            "verified_at": "2026-10-01T14:52:37.574443+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "720",
+          "fecha": "2011-04-09",
+          "titulo": "Fíjese El Siguiente Texto Refundido Y Sistematizado De La Ordenanza Sobre Obras De Construcción, Reconstrucción, Reparación, Alteración, Ampliación Y Demolición De Edificios Y Obras De Urbanización.- N° 720: Fíjese El Siguiente Texto Refundido Y Sistematizado De La Ordenanza Sobr",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2011",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=jueHfP486Ri9jo3YYWG2BA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=jueHfP486Ri9jo3YYWG2BA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "94d184f151c107a768eedfe54eb454c5b5536e03a0657439c3f4ff2405b5911a",
+            "bytes": 120548,
+            "verified_at": "2026-10-01T14:52:38.076358+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "720",
+          "fecha": "2011-03-31",
+          "titulo": "Decreto Exento N° 720: Fíjese el siguiente texto refundido y sistematizado de la ORDENANZA SOBRE OBRAS DE CONSTRUCCION, RECONSTRUCCION, REPARACION, ALTERACION Y DEMOLICION DE EDIFICIOS Y OBRAS DE URBANIZACION",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23088/1/2011",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=qhjceLvhn2ZBEahhBGA8sw%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=qhjceLvhn2ZBEahhBGA8sw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "2dafff19cd879fa2e52eae83f46ebeeae6ab93ea2aaf4d3f0cc1ff3f6b41a438",
+            "bytes": 286415,
+            "verified_at": "2026-10-01T14:55:20.594314+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "721",
+          "fecha": "2011-03-31",
+          "titulo": "Normas sanitarias básicas N° 721: Fíjase el siguiente texto refundido y sistematizado de la Ordenanza Sobre Normas Sanitarias Básicas",
+          "materia": "Normas Sanitarias y Convivencia",
+          "materia_id": "convivencia_seguridad",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23100/1/2011",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=fPgm0dGztFf8eYp0%2BcLLnQ%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=fPgm0dGztFf8eYp0%2BcLLnQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "ac660e0d881246c2c14c963b1b8b5526bdcb8df540b0e685bc095d5ef2d7092f",
+            "bytes": 344651,
+            "verified_at": "2026-10-01T14:55:42.799902+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 995,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -46544,6 +52640,50 @@ window.CATASTRO_DATA = {
           "badge_border": "border-zinc-700",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=1022451",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2011-01-31/100/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "100",
+          "fecha": "2011-01-25",
+          "titulo": "Normas sanitarias básicas N° 100: Modifícase la Ordenanza sobre Normas Sanitarias Básicas cuyo texto refundido y sistematizado fue fijado por Decreto Alcaldicio EXNº1105 de 12 de Junio de 2008",
+          "materia": "Normas Sanitarias y Convivencia",
+          "materia_id": "convivencia_seguridad",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23100/1/2011",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=K7Mt9AF6pyLFJwT%2BYiGuWw%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=K7Mt9AF6pyLFJwT%2BYiGuWw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "7b789a9381f2f06b0d2f4eba08d823ac283525d7c269cb74a3d4461b7f8d2558",
+            "bytes": 72393,
+            "verified_at": "2026-10-01T14:55:43.298628+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1",
+          "fecha": "2011-01-25",
+          "titulo": "Normas sanitarias básicas N° 1: Modifícase la Ordenanza sobre Normas Sanitarias Básicas, cuyo texto refundido y sistematizado fue fijado por Decreto Alcaldicio EXNº1105 de 12 de Junio de 2008",
+          "materia": "Normas Sanitarias y Convivencia",
+          "materia_id": "convivencia_seguridad",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23100/1/2011",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=NJJwuZ6r7eA%2BluGyZnyyHg%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=NJJwuZ6r7eA%2BluGyZnyyHg%3D%3D",
+            "content_type": "text/html",
+            "sha256": "da407699e5f431b8c859d9b05e74fcbf7e2fed761060af7a50ffa31c33f5164e",
+            "bytes": 1550,
+            "verified_at": "2026-10-01T14:55:43.710348+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 994,
@@ -46575,6 +52715,94 @@ window.CATASTRO_DATA = {
           "estado": "Vigente / LeyChile"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "2361",
+          "fecha": "2010-12-24",
+          "titulo": "Texto Refundido Y Sistematizado De La Ordenanza De Derechos Municipales Que Regirá Para El Año 2011 N° 2361: Texto Refundido Y Sistematizado De La Ordenanza De Derechos Municipales Que Regirá Para El Año 2011",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2010",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=WzMDmP60NppptaHX%2BYWMOg%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=WzMDmP60NppptaHX%2BYWMOg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "322a7e5656511840c7c04677500b596fdafd19282122f6e3edddc378ecd8b2c6",
+            "bytes": 109447,
+            "verified_at": "2026-10-01T14:52:29.533856+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "99",
+          "fecha": "2010-12-24",
+          "titulo": "Déjase Establecido El Monto Para El \"cobro Derecho De Aseo Domiciliaro Para El Año 2011\", Conforme A Lo Establecido Por Ordenanza Nº93 De 12-10-2010 N° 99: Déjase Establecido El Monto Para El \"cobro Derecho De Aseo Domiciliaro Para El Año 2011\", Conforme A Lo Establecido Por Orde",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2010",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=%2FcAe2nNQDfGqgQ6MNNjNYw%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=%2FcAe2nNQDfGqgQ6MNNjNYw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "d41bffa5dcf2a0c42c50bc34a7620a6326b8a969cba669fa1196a73c9dfa13a8",
+            "bytes": 109428,
+            "verified_at": "2026-10-01T14:52:31.120022+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "99",
+          "fecha": "2010-12-21",
+          "titulo": "Cobro de derecho de aseo domiciliario N° 99: Déjase establecido el monto para el \"Cobro Derecho de Aseo Domiciliaro para el año 2011\", conforme a lo establecido por Ordenanza Nº93 de 12 de Octubre de 2010",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23083/1/2010",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=lVhtOC0gbo7%2BjoEM6hm%2Fag%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=lVhtOC0gbo7%2BjoEM6hm%2Fag%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "3753dbeb7397b3fac5283a0550dfe988805c7f21fbdfea9186c9c2f97d7ba286",
+            "bytes": 45341,
+            "verified_at": "2026-10-01T14:54:05.951297+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "2361",
+          "fecha": "2010-12-20",
+          "titulo": "Sobre derechos municipales N° 2361: Texto refundido y sistematizado de la Ordenanza de Derechos Municipales que regirá para el año 2011",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2010",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=q5x6tauiq0rIXyBjuBX2ag%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=q5x6tauiq0rIXyBjuBX2ag%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "fb5cfd804d2bdafb351a9ec1e45bdb01dba7bb3c5ce76bf75c42a4a42efb5d50",
+            "bytes": 1820058,
+            "verified_at": "2026-10-01T14:54:46.599924+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 993,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -46589,6 +52817,138 @@ window.CATASTRO_DATA = {
           "badge_border": "border-zinc-700",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=1019668",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2010-11-18/98/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "98",
+          "fecha": "2010-11-18",
+          "titulo": "Díctase La Ordenanza Sobre Servicios Del Sistema De Bibliotecas De La Municipalidad De Providencia N° 98: Díctase La Ordenanza Sobre Servicios Del Sistema De Bibliotecas De La Municipalidad De Providencia",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2010",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=2oRAxPo9b8QRsnvrl9HNZA%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=2oRAxPo9b8QRsnvrl9HNZA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "220ade36d504cd50df1a136a4e1aa7de8672aaaa2667e8b719f84cad8ce7027c",
+            "bytes": 409184,
+            "verified_at": "2026-10-01T14:52:31.639668+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "97",
+          "fecha": "2010-11-18",
+          "titulo": "Modifícase La Ordenanza Nº22 De 28.12.2001 \"ordenanza Local Sobre Derechos Municipales Que Rige Para El 2010\", Cuyo Texto Refundido Fue Aprobado Por ExNº2669 De 18.12.2009 N° 97: Modifícase La Ordenanza Nº22 De 28",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2010",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=FEvGhqx9FOOViYbYkYvZyQ%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=FEvGhqx9FOOViYbYkYvZyQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "c1b3207932eb4dbd111411bfafe783152f3a9fc4c352f2b8867c6da4d1bf41ac",
+            "bytes": 535009,
+            "verified_at": "2026-10-01T14:52:32.176959+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "96",
+          "fecha": "2010-11-18",
+          "titulo": "Modifícase La Ordenanza Nº8 De 01.10.2003 Sobre \"permisos Y Concesiones De Bienes Municipales Y Nacionales De Uso Público Y Concesiones De Servicios Municipales\" N° 96: Modifícase La Ordenanza Nº8 De 01",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2010",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=yvWVC%2FK2SBwgXeygHAzzpw%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=yvWVC%2FK2SBwgXeygHAzzpw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "a822fc8c264d63e36a3a52a94b80360237a99ee216cd55191179d0e68fbd7a1a",
+            "bytes": 137404,
+            "verified_at": "2026-10-01T14:52:32.665437+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "95",
+          "fecha": "2010-11-18",
+          "titulo": "Sustitúyase El Artículo 3º De La Ordenanza Nº16 De 04.02.2004, Sobre \"funcionamiento Del Depósito Municipal De Vehículos\". N° 95: Sustitúyase El Artículo 3º De La Ordenanza Nº16 De 04",
+          "materia": "Tránsito, Transporte y Espacio Público",
+          "materia_id": "transito_transporte",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2010",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=UBVgrayoFI6sTsucxq9oPg%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=UBVgrayoFI6sTsucxq9oPg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "f66a8c8a6b64729ce994518b5e24067abfaa79809b915588a8bd9910f1e57fb0",
+            "bytes": 281409,
+            "verified_at": "2026-10-01T14:52:33.155141+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "94",
+          "fecha": "2010-11-18",
+          "titulo": "Modifícase La Ordenanza Nº13 De 02.12.2003, Que Aprobó La \"ordenanza Sobre Obras De Construcción, Reconstrucción, Reparación, Alteración, Ampliación Y Demolición De Edificios Y Obras De Urbanización\". N° 94: Modifícase La Ordenanza Nº13 De 02",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2010",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=pFyMUMOI9jRue5Shvncwng%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=pFyMUMOI9jRue5Shvncwng%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "5d868bce54b9b3b07f4855322e772c97b91239b7aac4c29c8a9a1e8b4a3c9227",
+            "bytes": 150919,
+            "verified_at": "2026-10-01T14:52:33.637640+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "98",
+          "fecha": "2010-11-12",
+          "titulo": "Ordenanza N° 98: Díctase la siguiente \"ORDENANZA SOBRE SERVICIOS DEL SISTEMA DE BIBLIOTECAS DE LA MUNICIPALIDAD DE PROVIDENCIA\"",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23091/1/2010",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=A7pC%2FAOnc0SAz5QpMfIamg%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=A7pC%2FAOnc0SAz5QpMfIamg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "9c10a54cffa3c9c6cc509adfd3e462c996bf3e65578020968ac3ffe57db6f498",
+            "bytes": 212938,
+            "verified_at": "2026-10-01T14:55:23.493657+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 989,
@@ -46671,6 +53031,138 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2010-10-16/93/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "93",
+          "fecha": "2010-10-16",
+          "titulo": "Apruébase La Siguiente \"ordenanza De Cobro De Derecho De Aseo Domiciliario Para El Año 2011\". N° 93: Apruébase La Siguiente \"ordenanza De Cobro De Derecho De Aseo Domiciliario Para El Año 2011\"",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2010",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=iOATwpeoNjwut%2FrtOfT%2Bbw%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=iOATwpeoNjwut%2FrtOfT%2Bbw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "9543a31808025e09c319f9ee31e3ce517f5a0e95a808fba167768004ab36efb9",
+            "bytes": 322366,
+            "verified_at": "2026-10-01T14:52:34.280125+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "97",
+          "fecha": "2010-10-13",
+          "titulo": "Sobre derechos municipales N° 97: Modifícase la Ordenanza Nº22 de 28",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2010",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=6wVrRq%2Bj8Go3kbWNTfsJkg%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=6wVrRq%2Bj8Go3kbWNTfsJkg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "ad51212f7c7b782809465550cdb06cb85e2040eb7a3fb563ba830d2e0f779dba",
+            "bytes": 498143,
+            "verified_at": "2026-10-01T14:54:47.284478+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "96",
+          "fecha": "2010-10-12",
+          "titulo": "Permisos y Concesiones de Bienes Municipales y Nacionales de Uso Público y Concesiones de Servicios Municipales N° 96: Modifícase la ordenanza Nº8 de 01",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23075/1/2010",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=AEeW8bflkB%2F%2FcVfYW9faRQ%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=AEeW8bflkB%2F%2FcVfYW9faRQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "83c51a7134ba229e50fba3bab4e34e36ef183da45141779152f303e782755935",
+            "bytes": 88161,
+            "verified_at": "2026-10-01T14:53:36.494421+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "93",
+          "fecha": "2010-10-12",
+          "titulo": "Cobro de derecho de aseo domiciliario N° 93: Apruébase la siguiente \"Ordenanza de cobro de derecho de aseo domiciliario para el año 2011\"",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23083/1/2010",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=neqiiepuMKNj8Dup0u9v3w%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=neqiiepuMKNj8Dup0u9v3w%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "85aeff9465c70d87fdb74b4e90118ef0f5ef021f10c595f5f23cdca7d39432a0",
+            "bytes": 50959,
+            "verified_at": "2026-10-01T14:54:06.478844+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "94",
+          "fecha": "2010-10-12",
+          "titulo": "Obras de construcción, reconstrucción,reparación, alteración y demolición de edificios y obras de urbanización horario carga y descarga N° 94: Modifícase la Ordenanza Nº13 de 02",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23088/1/2010",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=3o83r6GM1UscYsJjwglFTA%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=3o83r6GM1UscYsJjwglFTA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "af83faf3c8c47667728c1820d9c72680afca551e6c5d9a891f50fa92dee4a4cd",
+            "bytes": 58408,
+            "verified_at": "2026-10-01T14:55:20.050514+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "95",
+          "fecha": "2010-10-12",
+          "titulo": "Funcionamiento del depósito municipal de vehículos N° 95: Sustitúyase el artículo 3º de la Ordenanza Nº16 de 04",
+          "materia": "Tránsito, Transporte y Espacio Público",
+          "materia_id": "transito_transporte",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23092/1/2010",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=XBDRcWin6q25QtKboKVuOg%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=XBDRcWin6q25QtKboKVuOg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "ac21938787dac77a160032726155a702fb51b7e7922ddd12b132174af6c6a3ff",
+            "bytes": 43947,
+            "verified_at": "2026-10-01T14:55:24.498023+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 987,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -46687,6 +53179,28 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2010-09-23/92/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "92",
+          "fecha": "2010-09-15",
+          "titulo": "Sobre derechos municipales N° 92: Modifícase la Ordenanaza Nº22 de 28",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2010",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=civDWKJQH2GZQqfs0ze2WA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=civDWKJQH2GZQqfs0ze2WA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "b74788038ecb7b4a6ac1adf9734c984be199b8ae67424294ce20966672dc00d8",
+            "bytes": 49961,
+            "verified_at": "2026-10-01T14:54:47.791375+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "fuente": "BCN",
           "numero": "1607-exento",
           "fecha": "2010-08-28",
@@ -46698,6 +53212,72 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/dto/municipalidad-de-providencia/2010-08-28/1607-exento/datos.json",
           "tipo_norma": "Ordenanza Municipal",
           "estado": "Vigente / LeyChile"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1607",
+          "fecha": "2010-08-28",
+          "titulo": "Fíjase El Siguiente Texto Refundido, Coordinado Y Sistematizado De La Ordenanza Sobre \"ocupación De Bien Nacional De Uso Público Calle Pío Nono\". N° 1607: Fíjase El Siguiente Texto Refundido, Coordinado Y Sistematizado De La Ordenanza Sobre \"ocupación De Bien Nacional De Uso Públ",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2010",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=JKDfIqf8ESjWSHV2lMYzwA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=JKDfIqf8ESjWSHV2lMYzwA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "111ac5c06b0b1319c41022d31a36e266e25997a19c6ccf093e6e1cc72fecd84d",
+            "bytes": 120919,
+            "verified_at": "2026-10-01T14:52:30.056395+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1553",
+          "fecha": "2010-08-21",
+          "titulo": "Apruébase Y Promúlgase La Aprobación De Las Nuevas Normas Urbanisticas Asignadas A Las Fajas De Utilidad Pública Caducadas De Calle Pedro Lira, Asimilándolas A Las Zonas De Uso De Suelo Y Edificación Predominantes En El Sector. N° 1553: Apruébase Y Promúlgase La Aprobación De Las",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2010",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=GQqC3wjKK%2BGAm4qavxdnBg%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=GQqC3wjKK%2BGAm4qavxdnBg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "d94b9d45da6a4dec9d9f86966390d127bbad27a042d418b1fb92e6427e520db5",
+            "bytes": 232786,
+            "verified_at": "2026-10-01T14:52:30.565975+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1607",
+          "fecha": "2010-08-20",
+          "titulo": "Decreto Exento N° 1607: Fíjase el siguiente texto refundido, coordinado y sistematizado de la Ordenanza sobre \"OCUPACION BIEN NACIONAL DE USO PÚBLICO CALLE PIO NONO\"",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23073/1/2010",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=v9TCSw8jrhNyMQUDQmTZKA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=v9TCSw8jrhNyMQUDQmTZKA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "dcdde3224687530ccbd07ad814bbb226c3ddde19501b4ea582e538bbcb830f62",
+            "bytes": 478325,
+            "verified_at": "2026-10-01T14:53:31.977071+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 986,
@@ -46716,6 +53296,28 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2010-08-10/91/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "91",
+          "fecha": "2010-08-05",
+          "titulo": "Ordenanza N° 91: Modifícase la Ordenanza Nº87 de 28  de abril de 2010, sobre, \"OCUPACION BIEN NACIONAL DE USO PUBLICO CALLE POO NONO\"",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23073/1/2010",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=RGNJNmK%2BTb7xnLdDA8C15A%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=RGNJNmK%2BTb7xnLdDA8C15A%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "277801d18556d881c5876f762460e8beef604ddb2414f317ae4e01e32275ffe6",
+            "bytes": 56541,
+            "verified_at": "2026-10-01T14:53:32.499315+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 985,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -46732,6 +53334,28 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2010-07-03/90/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "90",
+          "fecha": "2010-06-24",
+          "titulo": "Condiciones necesarias para la fijación de Tarifa del servicio Domiciliario por Extracción de Basuras y Exenciones Total y  Parcial N° 90: Modifícase la Ordenanza Nº65 de 19",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23063/1/2010",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=MoGBliFy6bzAF6ok5CFksw%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=MoGBliFy6bzAF6ok5CFksw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "d7e7ee069b7e6c63f1e02926baf722465bb10d48a36283158b90202756d984c2",
+            "bytes": 74803,
+            "verified_at": "2026-10-01T14:53:13.952124+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "fuente": "BCN",
           "numero": "1159-exento",
           "fecha": "2010-06-18",
@@ -46743,6 +53367,28 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/dto/municipalidad-de-providencia/2010-06-18/1159-exento/datos.json",
           "tipo_norma": "Ordenanza Municipal",
           "estado": "Vigente / LeyChile"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1159",
+          "fecha": "2010-06-11",
+          "titulo": "Decreto Exento N° 1159: Fíjase el siguiente texto refundido, coordinado y sistematizado de la Ordenanza sobre \"HOTELES, APART HOTELES, MOTELES RESIDENCIALES Y HOSPEDERIAS\"",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23079/1/2010",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=b0D8Y3CL3I8pqOo0vkaHfQ%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=b0D8Y3CL3I8pqOo0vkaHfQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "2c3d53d362d143955c8b021b7820c7d0056a9407a23fd7ff277054dfa5ed1e7b",
+            "bytes": 177060,
+            "verified_at": "2026-10-01T14:53:42.058152+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 983,
@@ -46777,6 +53423,50 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2010-06-04/89/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "89",
+          "fecha": "2010-05-28",
+          "titulo": "Sobre derechos municipales N° 89: Modifícase la Ordenanza Nº22 de 28 de Diciembre de 2001, \"Ordenanza Local sobre Derechos Municipales que rige para el año 2010\", aprobado por  EX2669 de 2009, sustituyendo el Nº28 del Art",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2010",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=nMhgozi%2FbVC8CN8F0BVHvA%3D%3D",
+          "tipo_norma_clasif": "modificacion",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=nMhgozi%2FbVC8CN8F0BVHvA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "989e468dbe8f7dbcf50bc0fc5055c025c387610e1eafc4cc3bc8c987eae23321",
+            "bytes": 122068,
+            "verified_at": "2026-10-01T14:54:48.381563+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "88",
+          "fecha": "2010-05-27",
+          "titulo": "Ordenanza N° 88: Modifícase  la Ordenanza Nº66 de 4 de Julio de 1994, que aprobó la Ordenanza SOBRE HOTELES, APART-HOTELES, MOTELES, RESIDENCIALES Y HOSPEDERIAS\"",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23079/1/2010",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=feMIFE01FR0%2FRfOjT8lEsA%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=feMIFE01FR0%2FRfOjT8lEsA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "4d16b3bf62d94aecf4ffa921d8fefa014841d3cd1e1babfe8f684d0d7fd609a1",
+            "bytes": 69255,
+            "verified_at": "2026-10-01T14:53:42.574019+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 982,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -46793,6 +53483,28 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2010-05-04/87/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "87",
+          "fecha": "2010-04-28",
+          "titulo": "Ordenanza N° 87: Apruébase la Ordenanza sobre \"OCUPACION BIEN NACIONAL DE USO PUBLICO CALLE PIO NONO\"",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23073/1/2010",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=wSDBjJZf5v1OU6jchsB9uQ%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=wSDBjJZf5v1OU6jchsB9uQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "53346f1c3ada106231d96ed25762de631c912d69b78ba3ae4140c96f374b72f1",
+            "bytes": 474434,
+            "verified_at": "2026-10-01T14:53:33.143894+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 981,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -46807,6 +53519,72 @@ window.CATASTRO_DATA = {
           "badge_border": "border-indigo-500/30",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=1009638",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2009-12-28/86/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "86",
+          "fecha": "2009-12-28",
+          "titulo": "Dejase Establecido El Monto Para El \"cobro Derecho De Aseo Domiciliario Para El Año 2010\", Conforme Lo Establecido Por Ordenanza Nº85 De 14-10-2009. N° 86: Dejase Establecido El Monto Para El \"cobro Derecho De Aseo Domiciliario Para El Año 2010\", Conforme Lo Establecido Por Orden",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2009",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=W1CHHDAXpP7bvKb3CORIfA%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=W1CHHDAXpP7bvKb3CORIfA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "40cb7ea71e40473e9ee9ce2e58c27e0d672c2a67b527641a7a8095be34d6157e",
+            "bytes": 462433,
+            "verified_at": "2026-10-01T14:52:28.509030+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "2669",
+          "fecha": "2009-12-18",
+          "titulo": "Sobre derechos municipales N° 2669: Fíjase el texto refundido y sistematizado de la Ordenanza Nº22 de 28 de Diciembre de 2001 y sus modificaciones \"Ordenanza Local sobre Derechos Municipales\" que regirá para el año 2010",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2009",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=vAeOWe%2B2V2lpYIJFf1X34Q%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=vAeOWe%2B2V2lpYIJFf1X34Q%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "a9665f29fca31793542a582d185cc51b27a551f2ec9457076668aabd8ef03f56",
+            "bytes": 1754856,
+            "verified_at": "2026-10-01T14:54:44.122549+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "86",
+          "fecha": "2009-12-10",
+          "titulo": "Cobro de derecho de aseo domiciliario N° 86: Dejase establecido el monto para el \"Cobro Derecho de Aseo Domiciliario para el Año 2010\", conforme lo establecido por Ordenanza Nº85 de 14 de Octubre de 2009",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23083/1/2009",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=4PSs7cveDDmTlXfTt6Qeag%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=4PSs7cveDDmTlXfTt6Qeag%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "2d20bae85bd6fbc905e5de17b9feb20af129a69b9923af70ebf8ce45a3d7ed90",
+            "bytes": 52665,
+            "verified_at": "2026-10-01T14:54:04.747280+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 979,
@@ -46841,6 +53619,72 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2009-10-21/85/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "85",
+          "fecha": "2009-10-21",
+          "titulo": "Renuévase Para El Año 2010, La Ordenanza N°76 De 28-10-2008, Que Aprobó La Ordenanza De \"cobro De Derecho De Aseo Domiciliario Para El Año 2009\". N° 85: Renuévase Para El Año 2010, La Ordenanza N°76 De 28-10-2008, Que Aprobó La Ordenanza De \"cobro De Derecho De Aseo Domiciliario ",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2009",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=wsyKokTlVO4lXsB6cQfz6Q%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=wsyKokTlVO4lXsB6cQfz6Q%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "747f7f515cf20d4a19de40244cb6e06d6edc2856d6150ebc220e2b99efb51b01",
+            "bytes": 764316,
+            "verified_at": "2026-10-01T14:52:29.075896+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "85",
+          "fecha": "2009-10-14",
+          "titulo": "Cobro de derecho de aseo domiciliario N° 85: Renuévase para el año 2010, la Ordenanza N°76 de 28 de Octubre de 2008, que aprobó la Ordenanza de \"Cobro de Derecho de Aseo Domiciliario para el año 2009\"",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23083/1/2009",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=wugqHc30EFDc1O1hrubKPw%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=wugqHc30EFDc1O1hrubKPw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "e98a693fc42ca766d8dcc1febf9f250600a3567b037b41aca9caeb6d0f14ddf0",
+            "bytes": 200200,
+            "verified_at": "2026-10-01T14:54:05.331478+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "84",
+          "fecha": "2009-10-14",
+          "titulo": "Sobre derechos municipales N° 84: Modifícase la Ordenanza N°22 de 28",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2009",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=0%2FZ5HXv3F4W2TX6NpUwDcg%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=0%2FZ5HXv3F4W2TX6NpUwDcg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "8f9a6cee1e517249aa4152861fd491ff1d992e7329383dbce46cfbf8b60f7240",
+            "bytes": 1096181,
+            "verified_at": "2026-10-01T14:54:45.305867+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "fuente": "BCN",
           "numero": "2007-exento",
           "fecha": "2009-09-22",
@@ -46852,6 +53696,72 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/dto/municipalidad-de-providencia/2009-09-22/2007-exento/datos.json",
           "tipo_norma": "Ordenanza Municipal",
           "estado": "Vigente / LeyChile"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "2007",
+          "fecha": "2009-09-22",
+          "titulo": "Fíjase El Siguiente Texto Refundido Y Sistematizado De La Ordenanza Comunal Sobre La \"instalación De Mesas Y Toldos En El Bien Nacional De Uso Público Paseo Peatonal General Holley\".- N° 2007: Fíjase El Siguiente Texto Refundido Y Sistematizado De La Ordenanza Comunal Sobre La \"i",
+          "materia": "Aseo, Ornato y Gestión de Residuos",
+          "materia_id": "aseo_medioambiente",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2009",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=kj%2FnjSyhp8hqsWyGLso%2FkQ%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=kj%2FnjSyhp8hqsWyGLso%2FkQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "6caea7e0dbc6bdca3895fc820fb6bfe234c8259fe55e7c9dd387d2b1be057a6b",
+            "bytes": 55286,
+            "verified_at": "2026-10-01T14:52:23.404661+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "2007",
+          "fecha": "2009-09-11",
+          "titulo": "Decreto Exento N° 2007: Fíjase el siguiente texto refundido y sistematizado de la Ordenanza Comunal sobre la \"INSTALACION DE MESAS Y TOLDOS EN EL BIEN NACIONAL DE USO PUBLICO PASEO PEATONAL GENERAL HOLLEY\"",
+          "materia": "Aseo, Ornato y Gestión de Residuos",
+          "materia_id": "aseo_medioambiente",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23071/1/2009",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=RocLw8x7s4tCl3jqfH4m4g%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=RocLw8x7s4tCl3jqfH4m4g%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "8309d03ef7e0bab09576d2f2b66fd525d774c589ef53422c7f2a00803612a236",
+            "bytes": 136414,
+            "verified_at": "2026-10-01T14:53:30.969810+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1936",
+          "fecha": "2009-09-08",
+          "titulo": "Cobranza de patentes derechos y contribuciones que se encuentran morosas N° 1936: Autoriza el no cobro de intereses y reajustes a aquellos contribuyentes que se vieron afectados con el problema suscitado en el sistema computacional de rentas",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23078/1/2009",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=qeXgOIOagtx1HnHwcHG5PQ%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=qeXgOIOagtx1HnHwcHG5PQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "dbe000d6632318b712cef43017af6d1a4cfbb76340ca78f5cf4ea82895810554",
+            "bytes": 171006,
+            "verified_at": "2026-10-01T14:53:40.103833+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 977,
@@ -46884,6 +53794,72 @@ window.CATASTRO_DATA = {
           "badge_border": "border-zinc-700",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=1004817",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2009-08-05/83/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "83",
+          "fecha": "2009-07-28",
+          "titulo": "Ordenanza N° 83: Modifícase la Ordenanza N°9 de 22 de Agosto de 2001, que aprobó la Ordenanza Comunal sobre \"INSTALACION DE MESAS Y TOLDOS EN EL BIEN NACIONAL DE USO PUBLICO PASEO PEATONAL GENERAL HOLLEY\"",
+          "materia": "Aseo, Ornato y Gestión de Residuos",
+          "materia_id": "aseo_medioambiente",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23071/1/2009",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=njxmVU%2FaJUqeXuAm4MvfSg%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=njxmVU%2FaJUqeXuAm4MvfSg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "54cbb3d74732e83e506841b955d77a8a7b24967dc92794ca29ae5440613b3c49",
+            "bytes": 146686,
+            "verified_at": "2026-10-01T14:53:31.476453+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "82",
+          "fecha": "2009-07-23",
+          "titulo": "Condiciones necesarias para la fijación de Tarifas del S ervicio Domiciliario por Extracción de Basuras y Exenciones Total y Parcial N° 82: Modificación Ordenanza Nº65 de 19",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23063/1/2009",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=u1TBhZp%2FKNq85%2BwxnqyYNg%3D%3D",
+          "tipo_norma_clasif": "modificacion",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=u1TBhZp%2FKNq85%2BwxnqyYNg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "2386a01959ee3717fa8949d7a680ac8e480f3c055f83196ca8a3557b0f20c53d",
+            "bytes": 320797,
+            "verified_at": "2026-10-01T14:53:12.108713+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1374",
+          "fecha": "2009-07-10",
+          "titulo": "Fíjase El Siguiente Texto Refundido Y Sistematizado De La Ordenanza Comunal Nº2 De Fecha 6-03-2000 \"sobre La Actividad Comercial, De Alcoholes, Industrial, Profesional Y De Servicios \".- N° 1374: Fíjase El Siguiente Texto Refundido Y Sistematizado De La Ordenanza Comunal Nº2 De F",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2009",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=j%2FYo%2FjB%2F1eB31uzvFc%2FhuA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=j%2FYo%2FjB%2F1eB31uzvFc%2FhuA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "aee97a69b710b0e586589f8bbfdd7d88df2db27601bc15c0f0627b8946ec0331",
+            "bytes": 945552,
+            "verified_at": "2026-10-01T14:52:24.757727+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 976,
@@ -46928,6 +53904,50 @@ window.CATASTRO_DATA = {
           "estado": "Vigente / LeyChile"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1374",
+          "fecha": "2009-07-03",
+          "titulo": "Fíjase El Siguiente Texto Refundido Y Sistematizado De La Ordenanza Comunal Nº2 De Fecha 6-03-2000 \"sobre La Actividad Comercial, De Alcoholes, Industrial, Profesional Y De Servicios \".- N° 1374: Fíjase El Siguiente Texto Refundido Y Sistematizado De La Ordenanza Comunal Nº2 De F",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2009",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=Ye2Z6BD7KuKWZqEZ4cLO5g%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=Ye2Z6BD7KuKWZqEZ4cLO5g%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "8f71f25fa4346b52fa6d5529035a97286e5282616c8b76effe624f783d79c522",
+            "bytes": 2254765,
+            "verified_at": "2026-10-01T14:52:24.136403+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "81",
+          "fecha": "2009-07-03",
+          "titulo": "Sobre derechos municipales N° 81: Modifícase la ordenanza Nº22 de 28",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2009",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=EwA76QdvxiMIES%2FD82rLbw%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=EwA76QdvxiMIES%2FD82rLbw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "c7b47fe57609020a3ce860d11e64b129069d8462e51c46725791fb8c8da0e96e",
+            "bytes": 51303,
+            "verified_at": "2026-10-01T14:54:45.808294+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "fuente": "BCN",
           "numero": "1349-exento",
           "fecha": "2009-06-27",
@@ -46939,6 +53959,72 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/dto/municipalidad-de-providencia/2009-06-27/1349-exento/datos.json",
           "tipo_norma": "Ordenanza Municipal",
           "estado": "Vigente / LeyChile"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1349",
+          "fecha": "2009-06-27",
+          "titulo": "Apruébase El Siguiente Texto Refundido Y Sistematizado De La Ordenanza Sobre Instalación De Mesas En El Bien Nacional De Uso Público De La Comuna De Providencia. N° 1349: Apruébase El Siguiente Texto Refundido Y Sistematizado De La Ordenanza Sobre Instalación De Mesas En El Bien ",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2009",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=Ka4llaNds5iQjCE110dCvQ%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=Ka4llaNds5iQjCE110dCvQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "a6b79557bceac83945fbf4cd35a93f44afd43d686722688e56c031dd819c1cf1",
+            "bytes": 770644,
+            "verified_at": "2026-10-01T14:52:25.295329+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1374",
+          "fecha": "2009-06-24",
+          "titulo": "Sobre la actividad comercial, de alcoholes, industrial, profesional y de servicios N° 1374: Fíjase el siguiente texto refundido y sistematizado de la Ordenanza Comunal Nº2 de fecha 6 de Marzo de 2000 \"Sobre la Actividad Comercial, de Alcoholes, Industrial, Profesional y de Servic",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23080/1/2009",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=5GmMFnkC6d%2B5LdkWpqTX7Q%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=5GmMFnkC6d%2B5LdkWpqTX7Q%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "7095bc8a9aa874ffc7a5d7e28c8771a1f4f9574afd63e78fb226442f20480fcf",
+            "bytes": 1293007,
+            "verified_at": "2026-10-01T14:53:46.249706+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1349",
+          "fecha": "2009-06-22",
+          "titulo": "Decreto Exento N° 1349: Apruébase el siguiente texto refundido y sistematizado de la \"ORDENANZA SOBRE LA INSTALACIÓN DE MESAS EN EL BIEN DE USO PÚBLICO DE LA COMUNA DE PROVIDENCIA\"",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23070/1/2009",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=kQO6KQ%2Bd2MMQyS6Gk1EfDg%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=kQO6KQ%2Bd2MMQyS6Gk1EfDg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "9480e87aee335ac55d1f0b1dc5e46b12d1257495ae8f08c0c90c96b186080a65",
+            "bytes": 295304,
+            "verified_at": "2026-10-01T14:53:29.540414+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 974,
@@ -46973,6 +54059,50 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2009-06-08/80/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "80",
+          "fecha": "2009-06-01",
+          "titulo": "Condiciones necesarias para la fijación de Tarifas del servicio Domiciliaro por Extracción de Basuras y Exenciones Total y Parcial N° 80: Modifícase la Ordenanza Nº 65 de 19 de Noviembre de 2007, sobre \"Condiciones necesarias para la fijación de tarifas del servicio domiciliario ",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23063/1/2009",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=clDCxyRhR3VUbbwiQVZ7Vg%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=clDCxyRhR3VUbbwiQVZ7Vg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "16d1402dff8a5f8b2f1fea46db7877e11c37e07235f6d338a99595c20dd285e8",
+            "bytes": 171362,
+            "verified_at": "2026-10-01T14:53:12.675046+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "79",
+          "fecha": "2009-06-01",
+          "titulo": "Sobre la actividad comercial, de alcoholes, industrial, profesional y de servicios N° 79: Modifícase la Ordenanza Nº 2 de fecha 06 de marzo de 2000 \"Sobre la actividad comercial, de alcoholes, industrial, profesional y de servicios\"",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23080/1/2009",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=eQoc0PegEClObXG14azggA%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=eQoc0PegEClObXG14azggA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "7ea938c65a964428d96aa2f349bd288b63014194672a88922015ce103baa773c",
+            "bytes": 139991,
+            "verified_at": "2026-10-01T14:53:46.738969+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 973,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -46989,6 +54119,28 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2009-05-20/78/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "78",
+          "fecha": "2009-05-12",
+          "titulo": "Ordenanza N° 78: Modifícase la ordenanza Nº16 de 26",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23070/1/2009",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=wCMtWM0AHnb9k1RMgyEzdA%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=wCMtWM0AHnb9k1RMgyEzdA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "184188aecac518154bc79ba2298cb8d3dfaf3e9b9eaeb62b4fbbcbb206613113",
+            "bytes": 43431,
+            "verified_at": "2026-10-01T14:53:30.005169+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "fuente": "BCN",
           "numero": "630-exento",
           "fecha": "2009-03-28",
@@ -47000,6 +54152,28 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/dto/municipalidad-de-providencia/2009-03-28/630-exento/datos.json",
           "tipo_norma": "Ordenanza Municipal",
           "estado": "Vigente / LeyChile"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "630",
+          "fecha": "2009-03-28",
+          "titulo": "Fíjase El Siguiente Texto Refundido Y Sistematizado De La Ordenanza Sobre \"condiciones Necesarios Para La Fijación De Tarifas Del Servicio Domiciliario Por Extracción De Basura Y Exenciones Total Y Parcial\". N° 630: Fíjase El Siguiente Texto Refundido Y Sistematizado De La Ordena",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2009",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=wN9buEgHml%2BpX5GRUD7dhA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=wN9buEgHml%2BpX5GRUD7dhA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "2b1505b4e7c084a925bf1528669dfc2b17bd512cca0a34345c7aeee7ffe67710",
+            "bytes": 1415534,
+            "verified_at": "2026-10-01T14:52:26.012743+00:00"
+          },
+          "rdf_url": null
         },
         {
           "fuente": "BCN",
@@ -47015,6 +54189,50 @@ window.CATASTRO_DATA = {
           "estado": "Vigente / LeyChile"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "589",
+          "fecha": "2009-03-23",
+          "titulo": "Fíjase El Siguiente Texto Refundido Y Sistematizado De La Ordenanza Sobre Obras De Contrucción, Reconstrucción, Reparación, Alteración, Ampliación Y Demolición De Edificios Y Obras De Urbanización. N° 589: Fíjase El Siguiente Texto Refundido Y Sistematizado De La Ordenanza Sobre ",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2009",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=nxnHXQr9JFZg3i8R1uyUHw%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=nxnHXQr9JFZg3i8R1uyUHw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "7dfaa71f37d3ef32d6588f556cd0828c991f8ce9e8c77e4a44766d7d4ff6e173",
+            "bytes": 1871030,
+            "verified_at": "2026-10-01T14:52:26.753996+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "630",
+          "fecha": "2009-03-23",
+          "titulo": "Condiciones necesarias para la fijación de Tarifas del Servicio Domiciliario por Extracción de basuras y Exenciones Total y Parcial N° 630: Fíjase el siguiente texto refundido y sistematizado de la Ordenanza sobre \"Condiciones necesarios para la fijación de tarifas del servicio d",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23063/1/2009",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=kPCR%2F3AUV1IiRbkRLs0eoQ%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=kPCR%2F3AUV1IiRbkRLs0eoQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "a48cea4af82af47a6fde44f8ae7cd52fa2df1e65dae97c545dd6ad6ebf04e5c2",
+            "bytes": 2221454,
+            "verified_at": "2026-10-01T14:53:13.437085+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "fuente": "BCN",
           "numero": "491-exento",
           "fecha": "2009-03-19",
@@ -47028,6 +54246,72 @@ window.CATASTRO_DATA = {
           "estado": "Vigente / LeyChile"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "491",
+          "fecha": "2009-03-19",
+          "titulo": "Fíjase El Siguiente Texto Refundido Y Sistematizado De La Ordenanza Que Reglamenta La Numeración De Los Inmuebles De La Comuna. N° 491: Fíjase El Siguiente Texto Refundido Y Sistematizado De La Ordenanza Que Reglamenta La Numeración De Los Inmuebles De La Comuna",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2009",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=BgEMOCwwMo9f1JduJtdwqw%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=BgEMOCwwMo9f1JduJtdwqw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "189b1d948b942f914bea4424f264058ad8939bcee9996a9008c2fef48bbfb73d",
+            "bytes": 494291,
+            "verified_at": "2026-10-01T14:52:27.302941+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "589",
+          "fecha": "2009-03-17",
+          "titulo": "Obras de construcción, reconstrucción, reparación, alteración y demolición de edificios y obras de urbanización de horario carga y descarga N° 589: Fíjase el siguiente texto refundido y sistematizado de la Ordenanza sobre Obras de Contrucción, Reconstrucción, Reparación, Alteraci",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23088/1/2009",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=C1iDXSv%2F%2FPNv6VjLgSqL%2FQ%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=C1iDXSv%2F%2FPNv6VjLgSqL%2FQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "4dccad65b36ec0fda1bab95b3e98a1e4dbe10468913885b66a0768c3cd4060fd",
+            "bytes": 1506998,
+            "verified_at": "2026-10-01T14:55:19.557047+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "491",
+          "fecha": "2009-03-10",
+          "titulo": "Decreto Exento N° 491: Fíjase el siguiente texto refundido y sistematizado de la ORDENANZA QUE REGLAMENTA LA NUMERACION DE LOS INMUEBLES DE LA COMUNA",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23087/1/2009",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=s88Nl3CscmF6XmaDOd2yVg%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=s88Nl3CscmF6XmaDOd2yVg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "f0d955a795766c43f668f334275929f798f2c32c50e2fc84cd993fabb258a46f",
+            "bytes": 834836,
+            "verified_at": "2026-10-01T14:55:17.356463+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "fuente": "BCN",
           "numero": "349-exento",
           "fecha": "2009-02-24",
@@ -47039,6 +54323,50 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/dto/municipalidad-de-providencia/2009-02-24/349-exento/datos.json",
           "tipo_norma": "Ordenanza Municipal",
           "estado": "Vigente / LeyChile"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "349",
+          "fecha": "2009-02-24",
+          "titulo": "Fíjase El Siguiente Texto Refundido De La Ordenanza Sobre Estacionamientos Reservados Para Vehículos N° 349: Fíjase El Siguiente Texto Refundido De La Ordenanza Sobre Estacionamientos Reservados Para Vehículos",
+          "materia": "Tránsito, Transporte y Espacio Público",
+          "materia_id": "transito_transporte",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/112/1/2009",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=1Oj5vJc6I%2BgNIWEMKNFHqA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=1Oj5vJc6I%2BgNIWEMKNFHqA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "3e5660ddc7b9674e1afa55153367ddcefd8fe1254aa6e92dd6e75620889ac8aa",
+            "bytes": 824553,
+            "verified_at": "2026-10-01T14:52:27.924929+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "349",
+          "fecha": "2009-02-16",
+          "titulo": "Estacionamientos Reservados para vehículos N° 349: Fíjase el siguiente texto refundido de la Ordenanza sobre Estacionamientos Reservados para Vehículos",
+          "materia": "Tránsito, Transporte y Espacio Público",
+          "materia_id": "transito_transporte",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23105/1/2009",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=UteWVo23E4mWxgUt5AUKyQ%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=UteWVo23E4mWxgUt5AUKyQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "2fbedf3a4f1f019e41da4071730cc608a36df12886c7cd15a0fd69f5be9a9a48",
+            "bytes": 109788,
+            "verified_at": "2026-10-01T14:55:51.463753+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 972,
@@ -47055,6 +54383,50 @@ window.CATASTRO_DATA = {
           "badge_border": "border-amber-500/30",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=287083",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2009-02-07/77/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "77",
+          "fecha": "2009-01-30",
+          "titulo": "Estacionamientos Reservados para vehículos N° 77: Modifícase la Ordenanza sobre Estacionamientos Reservados para Vehículos aprobada por Ordenanza 1020 de 21",
+          "materia": "Tránsito, Transporte y Espacio Público",
+          "materia_id": "transito_transporte",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23105/1/2009",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=yaSRejYr1uNgLmikV0OZXQ%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=yaSRejYr1uNgLmikV0OZXQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "bf4039adbf7e0df9ed1459d36760ce4dd613cfcac4f12dfee1c7100ebbc32832",
+            "bytes": 51548,
+            "verified_at": "2026-10-01T14:55:51.953272+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "2290",
+          "fecha": "2008-12-17",
+          "titulo": "Sobre derechos municipales N° 2290: Fíjase el siguiente texto refundido y sistematizado de la Ordenanza Nº22 de 28 de Diciembre de 2001 y sus modificaciones \"Ordenanza Local Sobre Derechos Municipales\", que regirá en el año 2009",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2008",
+          "target_url": "https://firma.providencia.cl/dsign/temp/0000499790.PDF",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/temp/0000499790.PDF",
+            "content_type": "application/pdf",
+            "sha256": "d69d06df78201db0d9f058e44125ff30a88970ab7d9f169d77e88a162d1f12f0",
+            "bytes": 7554499,
+            "verified_at": "2026-10-01T14:54:42.197444+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 971,
@@ -47089,6 +54461,28 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2008-10-30/76/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "76",
+          "fecha": "2008-10-28",
+          "titulo": "Cobro de derecho de aseo domiciliario N° 76: Apruébase la siguiente Ordenanza  de Cobro de Derecho de Aseo Domiciliaro para el año 2009",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23083/1/2008",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=e7WYKwiQA4ex3R%2BkR3EoKQ%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=e7WYKwiQA4ex3R%2BkR3EoKQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "1186431b185ebd92f206573f6cf9e0e363cb14d6c14652cf03c6099e7a73c396",
+            "bytes": 196950,
+            "verified_at": "2026-10-01T14:54:04.256372+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 968,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -47119,6 +54513,50 @@ window.CATASTRO_DATA = {
           "badge_border": "border-indigo-500/30",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=279293",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2008-10-10/74/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "74",
+          "fecha": "2008-10-03",
+          "titulo": "Sobre derechos municipales N° 74: Modifícase la Ordenanza Nº22 de 28",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2008",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=kK0sye%2BW4OF2zHK4KUQO7Q%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=kK0sye%2BW4OF2zHK4KUQO7Q%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "aed23a5558daabd7e3447c4831691fdb967422eeade6437869756ac8564d584e",
+            "bytes": 2102194,
+            "verified_at": "2026-10-01T14:54:42.913201+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "73",
+          "fecha": "2008-10-02",
+          "titulo": "Obras de construcción, reconstrucción, reparación, alteración y demolición de edificios y obras de urbanización de horario carga y descarga N° 73: Modifícase el Artículo 2º de la Ordenanza Nº13 de 2 de Diciembre de 2003, que aprobó la ordenanza sobre \"Obras de construcción, recon",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23088/1/2008",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=wPEitg2QYUxjDkx%2FiVPjTg%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=wPEitg2QYUxjDkx%2FiVPjTg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "54c1f19d2734546f92f676960a0691f49797bf64b8b9f4dd1e5cc5718d2271ba",
+            "bytes": 246355,
+            "verified_at": "2026-10-01T14:55:18.907652+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 966,
@@ -47153,6 +54591,50 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2008-08-29/72/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "72",
+          "fecha": "2008-08-25",
+          "titulo": "Sobre derechos municipales N° 72: Modifícase la Ordenanza Nº22 de 28 de Diciembre de 2001, \"Ordenanza Local sobre Derechos Municipales\", que rige para el año 2008, cuyo texto refundido y sistematizado fue aprobado por Decreto Alcaldicio EX",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2008",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=LT%2BPi8WpC8eKWozdw9GCCA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=LT%2BPi8WpC8eKWozdw9GCCA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "e3c0ec7c97f7959706434c034fbd76b337501094bcb28dbd2edadaa3e1fe85aa",
+            "bytes": 172692,
+            "verified_at": "2026-10-01T14:54:43.434065+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "71",
+          "fecha": "2008-08-25",
+          "titulo": "Numeración de los inmuebles de la Comuna N° 71: Modifícase el Artículo 2º de la Ordenanza Nº10 que reglamenta la \"Numeración de los Inmuebles de la Comuna\" de 23 de Octubre de 2003, en el sentido de agregar lo que indica",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23087/1/2008",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=OYsdLPxsIHw6%2BGmCnygrEQ%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=OYsdLPxsIHw6%2BGmCnygrEQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "5caf4362de4207b3c1a82562978995037799aae455c036fea4b74f02660faeeb",
+            "bytes": 178531,
+            "verified_at": "2026-10-01T14:55:16.107721+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 965,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -47182,6 +54664,72 @@ window.CATASTRO_DATA = {
           "estado": "Vigente / LeyChile"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1111",
+          "fecha": "2008-06-16",
+          "titulo": "Gimnasio Santa Isabel N° 1111: Apruébase el siguiente texto refundido de la Ordenanza para la \"Administración del Gimnasio Santa Isabel\"",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23093/1/2008",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=fQHXA4TyWI6uvmkgp%2Bd3oQ%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=fQHXA4TyWI6uvmkgp%2Bd3oQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "f24d2b85a81ce369b2cf3f39f330b99db31c9b5306718846e55fa0c23837a6fc",
+            "bytes": 439860,
+            "verified_at": "2026-10-01T14:55:26.217474+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "69",
+          "fecha": "2008-06-12",
+          "titulo": "Numeracion de los inmuebles de la Comuna N° 69: Derógase la Ordenanza Nº67 de 4 de Julio de 1994, que aprobó la \"Destinacion y cambios de destino de los inmuebles en la Comuna de Providencia\"",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23087/1/2008",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=fbrnX4ZGSu5ry6hSNfYtLA%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=fbrnX4ZGSu5ry6hSNfYtLA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "a7b91812ba17823ba2f6a7490869e594b67a0135fe247e3e9d2429413869d205",
+            "bytes": 145708,
+            "verified_at": "2026-10-01T14:55:16.617721+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1105",
+          "fecha": "2008-06-12",
+          "titulo": "Normas sanitarias básicas N° 1105: Fíjase el siguiente texto refundido y sistematizado de la Ordenanza sobre Normas Sanitarias Básicas",
+          "materia": "Normas Sanitarias y Convivencia",
+          "materia_id": "convivencia_seguridad",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23100/1/2008",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=MhCExR6Nwo%2B1guHGJU8qrw%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=MhCExR6Nwo%2B1guHGJU8qrw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "a33d435a33aa46deba2ba9b9c1dbe4bdd549cd45e1fa185ac426c2127b3c37fa",
+            "bytes": 1131268,
+            "verified_at": "2026-10-01T14:55:41.797090+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 964,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -47196,6 +54744,28 @@ window.CATASTRO_DATA = {
           "badge_border": "border-zinc-700",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=271958",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2008-06-04/68/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "68",
+          "fecha": "2008-05-28",
+          "titulo": "Gimnasio Santa Isabel N° 68: Sustitúyase el Artículo 3º de la Ordenanza Nº11 para la \"Administración del Gimnasio Santa Isabel\" de 11 de Noviembre de 2002",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23093/1/2008",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=wltXWhCukgkjURKq3iBpMg%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=wltXWhCukgkjURKq3iBpMg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "3a659228cce72133673f320e8dd9414691f54b0cca66d5137a5d9f6ed999d365",
+            "bytes": 158870,
+            "verified_at": "2026-10-01T14:55:26.700109+00:00"
+          },
+          "rdf_url": null
         },
         {
           "fuente": "BCN",
@@ -47237,6 +54807,94 @@ window.CATASTRO_DATA = {
           "estado": "Vigente / LeyChile"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "378",
+          "fecha": "2008-02-29",
+          "titulo": "Sobre publicidad  y propaganda en la Comuna de Providencia N° 378: Apruébase el siguiente texto refundido y sistematizado de laordenanza \"Sobre publicidad y propaganda en la comuna de Providencia\"",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23081/1/2008",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=y4n4ygxv8pwufIrRn5QCfg%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=y4n4ygxv8pwufIrRn5QCfg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "e5455a17965290c1f11819113d875762ac0e504db0cb6e69e3e0f9df41b0b6f1",
+            "bytes": 2301620,
+            "verified_at": "2026-10-01T14:53:54.387540+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "374",
+          "fecha": "2008-02-29",
+          "titulo": "Participación Ciudadana  y Convivencia N° 374: Apruébase el siguiente texto refu ndido y sistematizado de la ordenanza sobre \"Participación ciudadana de la comuna de Providencia\"",
+          "materia": "Convivencia Vecinal y Seguridad",
+          "materia_id": "convivencia_seguridad",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23095/1/2008",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=H6PE3jPmCJhjEx6R7iCsgg%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=H6PE3jPmCJhjEx6R7iCsgg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "0adeb2e7460bd33c74facf4d111ade98be05b0099e185a6525f851779127aba5",
+            "bytes": 2162625,
+            "verified_at": "2026-10-01T14:55:35.122623+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "363",
+          "fecha": "2008-02-28",
+          "titulo": "Texto refundido y sistematizado N° 363: Fíjase el siguiente texto refundido y sistematizado de la Ordenanza para la administración y arrendamiento de locales y pilastras del mercado funcional de Providencia",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23090/1/2008",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=RdKPB%2BA0OTAUslUEuUY9aA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=RdKPB%2BA0OTAUslUEuUY9aA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "bdc6e818eac0c4861963432350f933335b877f7a65b2818a6ba3d4fd1c589c01",
+            "bytes": 786695,
+            "verified_at": "2026-10-01T14:55:22.319137+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "360",
+          "fecha": "2008-02-27",
+          "titulo": "Decreto Exento N° 360: Apruébase siguiente texto refundido y sistematizado de la Ordenanza sobre \"CIERRE DE CALLES O PASAJES PUBLICOS CIEGOS DE LA COMUNA DE PROVIDENCIA\"",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23068/1/2008",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=2Y81JCUGDxK%2FLoeTolK2GA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=2Y81JCUGDxK%2FLoeTolK2GA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "9ab523775d4f4012d06ced48ab274e046a8f165f98a7dd028d7c0bde5f01b345",
+            "bytes": 551249,
+            "verified_at": "2026-10-01T14:53:24.802871+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 963,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -47251,6 +54909,50 @@ window.CATASTRO_DATA = {
           "badge_border": "border-sky-500/30",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=269391",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2008-02-22/67/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "67",
+          "fecha": "2008-02-08",
+          "titulo": "Sobre publicidad y propaganda para la Comuna de Providencia N° 67: Modifícase la Ordenanza Nº 4 de 14 de Febrero de 2002, sobre Publicidad y Propaganda en la Comuna de Providerncia-",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23081/1/2008",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=6LlW02Du3GwkDi2lnjWCXg%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=6LlW02Du3GwkDi2lnjWCXg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "8c984dc2ae5ddfcc8157ca4536707d18a3b9ff29b24d72bb7e901f723af6766b",
+            "bytes": 438743,
+            "verified_at": "2026-10-01T14:53:54.993186+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "2281",
+          "fecha": "2007-12-31",
+          "titulo": "Sobre derechos municipales N° 2281: Fíjase el siguiente  texto refundido y sistematizado de la Ordenanza Nº22 de 28 de Diciembre de 2001 y sus modificaciones \"Ordenanza Local sobre Derechos Municipales\" que regirá para el año 2008",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2007",
+          "target_url": "https://firma.providencia.cl/dsign/temp/0000439141.PDF",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/temp/0000439141.PDF",
+            "content_type": "application/pdf",
+            "sha256": "2f84126e07d4b1b04f0227c5d4726af688799edb0480c055f548bc5a7a1d327e",
+            "bytes": 5988290,
+            "verified_at": "2026-10-01T14:54:38.559041+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 962,
@@ -47282,6 +54984,50 @@ window.CATASTRO_DATA = {
           "estado": "Vigente / LeyChile"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "66",
+          "fecha": "2007-11-20",
+          "titulo": "Ordenanza N° 66: Fíjase el siguiente texto de la ordenanza sobre \"USUARIOS AGUAS DE RAGADIO\"",
+          "materia": "Aseo, Ornato y Medio Ambiente",
+          "materia_id": "aseo_medioambiente",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23066/1/2007",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=7UADFUr3peGeiGJuXLaqLg%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=7UADFUr3peGeiGJuXLaqLg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "063c036254765c316027671e19c22a94b38360237f08a4623d33395572c72409",
+            "bytes": 191413,
+            "verified_at": "2026-10-01T14:53:24.136778+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "65",
+          "fecha": "2007-11-19",
+          "titulo": "Condiciones necesarias para la fijación de Tarifas del Servicio Domiciliario por Extracción de Basuras y Exenciones Total y Parcial N° 65: Fíjase la siguiente ordenanza sobre Condiciones necesarias para la fuijación de tarifas del servicio domiciliario por extracción de basurta y",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23063/1/2007",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=qp2TN7%2FcadXks9lHe2h%2FrA%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=qp2TN7%2FcadXks9lHe2h%2FrA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "a02ed85273b4863a7c8c10c6f59d0afeb44d782a1fb2fe42df5ffe2f637e9b50",
+            "bytes": 1820238,
+            "verified_at": "2026-10-01T14:53:11.439163+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 961,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -47298,6 +55044,28 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2007-10-31/64/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "64",
+          "fecha": "2007-10-30",
+          "titulo": "Cobro de derechos de aseo domiciliario N° 64: Apruébase la siguiente \"Ordenanza de cobro de derecho de aseo domiciliario para el año 2008\"",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23083/1/2007",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=MYAxsSNDLzgUy0oWDkoPdg%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=MYAxsSNDLzgUy0oWDkoPdg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "e3ac468ef5724eb8c64efbf3c62bfe51b32df95219e08e3aec9d589252664b76",
+            "bytes": 174982,
+            "verified_at": "2026-10-01T14:54:03.636146+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 960,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -47312,6 +55080,28 @@ window.CATASTRO_DATA = {
           "badge_border": "border-indigo-500/30",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=265657",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2007-10-17/63/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "63",
+          "fecha": "2007-10-10",
+          "titulo": "Sobre derechos municipales N° 63: Modifícase la Ordenanza Nº22 de 28 de Diciembre de 2001 \"Ordenanza local sobre derechos municipales\", que rige para el año 2007 y sus modificaciones",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2007",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=Iq0kUDcCIE9X3hBlqKHIEA%3D%3D",
+          "tipo_norma_clasif": "modificacion",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=Iq0kUDcCIE9X3hBlqKHIEA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "c5655952840e0fa66a2574116e250700dd837c22e4303a0748d733993b585ccd",
+            "bytes": 1616274,
+            "verified_at": "2026-10-01T14:54:39.287721+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 958,
@@ -47346,6 +55136,28 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2007-10-05/62/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "62",
+          "fecha": "2007-09-21",
+          "titulo": "Participación Ciudadana y Convivencia N° 62: Modifícasela Ordernanza Nº8 de 29",
+          "materia": "Convivencia Vecinal y Seguridad",
+          "materia_id": "convivencia_seguridad",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23095/1/2007",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=FtWmQEM97OP%2FAfUXk3c1Rw%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=FtWmQEM97OP%2FAfUXk3c1Rw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "8bb95e3c7583e86ca4db27d558d54a318b8c95de02ff88a71debc14b1dc4e0b5",
+            "bytes": 231611,
+            "verified_at": "2026-10-01T14:55:33.021537+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 957,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -47360,6 +55172,28 @@ window.CATASTRO_DATA = {
           "badge_border": "border-rose-500/30",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=264566",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2007-09-10/60/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1492",
+          "fecha": "2007-09-05",
+          "titulo": "Sobre la actividad comercial, de alcoholes, industrial, profesional y de servicios N° 1492: Fíjase el sisguiente texto refundido y sistematizado de la Ordenanza Comunal Nº 2 de fecha 6 de Marzo de 2000, sobre la Actividad Comercial, de Alcoholes, Industrial, Profesional y de Serv",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23080/1/2007",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=5B3Ta0p6NC5TQQXQptU%2Bow%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=5B3Ta0p6NC5TQQXQptU%2Bow%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "d848f05861f017434447bfd4ca0fe85d2f84bf61cd9c385d67d277da4f63f5b7",
+            "bytes": 3535642,
+            "verified_at": "2026-10-01T14:53:44.517751+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 955,
@@ -47394,6 +55228,50 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2007-08-27/59/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "58",
+          "fecha": "2007-08-21",
+          "titulo": "Sobre la actividad comercial, de alcohoes, industrial, profesional y de servicios N° 58: Modifícase la Ordenanza Nª2 de 6 de Marzo de 2000 sobre la Actividad Comercial, de Alcoholes, Industrial, Profesional y de servicios, cuyo texto refundido y sistematizado se aprobó por Decret",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23080/1/2007",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=ha0HwfqcljIZFCuFB6Ixfg%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=ha0HwfqcljIZFCuFB6Ixfg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "ffd888a481209bc5d593c0972b1dee048169f37c5d31294021683e215c216228",
+            "bytes": 51142,
+            "verified_at": "2026-10-01T14:53:45.054339+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "59",
+          "fecha": "2007-08-21",
+          "titulo": "Normas sanitarias básicas N° 59: Modifícase la Ordenanza Nº122 de 29 de Noviembre de 1996 sobre Normas Sanitarias Básicas en el sentido ade agregar en el artículo 4 letra a) el inciso que se indica",
+          "materia": "Normas Sanitarias y Convivencia",
+          "materia_id": "convivencia_seguridad",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23100/1/2007",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=RbIXh8zflwdRTahPYPX0xQ%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=RbIXh8zflwdRTahPYPX0xQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "873ae25555153e4bc8d5e25797eaa61bf055e0e9c1f7be54de779b3213b893be",
+            "bytes": 48275,
+            "verified_at": "2026-10-01T14:55:41.163716+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 954,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -47426,6 +55304,28 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2007-07-06/56/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "56",
+          "fecha": "2007-06-21",
+          "titulo": "Sobre derechos municipales N° 56: Modifícase la Ordenanda Nº 22 de 28 de Diciembre de 2001 (mariana), sobre derechos municipales",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2007",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=b9t9%2BaBpysYOb0Ul6erO2g%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=b9t9%2BaBpysYOb0Ul6erO2g%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "73f3a80f3ce596b8e89710de052b11893467f68f708c007153cb0595e0a205f7",
+            "bytes": 249061,
+            "verified_at": "2026-10-01T14:54:39.814208+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "fuente": "BCN",
           "numero": "970-exento",
           "fecha": "2007-06-06",
@@ -47437,6 +55337,28 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/dto/municipalidad-de-providencia/2007-06-06/970-exento/datos.json",
           "tipo_norma": "Ordenanza Municipal",
           "estado": "Vigente / LeyChile"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "970",
+          "fecha": "2007-05-31",
+          "titulo": "Participación Ciudadana y Convivencia N° 970: Apruébase el siguiente texto refundido y sistematizado de la ordenanza sobre Participación Ciudadana de la Comuna de Providencia",
+          "materia": "Convivencia Vecinal y Seguridad",
+          "materia_id": "convivencia_seguridad",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23095/1/2007",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=Y59QHgIDY0na7k6GHWyMYg%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=Y59QHgIDY0na7k6GHWyMYg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "a616dcaa1f99bb8d667d1527e39027a7bd16d81b8ebf0a3713a1b6e2d47b06ac",
+            "bytes": 1781069,
+            "verified_at": "2026-10-01T14:55:33.732153+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 952,
@@ -47455,6 +55377,28 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2007-05-28/55/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "55",
+          "fecha": "2007-05-24",
+          "titulo": "Sobre la actividad comercial, de alcoholes, industrial, profesional y de servicios N° 55: Modifícase la Ordenanza Nº2 de 6 de Mayo de 2000 sobre la \"Actividad comercial, de alcoholes, profesional y de servicios\", cuyo texto refundido y sistematizado se aprobó por decreto alcaldic",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23080/1/2007",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=CC5gYpA6YkBk26ALfBTZvA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=CC5gYpA6YkBk26ALfBTZvA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "05c9d3c8b266e3981276fd9e046e1ad25cbdebab36b2f98c4af6f1d4c50aeb77",
+            "bytes": 616218,
+            "verified_at": "2026-10-01T14:53:45.615569+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 951,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -47469,6 +55413,28 @@ window.CATASTRO_DATA = {
           "badge_border": "border-zinc-700",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=260598",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2007-05-07/54/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "54",
+          "fecha": "2007-04-25",
+          "titulo": "Sobre derechos municipales N° 54: Modifícase la Ordenanza N°22 de 28 de Diciembre de 2001 \"Ordenanza Local sobre Derechos Municipales\" que rige para el año 2007, cuyo texto refundido y sistematizado fue aprobado por Decreto Alcaldicio EXN°2124 de 28",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2007",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=wlJEW%2BLIIfJIS4xvMioCFA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=wlJEW%2BLIIfJIS4xvMioCFA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "4d49aeef6c7874288e70d1e9013c36d216de65454da918e51d4e7ab791d638a7",
+            "bytes": 62293,
+            "verified_at": "2026-10-01T14:54:40.309901+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 950,
@@ -47487,6 +55453,50 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2007-01-30/53/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "53",
+          "fecha": "2007-01-19",
+          "titulo": "Participación Ciudadana y Convivencia N° 53: Modifícase la Ordenanza N°8 de 29 de Octubre de 1999 que aprobó la Ordenanza de Participación Ciudadana de la Comuna de Providencia aprobado por Decreto Alcaldicio EXN°2",
+          "materia": "Convivencia Vecinal y Seguridad",
+          "materia_id": "convivencia_seguridad",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23095/1/2007",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=4f0I%2BzmJhEXyjcBWjyZzNA%3D%3D",
+          "tipo_norma_clasif": "modificacion",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=4f0I%2BzmJhEXyjcBWjyZzNA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "446a733476df8ffa288b0b9c6ab0e26babe0f7ba1e8ff24145f65c80f9fef156",
+            "bytes": 94884,
+            "verified_at": "2026-10-01T14:55:34.206295+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "2124",
+          "fecha": "2006-11-28",
+          "titulo": "Sobre derechos municipales N° 2124: Fíjase el siguiente texto refundido y sistematizado de la Ordenanza Nº 22 de 28 de Diciembre de 2001 y sus modificaciones posteriores Ordenanza Local sobre Derechos Municipales, que regirán para el año 2007",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2006",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=Y%2FElWVsb7%2FqL57X68SASdQ%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=Y%2FElWVsb7%2FqL57X68SASdQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "d8b9fc81bce50d772820f0174175003e98595de70184919241ec8c3aac2ec42a",
+            "bytes": 1611333,
+            "verified_at": "2026-10-01T14:54:33.394783+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 949,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -47501,6 +55511,28 @@ window.CATASTRO_DATA = {
           "badge_border": "border-zinc-700",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=255287",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2006-11-16/52/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "52",
+          "fecha": "2006-11-09",
+          "titulo": "Sobre derechos municipales N° 52: Rectifícase el punto 1",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2006",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=A5ROjY7uhi%2BNHbBf2f8NLg%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=A5ROjY7uhi%2BNHbBf2f8NLg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "f08a849aca580879a5ca0dba3605d13eacdf65e84865d3876c7ee1938641e54e",
+            "bytes": 126935,
+            "verified_at": "2026-10-01T14:54:33.895052+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 948,
@@ -47535,6 +55567,50 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2006-10-27/50/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "51",
+          "fecha": "2006-10-23",
+          "titulo": "Cobro de derecho de aseo domiciliario N° 51: Apruébase la siguiente Ordenanza de Cobro de Derecho de Aseo Domiciliario para el año 2007",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23083/1/2006",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=CiuL8RFewkGhS2OU7Gn0cw%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=CiuL8RFewkGhS2OU7Gn0cw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "d4f30105197bd6961c81acbb9fffdcb9d1b8a489aaf506e6cd1bdb52d7eebc01",
+            "bytes": 141777,
+            "verified_at": "2026-10-01T14:54:03.145604+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "50",
+          "fecha": "2006-10-17",
+          "titulo": "Sobre derechos municipales N° 50: Modifícase la Ordenanza N°22 de 28 de Diciembre de  2001 \"Ordenanza Local sobre Derechos Municipales\", que rige para el año 2006 cuyo texto refundido y sistematizado fue aprobado pro Decreto Alcaldicio EXN°2152 de 29 de Noviembre de 2005",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2006",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=1ddRvYUSF49q2hGHITbu5w%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=1ddRvYUSF49q2hGHITbu5w%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "26c4e364696a2953f1cae0b84fb10d416d0c0a1c0d178903f4234cae495d1145",
+            "bytes": 1005599,
+            "verified_at": "2026-10-01T14:54:34.571375+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 946,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -47549,6 +55625,28 @@ window.CATASTRO_DATA = {
           "badge_border": "border-zinc-700",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=253913",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2006-10-10/49/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "49",
+          "fecha": "2006-09-26",
+          "titulo": "Participación Ciudadana  y Convivencia N° 49: Modifícase la Ordenanza N°8 de 29 de Octubre de 1999  que aprobó la Ordenanza de Participación Ciudadana de la  Comuna de Providencia , cuyo texto refundido y sistematizado fue aprobado por Decreto Alcaldicio EXN|2",
+          "materia": "Convivencia Vecinal y Seguridad",
+          "materia_id": "convivencia_seguridad",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23095/1/2006",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=MaPtXTbBUue229c0MttXTw%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=MaPtXTbBUue229c0MttXTw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "540209f739bb2a139fb7d48f4070051c3416519f41a4045f0284657de2825455",
+            "bytes": 197635,
+            "verified_at": "2026-10-01T14:55:32.500425+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 945,
@@ -47567,6 +55665,28 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2006-08-31/48/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "48",
+          "fecha": "2006-08-24",
+          "titulo": "Sobre derechos municipales N° 48: Modifícase el artículo 19 Nº14 de la Ordenanza Nº22 de 28 de Diciembre de 2001, \"Ordenanza local sobre derechos municipales\", cuyo texto refundido y sistematizado fue aprobado por decreto alcaldicio Ex",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2006",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=JZka8vPg8xKDumF7%2FekxNQ%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=JZka8vPg8xKDumF7%2FekxNQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "6b6ac7aee40fd36d2f980eb8c5b5fb4d169227a160c9421e628ed6329d37bdd1",
+            "bytes": 101188,
+            "verified_at": "2026-10-01T14:54:35.095687+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 944,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -47583,6 +55703,28 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2006-07-05/47/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "47",
+          "fecha": "2006-06-23",
+          "titulo": "Sobre derechos municipales N° 47: Modifícase el artículo 36 de la Ordenanza N°22 de 28 de Diciembre de 2001, Ordenanza Local sobre Derechos Municipales, cuyo texto refundido y sistematizado fue aprobado por EXN°2",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2006",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=bHfjhQrZSyYJd3moyaatAg%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=bHfjhQrZSyYJd3moyaatAg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "8fa344667ace1f3c8ab479416d1d833120b1e278dfe90d8cde58d345250da926",
+            "bytes": 106436,
+            "verified_at": "2026-10-01T14:54:35.614289+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 943,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -47597,6 +55739,50 @@ window.CATASTRO_DATA = {
           "badge_border": "border-indigo-500/30",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=250169",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2006-06-03/46/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "46",
+          "fecha": "2006-05-29",
+          "titulo": "Sobre derechos municipales N° 46: Modifícase el atículo 39 inciso 1° de la Ordenanza N°22 de 28 de Diciembre de 201, cuyo texto refundido fue aprobado por Decreto Alcaldicio EXN°2",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2006",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=LMU%2BhPTYXX%2Fn9DOeoXzBvQ%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=LMU%2BhPTYXX%2Fn9DOeoXzBvQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "715ed14b550f211aecd723f04dd3098dab64f6a53f6ac744220c95397f4cd75a",
+            "bytes": 96989,
+            "verified_at": "2026-10-01T14:54:36.113879+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "953",
+          "fecha": "2006-05-23",
+          "titulo": "Cobranza de patente de derechos y contribucuones que se encuentran morosas N° 953: Fíjase el siguiente texto refundido y adecuado de la Ordenanza Nº 3 de 15 de Abril de 1991sobre Normas Para la Cobranza de Patentes, Derechos y Contribucuones que se Encuentran Morosa",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23078/1/2006",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=NOBB2AvK92pg3Ubc8LedvA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=NOBB2AvK92pg3Ubc8LedvA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "1165a1d85b72afc494b1b3d0f913ab26aafee2c8c732c63da00e9d1a8a38dfcb",
+            "bytes": 279605,
+            "verified_at": "2026-10-01T14:53:39.031944+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 941,
@@ -47647,6 +55833,72 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2006-05-17/43/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "45",
+          "fecha": "2006-05-16",
+          "titulo": "Ordenanza N° 45: Déjase sin efecto la Ordenanza Nº 4 de 8 de junio de 1984 que aprobó la Ordenanza Comunal sobre HORARIO DE CARGA Y DESCARGA",
+          "materia": "Tránsito, Transporte y Espacio Público",
+          "materia_id": "transito_transporte",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23106/1/2006",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=MJIp5wiUYmUFMOfkof62lA%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=MJIp5wiUYmUFMOfkof62lA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "33ede7fdf99862eb0059ae37d235f3577e0b324d8d126856dced77184cadc246",
+            "bytes": 271638,
+            "verified_at": "2026-10-01T14:55:55.195071+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "44",
+          "fecha": "2006-05-15",
+          "titulo": "Cobranza de patentes derechos y contribuciones que se encuentran morosas N° 44: Modifícase la Ordenanza N°3 de 15 de Abril de 1991 sobre \"Normas para la cobranza de patentes, derechos y contribuciones que se encuentran morosos\"",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23078/1/2006",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=BzJbb3T0YS9tto%2BSfOagNQ%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=BzJbb3T0YS9tto%2BSfOagNQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "a85f6bbd5ae49bd50a4017e8adb0a80b4b24727d608a459ea0cb1d657274749e",
+            "bytes": 156432,
+            "verified_at": "2026-10-01T14:53:39.543816+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "43",
+          "fecha": "2006-05-11",
+          "titulo": "Sobre derechos municipales N° 43: Modifícase la Ordenanza N°22 de 28 de Diciembre de 2001 \"Ordenanza Local sobre Derechos Municipales\", QUE fue aprobado por Decreto Alcaldicio EXN°2",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2006",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=cpQHP%2F0Tvo%2Bt7rXPjSulmg%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=cpQHP%2F0Tvo%2Bt7rXPjSulmg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "cb56909c630e3120a7c28a03394da523e2c026c54c9fac82af5bbea9fe06290f",
+            "bytes": 101599,
+            "verified_at": "2026-10-01T14:54:36.651718+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 939,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -47663,6 +55915,28 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2006-04-07/42/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "42",
+          "fecha": "2006-03-31",
+          "titulo": "Administracón y arrendamiento de locales y pilastras del mercado funcional de Providencia N° 42: Modifícase la Ordenanza N°3 de 1 de Febrero de 2002 que aprobó la Ordenanza para la Administración y Arrendamiento de Locales y Pilastras del Mercado Funcional de Providencia en el se",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23090/1/2006",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=8qSdUhUS83kya0wCK2T1ZA%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=8qSdUhUS83kya0wCK2T1ZA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "1cf2e930badcca99005c61ccaa92bb41337ec0a3eefa9ee9a5d41980a2f15a60",
+            "bytes": 79852,
+            "verified_at": "2026-10-01T14:55:21.598825+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 938,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -47677,6 +55951,94 @@ window.CATASTRO_DATA = {
           "badge_border": "border-zinc-700",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=247277",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2006-02-14/41/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "41",
+          "fecha": "2006-02-06",
+          "titulo": "Sobre derechos municipales N° 41: Modifícase la Ordenanza N°22 de 28 de diciembre de 2001, Ordenanza Local sobre Derechos Municipales tecto refundido por EXN°2",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2006",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=8sqj4FE%2F779QYpY0mkISyw%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=8sqj4FE%2F779QYpY0mkISyw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "e9eef6376abbfb1e0254ba5f2885181f8e5518477635ca7c9d3d76836f38f0c1",
+            "bytes": 96387,
+            "verified_at": "2026-10-01T14:54:37.181766+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "2267",
+          "fecha": "2005-12-15",
+          "titulo": "Notificaciones y publicaciones de resoluciones municipales N° 2267: Apruébase el texto refundido y sistematizado de la Ordenanza sobre \"Notificaciones y Publicaciones de Resoluciones Municipales\"",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23094/1/2005",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=njf40fdvHRf5fzuTvKzUhA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=njf40fdvHRf5fzuTvKzUhA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "94d49b90ef948ac02457f25a219bf5507dd299143df3fa91f13d0df85b1a9c01",
+            "bytes": 175312,
+            "verified_at": "2026-10-01T14:55:27.766288+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "2268",
+          "fecha": "2005-12-15",
+          "titulo": "Participación Ciudadana y Convivencia N° 2268: Apruébase el texto refundido y sistematizado de la Ordenanza sobre Participación Ciudadana de la Comuna de Providencia",
+          "materia": "Convivencia Vecinal y Seguridad",
+          "materia_id": "convivencia_seguridad",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23095/1/2005",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=qs8cjyBh8JgEFl5oll3fNw%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=qs8cjyBh8JgEFl5oll3fNw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "724f3afef70101df8a9351a24925d044ee4a10918f4242b5f53f049a08d9423e",
+            "bytes": 653950,
+            "verified_at": "2026-10-01T14:55:31.534999+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "2212",
+          "fecha": "2005-12-06",
+          "titulo": "Notificaciones y publicaciones de resoluciones municipales N° 2212: Apruébase el siguiente texto refundido y sistematizado de la Ordenanza sobre \"Notificaciones y publicaciones de resoluciones municipales\", que produzcan efecto fuera del municipio",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23094/1/2005",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=oEGBRHrtAQLmumQtoC6ZiQ%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=oEGBRHrtAQLmumQtoC6ZiQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "9e2bf302e50a2bd5156d3e97b36544aaacafdc14f00f61bcfac08a20d88ec0a4",
+            "bytes": 241822,
+            "verified_at": "2026-10-01T14:55:28.325759+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 936,
@@ -47711,6 +56073,72 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2005-12-05/40-exenta/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "2152",
+          "fecha": "2005-11-29",
+          "titulo": "Sobre derechos municipales N° 2152: Fíjase el siguiente texto refundido y sistematizado de la Ordenanza Nº22 de 28 de Diciembre de 2001 y sus modificaciones posteriores Ordenanza Local sobre Derechos Municipales, que regirá en el año 2006",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2005",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=cOOXJzZwgqKkK0%2Btj1rSpA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=cOOXJzZwgqKkK0%2Btj1rSpA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "68a447c57ccf3d8246f82ad1701c84772023dd6221427267ba4b049b4d8cf1ef",
+            "bytes": 3018959,
+            "verified_at": "2026-10-01T14:54:28.594883+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "39",
+          "fecha": "2005-11-29",
+          "titulo": "Notificaciones y publicaciones de resoluciones municipales N° 39: Modifícase la Ordenanza sobre Notificaciones y Publicaciones de Resoluciones Municipales, Nº 6 de 23 de Septiembre de 2003 en los siguientes sentidos",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23094/1/2005",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=8aySXEUl7gZhJIwZyMDiSA%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=8aySXEUl7gZhJIwZyMDiSA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "2452356ec98fc4adf934fcf712031c593de393e7b7d5ce3db8ca1aaaed085bbd",
+            "bytes": 78868,
+            "verified_at": "2026-10-01T14:55:28.846848+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "40",
+          "fecha": "2005-11-29",
+          "titulo": "Participación Ciudadana  y Convivencia N° 40: Sustituyase el Capitulo IV de la Ordenanza Nº 8 de 29",
+          "materia": "Convivencia Vecinal y Seguridad",
+          "materia_id": "convivencia_seguridad",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23095/1/2005",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=GVsNcKLTII8Vkk7xQV6cPg%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=GVsNcKLTII8Vkk7xQV6cPg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "a01a26e0d7aaa4f4477f63b5341db48e64372e96f6fe8db2b7539de55ff26452",
+            "bytes": 150770,
+            "verified_at": "2026-10-01T14:55:32.019500+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 935,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -47725,6 +56153,28 @@ window.CATASTRO_DATA = {
           "badge_border": "border-indigo-500/30",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=243792",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2005-11-09/38/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "38",
+          "fecha": "2005-11-02",
+          "titulo": "Cobro de derecho de aseo domiciliario N° 38: Apruébsae la Ordenanza de Cobro de Derecho de Aseo Domiciliario para el año 2006",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23083/1/2005",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=70Y42cYmDcCnRdLh7MlUnA%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=70Y42cYmDcCnRdLh7MlUnA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "1924f5d969f19b0f191a3db68ce1f09fbb074139157dac6c89bb895df1ccd95e",
+            "bytes": 66116,
+            "verified_at": "2026-10-01T14:54:02.663077+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 934,
@@ -47743,6 +56193,28 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2005-10-31/37/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "37",
+          "fecha": "2005-10-27",
+          "titulo": "Sobre derechos municipales N° 37: Rectifícase el punto 1",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2005",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=OXc%2FXY6atbeGWY6TL%2Ba03g%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=OXc%2FXY6atbeGWY6TL%2Ba03g%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "326325690c82fa98751182ebd2665c1dbccde2ce8bce9acd7355498afa9ed75a",
+            "bytes": 62836,
+            "verified_at": "2026-10-01T14:54:29.140842+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 933,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -47759,6 +56231,28 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2005-10-21/36/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "36",
+          "fecha": "2005-10-14",
+          "titulo": "Sobre derechos municipales N° 36: Modificase la ordenanza Nº 22 de 28",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2005",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=oFTGttUpYksbsGaaXq5UhA%3D%3D",
+          "tipo_norma_clasif": "modificacion",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=oFTGttUpYksbsGaaXq5UhA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "9bd32c99455be966452354a6fd54a6f1e35beb94eefcea25d54207d0a3d0b68b",
+            "bytes": 481505,
+            "verified_at": "2026-10-01T14:54:29.729541+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 932,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -47773,6 +56267,28 @@ window.CATASTRO_DATA = {
           "badge_border": "border-zinc-700",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=242354",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2005-09-26/35/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "35",
+          "fecha": "2005-09-15",
+          "titulo": "Sobre derechos municipales N° 35: Mmodificase el artículo 19 de la Ordenanza Nº 22 de 28 de Diciembre de 2001, cuyo texto refundido y sistematizado fue aprobado por Decreto Alcaldicio EX",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2005",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=1tdvbKDSI1wGnwH5jb1PZQ%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=1tdvbKDSI1wGnwH5jb1PZQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "e93c2daf54e64d213b2fd84bf353e9b71e2e91ab7bd3a082e543ac32132c1e2e",
+            "bytes": 109802,
+            "verified_at": "2026-10-01T14:54:30.223702+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 930,
@@ -47807,6 +56323,50 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2005-09-09/34/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "34",
+          "fecha": "2005-08-29",
+          "titulo": "Sobre defrechos municipales N° 34: Rectificase el punto Nº 1 de la Ordenanza Nº 32 de 16",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2005",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=wLreiLZJfjon7trTkj%2F9tw%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=wLreiLZJfjon7trTkj%2F9tw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "baf37ed99b0e40b1db89166a410e904f679fc65e0c268d6a2f8fab5ee082a67a",
+            "bytes": 54772,
+            "verified_at": "2026-10-01T14:54:30.692255+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "33",
+          "fecha": "2005-08-24",
+          "titulo": "Sobre derechos municipales N° 33: Modificase el articulo 11 de la Ordenanza Nº 22 de 28",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2005",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=a18cwgZsbSs6mRkci4MBsg%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=a18cwgZsbSs6mRkci4MBsg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "47c99e777f3ae1429be026c585c3ed5fd4f062043b12ea40b31d6ed1bfc68831",
+            "bytes": 108744,
+            "verified_at": "2026-10-01T14:54:31.184307+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 928,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -47839,6 +56399,72 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2005-08-20/32/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "32",
+          "fecha": "2005-08-16",
+          "titulo": "Sobre derechos municipales N° 32: Modifícase la Ordenanza Nº22 de 2001 , texto refundido EXNº2152 de 21",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2005",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=NNoej30Gs81bBJ7xYjl7kA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=NNoej30Gs81bBJ7xYjl7kA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "490a45e472bab5202cfdbec4cc9202d4c0aa5b71abce31d29c0d3138ae7611f3",
+            "bytes": 68251,
+            "verified_at": "2026-10-01T14:54:31.729516+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "31",
+          "fecha": "2005-08-12",
+          "titulo": "Sobre publicidad y propaganda en la Comuna de Providencia N° 31: Modificase la ordenanza Nº 4 de 14",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23081/1/2005",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=Szk011KUr2MYPxNFHojmvg%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=Szk011KUr2MYPxNFHojmvg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "3db8ce5e1033eb3db565666116c871adb0d483631738af52d948f5ce9b040d1a",
+            "bytes": 68927,
+            "verified_at": "2026-10-01T14:53:53.550549+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1160",
+          "fecha": "2005-07-11",
+          "titulo": "Cobranza de patentes derechos y contribuciones que se encuentra morosas N° 1160: Fíjase el siguiente texto refundido y adecuado de la Ordenanza sobre \"Normas para  la cobrabza de patentes, derechos y contribuciones que se encuentran morosas\", aprobada por Ordenanza Nº3 de 15 de A",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23078/1/2005",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=vijPpWbqM%2BT%2FTtlB%2Bm4cww%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=vijPpWbqM%2BT%2FTtlB%2Bm4cww%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "4a05a07ad8abc7c28c243bf3ef66d6adc5fd86d4628cb84aad86602069572326",
+            "bytes": 129266,
+            "verified_at": "2026-10-01T14:53:37.987432+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "fuente": "BCN",
           "numero": "30",
           "fecha": "2005-06-23",
@@ -47850,6 +56476,28 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/dto/municipalidad-de-providencia/2005-06-23/30/datos.json",
           "tipo_norma": "Ordenanza Municipal",
           "estado": "Vigente / LeyChile"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "30",
+          "fecha": "2005-05-31",
+          "titulo": "Cobranza de patentes derechos y contribuciones quew se encuentran morosas N° 30: Modificase la Ordenanza Nº3 del 1991, respecto de la cobranza de patentes morosas",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23078/1/2005",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=AW8ljEkC31U4jkFB5GqJ7w%3D%3D",
+          "tipo_norma_clasif": "modificacion",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=AW8ljEkC31U4jkFB5GqJ7w%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "6add96014e151d7664c31bdf4b809cf4e70d162282b573079eda5309501e68eb",
+            "bytes": 75881,
+            "verified_at": "2026-10-01T14:53:38.525158+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 927,
@@ -47868,6 +56516,28 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2005-05-04/29/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "29",
+          "fecha": "2005-04-27",
+          "titulo": "Sobre derechos municipales N° 29: Modificase el articulo 19 de ordenanza 22 de 28",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2005",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=%2BAKAOaxDizvM1%2FniD315vQ%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=%2BAKAOaxDizvM1%2FniD315vQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "2704215d4db8a4099df0a2eff89eddbf5e8dda4d40f67e6e48561cb910299a24",
+            "bytes": 58175,
+            "verified_at": "2026-10-01T14:54:32.208716+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 926,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -47884,6 +56554,50 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2005-04-02/28/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "28",
+          "fecha": "2005-03-22",
+          "titulo": "Sobre derechos municipales N° 28: Modifícase la Ordenanza Nº22 de 28",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2005",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=AtPSqL08iXZhj8s8kKpo5A%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=AtPSqL08iXZhj8s8kKpo5A%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "fe42da6b876f1c768e30d94f56c3dbeee63dd9838c62797b540e1fbf61772d87",
+            "bytes": 74683,
+            "verified_at": "2026-10-01T14:54:32.685135+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "2152",
+          "fecha": "2004-12-21",
+          "titulo": "Sobre derechos municipales N° 2152: Fijase el texto refundido y sistematizado de la Ordenanza 22 del 2001 y sus modificaciones posteriores \"Ordenanza Local sobre Derechos Municipales\", que regira en el año 2005",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2004",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=aYMVyS%2F5jM1%2FCaL4Ai6w7A%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=aYMVyS%2F5jM1%2FCaL4Ai6w7A%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "a740cfeb3fe1591718c62b3a64796c837b28d1e1447c4e55f1c7cf887c46df8a",
+            "bytes": 2187721,
+            "verified_at": "2026-10-01T14:54:24.487314+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 925,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -47898,6 +56612,50 @@ window.CATASTRO_DATA = {
           "badge_border": "border-indigo-500/30",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=233346",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2004-12-13/26/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "26",
+          "fecha": "2004-11-30",
+          "titulo": "Sobre derechos municipales N° 26: Modifícase la Ordenanza Nº22 de 28 de Diciembre de 2001 \"Ordenanza Local sobre Derechos MUnicipales\" que regirá en el año 2004 cuyo texto refundido y sistematizado fue aprobado por Decreto Alcaldicio EX",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2004",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=razemCf1oMkOcJihz26AYg%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=razemCf1oMkOcJihz26AYg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "b1830c64666c13d4406ccffc1ef054c257b29508338db8af42740d2190dc7f55",
+            "bytes": 628672,
+            "verified_at": "2026-10-01T14:54:25.072741+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "2001",
+          "fecha": "2004-11-29",
+          "titulo": "Texto refundido N° 2001: Fíjase el siguiente texto refundido de la Ordenanza Nº121 de 29 de Noviembre de 1996, \"Ordenanzasobre ruidos molestos en la comuna de Providencia\"",
+          "materia": "Convivencia Vecinal y Seguridad",
+          "materia_id": "convivencia_seguridad",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23101/1/2004",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=ZUXlgh8WAWyVjAqm41BWLQ%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=ZUXlgh8WAWyVjAqm41BWLQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "84f6ddc95ac2135770c83105237af1f5b08d5083eda8f8204071e80f699687ac",
+            "bytes": 88696,
+            "verified_at": "2026-10-01T14:55:46.179892+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 924,
@@ -47930,6 +56688,50 @@ window.CATASTRO_DATA = {
           "badge_border": "border-indigo-500/30",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=231782",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2004-10-26/24/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "25",
+          "fecha": "2004-10-25",
+          "titulo": "Cobro de derecho de aseo domiciliario N° 25: Apruébase la Ordenanza de Cobro de Derecho de Aseo  Domiciliario para el año 2005",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23083/1/2004",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=TMP%2FTrqZbea%2BP9LzmFJ9bg%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=TMP%2FTrqZbea%2BP9LzmFJ9bg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "819673ccfde5bf863f10c47b3e4fe545bdfa79db90ea05530bb68f3bea1db7d0",
+            "bytes": 58593,
+            "verified_at": "2026-10-01T14:54:02.139393+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "24",
+          "fecha": "2004-10-19",
+          "titulo": "Sobre derechos municipales N° 24: Modifícase la Ordenanza Nº22 de 28 de Diciembre de 2001 \"Ordenanza Local sobre Derechos Municipales\" año 2004",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2004",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=D9oTDan7ifSEaDqblmUvCA%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=D9oTDan7ifSEaDqblmUvCA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "cbd4ab5c2c0d41638347189e45ee3866ea68232a9d080330a013eb1ccd90cb94",
+            "bytes": 65174,
+            "verified_at": "2026-10-01T14:54:25.562475+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 920,
@@ -47980,6 +56782,50 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2004-10-18/23/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "23",
+          "fecha": "2004-10-05",
+          "titulo": "Sobre derechos municipales N° 23: Modifícase la Ordenanza Nº22 de 28 de Diciembre de 2001 \"Ordenanza Local sobre Derechos Municipales\", cuyo texto sistematizado fue aprobado por Decreto Alcaldicio EXNº169 de 3",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2004",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=A1fLgH7GfsVolvRn%2BtfF%2Bg%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=A1fLgH7GfsVolvRn%2BtfF%2Bg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "8c0411982173726d93734a6f57a6f98ca993e7a34fb36bff4c31913a7c02f41d",
+            "bytes": 76570,
+            "verified_at": "2026-10-01T14:54:26.030687+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "22",
+          "fecha": "2004-10-05",
+          "titulo": "Sobre ruidos molestos N° 22: Modifícase la Ordenanza Nº121 de 29 de Noviemb re de 1996  Ordenanza sobre Ruidos Molestos en la Comuna de Providencia",
+          "materia": "Convivencia Vecinal y Seguridad",
+          "materia_id": "convivencia_seguridad",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23101/1/2004",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=LTCE1D%2F9MC7pjaEIclxJ9g%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=LTCE1D%2F9MC7pjaEIclxJ9g%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "084cd2bbd20eb48073b5ade930842c53f17aeee429c12703660333d091318ab0",
+            "bytes": 54722,
+            "verified_at": "2026-10-01T14:55:46.716044+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 919,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -47994,6 +56840,28 @@ window.CATASTRO_DATA = {
           "badge_border": "border-indigo-500/30",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=229047",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2004-08-16/20/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "20",
+          "fecha": "2004-08-03",
+          "titulo": "Sobre derechos municipales N° 20: Modifícase la Ordenanza Nº22 de 28 de Diciembre de 2001 \"Ordenanza Local sobre Derechos Municipales\", cuyo texto refundido fue aprobado por Decreto Alcaldicio EXNº169 de 3 Febrero de 2004",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2004",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=I%2BX3ecCqfVEkrUnzc%2Bj2yg%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=I%2BX3ecCqfVEkrUnzc%2Bj2yg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "4800e37967c2f4a764cd500ddf5cab44fe715ff04c10689f519349d3af23a199",
+            "bytes": 111001,
+            "verified_at": "2026-10-01T14:54:26.668396+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 918,
@@ -48012,6 +56880,28 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2004-07-05/19/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "19",
+          "fecha": "2004-06-15",
+          "titulo": "Ordenanza N° 19: Apruébase la Ordenanza para la APLICACION DEL ARTICULO 8 DE LA LEY 19",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23077/1/2004",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=9p3A8e3TR%2FpgA4o89pVDow%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=9p3A8e3TR%2FpgA4o89pVDow%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "4f3fc9467e840811cae9c321b4b5db1b66a1f254d9aa597cb3a15049a0fa9176",
+            "bytes": 48407,
+            "verified_at": "2026-10-01T14:53:37.509648+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 917,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -48028,6 +56918,50 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2004-05-19/18/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "888",
+          "fecha": "2004-05-18",
+          "titulo": "Sobre publicidad y propaganda en la Comuna de Providencia N° 888: Apruébase el siguiente texto refundido y sistematizado de la Ordenanza \"Sobre publicidad y propaganda en la comuna de Providencia\"",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23081/1/2004",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=SV32xWKvjXsxB57vDDv%2BMA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=SV32xWKvjXsxB57vDDv%2BMA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "174c5e85480a1a4def36911f854541df7cc7b738bf92fb726302da798aa14fa8",
+            "bytes": 311833,
+            "verified_at": "2026-10-01T14:53:52.556657+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "18",
+          "fecha": "2004-04-20",
+          "titulo": "Sobre publicidad y propaganda en la Comuna de Providencia N° 18: Modificación Ordenanza 4 de 14",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23081/1/2004",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=lpFcxrN39LYBnaCcCxqgEg%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=lpFcxrN39LYBnaCcCxqgEg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "722fbae089305b0f01d7785f1519aad4e6b4865a9546c7af8ba8e2f82ddb10b2",
+            "bytes": 87429,
+            "verified_at": "2026-10-01T14:53:53.043945+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 916,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -48042,6 +56976,28 @@ window.CATASTRO_DATA = {
           "badge_border": "border-zinc-700",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=223439",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2004-04-07/17/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "17",
+          "fecha": "2004-03-26",
+          "titulo": "Sobre derechos municipales N° 17: Modifica Ordenanza Nº22 de 28 de Diciembre de 2001, agrega el  Nº14 al artículo 19",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2004",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=CwKsX3nZqzxZ6mnsjOTWuQ%3D%3D",
+          "tipo_norma_clasif": "modificacion",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=CwKsX3nZqzxZ6mnsjOTWuQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "6d35bdf7e238e336a07dd6be373f5f3d0c008d6c17f22aa0cc13103c1ea05f38",
+            "bytes": 64267,
+            "verified_at": "2026-10-01T14:54:27.156118+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 915,
@@ -48092,6 +57048,72 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2004-02-09/15/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "16",
+          "fecha": "2004-02-04",
+          "titulo": "Funcionamiento del depósito municipal de vehículos N° 16: Funcionamiento del depósito municipal de vehiculos",
+          "materia": "Tránsito, Transporte y Espacio Público",
+          "materia_id": "transito_transporte",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23092/1/2004",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=2rmiczrJqbPAeuquRZKzvQ%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=2rmiczrJqbPAeuquRZKzvQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "7bf232981567e4db09b3b9b0e4299d6d163a5e442ec272daea363bd6361d7c8c",
+            "bytes": 79297,
+            "verified_at": "2026-10-01T14:55:23.984775+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "169",
+          "fecha": "2004-02-03",
+          "titulo": "Sobre derechos municipales N° 169: Fíjase el siguiente texto refundido y sistematizado de la Ordenanza Nº22 de 28",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2004",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=i4mOiboTTNOXBwpjA%2F9mWA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=i4mOiboTTNOXBwpjA%2F9mWA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "21d9e3223fb27157314954681a675389286deebd9cce6b3197817493ea7119fe",
+            "bytes": 726740,
+            "verified_at": "2026-10-01T14:54:27.727475+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "15",
+          "fecha": "2004-02-03",
+          "titulo": "Ordenanza N° 15: Apruébase la \"ORDENANZA DE REGISTRO DE PERSONAS JURIDICAS RECEPTORAS DE FONDOS PUBLICOS\"",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23096/1/2004",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=DpQk6GpbSxMC93VS17AqXA%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=DpQk6GpbSxMC93VS17AqXA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "9447760e7760728895f6a264001a8cbae17dfd1e14ab8cbfcb5d567c72304343",
+            "bytes": 78611,
+            "verified_at": "2026-10-01T14:55:39.628034+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "fuente": "BCN",
           "numero": "2122-exento",
           "fecha": "2004-01-21",
@@ -48103,6 +57125,28 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/dto/municipalidad-de-providencia/2004-01-21/2122-exento/datos.json",
           "tipo_norma": "Ordenanza Municipal",
           "estado": "Vigente / LeyChile"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "14",
+          "fecha": "2004-01-14",
+          "titulo": "Ocupación Comunal sobre Ocupacion Transitoria del Espacio Público por la Ejecución de Faenas N° 14: Apruébase la \"Ordenanza Comunal Sobre Ocupación Tránsitoria del Espacio Público por la Ejecución de Faenas\"",
+          "materia": "Tránsito, Transporte y Espacio Público",
+          "materia_id": "transito_transporte",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23074/1/2004",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=m5iBagW%2FcqL5pjoKFS%2Be9g%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=m5iBagW%2FcqL5pjoKFS%2Be9g%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "da020446cdb8c2f5e284284a0c4a931d7235f5fbf6e5741d7b6a0c7401942c56",
+            "bytes": 299958,
+            "verified_at": "2026-10-01T14:53:33.672284+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 911,
@@ -48137,6 +57181,72 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2003-12-31/13/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "2122",
+          "fecha": "2003-12-23",
+          "titulo": "Sobre derechos municipales N° 2122: Rectifíquese la Ordenanza Nº 12 de 2 de Diciembre de 2003 que modificó la Ordenanza Nº 22 de 28 de Diciembre de 2001 \"Ordenanza Local Sobre Derechos Municipales\"",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2003",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=qIU%2BAfThh%2BzGSL2O8Agz4g%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=qIU%2BAfThh%2BzGSL2O8Agz4g%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "c9617860555ef239aa0bdc0fdd817042ab5f3397f8c1c1eb601ef0f164e98b81",
+            "bytes": 40594,
+            "verified_at": "2026-10-01T14:54:23.127402+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "12",
+          "fecha": "2003-12-02",
+          "titulo": "Sobre derechos municipales N° 12: Modifícase la Ordenanza Nº22 de 28",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2003",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=zB0zvfDcCWM4rNBdplCexQ%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=zB0zvfDcCWM4rNBdplCexQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "3d84f724deb5463005747041bea3e4cb7a5bf83d52dfabf65967373dfb478eb4",
+            "bytes": 647244,
+            "verified_at": "2026-10-01T14:54:23.714320+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "13",
+          "fecha": "2003-12-02",
+          "titulo": "Obras de construcción., reconstrucción, reparación, alteración y demolicón de edificios y obras de urbanización horario carga y descarga N° 13: Fíjase la siguiente ordenanza sobre obras de construcción, reconstrucción, repación, alteración, ampliación y demolición de edificios y ",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23088/1/2003",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=pTDTFDHf7511KkuoWBCa8Q%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=pTDTFDHf7511KkuoWBCa8Q%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "f60465746cec691e9dda06e58e92cfe4c48cfa9a2ac21d00f2629810ce62ccba",
+            "bytes": 120614,
+            "verified_at": "2026-10-01T14:55:17.878070+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 910,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -48151,6 +57261,28 @@ window.CATASTRO_DATA = {
           "badge_border": "border-indigo-500/30",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=217143",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2003-11-17/11/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "11",
+          "fecha": "2003-11-06",
+          "titulo": "Cobro de derechos de aseo domiciliario N° 11: Apruébase la siguiente \"Ordenanza de  cobro de derecho de aseo domociliario para el año 2004",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23083/1/2003",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=lgc29WKgNwYqnCZXMHgu5Q%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=lgc29WKgNwYqnCZXMHgu5Q%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "0b38d85031a0d8f9365e00d192bef12c390395342913a26e76596e36ba74e658",
+            "bytes": 53271,
+            "verified_at": "2026-10-01T14:54:01.655742+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 908,
@@ -48185,6 +57317,50 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2003-10-31/9/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "10",
+          "fecha": "2003-10-23",
+          "titulo": "Numeración de los inmuebles de la Comuna N° 10: Apruébase la ordenanza que reglamenta la numeración de los inmuebles de la comuna, cuyo texto es el siguiente:",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23087/1/2003",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=am8P0W0sabb%2Byp3xfzjkXw%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=am8P0W0sabb%2Byp3xfzjkXw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "acaef489f39b26df32221e5bfe8541d816e3a2ff7361d65c63749b3fafad2628",
+            "bytes": 391853,
+            "verified_at": "2026-10-01T14:55:15.577437+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "9",
+          "fecha": "2003-10-22",
+          "titulo": "Estacionamientos controlados en la vía pública de la Comuna N° 9: Apruébase la Ordenanza sobre Estacionamientos Controlados en las Vias Públicas de la Comuna",
+          "materia": "Tránsito, Transporte y Espacio Público",
+          "materia_id": "transito_transporte",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23402/1/2003",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=24V5j4c9bMn%2BEqsu7eIlLg%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=24V5j4c9bMn%2BEqsu7eIlLg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "5c2a5567d5729e9a706e1adbd3690532ad6dcd75fd2bdb68260d0189d947b88c",
+            "bytes": 88631,
+            "verified_at": "2026-10-01T14:55:48.847795+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 907,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -48217,6 +57393,72 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2003-10-02/6/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "8",
+          "fecha": "2003-10-01",
+          "titulo": "Permisos y Concesiones de Bienes Municipales y Nacionales de Uso Público y Concesiones de Servicios Municipales N° 8: Apruébase la Ordenanza sobre Permisos y Concesiones de Bienes Mun icipales y Nacionales de Uso Publico y Concesiones de Servicios Municipales",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23075/1/2003",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=6C3I1lwrXpbpd1r6sVrGTw%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=6C3I1lwrXpbpd1r6sVrGTw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "93a1f4b188595acebd947ed270292297ab9aa00ed3b50f9e160bb6c63a7aa832",
+            "bytes": 176696,
+            "verified_at": "2026-10-01T14:53:35.999709+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "7",
+          "fecha": "2003-09-24",
+          "titulo": "Obras de construcción, reconstrucción, reparación, alteración y demolición de edificios y obras de urbanización horario carga y descarga N° 7: Fíjase la siguiente Ordenanza Sobre Obras de Construcción, Reconstruccón, Reparación, Alteración, Ampliación y  Demolición de Edificios y",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23088/1/2003",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=Amm4YVRsNZlzcdHed0mnXg%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=Amm4YVRsNZlzcdHed0mnXg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "4444cf8b368ae8434ad6ceb8bb95967a8b1288fdf1b68432b862158802e944fe",
+            "bytes": 123188,
+            "verified_at": "2026-10-01T14:55:18.403665+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "6",
+          "fecha": "2003-09-23",
+          "titulo": "Notificaciones y publicaciones de resoluciones municipales N° 6: Apruébase la Ordenanza sobre Notificaciones y Publicaciones de  Resoluciones Municipales",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23094/1/2003",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=7dC1OjlJSz1Sbt0F87ZJ2Q%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=7dC1OjlJSz1Sbt0F87ZJ2Q%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "7152afc9abc5d588248274dd395424ee3d29df4a104e81e6f1d0567d9e64654a",
+            "bytes": 93577,
+            "verified_at": "2026-10-01T14:55:27.239283+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "fuente": "BCN",
           "numero": "1421-exento",
           "fecha": "2003-09-10",
@@ -48228,6 +57470,28 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/dto/municipalidad-de-providencia/2003-09-10/1421-exento/datos.json",
           "tipo_norma": "Ordenanza Municipal",
           "estado": "Vigente / LeyChile"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1421",
+          "fecha": "2003-09-03",
+          "titulo": "Decreto Exento N° 1421: Fíjase el siguiente texto refundido y sistematizado de la Ordenanza Nº7 de 02 de septiembre de1997, sobre \"ESTACIONAMIENTO DE TAXIS EN LA COMUNA DE PROVIDENCIA\"",
+          "materia": "Tránsito, Transporte y Espacio Público",
+          "materia_id": "transito_transporte",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23103/1/2003",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=d99WzZoD55iPVJ03wwDXfg%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=d99WzZoD55iPVJ03wwDXfg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "22d9252c91f3c143aafc7d8ce0413f76ad6182a8b7d983159360e929a27c59d7",
+            "bytes": 139889,
+            "verified_at": "2026-10-01T14:55:47.793347+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 905,
@@ -48270,6 +57534,72 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/dto/municipalidad-de-providencia/2003-07-14/1030-exento/datos.json",
           "tipo_norma": "Ordenanza Municipal",
           "estado": "Vigente / LeyChile"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "5",
+          "fecha": "2003-07-11",
+          "titulo": "Ordenanza N° 5: Modifícase el articulo 6º de la Ordenanza Nº 7 del 1997, sobre ESTACIONAMIENTOS DE TAXIS EN LA COMUNA DE PROVIDENCIA",
+          "materia": "Tránsito, Transporte y Espacio Público",
+          "materia_id": "transito_transporte",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23103/1/2003",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=i8VvqpNu5QEnnc2ff%2BnT3w%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=i8VvqpNu5QEnnc2ff%2BnT3w%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "21095feeefe8aa10dad38564ff568e7278ffbf9488f6c56a8384f7049af3455a",
+            "bytes": 56511,
+            "verified_at": "2026-10-01T14:55:48.294373+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1029",
+          "fecha": "2003-07-01",
+          "titulo": "De Ornato N° 1029: Fíjase el siguiente texto refundido y sistematizado de la Ordenanza Nº1 de 24",
+          "materia": "Aseo, Ornato y Medio Ambiente",
+          "materia_id": "aseo_medioambiente",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23065/1/2003",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=78%2FjjCx%2BCPZQZc%2FhHGXKmw%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=78%2FjjCx%2BCPZQZc%2FhHGXKmw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "f2da94afea08a3c0eaf8ff6f4d39da1831ab2fc0b68c7d59a00697b15de799ad",
+            "bytes": 380092,
+            "verified_at": "2026-10-01T14:53:20.910663+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1030",
+          "fecha": "2003-07-01",
+          "titulo": "Sobre ruidos molestos N° 1030: Fíjase el siguiente texto refundido de la Ordenanza Nº121 de 29",
+          "materia": "Convivencia Vecinal y Seguridad",
+          "materia_id": "convivencia_seguridad",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23101/1/2003",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=BE0hUUj8k0PT5qdgLYnjQA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=BE0hUUj8k0PT5qdgLYnjQA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "51e844719eb38c18e3d4115b85fb290aa29dd9b36d2f07116a8c97dcb87b2004",
+            "bytes": 256551,
+            "verified_at": "2026-10-01T14:55:45.110618+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 903,
@@ -48317,6 +57647,94 @@ window.CATASTRO_DATA = {
           "estado": "Vigente / LeyChile"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "3",
+          "fecha": "2003-06-10",
+          "titulo": "De Ornato N° 3: Modifícase la Ordenanza de Ornato Nº 1 de 24,1,02, en los siguientes sentidos",
+          "materia": "Aseo, Ornato y Medio Ambiente",
+          "materia_id": "aseo_medioambiente",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23065/1/2003",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=gIPdMv8R%2FSIb0C6kN321Qw%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=gIPdMv8R%2FSIb0C6kN321Qw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "2f7ca6c71a746589f59afd6a5120ce2af45fbaf95014e2181a7160997aff0357",
+            "bytes": 49236,
+            "verified_at": "2026-10-01T14:53:21.433741+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "2",
+          "fecha": "2003-06-10",
+          "titulo": "Sobre subvenciones municipales N° 2: Apruébase la Ordenanza sobre Subvenciones Municipales, cuyo texto es el siguiente",
+          "materia": "Subvenciones y Régimen Interno",
+          "materia_id": "organizacion_interna",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23098/1/2003",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=vQt6xfeiVx583L6q2YdguQ%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=vQt6xfeiVx583L6q2YdguQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "0155d15d9adec84f3d32988d48d6a61cd359516332109ef2c8acd6fd822bb10f",
+            "bytes": 117228,
+            "verified_at": "2026-10-01T14:55:40.159087+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "4",
+          "fecha": "2003-06-10",
+          "titulo": "Sobre ruidos molestos N° 4: Modificase la Ordenanza sobre  Ruidos Molestos en la Comuna de Providencia",
+          "materia": "Convivencia Vecinal y Seguridad",
+          "materia_id": "convivencia_seguridad",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23101/1/2003",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=9PPiVUryDQK%2BFQFF8GShLA%3D%3D",
+          "tipo_norma_clasif": "modificacion",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=9PPiVUryDQK%2BFQFF8GShLA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "b45b8d55010644c0cdfde7aebc5aed9e02a165251a0205ae4dc75242f7fb2ab6",
+            "bytes": 49952,
+            "verified_at": "2026-10-01T14:55:45.601920+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "874",
+          "fecha": "2003-05-23",
+          "titulo": "Decreto Exento N° 874: Fíjase el siguiente texto refundido y sistematizado de la ORDENANZA DE ASEO de la Comuna de Providencia",
+          "materia": "Aseo, Ornato y Gestión de Residuos",
+          "materia_id": "aseo_medioambiente",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23064/1/2003",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=sFloBa3j9uWjTZDcd%2BrmSQ%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=sFloBa3j9uWjTZDcd%2BrmSQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "6a1ca13fdfc1ee66ab51f334d679576bc1b883e119e9734d1f225f908d0c07e7",
+            "bytes": 344326,
+            "verified_at": "2026-10-01T14:53:19.319806+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 902,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -48333,6 +57751,28 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2003-05-12/1/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1",
+          "fecha": "2003-05-05",
+          "titulo": "Ordenanza N° 1: Modifícase la ORDENANZA DE ASEO, N° 18, de 14 de noviembre de 2001",
+          "materia": "Aseo, Ornato y Gestión de Residuos",
+          "materia_id": "aseo_medioambiente",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23064/1/2003",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=EOJ25SjhOr0iMAsk1HJTrA%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=EOJ25SjhOr0iMAsk1HJTrA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "6df0495f07e3c9dd81b71353766b8678cfbd50b067699eb5b6d9710b7bb89588",
+            "bytes": 54188,
+            "verified_at": "2026-10-01T14:53:19.793071+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 901,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -48347,6 +57787,28 @@ window.CATASTRO_DATA = {
           "badge_border": "border-indigo-500/30",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=205659",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2002-12-14/12/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "12",
+          "fecha": "2002-12-06",
+          "titulo": "Sobre derechos municipales N° 12: Modifícase la ordenanza que fijo el texto refundido y sistematizado de la \"Ordenanza Local sobre Derechos municipales\"",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2002",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=vclj2IYg%2BacP6Q6relRHaQ%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=vclj2IYg%2BacP6Q6relRHaQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "6dae6eb8a42ed0ecf16bfc5f74c5d01b642734f5d00e199009cc6c9e0760d024",
+            "bytes": 168357,
+            "verified_at": "2026-10-01T14:54:21.580390+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 899,
@@ -48381,6 +57843,50 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2002-11-19/11/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "10",
+          "fecha": "2002-11-11",
+          "titulo": "Cobro de derecho de aseo domiciliario N° 10: Apruébase la siguiente \"Ordenanza de Cobro de Derechos de Aseo Domiciliario para el año 2003\"",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23083/1/2002",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=SThCp0GDR%2FJMTIcpALtyjw%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=SThCp0GDR%2FJMTIcpALtyjw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "f4035d33444c93a40cf7346d09d5f9bceaa94e70aa44806b1ea567fcb0cfc6d9",
+            "bytes": 56019,
+            "verified_at": "2026-10-01T14:54:01.135082+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "11",
+          "fecha": "2002-11-11",
+          "titulo": "Gimnasio Santa Isabel N° 11: Díctase la siguiente Ordenanza para la administración del Gimnasio Santa Isabel",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23093/1/2002",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=25CFaX8psUA0QyTV8XLLuA%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=25CFaX8psUA0QyTV8XLLuA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "6876e11bd313240842c88d37dc4ba612f9551f353262db303b0c690e5f10d5fc",
+            "bytes": 93061,
+            "verified_at": "2026-10-01T14:55:25.579568+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 898,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -48397,6 +57903,28 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2002-10-04/9/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "9",
+          "fecha": "2002-09-26",
+          "titulo": "Sobre derechos municipales N° 9: Modifica Ordenanza Nº22 de 28 de Diciembre de 2001 que fijó el texto refundido y sistematizado de la Ordenanza Local sobre Derechos Municipales que regirá para el año 2002",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2002",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=ZhrQmgkJGgHnNpLLu5mXIA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=ZhrQmgkJGgHnNpLLu5mXIA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "dae87687130ef32a24ed5ec15f5ee09633240b5795c599566d3936d8d939617b",
+            "bytes": 56285,
+            "verified_at": "2026-10-01T14:54:22.062864+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 897,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -48411,6 +57939,28 @@ window.CATASTRO_DATA = {
           "badge_border": "border-zinc-700",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=200636",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2002-07-22/8/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "8",
+          "fecha": "2002-07-10",
+          "titulo": "Sobre actividad comercial, de alcoholes, industrial, profesional y de servicios N° 8: Modificase la ordenanza Nº 2 de 6",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23080/1/2002",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=Jxo8r25hv3mTO8KhMsKIkQ%3D%3D",
+          "tipo_norma_clasif": "modificacion",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=Jxo8r25hv3mTO8KhMsKIkQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "21b5b8ce8e09321b1c62cd92283c23513ce265368c6c604f0b06572b6e246940",
+            "bytes": 164985,
+            "verified_at": "2026-10-01T14:53:43.605501+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 896,
@@ -48445,6 +57995,50 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2002-05-04/6/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "6",
+          "fecha": "2002-04-26",
+          "titulo": "Sobre derechos municipales N° 6: MODIFICA ORDENANZA LOCAL SOBRE DERECHOS MUNICIPALES  Nº22 DE 28 DE DICIEMBRE DE 2001 EN LO QUE INDICA",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2002",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=pAYRq79vQ%2Bb%2BBwCHFaYAIw%3D%3D",
+          "tipo_norma_clasif": "modificacion",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=pAYRq79vQ%2Bb%2BBwCHFaYAIw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "feea5192b59bdd385912772372c0d4d482ff708eb358bc7ca4d5f6251ccb1081",
+            "bytes": 63774,
+            "verified_at": "2026-10-01T14:54:22.543151+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "5",
+          "fecha": "2002-04-26",
+          "titulo": "Biblioteca Municipal N° 5: Dictase la siguiente Ordenanza sobre Servicios de la Biblioteca Municipal",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23091/1/2002",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=TOHJge%2FlypB5Ot3Oqil4%2FQ%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=TOHJge%2FlypB5Ot3Oqil4%2FQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "0e1a9dc2c752fa92fa6802e63d7961b6d22faebb188c538f8b41eabecfd8b35a",
+            "bytes": 88957,
+            "verified_at": "2026-10-01T14:55:22.993072+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 894,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -48459,6 +58053,28 @@ window.CATASTRO_DATA = {
           "badge_border": "border-sky-500/30",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=194632",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2002-02-15/3/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "4",
+          "fecha": "2002-02-14",
+          "titulo": "Sobre publicidad y propaganda en la Comuna de Providencia N° 4: Apruébase el siguiente texto refundido y sistematizado de la Ordenanza sobre\"Publicidad y Propaganda en la Comuna de Providencia\"",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23081/1/2002",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=8TqS2kP7ow1eQaWbV0Z2oQ%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=8TqS2kP7ow1eQaWbV0Z2oQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "ac4c55b0e83c37e8040841e6ccf5f82ecf70b36e1f26f95cea13a70b60d91c78",
+            "bytes": 770708,
+            "verified_at": "2026-10-01T14:53:51.481623+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 893,
@@ -48509,6 +58125,72 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2002-02-02/23/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "3",
+          "fecha": "2002-02-01",
+          "titulo": "Administración y arrendamiento de locales y pilastras del mercado funcional de Providencia N° 3: Apruébase el texto refundido modificado y sistematizado de la Ordenanza para la Administración y Arrendamiento de Locales y Pilastras del Mercado Funcional de Providencia",
+          "materia": "Normativa General y Otras Materias",
+          "materia_id": "normativa_general",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23090/1/2002",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=nMXlB%2BrbkBGPv42ZUzte6w%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=nMXlB%2BrbkBGPv42ZUzte6w%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "f4dfab4d2ab31dba2f7bd58aae95b3fa29b293500bc2e29ecee89bec96a061c2",
+            "bytes": 183257,
+            "verified_at": "2026-10-01T14:55:21.119175+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "2",
+          "fecha": "2002-01-28",
+          "titulo": "Sobre publicidad y propaganda en la Comuna de Providencia N° 2: Modificase la Ordenanza Nº 4 de 23 de Mayo de 2000 \"Sobre Publicidad y Propaganda en la Comuna de Providencia\", modificada por las Ordenanzas Nº 9 de 2000 y Nº 2 del 2001, de la siguiente forma",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23081/1/2002",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=h7mW9voxS1MTPSNBgrfhAA%3D%3D",
+          "tipo_norma_clasif": "modificacion",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=h7mW9voxS1MTPSNBgrfhAA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "aee239665757db71eafea40891577213b0c5c0d58fb6e10e04f200de6f4d25e9",
+            "bytes": 68567,
+            "verified_at": "2026-10-01T14:53:52.007134+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1",
+          "fecha": "2002-01-24",
+          "titulo": "De Ornato N° 1: Fíjase el siguiente texto refundidio y modificado de la Ordenanza de Ornato",
+          "materia": "Aseo, Ornato y Medio Ambiente",
+          "materia_id": "aseo_medioambiente",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23065/1/2002",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=ZKxrfUT2dTSPJbzMpA8jjQ%3D%3D",
+          "tipo_norma_clasif": "modificacion",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=ZKxrfUT2dTSPJbzMpA8jjQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "730b059eb09196ee032253b4100ebb8ee5f5a7ca972f97df2876e0a2111d18fe",
+            "bytes": 149525,
+            "verified_at": "2026-10-01T14:53:20.381611+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 890,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -48525,6 +58207,94 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2001-12-29/21/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "22",
+          "fecha": "2001-12-28",
+          "titulo": "Sobre derechos municipales N° 22: Ordenanza de Derechos Municipales año 2002,",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2001",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=vIcItnKPSOuvKoGvuxIJYw%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=vIcItnKPSOuvKoGvuxIJYw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "5b0a034b6adfce45d945a285596db33f471ae0d1696678a00d64d27a1e987330",
+            "bytes": 810476,
+            "verified_at": "2026-10-01T14:54:16.786505+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "23",
+          "fecha": "2001-12-28",
+          "titulo": "Sobre derechos municipales N° 23: Rectifiquese la Ordenanza Nº 21 de Diciembre de 2001 que modificó la Ordenanza Nº 17 de 12 de Noviembre de 2001 que fijó el texto refundido y sistematizado de la Ordenanz<a Local sobre Derechos Municipales, en el sentido de dejar establecido que ",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2001",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=lr0B6iXkrh0hiG4cQI4Omg%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=lr0B6iXkrh0hiG4cQI4Omg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "3b9391b776c0a678b5843e70089e93c29e30279c7c06c3b81f0d3de5e71b78c6",
+            "bytes": 61128,
+            "verified_at": "2026-10-01T14:54:17.269010+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "21",
+          "fecha": "2001-12-21",
+          "titulo": "Sobre derechos municipales N° 21: Modifícase la Ordenanza Nº17 de 12 de Noviembre de 2001, que fijço el texto refundido y sistematizado de la Ordenanza Local sobre Derechos Municipales que rige para el año 2001",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2001",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=xtaYJdgcA1Fzt3oaWVzjRA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=xtaYJdgcA1Fzt3oaWVzjRA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "579e10435eb1f74ef7843b20d6631048c90d4ed97c1619cad3564dd467010b84",
+            "bytes": 214288,
+            "verified_at": "2026-10-01T14:54:17.824956+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "20",
+          "fecha": "2001-12-04",
+          "titulo": "Ordenanza N° 20: Fíjase el siguiente texto refundido y sistematizada de la ORDENANZA SOBRE EL PAGO EN CUOTAS DE LOS DERECHOS MUNICIPALES DE EDIFICACION",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23084/1/2001",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=ktGOqX7UczAmMUbQ3c7m6Q%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=ktGOqX7UczAmMUbQ3c7m6Q%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "d0eab39639cc997cc611ac0cdf1c6e15d556be6b4c5d96f0fd5e596df44cc63f",
+            "bytes": 76242,
+            "verified_at": "2026-10-01T14:54:12.334375+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 889,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -48539,6 +58309,72 @@ window.CATASTRO_DATA = {
           "badge_border": "border-orange-500/30",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=192148",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2001-12-03/19/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "19",
+          "fecha": "2001-11-26",
+          "titulo": "Ordenanza N° 19: Rectifícase el Anexo Nº 2 de la Ordenanza Nº 16 de 26",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23070/1/2001",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=SXCxOtIzLce9qNjCaYoNAw%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=SXCxOtIzLce9qNjCaYoNAw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "48ee8a507a52bfa5c51d9f800fe28c2066a7a2a66e6712ffcfb195d66876c3ab",
+            "bytes": 52605,
+            "verified_at": "2026-10-01T14:53:28.514340+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "18",
+          "fecha": "2001-11-14",
+          "titulo": "De Aseo N° 18: Fíjase el texto refundido de la \"Ordenanza de Aseo de la Comuna de Providencia\"",
+          "materia": "Aseo, Ornato y Gestión de Residuos",
+          "materia_id": "aseo_medioambiente",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23064/1/2001",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=jrIDUwPp2kXhSf0dpC%2FhpA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=jrIDUwPp2kXhSf0dpC%2FhpA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "b4da0e7983229f258848bbed8283ad6351afed154288d3fe0ee46df33e16bfc4",
+            "bytes": 133328,
+            "verified_at": "2026-10-01T14:53:18.045036+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "17",
+          "fecha": "2001-11-12",
+          "titulo": "Sobre derechos municipales N° 17: Fíjase el texto refundido y sistematizado de la  \"Ordenanza Local sobre Derechos Municipales\", que regirá en el año 2001",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2001",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=RpektzecGFouDwVvsG3%2FFg%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=RpektzecGFouDwVvsG3%2FFg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "b569ba9aa480305aba43459e1c502358a6dcbf58f94bbbb21f704ca056b623c0",
+            "bytes": 993719,
+            "verified_at": "2026-10-01T14:54:18.488726+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 887,
@@ -48621,6 +58457,50 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2001-10-26/13/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "16",
+          "fecha": "2001-10-26",
+          "titulo": "Ordenanza N° 16: Apruebase la \"ORDENANZA SOBRE INSTALACION DE MESAS EN EL BIEN NACIONAL DE USO PUBLICO DE LA COMUNA DE PROVIDENCIA",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23070/1/2001",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=h0NVQIe%2FXPDC5kgTuYZCvw%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=h0NVQIe%2FXPDC5kgTuYZCvw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "be62074300fa24f8160fa58c7b56dfb143857a9fbf0fd329206881710d3b5b5f",
+            "bytes": 384277,
+            "verified_at": "2026-10-01T14:53:29.016236+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "15",
+          "fecha": "2001-10-26",
+          "titulo": "Cobro de derecho de aseo domiciliario N° 15: Apruebase la siguiente \"ORDENANZA DE COBRO DE DERECHO DE ASEO DOMICILIARIO PARA EL AÑO 2002\"",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23083/1/2001",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=tkxBDVHvDbbpjmWlZBfevA%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=tkxBDVHvDbbpjmWlZBfevA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "d5492a021bdf39886f5b64b48bce500de8ce40b2e1edc4350486beac52ee4bf4",
+            "bytes": 55453,
+            "verified_at": "2026-10-01T14:53:59.955208+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 883,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -48635,6 +58515,94 @@ window.CATASTRO_DATA = {
           "badge_border": "border-amber-500/30",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=190794",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2001-10-19/12/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "14",
+          "fecha": "2001-10-19",
+          "titulo": "Sobre derechos municipales N° 14: Modifícase la Ordenanza Nº 14 de 29 de Diciembre de 2000, que fijó el texto refunñdido y sistematizado de la Ordenanza Local sobre Derechos Municipales que rige para ñel año 2001, en la siguiente forma",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2001",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=47QIRIda4l%2BpyGBBYHplwQ%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=47QIRIda4l%2BpyGBBYHplwQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "18d4adeec471caf4dcd64787ebf77eeafafc8dca77270f7899984e1f2b04ce29",
+            "bytes": 71136,
+            "verified_at": "2026-10-01T14:54:19.034938+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "13",
+          "fecha": "2001-10-18",
+          "titulo": "De Aseo N° 13: Modificase la Ordenanza Nº 4 de 29 de Agosto de 1997, que reemplazo el texto de la Ordenanza de Aseo de la Comuna de Providencia, en los sentidos que se indican",
+          "materia": "Aseo, Ornato y Gestión de Residuos",
+          "materia_id": "aseo_medioambiente",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23064/1/2001",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=89SRndm196Dzh7tGVwAm%2Bw%3D%3D",
+          "tipo_norma_clasif": "modificacion",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=89SRndm196Dzh7tGVwAm%2Bw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "208bfebe6e0df68aeb8bc22c23b47874aa5919124774a23eab498d5a97624144",
+            "bytes": 65737,
+            "verified_at": "2026-10-01T14:53:18.533481+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "11",
+          "fecha": "2001-10-11",
+          "titulo": "Condiciones necesarias para la fijación de Tarifas del Servicio Domiciliario por Extracción de Basuras y Exenciones Total y Parcial. N° 11: Fíjase el siguiente texto refundido y adecuado de la Ordenanza sobre \"CONDICIONES NECESARIAS PARA LA FIJACION DE TARIFAS DEL SERVICIO DOMICI",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23063/1/2001",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=hqp33PLTbwLu6%2Bj3pnlILA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=hqp33PLTbwLu6%2Bj3pnlILA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "500fd4ba7ec45ae6cff625e44fb8bd42b739b50dfe390a2fb4f3b22b4c965a16",
+            "bytes": 357539,
+            "verified_at": "2026-10-01T14:53:10.060908+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "12",
+          "fecha": "2001-10-11",
+          "titulo": "Ordenanza N° 12: Apruébase la \"ORDENANZA SOBRE PROHIBICION DE ESTACIONAMIENTO EN AREA PROTEGIDA\"",
+          "materia": "Tránsito, Transporte y Espacio Público",
+          "materia_id": "transito_transporte",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23107/1/2001",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=id9sTY78T2PGvHH2M1evLg%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=id9sTY78T2PGvHH2M1evLg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "65fb6993858a6ba114d7277099a8f15c78de86e3f53acf5c2199afecf689a6c3",
+            "bytes": 119411,
+            "verified_at": "2026-10-01T14:55:56.340385+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 881,
@@ -48669,6 +58637,50 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2001-09-08/9/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "10",
+          "fecha": "2001-08-27",
+          "titulo": "Condiciones necesarias para la fijación de Tarifas del Servicio Domiciliario por Extracción de basuras y Exenciones Total y Parcial N° 10: Modificase la Ordenanza Nª6 del 15",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23063/1/2001",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=rfKsf5kzdkic%2BshO1gQHFw%3D%3D",
+          "tipo_norma_clasif": "modificacion",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=rfKsf5kzdkic%2BshO1gQHFw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "4dc85b8a64d0c0ee59ddcd67d8e52a579539a13a6da5f4abbe3d81b8a637f9cf",
+            "bytes": 54742,
+            "verified_at": "2026-10-01T14:53:10.635777+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "9",
+          "fecha": "2001-08-22",
+          "titulo": "Ordenanza N° 9: Apruebase el siguiente texto  de la ordenanza comunal sobre la \"INSTALACION DE MESAS Y TOLDOS EN EL BIEN NACIONAL DE USO PUBLICO-PASEO PEATONAL GENERAL HOLLEY\"",
+          "materia": "Aseo, Ornato y Gestión de Residuos",
+          "materia_id": "aseo_medioambiente",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23071/1/2001",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=KkZtNRueYup9imjjifDEtQ%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=KkZtNRueYup9imjjifDEtQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "8c79557ef769205deaae6bf54ebeca3e3064b85cc5c2c5d33ab7ab6ce9c1e5df",
+            "bytes": 75013,
+            "verified_at": "2026-10-01T14:53:30.485611+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 880,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -48683,6 +58695,50 @@ window.CATASTRO_DATA = {
           "badge_border": "border-zinc-700",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=187016",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2001-06-28/7/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "8",
+          "fecha": "2001-06-19",
+          "titulo": "Estacionamientos Reservados para vehículos N° 8: Rectificase el art",
+          "materia": "Tránsito, Transporte y Espacio Público",
+          "materia_id": "transito_transporte",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23105/1/2001",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=6MaifoOWULx6klP%2BYtmzVg%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=6MaifoOWULx6klP%2BYtmzVg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "64310d705607a999c8c254beb4198f1f6a62eaf4ebfc26488ff9e7d1ba3372f2",
+            "bytes": 37424,
+            "verified_at": "2026-10-01T14:55:50.499679+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "7",
+          "fecha": "2001-06-05",
+          "titulo": "Sobre derechos municipales N° 7: Modificase la Ordenanza Nº 14 de 29 de Diciemkbre de 2000, que fijó el texto refundido y sistematizado de la Ordenanza Local sobre Derechos Municipales que rige para el año 2001, en el sentido de agregar el siguiente \r\nTítulo XIX, etc",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2001",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=drQ5VRtmS1C451szjw%2BO%2Fw%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=drQ5VRtmS1C451szjw%2BO%2Fw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "ea5d6ebace3cff59a24e3f88402f13dba6985f5e072ecb82ecd7055cd2b09b25",
+            "bytes": 60136,
+            "verified_at": "2026-10-01T14:54:19.530770+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 879,
@@ -48712,6 +58768,50 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/dto/municipalidad-de-providencia/2001-05-31/5/datos.json",
           "tipo_norma": "Ordenanza Municipal",
           "estado": "Vigente / LeyChile"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "6",
+          "fecha": "2001-05-15",
+          "titulo": "Cobro de derecho de aseo domiciliario N° 6: Fíjase el texto refundido de la Ordenanza sobre \" Condiciones necesarias para la fijacion de tarifas del servicio domiciliario por extraccion de basuras y exenciones total y parcial\"",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23083/1/2001",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=akz114YD%2B24%2BF7%2BZIajJxg%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=akz114YD%2B24%2BF7%2BZIajJxg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "431bef61aa8dd477c8909cce8f6cb9533a8b8cc282bfb0ee9cc1e0eca38a09b9",
+            "bytes": 102839,
+            "verified_at": "2026-10-01T14:54:00.635266+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "5",
+          "fecha": "2001-05-15",
+          "titulo": "Estacionamientos Reservados para vehículos N° 5: Fijase texto refundido Ordenanza sobre Estacionamientos Reservados para Vehículos",
+          "materia": "Tránsito, Transporte y Espacio Público",
+          "materia_id": "transito_transporte",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23105/1/2001",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=r5kYN6owjlYRLnnYaIDlbw%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=r5kYN6owjlYRLnnYaIDlbw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "133e43e7eb9b1cb7e826968cd6f5ee1488f793a9ff6d565c5b2bfd8774fd1f78",
+            "bytes": 61046,
+            "verified_at": "2026-10-01T14:55:50.978760+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 878,
@@ -48746,6 +58846,50 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2001-04-27/3/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "4",
+          "fecha": "2001-04-18",
+          "titulo": "Sobre derechos municipales N° 4: Modifícase la Ordenanza Nº14 de 29",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2001",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=3pjglJrDt54gBFYsPcjNog%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=3pjglJrDt54gBFYsPcjNog%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "f7df457372791081c70c2c1110abcfd3f8c29c72bf1ab7884f6f230da5400bc7",
+            "bytes": 60254,
+            "verified_at": "2026-10-01T14:54:20.032953+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "3",
+          "fecha": "2001-04-10",
+          "titulo": "Sobre derechos municipales N° 3: Rectifíquese la Ordenanza Local sobre Derechos Municipales 2001, cuyo texto refundido consta en Ordenanza Nº14 de 29 de Diciembre de 2000,  Título XIII \"Derechos Relativos a Servicios Prestados por la Biblioteca\", Artículo 30 letras F,G y H e  l y",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2001",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=G0%2FAUo7ZATvRHq%2BHqrdMkQ%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=G0%2FAUo7ZATvRHq%2BHqrdMkQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "a847231b7d88d9a2c8b77233200c42bba63bb8676a3fa2f785782446c7af1e05",
+            "bytes": 60488,
+            "verified_at": "2026-10-01T14:54:20.524276+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 876,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -48760,6 +58904,94 @@ window.CATASTRO_DATA = {
           "badge_border": "border-zinc-700",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=183041",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2001-03-21/2/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "2",
+          "fecha": "2001-03-12",
+          "titulo": "Sobre publicidad y propaganda en al Comuna de Providencia N° 2: Modifícase la Ordenanza Nº4 de 23",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23081/1/2001",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=oU7COTjkvU7h0uaYLQuU4g%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=oU7COTjkvU7h0uaYLQuU4g%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "e62baeab8d1f709fac3f5414e0ee64bee0b63675de8a4a7f851beb7cb2d766a6",
+            "bytes": 124112,
+            "verified_at": "2026-10-01T14:53:50.306873+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1",
+          "fecha": "2001-01-23",
+          "titulo": "Sobre derechos municipales N° 1: Modificación Ordenanza Nº14 de 29",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2001",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=6f37xrIqBHazMmoKtU%2BRqA%3D%3D",
+          "tipo_norma_clasif": "modificacion",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=6f37xrIqBHazMmoKtU%2BRqA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "9596b5cc55325f2cbc7b6ac3de19995e7a3f4b21f11dfe83cd7cc536cd442e13",
+            "bytes": 71420,
+            "verified_at": "2026-10-01T14:54:21.051787+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "14",
+          "fecha": "2000-12-29",
+          "titulo": "Sobre derchos municipales N° 14: Fíjase el siguiente texto refundido y sistematizado de la \"ORDENANZA LOCAL SOBRE DERECHOS MUNICIPALES\", que regirá en el año 2001",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2000",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=cDdvRmjMtkjZcs5T68pPpA%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=cDdvRmjMtkjZcs5T68pPpA%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "e07563fe0f0bc507fc248866f0bef4819ab8b17e5eb23ae2ef80d91142cd51ae",
+            "bytes": 741865,
+            "verified_at": "2026-10-01T14:54:12.987786+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "13",
+          "fecha": "2000-12-28",
+          "titulo": "Sobre derechos municipales N° 13: Modificase la ordenanza Nº9 del 23",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2000",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=l3AP9bd2V8Y%2B81%2Bn64iu4w%3D%3D",
+          "tipo_norma_clasif": "texto_refundido",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=l3AP9bd2V8Y%2B81%2Bn64iu4w%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "7733c982505d5075cb621dde349378b9e73ba6de66b61c7419428469f7b46d0a",
+            "bytes": 51875,
+            "verified_at": "2026-10-01T14:54:13.568325+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 875,
@@ -48794,6 +59026,50 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2000-12-22/11/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "12",
+          "fecha": "2000-12-18",
+          "titulo": "Ordenanza N° 12: Prorrogase hasta el 15 de abril de 2001, la suspension de la aplicacion del articulo Nº 7 de la ordenanza Nº3 del 14 de marzo de 2000, sobre \"INSTALACION DE LINEAS DISTRIBUIDORAS DE ENERGIA ELECTRICA Y DE TELECOMUNICACIONES EN LA COMUNA DE PROVIDENCIA\"",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23069/1/2000",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=UhjjjZoOqXxgEmxbiDd28A%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=UhjjjZoOqXxgEmxbiDd28A%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "4eedd942d806c5647c9c5b968c12af527466bff1d0fa3ddb715dc72b33303f80",
+            "bytes": 40825,
+            "verified_at": "2026-10-01T14:53:26.990020+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "11",
+          "fecha": "2000-12-12",
+          "titulo": "Sobre derechos municipales N° 11: Modifica la ordenanza Nº9 del 23",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2000",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=ZnkhJKvbUVdfK6Ab%2B36qNQ%3D%3D",
+          "tipo_norma_clasif": "modificacion",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=ZnkhJKvbUVdfK6Ab%2B36qNQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "b37c87eac49bf3fb75c72fb13478bf989d911173b54cb6f49b68ad1f7c71b1c2",
+            "bytes": 246016,
+            "verified_at": "2026-10-01T14:54:14.049585+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 873,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -48808,6 +59084,28 @@ window.CATASTRO_DATA = {
           "badge_border": "border-indigo-500/30",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=178092",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2000-11-22/10/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "10",
+          "fecha": "2000-11-15",
+          "titulo": "Cobro de derecho de aseo domiciliario N° 10: Aprueba la \"Ordenanza de cobro de Derecho de Aseo domiciliario para el año 2001\"",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23083/1/2000",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=0Gddwzw7EC991y3ScONKRw%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=0Gddwzw7EC991y3ScONKRw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "26b55394dd47c409eaebf90d69b1db4603d712f3b0b19f96cce73e0297b59bd9",
+            "bytes": 49918,
+            "verified_at": "2026-10-01T14:53:59.450068+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 872,
@@ -48840,6 +59138,50 @@ window.CATASTRO_DATA = {
           "badge_border": "border-zinc-700",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=174138",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2000-08-11/8/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "9",
+          "fecha": "2000-08-04",
+          "titulo": "Sobre publicidad y propaganda en la Comuna de Providencia N° 9: Modifícase la Ordenanza Nº 4 de 23",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23081/1/2000",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=H6BKX3dGEAXGT2rnIYP%2BTQ%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=H6BKX3dGEAXGT2rnIYP%2BTQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "c566968285ea4e804bb5f7221a5ca9451a108b5515ae8b686929dee599cbe3d0",
+            "bytes": 54785,
+            "verified_at": "2026-10-01T14:53:49.096700+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "8",
+          "fecha": "2000-08-01",
+          "titulo": "Sobre derechos municipal N° 8: Modificase la ordenanza Nº 9 de 23",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2000",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=lRLmFxzcL4J%2BJ76sSERhqg%3D%3D",
+          "tipo_norma_clasif": "modificacion",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=lRLmFxzcL4J%2BJ76sSERhqg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "2bc28c7450af06e126d9ef3f95824eaa69d1c51b0109fdaf789c844279dc8cd5",
+            "bytes": 57763,
+            "verified_at": "2026-10-01T14:54:14.521206+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 870,
@@ -48890,6 +59232,50 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2000-07-08/7/datos.json"
         },
         {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "7",
+          "fecha": "2000-06-23",
+          "titulo": "Ordenanza N° 7: Suspéndese hasta el 31 de diciembre de 2000, la aplicación del articulo 7º de la Ordenanza 3 de 14 de marzo 2000 sobre \"INSTALACIÓN DE LINEAS DISTRIBUIDORAS DE ENERGIA ELECTRICA Y DE TELECOMUNICACIONES EN LA COMUNA DE PROVIDENCIA\"",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23069/1/2000",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=K4ZWBLqpsLK52mOruj%2BFTg%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=K4ZWBLqpsLK52mOruj%2BFTg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "12272750f03f44d9f695e8625dc1c3aec0445ac442c96dffb5a431a20b6804fc",
+            "bytes": 101872,
+            "verified_at": "2026-10-01T14:53:27.533495+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "6",
+          "fecha": "2000-06-09",
+          "titulo": "Sobre derechos municipales N° 6: Modifícase la Ordenanza Nº9 de 23",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2000",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=qALLDqW0q4Z%2F4KqCs6gtrg%3D%3D",
+          "tipo_norma_clasif": "modificacion",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=qALLDqW0q4Z%2F4KqCs6gtrg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "373474cf6cf802a2e2ba83fb711e1e591e704ceb604ac28001fa22b4edfb97a2",
+            "bytes": 72183,
+            "verified_at": "2026-10-01T14:54:15.005991+00:00"
+          },
+          "rdf_url": null
+        },
+        {
           "id": 867,
           "fuente": "BCN",
           "fuente_label": "BCN LeyChile",
@@ -48904,6 +59290,50 @@ window.CATASTRO_DATA = {
           "badge_border": "border-sky-500/30",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=169639",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2000-05-31/4/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "4",
+          "fecha": "2000-05-23",
+          "titulo": "Sobre publicidad y propaganda  en la Comuna de Providencia N° 4: Apruébase la Ordenanza \"Sobre Publicidad y Propaganda en la Comuna de Providencia \"",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23081/1/2000",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=uGmeP7qJbv995ZpWXNEnQw%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=uGmeP7qJbv995ZpWXNEnQw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "e565904c187efa46606326c05d4361779244cfad5a55a6fad70021a948bfa8de",
+            "bytes": 392260,
+            "verified_at": "2026-10-01T14:53:49.652740+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "5",
+          "fecha": "2000-05-23",
+          "titulo": "Sobre derechos municipales N° 5: Modifícase la Ordenanza Nº9 de 23",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2000",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=gtKsPTcoAw0adp6mnUyE6w%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=gtKsPTcoAw0adp6mnUyE6w%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "8e140093cf6697eecdfe0aed0ee47c65a07c417bf459e02b3d1dc54f389d76a1",
+            "bytes": 72120,
+            "verified_at": "2026-10-01T14:54:15.469548+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 866,
@@ -48936,6 +59366,72 @@ window.CATASTRO_DATA = {
           "badge_border": "border-amber-500/30",
           "target_url": "https://www.bcn.cl/leychile/navegar?idNorma=162858",
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/2000-03-29/3/datos.json"
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "3",
+          "fecha": "2000-03-14",
+          "titulo": "Ordenanza N° 3: \"SOBRE INSTALACION DE LINEAS DlSTRlBUl DORAS DE ENERGIA ELECTRICA Y DE TELECOMUNICACIONES EN LA COMUNA DE\r\nPROVIDENCIA\"",
+          "materia": "Obras, Urbanismo y Espacio Público",
+          "materia_id": "urbanismo_obras",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23069/1/2000",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=uiY4dVuMNTQL3VtbDpVElg%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=uiY4dVuMNTQL3VtbDpVElg%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "ffd73855543cefceef0ddcaab5a53ab5bf58a0a95d9b36d78641c85a1dab7da9",
+            "bytes": 179259,
+            "verified_at": "2026-10-01T14:53:28.032918+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "2",
+          "fecha": "2000-03-06",
+          "titulo": "Sobre la actividad comercial, de alcoholes, industrial, profesional y de servicios N° 2: Fíjase el texto de la Ordenanza Comunal sobre la Actividad Comercial, de Alcoholes, Industrial, Profesional y de Servicios",
+          "materia": "Comercio, Alcoholes y Patentes",
+          "materia_id": "comercio_alcoholes",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23080/1/2000",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=uBF6g8gtRG2SgqqPf65uLQ%3D%3D",
+          "tipo_norma_clasif": "modificacion",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=uBF6g8gtRG2SgqqPf65uLQ%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "1aee01ebc2b218210730128b4226a602c0cacdc6fd7a38c929199b5b27c7a179",
+            "bytes": 500133,
+            "verified_at": "2026-10-01T14:53:43.121703+00:00"
+          },
+          "rdf_url": null
+        },
+        {
+          "cplt_code": "MU228",
+          "fuente": "Municipalidad",
+          "numero": "1",
+          "fecha": "2000-02-07",
+          "titulo": "Sobre derechos municipales N° 1: Rectifícase el Nº15  del artículo 15 de la Ordenanza Local sobre Derechos Municipales  para el año 2000, que lleva el Nº9  de 23",
+          "materia": "Derechos Municipales y Tarifas",
+          "materia_id": "derechos_tarifas",
+          "source_listing_url": "https://transparencia.providencia.cl/Carpeta/VerTabla/23085/1/2000",
+          "target_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=Yr8rp%2FXpgrBI4UwpY9%2BGYw%3D%3D",
+          "tipo_norma_clasif": "ordenanza_base",
+          "verification": {
+            "status": "verified",
+            "http_status": 200,
+            "resolved_url": "https://firma.providencia.cl/dsign/cgi/sdoc.exe/sdoc/document?id=Yr8rp%2FXpgrBI4UwpY9%2BGYw%3D%3D",
+            "content_type": "application/pdf",
+            "sha256": "c43196158e61e4f9a95fc18bdfd08cc8b3685130ac9430d547958caa4e49ff05",
+            "bytes": 42538,
+            "verified_at": "2026-10-01T14:54:15.995925+00:00"
+          },
+          "rdf_url": null
         },
         {
           "id": 864,
@@ -50084,7 +60580,7 @@ window.CATASTRO_DATA = {
           "rdf_url": "https://datos.bcn.cl/recurso/cl/orz/municipalidad-de-providencia/1985-01-07/9/datos.json"
         }
       ],
-      "municipal_count": 2
+      "municipal_count": 479
     },
     {
       "region_id": "13",
@@ -120157,7 +130653,7 @@ window.CATASTRO_DATA = {
       "badge_bg": "bg-indigo-500/10",
       "badge_text": "text-indigo-400",
       "badge_border": "border-indigo-500/30",
-      "count": 2858
+      "count": 3102
     },
     {
       "id": "comercio_alcoholes",
@@ -120167,7 +130663,7 @@ window.CATASTRO_DATA = {
       "badge_bg": "bg-sky-500/10",
       "badge_text": "text-sky-400",
       "badge_border": "border-sky-500/30",
-      "count": 274
+      "count": 329
     },
     {
       "id": "aseo_medioambiente",
@@ -120177,7 +130673,7 @@ window.CATASTRO_DATA = {
       "badge_bg": "bg-emerald-500/10",
       "badge_text": "text-emerald-400",
       "badge_border": "border-emerald-500/30",
-      "count": 227
+      "count": 244
     },
     {
       "id": "transito_transporte",
@@ -120247,7 +130743,7 @@ window.CATASTRO_DATA = {
       "badge_bg": "bg-zinc-800",
       "badge_text": "text-zinc-400",
       "badge_border": "border-zinc-700",
-      "count": 2655
+      "count": 2676
     }
   ],
   "public_scope": {
@@ -120261,7 +130757,7 @@ window.CATASTRO_DATA = {
       "BCN / LeyChile"
     ],
     "fuentes_detalle": {
-      "Municipalidad": 1545,
+      "Municipalidad": 2022,
       "BCN": 5881,
       "Diario Oficial / BCN": 31,
       "Diario Oficial": 4,
@@ -120276,8 +130772,8 @@ window.CATASTRO_DATA = {
       "PLADECO_PLAN"
     ],
     "quarantined_records": 0,
-    "verified_municipal_records": 1581,
-    "verified_complementary_records": 1581,
+    "verified_municipal_records": 2058,
+    "verified_complementary_records": 2058,
     "cobertura_historica": "346/346 comunas (100%)",
     "cobertura_contemporanea_periodo_2021_2026": "217/346 comunas (62.7%)",
     "cohorte_rastreo_activo": "243 comunas bajo monitoreo y rescate directo",
