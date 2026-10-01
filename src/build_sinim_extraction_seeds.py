@@ -13,15 +13,29 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import re
 from collections import Counter
 from pathlib import Path
 from typing import Any
-
-from national_municipal_discovery import normalized_url
+from urllib.parse import urlparse, urlunparse
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_INPUT = REPO_ROOT / "data" / "sinim_seed_enrichment.json"
 DEFAULT_OUTPUT = REPO_ROOT / "data" / "sinim_validated_extraction_seeds.json"
+
+
+def normalized_url(url: str) -> str:
+    """Normalize URLs without importing the network-enabled discovery stack."""
+    raw = (url or "").strip()
+    if not raw:
+        return ""
+    parsed = urlparse(raw)
+    if not parsed.scheme:
+        parsed = urlparse("https://" + raw)
+    path = re.sub(r"/{2,}", "/", parsed.path or "/")
+    return urlunparse(
+        ((parsed.scheme or "https").lower(), parsed.netloc.lower(), path, "", parsed.query, "")
+    )
 
 
 def load_payload(path: Path) -> tuple[dict[str, Any], str]:
@@ -70,7 +84,9 @@ def build_seed_record(record: dict[str, Any]) -> dict[str, Any] | None:
         raise AssertionError(
             f"Inconsistent verified_candidate_found state for {record.get('cplt_code')}"
         )
-    seed_site = normalized_url(str(discovery.get("seed_url") or (record.get("ficha") or {}).get("web") or ""))
+    seed_site = normalized_url(
+        str(discovery.get("seed_url") or (record.get("ficha") or {}).get("web") or "")
+    )
     if not seed_site:
         raise AssertionError(f"Missing verified seed site for {record.get('cplt_code')}")
     return {
@@ -100,7 +116,11 @@ def main() -> int:
     if len(seed_codes) != len(set(seed_codes)):
         raise AssertionError("Duplicate municipalities in extraction seed set")
 
-    excluded = Counter(record.get("state") or "unknown" for record in records if record.get("state") != "verified_candidate_found")
+    excluded = Counter(
+        record.get("state") or "unknown"
+        for record in records
+        if record.get("state") != "verified_candidate_found"
+    )
     source_count = sum(len(seed["sources"]) for seed in seeds)
     output = {
         "task_id": "MW-P090-0013",
