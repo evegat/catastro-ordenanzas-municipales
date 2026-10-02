@@ -9,12 +9,11 @@
     "lat": -18.4783,
     "lon": -70.3126,
     "topics": {
-      "general": 2,
+      "organizacion_participacion": 16,
       "derechos_tarifas": 15,
-      "normativa_general": 16,
-      "comercio_patentes": 3,
-      "tenencia_mascotas": 1,
-      "comercio_alcoholes": 1,
+      "obras_espacio_publico": 2,
+      "comercio_publicidad": 4,
+      "medio_ambiente": 1,
       "transito_transporte": 1
     }
   },
@@ -29,7 +28,7 @@
     "lon": -69.8647,
     "topics": {
       "derechos_tarifas": 4,
-      "normativa_general": 4
+      "organizacion_participacion": 4
     }
   },
   {
@@ -42,8 +41,7 @@
     "lat": -18.1969,
     "lon": -69.5594,
     "topics": {
-      "participacion_ciudadana": 1,
-      "normativa_general": 1,
+      "organizacion_participacion": 2,
       "derechos_tarifas": 2
     }
   },
@@ -58,8 +56,8 @@
     "lon": -69.6053,
     "topics": {
       "derechos_tarifas": 2,
-      "general": 1,
-      "comercio_alcoholes": 1
+      "organizacion_participacion": 1,
+      "comercio_publicidad": 1
     }
   },
   {
@@ -72,19 +70,14 @@
     "lat": -20.2133,
     "lon": -70.1503,
     "topics": {
-      "general": 35,
+      "organizacion_participacion": 42,
       "derechos_tarifas": 16,
-      "tenencia_mascotas": 1,
-      "alcoholes_comercio": 1,
+      "medio_ambiente": 2,
+      "comercio_publicidad": 13,
       "transito_transporte": 8,
-      "social_salud_deporte": 2,
-      "administracion_interna": 4,
-      "comercio_alcoholes": 12,
-      "mascotas_animales": 1,
-      "seguridad_convivencia": 1,
-      "aseo_medioambiente": 2,
-      "normativa_general": 1,
-      "urbanismo_obras": 1
+      "seguridad_prevencion": 1,
+      "aseo_residuos": 2,
+      "obras_espacio_publico": 1
     }
   },
   {
@@ -97,16 +90,14 @@
     "lat": -20.2744,
     "lon": -70.1017,
     "topics": {
-      "general": 10,
+      "organizacion_participacion": 13,
       "derechos_tarifas": 3,
       "medio_ambiente": 1,
       "transito_transporte": 1,
-      "normativa_general": 3,
-      "comercio_alcoholes": 4,
-      "aseo_residuos": 2,
-      "convivencia_seguridad": 1,
-      "urbanismo_obras": 2,
-      "aseo_medioambiente": 2
+      "comercio_publicidad": 4,
+      "aseo_residuos": 4,
+      "convivencia_ruidos": 1,
+      "obras_espacio_publico": 2
     }
   },
   {
@@ -121,7 +112,7 @@
     "topics": {
       "derechos_tarifas": 3,
       "transito_transporte": 1,
-      "general": 3
+      "organizacion_participacion": 3
     }
   },
   {
@@ -147,9 +138,9 @@
     "lat": -19.2778,
     "lon": -68.6389,
     "topics": {
-      "aseo_medioambiente": 2,
-      "urbanismo_obras": 1,
-      "normativa_general": 1
+      "aseo_residuos": 2,
+      "obras_espacio_publico": 1,
+      "transito_transporte": 1
     }
   },
   {
@@ -162,26 +153,25 @@
     "lat": -19.9961,
     "lon": -69.7719,
     "topics": {
-      "general": 5,
-      "tenencia_mascotas": 1,
-      "derechos_tarifas": 2,
+      "organizacion_participacion": 5,
+      "medio_ambiente": 1,
+      "derechos_tarifas": 3,
       "transito_transporte": 1,
-      "seguridad_convivencia": 1,
-      "normativa_general": 1
+      "seguridad_prevencion": 1
     }
   },
   {
     "comuna": "Pica",
     "region": "Tarapacá",
-    "total": 8,
-    "bcn": 8,
+    "total": 5,
+    "bcn": 5,
     "municipal": 0,
     "status": "Cargado BCN",
     "lat": -20.4897,
     "lon": -69.3297,
     "topics": {
-      "general": 2,
-      "derechos_tarifas": 6
+      "organizacion_participacion": 1,
+      "derechos_tarifas": 4
     }
   },
   {
@@ -194,34 +184,30 @@
     "lat": -23.6509,
     "lon": -70.3975,
     "topics": {
-      "general": 17,
-      "aseo_medioambiente": 4,
-      "social_salud_deporte": 2,
-      "seguridad_convivencia": 1,
-      "mascotas_animales": 1,
-      "urbanismo_obras": 7,
-      "comercio_alcoholes": 11,
+      "organizacion_participacion": 20,
+      "aseo_residuos": 4,
+      "seguridad_prevencion": 2,
+      "medio_ambiente": 1,
+      "obras_espacio_publico": 7,
+      "comercio_publicidad": 11,
       "derechos_tarifas": 9,
-      "normativa_general": 2,
       "transito_transporte": 1
     }
   },
   {
     "comuna": "Mejillones",
     "region": "Antofagasta",
-    "total": 16,
+    "total": 15,
     "bcn": 14,
-    "municipal": 2,
+    "municipal": 1,
     "status": "BCN + Municipalidad verificada",
     "lat": -23.1,
     "lon": -70.45,
     "topics": {
-      "convivencia_seguridad": 1,
-      "normativa_general": 6,
+      "organizacion_participacion": 5,
       "derechos_tarifas": 4,
-      "urbanismo_obras": 2,
-      "tenencia_mascotas": 2,
-      "medio_ambiente": 1
+      "obras_espacio_publico": 3,
+      "medio_ambiente": 3
     }
   },
   {
@@ -234,10 +220,9 @@
     "lat": -22.8942,
     "lon": -69.3178,
     "topics": {
-      "normativa_general": 7,
+      "organizacion_participacion": 8,
       "derechos_tarifas": 3,
-      "comercio_patentes": 1,
-      "social_salud_deporte": 1
+      "comercio_publicidad": 1
     }
   },
   {
@@ -250,9 +235,9 @@
     "lat": -25.4056,
     "lon": -70.4833,
     "topics": {
-      "general": 1,
-      "convivencia_seguridad": 1,
-      "comercio_alcoholes": 2,
+      "organizacion_participacion": 1,
+      "convivencia_ruidos": 1,
+      "comercio_publicidad": 2,
       "derechos_tarifas": 3
     }
   },
@@ -266,15 +251,13 @@
     "lat": -22.4544,
     "lon": -68.9294,
     "topics": {
-      "comercio_alcoholes": 4,
+      "comercio_publicidad": 4,
       "transito_transporte": 2,
-      "administracion_interna": 1,
-      "mascotas_animales": 1,
+      "organizacion_participacion": 16,
+      "medio_ambiente": 1,
       "derechos_tarifas": 17,
-      "urbanismo_obras": 4,
-      "general": 14,
-      "aseo_residuos": 1,
-      "normativa_general": 1
+      "obras_espacio_publico": 4,
+      "aseo_residuos": 1
     }
   },
   {
@@ -287,13 +270,10 @@
     "lat": -21.2228,
     "lon": -68.2536,
     "topics": {
-      "general": 9,
-      "alcoholes_comercio": 1,
-      "aseo_medioambiente": 1,
-      "derechos_tarifas": 2,
-      "normativa_general": 6,
-      "comercio_patentes": 1,
-      "aseo_residuos": 1
+      "organizacion_participacion": 15,
+      "comercio_publicidad": 2,
+      "aseo_residuos": 2,
+      "derechos_tarifas": 2
     }
   },
   {
@@ -307,12 +287,11 @@
     "lon": -68.1997,
     "topics": {
       "derechos_tarifas": 16,
-      "mascotas_animales": 1,
-      "comercio_alcoholes": 8,
+      "medio_ambiente": 1,
+      "comercio_publicidad": 8,
       "transito_transporte": 3,
-      "aseo_medioambiente": 1,
-      "general": 7,
-      "social_salud_deporte": 1
+      "aseo_residuos": 1,
+      "organizacion_participacion": 8
     }
   },
   {
@@ -325,13 +304,11 @@
     "lat": -22.0922,
     "lon": -70.1978,
     "topics": {
-      "normativa_general": 2,
-      "general": 2,
+      "organizacion_participacion": 4,
       "derechos_tarifas": 7,
-      "aseo_medioambiente": 1,
-      "comercio_alcoholes": 1,
-      "comercio_patentes": 1,
-      "convivencia_seguridad": 1
+      "aseo_residuos": 1,
+      "comercio_publicidad": 2,
+      "convivencia_ruidos": 1
     }
   },
   {
@@ -344,13 +321,11 @@
     "lat": -22.3444,
     "lon": -69.6611,
     "topics": {
-      "social_salud_deporte": 2,
-      "aseo_medioambiente": 1,
-      "normativa_general": 3,
-      "convivencia_seguridad": 1,
-      "general": 4,
-      "alcoholes_comercio": 1,
-      "derechos_tarifas": 4
+      "organizacion_participacion": 7,
+      "aseo_residuos": 1,
+      "convivencia_ruidos": 1,
+      "derechos_tarifas": 6,
+      "comercio_publicidad": 1
     }
   },
   {
@@ -363,11 +338,10 @@
     "lat": -27.3667,
     "lon": -70.3333,
     "topics": {
-      "urbanismo_obras": 3,
+      "obras_espacio_publico": 3,
       "derechos_tarifas": 9,
-      "comercio_patentes": 1,
-      "normativa_general": 3,
-      "general": 1
+      "comercio_publicidad": 1,
+      "organizacion_participacion": 4
     }
   },
   {
@@ -380,12 +354,12 @@
     "lat": -27.0667,
     "lon": -70.8167,
     "topics": {
-      "urbanismo_obras": 3,
-      "normativa_general": 9,
+      "obras_espacio_publico": 4,
+      "organizacion_participacion": 7,
+      "medio_ambiente": 1,
       "derechos_tarifas": 5,
-      "aseo_medioambiente": 1,
-      "comercio_alcoholes": 1,
-      "aseo_residuos": 1
+      "aseo_residuos": 2,
+      "comercio_publicidad": 1
     }
   },
   {
@@ -398,9 +372,9 @@
     "lat": -27.4833,
     "lon": -70.2667,
     "topics": {
-      "convivencia_seguridad": 1,
-      "tenencia_mascotas": 1,
-      "normativa_general": 1,
+      "convivencia_ruidos": 1,
+      "medio_ambiente": 1,
+      "organizacion_participacion": 1,
       "derechos_tarifas": 3,
       "aseo_residuos": 1
     }
@@ -415,10 +389,9 @@
     "lat": -26.3478,
     "lon": -70.6222,
     "topics": {
-      "comercio_patentes": 1,
-      "general": 1,
-      "derechos_tarifas": 3,
-      "normativa_general": 1
+      "comercio_publicidad": 1,
+      "organizacion_participacion": 2,
+      "derechos_tarifas": 3
     }
   },
   {
@@ -431,11 +404,11 @@
     "lat": -26.3922,
     "lon": -70.0467,
     "topics": {
-      "convivencia_seguridad": 1,
-      "comercio_patentes": 4,
+      "convivencia_ruidos": 1,
+      "comercio_publicidad": 4,
       "derechos_tarifas": 6,
       "aseo_residuos": 1,
-      "normativa_general": 2
+      "organizacion_participacion": 2
     }
   },
   {
@@ -448,33 +421,29 @@
     "lat": -28.5756,
     "lon": -70.7581,
     "topics": {
-      "urbanismo_obras": 2,
+      "obras_espacio_publico": 2,
       "derechos_tarifas": 24,
-      "normativa_general": 16,
-      "medio_ambiente": 2,
-      "comercio_patentes": 3,
-      "administracion_interna": 1,
-      "general": 3,
-      "aseo_medioambiente": 1
+      "organizacion_participacion": 19,
+      "medio_ambiente": 3,
+      "comercio_publicidad": 3,
+      "aseo_residuos": 1
     }
   },
   {
     "comuna": "Alto del Carmen",
     "region": "Atacama",
-    "total": 13,
-    "bcn": 7,
+    "total": 12,
+    "bcn": 6,
     "municipal": 6,
     "status": "BCN + Municipalidad verificada",
     "lat": -28.7583,
     "lon": -70.4861,
     "topics": {
-      "general": 5,
+      "organizacion_participacion": 6,
       "transito_transporte": 1,
-      "tenencia_mascotas": 1,
-      "normativa_general": 1,
+      "medio_ambiente": 1,
       "derechos_tarifas": 3,
-      "comercio_alcoholes": 1,
-      "aseo_medioambiente": 1
+      "aseo_residuos": 1
     }
   },
   {
@@ -488,7 +457,7 @@
     "lon": -71.0778,
     "topics": {
       "derechos_tarifas": 3,
-      "urbanismo_obras": 2
+      "obras_espacio_publico": 2
     }
   },
   {
@@ -501,13 +470,11 @@
     "lat": -28.4681,
     "lon": -71.2197,
     "topics": {
-      "general": 2,
-      "tenencia_mascotas": 2,
+      "organizacion_participacion": 4,
+      "medio_ambiente": 3,
       "aseo_residuos": 5,
-      "medio_ambiente": 1,
       "derechos_tarifas": 3,
-      "comercio_patentes": 1,
-      "normativa_general": 2
+      "comercio_publicidad": 1
     }
   },
   {
@@ -520,13 +487,12 @@
     "lat": -29.9027,
     "lon": -71.2519,
     "topics": {
-      "urbanismo_obras": 5,
-      "normativa_general": 33,
+      "obras_espacio_publico": 7,
+      "organizacion_participacion": 27,
       "derechos_tarifas": 17,
-      "comercio_patentes": 10,
-      "convivencia_seguridad": 2,
-      "tenencia_mascotas": 1,
-      "medio_ambiente": 2,
+      "comercio_publicidad": 14,
+      "convivencia_ruidos": 2,
+      "medio_ambiente": 3,
       "transito_transporte": 2
     }
   },
@@ -540,9 +506,9 @@
     "lat": -29.9533,
     "lon": -71.3436,
     "topics": {
-      "urbanismo_obras": 1,
-      "normativa_general": 3,
-      "comercio_patentes": 4,
+      "obras_espacio_publico": 2,
+      "organizacion_participacion": 2,
+      "comercio_publicidad": 4,
       "medio_ambiente": 1,
       "transito_transporte": 3,
       "derechos_tarifas": 3
@@ -558,10 +524,10 @@
     "lat": -30.2319,
     "lon": -71.0847,
     "topics": {
-      "convivencia_seguridad": 1,
-      "normativa_general": 2,
+      "convivencia_ruidos": 1,
+      "organizacion_participacion": 2,
       "transito_transporte": 1,
-      "social_salud_deporte": 1,
+      "obras_espacio_publico": 1,
       "derechos_tarifas": 1
     }
   },
@@ -575,9 +541,9 @@
     "lat": -29.5103,
     "lon": -71.2008,
     "topics": {
-      "aseo_medioambiente": 1,
+      "aseo_residuos": 1,
       "derechos_tarifas": 2,
-      "general": 4
+      "organizacion_participacion": 4
     }
   },
   {
@@ -591,8 +557,7 @@
     "lon": -70.5186,
     "topics": {
       "derechos_tarifas": 1,
-      "normativa_general": 1,
-      "organizacion_interna": 1
+      "organizacion_participacion": 2
     }
   },
   {
@@ -605,11 +570,9 @@
     "lat": -30.0319,
     "lon": -70.7081,
     "topics": {
-      "social_salud_deporte": 1,
-      "normativa_general": 11,
-      "convivencia_seguridad": 1,
-      "comercio_patentes": 1,
-      "comercio_alcoholes": 1
+      "organizacion_participacion": 12,
+      "convivencia_ruidos": 1,
+      "comercio_publicidad": 2
     }
   },
   {
@@ -622,12 +585,10 @@
     "lat": -31.6333,
     "lon": -71.1667,
     "topics": {
-      "general": 2,
-      "alcoholes_comercio": 1,
-      "normativa_general": 5,
-      "tenencia_mascotas": 1,
+      "organizacion_participacion": 7,
+      "comercio_publicidad": 2,
+      "medio_ambiente": 1,
       "derechos_tarifas": 14,
-      "comercio_patentes": 1,
       "transito_transporte": 1
     }
   },
@@ -642,10 +603,10 @@
     "lon": -71.4583,
     "topics": {
       "transito_transporte": 3,
-      "tenencia_mascotas": 1,
-      "derechos_tarifas": 2,
-      "comercio_patentes": 1,
-      "normativa_general": 2
+      "medio_ambiente": 1,
+      "derechos_tarifas": 3,
+      "comercio_publicidad": 1,
+      "organizacion_participacion": 1
     }
   },
   {
@@ -658,9 +619,9 @@
     "lat": -31.9139,
     "lon": -71.5111,
     "topics": {
-      "rentas_patentes": 1,
+      "comercio_publicidad": 1,
       "derechos_tarifas": 3,
-      "normativa_general": 5,
+      "organizacion_participacion": 5,
       "transito_transporte": 2
     }
   },
@@ -674,10 +635,9 @@
     "lat": -31.7789,
     "lon": -70.9639,
     "topics": {
-      "normativa_general": 6,
+      "organizacion_participacion": 10,
       "transito_transporte": 2,
-      "general": 4,
-      "aseo_medioambiente": 3
+      "aseo_residuos": 3
     }
   },
   {
@@ -690,15 +650,14 @@
     "lat": -30.5983,
     "lon": -71.2003,
     "topics": {
-      "seguridad_convivencia": 1,
+      "seguridad_prevencion": 1,
       "derechos_tarifas": 23,
-      "normativa_general": 15,
-      "tenencia_mascotas": 2,
-      "comercio_patentes": 3,
+      "organizacion_participacion": 12,
+      "medio_ambiente": 3,
+      "comercio_publicidad": 5,
       "transito_transporte": 11,
-      "aseo_residuos": 3,
-      "convivencia_seguridad": 1,
-      "aseo_medioambiente": 1
+      "aseo_residuos": 4,
+      "convivencia_ruidos": 1
     }
   },
   {
@@ -711,7 +670,7 @@
     "lat": -31.1803,
     "lon": -71.0031,
     "topics": {
-      "normativa_general": 3,
+      "organizacion_participacion": 3,
       "derechos_tarifas": 4,
       "transito_transporte": 1
     }
@@ -726,11 +685,10 @@
     "lat": -30.6958,
     "lon": -70.9572,
     "topics": {
-      "comercio_alcoholes": 4,
-      "social_salud_deporte": 2,
-      "normativa_general": 2,
+      "comercio_publicidad": 4,
+      "organizacion_participacion": 4,
       "derechos_tarifas": 4,
-      "aseo_medioambiente": 1
+      "aseo_residuos": 1
     }
   },
   {
@@ -744,8 +702,8 @@
     "lon": -71.2667,
     "topics": {
       "medio_ambiente": 1,
-      "aseo_medioambiente": 1,
-      "social_salud_deporte": 1,
+      "aseo_residuos": 1,
+      "organizacion_participacion": 1,
       "derechos_tarifas": 1
     }
   },
@@ -759,10 +717,9 @@
     "lat": -30.2764,
     "lon": -70.6978,
     "topics": {
-      "general": 11,
+      "organizacion_participacion": 13,
       "derechos_tarifas": 11,
-      "normativa_general": 2,
-      "aseo_medioambiente": 1
+      "aseo_residuos": 1
     }
   },
   {
@@ -775,14 +732,12 @@
     "lat": -33.0472,
     "lon": -71.6128,
     "topics": {
-      "general": 1,
+      "organizacion_participacion": 3,
       "transito_transporte": 1,
-      "alcoholes_comercio": 1,
+      "comercio_publicidad": 3,
       "aseo_residuos": 1,
-      "derechos_tarifas": 19,
-      "normativa_general": 4,
-      "comercio_patentes": 1,
-      "urbanismo_obras": 1
+      "derechos_tarifas": 20,
+      "obras_espacio_publico": 1
     }
   },
   {
@@ -797,7 +752,7 @@
     "topics": {
       "derechos_tarifas": 3,
       "medio_ambiente": 1,
-      "general": 2
+      "organizacion_participacion": 2
     }
   },
   {
@@ -810,13 +765,11 @@
     "lat": -32.9167,
     "lon": -71.5167,
     "topics": {
-      "general": 2,
-      "tenencia_mascotas": 2,
-      "urbanismo_obras": 2,
-      "normativa_general": 1,
-      "comercio_patentes": 1,
-      "alcoholes_comercio": 1,
-      "aseo_medioambiente": 2
+      "organizacion_participacion": 2,
+      "medio_ambiente": 2,
+      "obras_espacio_publico": 3,
+      "comercio_publicidad": 2,
+      "aseo_residuos": 2
     }
   },
   {
@@ -829,8 +782,7 @@
     "lat": -33.6361,
     "lon": -78.8319,
     "topics": {
-      "normativa_general": 2,
-      "general": 1,
+      "organizacion_participacion": 3,
       "derechos_tarifas": 1
     }
   },
@@ -844,12 +796,12 @@
     "lat": -32.7167,
     "lon": -71.4167,
     "topics": {
-      "aseo_medioambiente": 16,
-      "comercio_patentes": 1,
-      "urbanismo_obras": 1,
+      "aseo_residuos": 16,
+      "comercio_publicidad": 1,
+      "obras_espacio_publico": 1,
       "medio_ambiente": 1,
       "derechos_tarifas": 3,
-      "general": 1
+      "organizacion_participacion": 1
     }
   },
   {
@@ -862,13 +814,11 @@
     "lat": -32.7833,
     "lon": -71.5333,
     "topics": {
-      "normativa_general": 8,
-      "urbanismo_obras": 1,
+      "organizacion_participacion": 9,
+      "obras_espacio_publico": 1,
       "derechos_tarifas": 2,
-      "administracion_interna": 1,
-      "comercio_alcoholes": 1,
-      "comercio_patentes": 2,
-      "convivencia_seguridad": 1
+      "comercio_publicidad": 3,
+      "convivencia_ruidos": 1
     }
   },
   {
@@ -881,16 +831,13 @@
     "lat": -33.0244,
     "lon": -71.5519,
     "topics": {
-      "urbanismo_obras": 6,
+      "obras_espacio_publico": 6,
       "derechos_tarifas": 16,
-      "comercio_patentes": 4,
-      "normativa_general": 9,
+      "comercio_publicidad": 11,
+      "organizacion_participacion": 9,
       "transito_transporte": 2,
-      "aseo_residuos": 2,
-      "aseo_medioambiente": 2,
-      "alcoholes_comercio": 6,
-      "general": 1,
-      "tenencia_mascotas": 1
+      "aseo_residuos": 4,
+      "medio_ambiente": 1
     }
   },
   {
@@ -903,13 +850,12 @@
     "lat": -27.1536,
     "lon": -109.4311,
     "topics": {
-      "normativa_general": 6,
-      "tenencia_mascotas": 1,
-      "comercio_patentes": 3,
+      "organizacion_participacion": 5,
+      "medio_ambiente": 2,
+      "comercio_publicidad": 4,
       "transito_transporte": 1,
       "aseo_residuos": 1,
-      "derechos_tarifas": 1,
-      "medio_ambiente": 1
+      "derechos_tarifas": 1
     }
   },
   {
@@ -923,11 +869,10 @@
     "lon": -70.5983,
     "topics": {
       "derechos_tarifas": 13,
-      "normativa_general": 14,
-      "tenencia_mascotas": 1,
-      "urbanismo_obras": 1,
-      "comercio_alcoholes": 4,
-      "general": 4,
+      "organizacion_participacion": 18,
+      "medio_ambiente": 1,
+      "obras_espacio_publico": 1,
+      "comercio_publicidad": 4,
       "transito_transporte": 5
     }
   },
@@ -941,10 +886,10 @@
     "lat": -32.8639,
     "lon": -70.6278,
     "topics": {
-      "urbanismo_obras": 1,
-      "tenencia_mascotas": 1,
+      "obras_espacio_publico": 1,
+      "medio_ambiente": 1,
       "derechos_tarifas": 5,
-      "normativa_general": 2
+      "organizacion_participacion": 2
     }
   },
   {
@@ -957,9 +902,9 @@
     "lat": -32.8667,
     "lon": -70.7,
     "topics": {
-      "tenencia_mascotas": 1,
+      "medio_ambiente": 1,
       "derechos_tarifas": 5,
-      "normativa_general": 1
+      "organizacion_participacion": 1
     }
   },
   {
@@ -972,8 +917,8 @@
     "lat": -32.8,
     "lon": -70.5833,
     "topics": {
-      "urbanismo_obras": 1,
-      "normativa_general": 3,
+      "obras_espacio_publico": 1,
+      "organizacion_participacion": 3,
       "derechos_tarifas": 6,
       "aseo_residuos": 1
     }
@@ -988,8 +933,9 @@
     "lat": -32.45,
     "lon": -71.2333,
     "topics": {
-      "convivencia_seguridad": 1,
-      "normativa_general": 3,
+      "convivencia_ruidos": 1,
+      "organizacion_participacion": 2,
+      "obras_espacio_publico": 1,
       "derechos_tarifas": 6
     }
   },
@@ -1003,15 +949,13 @@
     "lat": -32.4278,
     "lon": -71.0667,
     "topics": {
-      "general": 11,
+      "organizacion_participacion": 12,
       "derechos_tarifas": 6,
       "transito_transporte": 5,
-      "alcoholes_comercio": 2,
-      "seguridad_convivencia": 1,
-      "tenencia_mascotas": 2,
-      "aseo_medioambiente": 1,
-      "normativa_general": 1,
-      "comercio_patentes": 1
+      "comercio_publicidad": 3,
+      "seguridad_prevencion": 1,
+      "medio_ambiente": 2,
+      "aseo_residuos": 1
     }
   },
   {
@@ -1024,10 +968,11 @@
     "lat": -32.5083,
     "lon": -71.45,
     "topics": {
-      "comercio_alcoholes": 1,
-      "normativa_general": 2,
+      "comercio_publicidad": 1,
+      "obras_espacio_publico": 1,
       "aseo_residuos": 2,
-      "derechos_tarifas": 3
+      "derechos_tarifas": 3,
+      "organizacion_participacion": 1
     }
   },
   {
@@ -1040,10 +985,9 @@
     "lat": -32.2528,
     "lon": -70.9317,
     "topics": {
-      "general": 1,
+      "organizacion_participacion": 3,
       "derechos_tarifas": 11,
-      "comercio_patentes": 3,
-      "normativa_general": 2,
+      "comercio_publicidad": 3,
       "medio_ambiente": 1
     }
   },
@@ -1057,60 +1001,54 @@
     "lat": -32.5528,
     "lon": -71.4583,
     "topics": {
-      "normativa_general": 17,
-      "derechos_tarifas": 12,
-      "comercio_patentes": 3,
-      "aseo_medioambiente": 1,
-      "medio_ambiente": 1,
-      "convivencia_seguridad": 1,
-      "aseo_residuos": 1,
-      "general": 1
+      "organizacion_participacion": 10,
+      "seguridad_prevencion": 1,
+      "derechos_tarifas": 14,
+      "comercio_publicidad": 6,
+      "transito_transporte": 1,
+      "aseo_residuos": 2,
+      "medio_ambiente": 2,
+      "convivencia_ruidos": 1
     }
   },
   {
     "comuna": "Quillota",
     "region": "Valparaíso",
-    "total": 52,
-    "bcn": 37,
+    "total": 43,
+    "bcn": 28,
     "municipal": 15,
     "status": "BCN + Municipalidad verificada",
     "lat": -32.8833,
     "lon": -71.25,
     "topics": {
-      "general": 9,
-      "urbanismo_obras": 3,
-      "tenencia_mascotas": 1,
-      "normativa_general": 5,
-      "social_salud_deporte": 1,
-      "mascotas_animales": 1,
-      "comercio_patentes": 2,
-      "derechos_tarifas": 16,
+      "organizacion_participacion": 12,
+      "medio_ambiente": 1,
+      "obras_espacio_publico": 2,
+      "comercio_publicidad": 2,
+      "derechos_tarifas": 14,
       "transito_transporte": 7,
-      "comercio_alcoholes": 2,
-      "aseo_residuos": 1,
-      "convivencia_seguridad": 1,
-      "aseo_medioambiente": 3
+      "aseo_residuos": 4,
+      "convivencia_ruidos": 1
     }
   },
   {
     "comuna": "Calera",
     "region": "Valparaíso",
-    "total": 36,
-    "bcn": 33,
+    "total": 33,
+    "bcn": 30,
     "municipal": 3,
     "status": "BCN + Municipalidad verificada",
     "lat": -32.7889,
     "lon": -71.2167,
     "topics": {
-      "comercio_alcoholes": 3,
-      "transito_espacio_publico": 1,
-      "normativa_general": 7,
+      "comercio_publicidad": 5,
+      "transito_transporte": 6,
+      "organizacion_participacion": 5,
       "aseo_residuos": 2,
-      "comercio_patentes": 2,
-      "derechos_tarifas": 14,
-      "convivencia_seguridad": 1,
-      "urbanismo_obras": 1,
-      "transito_transporte": 5
+      "derechos_tarifas": 11,
+      "convivencia_ruidos": 1,
+      "medio_ambiente": 1,
+      "obras_espacio_publico": 2
     }
   },
   {
@@ -1123,12 +1061,11 @@
     "lat": -32.8,
     "lon": -71.15,
     "topics": {
-      "general": 7,
+      "organizacion_participacion": 7,
       "derechos_tarifas": 5,
       "medio_ambiente": 1,
-      "comercio_patentes": 1,
-      "alcoholes_comercio": 2,
-      "aseo_medioambiente": 1
+      "comercio_publicidad": 3,
+      "aseo_residuos": 1
     }
   },
   {
@@ -1141,14 +1078,13 @@
     "lat": -32.8278,
     "lon": -71.2278,
     "topics": {
-      "general": 7,
-      "aseo_medioambiente": 1,
-      "derechos_tarifas": 13,
-      "normativa_general": 8,
+      "derechos_tarifas": 14,
+      "organizacion_participacion": 13,
+      "aseo_residuos": 3,
       "transito_transporte": 1,
-      "tenencia_mascotas": 2,
-      "aseo_residuos": 2,
-      "alcoholes_comercio": 1
+      "medio_ambiente": 2,
+      "obras_espacio_publico": 1,
+      "comercio_publicidad": 1
     }
   },
   {
@@ -1161,9 +1097,9 @@
     "lat": -32.7333,
     "lon": -71.2,
     "topics": {
-      "normativa_general": 5,
-      "tenencia_mascotas": 2,
-      "convivencia_seguridad": 2,
+      "organizacion_participacion": 5,
+      "medio_ambiente": 2,
+      "convivencia_ruidos": 2,
       "derechos_tarifas": 4
     }
   },
@@ -1179,10 +1115,9 @@
     "topics": {
       "derechos_tarifas": 7,
       "transito_transporte": 3,
-      "normativa_general": 4,
-      "general": 4,
-      "aseo_medioambiente": 1,
-      "comercio_alcoholes": 1
+      "organizacion_participacion": 8,
+      "aseo_residuos": 1,
+      "comercio_publicidad": 1
     }
   },
   {
@@ -1196,8 +1131,10 @@
     "lon": -71.6667,
     "topics": {
       "derechos_tarifas": 9,
-      "normativa_general": 4,
-      "convivencia_seguridad": 3,
+      "organizacion_participacion": 2,
+      "convivencia_ruidos": 3,
+      "obras_espacio_publico": 1,
+      "comercio_publicidad": 1,
       "aseo_residuos": 1,
       "transito_transporte": 1
     }
@@ -1212,9 +1149,9 @@
     "lat": -33.55,
     "lon": -71.6,
     "topics": {
-      "normativa_general": 2,
+      "organizacion_participacion": 2,
       "derechos_tarifas": 8,
-      "urbanismo_obras": 1
+      "obras_espacio_publico": 1
     }
   },
   {
@@ -1227,13 +1164,11 @@
     "lat": -33.3972,
     "lon": -71.6972,
     "topics": {
-      "normativa_general": 28,
-      "alcoholes_comercio": 4,
-      "general": 8,
-      "aseo_medioambiente": 1,
+      "organizacion_participacion": 36,
+      "comercio_publicidad": 6,
+      "aseo_residuos": 1,
       "derechos_tarifas": 8,
-      "tenencia_mascotas": 1,
-      "comercio_patentes": 2
+      "medio_ambiente": 1
     }
   },
   {
@@ -1246,8 +1181,8 @@
     "lat": -33.4556,
     "lon": -71.6667,
     "topics": {
-      "comercio_patentes": 1,
-      "normativa_general": 2,
+      "comercio_publicidad": 1,
+      "organizacion_participacion": 2,
       "derechos_tarifas": 2
     }
   },
@@ -1261,14 +1196,12 @@
     "lat": -33.6361,
     "lon": -71.6278,
     "topics": {
-      "general": 7,
-      "alcoholes_comercio": 1,
-      "aseo_medioambiente": 3,
-      "tenencia_mascotas": 1,
+      "organizacion_participacion": 10,
+      "comercio_publicidad": 2,
+      "aseo_residuos": 3,
+      "medio_ambiente": 1,
       "transito_transporte": 1,
-      "urbanismo_obras": 4,
-      "normativa_general": 3,
-      "comercio_patentes": 1,
+      "obras_espacio_publico": 4,
       "derechos_tarifas": 4
     }
   },
@@ -1282,15 +1215,13 @@
     "lat": -32.75,
     "lon": -70.725,
     "topics": {
-      "general": 1,
-      "normativa_general": 8,
-      "convivencia_seguridad": 1,
+      "organizacion_participacion": 7,
+      "obras_espacio_publico": 4,
+      "convivencia_ruidos": 1,
       "derechos_tarifas": 23,
-      "comercio_patentes": 3,
-      "comercio_alcoholes": 1,
+      "comercio_publicidad": 5,
       "transito_transporte": 3,
-      "aseo_medioambiente": 3,
-      "urbanismo_obras": 3
+      "aseo_residuos": 3
     }
   },
   {
@@ -1303,12 +1234,11 @@
     "lat": -32.7778,
     "lon": -70.9639,
     "topics": {
-      "organizacion_interna": 1,
-      "tenencia_mascotas": 1,
-      "normativa_general": 9,
-      "comercio_patentes": 1,
+      "organizacion_participacion": 9,
+      "medio_ambiente": 1,
+      "comercio_publicidad": 2,
       "derechos_tarifas": 5,
-      "convivencia_seguridad": 1,
+      "convivencia_ruidos": 1,
       "aseo_residuos": 1
     }
   },
@@ -1323,8 +1253,8 @@
     "lon": -70.95,
     "topics": {
       "derechos_tarifas": 12,
-      "normativa_general": 3,
-      "comercio_patentes": 1
+      "organizacion_participacion": 3,
+      "comercio_publicidad": 1
     }
   },
   {
@@ -1337,13 +1267,12 @@
     "lat": -32.7667,
     "lon": -70.8333,
     "topics": {
-      "normativa_general": 6,
+      "organizacion_participacion": 6,
       "medio_ambiente": 1,
       "derechos_tarifas": 9,
-      "aseo_residuos": 4,
-      "comercio_patentes": 2,
-      "transito_transporte": 1,
-      "aseo_medioambiente": 1
+      "aseo_residuos": 5,
+      "comercio_publicidad": 2,
+      "transito_transporte": 1
     }
   },
   {
@@ -1356,12 +1285,10 @@
     "lat": -32.6278,
     "lon": -70.7167,
     "topics": {
-      "seguridad_convivencia": 1,
-      "general": 2,
-      "social_salud_deporte": 1,
-      "comercio_alcoholes": 1,
-      "derechos_tarifas": 7,
-      "normativa_general": 2
+      "seguridad_prevencion": 1,
+      "organizacion_participacion": 4,
+      "comercio_publicidad": 1,
+      "derechos_tarifas": 8
     }
   },
   {
@@ -1374,11 +1301,10 @@
     "lat": -32.7472,
     "lon": -70.6556,
     "topics": {
-      "normativa_general": 11,
-      "comercio_alcoholes": 1,
+      "organizacion_participacion": 13,
+      "comercio_publicidad": 1,
       "derechos_tarifas": 4,
-      "general": 2,
-      "aseo_medioambiente": 1,
+      "aseo_residuos": 1,
       "transito_transporte": 1
     }
   },
@@ -1392,13 +1318,12 @@
     "lat": -33.0478,
     "lon": -71.4428,
     "topics": {
-      "aseo_medioambiente": 1,
-      "general": 19,
+      "aseo_residuos": 1,
+      "organizacion_participacion": 20,
       "derechos_tarifas": 14,
-      "urbanismo_obras": 1,
-      "comercio_alcoholes": 2,
-      "transito_transporte": 1,
-      "normativa_general": 1
+      "obras_espacio_publico": 1,
+      "comercio_publicidad": 2,
+      "transito_transporte": 1
     }
   },
   {
@@ -1411,10 +1336,10 @@
     "lat": -33.0,
     "lon": -71.2667,
     "topics": {
-      "urbanismo_obras": 1,
-      "aseo_medioambiente": 2,
+      "obras_espacio_publico": 1,
+      "aseo_residuos": 2,
       "transito_transporte": 2,
-      "normativa_general": 5,
+      "organizacion_participacion": 5,
       "derechos_tarifas": 4
     }
   },
@@ -1429,7 +1354,7 @@
     "lon": -71.1861,
     "topics": {
       "derechos_tarifas": 9,
-      "urbanismo_obras": 2
+      "obras_espacio_publico": 2
     }
   },
   {
@@ -1442,15 +1367,12 @@
     "lat": -33.0417,
     "lon": -71.3722,
     "topics": {
-      "social_salud_deporte": 1,
-      "aseo_medioambiente": 2,
-      "comercio_alcoholes": 1,
-      "aseo_residuos": 2,
-      "normativa_general": 22,
+      "organizacion_participacion": 19,
+      "aseo_residuos": 4,
+      "comercio_publicidad": 5,
       "derechos_tarifas": 28,
-      "urbanismo_obras": 3,
-      "tenencia_mascotas": 1,
-      "comercio_patentes": 2
+      "obras_espacio_publico": 3,
+      "medio_ambiente": 3
     }
   },
   {
@@ -1463,16 +1385,13 @@
     "lat": -33.4489,
     "lon": -70.6693,
     "topics": {
-      "urbanismo_obras": 9,
+      "obras_espacio_publico": 9,
       "derechos_tarifas": 26,
-      "normativa_general": 47,
-      "comercio_alcoholes": 20,
-      "comercio_patentes": 9,
-      "general": 14,
+      "organizacion_participacion": 60,
+      "comercio_publicidad": 31,
       "transito_transporte": 8,
-      "convivencia_seguridad": 1,
-      "administracion_interna": 1,
-      "aseo_medioambiente": 7
+      "convivencia_ruidos": 1,
+      "aseo_residuos": 7
     }
   },
   {
@@ -1485,13 +1404,11 @@
     "lat": -33.5,
     "lon": -70.7167,
     "topics": {
-      "tenencia_mascotas": 1,
-      "normativa_general": 32,
-      "comercio_patentes": 1,
+      "medio_ambiente": 1,
+      "organizacion_participacion": 34,
+      "comercio_publicidad": 2,
       "derechos_tarifas": 10,
-      "aseo_residuos": 2,
-      "general": 3,
-      "aseo_medioambiente": 1
+      "aseo_residuos": 3
     }
   },
   {
@@ -1504,12 +1421,10 @@
     "lat": -33.425,
     "lon": -70.7333,
     "topics": {
-      "general": 2,
-      "comercio_alcoholes": 2,
-      "comercio_patentes": 2,
-      "normativa_general": 4,
-      "urbanismo_obras": 2,
-      "derechos_tarifas": 11
+      "derechos_tarifas": 12,
+      "organizacion_participacion": 5,
+      "comercio_publicidad": 4,
+      "obras_espacio_publico": 2
     }
   },
   {
@@ -1522,13 +1437,12 @@
     "lat": -33.3833,
     "lon": -70.6833,
     "topics": {
-      "mascotas_animales": 1,
-      "aseo_medioambiente": 1,
-      "transito_espacio_publico": 1,
+      "medio_ambiente": 1,
+      "aseo_residuos": 2,
+      "transito_transporte": 1,
       "derechos_tarifas": 39,
-      "comercio_patentes": 2,
-      "normativa_general": 14,
-      "aseo_residuos": 1
+      "comercio_publicidad": 3,
+      "organizacion_participacion": 13
     }
   },
   {
@@ -1541,13 +1455,11 @@
     "lat": -33.5667,
     "lon": -70.6667,
     "topics": {
-      "urbanismo_obras": 2,
+      "obras_espacio_publico": 2,
       "derechos_tarifas": 6,
-      "general": 1,
-      "aseo_medioambiente": 2,
-      "administracion_interna": 1,
-      "aseo_residuos": 1,
-      "comercio_alcoholes": 1
+      "organizacion_participacion": 2,
+      "aseo_residuos": 3,
+      "comercio_publicidad": 1
     }
   },
   {
@@ -1560,11 +1472,10 @@
     "lat": -33.4606,
     "lon": -70.7003,
     "topics": {
-      "transito_espacio_publico": 1,
-      "normativa_general": 1,
-      "comercio_alcoholes": 2,
-      "derechos_tarifas": 14,
-      "general": 1
+      "transito_transporte": 1,
+      "organizacion_participacion": 2,
+      "comercio_publicidad": 2,
+      "derechos_tarifas": 14
     }
   },
   {
@@ -1578,9 +1489,9 @@
     "lon": -70.6389,
     "topics": {
       "derechos_tarifas": 6,
-      "general": 1,
-      "urbanismo_obras": 1,
-      "comercio_alcoholes": 1
+      "organizacion_participacion": 1,
+      "obras_espacio_publico": 1,
+      "comercio_publicidad": 1
     }
   },
   {
@@ -1593,15 +1504,13 @@
     "lat": -33.4167,
     "lon": -70.6667,
     "topics": {
-      "general": 2,
-      "urbanismo_obras": 2,
-      "comercio_patentes": 1,
-      "normativa_general": 5,
-      "convivencia_seguridad": 1,
+      "organizacion_participacion": 7,
+      "obras_espacio_publico": 2,
+      "comercio_publicidad": 1,
+      "convivencia_ruidos": 1,
       "derechos_tarifas": 6,
-      "aseo_residuos": 9,
-      "transito_transporte": 1,
-      "aseo_medioambiente": 1
+      "aseo_residuos": 10,
+      "transito_transporte": 1
     }
   },
   {
@@ -1614,34 +1523,29 @@
     "lat": -33.5333,
     "lon": -70.6667,
     "topics": {
-      "urbanismo_obras": 1,
-      "normativa_general": 1,
-      "derechos_tarifas": 6,
-      "general": 1
+      "obras_espacio_publico": 1,
+      "organizacion_participacion": 2,
+      "derechos_tarifas": 6
     }
   },
   {
     "comuna": "La Florida",
     "region": "Metropolitana de Santiago",
-    "total": 88,
-    "bcn": 74,
+    "total": 86,
+    "bcn": 72,
     "municipal": 14,
     "status": "BCN + Municipalidad verificada",
     "lat": -33.5167,
     "lon": -70.5833,
     "topics": {
-      "general": 16,
-      "comercio_alcoholes": 18,
+      "organizacion_participacion": 30,
+      "comercio_publicidad": 18,
       "derechos_tarifas": 25,
-      "aseo_medioambiente": 1,
-      "urbanismo_obras": 4,
-      "mascotas_animales": 1,
+      "aseo_residuos": 3,
+      "obras_espacio_publico": 4,
+      "medio_ambiente": 1,
       "transito_transporte": 3,
-      "administracion_interna": 3,
-      "seguridad_convivencia": 2,
-      "social_salud_deporte": 1,
-      "normativa_general": 12,
-      "aseo_residuos": 2
+      "seguridad_prevencion": 2
     }
   },
   {
@@ -1654,17 +1558,14 @@
     "lat": -33.5333,
     "lon": -70.6167,
     "topics": {
-      "general": 11,
-      "alcoholes_comercio": 4,
-      "urbanismo_obras": 5,
-      "derechos_tarifas": 38,
-      "aseo_medioambiente": 1,
-      "convivencia_seguridad": 1,
-      "normativa_general": 15,
-      "tenencia_mascotas": 2,
-      "comercio_patentes": 7,
-      "transito_transporte": 1,
-      "aseo_residuos": 1
+      "organizacion_participacion": 19,
+      "comercio_publicidad": 15,
+      "obras_espacio_publico": 5,
+      "derechos_tarifas": 41,
+      "aseo_residuos": 2,
+      "convivencia_ruidos": 1,
+      "medio_ambiente": 2,
+      "transito_transporte": 1
     }
   },
   {
@@ -1677,12 +1578,10 @@
     "lat": -33.5833,
     "lon": -70.6333,
     "topics": {
-      "general": 10,
+      "organizacion_participacion": 12,
       "derechos_tarifas": 8,
-      "administracion_interna": 1,
-      "mascotas_animales": 1,
-      "normativa_general": 1,
-      "convivencia_seguridad": 1,
+      "medio_ambiente": 1,
+      "convivencia_ruidos": 1,
       "aseo_residuos": 1
     }
   },
@@ -1697,8 +1596,9 @@
     "lon": -70.5333,
     "topics": {
       "derechos_tarifas": 42,
-      "normativa_general": 14,
-      "comercio_patentes": 2,
+      "comercio_publicidad": 4,
+      "organizacion_participacion": 10,
+      "obras_espacio_publico": 2,
       "medio_ambiente": 1,
       "aseo_residuos": 4,
       "transito_transporte": 1
@@ -1715,14 +1615,14 @@
     "lon": -70.5833,
     "topics": {
       "derechos_tarifas": 46,
-      "general": 10,
-      "comercio_patentes": 9,
-      "urbanismo_obras": 4,
-      "convivencia_seguridad": 6,
+      "organizacion_participacion": 25,
+      "comercio_publicidad": 21,
+      "obras_espacio_publico": 6,
+      "convivencia_ruidos": 6,
       "transito_transporte": 15,
-      "normativa_general": 31,
-      "tenencia_mascotas": 2,
-      "aseo_residuos": 1
+      "medio_ambiente": 2,
+      "aseo_residuos": 1,
+      "seguridad_prevencion": 2
     }
   },
   {
@@ -1735,9 +1635,9 @@
     "lat": -33.35,
     "lon": -70.5167,
     "topics": {
-      "urbanismo_obras": 3,
-      "normativa_general": 7,
-      "comercio_patentes": 5,
+      "obras_espacio_publico": 3,
+      "organizacion_participacion": 6,
+      "comercio_publicidad": 6,
       "derechos_tarifas": 7
     }
   },
@@ -1752,11 +1652,11 @@
     "lon": -70.6833,
     "topics": {
       "transito_transporte": 1,
-      "mascotas_animales": 1,
-      "aseo_medioambiente": 3,
-      "normativa_general": 3,
-      "comercio_alcoholes": 1,
-      "general": 3,
+      "medio_ambiente": 1,
+      "aseo_residuos": 3,
+      "seguridad_prevencion": 1,
+      "organizacion_participacion": 5,
+      "comercio_publicidad": 1,
       "derechos_tarifas": 9
     }
   },
@@ -1770,14 +1670,12 @@
     "lat": -33.4444,
     "lon": -70.7222,
     "topics": {
-      "comercio_alcoholes": 2,
+      "comercio_publicidad": 7,
       "derechos_tarifas": 40,
-      "social_salud_deporte": 1,
-      "convivencia_seguridad": 1,
-      "normativa_general": 32,
+      "organizacion_participacion": 31,
+      "convivencia_ruidos": 1,
       "transito_transporte": 1,
-      "tenencia_mascotas": 1,
-      "comercio_patentes": 3,
+      "medio_ambiente": 1,
       "aseo_residuos": 1
     }
   },
@@ -1791,13 +1689,12 @@
     "lat": -33.4833,
     "lon": -70.6,
     "topics": {
-      "general": 15,
-      "normativa_general": 15,
-      "urbanismo_obras": 2,
+      "organizacion_participacion": 26,
+      "comercio_publicidad": 8,
+      "obras_espacio_publico": 2,
       "derechos_tarifas": 23,
-      "comercio_patentes": 4,
       "aseo_residuos": 2,
-      "convivencia_seguridad": 1
+      "convivencia_ruidos": 1
     }
   },
   {
@@ -1810,21 +1707,14 @@
     "lat": -33.5111,
     "lon": -70.7583,
     "topics": {
-      "mascotas_animales": 1,
-      "social_salud_deporte": 10,
-      "aseo_medioambiente": 7,
+      "medio_ambiente": 3,
+      "organizacion_participacion": 23,
+      "aseo_residuos": 7,
       "derechos_tarifas": 30,
-      "administracion_interna": 2,
-      "seguridad_convivencia": 3,
-      "comercio_alcoholes": 2,
-      "normativa_general": 7,
-      "tenencia_mascotas": 1,
-      "comercio_patentes": 4,
-      "alcoholes_comercio": 6,
-      "urbanismo_obras": 3,
-      "medio_ambiente": 1,
-      "transito_transporte": 3,
-      "general": 7
+      "seguridad_prevencion": 3,
+      "comercio_publicidad": 13,
+      "obras_espacio_publico": 4,
+      "transito_transporte": 4
     }
   },
   {
@@ -1837,18 +1727,13 @@
     "lat": -33.4569,
     "lon": -70.6033,
     "topics": {
-      "aseo_medioambiente": 1,
+      "aseo_residuos": 2,
       "transito_transporte": 6,
-      "general": 3,
-      "normativa_general": 11,
-      "comercio_patentes": 7,
-      "social_salud_deporte": 1,
-      "administracion_interna": 1,
-      "mascotas_animales": 1,
-      "aseo_residuos": 1,
-      "comercio_alcoholes": 4,
-      "derechos_tarifas": 22,
-      "convivencia_seguridad": 1
+      "organizacion_participacion": 10,
+      "comercio_publicidad": 16,
+      "medio_ambiente": 1,
+      "derechos_tarifas": 23,
+      "convivencia_ruidos": 1
     }
   },
   {
@@ -1861,10 +1746,10 @@
     "lat": -33.4833,
     "lon": -70.6667,
     "topics": {
-      "urbanismo_obras": 4,
+      "obras_espacio_publico": 4,
       "derechos_tarifas": 8,
-      "normativa_general": 3,
-      "aseo_medioambiente": 1
+      "organizacion_participacion": 3,
+      "aseo_residuos": 1
     }
   },
   {
@@ -1878,16 +1763,13 @@
     "lon": -70.55,
     "topics": {
       "derechos_tarifas": 21,
-      "normativa_general": 16,
+      "organizacion_participacion": 16,
       "transito_transporte": 1,
-      "urbanismo_obras": 4,
-      "comercio_alcoholes": 5,
-      "general": 5,
-      "comercio_patentes": 11,
-      "aseo_residuos": 1,
-      "convivencia_seguridad": 5,
-      "tenencia_mascotas": 2,
-      "aseo_medioambiente": 2
+      "obras_espacio_publico": 6,
+      "comercio_publicidad": 19,
+      "aseo_residuos": 3,
+      "convivencia_ruidos": 5,
+      "medio_ambiente": 2
     }
   },
   {
@@ -1900,22 +1782,15 @@
     "lat": -33.4314,
     "lon": -70.6094,
     "topics": {
-      "tenencia_mascotas": 4,
+      "medio_ambiente": 4,
       "derechos_tarifas": 346,
-      "convivencia_seguridad": 33,
-      "comercio_alcoholes": 80,
-      "normativa_general": 36,
-      "urbanismo_obras": 55,
-      "aseo_medioambiente": 37,
+      "convivencia_ruidos": 33,
+      "comercio_publicidad": 88,
+      "organizacion_participacion": 124,
+      "obras_espacio_publico": 55,
+      "aseo_residuos": 39,
       "transito_transporte": 70,
-      "organizacion_interna": 7,
-      "general": 79,
-      "participacion_ciudadana": 3,
-      "seguridad_convivencia": 4,
-      "administracion_interna": 3,
-      "social_salud_deporte": 2,
-      "aseo_residuos": 2,
-      "comercio_patentes": 2
+      "seguridad_prevencion": 4
     }
   },
   {
@@ -1928,8 +1803,8 @@
     "lat": -33.4389,
     "lon": -70.7556,
     "topics": {
-      "urbanismo_obras": 1,
-      "normativa_general": 7,
+      "obras_espacio_publico": 1,
+      "organizacion_participacion": 7,
       "derechos_tarifas": 26,
       "aseo_residuos": 1
     }
@@ -1944,12 +1819,11 @@
     "lat": -33.3667,
     "lon": -70.7333,
     "topics": {
-      "aseo_medioambiente": 1,
-      "normativa_general": 4,
+      "aseo_residuos": 1,
+      "organizacion_participacion": 4,
       "medio_ambiente": 1,
-      "comercio_patentes": 4,
-      "derechos_tarifas": 9,
-      "comercio_alcoholes": 1
+      "comercio_publicidad": 5,
+      "derechos_tarifas": 9
     }
   },
   {
@@ -1962,12 +1836,12 @@
     "lat": -33.4333,
     "lon": -70.6833,
     "topics": {
-      "seguridad_convivencia": 1,
-      "normativa_general": 6,
-      "tenencia_mascotas": 1,
+      "seguridad_prevencion": 1,
+      "organizacion_participacion": 6,
+      "medio_ambiente": 1,
       "derechos_tarifas": 16,
-      "urbanismo_obras": 1,
-      "aseo_medioambiente": 1
+      "obras_espacio_publico": 1,
+      "aseo_residuos": 1
     }
   },
   {
@@ -1980,16 +1854,13 @@
     "lat": -33.4083,
     "lon": -70.6417,
     "topics": {
-      "administracion_interna": 2,
+      "organizacion_participacion": 7,
       "derechos_tarifas": 25,
-      "comercio_alcoholes": 11,
-      "seguridad_convivencia": 1,
+      "comercio_publicidad": 17,
+      "seguridad_prevencion": 1,
       "transito_transporte": 4,
-      "convivencia_seguridad": 1,
-      "normativa_general": 4,
-      "urbanismo_obras": 1,
-      "comercio_patentes": 6,
-      "general": 1
+      "convivencia_ruidos": 1,
+      "obras_espacio_publico": 1
     }
   },
   {
@@ -2002,14 +1873,12 @@
     "lat": -33.4,
     "lon": -70.7167,
     "topics": {
-      "seguridad_convivencia": 2,
+      "seguridad_prevencion": 2,
       "derechos_tarifas": 20,
-      "comercio_alcoholes": 1,
-      "urbanismo_obras": 1,
-      "aseo_medioambiente": 1,
-      "general": 1,
-      "normativa_general": 11,
-      "administracion_interna": 1
+      "comercio_publicidad": 1,
+      "obras_espacio_publico": 2,
+      "aseo_residuos": 1,
+      "organizacion_participacion": 12
     }
   },
   {
@@ -2022,13 +1891,12 @@
     "lat": -33.4917,
     "lon": -70.6278,
     "topics": {
-      "normativa_general": 3,
-      "aseo_medioambiente": 2,
-      "derechos_tarifas": 9,
-      "social_salud_deporte": 1,
-      "urbanismo_obras": 1,
-      "seguridad_convivencia": 1,
-      "comercio_alcoholes": 2
+      "aseo_residuos": 3,
+      "derechos_tarifas": 10,
+      "organizacion_participacion": 2,
+      "obras_espacio_publico": 1,
+      "seguridad_prevencion": 1,
+      "comercio_publicidad": 2
     }
   },
   {
@@ -2041,12 +1909,11 @@
     "lat": -33.4944,
     "lon": -70.6528,
     "topics": {
-      "urbanismo_obras": 4,
-      "convivencia_seguridad": 1,
-      "comercio_patentes": 2,
-      "normativa_general": 5,
-      "derechos_tarifas": 14,
-      "general": 1
+      "obras_espacio_publico": 4,
+      "convivencia_ruidos": 1,
+      "comercio_publicidad": 2,
+      "organizacion_participacion": 6,
+      "derechos_tarifas": 14
     }
   },
   {
@@ -2061,8 +1928,8 @@
     "topics": {
       "derechos_tarifas": 16,
       "transito_transporte": 2,
-      "normativa_general": 2,
-      "comercio_patentes": 2
+      "comercio_publicidad": 3,
+      "organizacion_participacion": 1
     }
   },
   {
@@ -2075,17 +1942,13 @@
     "lat": -33.3972,
     "lon": -70.5861,
     "topics": {
-      "transito_espacio_publico": 1,
-      "aseo_residuos": 2,
+      "transito_transporte": 2,
+      "aseo_residuos": 5,
       "derechos_tarifas": 32,
-      "normativa_general": 10,
-      "comercio_patentes": 1,
-      "urbanismo_obras": 4,
-      "convivencia_seguridad": 3,
-      "general": 2,
-      "aseo_medioambiente": 3,
-      "transito_transporte": 1,
-      "administracion_interna": 1
+      "organizacion_participacion": 9,
+      "comercio_publicidad": 4,
+      "obras_espacio_publico": 5,
+      "convivencia_ruidos": 3
     }
   },
   {
@@ -2098,15 +1961,11 @@
     "lat": -33.6167,
     "lon": -70.5833,
     "topics": {
-      "general": 9,
-      "administracion_interna": 1,
-      "urbanismo_obras": 1,
-      "comercio_patentes": 1,
-      "comercio_alcoholes": 4,
-      "social_salud_deporte": 1,
-      "derechos_tarifas": 17,
-      "normativa_general": 3,
-      "seguridad_convivencia": 1
+      "organizacion_participacion": 13,
+      "obras_espacio_publico": 1,
+      "comercio_publicidad": 5,
+      "derechos_tarifas": 18,
+      "seguridad_prevencion": 1
     }
   },
   {
@@ -2119,13 +1978,12 @@
     "lat": -33.6333,
     "lon": -70.5667,
     "topics": {
-      "medio_ambiente": 2,
-      "urbanismo_obras": 1,
-      "derechos_tarifas": 17,
-      "normativa_general": 17,
-      "tenencia_mascotas": 2,
-      "transito_transporte": 1,
-      "general": 2
+      "aseo_residuos": 1,
+      "obras_espacio_publico": 1,
+      "derechos_tarifas": 20,
+      "medio_ambiente": 3,
+      "organizacion_participacion": 16,
+      "transito_transporte": 1
     }
   },
   {
@@ -2138,9 +1996,9 @@
     "lat": -33.6417,
     "lon": -70.35,
     "topics": {
-      "aseo_medioambiente": 3,
-      "comercio_patentes": 1,
-      "normativa_general": 7,
+      "aseo_residuos": 3,
+      "comercio_publicidad": 1,
+      "organizacion_participacion": 7,
       "derechos_tarifas": 9
     }
   },
@@ -2154,14 +2012,13 @@
     "lat": -33.2,
     "lon": -70.6667,
     "topics": {
-      "general": 5,
-      "convivencia_seguridad": 2,
+      "organizacion_participacion": 17,
+      "convivencia_ruidos": 2,
       "transito_transporte": 2,
       "aseo_residuos": 2,
-      "normativa_general": 13,
       "derechos_tarifas": 19,
-      "comercio_alcoholes": 2,
-      "comercio_patentes": 1
+      "comercio_publicidad": 3,
+      "obras_espacio_publico": 1
     }
   },
   {
@@ -2174,15 +2031,11 @@
     "lat": -33.2833,
     "lon": -70.8667,
     "topics": {
-      "desarrollo_social": 1,
-      "urbanismo_obras": 1,
-      "derechos_tarifas": 12,
-      "normativa_general": 8,
-      "comercio_patentes": 2,
-      "comercio_alcoholes": 2,
-      "general": 1,
-      "aseo_medioambiente": 1,
-      "aseo_residuos": 1
+      "organizacion_participacion": 9,
+      "obras_espacio_publico": 1,
+      "derechos_tarifas": 13,
+      "comercio_publicidad": 4,
+      "aseo_residuos": 2
     }
   },
   {
@@ -2195,12 +2048,11 @@
     "lat": -33.0833,
     "lon": -70.9333,
     "topics": {
-      "alcoholes_comercio": 2,
-      "seguridad_convivencia": 4,
-      "salud_higiene": 2,
-      "obras_urbanismo": 2,
+      "comercio_publicidad": 2,
+      "seguridad_prevencion": 4,
+      "organizacion_participacion": 4,
+      "obras_espacio_publico": 2,
       "aseo_residuos": 2,
-      "general": 2,
       "derechos_tarifas": 2,
       "medio_ambiente": 2,
       "transito_transporte": 1
@@ -2216,19 +2068,14 @@
     "lat": -33.6,
     "lon": -70.7,
     "topics": {
-      "alcoholes_comercio": 6,
+      "comercio_publicidad": 15,
       "transito_transporte": 6,
-      "derechos_tarifas": 27,
-      "general": 7,
-      "normativa_general": 40,
-      "comercio_patentes": 7,
-      "aseo_residuos": 2,
-      "mascotas_animales": 1,
-      "tenencia_mascotas": 1,
-      "convivencia_seguridad": 1,
-      "urbanismo_obras": 1,
-      "comercio_alcoholes": 1,
-      "aseo_medioambiente": 2
+      "derechos_tarifas": 32,
+      "organizacion_participacion": 41,
+      "aseo_residuos": 4,
+      "medio_ambiente": 2,
+      "convivencia_ruidos": 1,
+      "obras_espacio_publico": 1
     }
   },
   {
@@ -2241,14 +2088,13 @@
     "lat": -33.7333,
     "lon": -70.7333,
     "topics": {
-      "general": 38,
-      "derechos_tarifas": 26,
-      "alcoholes_comercio": 4,
-      "aseo_medioambiente": 5,
-      "normativa_general": 4,
+      "organizacion_participacion": 40,
+      "derechos_tarifas": 27,
+      "comercio_publicidad": 4,
+      "aseo_residuos": 5,
+      "medio_ambiente": 2,
       "transito_transporte": 4,
-      "urbanismo_obras": 1,
-      "tenencia_mascotas": 1
+      "obras_espacio_publico": 1
     }
   },
   {
@@ -2261,27 +2107,26 @@
     "lat": -33.6333,
     "lon": -70.7833,
     "topics": {
-      "participacion_ciudadana": 1,
+      "organizacion_participacion": 2,
       "derechos_tarifas": 12,
-      "normativa_general": 2,
+      "comercio_publicidad": 1,
       "aseo_residuos": 3
     }
   },
   {
     "comuna": "Paine",
     "region": "Metropolitana de Santiago",
-    "total": 22,
-    "bcn": 16,
+    "total": 21,
+    "bcn": 15,
     "municipal": 6,
     "status": "BCN + Municipalidad verificada",
     "lat": -33.8167,
     "lon": -70.75,
     "topics": {
       "derechos_tarifas": 12,
-      "general": 4,
-      "tenencia_mascotas": 1,
-      "comercio_patentes": 1,
-      "normativa_general": 2,
+      "organizacion_participacion": 5,
+      "medio_ambiente": 1,
+      "comercio_publicidad": 1,
       "aseo_residuos": 2
     }
   },
@@ -2295,12 +2140,12 @@
     "lat": -33.6833,
     "lon": -71.2167,
     "topics": {
-      "derechos_tarifas": 17,
-      "tenencia_mascotas": 1,
-      "convivencia_seguridad": 1,
-      "normativa_general": 8,
+      "derechos_tarifas": 18,
+      "medio_ambiente": 1,
+      "convivencia_ruidos": 1,
+      "organizacion_participacion": 7,
       "transito_transporte": 1,
-      "comercio_patentes": 1,
+      "comercio_publicidad": 1,
       "aseo_residuos": 2
     }
   },
@@ -2314,11 +2159,10 @@
     "lat": -34.0333,
     "lon": -71.1,
     "topics": {
-      "alcoholes_comercio": 1,
-      "general": 1,
-      "normativa_general": 1,
+      "comercio_publicidad": 1,
+      "organizacion_participacion": 2,
       "derechos_tarifas": 1,
-      "aseo_medioambiente": 1
+      "aseo_residuos": 1
     }
   },
   {
@@ -2331,15 +2175,12 @@
     "lat": -33.4,
     "lon": -71.1333,
     "topics": {
-      "comercio_patentes": 1,
-      "alcoholes_comercio": 2,
+      "comercio_publicidad": 3,
       "derechos_tarifas": 11,
-      "normativa_general": 3,
-      "general": 6,
-      "aseo_medioambiente": 1,
-      "aseo_residuos": 1,
-      "urbanismo_obras": 1,
-      "seguridad_convivencia": 1
+      "organizacion_participacion": 9,
+      "aseo_residuos": 2,
+      "obras_espacio_publico": 1,
+      "seguridad_prevencion": 1
     }
   },
   {
@@ -2352,32 +2193,24 @@
     "lat": -33.5167,
     "lon": -71.1167,
     "topics": {
-      "seguridad_convivencia": 1,
-      "general": 2,
-      "normativa_general": 2,
+      "seguridad_prevencion": 1,
+      "organizacion_participacion": 4,
       "derechos_tarifas": 5,
-      "aseo_medioambiente": 1
+      "aseo_residuos": 1
     }
   },
   {
     "comuna": "San Pedro",
     "region": "Metropolitana de Santiago",
-    "total": 50,
-    "bcn": 50,
+    "total": 12,
+    "bcn": 12,
     "municipal": 0,
     "status": "Cargado BCN",
     "lat": -33.9,
     "lon": -71.4667,
     "topics": {
-      "derechos_tarifas": 22,
-      "mascotas_animales": 2,
-      "comercio_alcoholes": 8,
-      "transito_transporte": 3,
-      "aseo_medioambiente": 1,
-      "general": 7,
-      "seguridad_convivencia": 1,
-      "social_salud_deporte": 1,
-      "normativa_general": 4,
+      "derechos_tarifas": 7,
+      "organizacion_participacion": 4,
       "aseo_residuos": 1
     }
   },
@@ -2391,14 +2224,12 @@
     "lat": -33.6667,
     "lon": -70.9333,
     "topics": {
-      "aseo_medioambiente": 3,
-      "administracion_interna": 1,
-      "general": 3,
-      "normativa_general": 12,
-      "convivencia_seguridad": 2,
-      "urbanismo_obras": 1,
+      "aseo_residuos": 3,
+      "organizacion_participacion": 16,
+      "convivencia_ruidos": 2,
+      "obras_espacio_publico": 1,
       "derechos_tarifas": 11,
-      "comercio_alcoholes": 2,
+      "comercio_publicidad": 2,
       "transito_transporte": 3
     }
   },
@@ -2413,9 +2244,8 @@
     "lon": -70.9833,
     "topics": {
       "derechos_tarifas": 20,
-      "comercio_patentes": 1,
-      "comercio_alcoholes": 1,
-      "normativa_general": 2
+      "comercio_publicidad": 2,
+      "organizacion_participacion": 2
     }
   },
   {
@@ -2429,10 +2259,9 @@
     "lon": -70.9,
     "topics": {
       "derechos_tarifas": 13,
-      "aseo_medioambiente": 2,
-      "normativa_general": 6,
-      "comercio_alcoholes": 1,
-      "general": 1
+      "aseo_residuos": 2,
+      "organizacion_participacion": 7,
+      "comercio_publicidad": 1
     }
   },
   {
@@ -2445,11 +2274,12 @@
     "lat": -33.5667,
     "lon": -70.8167,
     "topics": {
-      "seguridad_convivencia": 1,
-      "aseo_medioambiente": 1,
+      "seguridad_prevencion": 1,
+      "aseo_residuos": 1,
       "derechos_tarifas": 8,
-      "normativa_general": 5,
-      "comercio_patentes": 1
+      "organizacion_participacion": 4,
+      "comercio_publicidad": 1,
+      "medio_ambiente": 1
     }
   },
   {
@@ -2462,12 +2292,10 @@
     "lat": -33.6083,
     "lon": -70.8778,
     "topics": {
-      "general": 3,
+      "organizacion_participacion": 13,
       "derechos_tarifas": 16,
-      "aseo_medioambiente": 1,
-      "normativa_general": 10,
-      "transito_transporte": 1,
-      "aseo_residuos": 1
+      "aseo_residuos": 2,
+      "transito_transporte": 1
     }
   },
   {
@@ -2480,17 +2308,14 @@
     "lat": -34.1708,
     "lon": -70.7444,
     "topics": {
-      "comercio_alcoholes": 2,
-      "urbanismo_obras": 5,
-      "normativa_general": 24,
-      "general": 1,
-      "convivencia_seguridad": 7,
-      "derechos_tarifas": 33,
-      "comercio_patentes": 12,
-      "aseo_residuos": 6,
-      "tenencia_mascotas": 2,
-      "transito_transporte": 3,
-      "aseo_medioambiente": 1
+      "comercio_publicidad": 19,
+      "obras_espacio_publico": 5,
+      "organizacion_participacion": 17,
+      "convivencia_ruidos": 8,
+      "derechos_tarifas": 35,
+      "aseo_residuos": 7,
+      "medio_ambiente": 2,
+      "transito_transporte": 3
     }
   },
   {
@@ -2503,10 +2328,9 @@
     "lat": -34.0333,
     "lon": -70.6667,
     "topics": {
-      "urbanismo_obras": 1,
-      "general": 1,
-      "derechos_tarifas": 5,
-      "normativa_general": 1
+      "obras_espacio_publico": 1,
+      "organizacion_participacion": 2,
+      "derechos_tarifas": 5
     }
   },
   {
@@ -2520,9 +2344,10 @@
     "lon": -70.95,
     "topics": {
       "derechos_tarifas": 8,
-      "tenencia_mascotas": 1,
-      "comercio_patentes": 2,
-      "normativa_general": 2
+      "medio_ambiente": 1,
+      "comercio_publicidad": 2,
+      "obras_espacio_publico": 1,
+      "organizacion_participacion": 1
     }
   },
   {
@@ -2535,9 +2360,8 @@
     "lat": -34.2667,
     "lon": -71.0833,
     "topics": {
-      "general": 3,
-      "derechos_tarifas": 4,
-      "normativa_general": 2
+      "organizacion_participacion": 5,
+      "derechos_tarifas": 4
     }
   },
   {
@@ -2550,10 +2374,10 @@
     "lat": -34.2333,
     "lon": -70.9667,
     "topics": {
-      "derechos_tarifas": 5,
-      "normativa_general": 10,
+      "derechos_tarifas": 13,
+      "organizacion_participacion": 2,
       "medio_ambiente": 1,
-      "comercio_patentes": 1
+      "comercio_publicidad": 1
     }
   },
   {
@@ -2566,10 +2390,10 @@
     "lat": -34.0667,
     "lon": -70.7167,
     "topics": {
-      "urbanismo_obras": 1,
+      "obras_espacio_publico": 2,
       "transito_transporte": 1,
-      "comercio_patentes": 1,
-      "normativa_general": 3,
+      "comercio_publicidad": 1,
+      "organizacion_participacion": 2,
       "derechos_tarifas": 6
     }
   },
@@ -2583,12 +2407,10 @@
     "lat": -34.2833,
     "lon": -71.3,
     "topics": {
-      "derechos_tarifas": 20,
-      "general": 6,
-      "urbanismo_obras": 2,
-      "aseo_medioambiente": 1,
-      "normativa_general": 7,
-      "aseo_residuos": 2
+      "derechos_tarifas": 22,
+      "organizacion_participacion": 11,
+      "obras_espacio_publico": 2,
+      "aseo_residuos": 3
     }
   },
   {
@@ -2601,10 +2423,10 @@
     "lat": -34.1833,
     "lon": -70.65,
     "topics": {
-      "urbanismo_obras": 4,
-      "normativa_general": 22,
-      "convivencia_seguridad": 1,
-      "derechos_tarifas": 13,
+      "obras_espacio_publico": 4,
+      "derechos_tarifas": 24,
+      "convivencia_ruidos": 1,
+      "organizacion_participacion": 11,
       "aseo_residuos": 1
     }
   },
@@ -2618,10 +2440,9 @@
     "lat": -34.45,
     "lon": -70.95,
     "topics": {
-      "general": 6,
-      "tenencia_mascotas": 2,
-      "comercio_patentes": 1,
-      "normativa_general": 1,
+      "organizacion_participacion": 7,
+      "medio_ambiente": 2,
+      "comercio_publicidad": 1,
       "derechos_tarifas": 12
     }
   },
@@ -2635,9 +2456,8 @@
     "lat": -33.9833,
     "lon": -70.7,
     "topics": {
-      "desarrollo_social": 1,
-      "urbanismo_obras": 2,
-      "normativa_general": 8,
+      "organizacion_participacion": 8,
+      "obras_espacio_publico": 3,
       "derechos_tarifas": 4
     }
   },
@@ -2652,7 +2472,8 @@
     "lon": -70.8167,
     "topics": {
       "derechos_tarifas": 9,
-      "normativa_general": 2
+      "obras_espacio_publico": 1,
+      "organizacion_participacion": 1
     }
   },
   {
@@ -2665,8 +2486,7 @@
     "lat": -34.3833,
     "lon": -71.1667,
     "topics": {
-      "general": 1,
-      "normativa_general": 1,
+      "organizacion_participacion": 2,
       "derechos_tarifas": 4
     }
   },
@@ -2680,7 +2500,7 @@
     "lat": -34.35,
     "lon": -71.2833,
     "topics": {
-      "normativa_general": 7,
+      "organizacion_participacion": 7,
       "derechos_tarifas": 4
     }
   },
@@ -2694,8 +2514,8 @@
     "lat": -34.35,
     "lon": -70.9667,
     "topics": {
-      "aseo_medioambiente": 1,
-      "normativa_general": 3,
+      "aseo_residuos": 1,
+      "organizacion_participacion": 3,
       "derechos_tarifas": 5
     }
   },
@@ -2709,16 +2529,13 @@
     "lat": -34.4083,
     "lon": -70.8583,
     "topics": {
-      "comercio_alcoholes": 1,
-      "social_salud_deporte": 1,
-      "aseo_medioambiente": 1,
-      "comercio_patentes": 3,
-      "urbanismo_obras": 1,
+      "comercio_publicidad": 4,
+      "organizacion_participacion": 5,
+      "aseo_residuos": 4,
+      "obras_espacio_publico": 1,
       "derechos_tarifas": 16,
-      "normativa_general": 4,
-      "aseo_residuos": 3,
       "transito_transporte": 1,
-      "seguridad_convivencia": 1
+      "seguridad_prevencion": 1
     }
   },
   {
@@ -2731,9 +2548,9 @@
     "lat": -34.2833,
     "lon": -70.8167,
     "topics": {
-      "normativa_general": 2,
-      "derechos_tarifas": 9,
-      "general": 15
+      "organizacion_participacion": 16,
+      "obras_espacio_publico": 1,
+      "derechos_tarifas": 9
     }
   },
   {
@@ -2746,11 +2563,11 @@
     "lat": -34.4389,
     "lon": -71.0778,
     "topics": {
-      "normativa_general": 6,
+      "organizacion_participacion": 4,
       "transito_transporte": 1,
-      "derechos_tarifas": 9,
+      "derechos_tarifas": 11,
       "aseo_residuos": 1,
-      "convivencia_seguridad": 1
+      "convivencia_ruidos": 1
     }
   },
   {
@@ -2763,12 +2580,11 @@
     "lat": -34.3833,
     "lon": -72.0,
     "topics": {
-      "tenencia_mascotas": 1,
-      "normativa_general": 5,
-      "comercio_patentes": 2,
+      "medio_ambiente": 1,
+      "organizacion_participacion": 6,
+      "comercio_publicidad": 2,
       "derechos_tarifas": 5,
-      "urbanismo_obras": 2,
-      "general": 1
+      "obras_espacio_publico": 2
     }
   },
   {
@@ -2781,13 +2597,12 @@
     "lat": -34.2,
     "lon": -71.65,
     "topics": {
-      "derechos_tarifas": 8,
-      "urbanismo_obras": 1,
-      "normativa_general": 2,
-      "general": 2,
-      "tenencia_mascotas": 1,
-      "aseo_medioambiente": 1,
-      "alcoholes_comercio": 1
+      "derechos_tarifas": 9,
+      "obras_espacio_publico": 1,
+      "organizacion_participacion": 3,
+      "medio_ambiente": 1,
+      "aseo_residuos": 1,
+      "comercio_publicidad": 1
     }
   },
   {
@@ -2801,9 +2616,8 @@
     "lon": -71.7333,
     "topics": {
       "derechos_tarifas": 15,
-      "aseo_medioambiente": 1,
-      "normativa_general": 1,
-      "aseo_residuos": 1
+      "aseo_residuos": 2,
+      "organizacion_participacion": 1
     }
   },
   {
@@ -2816,7 +2630,7 @@
     "lat": -34.4,
     "lon": -71.6167,
     "topics": {
-      "general": 28
+      "organizacion_participacion": 28
     }
   },
   {
@@ -2829,15 +2643,12 @@
     "lat": -33.95,
     "lon": -71.8333,
     "topics": {
-      "general": 7,
+      "organizacion_participacion": 10,
       "derechos_tarifas": 18,
-      "aseo_medioambiente": 2,
-      "alcoholes_comercio": 2,
-      "urbanismo_obras": 1,
-      "tenencia_mascotas": 1,
-      "normativa_general": 4,
-      "comercio_alcoholes": 1,
-      "comercio_patentes": 1
+      "aseo_residuos": 2,
+      "comercio_publicidad": 4,
+      "obras_espacio_publico": 1,
+      "medio_ambiente": 2
     }
   },
   {
@@ -2850,11 +2661,10 @@
     "lat": -34.65,
     "lon": -71.9,
     "topics": {
-      "urbanismo_obras": 1,
-      "normativa_general": 2,
-      "aseo_medioambiente": 1,
-      "derechos_tarifas": 3,
-      "general": 24
+      "obras_espacio_publico": 1,
+      "organizacion_participacion": 26,
+      "aseo_residuos": 1,
+      "derechos_tarifas": 3
     }
   },
   {
@@ -2867,27 +2677,26 @@
     "lat": -34.5833,
     "lon": -70.9833,
     "topics": {
-      "normativa_general": 11,
+      "organizacion_participacion": 9,
       "derechos_tarifas": 13,
-      "convivencia_seguridad": 1,
+      "convivencia_ruidos": 1,
       "aseo_residuos": 3,
+      "obras_espacio_publico": 1,
       "transito_transporte": 4,
-      "comercio_patentes": 1,
-      "comercio_alcoholes": 1
+      "comercio_publicidad": 3
     }
   },
   {
     "comuna": "Chépica",
     "region": "O Higgins",
-    "total": 9,
-    "bcn": 9,
+    "total": 8,
+    "bcn": 8,
     "municipal": 0,
     "status": "Cargado BCN",
     "lat": -34.7333,
     "lon": -71.2833,
     "topics": {
-      "normativa_general": 2,
-      "general": 2,
+      "organizacion_participacion": 3,
       "derechos_tarifas": 5
     }
   },
@@ -2901,15 +2710,13 @@
     "lat": -34.7083,
     "lon": -71.0444,
     "topics": {
-      "general": 11,
-      "normativa_general": 6,
+      "organizacion_participacion": 17,
       "derechos_tarifas": 17,
-      "medio_ambiente": 1,
+      "medio_ambiente": 2,
       "transito_transporte": 3,
-      "convivencia_seguridad": 3,
-      "alcoholes_comercio": 3,
-      "tenencia_mascotas": 1,
-      "aseo_medioambiente": 1
+      "convivencia_ruidos": 3,
+      "comercio_publicidad": 3,
+      "aseo_residuos": 1
     }
   },
   {
@@ -2922,7 +2729,7 @@
     "lat": -34.7333,
     "lon": -71.65,
     "topics": {
-      "general": 1,
+      "organizacion_participacion": 1,
       "derechos_tarifas": 7,
       "medio_ambiente": 1,
       "aseo_residuos": 2
@@ -2938,10 +2745,9 @@
     "lat": -34.6667,
     "lon": -71.2167,
     "topics": {
-      "general": 1,
-      "normativa_general": 4,
-      "derechos_tarifas": 6,
-      "comercio_patentes": 1
+      "organizacion_participacion": 4,
+      "derechos_tarifas": 7,
+      "comercio_publicidad": 1
     }
   },
   {
@@ -2955,10 +2761,9 @@
     "lon": -71.3667,
     "topics": {
       "derechos_tarifas": 3,
-      "normativa_general": 5,
+      "organizacion_participacion": 7,
       "aseo_residuos": 1,
-      "seguridad_convivencia": 1,
-      "general": 2
+      "seguridad_prevencion": 1
     }
   },
   {
@@ -2971,10 +2776,10 @@
     "lat": -34.4833,
     "lon": -71.4833,
     "topics": {
-      "general": 2,
+      "organizacion_participacion": 2,
       "derechos_tarifas": 2,
       "aseo_residuos": 2,
-      "comercio_patentes": 1
+      "comercio_publicidad": 1
     }
   },
   {
@@ -2987,9 +2792,8 @@
     "lat": -34.6333,
     "lon": -71.1167,
     "topics": {
-      "general": 1,
-      "derechos_tarifas": 9,
-      "normativa_general": 2
+      "organizacion_participacion": 3,
+      "derechos_tarifas": 9
     }
   },
   {
@@ -3015,33 +2819,28 @@
     "lat": -34.6333,
     "lon": -71.3667,
     "topics": {
-      "comercio_patentes": 1,
+      "comercio_publicidad": 1,
       "medio_ambiente": 1,
       "derechos_tarifas": 6,
-      "normativa_general": 5
+      "organizacion_participacion": 5
     }
   },
   {
     "comuna": "Talca",
     "region": "Maule",
-    "total": 41,
-    "bcn": 40,
+    "total": 19,
+    "bcn": 18,
     "municipal": 1,
     "status": "BCN + Municipalidad verificada",
     "lat": -35.4264,
     "lon": -71.6556,
     "topics": {
-      "urbanismo_obras": 2,
-      "comercio_alcoholes": 2,
-      "aseo_medioambiente": 1,
-      "general": 3,
-      "transito_transporte": 4,
-      "social_salud_deporte": 1,
-      "derechos_tarifas": 17,
-      "seguridad_convivencia": 1,
-      "normativa_general": 8,
+      "obras_espacio_publico": 2,
+      "derechos_tarifas": 7,
+      "organizacion_participacion": 7,
       "aseo_residuos": 1,
-      "convivencia_seguridad": 1
+      "convivencia_ruidos": 1,
+      "comercio_publicidad": 1
     }
   },
   {
@@ -3054,12 +2853,11 @@
     "lat": -35.3333,
     "lon": -72.4167,
     "topics": {
-      "convivencia_seguridad": 1,
-      "tenencia_mascotas": 1,
+      "convivencia_ruidos": 1,
+      "medio_ambiente": 1,
       "derechos_tarifas": 5,
-      "comercio_patentes": 2,
-      "normativa_general": 5,
-      "social_salud_deporte": 1
+      "comercio_publicidad": 2,
+      "organizacion_participacion": 6
     }
   },
   {
@@ -3072,9 +2870,9 @@
     "lat": -35.0833,
     "lon": -72.0167,
     "topics": {
-      "normativa_general": 1,
+      "organizacion_participacion": 1,
       "derechos_tarifas": 6,
-      "aseo_medioambiente": 1
+      "aseo_residuos": 1
     }
   },
   {
@@ -3087,11 +2885,10 @@
     "lat": -35.6,
     "lon": -72.2833,
     "topics": {
-      "tenencia_mascotas": 1,
-      "general": 6,
-      "alcoholes_comercio": 1,
-      "aseo_medioambiente": 1,
-      "normativa_general": 2,
+      "medio_ambiente": 1,
+      "organizacion_participacion": 8,
+      "comercio_publicidad": 1,
+      "aseo_residuos": 1,
       "derechos_tarifas": 1
     }
   },
@@ -3106,7 +2903,7 @@
     "lon": -71.7,
     "topics": {
       "derechos_tarifas": 4,
-      "urbanismo_obras": 2
+      "obras_espacio_publico": 2
     }
   },
   {
@@ -3119,12 +2916,10 @@
     "lat": -35.3833,
     "lon": -71.45,
     "topics": {
-      "tenencia_mascotas": 1,
-      "normativa_general": 4,
+      "medio_ambiente": 2,
+      "organizacion_participacion": 5,
       "derechos_tarifas": 6,
-      "comercio_patentes": 1,
-      "medio_ambiente": 1,
-      "general": 1
+      "comercio_publicidad": 1
     }
   },
   {
@@ -3137,8 +2932,8 @@
     "lat": -35.3833,
     "lon": -71.8167,
     "topics": {
-      "general": 1,
-      "urbanismo_obras": 2
+      "organizacion_participacion": 1,
+      "obras_espacio_publico": 2
     }
   },
   {
@@ -3151,11 +2946,11 @@
     "lat": -35.1833,
     "lon": -71.2667,
     "topics": {
-      "normativa_general": 4,
-      "aseo_medioambiente": 1,
-      "tenencia_mascotas": 2,
+      "organizacion_participacion": 4,
+      "aseo_residuos": 1,
+      "medio_ambiente": 2,
       "derechos_tarifas": 9,
-      "comercio_patentes": 1
+      "comercio_publicidad": 1
     }
   },
   {
@@ -3169,11 +2964,10 @@
     "lon": -71.4833,
     "topics": {
       "derechos_tarifas": 11,
-      "general": 5,
-      "aseo_medioambiente": 1,
-      "urbanismo_obras": 1,
-      "alcoholes_comercio": 1,
-      "normativa_general": 1
+      "organizacion_participacion": 6,
+      "aseo_residuos": 1,
+      "obras_espacio_publico": 1,
+      "comercio_publicidad": 1
     }
   },
   {
@@ -3186,10 +2980,8 @@
     "lat": -35.3167,
     "lon": -71.5167,
     "topics": {
-      "normativa_general": 1,
-      "comercio_alcoholes_ferias": 2,
-      "comercio_patentes": 1,
-      "general": 1
+      "organizacion_participacion": 2,
+      "comercio_publicidad": 3
     }
   },
   {
@@ -3202,13 +2994,12 @@
     "lat": -35.9667,
     "lon": -72.3167,
     "topics": {
-      "urbanismo_obras": 1,
-      "normativa_general": 2,
+      "obras_espacio_publico": 1,
+      "organizacion_participacion": 4,
       "medio_ambiente": 1,
       "derechos_tarifas": 8,
       "transito_transporte": 1,
-      "aseo_residuos": 1,
-      "general": 2
+      "aseo_residuos": 1
     }
   },
   {
@@ -3222,7 +3013,7 @@
     "lon": -72.5333,
     "topics": {
       "derechos_tarifas": 8,
-      "normativa_general": 1
+      "organizacion_participacion": 1
     }
   },
   {
@@ -3235,10 +3026,10 @@
     "lat": -35.8167,
     "lon": -72.5667,
     "topics": {
-      "urbanismo_obras": 1,
+      "obras_espacio_publico": 1,
       "derechos_tarifas": 2,
-      "aseo_medioambiente": 1,
-      "seguridad_convivencia": 1
+      "aseo_residuos": 1,
+      "seguridad_prevencion": 1
     }
   },
   {
@@ -3251,9 +3042,8 @@
     "lat": -34.9833,
     "lon": -71.2333,
     "topics": {
-      "urbanismo_obras": 1,
-      "normativa_general": 3,
-      "general": 1,
+      "obras_espacio_publico": 1,
+      "organizacion_participacion": 4,
       "transito_transporte": 2,
       "derechos_tarifas": 15
     }
@@ -3268,10 +3058,9 @@
     "lat": -34.9833,
     "lon": -71.8,
     "topics": {
-      "general": 22,
-      "normativa_general": 5,
-      "comercio_patentes": 1,
-      "derechos_tarifas": 7
+      "organizacion_participacion": 26,
+      "comercio_publicidad": 1,
+      "derechos_tarifas": 8
     }
   },
   {
@@ -3285,8 +3074,8 @@
     "lon": -72.0,
     "topics": {
       "derechos_tarifas": 12,
-      "comercio_alcoholes": 1,
-      "normativa_general": 2
+      "comercio_publicidad": 1,
+      "organizacion_participacion": 2
     }
   },
   {
@@ -3299,31 +3088,24 @@
     "lat": -35.1167,
     "lon": -71.2833,
     "topics": {
-      "desarrollo_social": 1,
-      "general": 1,
-      "normativa_general": 6,
-      "comercio_patentes": 1,
-      "convivencia_seguridad": 1,
+      "organizacion_participacion": 8,
+      "comercio_publicidad": 1,
+      "convivencia_ruidos": 1,
       "derechos_tarifas": 7
     }
   },
   {
     "comuna": "Rauco",
     "region": "Maule",
-    "total": 16,
-    "bcn": 16,
+    "total": 7,
+    "bcn": 7,
     "municipal": 0,
     "status": "Cargado BCN",
     "lat": -34.9167,
     "lon": -71.3167,
     "topics": {
-      "social_salud_deporte": 2,
-      "transito_transporte": 2,
       "derechos_tarifas": 5,
-      "normativa_general": 2,
-      "general": 2,
-      "aseo_medioambiente": 2,
-      "comercio_alcoholes": 1
+      "organizacion_participacion": 2
     }
   },
   {
@@ -3336,12 +3118,12 @@
     "lat": -34.9667,
     "lon": -71.1333,
     "topics": {
-      "general": 14,
-      "urbanismo_obras": 3,
-      "aseo_medioambiente": 1,
+      "organizacion_participacion": 18,
+      "obras_espacio_publico": 3,
+      "aseo_residuos": 1,
+      "comercio_publicidad": 1,
       "derechos_tarifas": 5,
-      "medio_ambiente": 1,
-      "normativa_general": 5
+      "medio_ambiente": 1
     }
   },
   {
@@ -3355,7 +3137,7 @@
     "lon": -71.3833,
     "topics": {
       "derechos_tarifas": 10,
-      "normativa_general": 3
+      "organizacion_participacion": 3
     }
   },
   {
@@ -3368,7 +3150,7 @@
     "lat": -34.8667,
     "lon": -71.1667,
     "topics": {
-      "normativa_general": 3,
+      "organizacion_participacion": 3,
       "derechos_tarifas": 5
     }
   },
@@ -3382,28 +3164,26 @@
     "lat": -34.8833,
     "lon": -72.0,
     "topics": {
-      "aseo_medioambiente": 1,
+      "aseo_residuos": 1,
       "medio_ambiente": 1,
       "derechos_tarifas": 5,
-      "normativa_general": 1
+      "organizacion_participacion": 1
     }
   },
   {
     "comuna": "Linares",
     "region": "Maule",
-    "total": 28,
+    "total": 26,
     "bcn": 21,
-    "municipal": 7,
+    "municipal": 5,
     "status": "BCN + Municipalidad verificada",
     "lat": -35.85,
     "lon": -71.6,
     "topics": {
       "derechos_tarifas": 13,
-      "comercio_patentes": 3,
-      "normativa_general": 5,
-      "transito_transporte": 1,
-      "alcoholes_comercio": 1,
-      "general": 5
+      "comercio_publicidad": 4,
+      "organizacion_participacion": 8,
+      "transito_transporte": 1
     }
   },
   {
@@ -3416,11 +3196,10 @@
     "lat": -35.7,
     "lon": -71.4167,
     "topics": {
-      "general": 14,
-      "tenencia_mascotas": 2,
-      "urbanismo_obras": 1,
-      "normativa_general": 3,
-      "derechos_tarifas": 1
+      "organizacion_participacion": 16,
+      "medio_ambiente": 2,
+      "obras_espacio_publico": 1,
+      "derechos_tarifas": 2
     }
   },
   {
@@ -3433,8 +3212,8 @@
     "lat": -35.9667,
     "lon": -71.6833,
     "topics": {
-      "normativa_general": 2,
-      "convivencia_seguridad": 1,
+      "organizacion_participacion": 2,
+      "convivencia_ruidos": 1,
       "derechos_tarifas": 3
     }
   },
@@ -3448,10 +3227,9 @@
     "lat": -36.1428,
     "lon": -71.825,
     "topics": {
-      "general": 6,
+      "organizacion_participacion": 8,
       "derechos_tarifas": 15,
-      "comercio_alcoholes": 1,
-      "normativa_general": 2
+      "comercio_publicidad": 1
     }
   },
   {
@@ -3465,12 +3243,10 @@
     "lon": -71.7667,
     "topics": {
       "derechos_tarifas": 8,
-      "comercio_patentes": 2,
-      "aseo_medioambiente": 2,
-      "normativa_general": 1,
-      "tenencia_mascotas": 1,
-      "general": 2,
-      "alcoholes_comercio": 1
+      "comercio_publicidad": 3,
+      "aseo_residuos": 2,
+      "organizacion_participacion": 3,
+      "medio_ambiente": 1
     }
   },
   {
@@ -3484,7 +3260,7 @@
     "lon": -71.7333,
     "topics": {
       "derechos_tarifas": 4,
-      "normativa_general": 5,
+      "organizacion_participacion": 5,
       "aseo_residuos": 1
     }
   },
@@ -3498,7 +3274,7 @@
     "lat": -35.6667,
     "lon": -71.75,
     "topics": {
-      "general": 1,
+      "organizacion_participacion": 1,
       "derechos_tarifas": 3
     }
   },
@@ -3512,25 +3288,24 @@
     "lat": -35.75,
     "lon": -71.5833,
     "topics": {
-      "normativa_general": 1,
-      "social_salud_deporte": 1,
+      "organizacion_participacion": 2,
       "derechos_tarifas": 4,
-      "comercio_patentes": 1
+      "comercio_publicidad": 1
     }
   },
   {
     "comuna": "Chillán",
     "region": "Ñuble",
-    "total": 22,
-    "bcn": 21,
+    "total": 23,
+    "bcn": 22,
     "municipal": 1,
     "status": "BCN + Municipalidad verificada",
     "lat": -36.6067,
     "lon": -72.1033,
     "topics": {
       "derechos_tarifas": 19,
-      "medio_ambiente": 1,
-      "normativa_general": 2
+      "organizacion_participacion": 3,
+      "medio_ambiente": 1
     }
   },
   {
@@ -3543,8 +3318,8 @@
     "lat": -36.7417,
     "lon": -72.2986,
     "topics": {
-      "normativa_general": 2,
-      "derechos_tarifas": 6
+      "derechos_tarifas": 7,
+      "organizacion_participacion": 1
     }
   },
   {
@@ -3557,10 +3332,9 @@
     "lat": -36.1333,
     "lon": -72.7833,
     "topics": {
-      "general": 9,
-      "normativa_general": 1,
+      "organizacion_participacion": 10,
       "derechos_tarifas": 1,
-      "aseo_medioambiente": 1
+      "aseo_residuos": 1
     }
   },
   {
@@ -3573,11 +3347,9 @@
     "lat": -36.4833,
     "lon": -72.7,
     "topics": {
-      "rentas_patentes": 1,
-      "comercio_patentes": 1,
+      "comercio_publicidad": 3,
       "derechos_tarifas": 3,
-      "comercio_alcoholes": 1,
-      "normativa_general": 1
+      "organizacion_participacion": 1
     }
   },
   {
@@ -3590,10 +3362,9 @@
     "lat": -36.6167,
     "lon": -71.8333,
     "topics": {
-      "general": 4,
+      "organizacion_participacion": 8,
       "aseo_residuos": 1,
-      "normativa_general": 4,
-      "comercio_patentes": 3,
+      "comercio_publicidad": 3,
       "derechos_tarifas": 15,
       "transito_transporte": 1
     }
@@ -3601,34 +3372,32 @@
   {
     "comuna": "Chillán Viejo",
     "region": "Ñuble",
-    "total": 4,
-    "bcn": 2,
+    "total": 2,
+    "bcn": 0,
     "municipal": 2,
-    "status": "BCN + Municipalidad verificada",
+    "status": "Municipalidad verificada",
     "lat": -36.6233,
     "lon": -72.1333,
     "topics": {
-      "normativa_general": 1,
-      "seguridad_convivencia": 1,
-      "derechos_tarifas": 2
+      "seguridad_prevencion": 1,
+      "derechos_tarifas": 1
     }
   },
   {
     "comuna": "El Carmen",
     "region": "Ñuble",
-    "total": 19,
-    "bcn": 7,
+    "total": 18,
+    "bcn": 6,
     "municipal": 12,
     "status": "BCN + Municipalidad verificada",
     "lat": -36.8972,
     "lon": -72.0278,
     "topics": {
-      "general": 10,
-      "comercio_alcoholes": 1,
+      "organizacion_participacion": 9,
+      "comercio_publicidad": 1,
       "derechos_tarifas": 5,
-      "aseo_medioambiente": 1,
-      "seguridad_convivencia": 1,
-      "transito_transporte": 1
+      "seguridad_prevencion": 1,
+      "transito_transporte": 2
     }
   },
   {
@@ -3642,7 +3411,7 @@
     "lon": -72.3986,
     "topics": {
       "derechos_tarifas": 3,
-      "normativa_general": 1
+      "organizacion_participacion": 1
     }
   },
   {
@@ -3656,8 +3425,8 @@
     "lon": -71.9,
     "topics": {
       "derechos_tarifas": 1,
-      "normativa_general": 1,
-      "urbanismo_obras": 1
+      "organizacion_participacion": 1,
+      "obras_espacio_publico": 1
     }
   },
   {
@@ -3670,25 +3439,23 @@
     "lat": -36.975,
     "lon": -72.0972,
     "topics": {
-      "general": 2,
-      "normativa_general": 2,
+      "organizacion_participacion": 4,
       "derechos_tarifas": 1
     }
   },
   {
     "comuna": "Pinto",
     "region": "Ñuble",
-    "total": 14,
-    "bcn": 9,
+    "total": 11,
+    "bcn": 6,
     "municipal": 5,
     "status": "BCN + Municipalidad verificada",
     "lat": -36.7,
     "lon": -71.9,
     "topics": {
-      "normativa_general": 5,
-      "derechos_tarifas": 2,
-      "general": 5,
-      "aseo_medioambiente": 2
+      "organizacion_participacion": 9,
+      "derechos_tarifas": 1,
+      "aseo_residuos": 1
     }
   },
   {
@@ -3701,8 +3468,7 @@
     "lat": -36.5333,
     "lon": -72.4333,
     "topics": {
-      "derechos_tarifas": 4,
-      "normativa_general": 2
+      "derechos_tarifas": 6
     }
   },
   {
@@ -3715,12 +3481,10 @@
     "lat": -36.7444,
     "lon": -72.4764,
     "topics": {
-      "general": 2,
-      "tenencia_mascotas": 1,
-      "normativa_general": 8,
-      "derechos_tarifas": 8,
-      "comercio_patentes": 1,
-      "administracion_interna": 1,
+      "organizacion_participacion": 10,
+      "medio_ambiente": 1,
+      "derechos_tarifas": 9,
+      "comercio_publicidad": 1,
       "aseo_residuos": 1
     }
   },
@@ -3734,11 +3498,10 @@
     "lat": -36.2833,
     "lon": -72.5333,
     "topics": {
-      "normativa_general": 3,
+      "organizacion_participacion": 4,
       "transito_transporte": 1,
       "derechos_tarifas": 3,
-      "participacion_ciudadana": 1,
-      "aseo_medioambiente": 1
+      "aseo_residuos": 1
     }
   },
   {
@@ -3751,10 +3514,9 @@
     "lat": -36.65,
     "lon": -72.5667,
     "topics": {
-      "normativa_general": 1,
+      "organizacion_participacion": 2,
       "derechos_tarifas": 4,
-      "aseo_residuos": 1,
-      "general": 1
+      "aseo_residuos": 1
     }
   },
   {
@@ -3767,13 +3529,12 @@
     "lat": -36.4239,
     "lon": -71.9583,
     "topics": {
-      "urbanismo_obras": 2,
-      "normativa_general": 5,
-      "comercio_patentes": 1,
+      "obras_espacio_publico": 2,
+      "organizacion_participacion": 6,
+      "comercio_publicidad": 1,
       "derechos_tarifas": 5,
       "transito_transporte": 1,
-      "general": 1,
-      "aseo_medioambiente": 1
+      "aseo_residuos": 1
     }
   },
   {
@@ -3787,7 +3548,7 @@
     "lon": -71.55,
     "topics": {
       "derechos_tarifas": 3,
-      "normativa_general": 1
+      "organizacion_participacion": 1
     }
   },
   {
@@ -3800,15 +3561,13 @@
     "lat": -36.7833,
     "lon": -72.0333,
     "topics": {
-      "general": 1,
-      "rentas_patentes": 2,
-      "urbanismo_obras": 1,
-      "tenencia_mascotas": 1,
+      "organizacion_participacion": 4,
+      "comercio_publicidad": 4,
+      "obras_espacio_publico": 1,
+      "medio_ambiente": 1,
       "derechos_tarifas": 8,
       "transito_transporte": 2,
-      "comercio_patentes": 2,
-      "aseo_residuos": 1,
-      "normativa_general": 3
+      "aseo_residuos": 1
     }
   },
   {
@@ -3821,9 +3580,8 @@
     "lat": -36.5,
     "lon": -72.2167,
     "topics": {
-      "general": 32,
-      "derechos_tarifas": 3,
-      "normativa_general": 2
+      "organizacion_participacion": 34,
+      "derechos_tarifas": 3
     }
   },
   {
@@ -3836,10 +3594,9 @@
     "lat": -36.4333,
     "lon": -72.6667,
     "topics": {
-      "normativa_general": 1,
+      "organizacion_participacion": 3,
       "aseo_residuos": 1,
-      "transito_transporte": 1,
-      "general": 2
+      "transito_transporte": 1
     }
   },
   {
@@ -3853,7 +3610,7 @@
     "lon": -72.0167,
     "topics": {
       "derechos_tarifas": 9,
-      "normativa_general": 2
+      "organizacion_participacion": 2
     }
   },
   {
@@ -3867,14 +3624,11 @@
     "lon": -73.0503,
     "topics": {
       "derechos_tarifas": 21,
-      "normativa_general": 3,
+      "organizacion_participacion": 11,
       "transito_transporte": 9,
-      "administracion_interna": 1,
-      "comercio_alcoholes": 9,
-      "general": 8,
-      "urbanismo_obras": 6,
-      "comercio_patentes": 2,
-      "convivencia_seguridad": 1
+      "comercio_publicidad": 11,
+      "obras_espacio_publico": 7,
+      "convivencia_ruidos": 1
     }
   },
   {
@@ -3887,13 +3641,11 @@
     "lat": -37.0167,
     "lon": -73.1333,
     "topics": {
-      "social_salud_deporte": 1,
-      "aseo_medioambiente": 1,
-      "urbanismo_obras": 3,
-      "normativa_general": 3,
+      "organizacion_participacion": 9,
+      "aseo_residuos": 1,
+      "obras_espacio_publico": 3,
       "derechos_tarifas": 16,
-      "comercio_alcoholes": 2,
-      "general": 5
+      "comercio_publicidad": 2
     }
   },
   {
@@ -3906,34 +3658,24 @@
     "lat": -36.9167,
     "lon": -73.0167,
     "topics": {
-      "urbanismo_obras": 3,
-      "alcoholes_comercio": 1,
-      "convivencia_seguridad": 1
+      "obras_espacio_publico": 3,
+      "comercio_publicidad": 1,
+      "convivencia_ruidos": 1
     }
   },
   {
     "comuna": "Florida",
     "region": "Biobío",
-    "total": 62,
-    "bcn": 60,
+    "total": 14,
+    "bcn": 12,
     "municipal": 2,
     "status": "BCN + Municipalidad verificada",
     "lat": -36.8167,
     "lon": -72.7,
     "topics": {
-      "alcoholes_comercio": 2,
-      "comercio_alcoholes": 18,
-      "derechos_tarifas": 22,
-      "aseo_medioambiente": 1,
-      "mascotas_animales": 1,
-      "transito_transporte": 3,
-      "administracion_interna": 3,
-      "seguridad_convivencia": 2,
-      "normativa_general": 3,
-      "social_salud_deporte": 1,
-      "general": 2,
-      "urbanismo_obras": 3,
-      "comercio_patentes": 1
+      "comercio_publicidad": 3,
+      "organizacion_participacion": 5,
+      "derechos_tarifas": 6
     }
   },
   {
@@ -3947,7 +3689,8 @@
     "lon": -72.9333,
     "topics": {
       "derechos_tarifas": 13,
-      "normativa_general": 3
+      "medio_ambiente": 1,
+      "organizacion_participacion": 2
     }
   },
   {
@@ -3960,14 +3703,11 @@
     "lat": -37.0833,
     "lon": -73.15,
     "topics": {
-      "social_salud_deporte": 2,
-      "comercio_patentes": 5,
-      "urbanismo_obras": 3,
-      "normativa_general": 3,
-      "general": 1,
-      "mascotas_animales": 1,
+      "organizacion_participacion": 6,
+      "comercio_publicidad": 7,
+      "obras_espacio_publico": 3,
+      "medio_ambiente": 1,
       "derechos_tarifas": 21,
-      "comercio_alcoholes": 2,
       "aseo_residuos": 1
     }
   },
@@ -3981,7 +3721,7 @@
     "lat": -36.7333,
     "lon": -72.9833,
     "topics": {
-      "tenencia_mascotas": 1,
+      "medio_ambiente": 1,
       "derechos_tarifas": 5
     }
   },
@@ -3995,11 +3735,11 @@
     "lat": -36.85,
     "lon": -73.1,
     "topics": {
-      "aseo_medioambiente": 1,
-      "urbanismo_obras": 1,
-      "seguridad_convivencia": 1,
-      "mascotas_animales": 1,
-      "normativa_general": 2
+      "aseo_residuos": 1,
+      "obras_espacio_publico": 1,
+      "seguridad_prevencion": 1,
+      "medio_ambiente": 1,
+      "organizacion_participacion": 2
     }
   },
   {
@@ -4012,9 +3752,9 @@
     "lat": -37.1667,
     "lon": -72.9333,
     "topics": {
-      "social_salud_deporte": 1,
-      "normativa_general": 2,
-      "convivencia_seguridad": 1,
+      "organizacion_participacion": 2,
+      "obras_espacio_publico": 1,
+      "convivencia_ruidos": 1,
       "derechos_tarifas": 2
     }
   },
@@ -4028,14 +3768,12 @@
     "lat": -36.7167,
     "lon": -73.1167,
     "topics": {
-      "comercio_alcoholes": 3,
+      "comercio_publicidad": 5,
       "derechos_tarifas": 12,
       "transito_transporte": 5,
-      "comercio_patentes": 2,
-      "aseo_medioambiente": 1,
-      "general": 3,
-      "social_salud_deporte": 1,
-      "seguridad_convivencia": 1
+      "aseo_residuos": 1,
+      "organizacion_participacion": 4,
+      "seguridad_prevencion": 1
     }
   },
   {
@@ -4048,31 +3786,30 @@
     "lat": -36.6167,
     "lon": -72.95,
     "topics": {
-      "normativa_general": 6,
-      "aseo_medioambiente": 1,
+      "organizacion_participacion": 6,
+      "aseo_residuos": 1,
       "medio_ambiente": 1,
-      "comercio_patentes": 2,
+      "comercio_publicidad": 2,
       "derechos_tarifas": 3,
-      "general": 1
+      "obras_espacio_publico": 1
     }
   },
   {
     "comuna": "Hualpén",
     "region": "Biobío",
-    "total": 43,
+    "total": 37,
     "bcn": 0,
-    "municipal": 43,
+    "municipal": 37,
     "status": "Municipalidad verificada",
     "lat": -36.7833,
     "lon": -73.1,
     "topics": {
       "derechos_tarifas": 4,
-      "general": 24,
-      "aseo_medioambiente": 5,
-      "alcoholes_comercio": 5,
-      "convivencia_ruidos": 1,
-      "urbanismo_obras": 3,
-      "mascotas": 1
+      "organizacion_participacion": 19,
+      "aseo_residuos": 4,
+      "comercio_publicidad": 4,
+      "obras_espacio_publico": 5,
+      "medio_ambiente": 1
     }
   },
   {
@@ -4085,8 +3822,7 @@
     "lat": -37.6083,
     "lon": -73.6556,
     "topics": {
-      "derechos_municipales": 1,
-      "derechos_tarifas": 5
+      "derechos_tarifas": 6
     }
   },
   {
@@ -4099,18 +3835,14 @@
     "lat": -37.2472,
     "lon": -73.3167,
     "topics": {
-      "social_salud_deporte": 3,
-      "convivencia_seguridad": 3,
+      "organizacion_participacion": 7,
+      "convivencia_ruidos": 3,
       "derechos_tarifas": 12,
-      "comercio_patentes": 4,
+      "comercio_publicidad": 5,
       "transito_transporte": 2,
-      "normativa_general": 2,
-      "tenencia_mascotas": 1,
-      "medio_ambiente": 1,
-      "urbanismo_obras": 1,
-      "general": 2,
-      "aseo_medioambiente": 2,
-      "comercio_alcoholes": 1
+      "medio_ambiente": 2,
+      "obras_espacio_publico": 1,
+      "aseo_residuos": 2
     }
   },
   {
@@ -4123,10 +3855,9 @@
     "lat": -37.8,
     "lon": -73.4,
     "topics": {
-      "tenencia_responsable_mascotas": 1,
-      "normativa_general": 3,
-      "derechos_tarifas": 2,
-      "general": 1
+      "medio_ambiente": 1,
+      "organizacion_participacion": 4,
+      "derechos_tarifas": 2
     }
   },
   {
@@ -4139,10 +3870,9 @@
     "lat": -38.0167,
     "lon": -73.2333,
     "topics": {
-      "normativa_general": 2,
+      "organizacion_participacion": 3,
       "derechos_tarifas": 4,
-      "aseo_residuos": 1,
-      "general": 1
+      "aseo_residuos": 1
     }
   },
   {
@@ -4156,9 +3886,9 @@
     "lon": -73.35,
     "topics": {
       "transito_transporte": 2,
-      "comercio_patentes": 3,
-      "normativa_general": 9,
-      "derechos_tarifas": 8,
+      "comercio_publicidad": 3,
+      "organizacion_participacion": 8,
+      "derechos_tarifas": 9,
       "aseo_residuos": 1
     }
   },
@@ -4172,12 +3902,11 @@
     "lat": -37.6167,
     "lon": -73.4667,
     "topics": {
-      "comercio_patentes": 3,
-      "normativa_general": 2,
-      "convivencia_seguridad": 1,
+      "comercio_publicidad": 3,
+      "organizacion_participacion": 3,
+      "convivencia_ruidos": 1,
       "transito_transporte": 2,
-      "urbanismo_obras": 1,
-      "administracion_interna": 1,
+      "obras_espacio_publico": 1,
       "derechos_tarifas": 3
     }
   },
@@ -4192,7 +3921,7 @@
     "lon": -73.5,
     "topics": {
       "derechos_tarifas": 3,
-      "normativa_general": 1
+      "organizacion_participacion": 1
     }
   },
   {
@@ -4205,13 +3934,12 @@
     "lat": -37.4697,
     "lon": -72.3536,
     "topics": {
-      "general": 1,
-      "tenencia_mascotas": 2,
-      "convivencia_seguridad": 1,
+      "organizacion_participacion": 9,
+      "medio_ambiente": 3,
+      "convivencia_ruidos": 1,
       "transito_transporte": 1,
-      "normativa_general": 10,
       "derechos_tarifas": 3,
-      "medio_ambiente": 1
+      "obras_espacio_publico": 2
     }
   },
   {
@@ -4225,7 +3953,7 @@
     "lon": -71.6833,
     "topics": {
       "derechos_tarifas": 5,
-      "mascotas_animales": 1
+      "medio_ambiente": 1
     }
   },
   {
@@ -4238,10 +3966,10 @@
     "lat": -37.0333,
     "lon": -72.4,
     "topics": {
-      "seguridad_convivencia": 1,
-      "comercio_patentes": 1,
+      "seguridad_prevencion": 1,
+      "comercio_publicidad": 1,
       "derechos_tarifas": 5,
-      "normativa_general": 3
+      "organizacion_participacion": 3
     }
   },
   {
@@ -4254,9 +3982,9 @@
     "lat": -37.2833,
     "lon": -72.7,
     "topics": {
-      "tenencia_mascotas": 1,
-      "normativa_general": 5,
-      "comercio_alcoholes": 1,
+      "medio_ambiente": 1,
+      "organizacion_participacion": 5,
+      "comercio_publicidad": 1,
       "derechos_tarifas": 7
     }
   },
@@ -4270,12 +3998,11 @@
     "lat": -37.7167,
     "lon": -72.2333,
     "topics": {
-      "comercio_patentes": 2,
+      "comercio_publicidad": 2,
       "medio_ambiente": 2,
-      "normativa_general": 5,
-      "aseo_medioambiente": 1,
-      "participacion_ciudadana": 1,
-      "derechos_tarifas": 10
+      "organizacion_participacion": 5,
+      "aseo_residuos": 1,
+      "derechos_tarifas": 11
     }
   },
   {
@@ -4288,11 +4015,10 @@
     "lat": -37.5,
     "lon": -72.6667,
     "topics": {
-      "comercio_patentes": 1,
-      "normativa_general": 2,
+      "comercio_publicidad": 1,
+      "organizacion_participacion": 3,
       "aseo_residuos": 1,
-      "derechos_tarifas": 4,
-      "social_salud_deporte": 1
+      "derechos_tarifas": 4
     }
   },
   {
@@ -4306,10 +4032,10 @@
     "lon": -72.5333,
     "topics": {
       "derechos_tarifas": 5,
-      "urbanismo_obras": 1,
+      "obras_espacio_publico": 1,
       "medio_ambiente": 1,
-      "normativa_general": 3,
-      "comercio_patentes": 1
+      "organizacion_participacion": 3,
+      "comercio_publicidad": 1
     }
   },
   {
@@ -4322,7 +4048,7 @@
     "lat": -37.6667,
     "lon": -71.9833,
     "topics": {
-      "general": 1,
+      "organizacion_participacion": 1,
       "derechos_tarifas": 3
     }
   },
@@ -4337,7 +4063,7 @@
     "lon": -71.9667,
     "topics": {
       "derechos_tarifas": 4,
-      "normativa_general": 1
+      "organizacion_participacion": 1
     }
   },
   {
@@ -4350,8 +4076,8 @@
     "lat": -37.2667,
     "lon": -72.7167,
     "topics": {
-      "aseo_medioambiente": 1,
-      "normativa_general": 1,
+      "aseo_residuos": 1,
+      "organizacion_participacion": 1,
       "derechos_tarifas": 2
     }
   },
@@ -4366,8 +4092,8 @@
     "lon": -72.0167,
     "topics": {
       "derechos_tarifas": 6,
-      "comercio_alcoholes": 1,
-      "normativa_general": 1
+      "comercio_publicidad": 1,
+      "organizacion_participacion": 1
     }
   },
   {
@@ -4380,10 +4106,9 @@
     "lat": -37.2833,
     "lon": -71.95,
     "topics": {
-      "general": 8,
-      "normativa_general": 6,
+      "organizacion_participacion": 14,
       "derechos_tarifas": 5,
-      "aseo_medioambiente": 2
+      "aseo_residuos": 2
     }
   },
   {
@@ -4396,9 +4121,9 @@
     "lat": -37.0833,
     "lon": -72.5667,
     "topics": {
-      "normativa_general": 5,
-      "urbanismo_obras": 1,
-      "derechos_tarifas": 2,
+      "organizacion_participacion": 4,
+      "obras_espacio_publico": 1,
+      "derechos_tarifas": 3,
       "transito_transporte": 1
     }
   },
@@ -4412,10 +4137,9 @@
     "lat": -38.0333,
     "lon": -71.3667,
     "topics": {
-      "general": 2,
+      "organizacion_participacion": 3,
       "derechos_tarifas": 3,
-      "medio_ambiente": 2,
-      "salud_higiene": 1
+      "medio_ambiente": 2
     }
   },
   {
@@ -4428,18 +4152,15 @@
     "lat": -38.7397,
     "lon": -72.5986,
     "topics": {
-      "general": 85,
+      "organizacion_participacion": 85,
       "derechos_tarifas": 9,
-      "normativa_general": 2,
-      "tenencia_mascotas": 1,
-      "comercio_alcoholes": 1,
+      "medio_ambiente": 1,
+      "comercio_publicidad": 3,
       "transito_transporte": 2,
-      "administracion_interna": 1,
-      "convivencia_seguridad": 1,
-      "aseo_medioambiente": 1,
-      "urbanismo_obras": 2,
-      "alcoholes_comercio": 1,
-      "seguridad_convivencia": 1
+      "convivencia_ruidos": 2,
+      "aseo_residuos": 2,
+      "obras_espacio_publico": 2,
+      "seguridad_prevencion": 1
     }
   },
   {
@@ -4452,11 +4173,10 @@
     "lat": -38.7,
     "lon": -73.1667,
     "topics": {
-      "tenencia_mascotas": 1,
-      "general": 1,
-      "seguridad_convivencia": 1,
-      "derechos_tarifas": 7,
-      "normativa_general": 3
+      "medio_ambiente": 1,
+      "organizacion_participacion": 4,
+      "seguridad_prevencion": 1,
+      "derechos_tarifas": 7
     }
   },
   {
@@ -4482,14 +4202,12 @@
     "lat": -39.35,
     "lon": -71.5833,
     "topics": {
-      "general": 17,
-      "alcoholes_comercio": 2,
-      "aseo_medioambiente": 2,
+      "organizacion_participacion": 22,
+      "comercio_publicidad": 4,
+      "aseo_residuos": 2,
       "transito_transporte": 1,
       "derechos_tarifas": 2,
-      "comercio_patentes": 2,
-      "normativa_general": 5,
-      "tenencia_mascotas": 1
+      "medio_ambiente": 1
     }
   },
   {
@@ -4504,8 +4222,8 @@
     "topics": {
       "derechos_tarifas": 4,
       "medio_ambiente": 1,
-      "comercio_alcoholes": 1,
-      "normativa_general": 4
+      "comercio_publicidad": 1,
+      "organizacion_participacion": 4
     }
   },
   {
@@ -4518,9 +4236,8 @@
     "lat": -38.4,
     "lon": -72.7833,
     "topics": {
-      "general": 1,
-      "derechos_tarifas": 15,
-      "normativa_general": 1
+      "organizacion_participacion": 2,
+      "derechos_tarifas": 15
     }
   },
   {
@@ -4533,12 +4250,9 @@
     "lat": -39.1,
     "lon": -72.6833,
     "topics": {
-      "administracion_interna": 1,
-      "general": 6,
+      "organizacion_participacion": 9,
       "derechos_tarifas": 17,
-      "aseo_medioambiente": 1,
-      "normativa_general": 2,
-      "aseo_residuos": 1
+      "aseo_residuos": 2
     }
   },
   {
@@ -4551,16 +4265,12 @@
     "lat": -38.5333,
     "lon": -72.45,
     "topics": {
-      "rentas_patentes": 3,
-      "transito": 3,
-      "participacion_comunitaria": 1,
-      "alcoholes": 1,
-      "aseo_medioambiente": 1,
-      "urbanismo_obras": 1,
-      "derechos_tarifas": 17,
-      "comercio_alcoholes": 1,
-      "normativa_general": 3,
-      "aseo_residuos": 1
+      "comercio_publicidad": 5,
+      "transito_transporte": 3,
+      "organizacion_participacion": 4,
+      "aseo_residuos": 2,
+      "obras_espacio_publico": 1,
+      "derechos_tarifas": 17
     }
   },
   {
@@ -4574,8 +4284,7 @@
     "lon": -72.6333,
     "topics": {
       "derechos_tarifas": 10,
-      "general": 1,
-      "normativa_general": 1
+      "organizacion_participacion": 2
     }
   },
   {
@@ -4588,10 +4297,8 @@
     "lat": -38.85,
     "lon": -71.7,
     "topics": {
-      "comercio_alcoholes": 1,
-      "social_salud_deporte": 1,
-      "normativa_general": 1,
-      "general": 1,
+      "comercio_publicidad": 1,
+      "organizacion_participacion": 3,
       "derechos_tarifas": 6
     }
   },
@@ -4618,10 +4325,9 @@
     "lat": -38.7667,
     "lon": -72.6,
     "topics": {
-      "comercio_alcoholes": 2,
-      "comercio_patentes": 1,
-      "general": 4,
-      "aseo_medioambiente": 1
+      "comercio_publicidad": 3,
+      "organizacion_participacion": 4,
+      "aseo_residuos": 1
     }
   },
   {
@@ -4634,10 +4340,10 @@
     "lat": -38.4167,
     "lon": -72.3833,
     "topics": {
-      "general": 15,
+      "organizacion_participacion": 15,
       "derechos_tarifas": 10,
-      "alcoholes_comercio": 2,
-      "tenencia_mascotas": 1
+      "comercio_publicidad": 2,
+      "medio_ambiente": 1
     }
   },
   {
@@ -4650,9 +4356,9 @@
     "lat": -38.9833,
     "lon": -72.65,
     "topics": {
-      "normativa_general": 1,
+      "organizacion_participacion": 1,
       "derechos_tarifas": 7,
-      "tenencia_mascotas": 1
+      "medio_ambiente": 1
     }
   },
   {
@@ -4665,13 +4371,11 @@
     "lat": -39.2833,
     "lon": -71.9667,
     "topics": {
-      "participacion_comunitaria": 1,
-      "comercio_patentes": 1,
-      "general": 1,
+      "organizacion_participacion": 3,
+      "comercio_publicidad": 1,
       "transito_transporte": 1,
       "aseo_residuos": 1,
-      "derechos_tarifas": 4,
-      "normativa_general": 1
+      "derechos_tarifas": 4
     }
   },
   {
@@ -4684,10 +4388,9 @@
     "lat": -38.7833,
     "lon": -73.3833,
     "topics": {
-      "general": 4,
-      "aseo_medioambiente": 2,
-      "tenencia_mascotas": 1,
-      "normativa_general": 2,
+      "organizacion_participacion": 6,
+      "aseo_residuos": 2,
+      "medio_ambiente": 1,
       "derechos_tarifas": 1
     }
   },
@@ -4702,10 +4405,8 @@
     "lon": -73.05,
     "topics": {
       "derechos_tarifas": 8,
-      "administracion_interna": 1,
-      "general": 3,
-      "normativa_general": 2,
-      "aseo_medioambiente": 1
+      "organizacion_participacion": 6,
+      "aseo_residuos": 1
     }
   },
   {
@@ -4718,8 +4419,8 @@
     "lat": -39.2167,
     "lon": -73.1833,
     "topics": {
-      "derechos_tarifas": 4,
-      "normativa_general": 5
+      "derechos_tarifas": 5,
+      "organizacion_participacion": 4
     }
   },
   {
@@ -4734,8 +4435,7 @@
     "topics": {
       "derechos_tarifas": 5,
       "aseo_residuos": 1,
-      "normativa_general": 2,
-      "general": 1
+      "organizacion_participacion": 3
     }
   },
   {
@@ -4748,8 +4448,7 @@
     "lat": -39.2833,
     "lon": -72.2333,
     "topics": {
-      "general": 9,
-      "normativa_general": 4,
+      "organizacion_participacion": 13,
       "derechos_tarifas": 3
     }
   },
@@ -4763,7 +4462,7 @@
     "lat": -38.6,
     "lon": -72.85,
     "topics": {
-      "aseo_medioambiente": 2
+      "aseo_residuos": 2
     }
   },
   {
@@ -4776,11 +4475,10 @@
     "lat": -37.8,
     "lon": -72.7167,
     "topics": {
-      "comercio_patentes": 3,
-      "urbanismo_obras": 1,
-      "normativa_general": 4,
-      "derechos_tarifas": 3,
-      "alcoholes_comercio": 1
+      "comercio_publicidad": 4,
+      "obras_espacio_publico": 1,
+      "organizacion_participacion": 4,
+      "derechos_tarifas": 3
     }
   },
   {
@@ -4793,11 +4491,10 @@
     "lat": -37.95,
     "lon": -72.4333,
     "topics": {
-      "tenencia_mascotas": 1,
-      "general": 10,
-      "social_salud_deporte": 1,
+      "medio_ambiente": 1,
+      "organizacion_participacion": 11,
       "derechos_tarifas": 6,
-      "comercio_alcoholes": 1
+      "comercio_publicidad": 1
     }
   },
   {
@@ -4823,7 +4520,7 @@
     "lat": -38.05,
     "lon": -72.4833,
     "topics": {
-      "general": 3,
+      "organizacion_participacion": 3,
       "derechos_tarifas": 10
     }
   },
@@ -4837,11 +4534,10 @@
     "lat": -38.45,
     "lon": -71.3667,
     "topics": {
-      "normativa_general": 2,
-      "convivencia_seguridad": 1,
-      "derechos_tarifas": 5,
+      "derechos_tarifas": 7,
+      "convivencia_ruidos": 1,
       "transito_transporte": 1,
-      "general": 1
+      "organizacion_participacion": 1
     }
   },
   {
@@ -4854,10 +4550,9 @@
     "lat": -37.9667,
     "lon": -72.8333,
     "topics": {
-      "general": 1,
-      "comercio_alcoholes": 2,
-      "derechos_tarifas": 7,
-      "normativa_general": 3
+      "organizacion_participacion": 3,
+      "comercio_publicidad": 2,
+      "derechos_tarifas": 8
     }
   },
   {
@@ -4870,9 +4565,8 @@
     "lat": -38.15,
     "lon": -72.9167,
     "topics": {
-      "administracion_interna": 1,
-      "derechos_tarifas": 10,
-      "general": 2
+      "organizacion_participacion": 3,
+      "derechos_tarifas": 10
     }
   },
   {
@@ -4885,9 +4579,9 @@
     "lat": -38.0333,
     "lon": -73.0833,
     "topics": {
-      "general": 1,
-      "urbanismo_obras": 1,
-      "comercio_patentes": 1,
+      "organizacion_participacion": 1,
+      "obras_espacio_publico": 1,
+      "comercio_publicidad": 1,
       "derechos_tarifas": 5,
       "transito_transporte": 1
     }
@@ -4915,13 +4609,10 @@
     "lat": -38.25,
     "lon": -72.6833,
     "topics": {
-      "normativa_general": 2,
+      "organizacion_participacion": 12,
       "transito_transporte": 2,
       "derechos_tarifas": 13,
-      "mascotas_animales": 1,
-      "tenencia_mascotas": 1,
-      "general": 9,
-      "social_salud_deporte": 1
+      "medio_ambiente": 2
     }
   },
   {
@@ -4934,10 +4625,9 @@
     "lat": -38.2333,
     "lon": -72.3333,
     "topics": {
-      "normativa_general": 1,
+      "organizacion_participacion": 2,
       "transito_transporte": 2,
-      "derechos_tarifas": 3,
-      "general": 1
+      "derechos_tarifas": 3
     }
   },
   {
@@ -4950,13 +4640,12 @@
     "lat": -39.8142,
     "lon": -73.2459,
     "topics": {
-      "aseo_medioambiente": 2,
+      "aseo_residuos": 3,
       "transito_transporte": 4,
-      "normativa_general": 3,
-      "comercio_patentes": 1,
-      "derechos_tarifas": 12,
-      "aseo_residuos": 1,
-      "general": 2
+      "organizacion_participacion": 4,
+      "medio_ambiente": 1,
+      "comercio_publicidad": 1,
+      "derechos_tarifas": 12
     }
   },
   {
@@ -4970,8 +4659,8 @@
     "lon": -73.4333,
     "topics": {
       "derechos_tarifas": 2,
-      "normativa_general": 1,
-      "comercio_alcoholes": 1
+      "organizacion_participacion": 1,
+      "comercio_publicidad": 1
     }
   },
   {
@@ -4984,8 +4673,8 @@
     "lat": -39.45,
     "lon": -72.7833,
     "topics": {
-      "general": 3,
-      "alcoholes_comercio": 1,
+      "organizacion_participacion": 3,
+      "comercio_publicidad": 1,
       "derechos_tarifas": 1,
       "aseo_residuos": 1
     }
@@ -5000,12 +4689,11 @@
     "lat": -39.85,
     "lon": -72.8333,
     "topics": {
-      "general": 3,
-      "aseo_medioambiente": 2,
+      "organizacion_participacion": 4,
+      "aseo_residuos": 2,
       "derechos_tarifas": 9,
-      "normativa_general": 1,
-      "comercio_patentes": 1,
-      "tenencia_mascotas": 1
+      "comercio_publicidad": 1,
+      "medio_ambiente": 1
     }
   },
   {
@@ -5018,8 +4706,8 @@
     "lat": -39.65,
     "lon": -72.95,
     "topics": {
-      "aseo_medioambiente": 2,
-      "normativa_general": 2
+      "aseo_residuos": 2,
+      "organizacion_participacion": 2
     }
   },
   {
@@ -5034,8 +4722,8 @@
     "topics": {
       "derechos_tarifas": 1,
       "medio_ambiente": 1,
-      "obras_urbanismo": 2,
-      "normativa_general": 2
+      "obras_espacio_publico": 2,
+      "organizacion_participacion": 2
     }
   },
   {
@@ -5049,14 +4737,13 @@
     "lon": -72.8833,
     "topics": {
       "transito_transporte": 1,
-      "general": 3,
+      "organizacion_participacion": 5,
       "derechos_tarifas": 4,
-      "alcoholes_comercio": 3,
-      "urbanismo_obras": 2,
-      "seguridad_convivencia": 1,
-      "aseo_medioambiente": 3,
-      "tenencia_mascotas": 1,
-      "normativa_general": 2
+      "comercio_publicidad": 3,
+      "obras_espacio_publico": 2,
+      "seguridad_prevencion": 1,
+      "aseo_residuos": 3,
+      "medio_ambiente": 1
     }
   },
   {
@@ -5070,11 +4757,10 @@
     "lon": -72.3333,
     "topics": {
       "derechos_tarifas": 4,
-      "normativa_general": 3,
+      "organizacion_participacion": 8,
       "transito_transporte": 1,
-      "general": 5,
-      "comercio_alcoholes": 2,
-      "urbanismo_obras": 1
+      "comercio_publicidad": 2,
+      "obras_espacio_publico": 1
     }
   },
   {
@@ -5087,8 +4773,8 @@
     "lat": -40.2833,
     "lon": -73.0833,
     "topics": {
-      "comercio_alcoholes": 1,
-      "normativa_general": 2,
+      "comercio_publicidad": 1,
+      "organizacion_participacion": 2,
       "derechos_tarifas": 4,
       "medio_ambiente": 1
     }
@@ -5104,8 +4790,8 @@
     "lon": -72.4,
     "topics": {
       "derechos_tarifas": 2,
-      "urbanismo_obras": 1,
-      "general": 4
+      "obras_espacio_publico": 1,
+      "organizacion_participacion": 4
     }
   },
   {
@@ -5118,8 +4804,7 @@
     "lat": -40.3167,
     "lon": -72.4833,
     "topics": {
-      "normativa_general": 1,
-      "general": 1,
+      "organizacion_participacion": 2,
       "derechos_tarifas": 4,
       "aseo_residuos": 1
     }
@@ -5134,12 +4819,11 @@
     "lat": -40.3333,
     "lon": -72.9667,
     "topics": {
-      "tenencia_mascotas": 1,
-      "urbanismo_obras": 1,
-      "comercio_patentes": 2,
+      "medio_ambiente": 1,
+      "obras_espacio_publico": 1,
+      "comercio_publicidad": 3,
       "derechos_tarifas": 5,
-      "normativa_general": 7,
-      "comercio_alcoholes": 1
+      "organizacion_participacion": 7
     }
   },
   {
@@ -5152,12 +4836,10 @@
     "lat": -41.4717,
     "lon": -72.9369,
     "topics": {
-      "tenencia_mascotas": 1,
-      "general": 7,
-      "comercio_alcoholes": 3,
-      "administracion_interna": 1,
-      "normativa_general": 4,
-      "aseo_medioambiente": 1,
+      "medio_ambiente": 1,
+      "organizacion_participacion": 12,
+      "comercio_publicidad": 3,
+      "aseo_residuos": 1,
       "transito_transporte": 4,
       "derechos_tarifas": 11
     }
@@ -5172,16 +4854,13 @@
     "lat": -41.7667,
     "lon": -73.1333,
     "topics": {
-      "general": 56,
-      "normativa_general": 5,
+      "organizacion_participacion": 61,
+      "comercio_publicidad": 3,
       "transito_transporte": 2,
       "medio_ambiente": 1,
-      "comercio_alcoholes": 1,
-      "administracion_interna": 1,
       "derechos_tarifas": 4,
-      "convivencia_seguridad": 1,
-      "aseo_medioambiente": 4,
-      "alcoholes_comercio": 1
+      "convivencia_ruidos": 1,
+      "aseo_residuos": 4
     }
   },
   {
@@ -5194,7 +4873,7 @@
     "lat": -41.4833,
     "lon": -72.3,
     "topics": {
-      "normativa_general": 3,
+      "organizacion_participacion": 3,
       "transito_transporte": 1,
       "aseo_residuos": 2,
       "derechos_tarifas": 1
@@ -5210,13 +4889,11 @@
     "lat": -41.15,
     "lon": -73.4167,
     "topics": {
-      "general": 1,
-      "convivencia_seguridad": 1,
+      "organizacion_participacion": 2,
+      "convivencia_ruidos": 1,
       "transito_transporte": 1,
-      "normativa_general": 1,
       "derechos_tarifas": 5,
-      "comercio_patentes": 1,
-      "comercio_alcoholes": 1
+      "comercio_publicidad": 2
     }
   },
   {
@@ -5229,11 +4906,9 @@
     "lat": -41.1333,
     "lon": -73.05,
     "topics": {
-      "general": 1,
-      "tenencia_mascotas": 1,
-      "normativa_general": 2,
-      "urbanismo_obras": 1,
-      "medio_ambiente": 1,
+      "organizacion_participacion": 3,
+      "medio_ambiente": 2,
+      "obras_espacio_publico": 1,
       "derechos_tarifas": 1
     }
   },
@@ -5247,8 +4922,7 @@
     "lat": -41.4,
     "lon": -73.4833,
     "topics": {
-      "normativa_general": 3,
-      "general": 1,
+      "organizacion_participacion": 4,
       "derechos_tarifas": 3
     }
   },
@@ -5263,9 +4937,9 @@
     "lon": -73.0,
     "topics": {
       "derechos_tarifas": 10,
-      "tenencia_mascotas": 1,
-      "aseo_medioambiente": 1,
-      "normativa_general": 1
+      "medio_ambiente": 1,
+      "aseo_residuos": 1,
+      "organizacion_participacion": 1
     }
   },
   {
@@ -5278,12 +4952,11 @@
     "lat": -41.6167,
     "lon": -73.6,
     "topics": {
-      "general": 6,
-      "alcoholes_comercio": 1,
-      "normativa_general": 5,
+      "organizacion_participacion": 11,
+      "comercio_publicidad": 1,
       "derechos_tarifas": 6,
       "aseo_residuos": 2,
-      "urbanismo_obras": 1
+      "obras_espacio_publico": 1
     }
   },
   {
@@ -5297,8 +4970,8 @@
     "lon": -72.9833,
     "topics": {
       "medio_ambiente": 1,
-      "normativa_general": 3,
-      "comercio_patentes": 1,
+      "organizacion_participacion": 3,
+      "comercio_publicidad": 1,
       "derechos_tarifas": 2
     }
   },
@@ -5312,12 +4985,11 @@
     "lat": -42.4722,
     "lon": -73.7731,
     "topics": {
-      "urbanismo_obras": 1,
+      "obras_espacio_publico": 1,
       "derechos_tarifas": 3,
-      "comercio_alcoholes": 2,
-      "aseo_residuos": 1,
-      "aseo_medioambiente": 1,
-      "general": 1
+      "comercio_publicidad": 2,
+      "aseo_residuos": 2,
+      "organizacion_participacion": 1
     }
   },
   {
@@ -5330,9 +5002,8 @@
     "lat": -41.8667,
     "lon": -73.8333,
     "topics": {
-      "tenencia_mascotas": 1,
-      "mascotas_animales": 1,
-      "normativa_general": 6,
+      "medio_ambiente": 2,
+      "organizacion_participacion": 6,
       "derechos_tarifas": 2
     }
   },
@@ -5346,12 +5017,11 @@
     "lat": -42.6167,
     "lon": -73.7833,
     "topics": {
-      "general": 10,
-      "tenencia_mascotas": 1,
-      "aseo_medioambiente": 1,
-      "alcoholes_comercio": 2,
-      "derechos_tarifas": 4,
-      "normativa_general": 3
+      "organizacion_participacion": 13,
+      "medio_ambiente": 1,
+      "aseo_residuos": 1,
+      "comercio_publicidad": 2,
+      "derechos_tarifas": 4
     }
   },
   {
@@ -5364,25 +5034,26 @@
     "lat": -42.4333,
     "lon": -73.6,
     "topics": {
-      "comercio_alcoholes": 1,
-      "normativa_general": 7,
-      "derechos_tarifas": 6
+      "comercio_publicidad": 1,
+      "organizacion_participacion": 6,
+      "derechos_tarifas": 6,
+      "medio_ambiente": 1
     }
   },
   {
     "comuna": "Dalcahue",
     "region": "Los Lagos",
-    "total": 44,
+    "total": 43,
     "bcn": 2,
-    "municipal": 42,
+    "municipal": 41,
     "status": "BCN + Municipalidad verificada",
     "lat": -42.3667,
     "lon": -73.65,
     "topics": {
-      "general": 33,
-      "alcoholes_comercio": 6,
+      "organizacion_participacion": 31,
+      "comercio_publicidad": 7,
       "derechos_tarifas": 3,
-      "aseo_medioambiente": 2
+      "aseo_residuos": 2
     }
   },
   {
@@ -5395,8 +5066,8 @@
     "lat": -42.6,
     "lon": -73.6667,
     "topics": {
-      "aseo_medioambiente": 1,
-      "general": 2,
+      "aseo_residuos": 1,
+      "organizacion_participacion": 2,
       "derechos_tarifas": 1
     }
   },
@@ -5410,12 +5081,11 @@
     "lat": -42.8833,
     "lon": -73.4833,
     "topics": {
-      "aseo_medioambiente": 3,
+      "aseo_residuos": 3,
       "derechos_tarifas": 7,
-      "general": 9,
-      "tenencia_mascotas": 1,
-      "comercio_patentes": 1,
-      "normativa_general": 2
+      "organizacion_participacion": 11,
+      "medio_ambiente": 1,
+      "comercio_publicidad": 1
     }
   },
   {
@@ -5428,13 +5098,12 @@
     "lat": -43.1167,
     "lon": -73.6167,
     "topics": {
-      "comercio_patentes": 1,
-      "normativa_general": 1,
+      "comercio_publicidad": 2,
+      "organizacion_participacion": 6,
       "derechos_tarifas": 6,
-      "comercio_alcoholes": 1,
-      "general": 7,
-      "aseo_medioambiente": 1,
-      "tenencia_mascotas": 1
+      "obras_espacio_publico": 2,
+      "aseo_residuos": 1,
+      "medio_ambiente": 1
     }
   },
   {
@@ -5448,7 +5117,7 @@
     "lon": -73.4833,
     "topics": {
       "derechos_tarifas": 4,
-      "general": 1
+      "organizacion_participacion": 1
     }
   },
   {
@@ -5461,13 +5130,10 @@
     "lat": -42.4667,
     "lon": -73.4833,
     "topics": {
-      "participacion_comunitaria": 1,
-      "rentas_patentes": 1,
+      "organizacion_participacion": 8,
+      "comercio_publicidad": 2,
       "aseo_residuos": 1,
-      "urbanismo_obras": 1,
-      "comercio_patentes": 1,
-      "general": 1,
-      "normativa_general": 6
+      "obras_espacio_publico": 1
     }
   },
   {
@@ -5480,14 +5146,13 @@
     "lat": -40.5744,
     "lon": -73.1328,
     "topics": {
-      "comercio_alcoholes": 8,
-      "aseo_medioambiente": 1,
-      "general": 6,
-      "derechos_tarifas": 20,
-      "normativa_general": 4,
-      "mascotas_animales": 1,
+      "comercio_publicidad": 8,
+      "aseo_residuos": 1,
+      "organizacion_participacion": 9,
+      "derechos_tarifas": 21,
+      "medio_ambiente": 1,
       "transito_transporte": 3,
-      "urbanismo_obras": 1
+      "obras_espacio_publico": 1
     }
   },
   {
@@ -5500,9 +5165,8 @@
     "lat": -40.9667,
     "lon": -72.8833,
     "topics": {
-      "normativa_general": 1,
-      "aseo_medioambiente": 1,
-      "aseo_residuos": 1,
+      "organizacion_participacion": 1,
+      "aseo_residuos": 2,
       "derechos_tarifas": 1
     }
   },
@@ -5516,10 +5180,10 @@
     "lat": -40.9167,
     "lon": -73.1667,
     "topics": {
-      "general": 6,
-      "urbanismo_obras": 1,
+      "organizacion_participacion": 6,
+      "obras_espacio_publico": 1,
       "derechos_tarifas": 5,
-      "comercio_alcoholes": 1,
+      "comercio_publicidad": 1,
       "aseo_residuos": 2
     }
   },
@@ -5533,7 +5197,7 @@
     "lat": -40.6833,
     "lon": -72.6,
     "topics": {
-      "normativa_general": 1,
+      "comercio_publicidad": 1,
       "derechos_tarifas": 3
     }
   },
@@ -5561,24 +5225,23 @@
     "lat": -40.5167,
     "lon": -73.5333,
     "topics": {
-      "normativa_general": 1,
+      "organizacion_participacion": 1,
       "derechos_tarifas": 2,
-      "tenencia_mascotas": 1
+      "medio_ambiente": 1
     }
   },
   {
     "comuna": "San Pablo",
     "region": "Los Lagos",
-    "total": 17,
+    "total": 16,
     "bcn": 15,
-    "municipal": 2,
+    "municipal": 1,
     "status": "BCN + Municipalidad verificada",
     "lat": -40.4,
     "lon": -73.0167,
     "topics": {
-      "seguridad_convivencia": 1,
       "derechos_tarifas": 13,
-      "normativa_general": 3
+      "organizacion_participacion": 3
     }
   },
   {
@@ -5592,8 +5255,8 @@
     "lon": -72.7,
     "topics": {
       "derechos_tarifas": 1,
-      "normativa_general": 1,
-      "aseo_medioambiente": 1
+      "organizacion_participacion": 1,
+      "aseo_residuos": 1
     }
   },
   {
@@ -5606,8 +5269,8 @@
     "lat": -43.1833,
     "lon": -71.8667,
     "topics": {
-      "general": 1,
-      "alcoholes_comercio": 1,
+      "organizacion_participacion": 1,
+      "comercio_publicidad": 1,
       "transito_transporte": 1,
       "aseo_residuos": 1,
       "derechos_tarifas": 2
@@ -5623,12 +5286,10 @@
     "lat": -41.9833,
     "lon": -72.6833,
     "topics": {
-      "alcoholes_comercio": 1,
-      "general": 2,
-      "aseo_medioambiente": 1,
-      "normativa_general": 2,
+      "comercio_publicidad": 3,
+      "organizacion_participacion": 4,
+      "aseo_residuos": 1,
       "derechos_tarifas": 2,
-      "comercio_alcoholes": 2,
       "transito_transporte": 2
     }
   },
@@ -5642,8 +5303,8 @@
     "lat": -43.6167,
     "lon": -71.8,
     "topics": {
-      "general": 1,
-      "mascotas_animales": 1,
+      "organizacion_participacion": 1,
+      "medio_ambiente": 1,
       "derechos_tarifas": 3,
       "aseo_residuos": 1
     }
@@ -5658,12 +5319,11 @@
     "lat": -45.5752,
     "lon": -72.0662,
     "topics": {
-      "aseo_medioambiente": 3,
-      "comercio_alcoholes": 2,
+      "aseo_residuos": 3,
+      "comercio_publicidad": 2,
       "transito_transporte": 1,
-      "normativa_general": 1,
-      "urbanismo_obras": 7,
-      "general": 4,
+      "organizacion_participacion": 5,
+      "obras_espacio_publico": 7,
       "derechos_tarifas": 14
     }
   },
@@ -5678,7 +5338,7 @@
     "lon": -71.85,
     "topics": {
       "derechos_tarifas": 4,
-      "normativa_general": 1
+      "organizacion_participacion": 1
     }
   },
   {
@@ -5691,11 +5351,12 @@
     "lat": -45.4,
     "lon": -72.7,
     "topics": {
-      "general": 13,
-      "alcoholes_comercio": 1,
+      "organizacion_participacion": 12,
+      "comercio_publicidad": 1,
       "derechos_tarifas": 3,
-      "aseo_medioambiente": 2,
-      "urbanismo_obras": 1
+      "transito_transporte": 1,
+      "aseo_residuos": 2,
+      "obras_espacio_publico": 1
     }
   },
   {
@@ -5709,7 +5370,7 @@
     "lon": -72.7,
     "topics": {
       "derechos_tarifas": 4,
-      "normativa_general": 1
+      "organizacion_participacion": 1
     }
   },
   {
@@ -5722,9 +5383,8 @@
     "lat": -43.8833,
     "lon": -73.75,
     "topics": {
-      "general": 1,
-      "normativa_general": 2,
-      "derechos_tarifas": 4
+      "organizacion_participacion": 1,
+      "derechos_tarifas": 6
     }
   },
   {
@@ -5737,9 +5397,9 @@
     "lat": -47.25,
     "lon": -72.5667,
     "topics": {
-      "comercio_patentes": 1,
+      "comercio_publicidad": 1,
       "derechos_tarifas": 2,
-      "normativa_general": 1
+      "organizacion_participacion": 1
     }
   },
   {
@@ -5752,9 +5412,9 @@
     "lat": -48.4667,
     "lon": -72.5667,
     "topics": {
-      "aseo_medioambiente": 1,
-      "seguridad_convivencia": 1,
-      "comercio_alcoholes_ferias": 1,
+      "aseo_residuos": 1,
+      "seguridad_prevencion": 1,
+      "comercio_publicidad": 1,
       "derechos_tarifas": 1
     }
   },
@@ -5768,9 +5428,8 @@
     "lat": -47.8,
     "lon": -73.5333,
     "topics": {
-      "tenencia_mascotas": 1,
-      "general": 3,
-      "normativa_general": 3,
+      "medio_ambiente": 2,
+      "organizacion_participacion": 5,
       "transito_transporte": 1,
       "derechos_tarifas": 1
     }
@@ -5785,12 +5444,12 @@
     "lat": -46.5333,
     "lon": -71.7167,
     "topics": {
-      "normativa_general": 1,
-      "tenencia_mascotas": 1,
+      "organizacion_participacion": 1,
+      "medio_ambiente": 1,
       "derechos_tarifas": 4,
       "transito_transporte": 1,
-      "convivencia_seguridad": 1,
-      "comercio_alcoholes": 1
+      "convivencia_ruidos": 1,
+      "comercio_publicidad": 1
     }
   },
   {
@@ -5803,8 +5462,8 @@
     "lat": -46.2833,
     "lon": -71.95,
     "topics": {
-      "alcoholes_comercio": 1,
-      "normativa_general": 3,
+      "comercio_publicidad": 1,
+      "organizacion_participacion": 3,
       "derechos_tarifas": 3
     }
   },
@@ -5818,13 +5477,13 @@
     "lat": -53.1638,
     "lon": -70.9171,
     "topics": {
-      "normativa_general": 14,
-      "comercio_patentes": 7,
-      "convivencia_seguridad": 2,
+      "organizacion_participacion": 12,
+      "comercio_publicidad": 8,
+      "derechos_tarifas": 13,
+      "convivencia_ruidos": 2,
       "transito_transporte": 1,
-      "tenencia_mascotas": 1,
-      "derechos_tarifas": 12,
-      "urbanismo_obras": 3
+      "medio_ambiente": 1,
+      "obras_espacio_publico": 3
     }
   },
   {
@@ -5838,7 +5497,7 @@
     "lon": -71.4167,
     "topics": {
       "derechos_tarifas": 3,
-      "general": 1
+      "organizacion_participacion": 1
     }
   },
   {
@@ -5853,7 +5512,7 @@
     "topics": {
       "derechos_tarifas": 1,
       "transito_transporte": 1,
-      "normativa_general": 3
+      "organizacion_participacion": 3
     }
   },
   {
@@ -5866,10 +5525,11 @@
     "lat": -52.5667,
     "lon": -70.0833,
     "topics": {
-      "general": 5,
-      "tenencia_mascotas": 1,
+      "organizacion_participacion": 4,
+      "medio_ambiente": 1,
+      "seguridad_prevencion": 1,
       "derechos_tarifas": 2,
-      "urbanismo_obras": 1,
+      "obras_espacio_publico": 1,
       "transito_transporte": 1
     }
   },
@@ -5886,9 +5546,9 @@
       "derechos_tarifas": 6,
       "aseo_residuos": 1,
       "transito_transporte": 1,
-      "tenencia_mascotas": 1,
-      "urbanismo_obras": 1,
-      "general": 1
+      "medio_ambiente": 1,
+      "obras_espacio_publico": 1,
+      "organizacion_participacion": 1
     }
   },
   {
@@ -5914,7 +5574,7 @@
     "lat": -53.3,
     "lon": -70.3667,
     "topics": {
-      "general": 3,
+      "organizacion_participacion": 3,
       "derechos_tarifas": 3
     }
   },
@@ -5929,7 +5589,7 @@
     "lon": -69.25,
     "topics": {
       "derechos_tarifas": 2,
-      "normativa_general": 4
+      "organizacion_participacion": 4
     }
   },
   {
@@ -5943,7 +5603,7 @@
     "lon": -69.75,
     "topics": {
       "derechos_tarifas": 1,
-      "normativa_general": 1
+      "organizacion_participacion": 1
     }
   },
   {
@@ -5956,32 +5616,28 @@
     "lat": -51.7333,
     "lon": -72.5167,
     "topics": {
-      "rentas_patentes": 1,
-      "aseo_medioambiente": 1,
-      "transito": 1,
-      "tenencia_mascotas": 1,
-      "normativa_general": 6,
-      "general": 1,
-      "aseo_residuos": 1,
+      "comercio_publicidad": 1,
+      "aseo_residuos": 2,
+      "transito_transporte": 1,
+      "medio_ambiente": 1,
+      "organizacion_participacion": 7,
       "derechos_tarifas": 2,
-      "urbanismo_obras": 1
+      "obras_espacio_publico": 1
     }
   },
   {
     "comuna": "Torres del Paine",
     "region": "Magallanes",
-    "total": 9,
-    "bcn": 7,
+    "total": 5,
+    "bcn": 3,
     "municipal": 2,
     "status": "BCN + Municipalidad verificada",
     "lat": -51.25,
     "lon": -72.8833,
     "topics": {
-      "organizacion_interna": 1,
-      "aseo_medioambiente": 1,
-      "normativa_general": 1,
-      "derechos_tarifas": 4,
-      "general": 2
+      "organizacion_participacion": 2,
+      "aseo_residuos": 1,
+      "derechos_tarifas": 2
     }
   }
 ]

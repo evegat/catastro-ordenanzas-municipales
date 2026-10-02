@@ -78,6 +78,171 @@ def load_verified_municipal(path: Path) -> list[dict]:
     return records
 
 
+CANONICAL_AXES = {
+    "aseo_residuos": {
+        "nombre": "Aseo, Ornato y Gestión de Residuos",
+        "color": "emerald",
+        "icono": "trash-2",
+        "badge_bg": "bg-emerald-500/10",
+        "badge_text": "text-emerald-400",
+        "badge_border": "border-emerald-500/30"
+    },
+    "comercio_publicidad": {
+        "nombre": "Comercio, Vía Pública y Publicidad",
+        "color": "sky",
+        "icono": "store",
+        "badge_bg": "bg-sky-500/10",
+        "badge_text": "text-sky-400",
+        "badge_border": "border-sky-500/30"
+    },
+    "convivencia_ruidos": {
+        "nombre": "Convivencia Vecinal y Ruidos Molestos",
+        "color": "rose",
+        "icono": "volume-2",
+        "badge_bg": "bg-rose-500/10",
+        "badge_text": "text-rose-400",
+        "badge_border": "border-rose-500/30"
+    },
+    "derechos_tarifas": {
+        "nombre": "Derechos, Tarifas y Concesiones Municipales",
+        "color": "indigo",
+        "icono": "badge-dollar-sign",
+        "badge_bg": "bg-indigo-500/10",
+        "badge_text": "text-indigo-400",
+        "badge_border": "border-indigo-500/30"
+    },
+    "medio_ambiente": {
+        "nombre": "Medio Ambiente, Humedales y Tenencia Responsable",
+        "color": "teal",
+        "icono": "leaf",
+        "badge_bg": "bg-teal-500/10",
+        "badge_text": "text-teal-400",
+        "badge_border": "border-teal-500/30"
+    },
+    "obras_espacio_publico": {
+        "nombre": "Obras, Urbanismo y Espacio Público",
+        "color": "orange",
+        "icono": "building",
+        "badge_bg": "bg-orange-500/10",
+        "badge_text": "text-orange-400",
+        "badge_border": "border-orange-500/30"
+    },
+    "organizacion_participacion": {
+        "nombre": "Organización Interna y Participación Ciudadana",
+        "color": "zinc",
+        "icono": "landmark",
+        "badge_bg": "bg-zinc-800",
+        "badge_text": "text-zinc-300",
+        "badge_border": "border-zinc-700"
+    },
+    "transito_transporte": {
+        "nombre": "Tránsito, Transporte y Estacionamientos",
+        "color": "amber",
+        "icono": "car",
+        "badge_bg": "bg-amber-500/10",
+        "badge_text": "text-amber-400",
+        "badge_border": "border-amber-500/30"
+    },
+    "seguridad_prevencion": {
+        "nombre": "Seguridad Ciudadana y Prevención",
+        "color": "purple",
+        "icono": "shield",
+        "badge_bg": "bg-purple-500/10",
+        "badge_text": "text-purple-400",
+        "badge_border": "border-purple-500/30"
+    }
+}
+
+LABEL_MAPPING = {
+    "Derechos Municipales y Tarifas": "derechos_tarifas",
+    "Derechos Municipales y cobro de tarifas": "derechos_tarifas",
+    "Derechos, Tarifas y Concesiones Municipales": "derechos_tarifas",
+    "Comercio, Alcoholes y Patentes": "comercio_publicidad",
+    "Comercio, Vía Pública y Patentes": "comercio_publicidad",
+    "Patentes, Comercio y Alcoholes": "comercio_publicidad",
+    "Comercio, Rentas y Patentes": "comercio_publicidad",
+    "Comercio, Alcoholes y Ferias": "comercio_publicidad",
+    "Alcoholes y Seguridad Ciudadana": "comercio_publicidad",
+    "Comercio, Vía Pública y Publicidad": "comercio_publicidad",
+    "Aseo, Ornato y Gestión de Residuos": "aseo_residuos",
+    "Aseo, Ornato y Medio Ambiente": "aseo_residuos",
+    "Medio Ambiente y Aseo": "aseo_residuos",
+    "Medio Ambiente y Sustentabilidad": "medio_ambiente",
+    "Medio ambiente, protección de humedales urbanos y biodiversidad": "medio_ambiente",
+    "Tenencia Responsable de Mascotas": "medio_ambiente",
+    "Tenencia Responsable y Mascotas": "medio_ambiente",
+    "Tenencia responsable de mascotas y bienestar animal": "medio_ambiente",
+    "Medio Ambiente, Humedales y Tenencia Responsable": "medio_ambiente",
+    "Tránsito y Transporte": "transito_transporte",
+    "Tránsito, Transporte y Estacionamientos": "transito_transporte",
+    "Tránsito, Transporte y Espacio Público": "transito_transporte",
+    "Urbanismo, Obras y Edificación": "obras_espacio_publico",
+    "Urbanismo, Obras y Construcción": "obras_espacio_publico",
+    "Obras, Urbanismo y Espacio Público": "obras_espacio_publico",
+    "Plan Regulador y Obras": "obras_espacio_publico",
+    "Urbanismo, Obras y Plan Regulador": "obras_espacio_publico",
+    "Convivencia Vecinal y Ruidos Molestos": "convivencia_ruidos",
+    "Convivencia Vecinal y Seguridad": "convivencia_ruidos",
+    "Normas Sanitarias y Convivencia": "convivencia_ruidos",
+    "Seguridad y Convivencia": "seguridad_prevencion",
+    "Seguridad Ciudadana y Convivencia": "seguridad_prevencion",
+    "Seguridad Ciudadana y Prevención": "seguridad_prevencion",
+    "Organización y Régimen Interno": "organizacion_participacion",
+    "Organización Interna y Personal": "organizacion_participacion",
+    "Subvenciones y Régimen Interno": "organizacion_participacion",
+    "Subvenciones, aportes y fomento comunitario": "organizacion_participacion",
+    "Participación Ciudadana": "organizacion_participacion",
+    "Participación y Organizaciones Comunitarias": "organizacion_participacion",
+    "Participación Ciudadana y Gobernanza Local": "organizacion_participacion",
+    "Salud, Deporte y Desarrollo Social": "organizacion_participacion",
+    "Salud, Higiene y Bienestar Social": "organizacion_participacion",
+    "Educación, Becas y Desarrollo Social": "organizacion_participacion",
+    "Desarrollo Social y Grupos Prioritarios": "organizacion_participacion",
+    "Organización Interna y Participación Ciudadana": "organizacion_participacion",
+}
+
+def classify_title(title: str) -> str:
+    t = str(title or "").lower()
+    if re.search(r"ruido|ac[uú]stic|sonor", t):
+        return "convivencia_ruidos"
+    if re.search(r"derecho|tarifa|arancel|concesi[oó]n|cobro|rentas", t):
+        return "derechos_tarifas"
+    if re.search(r"comercio|patente|alcohol|feria|propaganda|publicidad|kiosco|ambulante|mercado", t):
+        return "comercio_publicidad"
+    if re.search(r"aseo|basura|residuo|limpieza|escombro|recolecci[oó]n", t):
+        return "aseo_residuos"
+    if re.search(r"humedal|biodiversidad|medio\s+ambiente|mascota|animal|canin|perro|arbolado", t):
+        return "medio_ambiente"
+    if re.search(r"tr[aá]nsito|transporte|veh[ií]cul|estacionamiento|paradero|circulaci[oó]n", t):
+        return "transito_transporte"
+    if re.search(r"obra|urbanis|edific|construc|plan\s+regulador|cierro|antena|fachada|paviment", t):
+        return "obras_espacio_publico"
+    if re.search(r"seguridad|alarma|vigilancia|prevenci[oó]n|delito", t):
+        return "seguridad_prevencion"
+    return "organizacion_participacion"
+
+def normalize_ordinance_materia(ord_: dict) -> None:
+    orig_mat = ord_.get("materia", "")
+    if not ord_.get("submateria"):
+        ord_["submateria"] = orig_mat
+    
+    axis_id = None
+    if orig_mat in LABEL_MAPPING:
+        axis_id = LABEL_MAPPING[orig_mat]
+    elif orig_mat == "Normativa General y Otras Materias" or not orig_mat:
+        axis_id = classify_title(ord_.get("titulo", ""))
+    else:
+        axis_id = classify_title(ord_.get("titulo", ""))
+
+    axis_meta = CANONICAL_AXES.get(axis_id, CANONICAL_AXES["organizacion_participacion"])
+    ord_["materia_id"] = axis_id
+    ord_["materia"] = axis_meta["nombre"]
+    ord_["color"] = axis_meta["color"]
+    ord_["badge_bg"] = axis_meta["badge_bg"]
+    ord_["badge_text"] = axis_meta["badge_text"]
+    ord_["badge_border"] = axis_meta["badge_border"]
+
+
 def quarantine_cplt(data: dict) -> tuple[dict, int]:
     public = copy.deepcopy(data)
     quarantined = 0
@@ -104,8 +269,7 @@ def promote_verified_municipal(public: dict, records: list[dict]) -> int:
         ordinance = copy.deepcopy(record)
         ordinance.pop("comuna", None)
         ordinance.pop("region_id", None)
-        ordinance.setdefault("materia", "Normativa General y Otras Materias")
-        ordinance.setdefault("materia_id", "general")
+        normalize_ordinance_materia(ordinance)
         ordinance.setdefault("rdf_url", None)
         comuna.setdefault("ordenanzas", []).append(ordinance)
         promoted += 1
@@ -116,7 +280,7 @@ def recalculate_metrics(public: dict, quarantined: int) -> None:
     total_bcn = 0
     total_municipal = 0
     comunas_con_datos = 0
-    topic_counts: dict[str, int] = {}
+    topic_counts: dict[str, int] = {axis["nombre"]: 0 for axis in CANONICAL_AXES.values()}
 
     for comuna in public.get("comunas", []):
         ordinances = comuna.get("ordenanzas", []) or []
@@ -151,7 +315,8 @@ def recalculate_metrics(public: dict, quarantined: int) -> None:
             rdf = ord_.get("rdf_url") or ""
             if rdf.startswith("http://"):
                 ord_["rdf_url"] = "https://" + rdf[7:]
-            materia = ord_.get("materia") or "Normativa General y Otras Materias"
+            normalize_ordinance_materia(ord_)
+            materia = ord_.get("materia")
             topic_counts[materia] = topic_counts.get(materia, 0) + 1
 
     total = total_bcn + total_municipal
@@ -163,6 +328,21 @@ def recalculate_metrics(public: dict, quarantined: int) -> None:
     metrics["comunas_con_datos"] = comunas_con_datos
     metrics["cplt_en_cuarentena"] = quarantined
     metrics["cobertura_nacional_pct"] = round((comunas_con_datos / len(public.get("comunas", []))) * 100, 2) if public.get("comunas") else 0.0
+
+    # Construir tópicos normalizados
+    topics = []
+    for axis_id, meta in CANONICAL_AXES.items():
+        topics.append({
+            "id": axis_id,
+            "nombre": meta["nombre"],
+            "color": meta["color"],
+            "icono": meta["icono"],
+            "badge_bg": meta["badge_bg"],
+            "badge_text": meta["badge_text"],
+            "badge_border": meta["badge_border"],
+            "count": topic_counts.get(meta["nombre"], 0)
+        })
+    public["topics"] = topics
 
     # Desglose literal de fuentes oficiales
     fuentes_detalle = {}
@@ -195,22 +375,22 @@ def recalculate_metrics(public: dict, quarantined: int) -> None:
 
     public["public_scope"] = {
         "policy": "verified-only",
-        "corte_fecha": "Septiembre 2026 (Remediación AUD-P090-DIFUSION)",
+        "corte_fecha": "Octubre 2026 (Remediación Integral P090-AUD-WEB-20261002)",
+        "periodo_cobertura_reciente": "2021–2026 (6 años calendario)",
         "included_sources": ["BCN", MUNICIPAL_SOURCE, "Diario Oficial / BCN", "Diario Oficial", "BCN / LeyChile"],
         "fuentes_detalle": fuentes_detalle,
-        "quarantined_sources": ["CPLT", "ROL_AVALUO_SII", "FORMULARIO_TRAMITE", "BASES_CONCURSO_LICITACION", "CUENTA_PUBLICA", "PLADECO_PLAN"],
+        "quarantined_sources": ["CPLT", "ROL_AVALUO_SII", "FORMULARIO_TRAMITE", "BASES_CONCURSO_LICITACION", "CUENTA_PUBLICA", "PLADECO_PLAN", "MANUAL_PROCEDIMIENTO"],
         "quarantined_records": quarantined,
         "verified_municipal_records": total_municipal,
         "verified_complementary_records": total_municipal,
-        "cobertura_historica": "346/346 comunas (100%)",
+        "cobertura_historica_comunal": "346/346 comunas con al menos un registro normativo identificado",
         "cobertura_contemporanea_periodo_2021_2026": f"{comunas_periodo_2021_2026}/346 comunas ({round(comunas_periodo_2021_2026/346*100, 1)}%)",
         "cohorte_rastreo_activo": "243 comunas bajo monitoreo y rescate directo",
         "exhaustividad": "No acreditada (sujeta a disponibilidad y publicación de portales oficiales)",
         "reason": (
-            "Corpus canónico consolidado de 5.881 normas BCN/LeyChile más 1.581 documentos "
-            "del corpus complementario de fuentes oficiales verificadas (con listado oficial, "
-            "identidad digital y comprobación criptográfica SHA-256). Excluidos de plano "
-            "roles de avalúo SII, formularios, bases de licitación, cuentas públicas y planes estratégicos."
+            "Corpus público auditable de normas BCN/LeyChile y documentos municipales oficiales "
+            "verificados (con listado oficial, enlace HTTPS y comprobación criptográfica SHA-256). "
+            "Excluidos y en cuarentena: planes comunales, manuales internos, formularios y contratos."
         ),
     }
 
@@ -487,7 +667,7 @@ def generate_synchronized_map_and_summary(public: dict, dashboard_dir: Path) -> 
 
         topics = {}
         for ord_item in c.get("ordenanzas", []) or []:
-            mat_id = ord_item.get("materia_id", "general")
+            mat_id = ord_item.get("materia_id", "organizacion_participacion")
             topics[mat_id] = topics.get(mat_id, 0) + 1
 
         mapa_items.append({
@@ -510,12 +690,17 @@ def generate_synchronized_map_and_summary(public: dict, dashboard_dir: Path) -> 
             "bcn_count": bcn,
             "municipal_count": muni,
             "derechos_tarifas": topics.get("derechos_tarifas", 0),
-            "aseo_medioambiente": topics.get("aseo_medioambiente", 0) + topics.get("aseo_residuos", 0) + topics.get("medio_ambiente", 0),
-            "tenencia_mascotas": topics.get("tenencia_mascotas", 0) + topics.get("mascotas_animales", 0) + topics.get("mascotas", 0),
-            "participacion_ciudadana": topics.get("participacion_ciudadana", 0),
-            "comercio_alcoholes": topics.get("comercio_alcoholes", 0) + topics.get("comercio_patentes", 0) + topics.get("alcoholes_comercio", 0),
-            "seguridad_convivencia": topics.get("seguridad_convivencia", 0) + topics.get("convivencia_seguridad", 0),
-            "cobertura": "100% Verificado"
+            "aseo_residuos": topics.get("aseo_residuos", 0),
+            "comercio_publicidad": topics.get("comercio_publicidad", 0),
+            "convivencia_ruidos": topics.get("convivencia_ruidos", 0),
+            "medio_ambiente": topics.get("medio_ambiente", 0),
+            "obras_espacio_publico": topics.get("obras_espacio_publico", 0),
+            "organizacion_participacion": topics.get("organizacion_participacion", 0),
+            "transito_transporte": topics.get("transito_transporte", 0),
+            "seguridad_prevencion": topics.get("seguridad_prevencion", 0),
+            "estado_catalogo": "BCN + Municipal" if (bcn and muni) else ("Cargado BCN" if bcn else ("Municipal verificada" if muni else "Sin registros")),
+            "verificacion_sha256": "Verificada (Capa Municipal)" if muni > 0 else "No aplica (Capa BCN)",
+            "exhaustividad": "No acreditada"
         })
 
     summary_rows.sort(key=lambda r: (r["region_id"], r["comuna"]))
@@ -530,8 +715,10 @@ def generate_synchronized_map_and_summary(public: dict, dashboard_dir: Path) -> 
     fieldnames = [
         "comuna", "region_id", "region_nombre", "total_ordenanzas",
         "bcn_count", "municipal_count", "derechos_tarifas",
-        "aseo_medioambiente", "tenencia_mascotas", "participacion_ciudadana",
-        "comercio_alcoholes", "seguridad_convivencia", "cobertura"
+        "aseo_residuos", "comercio_publicidad", "convivencia_ruidos",
+        "medio_ambiente", "obras_espacio_publico", "organizacion_participacion",
+        "transito_transporte", "seguridad_prevencion",
+        "estado_catalogo", "verificacion_sha256", "exhaustividad"
     ]
     with open(resumen_csv_path, "w", encoding="utf-8", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)

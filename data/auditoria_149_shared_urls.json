@@ -1,0 +1,1790 @@
+[
+  {
+    "url": "https://nuevo.leychile.cl/servicios/Consulta/Exportar?radioExportar=Normas&exportar_formato=pdf&nombrearchivo=DTO-110_02-MAY-2017&exportar_con_notas_bcn=False&exportar_con_notas_originales=False&exportar_con_notas_al_pie=False&hddResultadoExportar=1104100.2017-05-02.0.0%23",
+    "communes": [
+      "Antártica",
+      "Cabo de Hornos"
+    ],
+    "fecha": "2017-05-02",
+    "numero": "110",
+    "titulo": "Ordenanza sobre Derechos Municipales Comuna Cabo de Hornos y Antártica",
+    "org_sparql": null,
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/consulta/busquedas_avanzadas",
+    "communes": [
+      "Pirque",
+      "Puente Alto"
+    ],
+    "fecha": "1994-07-11",
+    "numero": "110",
+    "titulo": "Ordenanza Municipal N° 110 (1994-07-11) - Municipalidad de Pirque Puente Alto",
+    "org_sparql": "municipalidad-de-pirque-municipalidad-de-puente-alto",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1002417",
+    "communes": [
+      "San Pedro",
+      "San Pedro de Atacama"
+    ],
+    "fecha": "2009-05-19",
+    "numero": "2",
+    "titulo": "ORDENANZA Nº 2/09 SOBRE SUBVENCIONES MUNICIPALES",
+    "org_sparql": "municipalidad-de-san-pedro-de-atacama",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1004282",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "2009-07-17",
+    "numero": "66",
+    "titulo": "MODIFICA ORDENANZA Nº7 BIS PARA COBRANZA DE CONTRIBUCIONES, PATENTES, PERMISOS Y DERECHOS MUNICIPALES MOROSOS",
+    "org_sparql": "municipalidad-de-la-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1005468",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "2009-08-27",
+    "numero": "65",
+    "titulo": "MODIFICA ORDENANZA Nº 46 SOBRE PUBLICIDAD Y PROPAGANDA",
+    "org_sparql": "municipalidad-de-la-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1010378",
+    "communes": [
+      "San Pedro",
+      "San Pedro de la Paz"
+    ],
+    "fecha": "2010-01-22",
+    "numero": "33",
+    "titulo": "APRUEBA ORDENANZA MUNICIPAL Nº33, SOBRE TENENCIA DE MASCOTAS EN LA COMUNA DE SAN PEDRO DE LA PAZ",
+    "org_sparql": "municipalidad-de-san-pedro-de-la-paz",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1011140",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "2010-02-18",
+    "numero": "s-n",
+    "titulo": "EXTRACTO DE REGLAMENTO MUNICIPAL DEL FONDO DEPORTIVO CONCURSABLE",
+    "org_sparql": "municipalidad-de-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1019160",
+    "communes": [
+      "San Pedro",
+      "San Pedro de Atacama"
+    ],
+    "fecha": "2010-11-09",
+    "numero": "4",
+    "titulo": "MODIFICA ORDENANZA Nº 9, DE 2007, SOBRE DERECHOS MUNICIPALES",
+    "org_sparql": "municipalidad-de-san-pedro-de-atacama",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1019826",
+    "communes": [
+      "San Pedro",
+      "San Pedro de Atacama"
+    ],
+    "fecha": "2010-11-25",
+    "numero": "6",
+    "titulo": "MODIFICA ORDENANZA LOCAL SOBRE DERECHOS MUNICIPALES POR CONCESIONES, PERMISOS Y SERVICIOS",
+    "org_sparql": "municipalidad-de-san-pedro-de-atacama",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1020515",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "2010-12-03",
+    "numero": "67",
+    "titulo": "DICTA ORDENANZA QUE REGULA LA TENENCIA RESPONSABLE DE ANIMALES Y CONTROL DE PERROS VAGOS",
+    "org_sparql": "municipalidad-de-la-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1020516",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "2010-12-03",
+    "numero": "69",
+    "titulo": "DICTA ORDENANZA DE ADMINISTRACIÓN, USO Y EXPLOTACIÓN DE ESTACIONAMIENTOS EN LA VÍA PÚBLICA",
+    "org_sparql": "municipalidad-de-la-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1020517",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "2010-12-03",
+    "numero": "70",
+    "titulo": "MODIFICA LA ORDENANZA MUNICIPAL Nº56 SOBRE ZONAS, EMPLAZAMIENTOS PERMITIDOS Y RESTRINGIDOS PARA EL OTORGAMIENTO DE PATENTES DE ALCOHOLES",
+    "org_sparql": "municipalidad-de-la-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1020570",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "2010-12-03",
+    "numero": "68",
+    "titulo": "DICTA ORDENANZA QUE MODIFICA LA ORDENANZA MUNICIPAL N° 1 SOBRE DERECHOS MUNICIPALES",
+    "org_sparql": "municipalidad-de-la-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1022727",
+    "communes": [
+      "Talca",
+      "Talcahuano"
+    ],
+    "fecha": "2011-02-04",
+    "numero": "2",
+    "titulo": "APRUEBA ORDENANZA MUNICIPAL SOBRE RUIDOS MOLESTOS",
+    "org_sparql": "municipalidad-de-talcahuano",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1023904",
+    "communes": [
+      "Arauco",
+      "Rauco"
+    ],
+    "fecha": "2011-03-22",
+    "numero": "791",
+    "titulo": "SUSPENDE TRÁNSITO DE CAMIONES Y VEHÍCULOS, CON CARGA SUPERIOR A 15 TONELADAS, POR CALLES QUE INDICA, DE LA CIUDAD DE ARAUCO",
+    "org_sparql": "municipalidad-de-arauco",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1026889",
+    "communes": [
+      "San Pedro",
+      "San Pedro de Atacama"
+    ],
+    "fecha": "2011-06-29",
+    "numero": "2",
+    "titulo": "PROHÍBE EL TRÁNSITO DE VEHÍCULOS EN PASAJE AUCALQUINCHA",
+    "org_sparql": "municipalidad-de-san-pedro-de-atacama",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1028863",
+    "communes": [
+      "San Pedro",
+      "San Pedro de la Paz"
+    ],
+    "fecha": "2011-08-23",
+    "numero": "35",
+    "titulo": "ORDENANZA MUNICIPAL QUE REGULA EL CIERRE O MEDIDAS DE CONTROL DE ACCESO A CALLES Y PASAJES O A CONJUNTOS HABITACIONALES, CON UNA MISMA VÍA DE ACCESO Y SALIDA",
+    "org_sparql": "municipalidad-de-san-pedro-de-la-paz",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1028931",
+    "communes": [
+      "San Pedro",
+      "San Pedro de Atacama"
+    ],
+    "fecha": "2011-08-27",
+    "numero": "4",
+    "titulo": "MODIFICA ORDENANZA QUE ESTABLECE MONTOS Y COBRO DE DERECHOS MUNICIPALES",
+    "org_sparql": "municipalidad-de-san-pedro-de-atacama",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1028932",
+    "communes": [
+      "San Pedro",
+      "San Pedro de Atacama"
+    ],
+    "fecha": "2011-08-27",
+    "numero": "5",
+    "titulo": "MODIFICA ORDENANZA Nº 1, DE 1990",
+    "org_sparql": "municipalidad-de-san-pedro-de-atacama",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1029527",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "2011-09-10",
+    "numero": "72",
+    "titulo": "DICTA ORDENANZA SOBRE REGULACIÓN DE ESTABLECIMIENTOS DE JUEGOS Y ENTRETENIMIENTOS ELECTRÓNICOS DE DESTREZA",
+    "org_sparql": "municipalidad-de-la-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1029528",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "2011-09-10",
+    "numero": "73",
+    "titulo": "MODIFICA ORDENANZA Nº 7 BIS PARA LA COBRANZA DE CONTRIBUCIONES, PATENTES, PERMISOS Y DERECHOS MUNICIPALES MOROSOS",
+    "org_sparql": "municipalidad-de-la-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1029529",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "2011-09-10",
+    "numero": "74",
+    "titulo": "MODIFICA ORDENANZA Nº 8 SOBRE PREVENCIÓN Y CONTROL DE RUIDOS MOLESTOS EN LA COMUNA DE LA FLORIDA",
+    "org_sparql": "municipalidad-de-la-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1030249",
+    "communes": [
+      "Talca",
+      "Talcahuano"
+    ],
+    "fecha": "2011-09-28",
+    "numero": "4",
+    "titulo": "APRUEBA 'ORDENANZA MUNICIPAL QUE REGULA LA EXPLOTACIÓN COMERCIAL DE JUEGOS ELECTRÓNICOS, MÁQUINAS DE HABILIDAD O DESTREZA Y JUEGOS DE AZAR'",
+    "org_sparql": "municipalidad-de-talcahuano",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1031998",
+    "communes": [
+      "San Pedro",
+      "San Pedro de Atacama"
+    ],
+    "fecha": "2011-11-03",
+    "numero": "8",
+    "titulo": "MODIFICA COBRO DE DERECHOS MUNICIPALES RELATIVOS A CONCESIONES DE CONSTRUCCIÓN O INSTALACIÓN EN BIENES NACIONALES DE USO PÚBLICO Y MUNICIPALES",
+    "org_sparql": "municipalidad-de-san-pedro-de-atacama",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1035192",
+    "communes": [
+      "San Pedro",
+      "San Pedro de Atacama"
+    ],
+    "fecha": "2011-12-20",
+    "numero": "9",
+    "titulo": "MODIFICA ORDENANZA MUNICIPAL Nº 3, DE 2008, SOBRE PATENTES DE ALCOHOLES Y HORARIO DE FUNCIONAMIENTO DE ESTABLECIMIENTOS DE EXPENDIO DE BEBIDAS ALCOHÓLICAS",
+    "org_sparql": "municipalidad-de-san-pedro-de-atacama",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1035837",
+    "communes": [
+      "San Pedro",
+      "San Pedro de Atacama"
+    ],
+    "fecha": "2012-01-04",
+    "numero": "11",
+    "titulo": "MODIFICA ORDENANZA SOBRE DERECHOS MUNICIPALES",
+    "org_sparql": "municipalidad-de-san-pedro-de-atacama",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1043636",
+    "communes": [
+      "Talca",
+      "Talcahuano"
+    ],
+    "fecha": "1995-03-02",
+    "numero": "1",
+    "titulo": "ORDENANZA LOCAL DE DERECHOS MUNICIPALES (MODIFICADA)",
+    "org_sparql": "municipalidad-de-talcahuano",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1050177",
+    "communes": [
+      "San Pedro",
+      "San Pedro de Atacama"
+    ],
+    "fecha": "2013-04-16",
+    "numero": "1",
+    "titulo": "ORDENANZA SOBRE TERMINAL DE BUSES",
+    "org_sparql": "municipalidad-de-san-pedro-de-atacama",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1050968",
+    "communes": [
+      "San Pedro",
+      "San Pedro de Atacama"
+    ],
+    "fecha": "2013-05-11",
+    "numero": "4",
+    "titulo": "ORDENANZA DE GESTIÓN AMBIENTAL LOCAL",
+    "org_sparql": "municipalidad-de-san-pedro-de-atacama",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1050969",
+    "communes": [
+      "San Pedro",
+      "San Pedro de Atacama"
+    ],
+    "fecha": "2013-05-11",
+    "numero": "5",
+    "titulo": "REGULA LA AUTORIZACIÓN Y EXPLOTACIÓN COMERCIAL DE MÁQUINAS DE HABILIDAD, DESTREZA O JUEGOS SIMILARES",
+    "org_sparql": "municipalidad-de-san-pedro-de-atacama",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1051629",
+    "communes": [
+      "San Pedro",
+      "San Pedro de Atacama"
+    ],
+    "fecha": "2013-06-05",
+    "numero": "3",
+    "titulo": "SOBRE LA OBTENCIÓN DE PATENTE DE GUÍAS DE TURISMO Y SERVICIOS ON-LINE",
+    "org_sparql": "municipalidad-de-san-pedro-de-atacama",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1055573",
+    "communes": [
+      "San Pedro",
+      "San Pedro de Atacama"
+    ],
+    "fecha": "2013-10-29",
+    "numero": "6",
+    "titulo": "ESTABLECE FRANJA DE TERRENO COMO PASEO PEATONAL EN LA LOCALIDAD DE PEINE",
+    "org_sparql": "municipalidad-de-san-pedro-de-atacama",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1055578",
+    "communes": [
+      "San Pedro",
+      "San Pedro de Atacama"
+    ],
+    "fecha": "2013-10-29",
+    "numero": "5",
+    "titulo": "SOBRE DERECHOS MUNICIPALES POR CONCESIONES, PERMISOS, OCUPACIÓN DE BIENES NACIONALES DE USO PÚBLICO, PUBLICIDAD, PROPAGANDA Y OTROS SERVICIOS",
+    "org_sparql": "municipalidad-de-san-pedro-de-atacama",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1069181",
+    "communes": [
+      "San Pedro",
+      "San Pedro de Atacama"
+    ],
+    "fecha": "2014-11-07",
+    "numero": "4",
+    "titulo": "ORDENANZA SOBRE DERECHOS MUNICIPALES POR CONCESIONES, PERMISOS, OCUPACIÓN DE BIENES NACIONALES DE USO PÚBLICO, PUBLICIDAD, PROPAGANDA Y OTROS SERVICIOS",
+    "org_sparql": "municipalidad-de-san-pedro-de-atacama",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1083580",
+    "communes": [
+      "San Pedro",
+      "San Pedro de Atacama"
+    ],
+    "fecha": "2015-11-04",
+    "numero": "5",
+    "titulo": "SOBRE DERECHOS MUNICIPALES POR CONCESIONES, PERMISOS, OCUPACIÓN DE BIENES NACIONALES DE USO PÚBLICO, PUBLICIDAD, PROPAGANDA Y OTROS SERVICIOS",
+    "org_sparql": "municipalidad-de-san-pedro-de-atacama",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1088513",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "2016-03-18",
+    "numero": "104",
+    "titulo": "ORDENANZA DE FERIAS LIBRES DE LA COMUNA DE LA FLORIDA",
+    "org_sparql": "municipalidad-de-la-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1088604",
+    "communes": [
+      "San Pedro",
+      "San Pedro de Atacama"
+    ],
+    "fecha": "2016-03-22",
+    "numero": "1",
+    "titulo": "ESTABLECE REQUISITOS PARA OTORGAMIENTO DE PATENTE CLASE \"O\" EN ÁREA RURAL",
+    "org_sparql": "municipalidad-de-san-pedro-de-atacama",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1096029",
+    "communes": [
+      "San Pedro",
+      "San Pedro de Atacama"
+    ],
+    "fecha": "2016-10-28",
+    "numero": "n°-4",
+    "titulo": "SOBRE DERECHOS MUNICIPALES POR CONCESIONES, PERMISOS, OCUPACIÓN DE BIENES NACIONALES DE USO PÚBLICO, PUBLICIDAD, PROPAGANDA Y OTROS SERVICIOS",
+    "org_sparql": null,
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1124971",
+    "communes": [
+      "San Pedro",
+      "San Pedro de Atacama"
+    ],
+    "fecha": "2018-11-06",
+    "numero": "4",
+    "titulo": "ORDENANZA SOBRE DERECHOS MUNICIPALES POR CONCESIONES, PERMISOS, OCUPACIÓN DE BIENES NACIONALES DE USO PÚBLICO, PUBLICIDAD, PROPAGANDA Y OTROS SERVICIOS",
+    "org_sparql": "municipalidad-de-san-pedro-de-atacama",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1128284",
+    "communes": [
+      "Arauco",
+      "Rauco"
+    ],
+    "fecha": "2019-01-26",
+    "numero": "1",
+    "titulo": "APRUEBA ORDENANZA SOBRE LA ENTREGA DE SUBVENCIONES MUNICIPALES DE LA COMUNA DE ARAUCO",
+    "org_sparql": "municipalidad-de-arauco",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1130853",
+    "communes": [
+      "San Pedro",
+      "San Pedro de Atacama"
+    ],
+    "fecha": "2019-04-24",
+    "numero": "1",
+    "titulo": "ESTABLECE EXTENSIÓN DE HORARIO ESPECIAL TRANSITORIA",
+    "org_sparql": "municipalidad-de-san-pedro-de-atacama",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1133066",
+    "communes": [
+      "San Pedro",
+      "San Pedro de Atacama"
+    ],
+    "fecha": "2019-06-25",
+    "numero": "3",
+    "titulo": "ORDENANZA SOBRE PATENTES DE ALCOHOLES Y HORARIO DE FUNCIONAMIENTO DE ESTABLECIMIENTOS DE EXPENDIO DE BEBIDAS ALCOHÓLICAS",
+    "org_sparql": "municipalidad-de-san-pedro-de-atacama",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1145029",
+    "communes": [
+      "San Pedro",
+      "San Pedro de Atacama"
+    ],
+    "fecha": "2020-05-08",
+    "numero": "1",
+    "titulo": "FIJA HORARIO DE FUNCIONAMIENTO DE LOCALES DE EXPENDIO DE BEBIDAS ALCOHÓLICAS",
+    "org_sparql": "municipalidad-de-san-pedro-de-atacama",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1152984",
+    "communes": [
+      "San Pedro",
+      "San Pedro de Atacama"
+    ],
+    "fecha": "2020-12-05",
+    "numero": "3",
+    "titulo": "ORDENANZA SOBRE CONDICIONES GENERALES PARA LA FIJACIÓN DE LA TARIFA DE ASEO POR EL SERVICIO DE EXTRACCIÓN DE RESIDUOS SÓLIDOS DOMICILIARIOS DE LA COMUNA DE SAN PEDRO DE ATACAMA",
+    "org_sparql": "municipalidad-de-san-pedro-de-atacama",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1156295",
+    "communes": [
+      "San Pedro",
+      "San Pedro de Atacama"
+    ],
+    "fecha": "2021-02-25",
+    "numero": "1",
+    "titulo": "TENENCIA RESPONSABLE, BIENESTAR DE ANIMALES DOMÉSTICOS Y ANIMALES DE TRABAJO EN LA COMUNA DE SAN PEDRO DE ATACAMA",
+    "org_sparql": "municipalidad-de-san-pedro-de-atacama",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1182238",
+    "communes": [
+      "San Pedro",
+      "San Pedro de Atacama"
+    ],
+    "fecha": "2022-10-03",
+    "numero": "2",
+    "titulo": "ORDENANZA SOBRE DERECHOS MUNICIPALES POR CONCESIONES, PERMISOS, OCUPACIÓN DE BIENES NACIONALES DE USO PÚBLICO, PUBLICIDAD, PROPAGANDA Y OTROS SERVICIOS",
+    "org_sparql": "municipalidad-de-san-pedro-de-atacama",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=1183629",
+    "communes": [
+      "San Pedro",
+      "San Pedro de Atacama"
+    ],
+    "fecha": "2022-10-28",
+    "numero": "4",
+    "titulo": "ORDENANZA SOBRE DERECHOS MUNICIPALES POR CONCESIONES, PERMISOS, OCUPACIÓN DE BIENES NACIONALES DE USO PÚBLICO, PUBLICIDAD, PROPAGANDA Y OTROS SERVICIOS",
+    "org_sparql": "municipalidad-de-san-pedro-de-atacama",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=120252",
+    "communes": [
+      "Talca",
+      "Talcahuano"
+    ],
+    "fecha": "1989-02-13",
+    "numero": "1",
+    "titulo": "MODIFICA ORDENANZA NO. 1, SOBRE DERECHOS MUNICIPALES AÑO 1988",
+    "org_sparql": "municipalidad-de-talcahuano",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=123496",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "1988-01-26",
+    "numero": "1",
+    "titulo": "DICTA ORDENANZA LOCAL SOBRE DERECHOS MUNICIPALES",
+    "org_sparql": "municipalidad-de-coronel",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=128735",
+    "communes": [
+      "Calera",
+      "Calera de Tango"
+    ],
+    "fecha": "1998-12-26",
+    "numero": "s-n",
+    "titulo": "ORDENANZA LOCAL SOBRE DERECHOS MUNICIPALES",
+    "org_sparql": "municipalidad-de-calera-de-tango",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=128904",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "1998-12-31",
+    "numero": "17",
+    "titulo": "MODIFICA ORDENANZA Nº 1, LOCAL SOBRE DERECHOS MUNICIPALES",
+    "org_sparql": "municipalidad-de-la-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=131526",
+    "communes": [
+      "Chépica",
+      "Pica"
+    ],
+    "fecha": "1988-10-17",
+    "numero": "1",
+    "titulo": "FIJA COEFICIENTES PARA PROYECCION DE REAJUSTE Y DE INTERES DE BOLETAS BANCARIAS DE GARANTIA QUE INDICA",
+    "org_sparql": "municipalidad-de-chepica",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=133052",
+    "communes": [
+      "Paine",
+      "Torres del Paine"
+    ],
+    "fecha": "1988-06-27",
+    "numero": "2",
+    "titulo": "MODIFICA ORDENANZA MUNICIPAL NO. 3, DE 1985",
+    "org_sparql": "municipalidad-de-paine",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=133521",
+    "communes": [
+      "Talca",
+      "Talcahuano"
+    ],
+    "fecha": "1988-07-22",
+    "numero": "3",
+    "titulo": "MODIFICA ORDENANZA NO. 1, SOBRE DERECHOS MUNICIPALES",
+    "org_sparql": "municipalidad-de-talcahuano",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=133578",
+    "communes": [
+      "Talca",
+      "Talcahuano"
+    ],
+    "fecha": "1988-04-06",
+    "numero": "2",
+    "titulo": "MODIFICA ORDENANZA DE DERECHOS MUNICIPALES NO. 1, DE 1988",
+    "org_sparql": "municipalidad-de-talcahuano",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=135027",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "1999-04-16",
+    "numero": "16",
+    "titulo": "FIJA HORARIO PARA EL FUNCIONAMIENTO DE LOS ESTABLECIMIENTOS DE EXPENDIO DE BEBIDAS ALCOHOLICAS",
+    "org_sparql": "municipalidad-de-la-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=136134",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "1999-05-10",
+    "numero": "19",
+    "titulo": "MODIFICA ORDENANZA Nº 16, DE 1999",
+    "org_sparql": "municipalidad-de-la-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=137435",
+    "communes": [
+      "Lota",
+      "Quillota"
+    ],
+    "fecha": "1999-06-08",
+    "numero": "1",
+    "titulo": "DICTA ORDENANZA PARA CONCESION DE ESPACIOS, LOCALES Y PUESTOS EN FERIA LIBRE DE LOTA",
+    "org_sparql": "municipalidad-de-lota",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=144670",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "1999-10-04",
+    "numero": "21",
+    "titulo": "MODIFICA ORDENANZA LOCAL Nº 1 SOBRE TRANSITO Y TRANSPORTE PUBLICO",
+    "org_sparql": "municipalidad-de-la-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=146490",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "1999-11-04",
+    "numero": "20",
+    "titulo": "APRUEBA ORDENANZA DE PARTICIPACION CIUDADANA",
+    "org_sparql": "municipalidad-de-la-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=147767",
+    "communes": [
+      "Chépica",
+      "Pica"
+    ],
+    "fecha": "1987-01-27",
+    "numero": "1",
+    "titulo": "PRORROGA Y MODIFICA ORDENANZA LOCAL SOBRE DERECHOS MUNICIPALES",
+    "org_sparql": "municipalidad-de-villarrica",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=148010",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "1999-11-22",
+    "numero": "22",
+    "titulo": "MODIFICA ORDENANZA LOCAL Nº 1 SOBRE DERECHOS MUNICIPALES",
+    "org_sparql": "municipalidad-de-la-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=148018",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "1999-11-22",
+    "numero": "23",
+    "titulo": "MODIFICA ORDENANZA LOCAL Nº 4 SOBRE PROPAGANDA Y PUBLICIDAD",
+    "org_sparql": "municipalidad-de-la-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=148024",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "1999-11-22",
+    "numero": "24",
+    "titulo": "RECTIFICA ORDENANZA Nº 20, DE 1999, SOBRE PARTICIPACION CIUDADANA",
+    "org_sparql": "municipalidad-de-la-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=148657",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "1999-12-02",
+    "numero": "25",
+    "titulo": "MODIFICA ORDENANZA SOBRE PROPAGANDA Y PUBLICIDAD",
+    "org_sparql": "municipalidad-de-la-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=149714",
+    "communes": [
+      "Calera",
+      "Calera de Tango"
+    ],
+    "fecha": "1999-12-21",
+    "numero": "s-n",
+    "titulo": "MODIFICA ORDENANZA LOCAL DE DERECHOS MUNICIPALES",
+    "org_sparql": "municipalidad-de-calera-de-tango",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=150348",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "2000-01-05",
+    "numero": "26",
+    "titulo": "MODIFICA ORDENANZA LOCAL Nº 1 SOBRE DERECHOS MUNICIPALES",
+    "org_sparql": "municipalidad-de-la-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=152277",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "2000-01-26",
+    "numero": "27",
+    "titulo": "MODIFICA ORDENANZA SOBRE PROPAGANDA Y PUBLICIDAD",
+    "org_sparql": "municipalidad-de-la-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=157853",
+    "communes": [
+      "Arauco",
+      "Rauco"
+    ],
+    "fecha": "1986-10-04",
+    "numero": "237",
+    "titulo": "DICTA ORDENANZA SOBRE COMERCIO AMBULANTE",
+    "org_sparql": "municipalidad-de-arauco",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=157854",
+    "communes": [
+      "Arauco",
+      "Rauco"
+    ],
+    "fecha": "1986-10-04",
+    "numero": "244",
+    "titulo": "DICTA ORDENANZA SOBRE SALAS DE ENTRETENIMIENTOS",
+    "org_sparql": "municipalidad-de-arauco",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=158722",
+    "communes": [
+      "Arauco",
+      "Rauco"
+    ],
+    "fecha": "1986-10-07",
+    "numero": "236",
+    "titulo": "DICTA ORDENANZA SOBRE PROHIBICION DE RUIDOS MOLESTOS",
+    "org_sparql": "municipalidad-de-arauco",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=158727",
+    "communes": [
+      "Arauco",
+      "Rauco"
+    ],
+    "fecha": "1986-10-07",
+    "numero": "238",
+    "titulo": "DICTA ORDENANZA SOBRE LIMPIEZA DE LAS VIAS PUBLICAS",
+    "org_sparql": "municipalidad-de-arauco",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=159466",
+    "communes": [
+      "Lota",
+      "Quillota"
+    ],
+    "fecha": "1986-10-24",
+    "numero": "1",
+    "titulo": "DICTA ORDENANZA PARA LA CONCESION Y ADMINISTRACION DE LOCALES, PUESTOS, PISOS Y BODEGAS EN LOS MERCADOS MUNICIPALES Y FERIA LIBRE",
+    "org_sparql": "municipalidad-de-lota",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=159743",
+    "communes": [
+      "Chépica",
+      "Pica"
+    ],
+    "fecha": "1986-01-27",
+    "numero": "1",
+    "titulo": "DICTA ORDENANZA SOBRE DERECHOS MUNICIPALES POR CONCESIONES, PERMISOS Y SERVICIOS",
+    "org_sparql": "municipalidad-de-chepica",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=164611",
+    "communes": [
+      "Paine",
+      "Torres del Paine"
+    ],
+    "fecha": "1985-02-09",
+    "numero": "3",
+    "titulo": "DICTA ORDENANZA LOCAL SOBRE DERECHOS MUNICIPALES",
+    "org_sparql": "municipalidad-de-paine",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=171442",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "2000-06-24",
+    "numero": "29",
+    "titulo": "MODIFICA ORDENANZA Nº 4, SOBRE PROPAGANDA Y PUBLICIDAD",
+    "org_sparql": "municipalidad-de-la-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=171507",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "2000-06-28",
+    "numero": "30",
+    "titulo": "DICTA ORDENANZA SOBRE CIERRE DE CALLES, PASAJES Y/O ESPACIOS PUBLICOS",
+    "org_sparql": "municipalidad-de-la-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=171709",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "2000-07-03",
+    "numero": "31",
+    "titulo": "MODIFICA ORDENANZA Nº 13, SOBRE CIERROS",
+    "org_sparql": "municipalidad-de-la-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=174262",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "2000-08-16",
+    "numero": "32",
+    "titulo": "MODIFICA ORDENANZA Nº 11, SOBRE ACTIVIDAD COMERCIAL, INDUSTRIAL Y DE SERVICIOS",
+    "org_sparql": "municipalidad-de-la-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=176916",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "2000-10-25",
+    "numero": "33",
+    "titulo": "MODIFICA HORARIO DE FUNCIONAMIENTO DE ESTABLECIMIENTOS DE EXPENDIO DE BEBIDAS ALCOHOLICAS",
+    "org_sparql": "municipalidad-de-la-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=177746",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "2000-11-16",
+    "numero": "34",
+    "titulo": "MODIFICA ORDENANZA SOBRE OCUPACION DE BIEN NACIONAL DE USO PUBLICO",
+    "org_sparql": "municipalidad-de-la-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=178341",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "2000-11-30",
+    "numero": "35",
+    "titulo": "MODIFICA ORDENANZA Nº 1 SOBRE DERECHOS MUNICIPALES",
+    "org_sparql": "municipalidad-de-la-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=181992",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "2001-02-19",
+    "numero": "36",
+    "titulo": "INCORPORA DISPOSICION TRANSITORIA A ORDENANZA Nº 16, DE 1999, QUE FIJA HORARIO PARA EL FUNCIONAMIENTO DE LOS ESTABLECIMIENTOS DE EXPENDIO DE BEBIDAS ALCOHOLICAS",
+    "org_sparql": "municipalidad-de-la-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=187108",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "2001-06-29",
+    "numero": "37",
+    "titulo": "MODIFICA ORDENANZA Nº 15, SOBRE COBRO DE DERECHOS DE ASEO DOMICILIARIOS",
+    "org_sparql": "municipalidad-de-la-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=188214",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "2001-08-02",
+    "numero": "38",
+    "titulo": "MODIFICA ORDENANZA Nº 37",
+    "org_sparql": "municipalidad-de-la-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=188997",
+    "communes": [
+      "Paine",
+      "Torres del Paine"
+    ],
+    "fecha": "1986-03-01",
+    "numero": "30",
+    "titulo": "ORDENANZA SOBRE DERECHOS MUNICIPALES, POR PERMISOS, CONCESIONES Y/O SERVICIOS",
+    "org_sparql": "municipalidad-de-torres-del-paine",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=192400",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "2001-12-10",
+    "numero": "40",
+    "titulo": "MODIFICA ORDENANZA Nº 1, SOBRE DERECHOS MUNICIPALES",
+    "org_sparql": "municipalidad-de-la-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=193396",
+    "communes": [
+      "Alto del Carmen",
+      "El Carmen"
+    ],
+    "fecha": "2002-01-08",
+    "numero": "859",
+    "titulo": "MODIFICA ORDENANZA MUNICIPAL DEL COMERCIO NO ESTABLECIDO DE LA COMUNA",
+    "org_sparql": "municipalidad-de-el-carmen",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=193863",
+    "communes": [
+      "Lota",
+      "Quillota"
+    ],
+    "fecha": "2002-01-17",
+    "numero": "2",
+    "titulo": "ORDENANZA MUNICIPAL SOBRE CONTROL DE PERROS VAGOS",
+    "org_sparql": "municipalidad-de-lota",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=194165",
+    "communes": [
+      "Lota",
+      "Quillota"
+    ],
+    "fecha": "2002-01-30",
+    "numero": "1",
+    "titulo": "DICTA ORDENANZA PARA EL USO Y MANTENCION DE PLAZAS",
+    "org_sparql": "municipalidad-de-lota",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=195898",
+    "communes": [
+      "Lota",
+      "Quillota"
+    ],
+    "fecha": "2002-03-23",
+    "numero": "3",
+    "titulo": "MODIFICA ORDENANZA DEL CEMENTERIO MUNICIPAL",
+    "org_sparql": "municipalidad-de-lota",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=198523",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "2002-05-25",
+    "numero": "41",
+    "titulo": "MODIFICA ORDENANZA Nº 1 SOBRE DERECHOS MUNICIPALES",
+    "org_sparql": "municipalidad-de-la-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=200789",
+    "communes": [
+      "Lota",
+      "Quillota"
+    ],
+    "fecha": "1989-02-27",
+    "numero": "1",
+    "titulo": "DICTA ORDENANZA MUNICIPAL SOBRE FLIPPERS, POOL Y SIMILARES",
+    "org_sparql": "municipalidad-de-lota",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=202058",
+    "communes": [
+      "Talca",
+      "Talcahuano"
+    ],
+    "fecha": "1988-03-07",
+    "numero": "1",
+    "titulo": "APRUEBA ORDENANZA LOCAL SOBRE DERECHOS MUNICIPALES POR CONCESIONES, PERMISOS Y SERVICIOS",
+    "org_sparql": "municipalidad-de-talcahuano",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=207828",
+    "communes": [
+      "Alto del Carmen",
+      "El Carmen"
+    ],
+    "fecha": "1989-08-12",
+    "numero": "2",
+    "titulo": "DICTA ORDENANZA DE ASEO Y ORNATO DE LA COMUNA DE ALTO DEL CARMEN",
+    "org_sparql": "municipalidad-de-alto-del-carmen",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=217796",
+    "communes": [
+      "María Pinto",
+      "Pinto"
+    ],
+    "fecha": "2003-11-26",
+    "numero": "1",
+    "titulo": "DICTA ORDENANZA SOBRE ASEO, LIMPIEZA Y ORNATO COMUNAL",
+    "org_sparql": "municipalidad-de-maria-pinto",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=221715",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "2004-02-26",
+    "numero": "45",
+    "titulo": "MODIFICA ORDENANZA Nº 14, SOBRE FERIAS LIBRES",
+    "org_sparql": "municipalidad-de-la-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=223883",
+    "communes": [
+      "Arauco",
+      "Rauco"
+    ],
+    "fecha": "2004-04-16",
+    "numero": "s-n",
+    "titulo": "APRUEBA ORDENANZA SOBRE SUBVENCIONES MUNICIPALES",
+    "org_sparql": "municipalidad-de-arauco",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=224099",
+    "communes": [
+      "Talca",
+      "Talcahuano"
+    ],
+    "fecha": "2004-04-21",
+    "numero": "1",
+    "titulo": "ORDENANZA MUNICIPAL SOBRE REGISTRO DE PERSONAS JURIDICAS RECEPTORAS DE FONDOS PUBLICOS",
+    "org_sparql": "municipalidad-de-talcahuano",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=224277",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "2004-04-27",
+    "numero": "46",
+    "titulo": "APRUEBA ORDENANZA SOBRE PUBLICIDAD Y PROPAGANDA",
+    "org_sparql": "municipalidad-de-la-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=225515",
+    "communes": [
+      "Talca",
+      "Talcahuano"
+    ],
+    "fecha": "2004-05-24",
+    "numero": "2",
+    "titulo": "COMPLEMENTA ORDENANZA DE DERECHOS MUNICIPALES, VENTA DE CARTEL, ARTICULOS Y PROHIBICIONES LEY DE ALCOHOLES 19.925",
+    "org_sparql": "municipalidad-de-talcahuano",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=227667",
+    "communes": [
+      "Chépica",
+      "Pica"
+    ],
+    "fecha": "2004-07-15",
+    "numero": "s-n",
+    "titulo": "APRUEBA ORDENANZA DE REGISTRO DE PERSONAS JURIDICAS RECEPTORAS DE FONDOS PUBLICOS",
+    "org_sparql": "municipalidad-de-pica",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=231538",
+    "communes": [
+      "Lota",
+      "Quillota"
+    ],
+    "fecha": "1989-04-11",
+    "numero": "2",
+    "titulo": "MODIFICA ORDENANZA SOBRE FLIPPERS, POOL Y SIMILARES",
+    "org_sparql": "municipalidad-de-lota",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=232779",
+    "communes": [
+      "Talca",
+      "Talcahuano"
+    ],
+    "fecha": "2004-11-23",
+    "numero": "3",
+    "titulo": "APRUEBA ORDENANZA CANINA SOBRE CONDICIONES DE PREVENCION, HIGIENE Y SEGURIDAD BASICAS EN LA TENENCIA DE PERROS",
+    "org_sparql": "municipalidad-de-talcahuano",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=232780",
+    "communes": [
+      "Talca",
+      "Talcahuano"
+    ],
+    "fecha": "2004-11-23",
+    "numero": "4",
+    "titulo": "APRUEBA ORDENANZA MUNICIPAL PARA EL EMPADRONAMIENTO Y TRANSITO DE VEHICULOS DE TRACCION ANIMAL EN LA COMUNA DE TALCAHUANO",
+    "org_sparql": "municipalidad-de-talcahuano",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=236825",
+    "communes": [
+      "Pirque",
+      "Puente Alto"
+    ],
+    "fecha": "2005-04-06",
+    "numero": "s-n",
+    "titulo": "ORDENANZA SOBRE ADMINISTRACION CONJUNTA DEL RIO MAIPO COMUNAS DE PUENTE ALTO Y PIRQUE",
+    "org_sparql": "municipalidad-de-puente-alto_municipalidad-de-pirque",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=239839",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "2005-07-05",
+    "numero": "47",
+    "titulo": "MODIFICA ORDENANZA Nº 46 DE PUBLICIDAD Y PROPAGANDA",
+    "org_sparql": "municipalidad-de-la-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=240372",
+    "communes": [
+      "Talca",
+      "Talcahuano"
+    ],
+    "fecha": "2005-07-23",
+    "numero": "2",
+    "titulo": "ORDENANZA MUNICIPAL PARA EL EMPADRONAMIENTO Y TRANSITO DE VEHICULOS DE TRACCION ANIMAL EN LA COMUNA DE TALCAHUANO",
+    "org_sparql": "municipalidad-de-talcahuano",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=244175",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "2005-11-18",
+    "numero": "48",
+    "titulo": "MODIFICA ORDENANZA Nº 15 'LOCAL PARA LA APLICACION DEL DL 3.063, DE 1979, SOBRE RENTAS MUNICIPALES, EN LO RELATIVO AL COBRO DEL SERVICIO DOMICILIARIO POR EXTRACCION DE BASURA'",
+    "org_sparql": "municipalidad-de-la-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=244176",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "2005-11-18",
+    "numero": "52",
+    "titulo": "APRUEBA ORDENANZA Nº 52 PARA APLICACION DEL ARTICULO TERCERO TRANSITORIO DE LA LEY Nº 20.033",
+    "org_sparql": "municipalidad-de-la-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=247309",
+    "communes": [
+      "Talca",
+      "Talcahuano"
+    ],
+    "fecha": "2006-02-15",
+    "numero": "1",
+    "titulo": "ORDENANZA SOBRE APORTE FINANCIERO CON FONDOS MUNICIPALES QUE OPERAN BAJO LA MODALIDAD FONDO CONCURSABLE COMUNITARIO DE SUBVENCIONES",
+    "org_sparql": "municipalidad-de-talcahuano",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=248359",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "2006-03-24",
+    "numero": "120",
+    "titulo": "REGLAMENTA OTORGAMIENTO DE BECAS PARA ENSEÑANZA SUPERIOR",
+    "org_sparql": "municipalidad-de-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=250025",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "2006-06-01",
+    "numero": "54",
+    "titulo": "APRUEBA ORDENANZA DE FERIAS LIBRES",
+    "org_sparql": "municipalidad-de-la-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=250055",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "2006-06-01",
+    "numero": "55",
+    "titulo": "APRUEBA ORDENANZA Nº 55 QUE MODIFICA ORDENANZA Nº 48, DE;2005, MODIFICATORIA DE LA ORDENANZA N° 15 ' LOCAL PARA;LA APLICACIÓN DEL D.L. N° 3.063, DE 1979, SOBRE RENTAS;MUNICIPALES, EN LO RELATIVO AL COBRO DEL  SERVICIO;DOMICILIARIO POR EXTRACCION DE BASURA",
+    "org_sparql": "municipalidad-de-la-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=251006",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "2006-07-05",
+    "numero": "56",
+    "titulo": "APRUEBA ORDENANZA MUNICIPAL SOBRE ZONAS, EMPLAZAMIENTOS PERMITIDOS Y RESTRINGIDOS PARA EL OTORGAMIENTO DE PATENTES DE ALCOHOLES",
+    "org_sparql": "municipalidad-de-la-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=251995",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "2006-08-07",
+    "numero": "57",
+    "titulo": "DICTA ORDENANZA Nº 57 QUE MODIFICA LA ORDENANZA 55, DE 2005, MODIFICATORIA DE LA ORDENANZA Nº 15 LOCAL PARA LA APLICACION DEL D.L. Nº 3.063, DE 1979, SOBRE RENTAS MUNICIPALES, EN LO RELATIVO AL COBRO DEL SERVICIO DOMICILIARIO POR EXTRACCION DE BASURA",
+    "org_sparql": "municipalidad-de-la-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=252083",
+    "communes": [
+      "San Pedro",
+      "San Pedro de Atacama"
+    ],
+    "fecha": "2006-08-09",
+    "numero": "3",
+    "titulo": "MODIFICA ORDENANZAS QUE INDICA",
+    "org_sparql": "municipalidad-de-san-pedro-de-atacama",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=252539",
+    "communes": [
+      "Lota",
+      "Quillota"
+    ],
+    "fecha": "2006-08-24",
+    "numero": "1",
+    "titulo": "ORDENANZA COMUNAL SOBRE INSTALACION DE ANTENAS, TORRES Y PARABOLICAS DE CELULARES Y OTROS MEDIOS DE COMUNICACIÓN",
+    "org_sparql": "municipalidad-de-lota",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=255288",
+    "communes": [
+      "San Pedro",
+      "San Pedro de Atacama"
+    ],
+    "fecha": "2006-11-16",
+    "numero": "5",
+    "titulo": "MODIFICA ORDENANZAS QUE INDICA",
+    "org_sparql": "municipalidad-de-san-pedro-de-atacama",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=259928",
+    "communes": [
+      "San Pedro",
+      "San Pedro de Atacama"
+    ],
+    "fecha": "2007-04-12",
+    "numero": "1",
+    "titulo": "MODIFICA ORDENANZA Nº 3, DE 2003",
+    "org_sparql": "municipalidad-de-san-pedro-de-atacama",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=263343",
+    "communes": [
+      "San Pedro",
+      "San Pedro de Atacama"
+    ],
+    "fecha": "2007-08-06",
+    "numero": "3",
+    "titulo": "INTRODUCE MODIFICACIONES A ORDENANZAS QUE INDICA",
+    "org_sparql": "municipalidad-de-san-pedro-de-atacama",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=265664",
+    "communes": [
+      "San Pedro",
+      "San Pedro de Atacama"
+    ],
+    "fecha": "2007-10-18",
+    "numero": "5",
+    "titulo": "FIJA NUEVO SENTIDO DE TRÁNSITO EN POBLACIÓN PUNTA DE DIAMANTE DE SAN PEDRO DE ATACAMA, EN CALLES QUE INDICA",
+    "org_sparql": "municipalidad-de-san-pedro-de-atacama",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=266355",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "2007-11-10",
+    "numero": "59",
+    "titulo": "MODIFICA ORDENANZA Nº 30, DE 2000, SOBRE CIERRE DE CALLES, PASAJES Y ESPACIOS PÚBLICOS DE LA COMUNA",
+    "org_sparql": "municipalidad-de-la-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=267198",
+    "communes": [
+      "San Pedro",
+      "San Pedro de Atacama"
+    ],
+    "fecha": "2007-12-05",
+    "numero": "7",
+    "titulo": "MODIFICA ORDENANZA Nº2, DE 2005, SOBRE PATENTES DE ALCOHOLES Y HORARIO DE FUNCIONAMIENTO DE ESTABLECIMIENTOS DE BEBIDAS ALCOHÓLICAS",
+    "org_sparql": "municipalidad-de-san-pedro-de-atacama",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=268073",
+    "communes": [
+      "San Pedro",
+      "San Pedro de Atacama"
+    ],
+    "fecha": "2007-12-29",
+    "numero": "9",
+    "titulo": "ORDENANZA LOCAL Nº 09/2007 SOBRE DERECHOS MUNICIPALES POR CONCESIONES, PERMISOS, OCUPACIÓN DE BIENES NACIONALES DE USO PÚBLICO, PROPAGANDA Y OTROS SERVICIOS",
+    "org_sparql": "municipalidad-de-san-pedro-de-atacama",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=271222",
+    "communes": [
+      "San Pedro",
+      "San Pedro de Atacama"
+    ],
+    "fecha": "2008-05-14",
+    "numero": "3",
+    "titulo": "DICTA ORDENANZA MUNICIPAL Nº 03, SOBRE PATENTES DE\nALCOHOLES Y HORARIO DE FUNCIONAMIENTO DE\nESTABLECIMIENTOS DE EXPENDIO DE BEBIDAS ALCOHÓLICAS",
+    "org_sparql": "municipalidad-de-san-pedro-de-atacama",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=272842",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "2008-06-25",
+    "numero": "63",
+    "titulo": "MODIFICA ORDENANZA MUNICIPAL Nº15, PARA LA APLICACIÓN DEL DL. 3063 DE 1979, SOBRE RENTAS MUNICIPALES, EN LO RELATIVO AL COBRO DEL SERVICIO DOMICILIARIO POR EXTRACCIÓN DE BASURA",
+    "org_sparql": "municipalidad-de-la-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=275936",
+    "communes": [
+      "María Pinto",
+      "Pinto"
+    ],
+    "fecha": "2008-08-13",
+    "numero": "2",
+    "titulo": "ORDENANZA MUNICIPAL PARA LA GESTIÓN AMBIENTAL DE LA COMUNA DE MARÍA PINTO",
+    "org_sparql": "municipalidad-de-maria-pinto",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=282887",
+    "communes": [
+      "Talca",
+      "Talcahuano"
+    ],
+    "fecha": "2008-12-06",
+    "numero": "1",
+    "titulo": "ORDENANZA LOCAL PARA CONMUTAR MULTAS DE DINERO POR EFECTUAR TRABAJOS EN BENEFICIO DE LA COMUNIDAD",
+    "org_sparql": "municipalidad-de-talcahuano",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=282888",
+    "communes": [
+      "Talca",
+      "Talcahuano"
+    ],
+    "fecha": "2008-12-06",
+    "numero": "4",
+    "titulo": "APRUEBA ORDENANZA SOBRE INSTALACIÓN DE LÍNEAS DISTRIBUIDORAS DE ENERGÍA ELÉCTRICA Y DE TELECOMUNICACIONES EN LA COMUNA DE TALCAHUANO",
+    "org_sparql": "municipalidad-de-talcahuano",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=284777",
+    "communes": [
+      "María Pinto",
+      "Pinto"
+    ],
+    "fecha": "2009-01-10",
+    "numero": "2",
+    "titulo": "DICTA TEXTO REFUNDIDO DE ORDENANZA SOBRE DERECHOS MUNICIPALES",
+    "org_sparql": "municipalidad-de-maria-pinto",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=30872",
+    "communes": [
+      "Paine",
+      "Torres del Paine"
+    ],
+    "fecha": "1993-01-30",
+    "numero": "1",
+    "titulo": "APRUEBA ORDENANZA SOBRE DERECHOS MUNICIPALES",
+    "org_sparql": "municipalidad-de-copiapo",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=30873",
+    "communes": [
+      "Talca",
+      "Talcahuano"
+    ],
+    "fecha": "1993-02-11",
+    "numero": "1",
+    "titulo": "MODIFICA ORDENANZA DE DERECHOS MUNICIPALES",
+    "org_sparql": "municipalidad-de-talcahuano",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=30885",
+    "communes": [
+      "Talca",
+      "Talcahuano"
+    ],
+    "fecha": "1994-01-29",
+    "numero": "1",
+    "titulo": "MODIFICA ORDENANZA LOCAL N° 1, DE 1990, SOBRE\nDERECHOS MUNICIPALES",
+    "org_sparql": "municipalidad-de-talcahuano",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=30888",
+    "communes": [
+      "San Pedro",
+      "San Pedro de Atacama"
+    ],
+    "fecha": "1994-01-31",
+    "numero": "1",
+    "titulo": "DICTA ORDENANZA LOCAL SOBRE DERECHOS MUNICIPALES",
+    "org_sparql": "municipalidad-de-coyhaique",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=30896",
+    "communes": [
+      "Chillán",
+      "Chillán Viejo"
+    ],
+    "fecha": "1995-01-26",
+    "numero": "1",
+    "titulo": "DICTA ORDENANZA SOBRE DERECHOS MUNICIPALES POR CONCESIONES, PERMISOS O SERVICIOS",
+    "org_sparql": "municipalidad-de-chillan",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=30924",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "1996-12-31",
+    "numero": "1",
+    "titulo": "ORDENANZA LOCAL SOBRE DERECHOS MUNICIPALES",
+    "org_sparql": "municipalidad-de-la-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=30964",
+    "communes": [
+      "Talca",
+      "Talcahuano"
+    ],
+    "fecha": "1994-11-09",
+    "numero": "3",
+    "titulo": "APRUEBA ORDENANZA DE FERIAS LIBRES",
+    "org_sparql": "municipalidad-de-talcahuano",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=31041",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "1994-12-09",
+    "numero": "14",
+    "titulo": "DICTA ORDENANZA DE FERIAS LIBRES",
+    "org_sparql": "municipalidad-de-la-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=31141",
+    "communes": [
+      "Lota",
+      "Quillota"
+    ],
+    "fecha": "1994-05-09",
+    "numero": "884",
+    "titulo": "FIJA ORDENANZA SOBRE TERMINALES NO URBANOS DE PASAJEROS DE LOCOMOCION COLECTIVA",
+    "org_sparql": "municipalidad-de-lota",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=31165",
+    "communes": [
+      "Calera",
+      "Calera de Tango"
+    ],
+    "fecha": "1995-01-20",
+    "numero": "s-n",
+    "titulo": "DICTA ORDENANZA LOCAL SOBRE DERECHOS MUNICIPALES",
+    "org_sparql": "municipalidad-de-calera-de-tango",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=75000",
+    "communes": [
+      "Florida",
+      "La Florida"
+    ],
+    "fecha": "1997-08-18",
+    "numero": "15",
+    "titulo": "DICTA ORDENANZA LOCAL SOBRE OCUPACION DE BIENES NACIONALES DE USO PUBLICO QUE CORRESPONDAN A CALLES CIEGAS O PASAJES EN FONDO DE SACO Y QUE PERMITE SU CIERRO",
+    "org_sparql": "municipalidad-de-la-florida",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=87020",
+    "communes": [
+      "Talca",
+      "Talcahuano"
+    ],
+    "fecha": "1991-10-23",
+    "numero": "1",
+    "titulo": "MODIFICA ORDENANZA Nº1, DE 1983, SOBRE COBRANZA DE PATENTES, DERECHOS O CONTRIBUCIONES MOROSAS",
+    "org_sparql": "municipalidad-de-talcahuano",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=87832",
+    "communes": [
+      "Talca",
+      "Talcahuano"
+    ],
+    "fecha": "1991-02-07",
+    "numero": "1",
+    "titulo": "MODIFICA ORDENANZA No. 1, DE 1990",
+    "org_sparql": "municipalidad-de-talcahuano",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=88439",
+    "communes": [
+      "Arauco",
+      "Rauco"
+    ],
+    "fecha": "1990-10-01",
+    "numero": "168",
+    "titulo": "MODIFICA ORDENANZA NO. 237, DE 1986",
+    "org_sparql": "municipalidad-de-arauco",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=89595",
+    "communes": [
+      "Arauco",
+      "Rauco"
+    ],
+    "fecha": "1990-11-10",
+    "numero": "240",
+    "titulo": "DICTA ORDENANZA SOBRE EL TRANSPORTE DE CARGA DENTRO DE LA COMUNA DE ARAUCO",
+    "org_sparql": "municipalidad-de-arauco",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=89598",
+    "communes": [
+      "Talca",
+      "Talcahuano"
+    ],
+    "fecha": "1990-05-17",
+    "numero": "2",
+    "titulo": "ORDENANZA SOBRE TRANSPORTES DE CARGA DENTRO DE LA COMUNA",
+    "org_sparql": "municipalidad-de-talcahuano",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=95688",
+    "communes": [
+      "Talca",
+      "Talcahuano"
+    ],
+    "fecha": "1992-04-06",
+    "numero": "1",
+    "titulo": "MODIFICA ORDENANZAS LOCALES SOBRE DERECHOS MUNICIPALES QUE\nINDICA",
+    "org_sparql": "municipalidad-de-talcahuano",
+    "count": 2
+  },
+  {
+    "url": "https://www.bcn.cl/leychile/navegar?idNorma=95741",
+    "communes": [
+      "Paine",
+      "Torres del Paine"
+    ],
+    "fecha": "1990-01-30",
+    "numero": "1",
+    "titulo": "APRUEBA ORDENANZA MUNICIPAL",
+    "org_sparql": "municipalidad-de-coyhaique",
+    "count": 2
+  }
+]

@@ -40,7 +40,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
   <!-- Lucide Icons -->
-  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://unpkg.com/lucide@0.469.0/dist/umd/lucide.min.js"></script>
   <!-- Leaflet.js -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin=""/>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
@@ -233,7 +233,7 @@
           <span class="hidden sm:inline">Compartir</span>
         </a>
         <a href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fordenanzas.evegat.cl" target="_blank" rel="noopener noreferrer" aria-label="Compartir catastro en LinkedIn" title="Compartir en LinkedIn" data-umami-event="compartir_linkedin_header" class="inline-flex items-center gap-1 px-2.5 py-1.5 rounded-lg bg-[#0077b5] hover:bg-[#0088cc] text-white text-xs font-semibold transition-all shadow-sm">
-          <i data-lucide="linkedin" class="w-3.5 h-3.5"></i>
+          <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.45a1.62 1.62 0 1 0 0 3.24 1.62 1.62 0 0 0 0-3.24Z"/></svg>
           <span class="hidden sm:inline">LinkedIn</span>
         </a>
         <button onclick="switchTab('creditos')" aria-label="Ver alcance del catastro, fuentes y proyección" title="Alcance del Catastro: Lo que llevamos vs. lo que proyectamos" class="inline-flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-lg bg-sky-500/20 hover:bg-sky-500/30 border border-sky-400/40 text-sky-200 text-xs font-semibold transition-all shadow-sm">
@@ -275,7 +275,7 @@
             <span class="px-1.5 py-0.2 rounded text-[9px] bg-zinc-800 text-zinc-300 font-mono">Próximamente</span>
           </span>
           <a href="https://www.linkedin.com/in/evegat1989/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 px-2.5 py-1 sm:py-1.5 rounded-lg text-[#0077b5] text-[10px] sm:text-[11px] font-bold bg-[#0077b5]/10 border border-[#0077b5]/30 hover:bg-[#0077b5]/20 transition-all" title="Conecta en LinkedIn para enterarte del lanzamiento de los Módulos 2 y 3" data-umami-event="click_linkedin_hero_modulos">
-            <i data-lucide="linkedin" class="w-3 h-3"></i>
+            <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.45a1.62 1.62 0 1 0 0 3.24 1.62 1.62 0 0 0 0-3.24Z"/></svg>
             <span>Seguir avances ↗</span>
           </a>
         </div>
@@ -364,14 +364,14 @@
       <!-- 4 QUICK INSIGHT CARDS (Orientadas al Administrador Público) -->
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3.5 pt-4 text-left max-w-5xl mx-auto">
         
-        <!-- Card 1: Comparador de Tarifas -->
+        <!-- Card 1: Explorar Normativa Tarifaria -->
         <div onclick="filterByTopic('derechos_tarifas')" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();this.click();}" role="button" tabindex="0" class="quick-card bg-[#071f43]/70 hover:bg-[#0b2959] border border-[#153b70] hover:border-sky-500/50 rounded-xl p-4 cursor-pointer transition-all focus:outline-none focus:ring-2 focus:ring-sky-400">
           <div class="flex items-center justify-between mb-2">
             <span class="p-2 rounded-lg bg-amber-500/10 text-amber-400"><i data-lucide="badge-dollar-sign" class="w-4 h-4"></i></span>
             <span class="text-[10px] font-mono text-zinc-400">2.834 normas</span>
           </div>
-          <h3 class="text-xs font-bold text-zinc-100">Comparador de Tarifas</h3>
-          <p class="text-[11px] text-zinc-400 mt-1">Compara cobros por aseo, terrazas, permisos y derechos municipales.</p>
+          <h3 class="text-xs font-bold text-zinc-100">Explorar Normativa Tarifaria</h3>
+          <p class="text-[11px] text-zinc-400 mt-1">Filtra ordenanzas de cobro por aseo, terrazas, permisos y derechos municipales.</p>
         </div>
 
         <!-- Card 2: Modelos Ambientales -->
@@ -421,7 +421,7 @@
           <div class="flex items-center gap-2">
             <span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[11px] font-bold tracking-wide uppercase bg-sky-500/20 border border-sky-400/40 text-sky-300">
               <i data-lucide="compass" class="w-3.5 h-3.5 text-sky-400"></i>
-              Alcance del Catastro · Quinquenio 2021–2026
+              Alcance del Catastro · Período 2021–2026 (6 años calendario)
             </span>
             <span class="text-xs text-zinc-400 font-mono">Estado Actual y Proyección</span>
           </div>
@@ -429,7 +429,7 @@
             Alcance del Catastro: Lo que llevamos y hacia dónde vamos
           </h3>
           <p class="text-xs text-zinc-300 leading-relaxed">
-            Hemos consolidado <strong class="text-emerald-400 font-bold">243 comunas bajo rastreo activo (70,2%)</strong>, identificando <strong class="text-sky-300 font-bold">204 comunas (59,0% nacional)</strong> con documentos normativos catalogados entre 2021 y 2026 (y <strong>46 comunas en la Región Metropolitana, 88,5%</strong>). Nuestra proyección es completar el rescate de las <strong>103 comunas restantes</strong> y las 5 materias de la canasta básica en todo Chile.
+            Hemos consolidado <strong class="text-emerald-400 font-bold">243 comunas bajo rastreo activo (70,2%)</strong>, identificando <strong class="text-sky-300 font-bold">204 comunas (59,0% nacional)</strong> con documentos normativos catalogados entre 2021 y 2026 (y <strong>46 comunas en la Región Metropolitana, 88,5%</strong>). Las <strong>103 comunas restantes</strong> forman parte de la cohorte prioritaria para rescate documental desde portales de Transparencia Activa municipal. Corte oficial: Octubre 2026.
           </p>
         </div>
 
@@ -468,7 +468,7 @@
 
       <div class="flex flex-wrap items-center justify-center gap-2 shrink-0">
         <button onclick="compartirPlataforma('linkedin')" class="inline-flex items-center gap-1.5 px-3 py-2 rounded-xl bg-[#0077b5] hover:bg-[#006097] text-white font-semibold text-xs transition-colors shadow-sm" title="Compartir en LinkedIn">
-          <i data-lucide="linkedin" class="w-3.5 h-3.5"></i>
+          <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.45a1.62 1.62 0 1 0 0 3.24 1.62 1.62 0 0 0 0-3.24Z"/></svg>
           <span>LinkedIn</span>
         </button>
         <button onclick="compartirPlataforma('whatsapp')" class="inline-flex items-center gap-1.5 px-3 py-2 rounded-xl bg-[#25d366] hover:bg-[#20ba5a] text-slate-950 font-bold text-xs transition-colors shadow-sm" title="Compartir en WhatsApp">
@@ -1064,7 +1064,7 @@
                 <span>Microdatos CSV</span>
                 <span class="px-1.5 py-0.2 rounded text-[9px] bg-emerald-500/20 text-emerald-300 font-mono">Directo</span>
               </div>
-              <div class="text-[11px] text-zinc-400">7.462 normas fila a fila (1,6 MB)</div>
+              <div class="text-[11px] text-zinc-400"><span id="descargas-csv-counter">7.782</span> normas fila a fila (~2,7 MB)</div>
             </div>
           </a>
 
@@ -1502,7 +1502,7 @@
             <span>Enviar por Correo Institucional (evegat@uchile.cl)</span>
           </a>
           <a href="https://github.com/evegat/catastro-ordenanzas-municipales/issues/new" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-[#04142b] hover:bg-[#071f43] border border-[#153b70] text-zinc-300 hover:text-white font-semibold text-xs transition-all">
-            <i data-lucide="github" class="w-4 h-4"></i>
+            <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2Z"/></svg>
             <span>Abrir Aporte en GitHub</span>
           </a>
         </div>
@@ -1528,7 +1528,7 @@
         </p>
         <div class="flex items-center gap-3 pt-1">
           <a href="https://www.linkedin.com/in/evegat1989/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-[#071f43] hover:bg-sky-600 border border-[#153b70] text-sky-300 hover:text-white transition-colors text-[11px]" data-umami-event="click_linkedin_footer">
-            <i data-lucide="linkedin" class="w-3.5 h-3.5"></i>
+            <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.45a1.62 1.62 0 1 0 0 3.24 1.62 1.62 0 0 0 0-3.24Z"/></svg>
             <span>LinkedIn</span>
           </a>
           <a href="https://evegat.cl" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-[#071f43] hover:bg-sky-600 border border-[#153b70] text-sky-300 hover:text-white transition-colors text-[11px]" data-umami-event="click_web_footer">
@@ -1536,7 +1536,7 @@
             <span>evegat.cl</span>
           </a>
           <a href="https://github.com/evegat/catastro-ordenanzas-municipales" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-[#071f43] hover:bg-sky-600 border border-[#153b70] text-sky-300 hover:text-white transition-colors text-[11px]" data-umami-event="click_github_footer">
-            <i data-lucide="github" class="w-3.5 h-3.5"></i>
+            <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2Z"/></svg>
             <span>GitHub</span>
           </a>
         </div>
@@ -1588,7 +1588,7 @@
       </div>
       <div class="shrink-0">
         <a href="https://www.linkedin.com/in/evegat1989/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-[#0077b5] hover:bg-[#006097] text-white font-bold text-xs transition-all shadow-md group" data-umami-event="click_linkedin_proximos_proyectos">
-          <i data-lucide="linkedin" class="w-4 h-4"></i>
+          <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.45a1.62 1.62 0 1 0 0 3.24 1.62 1.62 0 0 0 0-3.24Z"/></svg>
           <span>Seguir en LinkedIn</span>
           <i data-lucide="arrow-up-right" class="w-3.5 h-3.5 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"></i>
         </a>
@@ -1806,7 +1806,14 @@
             ? `<span class="px-2 py-0.5 rounded text-[10px] font-mono bg-blue-500/10 text-blue-400 border border-blue-500/30">BCN LeyChile</span>`
             : `<span class="px-2 py-0.5 rounded text-[10px] font-mono bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">Portal Municipal Oficial</span>`;
 
-          const numText = o.numero === 'Compilado' ? 'Compilado Normativo' : (!o.numero || o.numero === 'S/N' ? 'Documento catalogado (S/N)' : 'Decreto / N° ' + escapeHtml(o.numero));
+          const lowerTit = (o.titulo || '').toLowerCase();
+          let actoLabel = 'Decreto / N° ';
+          if (lowerTit.includes('ordenanza')) {
+            actoLabel = 'Ordenanza N° ';
+          } else if (lowerTit.includes('reglamento')) {
+            actoLabel = 'Reglamento N° ';
+          }
+          const numText = o.numero === 'Compilado' ? 'Compilado Normativo' : (!o.numero || o.numero === 'S/N' || o.numero === 's/n' ? 'Documento catalogado (S/N)' : `${actoLabel}${escapeHtml(o.numero)}`);
 
           const item = document.createElement('div');
           item.className = 'p-3 rounded-xl bg-[#04142b]/90 border border-[#153b70] hover:border-sky-500/50 transition-all space-y-1.5';
@@ -2002,14 +2009,32 @@
           }
 
           const shaShort = (o.verification && o.verification.sha256) ? `SHA: ${o.verification.sha256.substring(0, 8)}...` : '';
-          const numText = o.numero === 'Compilado' ? 'Compilado Normativo' : (!o.numero || o.numero === 'S/N' ? 'Documento catalogado (S/N)' : 'Decreto / N° ' + escapeHtml(o.numero));
+          const lowerTit = (o.titulo || '').toLowerCase();
+          let actoLabel = 'Decreto / N° ';
+          if (lowerTit.includes('ordenanza')) {
+            actoLabel = 'Ordenanza N° ';
+          } else if (lowerTit.includes('reglamento')) {
+            actoLabel = 'Reglamento N° ';
+          }
+          const numText = o.numero === 'Compilado' ? 'Compilado Normativo' : (!o.numero || o.numero === 'S/N' || o.numero === 's/n' ? 'Documento catalogado (S/N)' : `${actoLabel}${escapeHtml(o.numero)}`);
 
           let actionLinks = [];
           if (o.target_url) {
-            actionLinks.push(`<a href="${sanitizeUrl(o.target_url)}" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 font-bold flex items-center gap-1 hover:underline">Abrir Texto Municipal (Firmado) ↗</a>`);
+            const isLeyChile = o.target_url.includes('bcn.cl') || o.target_url.includes('leychile');
+            const isDiarioOficial = o.target_url.includes('diariooficial');
+            let label = 'Abrir Decreto Municipal (PDF) ↗';
+            let linkClass = 'text-emerald-400 hover:text-emerald-300 font-semibold';
+            if (isLeyChile) {
+              label = 'Ver en BCN LeyChile ↗';
+              linkClass = 'text-sky-400 hover:text-sky-300 font-semibold';
+            } else if (isDiarioOficial) {
+              label = 'Ver en Diario Oficial ↗';
+              linkClass = 'text-amber-400 hover:text-amber-300 font-semibold';
+            }
+            actionLinks.push(`<a href="${sanitizeUrl(o.target_url)}" target="_blank" rel="noopener noreferrer" class="${linkClass} flex items-center gap-1 hover:underline">${label}</a>`);
           }
           if (o.rdf_url) {
-            actionLinks.push(`<a href="${sanitizeUrl(o.rdf_url)}" target="_blank" rel="noopener noreferrer" class="text-sky-400 hover:text-sky-300 font-semibold flex items-center gap-1 hover:underline">Ver en BCN LeyChile ↗</a>`);
+            actionLinks.push(`<a href="${sanitizeUrl(o.rdf_url)}" target="_blank" rel="noopener noreferrer" class="text-zinc-400 hover:text-zinc-200 font-mono text-[10px] flex items-center gap-1 hover:underline" title="Metadatos en formato abierto JSON-LD/RDF">Datos RDF / JSON ↗</a>`);
           }
 
           item.innerHTML = `
@@ -2596,6 +2621,21 @@
       }, 150);
     }
 
+    
+    // Soporte accesible tecla Escape para modales
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        const buzonModal = document.getElementById('buzon-modal');
+        const downloadModal = document.getElementById('download-request-modal');
+        const comunaModal = document.getElementById('comuna-modal');
+        const chatPanel = document.getElementById('chat-window-panel');
+        if (buzonModal && !buzonModal.classList.contains('hidden')) closeBuzonModal();
+        if (downloadModal && !downloadModal.classList.contains('hidden')) closeDownloadRequestModal();
+        if (comunaModal && !comunaModal.classList.contains('hidden')) closeComunaModal();
+        if (chatPanel && !chatPanel.classList.contains('hidden')) toggleChatModal();
+      }
+    });
+    
     if (document.readyState === 'loading') {
       document.addEventListener('DOMContentLoaded', initApp);
     } else {
@@ -2604,7 +2644,7 @@
   </script>
 
   <!-- MODAL DE ORDENANZAS COMUNALES (CON FILTROS INTERACTIVOS) -->
-  <div id="comuna-modal" class="hidden fixed inset-0 z-[9999] flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm">
+  <div id="comuna-modal" role="dialog" aria-modal="true" aria-labelledby="modal-comuna-title" class="hidden fixed inset-0 z-[9999] flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm">
     <div class="bg-[#071f43] border border-[#153b70] rounded-2xl max-w-2xl w-full max-h-[90vh] flex flex-col shadow-2xl overflow-hidden">
       <!-- Modal Header -->
       <div class="p-4 sm:p-5 border-b border-[#153b70] flex items-center justify-between bg-[#04142b]">
@@ -2653,7 +2693,7 @@
   </div>
 
   <!-- MODAL DEL BUZÓN COLABORATIVO -->
-  <div id="buzon-modal" class="hidden fixed inset-0 z-[9999] flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm">
+  <div id="buzon-modal" role="dialog" aria-modal="true" aria-labelledby="buzon-modal-title" class="hidden fixed inset-0 z-[9999] flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm">
     <div class="bg-[#071f43] border border-[#153b70] rounded-2xl max-w-lg w-full flex flex-col shadow-2xl overflow-hidden">
       <div class="p-4 sm:p-5 border-b border-[#153b70] flex items-center justify-between bg-[#04142b]">
         <div class="flex items-center gap-2.5">
@@ -2661,7 +2701,7 @@
             <i data-lucide="mail" class="w-5 h-5"></i>
           </div>
           <div>
-            <h3 class="text-base font-bold text-white">Buzón Colaborativo de Ordenanzas</h3>
+            <h3 id="buzon-modal-title" class="text-base font-bold text-white">Buzón Colaborativo de Ordenanzas</h3>
             <p class="text-xs text-zinc-400">Aporta documentos o decretos que falten en el catastro</p>
           </div>
         </div>
@@ -2792,7 +2832,7 @@
   <div class="fixed bottom-5 right-5 z-[9990] flex flex-col items-end">
     
     <!-- VENTANA DEL CHAT (MODAL FLOTANTE) -->
-    <div id="chat-window-panel" class="hidden w-[92vw] sm:w-[420px] h-[520px] max-h-[82vh] bg-[#071f43] border-2 border-sky-500/60 rounded-2xl shadow-2xl flex flex-col overflow-hidden backdrop-blur-md mb-3 transition-all">
+    <div id="chat-window-panel" role="dialog" aria-modal="false" aria-label="Asistente Jurídico P090" class="hidden w-[92vw] sm:w-[420px] h-[520px] max-h-[82vh] bg-[#071f43] border-2 border-sky-500/60 rounded-2xl shadow-2xl flex flex-col overflow-hidden backdrop-blur-md mb-3 transition-all">
       
       <!-- Chat Header -->
       <div class="p-3.5 bg-[#04142b] border-b border-[#153b70] flex items-center justify-between">
@@ -2860,7 +2900,7 @@
     </div>
 
     <!-- BOTÓN TOGGLE FLOTANTE -->
-    <button onclick="toggleChatModal()" id="chat-toggle-btn" class="relative p-3.5 rounded-full bg-gradient-to-r from-sky-600 to-blue-700 hover:from-sky-500 hover:to-blue-600 text-white shadow-2xl transition-all hover:scale-105 flex items-center justify-center border border-sky-400/40">
+    <button onclick="toggleChatModal()" id="chat-toggle-btn" aria-label="Abrir asistente jurídico" title="Asistente Jurídico P090" class="relative p-3.5 rounded-full bg-gradient-to-r from-sky-600 to-blue-700 hover:from-sky-500 hover:to-blue-600 text-white shadow-2xl transition-all hover:scale-105 flex items-center justify-center border border-sky-400/40">
       <i data-lucide="message-square" class="w-5 h-5"></i>
       <span id="chat-toggle-badge" class="absolute -top-1 -right-1 flex h-3.5 w-3.5">
         <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
@@ -2871,7 +2911,7 @@
 
   <!-- BOTÓN FLOTANTE BUZÓN / FEEDBACK -->
   <div class="fixed bottom-5 left-5 z-[9990] flex items-center">
-    <button onclick="openBuzonModal('')" id="buzon-float-btn" class="group px-3.5 py-2.5 rounded-full bg-[#071f43]/95 hover:bg-[#0c2b5e] text-sky-200 hover:text-white border border-sky-500/40 hover:border-sky-400 shadow-2xl backdrop-blur-md transition-all flex items-center gap-2 text-xs font-semibold hover:scale-105" title="Enviar observaciones, correcciones o normas de tu comuna">
+    <button onclick="openBuzonModal(\'\')" id="buzon-float-btn" aria-label="Abrir buzón de observaciones y aportes" class="group px-3.5 py-2.5 rounded-full bg-[#071f43]/95 hover:bg-[#0c2b5e] text-sky-200 hover:text-white border border-sky-500/40 hover:border-sky-400 shadow-2xl backdrop-blur-md transition-all flex items-center gap-2 text-xs font-semibold hover:scale-105" title="Enviar observaciones, correcciones o normas de tu comuna">
       <div class="w-6 h-6 rounded-full bg-sky-500/20 border border-sky-400/50 flex items-center justify-center text-sky-300 group-hover:scale-110 transition-transform">
         <i data-lucide="message-square-plus" class="w-3.5 h-3.5"></i>
       </div>
