@@ -193,12 +193,36 @@ class TestAuditWebRemediation(unittest.TestCase):
         self.assertIn("Abrir Decreto Municipal (PDF)", index_html, "H07: Debe rotular enlaces a PDF municipal con tipo correcto")
         self.assertIn("Datos RDF / JSON", index_html, "H07: Debe rotular metadatos de datos.bcn.cl con su formato real")
 
-    def test_h11_download_architecture_clarity(self):
-        """H11: Debe diferenciar claramente la descarga directa abierta de la solicitud institucional con propósito."""
+    def test_h05_strict_single_cutoff_counts(self):
+        """H05: No debe existir rastro de conteos antiguos (7.939, 5.881, 2.058) en index.html y debe primar 7.782 (5.735 BCN + 2.047 muni)."""
         index_html = (DASHBOARD_DIR / "index.html").read_text(encoding="utf-8")
-        self.assertIn("descargar_csv_microdatos", index_html, "H11: Debe ofrecer descarga directa de microdatos CSV")
-        self.assertIn("abrir_solicitud_excel", index_html, "H11: Debe rotular solicitud de planilla Excel")
-        self.assertIn("abrir_solicitud_zip", index_html, "H11: Debe rotular solicitud de paquete ZIP")
+        self.assertNotIn("7.939", index_html, "H05: Conteo desactualizado '7.939' encontrado en index.html")
+        self.assertNotIn("5.881", index_html, "H05: Conteo desactualizado '5.881' encontrado en index.html")
+        self.assertNotIn("2.058", index_html, "H05: Conteo desactualizado '2.058' encontrado en index.html")
+        self.assertIn("7.782", index_html, "H05: Conteo oficial '7.782' debe figurar en index.html")
+        self.assertIn("5.735", index_html, "H05: Desglose oficial '5.735' BCN debe figurar en index.html")
+        self.assertIn("2.047", index_html, "H05: Desglose oficial '2.047' municipal debe figurar en index.html")
+
+    def test_h04_neutral_communal_badges(self):
+        """H04: No deben existir semáforos cualitativos tipo 'Alta (X)' o 'Media (X)' que introduzcan juicios de valor en la matriz comunal."""
+        index_html = (DASHBOARD_DIR / "index.html").read_text(encoding="utf-8")
+        self.assertNotIn("🟢 Alta (", index_html, "H04: Badge no neutral '🟢 Alta (' encontrado en index.html")
+        self.assertNotIn("🟡 Media (", index_html, "H04: Badge no neutral '🟡 Media (' encontrado en index.html")
+        self.assertNotIn("🔴 1–3", index_html, "H04: Badge no neutral '🔴 1–3' encontrado en index.html")
+        self.assertIn("BCN + Municipal", index_html, "H04: Estado descriptivo 'BCN + Municipal' debe estar presente")
+
+    def test_h09_accessible_focus_management_and_trap(self):
+        """H09: Debe existir trampa de foco accesible (trapModalFocus) y retorno de foco para los modales."""
+        index_html = (DASHBOARD_DIR / "index.html").read_text(encoding="utf-8")
+        self.assertIn("trapModalFocus", index_html, "H09: La función trapModalFocus debe existir en index.html")
+        self.assertIn("lastFocusedElementComunaModal", index_html, "H09: Debe guardarse lastFocusedElementComunaModal")
+        self.assertIn("lastFocusedElementBuzonModal", index_html, "H09: Debe guardarse lastFocusedElementBuzonModal")
+
+    def test_h02_hero_search_relevance_ranking(self):
+        """H02: El motor de búsqueda hero debe calcular score de relevancia priorizando títulos."""
+        index_html = (DASHBOARD_DIR / "index.html").read_text(encoding="utf-8")
+        self.assertIn("_score", index_html, "H02: executeHeroSearch debe calcular y ordenar por _score")
+        self.assertIn("Documentos normativos encontrados (por relevancia y fecha)", index_html, "H02: Rótulo de orden debe indicar relevancia y fecha")
 
 if __name__ == "__main__":
     unittest.main()
