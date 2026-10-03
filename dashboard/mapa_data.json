@@ -1378,20 +1378,20 @@
   {
     "comuna": "Santiago",
     "region": "Metropolitana de Santiago",
-    "total": 142,
+    "total": 159,
     "bcn": 140,
-    "municipal": 2,
+    "municipal": 19,
     "status": "BCN + Municipalidad verificada",
     "lat": -33.4489,
     "lon": -70.6693,
     "topics": {
-      "obras_espacio_publico": 9,
-      "derechos_tarifas": 26,
-      "organizacion_participacion": 60,
-      "comercio_publicidad": 31,
+      "obras_espacio_publico": 12,
+      "organizacion_participacion": 63,
+      "derechos_tarifas": 34,
+      "comercio_publicidad": 32,
+      "aseo_residuos": 9,
       "transito_transporte": 8,
-      "convivencia_ruidos": 1,
-      "aseo_residuos": 7
+      "convivencia_ruidos": 1
     }
   },
   {
