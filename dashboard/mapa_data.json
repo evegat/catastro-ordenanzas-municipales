@@ -1588,18 +1588,19 @@
   {
     "comuna": "La Reina",
     "region": "Metropolitana de Santiago",
-    "total": 64,
+    "total": 85,
     "bcn": 63,
-    "municipal": 1,
+    "municipal": 22,
     "status": "BCN + Municipalidad verificada",
     "lat": -33.45,
     "lon": -70.5333,
     "topics": {
-      "derechos_tarifas": 42,
-      "comercio_publicidad": 4,
+      "derechos_tarifas": 59,
+      "seguridad_prevencion": 2,
+      "comercio_publicidad": 5,
+      "medio_ambiente": 2,
       "organizacion_participacion": 10,
       "obras_espacio_publico": 2,
-      "medio_ambiente": 1,
       "aseo_residuos": 4,
       "transito_transporte": 1
     }
@@ -3616,19 +3617,19 @@
   {
     "comuna": "Concepción",
     "region": "Biobío",
-    "total": 60,
+    "total": 67,
     "bcn": 59,
-    "municipal": 1,
+    "municipal": 8,
     "status": "BCN + Municipalidad verificada",
     "lat": -36.827,
     "lon": -73.0503,
     "topics": {
-      "derechos_tarifas": 21,
+      "convivencia_ruidos": 4,
+      "derechos_tarifas": 24,
+      "comercio_publicidad": 12,
       "organizacion_participacion": 11,
       "transito_transporte": 9,
-      "comercio_publicidad": 11,
-      "obras_espacio_publico": 7,
-      "convivencia_ruidos": 1
+      "obras_espacio_publico": 7
     }
   },
   {

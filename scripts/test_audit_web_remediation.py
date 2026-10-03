@@ -194,15 +194,17 @@ class TestAuditWebRemediation(unittest.TestCase):
         self.assertIn("Datos RDF / JSON", index_html, "H07: Debe rotular metadatos de datos.bcn.cl con su formato real")
 
     def test_h05_strict_single_cutoff_counts(self):
-        """H05: No debe existir rastro de conteos antiguos (7.939, 5.881, 2.058, 7.782) en index.html y debe primar el corte canónico (7.799: 5.735 BCN + 2.064 muni)."""
+        """H05: No debe existir rastro de conteos antiguos en index.html y debe primar el corte canónico (7.827: 5.735 BCN + 2.092 muni)."""
         index_html = (DASHBOARD_DIR / "index.html").read_text(encoding="utf-8")
         self.assertNotIn("7.939", index_html, "H05: Conteo desactualizado '7.939' encontrado en index.html")
         self.assertNotIn("5.881", index_html, "H05: Conteo desactualizado '5.881' encontrado en index.html")
         self.assertNotIn("2.058", index_html, "H05: Conteo desactualizado '2.058' encontrado en index.html")
         self.assertNotIn("7.782", index_html, "H05: Conteo desactualizado '7.782' encontrado en index.html")
-        self.assertIn("7.799", index_html, "H05: Conteo oficial '7.799' debe figurar en index.html")
+        self.assertNotIn("7.799", index_html, "H05: Conteo desactualizado '7.799' encontrado en index.html")
+        self.assertNotIn("7.820", index_html, "H05: Conteo desactualizado '7.820' encontrado en index.html")
+        self.assertIn("7.827", index_html, "H05: Conteo oficial '7.827' debe figurar en index.html")
         self.assertIn("5.735", index_html, "H05: Desglose oficial '5.735' BCN debe figurar en index.html")
-        self.assertIn("2.064", index_html, "H05: Desglose oficial '2.064' municipal debe figurar en index.html")
+        self.assertIn("2.092", index_html, "H05: Desglose oficial '2.092' municipal debe figurar en index.html")
 
     def test_h04_neutral_communal_badges(self):
         """H04: No deben existir semáforos cualitativos tipo 'Alta (X)' o 'Media (X)' que introduzcan juicios de valor en la matriz comunal."""
